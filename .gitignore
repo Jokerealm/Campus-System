@@ -27,3 +27,6 @@ data/
 Thumbs.db
 .idea/
 .vscode/
+
+# Existing qpaper project
+*.qpaper
