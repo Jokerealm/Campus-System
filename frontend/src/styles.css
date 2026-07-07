@@ -17,7 +17,9 @@ body {
 }
 
 button,
-input {
+input,
+select,
+textarea {
   font: inherit;
 }
 
@@ -59,7 +61,9 @@ button.primary:hover,
   background: #2b2b2b;
 }
 
-input {
+input,
+select,
+textarea {
   width: 100%;
   border: 1px solid #aaa;
   border-radius: 4px;
@@ -68,7 +72,14 @@ input {
   color: #111;
 }
 
+textarea {
+  min-height: 96px;
+  resize: vertical;
+}
+
 input:focus,
+select:focus,
+textarea:focus,
 button:focus-visible,
 .button-link:focus-visible,
 .upload-box:focus-within {
@@ -253,7 +264,7 @@ p {
 
 .metric-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
 }
@@ -303,6 +314,96 @@ p {
   color: #333;
 }
 
+.review-panel {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 16px;
+}
+
+.question-picker {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  max-height: 560px;
+  overflow: auto;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.question-picker button {
+  display: grid;
+  min-height: 42px;
+  justify-content: stretch;
+  justify-items: start;
+  border-color: #ddd;
+  padding: 7px 10px;
+  text-align: left;
+}
+
+.question-picker button.active {
+  border-color: #111;
+  background: #111;
+  color: #fff;
+}
+
+.question-picker em {
+  color: inherit;
+  font-size: 0.82rem;
+  font-style: normal;
+  opacity: 0.74;
+}
+
+.review-editor {
+  min-width: 0;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  padding: 14px;
+}
+
+.review-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 14px;
+}
+
+.review-title strong {
+  font-size: 1.08rem;
+}
+
+.review-title small {
+  color: #666;
+}
+
+.review-form {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 0.8fr;
+  gap: 10px;
+}
+
+.review-form label,
+.stacked-field {
+  display: grid;
+  gap: 6px;
+}
+
+.review-form span,
+.stacked-field span {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.stacked-field {
+  margin-top: 12px;
+}
+
+.text-button {
+  min-height: 28px;
+  padding: 3px 9px;
+}
+
 .segmented {
   display: flex;
   flex-wrap: wrap;
@@ -329,7 +430,7 @@ p {
 
 table {
   width: 100%;
-  min-width: 820px;
+  min-width: 900px;
   border-collapse: collapse;
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
@@ -446,7 +547,9 @@ footer {
   .upload-grid,
   .compact-form,
   .metric-grid,
-  .priority-list {
+  .priority-list,
+  .review-panel,
+  .review-form {
     grid-template-columns: 1fr;
   }
 

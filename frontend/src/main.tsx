@@ -47,14 +47,31 @@ type TeachingReport = {
   markdown: string;
 };
 
+type P3SearchRequest = {
+  knowledge_point_codes: string[];
+  question_type: string | null;
+  difficulty_range: [number, number];
+  limit: number;
+  exclude_question_ids: string[];
+};
+
 type P2ExamAnalysis = {
   exam_id: string;
   paper_id: string;
   class_name: string;
   question_analysis: QuestionAnalysis[];
   knowledge_diagnostics: KnowledgeDiagnostic[];
+  p3_search_requests: P3SearchRequest[];
   teaching_report: TeachingReport;
   warnings: string[];
+};
+
+type QuestionDraft = {
+  question_no: string;
+  stem_text: string;
+  question_type: string;
+  full_score: string;
+  knowledge_text: string;
 };
 
 const severityText: Record<Severity, string> = {
@@ -104,6 +121,139 @@ function countBySeverity(analysis: P2ExamAnalysis | null, severity: Severity) {
   return analysis?.question_analysis.filter((item) => item.severity === severity).length ?? 0;
 }
 
+function severityFromRate(scoreRate: number): Severity {
+  if (scoreRate < 0.45) return "critical";
+  if (scoreRate < 0.6) return "weak";
+  if (scoreRate < 0.75) return "watch";
+  return "stable";
+}
+
+function suggestionFor(name: string, scoreRate: number) {
+  if (scoreRate < 0.45) return `建议在讲评课中重建“${name}”的基本模型，并安排同类基础题回炉。`;
+  if (scoreRate < 0.6) return `建议围绕“${name}”安排分层训练，先基础巩固再提升迁移。`;
+  if (scoreRate < 0.75) return `建议用 1 到 2 道变式题确认“${name}”是否真正掌握。`;
+  return `“${name}”整体较稳定，可作为综合题中的辅助知识点。`;
+}
+
+function draftFromQuestion(question: QuestionAnalysis): QuestionDraft {
+  return {
+    question_no: question.question_no,
+    stem_text: question.stem_text,
+    question_type: question.question_type || "",
+    full_score: `${question.full_score}`,
+    knowledge_text: question.confirmed_knowledge_points
+      .map((item) => `${item.code} | ${item.name}`)
+      .join("\n"),
+  };
+}
+
+function parseKnowledgePoints(value: string): KnowledgePointRef[] {
+  return value
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line, index) => {
+      const parts = line.split("|").map((part) => part.trim());
+      const code = parts[0] || `KP-TEACHER-${index + 1}`;
+      const name = parts[1] || parts[0] || `教师确认知识点 ${index + 1}`;
+      return {
+        code,
+        name,
+        confidence: 1,
+        source: "teacher",
+      };
+    });
+}
+
+function rebuildAnalysis(analysis: P2ExamAnalysis): P2ExamAnalysis {
+  const normalizedQuestions = analysis.question_analysis.map((item) => {
+    const scoreRate = item.full_score > 0 ? Math.min(Math.max(item.avg_score / item.full_score, 0), 1) : 0;
+    return {
+      ...item,
+      score_rate: Math.round(scoreRate * 10000) / 10000,
+      loss_rate: Math.round((1 - scoreRate) * 10000) / 10000,
+      severity: severityFromRate(scoreRate),
+    };
+  });
+
+  const buckets = new Map<string, { name: string; full: number; avg: number; questionNos: string[] }>();
+  for (const question of normalizedQuestions) {
+    for (const point of question.confirmed_knowledge_points) {
+      const current = buckets.get(point.code) || { name: point.name, full: 0, avg: 0, questionNos: [] };
+      current.full += question.full_score;
+      current.avg += question.avg_score;
+      current.questionNos.push(question.question_no);
+      buckets.set(point.code, current);
+    }
+  }
+
+  const knowledgeDiagnostics = Array.from(buckets.entries())
+    .map(([code, bucket]) => {
+      const scoreRate = bucket.full ? bucket.avg / bucket.full : 0;
+      const rounded = Math.round(scoreRate * 10000) / 10000;
+      return {
+        code,
+        name: bucket.name,
+        score_rate: rounded,
+        loss_rate: Math.round((1 - scoreRate) * 10000) / 10000,
+        severity: severityFromRate(scoreRate),
+        related_question_nos: bucket.questionNos,
+        suggestion: suggestionFor(bucket.name, scoreRate),
+      };
+    })
+    .sort((a, b) => a.score_rate - b.score_rate);
+
+  const p3SearchRequests = knowledgeDiagnostics
+    .filter((item) => item.severity !== "stable")
+    .slice(0, 8)
+    .map((item) => ({
+      knowledge_point_codes: [item.code],
+      question_type: null,
+      difficulty_range: [1, 4] as [number, number],
+      limit: 5,
+      exclude_question_ids: normalizedQuestions
+        .filter((question) => question.confirmed_knowledge_points.some((point) => point.code === item.code))
+        .map((question) => question.question_id)
+        .filter((value): value is string => Boolean(value)),
+    }));
+
+  const totalFull = normalizedQuestions.reduce((sum, item) => sum + item.full_score, 0);
+  const totalAvg = normalizedQuestions.reduce((sum, item) => sum + item.avg_score, 0);
+  const avgRate = totalFull ? totalAvg / totalFull : 0;
+  const priority = normalizedQuestions.slice().sort((a, b) => a.score_rate - b.score_rate).slice(0, 6);
+  const weak = knowledgeDiagnostics.filter((item) => item.severity === "critical" || item.severity === "weak").slice(0, 6);
+  const reportLines = [
+    `# ${analysis.teaching_report.title || "教师端分析报告"}`,
+    "",
+    `班级：${analysis.class_name}`,
+    `整体得分率：${pct(avgRate)}`,
+    "",
+    "## 优先讲评题",
+    ...priority.map(
+      (item) => `- ${item.question_no}：得分率 ${pct(item.score_rate)}，知识点：${knowledgeNames(item.confirmed_knowledge_points)}`,
+    ),
+    "",
+    "## 薄弱知识点",
+    ...weak.map(
+      (item) => `- ${item.name}：得分率 ${pct(item.score_rate)}，涉及题号 ${item.related_question_nos.join(", ")}。${item.suggestion}`,
+    ),
+  ];
+
+  return {
+    ...analysis,
+    question_analysis: normalizedQuestions.sort((a, b) => a.score_rate - b.score_rate),
+    knowledge_diagnostics: knowledgeDiagnostics,
+    p3_search_requests: p3SearchRequests,
+    teaching_report: {
+      ...analysis.teaching_report,
+      summary: `本次分析匹配 ${normalizedQuestions.length} 道题，整体得分率 ${pct(avgRate)}。`,
+      priority_question_nos: priority.map((item) => item.question_no),
+      weak_knowledge_points: weak.map((item) => item.name),
+      markdown: reportLines.join("\n"),
+    },
+  };
+}
+
 async function apiGet<T>(path: string): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`);
   if (!response.ok) throw new Error(path);
@@ -117,6 +267,8 @@ function App() {
   const [examId, setExamId] = React.useState(makeExamId);
   const [className, setClassName] = React.useState("");
   const [questionFilter, setQuestionFilter] = React.useState<QuestionFilter>("all");
+  const [selectedQuestionNo, setSelectedQuestionNo] = React.useState("");
+  const [questionDraft, setQuestionDraft] = React.useState<QuestionDraft | null>(null);
   const [busy, setBusy] = React.useState(true);
   const [downloading, setDownloading] = React.useState(false);
   const [error, setError] = React.useState("");
@@ -125,11 +277,23 @@ function App() {
     void loadDemo();
   }, []);
 
+  React.useEffect(() => {
+    if (!analysis?.question_analysis.length) {
+      setSelectedQuestionNo("");
+      setQuestionDraft(null);
+      return;
+    }
+    const current =
+      analysis.question_analysis.find((item) => item.question_no === selectedQuestionNo) || analysis.question_analysis[0];
+    if (current.question_no !== selectedQuestionNo) setSelectedQuestionNo(current.question_no);
+    setQuestionDraft(draftFromQuestion(current));
+  }, [analysis, selectedQuestionNo]);
+
   async function loadDemo() {
     setBusy(true);
     setError("");
     try {
-      setAnalysis(await apiGet<P2ExamAnalysis>("/api/p2/demo"));
+      setAnalysis(rebuildAnalysis(await apiGet<P2ExamAnalysis>("/api/p2/demo")));
       setQuestionFilter("all");
     } catch {
       setError("后端服务未连接，请先启动本地服务后刷新页面。");
@@ -158,7 +322,7 @@ function App() {
         const detail = await response.json();
         throw new Error(detail?.detail?.message || "分析失败");
       }
-      setAnalysis(await response.json());
+      setAnalysis(rebuildAnalysis(await response.json()));
       setQuestionFilter("all");
     } catch (err) {
       setError(err instanceof Error ? err.message : "分析失败");
@@ -192,9 +356,53 @@ function App() {
     }
   }
 
+  function selectQuestion(questionNo: string) {
+    const question = analysis?.question_analysis.find((item) => item.question_no === questionNo);
+    setSelectedQuestionNo(questionNo);
+    if (question) setQuestionDraft(draftFromQuestion(question));
+  }
+
+  function resetQuestionDraft() {
+    const question = analysis?.question_analysis.find((item) => item.question_no === selectedQuestionNo);
+    if (question) setQuestionDraft(draftFromQuestion(question));
+  }
+
+  function saveQuestionReview() {
+    if (!analysis || !questionDraft) return;
+    const fullScore = Number(questionDraft.full_score);
+    if (!Number.isFinite(fullScore) || fullScore <= 0) {
+      setError("满分必须是大于 0 的数字。");
+      return;
+    }
+
+    const next = rebuildAnalysis({
+      ...analysis,
+      question_analysis: analysis.question_analysis.map((item) => {
+        if (item.question_no !== selectedQuestionNo) return item;
+        return {
+          ...item,
+          question_no: questionDraft.question_no.trim() || item.question_no,
+          stem_text: questionDraft.stem_text.trim(),
+          question_type: questionDraft.question_type.trim() || null,
+          full_score: fullScore,
+          confirmed_knowledge_points: parseKnowledgePoints(questionDraft.knowledge_text),
+          teacher_review_status: "confirmed",
+          warnings: [],
+        };
+      }),
+    });
+    const savedQuestionNo = questionDraft.question_no.trim() || selectedQuestionNo;
+    setError("");
+    setAnalysis(next);
+    setSelectedQuestionNo(savedQuestionNo);
+  }
+
   const overall = overallRate(analysis);
   const weakKnowledge = analysis?.knowledge_diagnostics.filter((item) => item.severity !== "stable") ?? [];
   const priorityQuestions = analysis?.question_analysis.slice(0, 6) ?? [];
+  const confirmedCount =
+    analysis?.question_analysis.filter((item) => item.teacher_review_status === "confirmed").length ?? 0;
+  const selectedQuestion = analysis?.question_analysis.find((item) => item.question_no === selectedQuestionNo) ?? null;
   const filteredQuestions =
     analysis?.question_analysis.filter((item) => questionFilter === "all" || item.severity === questionFilter) ?? [];
 
@@ -208,6 +416,7 @@ function App() {
         <nav aria-label="页面导航">
           <a href="#workspace">开始</a>
           <a href="#overview">概况</a>
+          <a href="#review">确认</a>
           <a href="#questions">题目</a>
           <a href="#knowledge">知识点</a>
           <a href="#report">报告</a>
@@ -280,8 +489,118 @@ function App() {
           <Metric label="匹配题目" value={analysis ? `${analysis.question_analysis.length}` : "--"} />
           <Metric label="重点讲评" value={`${countBySeverity(analysis, "critical")}`} />
           <Metric label="薄弱知识点" value={analysis ? `${weakKnowledge.length}` : "--"} />
+          <Metric label="已确认" value={analysis ? `${confirmedCount}` : "--"} />
         </div>
         {analysis?.teaching_report.summary && <p className="summary">{analysis.teaching_report.summary}</p>}
+      </section>
+
+      <section id="review">
+        <div className="section-heading">
+          <p className="eyebrow">Review</p>
+          <h2>教师人工确认</h2>
+        </div>
+        <div className="review-panel">
+          <div className="question-picker" aria-label="题目列表">
+            {analysis?.question_analysis.map((item) => (
+              <button
+                key={item.question_no}
+                className={item.question_no === selectedQuestionNo ? "active" : ""}
+                onClick={() => selectQuestion(item.question_no)}
+              >
+                <span>第 {item.question_no} 题</span>
+                <em>{item.teacher_review_status === "confirmed" ? "已确认" : severityText[item.severity]}</em>
+              </button>
+            ))}
+          </div>
+
+          <div className="review-editor">
+            {selectedQuestion && questionDraft ? (
+              <>
+                <div className="review-title">
+                  <span className={`severity ${selectedQuestion.severity}`}>{severityText[selectedQuestion.severity]}</span>
+                  <strong>第 {selectedQuestion.question_no} 题</strong>
+                  <small>
+                    均分 {formatScore(selectedQuestion.avg_score)} / 满分 {formatScore(selectedQuestion.full_score)}
+                  </small>
+                </div>
+
+                <div className="review-form">
+                  <label>
+                    <span>题号</span>
+                    <input
+                      value={questionDraft.question_no}
+                      onChange={(event) =>
+                        setQuestionDraft((current) =>
+                          current ? { ...current, question_no: event.target.value } : current,
+                        )
+                      }
+                    />
+                  </label>
+                  <label>
+                    <span>题型</span>
+                    <select
+                      value={questionDraft.question_type}
+                      onChange={(event) =>
+                        setQuestionDraft((current) =>
+                          current ? { ...current, question_type: event.target.value } : current,
+                        )
+                      }
+                    >
+                      <option value="">待确认</option>
+                      <option value="single_choice">单选题</option>
+                      <option value="multiple_choice">多选题</option>
+                      <option value="blank">填空题</option>
+                      <option value="solution">解答题</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>满分</span>
+                    <input
+                      inputMode="decimal"
+                      value={questionDraft.full_score}
+                      onChange={(event) =>
+                        setQuestionDraft((current) =>
+                          current ? { ...current, full_score: event.target.value } : current,
+                        )
+                      }
+                    />
+                  </label>
+                </div>
+
+                <label className="stacked-field">
+                  <span>题干</span>
+                  <textarea
+                    value={questionDraft.stem_text}
+                    onChange={(event) =>
+                      setQuestionDraft((current) => (current ? { ...current, stem_text: event.target.value } : current))
+                    }
+                  />
+                </label>
+
+                <label className="stacked-field">
+                  <span>知识点</span>
+                  <textarea
+                    value={questionDraft.knowledge_text}
+                    onChange={(event) =>
+                      setQuestionDraft((current) =>
+                        current ? { ...current, knowledge_text: event.target.value } : current,
+                      )
+                    }
+                  />
+                </label>
+
+                <div className="actions">
+                  <button className="primary" onClick={saveQuestionReview}>
+                    保存确认
+                  </button>
+                  <button onClick={resetQuestionDraft}>恢复当前题</button>
+                </div>
+              </>
+            ) : (
+              <p className="summary">载入考试后可逐题确认题干、题型、满分和知识点。</p>
+            )}
+          </div>
+        </div>
       </section>
 
       <section className="priority-section">
@@ -331,6 +650,7 @@ function App() {
                 <th>状态</th>
                 <th>知识点</th>
                 <th>题干</th>
+                <th>操作</th>
               </tr>
             </thead>
             <tbody>
@@ -346,6 +666,11 @@ function App() {
                   </td>
                   <td>{knowledgeNames(item.confirmed_knowledge_points)}</td>
                   <td>{item.stem_text || "待补充"}</td>
+                  <td>
+                    <button className="text-button" onClick={() => selectQuestion(item.question_no)}>
+                      编辑
+                    </button>
+                  </td>
                 </tr>
               ))}
             </tbody>
