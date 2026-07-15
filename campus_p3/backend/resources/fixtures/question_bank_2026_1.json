@@ -1,0 +1,84 @@
+[
+  {
+    "source": "school_bank",
+    "knowledge_point_version": "2026.1",
+    "items": [
+      {
+        "bank_question_id": "bq_math_func_linear_001",
+        "content_html": "<p>已知一次函数 y=2x+1，求当 x=3 时 y 的值。</p>",
+        "answer_html": "<p>y=7。</p>",
+        "analysis_html": "<p>将 x=3 代入 y=2x+1，得 y=2×3+1=7。</p>",
+        "knowledge_point_ids": ["kp_math_8_function_linear"],
+        "question_type": "填空题",
+        "difficulty": 0.35,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_math_equation_001",
+        "content_html": "<p>解方程：3x-5=10。</p>",
+        "answer_html": "<p>x=5。</p>",
+        "analysis_html": "<p>移项得 3x=15，所以 x=5。</p>",
+        "knowledge_point_ids": ["kp_math_7_linear_equation"],
+        "question_type": "解答题",
+        "difficulty": 0.4,
+        "images": [],
+        "audit_status": "approved"
+      }
+    ]
+  },
+  {
+    "source": "exam_history",
+    "knowledge_point_version": "2026.1",
+    "items": [
+      {
+        "bank_question_id": "bq_math_func_application_001",
+        "content_html": "<p>某出租车起步价 10 元，之后每千米 2 元。设行驶 x 千米的费用为 y 元，写出 y 与 x 的函数关系式。</p>",
+        "answer_html": "<p>y=10+2x。</p>",
+        "analysis_html": "<p>总费用由起步价和里程费用组成，因此 y=10+2x。</p>",
+        "knowledge_point_ids": [
+          "kp_math_8_function_linear",
+          "kp_math_8_function_application"
+        ],
+        "question_type": "解答题",
+        "difficulty": 0.62,
+        "images": [],
+        "audit_status": "approved"
+      }
+    ]
+  },
+  {
+    "source": "middle_exam_real",
+    "knowledge_point_version": "2026.1",
+    "items": [
+      {
+        "bank_question_id": "bq_math_triangle_001",
+        "content_html": "<p>已知 AB=DE，AC=DF，∠A=∠D，判断 △ABC 与 △DEF 是否全等，并说明理由。</p>",
+        "answer_html": "<p>全等，依据 SAS。</p>",
+        "analysis_html": "<p>两边及其夹角分别相等，所以两个三角形全等。</p>",
+        "knowledge_point_ids": ["kp_math_8_triangle"],
+        "question_type": "解答题",
+        "difficulty": 0.58,
+        "images": [],
+        "audit_status": "approved"
+      }
+    ]
+  },
+  {
+    "source": "external_import",
+    "knowledge_point_version": "2026.1",
+    "items": [
+      {
+        "bank_question_id": "bq_sample_triangle_side_relation_001",
+        "content_html": "<p>在 △ABC 中，AB=7，AC=5，则中线 AD 长度的范围是（ ）。</p><p>A. 1&lt;AD&lt;6　B. 5&lt;AD&lt;7　C. 2&lt;AD&lt;12　D. 2&lt;AD&lt;5</p>",
+        "answer_html": "<p>A. 1&lt;AD&lt;6。</p>",
+        "analysis_html": "<p>延长 AD 到 E，使 DE=AD。由中线性质可得 BE=AC=5。在 △ABE 中，|7-5|&lt;AE&lt;7+5，即 2&lt;2AD&lt;12，所以 1&lt;AD&lt;6。</p>",
+        "knowledge_point_ids": ["kp_math_8_triangle_side_relation"],
+        "question_type": "选择题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      }
+    ]
+  }
+]
