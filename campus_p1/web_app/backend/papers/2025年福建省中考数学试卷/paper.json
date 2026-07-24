@@ -1,0 +1,1171 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年福建省中考数学试卷",
+  "source": {
+    "name": "2025年福建省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年福建省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年福建省中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列实数中，最小的数是（ ）",
+      "stem_markdown": "下列实数中，最小的数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】利用实数大小的比较方法：1、在数轴上表示的两个数，右边的总比左边的数大．2、正数都大于零，负数都小于零，正数大于负数．3、两个正数比较大小，绝对值大的数大；两个负数比较大小，绝对值大的数反而小．按照从小到大的顺序排列找出结论即可．\n【解答】解：∵﹣1＜0$＜\\sqrt{2}＜$2，\n∴最小的数是：﹣1．\n故选：A．\n【点评】本题考查了实数的大小比较，掌握正数都大于零，负数都小于零，正数大于负数，两个正数比较大小，绝对值大的数大，两个负数比较大小，绝对值大的数反而小是解答本题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "有理数与无理数的比较",
+          "实数大小的比较方法"
+        ],
+        "reasoning": "题目要求比较四个数的大小，涉及实数大小的比较方法。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"有理数与无理数的比较\", \"实数大小的比较方法\"],\n  \"reasoning\": \"题目要求比较四个数的大小，涉及实数大小的比较方法。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "中国古算诗词歌赋较多．古算诗词题，是反映数学数量关系的内在联系及其规律的一种文学浪漫形式．下列分别是古算诗词题“圆中方形”“方形圆径”“圆材藏壁”“勾股容圆”所描绘的图形，其中既不是轴对称图形也不是中心对称图形的是（ ）",
+      "stem_markdown": "中国古算诗词歌赋较多．古算诗词题，是反映数学数量关系的内在联系及其规律的一种文学浪漫形式．下列分别是古算诗词题“圆中方形”“方形圆径”“圆材藏壁”“勾股容圆”所描绘的图形，其中既不是轴对称图形也不是中心对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年福建省中考数学试卷_q002_img01](assets/2025年福建省中考数学试卷_q002_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年福建省中考数学试卷_q002_img02](assets/2025年福建省中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年福建省中考数学试卷_q002_img03](assets/2025年福建省中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年福建省中考数学试卷_q002_img04](assets/2025年福建省中考数学试卷_q002_img04.png)"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据轴对称图形和中心对称图形的概念对各选项分析判断即可得解．\n【解答】解：A．既是中心对称图形，也是轴对称图形，故本选项不符合题意；\nB．既是中心对称图形，也是轴对称图形，故本选项不符合题意；\nC．不是中心对称图形，是轴对称图形，故本选项不符合题意；\nD．既不是中心对称图形，也不是轴对称图形，故本选项符合题意．\n故选：D．\n【点评】本题考查了中心对称图形与轴对称图形的概念．轴对称图形的关键是寻找对称轴，图形两部分折叠后可重合，中心对称图形是要寻找对称中心，旋转180度后与原图重合．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q002_img01",
+          "path": "assets/2025年福建省中考数学试卷_q002_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q002_img02",
+          "path": "assets/2025年福建省中考数学试卷_q002_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q002_img03",
+          "path": "assets/2025年福建省中考数学试卷_q002_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q002_img04",
+          "path": "assets/2025年福建省中考数学试卷_q002_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "轴对称图形",
+          "中心对称图形",
+          "图形性质"
+        ],
+        "reasoning": "题中分析图形是否为中心对称和轴对称图形",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"轴对称图形\", \"中心对称图形\", \"图形性质\"],\n  \"reasoning\": \"题中分析图形是否为中心对称和轴对称图形\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "若\\sqrt{x-1}在实数范围内有意义，则实数x的值可以是（ ）",
+      "stem_markdown": "若$\\sqrt{x-1}$在实数范围内有意义，则实数x的值可以是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣2"
+        },
+        {
+          "label": "B",
+          "text": "﹣1"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据二次根式的被开方数为非负数求出x的取值范围即可求出结果．\n【解答】解：由题意，得x﹣1≥0，\n∴x≥1，\n∴实数x的值可以是2．\n故选：D．\n【点评】本题考查了二次根式的定义，形如$\\sqrt{a}$（的式子叫二次根式，二次根式中的被开方数必须是非负数，否则二次根式无意义．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式定义",
+          "非负性"
+        ],
+        "reasoning": "题目要求根号下表达式有意义，即被开方数非负。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式定义\", \"非负性\"],\n  \"reasoning\": \"题目要求根号下表达式有意义，即被开方数非负。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "福建博物院收藏着一件“镇馆之宝”——云纹青铜大铙，如图1．云纹青铜大铙是西周乐器，鼓饰变形兽面纹，两侧饰云雷纹，浑大厚重，作风稳重古朴，代表了福建古代青铜文化曾经的历史和辉煌．图2为其示意图，它的主视图是（ ）\n[图1]",
+      "stem_markdown": "福建博物院收藏着一件“镇馆之宝”——云纹青铜大铙，如图1．云纹青铜大铙是西周乐器，鼓饰变形兽面纹，两侧饰云雷纹，浑大厚重，作风稳重古朴，代表了福建古代青铜文化曾经的历史和辉煌．图2为其示意图，它的主视图是（ ）\n![2025年福建省中考数学试卷_q004_img01](assets/2025年福建省中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年福建省中考数学试卷_q004_img02](assets/2025年福建省中考数学试卷_q004_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年福建省中考数学试卷_q004_img03](assets/2025年福建省中考数学试卷_q004_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年福建省中考数学试卷_q004_img04](assets/2025年福建省中考数学试卷_q004_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年福建省中考数学试卷_q004_img05](assets/2025年福建省中考数学试卷_q004_img05.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据从正面看得到的视图是主视图，可得答案．\n【解答】解：从正面看，可得选项A的图形．\n故选：A．\n【点评】本题考查了简单几何体的三视图，从正面看得到的视图是主视图．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q004_img01",
+          "path": "assets/2025年福建省中考数学试卷_q004_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q004_img02",
+          "path": "assets/2025年福建省中考数学试卷_q004_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q004_img03",
+          "path": "assets/2025年福建省中考数学试卷_q004_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q004_img04",
+          "path": "assets/2025年福建省中考数学试卷_q004_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q004_img05",
+          "path": "assets/2025年福建省中考数学试卷_q004_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三视图",
+          "主视图"
+        ],
+        "reasoning": "题中要求识别主视图，即从正面看到的形状。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三视图\", \"主视图\"],\n  \"reasoning\": \"题中要求识别主视图，即从正面看到的形状。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "不等式\\frac{1}{2}x+1≤2的解集在数轴上表示正确的是（ ）",
+      "stem_markdown": "不等式$\\frac{1}{2}$x+1≤2的解集在数轴上表示正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年福建省中考数学试卷_q005_img01](assets/2025年福建省中考数学试卷_q005_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年福建省中考数学试卷_q005_img02](assets/2025年福建省中考数学试卷_q005_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年福建省中考数学试卷_q005_img03](assets/2025年福建省中考数学试卷_q005_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年福建省中考数学试卷_q005_img04](assets/2025年福建省中考数学试卷_q005_img04.png)"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据解一元一次不等式基本步骤：移项、合并同类项、系数化为1可得．\n【解答】解：∵$\\frac{1}{2}$x+1≤2，\n∴$\\frac{1}{2}$x≤2﹣1，\n$\\frac{1}{2}$x≤1，\n则x≤2，\n故选：C．\n【点评】本题主要考查解一元一次不等式的基本能力，严格遵循解不等式的基本步骤是关键，尤其需要注意不等式两边都乘以或除以同一个负数不等号方向要改变．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q005_img01",
+          "path": "assets/2025年福建省中考数学试卷_q005_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q005_img02",
+          "path": "assets/2025年福建省中考数学试卷_q005_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q005_img03",
+          "path": "assets/2025年福建省中考数学试卷_q005_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年福建省中考数学试卷_q005_img04",
+          "path": "assets/2025年福建省中考数学试卷_q005_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "解一元一次不等式",
+          "移项",
+          "系数化为1"
+        ],
+        "reasoning": "题中解不等式的过程涉及移项和系数化为1",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"解一元一次不等式\", \"移项\", \"系数化为1\"],\n  \"reasoning\": \"题中解不等式的过程涉及移项和系数化为1\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "在分别写有﹣1，1，2的三张卡片中，不放回地随机抽取两张，这两张卡片上的数恰好互为相反数的概率是（ ）",
+      "stem_markdown": "在分别写有﹣1，1，2的三张卡片中，不放回地随机抽取两张，这两张卡片上的数恰好互为相反数的概率是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{3}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】画树状图，共有6种等可能的结果，其中这两张卡片上的数恰好互为相反数的结果有2种，再由概率公式求解即可．\n【解答】解：画树状图如下：\n[[image:rId46]]\n共有6种等可能的结果，其中这两张卡片上的数恰好互为相反数的结果有2种，\n∴这两张卡片上的数恰好互为相反数的概率是$\\frac{2}{6}=\\frac{1}{3}$，\n故选：B．\n【点评】此题考查的是用树状图法求概率．树状图法可以不重复不遗漏的列出所有可能的结果，适合于两步或两步以上完成的事件．用到的知识点为：概率＝所求情况数与总情况数之比．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "排列组合",
+          "概率计算"
+        ],
+        "reasoning": "计算两张卡片互为相反数的概率需要考虑所有可能的抽取结果和满足条件的结果数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"排列组合\", \"概率计算\"],\n  \"reasoning\": \"计算两张卡片互为相反数的概率需要考虑所有可能的抽取结果和满足条件的结果数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "某数学兴趣小组为探究平行线的有关性质，用一副三角尺按如图所示的方式摆放，其中点A，E，C，F在同一条直线上，∠BAC＝∠EDF＝90°，∠B＝45°，∠DEF＝60°．当AD∥BC时，∠ADE的大小为（ ）\n[图1]",
+      "stem_markdown": "某数学兴趣小组为探究平行线的有关性质，用一副三角尺按如图所示的方式摆放，其中点A，E，C，F在同一条直线上，∠BAC＝∠EDF＝90°，∠B＝45°，∠DEF＝60°．当AD∥BC时，∠ADE的大小为（ ）\n![2025年福建省中考数学试卷_q007_img01](assets/2025年福建省中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "5°"
+        },
+        {
+          "label": "B",
+          "text": "15°"
+        },
+        {
+          "label": "C",
+          "text": "25°"
+        },
+        {
+          "label": "D",
+          "text": "35°"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】结合三角形外角性质，根据平行线的判定定理与性质定理求解即可．\n【解答】解：根据题意得，∠ACB＝45°，\n∵AD∥BC，\n∴∠DAC＝∠ACB＝45°，\n∵∠DEF＝∠DAC+∠ADE＝60°，\n∴∠ADE＝15°，\n故选：B．\n【点评】此题考查了平行线的判定与性质，熟记平行线的判定与性质是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q007_img01",
+          "path": "assets/2025年福建省中考数学试卷_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形外角性质",
+          "平行线的判定定理",
+          "平行线的性质定理"
+        ],
+        "reasoning": "题中利用三角形外角等于不相邻两内角和求解∠ADE",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形外角性质\", \"平行线的判定定理\", \"平行线的性质定理\"],\n  \"reasoning\": \"题中利用三角形外角等于不相邻两内角和求解∠ADE\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "为加强劳动教育，增加学生实践机会，某校拟用总长为5米的篱笆，在两边都足够长的直角围墙的一角，围出一块6平方米的矩形菜地作为实践基地，如图所示．设矩形的一边长为x米，根据题意可列方程（ ）\n[图1]",
+      "stem_markdown": "为加强劳动教育，增加学生实践机会，某校拟用总长为5米的篱笆，在两边都足够长的直角围墙的一角，围出一块6平方米的矩形菜地作为实践基地，如图所示．设矩形的一边长为x米，根据题意可列方程（ ）\n![2025年福建省中考数学试卷_q008_img01](assets/2025年福建省中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5x^{2}$＝6"
+        },
+        {
+          "label": "B",
+          "text": "5（1+$x^{2}$）＝6"
+        },
+        {
+          "label": "C",
+          "text": "x（5﹣x）＝6"
+        },
+        {
+          "label": "D",
+          "text": "5（1+x）^{2}＝6"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】设矩形的一边长为x米，根据矩形的面积公式即可得到结论．\n【解答】解：由题意可得，x（5﹣x）＝6，\n故选：C．\n【点评】本题考查了由实际问题抽象出一元二次方程，正确地理解题意列出方程是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q008_img01",
+          "path": "assets/2025年福建省中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程",
+          "矩形面积公式",
+          "实际问题抽象方程"
+        ],
+        "reasoning": "题中设矩形一边长为x米，根据矩形面积6平方米列出方程x(5-x)=6",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程\", \"矩形面积公式\", \"实际问题抽象方程\"],\n  \"reasoning\": \"题中设矩形一边长为x米，根据矩形面积6平方米列出方程x(5-x)=6\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，PA与⊙O相切于点A，PO的延长线交⊙O于点C．AB∥PC，且交⊙O于点B．若∠P＝30°，则∠BCP的大小为（ ）\n[图1]",
+      "stem_markdown": "如图，PA与⊙O相切于点A，PO的延长线交⊙O于点C．AB∥PC，且交⊙O于点B．若∠P＝30°，则∠BCP的大小为（ ）\n![2025年福建省中考数学试卷_q009_img01](assets/2025年福建省中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "30°"
+        },
+        {
+          "label": "B",
+          "text": "45°"
+        },
+        {
+          "label": "C",
+          "text": "60°"
+        },
+        {
+          "label": "D",
+          "text": "75°"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】连接OA、OB，根据切线的性质得到OA⊥PA，根据直角三角形的性质求出∠AOP，再根据等边三角形的判定和性质解答即可．\n【解答】解：如图，连接OA、OB，\n∵PA与⊙O相切于点A，\n∴OA⊥PA，\n∴∠AOP＝90°﹣∠P＝90°﹣30°＝60°，\n∵AB∥PC，\n∴∠OAB＝∠AOP＝60°，\n∵OA＝OB，\n∴△AOB为等边三角形，\n∴∠AOB＝60°，\n∴∠BOC＝180°﹣∠AOP﹣∠AOB＝60°，\n∵OB＝OC，\n∴△BOC为等边三角形，\n∴∠BCP＝60°，\n故选：C．\n[[image:rId50]]\n【点评】本题考查的是切线的性质，熟记圆的切线垂直于经过切点的半径是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q009_img01",
+          "path": "assets/2025年福建省中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线的性质",
+          "直角三角形的性质",
+          "等边三角形的判定和性质",
+          "平行线的性质"
+        ],
+        "reasoning": "题中条件PA与⊙O相切于点A，利用切线性质得出OA⊥PA，进而求出∠AOP；又AB∥PC，得出∠OAB＝∠AOP，结合OA＝OB得出△AOB为等边三角形，从而得出∠BCP的度数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线的性质\", \"直角三角形的性质\", \"等边三角形的判定和性质\", \"平行线的性质\"],\n  \"reasoning\": \"题中条件PA与⊙O相切于点A，利用切线性质得出OA⊥PA，进而求出∠AOP；又AB∥PC，得出∠OAB＝∠AOP，结合OA＝OB得出△AOB为等边三角形，从而得出∠BCP的度数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "已知点A（﹣2，y₁），B（1，y₂）在抛物线y＝3x²+bx+1上，若3＜b＜4，则下列判断正确的是（ ）",
+      "stem_markdown": "已知点A（﹣2，$y_{1}$），B（1，$y_{2}$）在抛物线y＝$3x^{2}$+bx+1上，若3＜b＜4，则下列判断正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1＜$y_{1}$＜$y_{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$y_{1}$＜1＜$y_{2}$"
+        },
+        {
+          "label": "C",
+          "text": "1＜$y_{2}$＜$y_{1}$"
+        },
+        {
+          "label": "D",
+          "text": "$y_{2}$＜1＜$y_{1}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】先求出对称轴的范围，再根据二次函数的增减性进行判断即可．\n【解答】解：∵y＝$3x^{2}$+bx+1，\n∴当x＝0时，y＝1，\n∴抛物线过点（0，1），\n∴抛物线的开口向上，对称轴为$x=-\\frac{b}{2×3}=-\\frac{b}{6}$，\n∴抛物线上的点离对称轴越远，函数值越大，\n∵3＜b＜4，\n∴$-\\frac{2}{3}＜-\\frac{b}{6}＜-\\frac{1}{2}$，\n∵$\\frac{-2+1}{2}=-\\frac{1}{2}＞-\\frac{b}{6}$，$\\frac{-2+0}{2}=-1＜-\\frac{b}{6}$，\n∴点A（﹣2，$y_{1}$）到对称轴的距离大于点（0，1）到对称轴的距离，小于B（1，$y_{2}$）到对称轴的距离，\n∴1＜$y_{1}$＜$y_{2}$，\n故选：A．\n【点评】本题考查比较二次函数的函数值的大小，熟练掌握二次函数的图象和性质是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数图像与性质",
+          "抛物线对称轴方程",
+          "二次函数增减性"
+        ],
+        "reasoning": "根据对称轴位置判断$y_1$, $y_2$的大小关系",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数图像与性质\", \"抛物线对称轴方程\", \"二次函数增减性\"],\n  \"reasoning\": \"根据对称轴位置判断$y_1$, $y_2$的大小关系\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "为响应“体重管理年”有关倡议，小敏对自己的体重进行了跟踪统计．为方便记录，他将体重增加1.5kg记作+1.5，那么体重减少1kg应记作 ____ ．",
+      "stem_markdown": "为响应“体重管理年”有关倡议，小敏对自己的体重进行了跟踪统计．为方便记录，他将体重增加1.5kg记作+1.5，那么体重减少1kg应记作 ____ ．",
+      "options": [],
+      "answer": "﹣1．",
+      "solution": "【分析】增加和减少具有相反意义，根据正负数可以表示一对具有相反意义的量即可求解．\n【解答】解：为方便记录，他将体重增加1.5kg记作+1.5，那么体重减少1kg应记作﹣1．\n故答案为：﹣1．\n【点评】本题考查了学生对正负数意义理解与掌握，用正负数表示两种具有相反意义的量．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正负数的意义"
+        ],
+        "reasoning": "设问要求体重减少时的记录方式，使用负数表示减少",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正负数的意义\"],\n  \"reasoning\": \"设问要求体重减少时的记录方式，使用负数表示减少\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "某房梁如图所示，立柱AD⊥BC，E，F分别是斜梁AB，AC的中点．若AB＝AC＝8m，则DE的长为 ____ m．\n[图1]",
+      "stem_markdown": "某房梁如图所示，立柱AD⊥BC，E，F分别是斜梁AB，AC的中点．若AB＝AC＝8m，则DE的长为 ____ m．\n![2025年福建省中考数学试卷_q012_img01](assets/2025年福建省中考数学试卷_q012_img01.png)",
+      "options": [],
+      "answer": "4．",
+      "solution": "【分析】由直角三角形斜边的中线等于斜边的一半，即可计算．\n【解答】解：∵AD⊥BC，\n∴∠ADB＝90°，\n∵E是AB的中点，\n∴DE$=\\frac{1}{2}$AB$=\\frac{1}{2}×$8＝4（m）．\n故答案为：4．\n【点评】本题考查直角三角形斜边的中线，关键是掌握直角三角形斜边的中线等于斜边的一半．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q012_img01",
+          "path": "assets/2025年福建省中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形斜边的中线"
+        ],
+        "reasoning": "题中条件E是AB的中点，利用直角三角形斜边的中线等于斜边的一半进行计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形斜边的中线\"],\n  \"reasoning\": \"题中条件E是AB的中点，利用直角三角形斜边的中线等于斜边的一半进行计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "若反比例函数y=\\frac{k}{x}的图象过点（﹣2，1），则常数k＝ ____ ．",
+      "stem_markdown": "若反比例函数$y=\\frac{k}{x}$的图象过点（﹣2，1），则常数k＝ ____ ．",
+      "options": [],
+      "answer": "﹣2．",
+      "solution": "【分析】根据反比例函数图象上点的坐标特征解答即可．\n【解答】解：∵反比例函数$y=\\frac{k}{x}$的图象过点（﹣2，1），\n∴k＝﹣2×1＝﹣2，\n故答案为：﹣2．\n【点评】本题考查了反比例函数图象上点的坐标特征，熟练掌握该知识点是关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的定义",
+          "反比例函数图象上的点的坐标特征"
+        ],
+        "reasoning": "反比例函数图象上点的坐标满足函数关系式",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的定义\", \"反比例函数图象上的点的坐标特征\"],\n  \"reasoning\": \"反比例函数图象上点的坐标满足函数关系式\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，菱形ABCD的对角线相交于点O，EF过点O且与边AB，CD分别相交于点E，F．若OA＝2，OD＝1，则△AOE与△DOF的面积之和为 ____ ．\n[图1]",
+      "stem_markdown": "如图，菱形ABCD的对角线相交于点O，EF过点O且与边AB，CD分别相交于点E，F．若OA＝2，OD＝1，则△AOE与△DOF的面积之和为 ____ ．\n![2025年福建省中考数学试卷_q014_img01](assets/2025年福建省中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "1．",
+      "solution": "【分析】根据菱形的性质证明△DOF≌△BOE（AAS），得△DOF的面积＝△BOE的面积，进而可以解决问题．\n【解答】解：∵四边形ABCD是菱形，\n∴DO＝BO＝1，CD∥AB，\n∴∠ODF＝∠OBE，∠OFD＝∠OEB，\n∴△DOF≌△BOE（AAS），\n∴△DOF的面积＝△BOE的面积，\n∴△AOE与△DOF的面积之和＝△BOA的面积$=\\frac{1}{2}×$2×1＝1，\n故答案为：1．\n【点评】本题考查菱形的性质，三角形全等的判定及性质，三角形的面积，掌握菱形的性质是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q014_img01",
+          "path": "assets/2025年福建省中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形",
+          "菱形的性质",
+          "三角形面积计算"
+        ],
+        "reasoning": "△DOF≌△BOE（AAS）证明了两个三角形面积相等",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形\", \"菱形的性质\", \"三角形面积计算\"],\n  \"reasoning\": \"△DOF≌△BOE（AAS）证明了两个三角形面积相等\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "某公司为选拔英语翻译员，举行听、说、读、写综合测试，其中听、说、读、写各项成绩（百分制）按4：3：2：1的比例计算最终成绩．参与选拔的甲、乙两位员工的听、说、读、写各项测试成绩及最终成绩如表：\n项目 员工 | 听 | 说 | 读 | 写 | 最终成绩\n甲 | A | 70 | 80 | 90 | 82\n乙 | B | 90 | 80 | 70 | 82\n由以上信息，可以判断A，B的大小关系是A ____ B．（填“＞”“＝”或“＜”）",
+      "stem_markdown": "某公司为选拔英语翻译员，举行听、说、读、写综合测试，其中听、说、读、写各项成绩（百分制）按4：3：2：1的比例计算最终成绩．参与选拔的甲、乙两位员工的听、说、读、写各项测试成绩及最终成绩如表：\n| 项目 员工 | 听 | 说 | 读 | 写 | 最终成绩 |\n| --- | --- | --- | --- | --- | --- |\n| 甲 | A | 70 | 80 | 90 | 82 |\n| 乙 | B | 90 | 80 | 70 | 82 |\n由以上信息，可以判断A，B的大小关系是A ____ B．（填“＞”“＝”或“＜”）",
+      "options": [],
+      "answer": "＞．",
+      "solution": "【分析】根据加权平均数公式解答即可．\n【解答】解：由题意得：$\\frac{4A+70×3+80×2+90×1}{4+3+2+1}=82$，解得A＝90，\n$\\frac{4B+90×3+80×2+70×1}{4+3+2+1}=$82，解得B＝80，\n∵90＞80，\n∴A＞B，\n故答案为：＞．\n【点评】此题考查了加权平均数的计算公式，解题的关键是：计算平均数时按权重进行计算．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "加权平均数",
+          "比例分配"
+        ],
+        "reasoning": "最终成绩计算涉及听、说、读、写各项目的加权平均数，且听、说、读、写成绩按4：3：2：1的比例计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"加权平均数\", \"比例分配\"],\n  \"reasoning\": \"最终成绩计算涉及听、说、读、写各项目的加权平均数，且听、说、读、写成绩按4：3：2：1的比例计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "弹簧秤是根据胡克定律并利用物体的重力来测量物体质量的．胡克定律为：在弹性限度内，弹簧弹力F的大小与弹簧伸长（或压缩）的长度x成正比，即F＝kx，其中k为常数，是弹簧的劲度系数；质量为m的物体重力为mg，其中g为常数．如图，一把弹簧秤在不挂任何物体时弹簧的长度为6厘米．在其弹性限度内：当所挂物体的质量为0.5千克时，弹簧长度为6.5厘米，那么，当弹簧长度为6.8厘米时，所挂物体的质量为 ____ 千克．\n[图1]",
+      "stem_markdown": "弹簧秤是根据胡克定律并利用物体的重力来测量物体质量的．胡克定律为：在弹性限度内，弹簧弹力F的大小与弹簧伸长（或压缩）的长度x成正比，即F＝kx，其中k为常数，是弹簧的劲度系数；质量为m的物体重力为mg，其中g为常数．如图，一把弹簧秤在不挂任何物体时弹簧的长度为6厘米．在其弹性限度内：当所挂物体的质量为0.5千克时，弹簧长度为6.5厘米，那么，当弹簧长度为6.8厘米时，所挂物体的质量为 ____ 千克．\n![2025年福建省中考数学试卷_q016_img01](assets/2025年福建省中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "0.8．",
+      "solution": "【分析】利用待定系数法求出F与x的函数关系式，将x＝6.8﹣6＝0.8，F＝mg代入求出m的值即可．\n【解答】解：将F＝0.5g，x＝6.5﹣6＝0.5代入F＝kx，\n得0.5g＝0.5k，\n解得k＝g，\n∴F与x的函数关系式为F＝gx，\n将x＝6.8﹣6＝0.8，F＝mg代入F＝gx，\n得mg＝0.8g，\n解得m＝0.8，\n∴当弹簧长度为6.8厘米时，所挂物体的质量为 0.8千克．\n故答案为：0.8．\n【点评】本题考查一次函数的应用，掌握待定系数法求一次函数的关系式是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q016_img01",
+          "path": "assets/2025年福建省中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "胡克定律",
+          "一次函数",
+          "待定系数法"
+        ],
+        "reasoning": "通过弹簧弹力F与弹簧伸长长度x的关系式F＝kx，结合已知条件求解未知量m。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"胡克定律\", \"一次函数\", \"待定系数法\"],\n  \"reasoning\": \"通过弹簧弹力F与弹簧伸长长度x的关系式F＝kx，结合已知条件求解未知量m。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "计算：2⁰+|1-\\sqrt{2}|-\\sqrt{8}．",
+      "stem_markdown": "计算：2^{0}+|1$-\\sqrt{2}|-\\sqrt{8}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】根据零指数幂的性质、绝对值的性质和如何把二次根式化成最简二次根式进行计算即可．\n【解答】解：原式$=1+\\sqrt{2}-1-2\\sqrt{2}$\n$=1-1+\\sqrt{2}-2\\sqrt{2}$\n$=-\\sqrt{2}$．\n【点评】本题主要考查了实数的运算，解题关键是熟练掌握零指数幂的性质、绝对值的性质和如何把二次根式化成最简二次根式．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "零指数幂",
+          "绝对值",
+          "二次根式化简"
+        ],
+        "reasoning": "题目涉及计算2⁰, |1-\\sqrt{2}| 和 \\(\\sqrt{8}\\)，考察了零指数幂、绝对值和二次根式的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"零指数幂\", \"绝对值\", \"二次根式化简\"],\n  \"reasoning\": \"题目涉及计算2⁰, |1-\\sqrt{2}| 和 \\(\\sqrt{8}\\)，考察了零指数幂、绝对值和二次根式的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "如图，点E，F分别在AB，AD的延长线上，∠CBE＝∠CDF，∠ACB＝∠ACD．求证：AB＝AD．\n[图1]",
+      "stem_markdown": "如图，点E，F分别在AB，AD的延长线上，∠CBE＝∠CDF，∠ACB＝∠ACD．求证：AB＝AD．\n![2025年福建省中考数学试卷_q018_img01](assets/2025年福建省中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】由∠CBE＝∠CDF，推导出∠ABC＝∠ADC，而∠ACB＝∠ACD，AC＝AC，即可根据“AAS”证明△ABC≌△ADC，则AB＝AD．\n【解答】证明：∵∠CBE＝∠CDF，\n∴180°﹣∠CBE＝180°﹣∠CDF，\n∵∠ABC＝180°﹣∠CBE，∠ADC＝180°﹣∠CDF，\n∴∠ABC＝∠ADC，\n在△ABC和△ADC中，\n$\\begin{cases} ∠ABC=∠ADC \\\\ ∠ACB=∠ACD \\\\ AC=AC \\end{cases}$，\n∴△ABC≌△ADC（AAS），\n∴AB＝AD．\n【点评】此题重点考查全等三角形的判定与性质，推导出∠ABC＝∠ADC，进而证明△ABC≌△ADC是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q018_img01",
+          "path": "assets/2025年福建省中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定（AAS）",
+          "角平分线性质",
+          "对顶角相等"
+        ],
+        "reasoning": "证明△ABC≌△ADC时，利用了AAS定理，其中∠ABC=∠ADC是通过角平分线性质得出的。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定（AAS）\", \"角平分线性质\", \"对顶角相等\"],\n  \"reasoning\": \"证明△ABC≌△ADC时，利用了AAS定理，其中∠ABC=∠ADC是通过角平分线性质得出的。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "先化简，再求值：(2+\\frac{1-a}{a})÷\\frac{a^{2}+2a+1}{a}，其中a=\\sqrt{5}-1．",
+      "stem_markdown": "先化简，再求值：$(2+\\frac{1-a}{a})÷\\frac{a^{2}+2a+1}{a}$，其中a$=\\sqrt{5}-$1．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先把括号内的2写成分母是a的分式，再根据同分母分式相加法则计算括号里面的，再把除式的分子分解因式，除法写成乘法进行约分，最后把a的值代入化简后的式子进行计算即可．\n【解答】解：原式$=(\\frac{2a}{a}+\\frac{1-a}{a})÷\\frac{(a+1)^{2}}{a}$\n$=\\frac{a+1}{a}⋅\\frac{a}{(a+1)^{2}}$\n$=\\frac{1}{a+1}$，\n当a$=\\sqrt{5}-$1时，\n原式$=\\frac{1}{\\sqrt{5}-1+1}$\n$=\\frac{1}{\\sqrt{5}}$\n$=\\frac{\\sqrt{5}}{5}$．\n【点评】本题主要考查了分式的化简求值，解题关键是熟练掌握几种常见的分解因式的非负和分式的约分．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式的化简",
+          "同分母分式相加",
+          "分式的约分",
+          "代数式的值"
+        ],
+        "reasoning": "题中通过化简分式并代入a的值求值，涉及分式的化简、同分母分式相加及分式的约分等知识点。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式的化简\", \"同分母分式相加\", \"分式的约分\", \"代数式的值\"],\n  \"reasoning\": \"题中通过化简分式并代入a的值求值，涉及分式的化简、同分母分式相加及分式的约分等知识点。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "甲、乙两人是新华高级中学数学兴趣小组成员．以下是他们在参加高中数学联赛预备队员集训期间的测试成绩及当地近五年高中数学联赛的相关信息．\n信息一：甲、乙两人集训期间的测试成绩（单位：分）\n日期 队员 | 2月10日 | 2月21日 | 3月5日 | 3月14日 | 3月25日 | 4月7日 | 4月17日 | 4月27日 | 5月8日 | 5月20日\n甲 | 75 | 80 | 73 | 81 | 90 | 83 | 85 | 92 | 95 | 96\n乙 | 82 | 83 | 86 | 82 | 92 | 83 | 87 | 86 | 84 | 85\n其中，甲、乙成绩的平均数分别是(\\overline{x})_{甲}=85，(\\overline{x})_{乙}=85；方差分别是s甲²＝58.4，s乙²＝a．\n信息二：当地近五年高中数学联赛获奖分数线（单位：分）\n年份 | 2020 | 2021 | 2022 | 2023 | 2024\n获奖分数线 | 90 | 89 | 90 | 89 | 90\n试根据以上信息及你所学的统计学知识，解决以下问题：\n（1）计算a的值，并根据平均数与方差对甲、乙的成绩进行评价；\n（2）计算当地近五年高中数学联赛获奖分数线的平均数，并说明：若要从中选择一人参加高中数学联赛，选谁更合适；\n（3）若要从中选择一人参加进一步的培养，从发展潜能的角度考虑，你认为选谁更合适？为什么？",
+      "stem_markdown": "甲、乙两人是新华高级中学数学兴趣小组成员．以下是他们在参加高中数学联赛预备队员集训期间的测试成绩及当地近五年高中数学联赛的相关信息．\n信息一：甲、乙两人集训期间的测试成绩（单位：分）\n| 日期 队员 | 2月10日 | 2月21日 | 3月5日 | 3月14日 | 3月25日 | 4月7日 | 4月17日 | 4月27日 | 5月8日 | 5月20日 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 甲 | 75 | 80 | 73 | 81 | 90 | 83 | 85 | 92 | 95 | 96 |\n| 乙 | 82 | 83 | 86 | 82 | 92 | 83 | 87 | 86 | 84 | 85 |\n其中，甲、乙成绩的平均数分别是$(\\overline{x})_{甲}=$85，$(\\overline{x})_{乙}=$85；方差分别是$s_{甲}^{2}$＝58.4，$s_{乙}^{2}$＝a．\n信息二：当地近五年高中数学联赛获奖分数线（单位：分）\n| 年份 | 2020 | 2021 | 2022 | 2023 | 2024 |\n| --- | --- | --- | --- | --- | --- |\n| 获奖分数线 | 90 | 89 | 90 | 89 | 90 |\n试根据以上信息及你所学的统计学知识，解决以下问题：\n（1）计算a的值，并根据平均数与方差对甲、乙的成绩进行评价；\n（2）计算当地近五年高中数学联赛获奖分数线的平均数，并说明：若要从中选择一人参加高中数学联赛，选谁更合适；\n（3）若要从中选择一人参加进一步的培养，从发展潜能的角度考虑，你认为选谁更合适？为什么？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据方差公式可得a的值，再根据平均数和方差的意义解答即可；\n（2）根据两人10次成绩判断即可；\n（3）根据两人10次成绩判断即可．\n【解答】解：（1）由题意得：a$=\\frac{1}{10}×$[2×（82﹣85）^{2}+2×（83﹣85）^{2}+（84﹣85）^{2}+（85﹣85）^{2}+2×（86﹣85）^{2}+（87﹣85）^{2}+（92﹣85）^{2}]＝8.2，\n两人的平均数相同，但乙的方差比甲小，所以乙的成绩更稳定；\n（2）选甲更合适，理由如下：\n因为当地近五年高中数学联赛获奖分数的平均数为：$\\frac{90+89+90+89+90}{5}=$89.6，在两个人的10次成绩中，甲有4次超过89.6，乙只有1次超过89.6，所以甲获奖的概率更高，所以选甲更合适；\n（3）选甲更合适，理由如下：\n因为在两个10次成绩中，甲有4次达到90分或90以上，乙只有1次达到90分或90以上，所以选甲更合适．\n【点评】本题考查了平均数、中位数、众数和方差，熟练掌握这些知识点是关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方差",
+          "平均数",
+          "标准差"
+        ],
+        "reasoning": "计算方差确定乙的成绩稳定性，比较平均数和方差评价成绩",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方差\", \"平均数\", \"标准差\"],\n  \"reasoning\": \"计算方差确定乙的成绩稳定性，比较平均数和方差评价成绩\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，△ABC是等边三角形，D是AB的中点，CE⊥BC，垂足为C，EF是由CD沿CE方向平移得到的．已知EF过点A，BE交CD于点G．\n（1）求∠DCE的大小；\n（2）求证：△CEG是等边三角形．\n[图1]",
+      "stem_markdown": "如图，△ABC是等边三角形，D是AB的中点，CE⊥BC，垂足为C，EF是由CD沿CE方向平移得到的．已知EF过点A，BE交CD于点G．\n（1）求∠DCE的大小；\n（2）求证：△CEG是等边三角形．\n![2025年福建省中考数学试卷_q021_img01](assets/2025年福建省中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）等边三角形的性质推出∠DCB＝30°，垂直，得到∠BCE＝90°，角的和差关系求出∠DCE的大小即可；\n（2）平移得到CD∥EF，进而得到∠EAC＝∠DCA＝30°，角的和差关系推出∠EAC＝∠ECA，进而得到AE＝CE，∠AEC＝120°，根据AB＝CB，推出BE垂直平分AC，进而得到$∠GEC=\\frac{1}{2}∠AEC=60°$，推出∠GEC＝∠GCE＝∠EGC，进而得到△CEG是等边三角形即可．\n【解答】（1）解：∵△ABC是等边三角形，\n∴∠ACB＝60°．\n∵D是AB的中点，\n∴∠DCB＝∠DCA$=\\frac{1}{2}$∠ACB$=\\frac{1}{2}×$60°＝30°．\n∵CE⊥BC，\n∴∠BCE＝90°，\n∴∠DCE＝∠BCE﹣∠DCB＝60°．\n（2）证明：由平移可知：CD∥EF，\n∴∠EAC＝∠DCA＝30°，\n又∵∠ECA＝∠BCE﹣∠ACB＝30°，\n∴∠EAC＝∠ECA，\n∴AE＝CE，∠AEC＝120°，\n又∵AB＝CB，\n∴BE垂直平分AC，\n∴∠GEC$=\\frac{1}{2}$∠AEC$=\\frac{1}{2}×$120°＝60°，\n由（1）知，∠GCE＝60°，\n∴∠EGC＝60°，\n∴∠GEC＝∠GCE＝∠EGC，\n∴△CEG是等边三角形．\n【点评】本题考查等边三角形的判定与性质、平移的性质、全等三角形的判定与性质，熟练掌握相关知识点是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q021_img01",
+          "path": "assets/2025年福建省中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的性质",
+          "垂直的定义",
+          "平行线的性质",
+          "全等三角形的判定"
+        ],
+        "reasoning": "（1）等边三角形的性质推出∠DCB＝30°，垂直，得到∠BCE＝90°，角的和差关系求出∠DCE的大小；（2）平移得到CD∥EF，进而得到∠EAC＝∠DCA＝30°，角的和差关系推出∠EAC＝∠ECA，进而得到AE＝CE，∠AEC＝120°，根据AB＝CB，推出BE垂直平分AC，进而得到$∠GEC=\frac{1}{2}∠AEC=60°$，推出∠GEC＝∠GCE＝∠EGC，进而得到△CEG是等边三角形．",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的性质\", \"垂直的定义\", \"平行线的性质\", \"全等三角形的判定\"],\n  \"reasoning\": \"（1）等边三角形的性质推出∠DCB＝30°，垂直，得到∠BCE＝90°，角的和差关系求出∠DCE的大小；（2）平移得到CD∥EF，进而得到∠EAC＝∠DCA＝30°，角的和差关系推出∠EAC＝∠ECA，进而得到AE＝CE，∠AEC＝120°，根据AB＝CB，推出BE垂直平分AC，进而得到$∠GEC=\\frac{1}{2}∠AEC=60°$，推出∠GEC＝∠GCE＝∠EGC，进而得到△CEG是等边三角形．\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，矩形ABCD中，AB＜AD．\n（1）求作正方形EFGH，使得点E，G分别落在边AD，BC上，点F，H落在BD上；（要求：尺规作图，不写作法，保留作图痕迹）\n（2）若AB＝2，AD＝4，求（1）中所作的正方形的边长．\n[图1]",
+      "stem_markdown": "如图，矩形ABCD中，AB＜AD．\n（1）求作正方形EFGH，使得点E，G分别落在边AD，BC上，点F，H落在BD上；（要求：尺规作图，不写作法，保留作图痕迹）\n（2）若AB＝2，AD＝4，求（1）中所作的正方形的边长．\n![2025年福建省中考数学试卷_q022_img01](assets/2025年福建省中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）作线段BD的垂直平分线，垂足为O，交AD于点E，交BC于点G，以O为圆心，OE为半径作弧交BD于点F，H，连接EF，FG，GH，HE即可；\n（2）利用勾股定理求出BD，再根据tan∠ADB$=\\frac{AB}{AD}=\\frac{OE}{OD}$，求出OE可得结论．\n【解答】解：（1）正方形EFGH即为所求；\n[[image:rId57]]\n（2）∵四边形ABCD是矩形，\n∴∠A＝90°，\n∴BD$=\\sqrt{AB^{2}+AD^{2}}=\\sqrt{2^{2}+4^{2}}=$2$\\sqrt{5}$，\n∴OB＝OD$=\\sqrt{5}$，\n∵tan∠ADB$=\\frac{AB}{AD}=\\frac{OE}{OD}$，\n∴OE$=\\frac{\\sqrt{5}}{2}$，\n∵四边形EFGH是正方形，\n∴OE＝OH$=\\frac{\\sqrt{5}}{2}$，EO⊥OH，\n∴EH$=\\sqrt{2}$OE$=\\frac{\\sqrt{10}}{2}$，\n∴正方形EFGH的边长为$\\frac{\\sqrt{10}}{2}$．\n【点评】本题考查作图﹣复杂作图，勾股定理，正方形的判定和性质，矩形的性质，解题的关键是掌握相关知识解决问题．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q022_img01",
+          "path": "assets/2025年福建省中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "正方形的性质",
+          "矩形的性质",
+          "三角函数"
+        ],
+        "reasoning": "（2）利用勾股定理求出BD，再根据tan∠ADB=\\(\\frac{AB}{AD}\\)=\\(\\frac{OE}{OD}\\)，求出OE。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"正方形的性质\", \"矩形的性质\", \"三角函数\"],\n  \"reasoning\": \"（2）利用勾股定理求出BD，再根据tan∠ADB=\\\\(\\\\frac{AB}{AD}\\\\)=\\\\(\\\\frac{OE}{OD}\\\\)，求出OE。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "在平面直角坐标系中，二次函数y＝ax²+bx﹣2的图象过点A（1，t），B（2，t）．\n（1）求\\frac{b}{a}的值；\n（2）已知二次函数y＝ax²+bx﹣2的最大值为1-\\frac{3}{4}a^{2}．\n（i）求该二次函数的表达式；\n（ⅱ）若M（x₁，m），N（x₂，m）为该二次函数图象上的不同两点，且m≠0，求证：\\frac{(x_{1}-1)^{2}}{m}=\\frac{x_{2}-2}{x_{1}-2}．",
+      "stem_markdown": "在平面直角坐标系中，二次函数y＝$ax^{2}$+bx﹣2的图象过点A（1，t），B（2，t）．\n（1）求$\\frac{b}{a}$的值；\n（2）已知二次函数y＝$ax^{2}$+bx﹣2的最大值为1$-\\frac{3}{4}a^{2}$．\n（i）求该二次函数的表达式；\n（ⅱ）若M（$x_{1}$，m），N（$x_{2}$，m）为该二次函数图象上的不同两点，且m≠0，求证：$\\frac{(x_{1}-1)^{2}}{m}=\\frac{x_{2}-2}{x_{1}-2}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据二次函数的对称性求解即可；\n（2）①先求出顶点坐标，然后根据最大值为$1-\\frac{3}{4}a^{2}$，列方程求解即可；\n②先根据二次函数的对称性求出$x_{1}+x_{2}$＝3，然后把$\\frac{(x_{1}-1)^{2}}{m}-\\frac{x_{2}-2}{x_{1}-2}$通分后代入即可求解．\n【解答】（1）解：二次函数y＝$ax^{2}$+bx﹣2的图象的对称轴为直线$x=-\\frac{b}{2a}$，\n∵点A（1，t），B（2，t）在该函数的图象上，\n∴$2-(-\\frac{b}{2a})=-\\frac{b}{2a}-1$，\n∴$-\\frac{b}{2a}=\\frac{3}{2}$，\n∴$\\frac{b}{a}=-3$；\n（2）①解：由（1）可得，\n∵b＝﹣3a，\n∴该函数的表达式为y＝$ax^{2}$﹣3ax﹣2，\n∴函数图象的顶点坐标为$(\\frac{3}{2}，-\\frac{9}{4}a-2)$，\n∵函数的最大值为$1-\\frac{3}{4}a^{2}$，\n∴a＜0，且$-\\frac{9}{4}a-2=1-\\frac{3}{4}a^{2}$，\n解得a＝﹣1，或a＝4（舍去），\n∴该二次函数的表达式为y＝﹣$x^{2}$+3x﹣2，\n②证明：∵点M（$x_{1}$，m）在函数y＝﹣$x^{2}$+3x﹣2的图象上，\n∴$m=-x_{1}^{2}+3x_{1}-2$，\n由①知，点M（$x_{1}$，m），N（$x_{2}$，m）关于直线$x=\\frac{3}{2}$对称，不妨设$x_{1}$＜$x_{2}$，\n则$x_{2}-\\frac{3}{2}=\\frac{3}{2}-x_{1}$，即$x_{1}+x_{2}$＝3，\n∴$\\frac{(x_{1}-1)^{2}}{m}-\\frac{x_{2}-2}{x_{1}-2}=\\frac{(x_{1}-1)^{2}(x_{1}-2)-m(x_{2}-2)}{m(x_{1}-2)}$\n$=\\frac{(x_{1}-1)(x_{1}-2)(x_{1}-1)-m(x_{2}-2)}{m(x_{1}-2)}$\n$=\\frac{(x_{1}^{2}-3x_{1}+2)(x_{1}-1)-m(x_{2}-2)}{m(x_{1}-2)}$\n$=\\frac{-m(x_{1}-1)-m(x_{2}-2)}{m(x_{1}-2)}$\n$=\\frac{-m(x_{1}+x_{2}-3)}{m(x_{1}-2)}$\n＝0，\n∴$\\frac{(x_{1}-1)^{2}}{m}=\\frac{x_{2}-2}{x_{1}-2}$．\n【点评】本题考查了二次函数表达式、二次函数的图象与性质、一元二次方程，掌握以上性质是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的对称性",
+          "二次函数的最大值",
+          "二次函数的顶点坐标",
+          "一元二次方程"
+        ],
+        "reasoning": "第（1）问利用对称性求解；第（2）问①通过最大值求a值；②利用对称性求x1+x2的值；第（2）问②证明等式成立。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的对称性\", \"二次函数的最大值\", \"二次函数的顶点坐标\", \"一元二次方程\"],\n  \"reasoning\": \"第（1）问利用对称性求解；第（2）问①通过最大值求a值；②利用对称性求x1+x2的值；第（2）问②证明等式成立。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "阅读材料，回答问题．\n【主题】两个正数的积与商的位数探究．\n【提出问题】小明是一位爱思考的小学生．一次，在完成多位数的乘法时，他根据提出算式“46×2＝92；35×21＝735；663×11＝7293；186×362＝67332”，猜想：m位的正整数与n位的正整数的乘积是一个（m+n﹣1）位的正整数．\n【分析探究】问题1 小明的猜想是否正确？若正确，请给予证明；否则，请举出反例．\n【推广延伸】\n小明的猜想激发了初中生小华的探究热情．为了使问题的研究推广到有理数的乘法，进而迁移到对除法的研究，小华将数的“位数”与“数字”的概念进行推广，规定：如果一个正数用科学记数法表示为a×10ⁿ，则称这个数的位数是n+1，数字是a．\n借此，小华研究了两个数乘积的位数问题，提出并证明了以下命题．\n命题：若正数A，B，C的位数分别为m，n，p，数字分别为a，b，c，且A×B＝C，则必有c≥a且c≥b，或c＜a且c＜b．并且，当c≥a且c≥b时，p＝m+n﹣1；当c＜a且c＜b时，p＝m+n．\n证明：依题意知，A，B，C用科学记数法可分别表示为a×10m﹣¹，b×10ⁿ﹣¹，c×10p﹣¹，其中a，b，c均为正数．由A×B＝C，得ab×10m⁺ⁿ﹣²＝c×10p﹣¹，\n即\\frac{ab}{c}=10^{p-m-n+1}．（*）\n当c≥a且c≥b时，\\frac{a}{c}≤1，所以\\frac{ab}{c}≤b＜10，又\\frac{ab}{c}≥\\frac{a}{c}＞\\frac{1}{10}，所以\\frac{1}{10}＜\\frac{ab}{c}＜10．由（*）知，\\frac{ab}{c}=1，所以p＝m+n﹣1；\n当c≥a且c＜b时，\\begin{cases} \\frac{a}{c}≤1 \\\\ \\frac{b}{c}＞1 \\end{cases}，所以\\begin{cases} \\frac{ab}{c}≤b＜10 \\\\ \\frac{ab}{c}＞a≥1 \\end{cases}，所以1＜\\frac{ab}{c}＜10，与（*）矛盾，不合题意；\n当c＜a且c≥b时，① ____ ；\n当c＜a且c＜b时，② ____ ．\n综上所述，命题成立．\n【拓展迁移】问题2 若正数A、B的位数分别为m，n，那么\\frac{A}{B}的位数是多少？证明你的结论．\n（1）解决问题1；\n（2）请把①②所缺的证明过程补充完整；\n（3）解决问题2．",
+      "stem_markdown": "阅读材料，回答问题．\n【主题】两个正数的积与商的位数探究．\n【提出问题】小明是一位爱思考的小学生．一次，在完成多位数的乘法时，他根据提出算式“46×2＝92；35×21＝735；663×11＝7293；186×362＝67332”，猜想：m位的正整数与n位的正整数的乘积是一个（m+n﹣1）位的正整数．\n【分析探究】问题1 小明的猜想是否正确？若正确，请给予证明；否则，请举出反例．\n【推广延伸】\n小明的猜想激发了初中生小华的探究热情．为了使问题的研究推广到有理数的乘法，进而迁移到对除法的研究，小华将数的“位数”与“数字”的概念进行推广，规定：如果一个正数用科学记数法表示为a×10^{n}，则称这个数的位数是n+1，数字是a．\n借此，小华研究了两个数乘积的位数问题，提出并证明了以下命题．\n命题：若正数A，B，C的位数分别为m，n，p，数字分别为a，b，c，且A×B＝C，则必有c≥a且c≥b，或c＜a且c＜b．并且，当c≥a且c≥b时，p＝m+n﹣1；当c＜a且c＜b时，p＝m+n．\n证明：依题意知，A，B，C用科学记数法可分别表示为a×10^{m}^{﹣1}，b×10^{n}^{﹣1}，c×10^{p}^{﹣1}，其中a，b，c均为正数．由A×B＝C，得ab×10^{m}^{+}^{n}^{﹣2}＝c×10^{p}^{﹣1}，\n即$\\frac{ab}{c}=10^{p-m-n+1}$．（*）\n当c≥a且c≥b时，$\\frac{a}{c}≤$1，所以$\\frac{ab}{c}≤$b＜10，又$\\frac{ab}{c}≥\\frac{a}{c}＞\\frac{1}{10}$，所以$\\frac{1}{10}＜\\frac{ab}{c}＜$10．由（*）知，$\\frac{ab}{c}=$1，所以p＝m+n﹣1；\n当c≥a且c＜b时，$\\begin{cases} \\frac{a}{c}≤1 \\\\ \\frac{b}{c}＞1 \\end{cases}$，所以$\\begin{cases} \\frac{ab}{c}≤b＜10 \\\\ \\frac{ab}{c}＞a≥1 \\end{cases}$，所以1$＜\\frac{ab}{c}＜$10，与（*）矛盾，不合题意；\n当c＜a且c≥b时，① ____ ；\n当c＜a且c＜b时，② ____ ．\n综上所述，命题成立．\n【拓展迁移】问题2 若正数A、B的位数分别为m，n，那么$\\frac{A}{B}$的位数是多少？证明你的结论．\n（1）解决问题1；\n（2）请把①②所缺的证明过程补充完整；\n（3）解决问题2．",
+      "options": [],
+      "answer": "",
+      "solution": "证明：依题意知，A，B，C用科学记数法可分别表示为a×10^{m}^{﹣1}，b×10^{n}^{﹣1}，c×10^{p}^{﹣1}，其中a，b，c均为正数．由A×B＝C，得ab×10^{m}^{+}^{n}^{﹣2}＝c×10^{p}^{﹣1}，\n即$\\frac{ab}{c}=10^{p-m-n+1}$．（*）\n当c≥a且c≥b时，$\\frac{a}{c}≤$1，所以$\\frac{ab}{c}≤$b＜10，又$\\frac{ab}{c}≥\\frac{a}{c}＞\\frac{1}{10}$，所以$\\frac{1}{10}＜\\frac{ab}{c}＜$10．由（*）知，$\\frac{ab}{c}=$1，所以p＝m+n﹣1；\n当c≥a且c＜b时，$\\begin{cases} \\frac{a}{c}≤1 \\\\ \\frac{b}{c}＞1 \\end{cases}$，所以$\\begin{cases} \\frac{ab}{c}≤b＜10 \\\\ \\frac{ab}{c}＞a≥1 \\end{cases}$，所以1$＜\\frac{ab}{c}＜$10，与（*）矛盾，不合题意；\n当c＜a且c≥b时，① 当c＜a且c≥b时，可得$\\begin{cases} \\frac{ab}{c}＞b≥1， \\\\ \\frac{ab}{c}≤a＜10， \\end{cases}$，得$1＜\\frac{ab}{c}＜10$，不合题意 ；\n当c＜a且c＜b时，② 当c＜a且c＜b时，可得$\\frac{ab}{c}＞b＞1$，可得$1＜\\frac{ab}{c}＜100$，得$\\frac{ab}{c}=10$，即得 p＝m+n ．\n综上所述，命题成立．\n【拓展迁移】问题2 若正数A、B的位数分别为m，n，那么$\\frac{A}{B}$的位数是多少？证明你的结论．\n（1）解决问题1；\n（2）请把①②所缺的证明过程补充完整；\n（3）解决问题2．\n【分析】（1）举反例即可；\n（2）①当c＜a且c≥b时，可得$\\begin{cases} \\frac{ab}{c}＞b≥1， \\\\ \\frac{ab}{c}≤a＜10， \\end{cases}$，得$1＜\\frac{ab}{c}＜10$，不合题意；\n②当c＜a且c＜b时，可得$\\frac{ab}{c}＞b＞1$，可得$1＜\\frac{ab}{c}＜100$，得$\\frac{ab}{c}=10$，即得 p＝m+n；\n（3）设$\\frac{A}{B}=C$，A，B，C的数字分别为a，b，c，C的位数为x，则B×C＝A．当a≥b时，必有a≥c，m＝n+x﹣1，即x＝m﹣n+1；当a＜b时，必有a＜c，m＝n+x，即x＝m﹣n．\n【解答】解：（1）小明的猜想不正确，\n反例：3×4＝12；\n（2）①$\\begin{cases} \\frac{a}{c}＞1， \\\\ \\frac{b}{c}≤1， \\end{cases}$，所以$\\begin{cases} \\frac{ab}{c}＞b≥1， \\\\ \\frac{ab}{c}≤a＜10， \\end{cases}$，所以$1＜\\frac{ab}{c}＜10$，与（*）矛盾，不合题意；\n②$\\frac{a}{c}＞1$所以$\\frac{ab}{c}＞b＞1$，又$\\frac{ab}{c}≤ab＜100$，所以$1＜\\frac{ab}{c}＜100$，\n由（*）知$\\frac{ab}{c}=10$所以 p＝m+n；\n（3）当A的数字大于或等于B的数字时，$\\frac{A}{B}$的位数是m﹣n+1，\n当A的数字小于B的数字时，$\\frac{A}{B}$的位数是m﹣n．\n证明如下：由已知，A，B的位数分别为m，n，\n设$\\frac{A}{B}=C$，A，B，C的数字分别为a，b，c，C的位数为x，则B×C＝A，\n由小华的命题知，当a≥b时，必有a≥c，\n此时，m＝n+x﹣1，所以x＝m﹣n+1，\n当a＜b时，必有a＜c，\n此时，m＝n+x，所以x＝m﹣n，\n综上所述，当A的数字大于或等于B的数字时，$\\frac{A}{B}$的位数是m﹣n+1，\n当A的数字小于B的数字时，$\\frac{A}{B}$的位数是m﹣n．\n【点评】本小题考查判断命题的真假，科学记数法，整数指数幂，幂的运算，不等式的基本性质，代数推理等基础知识，熟练掌握是解题的关键．",
+      "full_score": 12,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "整数指数幂",
+          "幂的运算",
+          "不等式的基本性质"
+        ],
+        "reasoning": "问题2涉及正数位数和数字的关系，需要使用科学记数法和幂的运算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"整数指数幂\", \"幂的运算\", \"不等式的基本性质\"],\n  \"reasoning\": \"问题2涉及正数位数和数字的关系，需要使用科学记数法和幂的运算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年福建省中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "如图，四边形ABCD内接于⊙O，AD，BC的延长线相交于点E，AC，BD相交于点F．G是AB上一点，GD交AC于点H，且AB＝AC，BG＝DG．\n（1）求证：∠ABC＝∠DBE+∠E；\n（2）求证：AH²＝HF•HC；\n（3）若tan∠ABC=\\sqrt{5}，AD＝2DE，CD=\\sqrt{6}，求△AGH的周长．\n[图1]\n2025年福建省中考数学试卷",
+      "stem_markdown": "如图，四边形ABCD内接于⊙O，AD，BC的延长线相交于点E，AC，BD相交于点F．G是AB上一点，GD交AC于点H，且AB＝AC，BG＝DG．\n（1）求证：∠ABC＝∠DBE+∠E；\n（2）求证：$AH^{2}$＝HF•HC；\n（3）若tan∠ABC$=\\sqrt{5}$，AD＝2DE，CD$=\\sqrt{6}$，求△AGH的周长．\n![2025年福建省中考数学试卷_q025_img01](assets/2025年福建省中考数学试卷_q025_img01.png)\n2025年福建省中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用等腰三角形的性质定理和圆周角定理解答即可；\n（2）连接CD，利用等腰三角形的性质定理，圆周角定理和等腰三角形的判定定理得到AH＝HD，利用圆周角定理和相似三角形的判定与性质得到$HD^{2}$＝HC•HF，利用等量代换的性质解答即可得出结论；\n（3）连接AO并延长交CB于点M，连接CD，利用垂径定理得到AM⊥BC，CM＝BM，利用直角三角形的边角关系定理得到tan∠ABC$=\\frac{AM}{BM}=\\sqrt{5}$，设BM＝k，则AM$=\\sqrt{5}$k，BC＝2k，利用勾股定理得到AB，利用相似三角形的判定与性质得到$\\frac{BA}{EA}=\\frac{AD}{AB}$，得到k＝a，则DE＝k，AE＝3k，利用相似三角形的判定与性质求得CE＝k，再利用相似三角形的性质求得AB＝3$\\sqrt{6}$，最后利用三角形的周长的意义和等量代换的性质解答即可．\n【解答】（1）证明：∵AB＝AC，\n∴∠ABC＝∠ACB，\n∵∠ACB＝∠ADB，\n∴∠ABC＝∠ADB．\n∵∠ADB＝∠DBE+∠E，\n∴∠ABC＝∠DBE+∠E；\n（2）证明：连接CD，如图，\n[[image:rId59]]\n∵BG＝DG，\n∴∠ABD＝∠GDB，\n由（1）知：∠ABC＝∠ADB，\n∵∠ABC＝∠ABD+∠DBC，∠ADB＝∠GDB+∠GDA，\n∴∠DBE＝∠GDA，\n∵∠DBE＝∠CAD，\n∴∠CAD＝∠GDA，\n∴AH＝HD．\n∵∠ACD＝∠ABD，\n∴∠ACD＝∠GDB．\n∵∠CHD＝∠DHF，\n∴△CHD∽△DHF，\n∴$\\frac{HD}{HF}=\\frac{HC}{HD}$，\n∴$HD^{2}$＝HC•HF，\n∴$AH^{2}$＝HF•HC；\n（3）解：连接AO并延长交CB于点M，连接CD，如图，\n[[image:rId60]]\n∵AB＝AC，\n∴$AB=AC$，\n∴AM⊥BC，CM＝BM，\n∴tan∠ABC$=\\frac{AM}{BM}=\\sqrt{5}$，\n设BM＝k，则AM$=\\sqrt{5}$k，BC＝2k，\n∴AB$=\\sqrt{BM^{2}+AM^{2}}=\\sqrt{6}$k，\n∵AD＝2DE，\n∴设DE＝a，则AD＝2a，\n∴AE＝AD+DE＝3a．\n∵∠ADB＝∠ACB，∠ACB＝∠ABC，\n∴∠ADB＝∠ABC，\n∵∠BAD＝∠EAB，\n∴△BAD∽△EAB，\n∴$\\frac{BA}{EA}=\\frac{AD}{AB}$，\n∴$\\frac{\\sqrt{6}k}{3a}=\\frac{2a}{\\sqrt{6}k}$，\n∴k＝a，\n∴DE＝k，AE＝3k，\n∵四边形ABCD为圆的内接四边形，\n∴∠EDC＝∠ABC，\n∵∠E＝∠E，\n∴△EDC∽△EBA，\n∴$\\frac{DE}{BE}=\\frac{CE}{AE}$，\n∴$\\frac{k}{CE+2k}=\\frac{CE}{3k}$，\n∴$CE^{2}$+2k•CE﹣$3k^{2}$＝0，\n∵CE＞0，\n∴CE＝k，\n∵△EDC∽△EBA，\n∴$\\frac{CD}{AB}=\\frac{CE}{AE}$，\n∴$\\frac{\\sqrt{6}}{AB}=\\frac{k}{3k}$，\n∴AB＝3$\\sqrt{6}$．\n由（2）知：AH＝HD，BG＝DG，\n∴△AGH的周长＝AG+GH+AH\n＝AG+GH+HD\n＝AG+GD\n＝AG+GB\n＝AB\n＝3$\\sqrt{6}$．\n【点评】本题主要考查了圆的有关性质，圆周角定理，垂径定理，等腰三角形的判定与性质，三角形的外角的性质，相似三角形的判定与性质，直角三角形的性质，勾股定理，抓紧时间的边角关系定理，连接同弧所对的圆周角，作出等腰三角形的高线 是解决此类问题常添加的辅助线．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:36:02；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId62]] ____ [[image:rId63]] ____ [[image:rId64]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 14,
+      "images": [
+        {
+          "image_id": "2025年福建省中考数学试卷_q025_img01",
+          "path": "assets/2025年福建省中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质定理",
+          "圆周角定理",
+          "相似三角形的判定与性质",
+          "垂径定理"
+        ],
+        "reasoning": "题目（1）利用等腰三角形的性质定理和圆周角定理证明角度关系；（2）通过相似三角形的判定与性质和垂径定理证明AH²＝HF•HC；（3）结合相似三角形和勾股定理求解△AGH的周长。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质定理\", \"圆周角定理\", \"相似三角形的判定与性质\", \"垂径定理\"],\n  \"reasoning\": \"题目（1）利用等腰三角形的性质定理和圆周角定理证明角度关系；（2）通过相似三角形的判定与性质和垂径定理证明AH²＝HF•HC；（3）结合相似三角形和勾股定理求解△AGH的周长。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T05:32:57",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 25,
+      "ok": 25,
+      "fallback": 0
+    }
+  }
+}

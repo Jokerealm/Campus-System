@@ -1,0 +1,25 @@
+{
+  "dataset": "2025中考数学真题卷",
+  "processed_papers": 50,
+  "total_questions": 1248,
+  "total_images": 951,
+  "total_formula_marks": 8877,
+  "needs_review_questions": 0,
+  "validation_ok": true,
+  "question_count_range": [
+    18,
+    28
+  ],
+  "sample_outputs": [
+    {
+      "paper_id": "2025_000fc7a7",
+      "name": "2025年上海市中考数学试卷",
+      "focus": "幂、次方、向量、绝对值"
+    },
+    {
+      "paper_id": "2025_01b4925d",
+      "name": "2025年海南省中考数学试卷",
+      "focus": "表格、▲/★特殊符号、A/B/C/D/E等次不误切"
+    }
+  ]
+}

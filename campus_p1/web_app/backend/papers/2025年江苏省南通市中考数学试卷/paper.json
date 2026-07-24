@@ -1,0 +1,1167 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年江苏省南通市中考数学试卷",
+  "source": {
+    "name": "2025年江苏省南通市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年江苏省南通市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "计算（﹣2）×（﹣3），正确的结果是（ ）",
+      "stem_markdown": "计算（﹣2）×（﹣3），正确的结果是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣5"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "﹣6"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】利用有理数的乘法法则计算即可．\n【解答】解：原式＝+（2×3）＝6，\n故选：D．\n【点评】本题考查有理数的乘法，熟练掌握其运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "有理数的乘法"
+        ],
+        "reasoning": "题目要求计算（﹣2）×（﹣3），涉及有理数的乘法法则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"有理数的乘法\"],\n  \"reasoning\": \"题目要求计算（﹣2）×（﹣3），涉及有理数的乘法法则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "《2025年中国卫星导航与位置服务产业发展白皮书》显示，去年我国卫星导航与位置服务产业总产值达5758亿元．将“5758亿”用科学记数法表示为（ ）",
+      "stem_markdown": "《2025年中国卫星导航与位置服务产业发展白皮书》显示，去年我国卫星导航与位置服务产业总产值达5758亿元．将“5758亿”用科学记数法表示为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "5.758×10^{10}"
+        },
+        {
+          "label": "B",
+          "text": "5.758×10^{11}"
+        },
+        {
+          "label": "C",
+          "text": "0.5758×10^{12}"
+        },
+        {
+          "label": "D",
+          "text": "57.58×10^{10}"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：5758亿＝575800000000＝5.758×10^{11}．\n故选：B．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "小数点移动"
+        ],
+        "reasoning": "题目要求将5758亿用科学记数法表示，考察了科学记数法的表示方法及小数点移动的规则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"小数点移动\"],\n  \"reasoning\": \"题目要求将5758亿用科学记数法表示，考察了科学记数法的表示方法及小数点移动的规则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "如图，将△ABC沿着射线BC平移到△DEF．若BC＝6，EC＝4，则平移的距离为（ ）\n[图1]",
+      "stem_markdown": "如图，将△ABC沿着射线BC平移到△DEF．若BC＝6，EC＝4，则平移的距离为（ ）\n![2025年江苏省南通市中考数学试卷_q003_img01](assets/2025年江苏省南通市中考数学试卷_q003_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】求出BE的长即可判断．\n【解答】解：∵BC＝6，EC＝4，\n∴BE＝BC﹣EC＝6﹣4＝2，\n∴平移的距离为2．\n故选：A．\n【点评】本题考查平移变换，解题的关键是理解题意，灵活运用所学知识解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q003_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q003_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "线段长度计算",
+          "平移变换"
+        ],
+        "reasoning": "题目中通过计算BE的长度来确定平移的距离，涉及线段长度的减法运算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"线段长度计算\", \"平移变换\"],\n  \"reasoning\": \"题目中通过计算BE的长度来确定平移的距离，涉及线段长度的减法运算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "上午9时整，钟表的时针和分针构成的角的度数为（ ）",
+      "stem_markdown": "上午9时整，钟表的时针和分针构成的角的度数为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "30°"
+        },
+        {
+          "label": "B",
+          "text": "60°"
+        },
+        {
+          "label": "C",
+          "text": "90°"
+        },
+        {
+          "label": "D",
+          "text": "120°"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据时钟上一大格是30°进行计算，即可解答．\n【解答】解：由题意得：3×30°＝90°，\n故选：C．\n【点评】本题考查了钟面角，熟练掌握时钟上一大格是30°是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "角度制",
+          "时钟上的角度"
+        ],
+        "reasoning": "计算上午9时整时针和分针之间的角度，使用了一大格是30°的规则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"角度制\", \"时钟上的角度\"],\n  \"reasoning\": \"计算上午9时整时针和分针之间的角度，使用了一大格是30°的规则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "已知直线y＝kx+b经过第一、第二、第三象限，则k，b的取值范围是（ ）",
+      "stem_markdown": "已知直线y＝kx+b经过第一、第二、第三象限，则k，b的取值范围是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "k＜0，b＜0"
+        },
+        {
+          "label": "B",
+          "text": "k＜0，b＞0"
+        },
+        {
+          "label": "C",
+          "text": "k＞0，b＜0"
+        },
+        {
+          "label": "D",
+          "text": "k＞0，b＞0"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】依据题意，由直线y＝kx+b经过第一、第二、第三象限，则k＞0，b＞0，进而可以判断得解．\n【解答】解：由题意，∵直线y＝kx+b经过第一、第二、第三象限，\n∴k＞0，b＞0．\n故选：D．\n【点评】本题主要考查了一次函数的图象与系数的关系，解题时要能熟练掌握并能灵活一次函数的性质是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数的图像与系数关系"
+        ],
+        "reasoning": "直线y=kx+b经过第一、第二、第三象限，判断k和b的符号",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数的图像与系数关系\"],\n  \"reasoning\": \"直线y=kx+b经过第一、第二、第三象限，判断k和b的符号\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图是一个几何体的三视图（图中尺寸单位：cm），则这个几何体的底面圆的周长为（ ）\n[图1]",
+      "stem_markdown": "如图是一个几何体的三视图（图中尺寸单位：cm），则这个几何体的底面圆的周长为（ ）\n![2025年江苏省南通市中考数学试卷_q006_img01](assets/2025年江苏省南通市中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "6πcm"
+        },
+        {
+          "label": "B",
+          "text": "9πcm"
+        },
+        {
+          "label": "C",
+          "text": "12πcm"
+        },
+        {
+          "label": "D",
+          "text": "16πcm"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】由主视图和左视图确定是柱体，锥体还是球体，再由俯视图确定具体形状，根据勾股定理确定出圆锥的底面半径，从而确定出底面周长．\n【解答】解：由主视图和左视图为三角形判断出是锥体，由俯视图是圆形可判断出这个几何体应该是圆锥；\n根据三视图知：该圆锥的底面半径为3cm，\n则该几何体的底面周长为＝2×3π＝6π（cm）．\n故选：A．\n【点评】此题考查由三视图判断几何体，同时也体现了对空间想象能力方面的考查．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q006_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆锥的三视图",
+          "勾股定理",
+          "圆的周长公式"
+        ],
+        "reasoning": "由俯视图判断出是圆锥，由主视图和左视图判断出是锥体，根据勾股定理求出底面半径，进而求出周长。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆锥的三视图\", \"勾股定理\", \"圆的周长公式\"],\n  \"reasoning\": \"由俯视图判断出是圆锥，由主视图和左视图判断出是锥体，根据勾股定理求出底面半径，进而求出周长。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "在平面直角坐标系xOy中，将点A（3，1）绕原点O逆时针旋转90°，得到点B，则点B的坐标为（ ）",
+      "stem_markdown": "在平面直角坐标系xOy中，将点A（3，1）绕原点O逆时针旋转90°，得到点B，则点B的坐标为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "（3，﹣1）"
+        },
+        {
+          "label": "B",
+          "text": "（﹣1，3）"
+        },
+        {
+          "label": "C",
+          "text": "（1，﹣3）"
+        },
+        {
+          "label": "D",
+          "text": "（﹣3，1）"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】建立平面直角坐标系，数形结合求出点B的坐标即可．\n【解答】解：如图所示，建立平面直角坐标系，\n[[image:rId28]]\n由图可知：B（﹣1，3）；\n故选：B．\n【点评】本题考查了坐标与图形变化一旋转，利用数形结合的思想求解更形象直观．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "旋转变换",
+          "坐标系中的旋转",
+          "逆时针旋转"
+        ],
+        "reasoning": "题中描述了点A绕原点旋转90°，设问要求找到旋转后的点B坐标。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"旋转变换\", \"坐标系中的旋转\", \"逆时针旋转\"],\n  \"reasoning\": \"题中描述了点A绕原点旋转90°，设问要求找到旋转后的点B坐标。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "在△ABC中，∠C＝90°，tanA=\\frac{1}{2}，AC＝2\\sqrt{5}，则BC的长为（ ）",
+      "stem_markdown": "在△ABC中，∠C＝90°，tanA$=\\frac{1}{2}$，AC＝2$\\sqrt{5}$，则BC的长为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{5}$"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】依题意画出示意图，根据正切函数的定义得tanA$=\\frac{BC}{AC}=\\frac{1}{2}$，再根据AC$=2\\sqrt{5}$即可得出BC的长．\n【解答】解：如图所示：\n[[image:rId29]]\n在△ABC中，∠C＝90°，tanA$=\\frac{1}{2}$，\n∴tanA$=\\frac{BC}{AC}=\\frac{1}{2}$，\n∵AC$=2\\sqrt{5}$，\n∴BC$=\\frac{1}{2}$AC$=\\sqrt{5}$．\n故选：C．\n【点评】此题主要考查了解直角三角形，熟练掌握正切函数的定义是解决问题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数的定义",
+          "勾股定理"
+        ],
+        "reasoning": "tanA = BC / AC = 1/2，AC = 2√5，求BC",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数的定义\", \"勾股定理\"],\n  \"reasoning\": \"tanA = BC / AC = 1/2，AC = 2√5，求BC\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，在等边三角形ABC的三边上，分别取点D，E，F，使AD＝BE＝CF．若AB＝4，AD＝x，△DEF的面积为y，则y关于x的函数图象大致为（ ）\n[图1]",
+      "stem_markdown": "如图，在等边三角形ABC的三边上，分别取点D，E，F，使AD＝BE＝CF．若AB＝4，AD＝x，△DEF的面积为y，则y关于x的函数图象大致为（ ）\n![2025年江苏省南通市中考数学试卷_q009_img01](assets/2025年江苏省南通市中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年江苏省南通市中考数学试卷_q009_img02](assets/2025年江苏省南通市中考数学试卷_q009_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年江苏省南通市中考数学试卷_q009_img03](assets/2025年江苏省南通市中考数学试卷_q009_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年江苏省南通市中考数学试卷_q009_img04](assets/2025年江苏省南通市中考数学试卷_q009_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年江苏省南通市中考数学试卷_q009_img05](assets/2025年江苏省南通市中考数学试卷_q009_img05.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】过点C作CH⊥AB于点H，过点D作DK⊥AC于点K，根据等边三角形性质得AB＝BC＝CA＝4，∠A＝∠B＝∠C＝60°，根据AD＝BE＝CF＝x得AF＝BD＝CE＝4﹣x，由此依据“SAS”判定△ADF≌△BED≌△CFE得$S_{△}_{ADF}＝S_{△}_{BED}＝S_{△}_{CFE}$，则y＝$S_{△}_{ABC}$﹣3•$S_{△}_{ADF}$，再求出CH$=2\\sqrt{3}$得$S_{△}_{ABC}=\\frac{1}{2}$AB•CH$=4\\sqrt{3}$，解Rt△ADK得DK$=\\frac{\\sqrt{3}x}{2}$，则$S_{△}_{ADF}=\\frac{1}{2}$AF•DK$=\\sqrt{3}x-\\frac{\\sqrt{3}x^{2}}{4}$，进而得y$=\\frac{3\\sqrt{3}}{4}x^{2}-3\\sqrt{3}x+4\\sqrt{3}=\\frac{3\\sqrt{3}}{4}(x-2)^{2}+\\sqrt{3}$，由此得y关于x的函数图象开口向上，当x＝2，y的最小值为$\\sqrt{3}$，据此可得出答案．\n【解答】解：过点C作CH⊥AB于点H，过点D作DK⊥AC于点K，如图所示：\n[[image:rId35]]\n∵△ABC是等边三角形，AB＝4，\n∴AB＝BC＝CA＝4，∠A＝∠B＝∠C＝60°，\n∵AD＝BE＝CF＝x，\n∴AF＝BD＝CE＝4﹣x，\n在△ADF，△BED和△CFE中，\n$\\begin{cases} AD=BE=CF \\\\ ∠A=∠B=∠C \\\\ AF=BD=CE \\end{cases}$，\n∴△ADF≌△BED≌△CFE（SAS），\n∴$S_{△}_{ADF}＝S_{△}_{BED}＝S_{△}_{CFE}$，\n∴$S_{△}_{DEF}＝S_{△}_{ABC}$﹣3•$S_{△}_{ADF}$，\n即y＝$S_{△}_{ABC}$﹣3•$S_{△}_{ADF}$，\n∵CH⊥AB，\n∴AH＝BH$=\\frac{1}{2}$AB＝2，\n在Rt△ACH中，由勾股定理得：CH$=\\sqrt{AC^{2}-AH^{2}}=\\sqrt{4^{2}-2^{2}}=$$2\\sqrt{3}$，\n∴$S_{△}_{ABC}=\\frac{1}{2}$AB•CH$=\\frac{1}{2}×4×\\frac{\\sqrt{3}}{2}=4\\sqrt{3}$，\n∵DK⊥AC于点K，\n在Rt△ADK中，∠A＝60°，AD＝x，sinA$=\\frac{DK}{AD}$，\n∴DK＝AD•sinA＝x•sin60°$=\\frac{\\sqrt{3}x}{2}$，\n∴$S_{△}_{ADF}=\\frac{1}{2}$AF•DK$=\\frac{1}{2}×(4-x)×\\frac{\\sqrt{3}x}{2}=\\sqrt{3}x-\\frac{\\sqrt{3}}{4}x^{2}$，\n∴y$=4\\sqrt{3}-3×(\\sqrt{3}x-\\frac{\\sqrt{3}}{4}x^{2})=\\frac{3\\sqrt{3}}{4}x^{2}-3\\sqrt{3}x+4\\sqrt{3}=$$\\frac{3\\sqrt{3}}{4}(x-2)^{2}+\\sqrt{3}$，其中0≤x≤4，\n∴y关于x的函数图象开口向上，当x＝0时，y$=4\\sqrt{3}$，当x＝4时，y$=4\\sqrt{3}$，当x＝2，y的最小值为$\\sqrt{3}$，\n∴选项A，C，D均不符合题意，选项B符合题意，\n故选：B．\n【点评】此题主要考查了等边三角形的性质，全等三角形的判定与性质，二次函数的图象和性质，理解等边三角形的性质，熟练掌握全等三角形的判定与性质，二次函数的图象和性质是解决问题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q009_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q009_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q009_img02",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q009_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q009_img03",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q009_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q009_img04",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q009_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q009_img05",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q009_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形",
+          "等边三角形性质",
+          "二次函数",
+          "勾股定理"
+        ],
+        "reasoning": "题目通过等边三角形性质和相似三角形判定求解△DEF面积与x的关系，涉及二次函数图象。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形\", \"等边三角形性质\", \"二次函数\", \"勾股定理\"],\n  \"reasoning\": \"题目通过等边三角形性质和相似三角形判定求解△DEF面积与x的关系，涉及二次函数图象。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "在平面直角坐标系xOy中，五个点的坐标分别为A（﹣1，5），B（1，2），C（2，1），D（3，﹣1），E（5，5）．若抛物线y＝a（x﹣2）²+k（a＞0）经过上述五个点中的三个点，则满足题意的a的值不可能为（ ）",
+      "stem_markdown": "在平面直角坐标系xOy中，五个点的坐标分别为A（﹣1，5），B（1，2），C（2，1），D（3，﹣1），E（5，5）．若抛物线y＝a（x﹣2）^{2}+k（a＞0）经过上述五个点中的三个点，则满足题意的a的值不可能为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{9}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{4}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据已知点的坐标特征和抛物线的对称性得到：点A、E同时在抛物线上或同时不在抛物线上，然后分四种情况利用待定系数法求得a的值，即可判断．\n【解答】解：∵抛物线y＝a（x﹣2）^{2}+k（a＞0）\n∴抛物线开口向上，对称轴为直线x＝2．\n∵A（﹣1，5），E（5，5），且$\\frac{-1+5}{2}=$2，\n∴点A、E同时在抛物线上或同时不在抛物线上．\n当抛物线过A、E、B时，\n把B（1，2），A（﹣1，5）代入得$\\begin{cases} a(1-2)^{2}+k=2 \\\\ a(-1-2)^{2}+k=5 \\end{cases}$，\n解得a$=\\frac{3}{8}$；\n当抛物线过A、E、C时，\n把A（﹣1，5），C（2，1）代入得$\\begin{cases} a(-1-2)^{2}+k=5 \\\\ a(2-2)^{2}+k=1 \\end{cases}$，\n解得a$=\\frac{4}{9}$，\n当抛物线过A、E、D时，\n把A（﹣1，5），D（3，﹣1）代入得$\\begin{cases} a(-1-2)^{2}+k=5 \\\\ a(3-2)^{2}+k=-1 \\end{cases}$，\n解得a$=\\frac{3}{4}$，\n当抛物线过B、C、D时，\n把C（2，1）代入解析式求得k＝1，\n∴y＝a（x﹣2）^{2}+1，\n把B（1，2）代入得a+1＝2，解得a＝1，\n把D（3，﹣1）代入得a+1＝﹣1，解得a＝﹣2，\n∴B、C、D三点不能同时在抛物线上，\n综上，a的值可能为$\\frac{3}{8}$，$\\frac{4}{9}$，$\\frac{3}{4}$，不可能为$\\frac{2}{3}$，\n故选：C．\n【点评】本题综合考查了二次函数图象与系数的关系，二次函数图象上点的坐标特征，待定系数法求二次函数解析式，二次函数图象的对称性，分类讨论是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的图像与性质",
+          "待定系数法",
+          "抛物线的对称性",
+          "分类讨论"
+        ],
+        "reasoning": "抛物线经过特定三点，通过待定系数法求解a值，考虑对称性和分类讨论",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的图像与性质\", \"待定系数法\", \"抛物线的对称性\", \"分类讨论\"],\n  \"reasoning\": \"抛物线经过特定三点，通过待定系数法求解a值，考虑对称性和分类讨论\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "分解因式am+a＝ ____ ．",
+      "stem_markdown": "分解因式am+a＝ ____ ．",
+      "options": [],
+      "answer": "a（m+1）．",
+      "solution": "【分析】将原式提取公因式a即可．\n【解答】解：原式＝a（m+1），\n故答案为：a（m+1）．\n【点评】本题考查提公因式法因式分解，找到正确的公因式是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式法",
+          "因式分解"
+        ],
+        "reasoning": "原式提取公因式a",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式法\", \"因式分解\"],\n  \"reasoning\": \"原式提取公因式a\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "若\\sqrt{x-3}在实数范围内有意义，则实数x的取值范围为 ____ ．",
+      "stem_markdown": "若$\\sqrt{x-3}$在实数范围内有意义，则实数x的取值范围为 ____ ．",
+      "options": [],
+      "answer": "x≥3．",
+      "solution": "【分析】根据二次根式的被开方数是非负数即可得出答案．\n【解答】解：∵x﹣3≥0，\n∴x≥3．\n故答案为：x≥3．\n【点评】本题考查了二次根式有意义的条件，掌握二次根式的被开方数是非负数是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式",
+          "二次根式"
+        ],
+        "reasoning": "条件 x-3≥0 考察了二次根式被开方数非负的条件",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式\", \"二次根式\"],\n  \"reasoning\": \"条件 x-3≥0 考察了二次根式被开方数非负的条件\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "南通是“建筑之乡”，工程建筑中经常采用三角形的结构．如图是屋架设计图的一部分，E是斜梁AC的中点，立柱AD，EF垂直于横梁BC．若AC＝4.8m，∠C＝30°，则EF的长为 ____ m．\n[图1]",
+      "stem_markdown": "南通是“建筑之乡”，工程建筑中经常采用三角形的结构．如图是屋架设计图的一部分，E是斜梁AC的中点，立柱AD，EF垂直于横梁BC．若AC＝4.8m，∠C＝30°，则EF的长为 ____ m．\n![2025年江苏省南通市中考数学试卷_q013_img01](assets/2025年江苏省南通市中考数学试卷_q013_img01.png)",
+      "options": [],
+      "answer": "1.2．",
+      "solution": "【分析】根据含30°角的直角三角形的性质即可得到结论．\n【解答】解：∵E是斜梁AC的中点，AC＝4.8m，\n∴CE$=\\frac{1}{2}$AC＝2.4m，\n∵EF⊥BC，\n∴∠EFC＝90°，\n∵∠C＝30°，\n∴EF$=\\frac{1}{2}$CE＝1.2（m），\n故答案为：1.2．\n【点评】本题考查了含30°角的直角三角形，熟练掌握含30°角的直角三角形的性质是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q013_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q013_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "含30°角的直角三角形的性质",
+          "中点的性质",
+          "垂直线段的定义"
+        ],
+        "reasoning": "题中利用E是斜梁AC的中点和EF⊥BC得出EF是CE的一半，涉及含30°角的直角三角形的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"含30°角的直角三角形的性质\", \"中点的性质\", \"垂直线段的定义\"],\n  \"reasoning\": \"题中利用E是斜梁AC的中点和EF⊥BC得出EF是CE的一半，涉及含30°角的直角三角形的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "把一根长10m的钢管截成3m长和1m长两种规格的钢管．为了不造成浪费，可能截得钢管的总根数为 ____ （写出一种情况即可）．",
+      "stem_markdown": "把一根长10m的钢管截成3m长和1m长两种规格的钢管．为了不造成浪费，可能截得钢管的总根数为 ____ （写出一种情况即可）．",
+      "options": [],
+      "answer": "8或6或4．",
+      "solution": "【分析】设可以截成x根3m长的钢管，y根1m长的钢管，根据把一根长10m的钢管截成3m长和1m长两种规格的钢管，列出二元一次方程，求出正整数解，即可解决问题．\n【解答】解：设可以截成x根3m长的钢管，y根1m长的钢管，\n根据题意得：3x+y＝10，\n∴y＝10﹣3x，\n又∵x、y均为正整数，\n∴$\\begin{cases} x=1 \\\\ y=7 \\end{cases}$或$\\begin{cases} x=2 \\\\ y=4 \\end{cases}$或$\\begin{cases} x=3 \\\\ y=1 \\end{cases}$，\n∴共有3种不同的截法，x+y＝8或6或4，\n∴可能截得钢管的总根数为8或6或4，\n故答案为：8或6或4．\n【点评】本题考查了二元一次方程的应用，找准等量关系，正确列出二元一次方程是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方程组应用",
+          "代数方程",
+          "正整数解"
+        ],
+        "reasoning": "题中通过方程3x+y=10求解x、y的正整数解来确定钢管的截法",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方程组应用\", \"代数方程\", \"正整数解\"],\n  \"reasoning\": \"题中通过方程3x+y=10求解x、y的正整数解来确定钢管的截法\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，一块砖的A，B，C三个面的面积比是5：3：1．如果B面向下放在地上，地面所受压强为aPa，那么C面向下放在地上时，地面所受压强为 ____ Pa．\n[图1]",
+      "stem_markdown": "如图，一块砖的A，B，C三个面的面积比是5：3：1．如果B面向下放在地上，地面所受压强为aPa，那么C面向下放在地上时，地面所受压强为 ____ Pa．\n![2025年江苏省南通市中考数学试卷_q015_img01](assets/2025年江苏省南通市中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "3a．",
+      "solution": "【分析】根据题意：设该砖的质量为m，其为定值，且有P•S＝mg，即P与S成反比例关系，且B面向下放在地上时地面所受压强为a帕，则把砖的C面向下放在地上时，地面所受压强是3a帕．\n【解答】解：设该砖的质量为m，则P•S＝mg，\n即P与S成反比例关系，\n∵B的面积：C的面积＝3：1，\nB面向下放在地上，地面所受压强为aPa，\n∴把砖的C面向下放在地上时，地面所受压强为：3a帕．\n故答案为：3a．\n【点评】本题考查了列代数式，解题的关键根据压强的关系式来进行解答．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q015_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数",
+          "压强公式",
+          "相似三角形"
+        ],
+        "reasoning": "压强公式 P=mg/S，B面向下压强为aPa，C面向下压强为3aPa",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数\", \"压强公式\", \"相似三角形\"],\n  \"reasoning\": \"压强公式 P=mg/S，B面向下压强为aPa，C面向下压强为3aPa\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "我国南宋数学家秦九韶曾提出利用三角形的三边求面积的公式：一个三角形的三边长分别为a，b，c，三角形的面积S=\\sqrt{\\frac{1}{4}[a^{2}b^{2}-((\\frac{a^{2}+b^{2}-c^{2}}{2}))^{2}]}．若a＝2\\sqrt{2}，b＝3，c＝1，则S的值为 ____ ．",
+      "stem_markdown": "我国南宋数学家秦九韶曾提出利用三角形的三边求面积的公式：一个三角形的三边长分别为a，b，c，三角形的面积S$=\\sqrt{\\frac{1}{4}[a^{2}b^{2}-((\\frac{a^{2}+b^{2}-c^{2}}{2}))^{2}]}$．若a＝2$\\sqrt{2}$，b＝3，c＝1，则S的值为 ____ ．",
+      "options": [],
+      "answer": "$\\sqrt{2}$．",
+      "solution": "【分析】利用给出的三角形的面积公式计算即可．\n【解答】解：由题意得$a^{2}$＝8，$b^{2}$＝9，$c^{2}$＝1，\n∴$a^{2}b^{2}$＝72，$\\frac{a^{2}+b^{2}-c^{2}}{2}=$8，\n∴S$=\\sqrt{\\frac{1}{4}(72-8^{2})}=\\sqrt{2}$．\n故答案为：$\\sqrt{2}$．\n【点评】本题考查了二次根式的知识，掌握二次根式计算方法是解题关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式计算",
+          "勾股定理逆定理",
+          "三角形面积公式"
+        ],
+        "reasoning": "计算三角形面积时使用了二次根式计算和三角形面积公式",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式计算\", \"勾股定理逆定理\", \"三角形面积公式\"],\n  \"reasoning\": \"计算三角形面积时使用了二次根式计算和三角形面积公式\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "blank",
+      "stem_text": "在平面直角坐标系中，以点A（3，0）为圆心，\\sqrt{13}为半径作⊙A．直线y＝kx﹣3k+2与⊙A交于B，C两点，则BC的最小值为 ____ ．",
+      "stem_markdown": "在平面直角坐标系中，以点A（3，0）为圆心，$\\sqrt{13}$为半径作⊙A．直线y＝kx﹣3k+2与⊙A交于B，C两点，则BC的最小值为 ____ ．",
+      "options": [],
+      "answer": "6．",
+      "solution": "【分析】对于y＝kx﹣3k+2，当x＝3时，y＝2得直线y＝kx﹣3k+2过定点（3，2），再求出AP＝2$＜\\sqrt{13}$得点P在⊙A内部，根据垂径定理得当直线y＝kx﹣3k+2与AP垂直时，BC为最小，此时BC＝2BP，在Rt△ABP中，由勾股定理求出BP＝3，进而可得BC的最小值．\n【解答】解：对于y＝kx﹣3k+2，当x＝3时，y＝2，\n∴直线y＝kx﹣3k+2过定点P（3，2），\n∵点A（3，0），\n∴AP$=\\sqrt{(3-3)^{2}+(2-0)^{2}}=$2，\n又∵⊙A的半径为$\\sqrt{13}$，AP$＜\\sqrt{13}$，\n∴点P在⊙A内部，\n根据垂径定理得：当直线y＝kx﹣3k+2与AP垂直时，BC为最小，如图所示：\n[[image:rId38]]\n则BP＝CP，\n∴BC＝2BP，\n在Rt△ABP中，AB$=\\sqrt{13}$，AP＝2，\n由勾股定理得：BP$=\\sqrt{AB^{2}-AP^{2}}=\\sqrt{(\\sqrt{13})^{2}-2^{2}}=$3，\n∴BC＝2BP＝6，\n即BC的最小值为6．\n故答案为：6．\n【点评】此题主要考查了一次函数的图象，垂径定理，熟练掌握一次函数的图象，垂径定理，勾股定理是解决问题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "垂径定理",
+          "勾股定理",
+          "一次函数的图象"
+        ],
+        "reasoning": "垂径定理的应用及勾股定理解三角形",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"垂径定理\", \"勾股定理\", \"一次函数的图象\"],\n  \"reasoning\": \"垂径定理的应用及勾股定理解三角形\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "blank",
+      "stem_text": "如图，网格图中每个小正方形的面积都为1．经过网格点A的一条直线，把网格图分成了两个部分，其中△BMN的面积为3，则sin∠MNB的值为 ____ ．\n[图1]",
+      "stem_markdown": "如图，网格图中每个小正方形的面积都为1．经过网格点A的一条直线，把网格图分成了两个部分，其中△BMN的面积为3，则sin∠MNB的值为 ____ ．\n![2025年江苏省南通市中考数学试卷_q018_img01](assets/2025年江苏省南通市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】设NC＝x，证明△ANC∽△MAD，可求得$MD=\\frac{1}{x}$，根据△BMN的面积为3，得到$S_{△}_{AMD}+S_{△}_{ANC}$＝2，求得x$+\\frac{1}{x}=$4，解方程得到x＝2$+\\sqrt{3}$，根据勾股定理求得AN$=\\sqrt{2}+\\sqrt{6}$，最后得到sin∠MNB的值．\n【解答】解：如图，在图中标注C，D，\n[[image:rId40]]\n设NC＝x，\n∵AD∥NB，\n∴∠MAD＝∠ANC，\n∵∠MDA＝∠ACN，\n∴△ANC∽△MAD，\n∵AC＝AD＝1，\n∴$MD=\\frac{1}{x}$，\n∵△BMN的面积为3，网格图中每个小正方形的面积都为1，\n∴$S_{△}_{AMD}+S_{△}_{ANC}$＝3﹣1＝2，\n∴$\\frac{1}{2}×$MD×AD$+\\frac{1}{2}×$NC×AC＝2，\n即$\\frac{1}{2}×\\frac{1}{x}×1+\\frac{1}{2}x×1=$2，\n∴x$+\\frac{1}{x}=$4，\n解得$x_{1}$＝2$+\\sqrt{3}$，$x_{2}$＝2$-\\sqrt{3}$（舍去），\n∵$AN^{2}＝AC^{2}+NC^{2}$\n＝1+4+4$\\sqrt{3}+$3\n＝8+4$\\sqrt{3}$，\n∴AN$=\\sqrt{2}+\\sqrt{6}$，\n∴sin∠MNB＝sin∠ANC$=\\frac{1}{\\sqrt{2}+\\sqrt{6}}=\\frac{\\sqrt{6}-\\sqrt{2}}{4}$．\n【点评】本题主要考查了解直角三角形，相似三角形的判定与性质，三角形的面积等，掌握以上性质是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q018_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的判定与性质",
+          "三角形面积计算",
+          "勾股定理",
+          "正弦函数"
+        ],
+        "reasoning": "题中通过相似三角形△ANC∽△MAD计算面积关系，涉及三角形面积公式和勾股定理求解边长，最终利用正弦函数求解角度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的判定与性质\", \"三角形面积计算\", \"勾股定理\", \"正弦函数\"],\n  \"reasoning\": \"题中通过相似三角形△ANC∽△MAD计算面积关系，涉及三角形面积公式和勾股定理求解边长，最终利用正弦函数求解角度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "（1）解不等式组\\begin{cases} 2x-1＜x+1 \\\\ x+8＞4x-1 \\end{cases}；\n（2）计算(\\frac{3}{a+3}+1)⋅\\frac{a^{2}-9}{a+6}．",
+      "stem_markdown": "（1）解不等式组$\\begin{cases} 2x-1＜x+1 \\\\ x+8＞4x-1 \\end{cases}$；\n（2）计算$(\\frac{3}{a+3}+1)⋅\\frac{a^{2}-9}{a+6}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）解各不等式得出对应的解集后再求得它们的公共部分即可；\n（2）将括号内的分式通分并计算，然后再算乘法即可．\n【解答】解：（1）解第一个不等式得：x＜2，\n解第二个不等式得：x＜3，\n故原不等式组的解集为x＜2；\n（2）原式$=\\frac{3+a+3}{a+3}•\\frac{(a+3)(a-3)}{a+6}$\n$=\\frac{a+6}{a+3}•\\frac{(a+3)(a-3)}{a+6}$\n＝a﹣3．\n【点评】本题考查分式的混合运算，解一元一次不等式组，熟练掌握相关运算法则及解不等式组的方法是解题的关键．",
+      "full_score": 12,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组的解法",
+          "分式的加减乘除运算"
+        ],
+        "reasoning": "第（1）问解不等式组涉及一元一次不等式的解法；第（2）问计算分式表达式涉及分式的加减乘除运算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组的解法\", \"分式的加减乘除运算\"],\n  \"reasoning\": \"第（1）问解不等式组涉及一元一次不等式的解法；第（2）问计算分式表达式涉及分式的加减乘除运算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "请从下列四个命题中选取两个命题，并判断所选命题是真命题还是假命题．如果是真命题，给出证明；如果是假命题，举出反例．\n（1）若a²＝b²，则a＝b；\n（2）对于任意实数x，y，一定有x²+y²＞2xy；\n（3）两个连续正奇数的平方差一定是8的倍数；\n（4）一组对边平行，另一组对边相等的四边形一定是平行四边形．",
+      "stem_markdown": "请从下列四个命题中选取两个命题，并判断所选命题是真命题还是假命题．如果是真命题，给出证明；如果是假命题，举出反例．\n（1）若$a^{2}＝b^{2}$，则a＝b；\n（2）对于任意实数x，y，一定有$x^{2}+y^{2}$＞2xy；\n（3）两个连续正奇数的平方差一定是8的倍数；\n（4）一组对边平行，另一组对边相等的四边形一定是平行四边形．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）因为$a^{2}＝b^{2}$，所以$a^{2}＝b^{2}$＝0，即（a+b）（a﹣b）＝0，所以a+b＝0或a﹣b＝0，得a＝﹣b或a＝b，举个例子即可；\n（2）因为（x﹣y）^{2}≥0，所以$x^{2}+y^{2}$﹣2xy≥0，所以$x^{2}+y^{2}$≥2xy，举例判断本题错误；\n（3）设两个连续的正奇数为2k﹣1，2k+l（k为正整数），（2k+1）^{2}﹣（2k﹣1）^{2}＝8k，据此可得本题正确；\n（4）梯形是一组对边平行，另一组对边相等的四边形，但并不是平行四边形，据此解答．\n【解答】解：（1）（2）（4）都是假命题．（3）是真命题．\n（1）是假命题，反例：当a＝2，b＝﹣2时，结论不成立；\n（2）是假命题，反例：当x＝y时结论不成立；\n（3）是真命题，证明如下：\n设两个连续的正奇数为2k﹣1，2k+l（k为正整数），\n（2k+1）^{2}﹣（2k﹣1）^{2}\n＝$4k^{2}$+4k+1﹣（$4k^{2}$﹣4k+1）\n＝8k，\n∵k为正整数，\n∴8k是8的倍数，\n∴两个连续正奇数的平方差一定是8的倍敛．\n（4）是假命题，反例：当四边形为等腰梯形时结论不成立．\n【点评】本题考查了因式分解的应用、平行四边形的判定、命题与定理，解决本题的关键是熟练运用平方差公式和完全平方公式解决问题．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "因式分解",
+          "完全平方公式",
+          "平方差公式",
+          "平行四边形的判定"
+        ],
+        "reasoning": "题目涉及因式分解、完全平方公式、平方差公式以及平行四边形的判定。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"因式分解\", \"完全平方公式\", \"平方差公式\", \"平行四边形的判定\"],\n  \"reasoning\": \"题目涉及因式分解、完全平方公式、平方差公式以及平行四边形的判定。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "为提升学生体质健康水平，促进学生全面发展，某校大课间共开展6项体育活动，每名学生均参加了其中一项活动．为了解该校学生参与大课间体育活动情况，随机抽取了该校50名学生进行调查，得到如下未完成的统计表．\n体育活动 | 足球 | 篮球 | 排球 | 乒乓球 | 跳绳 | 啦啦操\n人数 | 6 | a | 10 | 9 | 8 | 5\n（1）表格中a的值为 ____ ；\n（2）若该校有1000名学生，请估计该校参加足球活动的学生人数；\n（3）为备战校际篮球联赛，学校计划从参加篮球活动的甲、乙两名同学中选拔一人加入校篮球队．已知甲、乙两名同学近六周定点投篮测试成绩（每次测试共有10次投篮机会，以命中次数作为测试成绩）如图所示．你建议选拔哪名同学，请说明理由．\n[图1]",
+      "stem_markdown": "为提升学生体质健康水平，促进学生全面发展，某校大课间共开展6项体育活动，每名学生均参加了其中一项活动．为了解该校学生参与大课间体育活动情况，随机抽取了该校50名学生进行调查，得到如下未完成的统计表．\n| 体育活动 | 足球 | 篮球 | 排球 | 乒乓球 | 跳绳 | 啦啦操 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 人数 | 6 | a | 10 | 9 | 8 | 5 |\n（1）表格中a的值为 ____ ；\n（2）若该校有1000名学生，请估计该校参加足球活动的学生人数；\n（3）为备战校际篮球联赛，学校计划从参加篮球活动的甲、乙两名同学中选拔一人加入校篮球队．已知甲、乙两名同学近六周定点投篮测试成绩（每次测试共有10次投篮机会，以命中次数作为测试成绩）如图所示．你建议选拔哪名同学，请说明理由．\n![2025年江苏省南通市中考数学试卷_q021_img01](assets/2025年江苏省南通市中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "12",
+      "solution": "【分析】（1）根据6种体育活动的总人数为50人可得a的值；\n（2）总人数乘以样本中足球人数所占比例即可；\n（3）求出甲、乙的平均成绩，比较后再进一步求解即可（答案不唯一）．\n【解答】解：（1）a＝50﹣（6+10+9+8+5）＝12，\n故答案为：12；\n（2）1000$×\\frac{6}{50}=$120（人），\n答：估计该校参加足球活动的学生人数约为120人；\n（3）选择甲，\n由图知，$(\\overline{x})_{甲}=\\frac{1}{6}×$（8+7+6+7+8+6）＝7，$(\\overline{x})_{乙}=\\frac{1}{6}×$（3+4+7+8+10+10）＝7，\n所以$(\\overline{x})_{甲}=(\\overline{x})_{乙}$，\n又因为甲成绩明显比乙成绩更稳定，\n所以选择甲（答案不唯一）．\n【点评】本题考查了折线统计图、统计表以及用样本估计总体的知识，此题综合性较强，难度适中．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q021_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率分布统计",
+          "样本估计总体",
+          "平均数计算",
+          "稳定性分析"
+        ],
+        "reasoning": "第（1）问通过总人数和已知人数计算未知人数；第（2）问利用样本估计总体的方法估算全校足球活动人数；第（3）问通过计算平均成绩和稳定性分析来决定选拔谁参加比赛。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率分布统计\", \"样本估计总体\", \"平均数计算\", \"稳定性分析\"],\n  \"reasoning\": \"第（1）问通过总人数和已知人数计算未知人数；第（2）问利用样本估计总体的方法估算全校足球活动人数；第（3）问通过计算平均成绩和稳定性分析来决定选拔谁参加比赛。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "为继承和弘扬中华优秀传统文化，某校将八年级学生随机安排到以下四个场所参加社会实践活动．\n[图1]\n已知小明、小华、小丽都是该校八年级学生，求下列事件的概率：\n（1）小明到南通博物苑参加社会实践活动；\n（2）小华和小丽都到南通美术馆参加社会实践活动．",
+      "stem_markdown": "为继承和弘扬中华优秀传统文化，某校将八年级学生随机安排到以下四个场所参加社会实践活动．\n![2025年江苏省南通市中考数学试卷_q022_img01](assets/2025年江苏省南通市中考数学试卷_q022_img01.png)\n已知小明、小华、小丽都是该校八年级学生，求下列事件的概率：\n（1）小明到南通博物苑参加社会实践活动；\n（2）小华和小丽都到南通美术馆参加社会实践活动．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）直接利用概率公式即可得出小明到南通博物苑参加社会实践活动的概率；\n（2）利用列表展示16种等可能的结果数，从中找到小华和小丽都到南通美术馆参加社会实践活动的结果数，根据概率公式计算可得．\n【解答】解：（1）图中社会实践活动分别用①，②，③，④，表示，\n则小明到南通博物苑参加社会实践活动的概率为$\\frac{1}{4}$；\n（2）列表如下：\n| 小丽 小华 | ① | ② | ③ | ④ |\n| --- | --- | --- | --- | --- |\n| ① | ①① | ①② | ①③ | ①④ |\n| ② | ②① | ②② | ②③ | ②④ |\n| ③ | ③① | ③② | ③③ | ③④ |\n| ④ | ④① | ④② | ④③ | ④④ |\n共有16种等可能的结果数，其中小华和小丽都到南通美术馆参加社会实践活动的结果数有1种，\n所以小华和小丽都到南通美术馆参加社会实践活动的概率为$\\frac{1}{16}$．\n【点评】此题考查了列表法或树状图法求概率．用到的知识点为：概率＝所求情况数与总情况数之比．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q022_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率计算",
+          "列表法",
+          "树状图法"
+        ],
+        "reasoning": "题目通过列表法或树状图法展示了所有可能的结果，计算概率。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率计算\", \"列表法\", \"树状图法\"],\n  \"reasoning\": \"题目通过列表法或树状图法展示了所有可能的结果，计算概率。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "如图，PA与⊙O相切于点A，AC为⊙O的直径，点B在⊙O上，连接PB，PC，且PA＝PB．\n（1）连接OB，求证：OB⊥PB；\n（2）若∠APB＝60°，PA＝2\\sqrt{3}，求图中阴影部分的面积．\n[图1]",
+      "stem_markdown": "如图，PA与⊙O相切于点A，AC为⊙O的直径，点B在⊙O上，连接PB，PC，且PA＝PB．\n（1）连接OB，求证：OB⊥PB；\n（2）若∠APB＝60°，PA＝2$\\sqrt{3}$，求图中阴影部分的面积．\n![2025年江苏省南通市中考数学试卷_q023_img01](assets/2025年江苏省南通市中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）连接OP，根据切线的性质得到OA⊥PA，证明△AOP≌△BOP，根据全等三角形的性质得到∠OBP＝∠OAP，得到OB⊥PB；\n（2）连接BC，证明OP∥BC，得到$S_{△}_{PCB}＝S_{△}_{OCB}$，再根据扇形面积公式计算即可．\n【解答】（1）证明：如图，连接OP，\n∵PA与⊙O相切，\n∴OA⊥PA，\n∴∠OAP＝90°，\n在△AOP和△BOP中，\n$\\begin{cases} OA=OB \\\\ PA=PB \\\\ OP=OP \\end{cases}$，\n∴△AOP≌△BOP（SSS），\n∴∠OBP＝∠OAP＝90°，\n∴OB⊥PB；\n（2）解：如图，连接BC，\n∵∠OBP＝∠OAP＝90°，∠APB＝60°，\n∴∠AOB＝120°，\n∴∠COB＝60°，\n∵OB＝OC，\n∴△BOC为等边三角形，\n∴∠OCB＝60°，\n由（1）可知：∠AOP＝∠BOP＝60°，\n∴∠AOP＝∠OCB，OA$=\\frac{PA}{tan∠AOP}=\\frac{2\\sqrt{3}}{\\sqrt{3}}=$2，\n∴OP∥BC，\n∴$S_{△}_{PCB}＝S_{△}_{OCB}$，\n∴$S_{阴影部分}＝S_{扇形}_{OCB}=\\frac{60π×2^{2}}{360}=$$\\frac{2π}{3}$．\n[[image:rId44]]\n【点评】本题考查的是切线的性质、扇形面积计算，熟记圆的切线垂直于经过切点的半径是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q023_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线的性质",
+          "全等三角形的判定与性质",
+          "扇形面积公式",
+          "平行线的性质"
+        ],
+        "reasoning": "（1）利用切线性质得出OA⊥PA，结合PA＝PB证明△AOP≌△BOP，进而得OB⊥PB；（2）通过角度关系和等边三角形性质得出扇形面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线的性质\", \"全等三角形的判定与性质\", \"扇形面积公式\", \"平行线的性质\"],\n  \"reasoning\": \"（1）利用切线性质得出OA⊥PA，结合PA＝PB证明△AOP≌△BOP，进而得OB⊥PB；（2）通过角度关系和等边三角形性质得出扇形面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "综合与实践：学校数学兴趣小组围绕“校园花圃方案设计”开展主题学习活动．\n已知花圃一边靠墙（墙的长度不限），其余部分用总长为60m的栅栏围成．兴趣小组设计了以下两种方案：\n方案一 | 方案二\n如图1，围成一个面积为450m²的矩形花圃． [图1] | 如图2，围成矩形花圃时，用栅栏（栅栏宽度忽略不计）将该花圃分隔为两个小矩形区域，用来种植不同花卉，并在花圃两侧各留一个宽为3m的进出口（此处不用栅栏）． [图1]\n（1）求方案一中与墙垂直的边的长度；\n（2）要使方案二中花圃的面积最大，与墙平行的边的长度为多少米？",
+      "stem_markdown": "综合与实践：学校数学兴趣小组围绕“校园花圃方案设计”开展主题学习活动．\n已知花圃一边靠墙（墙的长度不限），其余部分用总长为60m的栅栏围成．兴趣小组设计了以下两种方案：\n| 方案一 | 方案二 |\n| --- | --- |\n| 如图1，围成一个面积为450m^{2}的矩形花圃． ![2025年江苏省南通市中考数学试卷_q024_img01](assets/2025年江苏省南通市中考数学试卷_q024_img01.png) | 如图2，围成矩形花圃时，用栅栏（栅栏宽度忽略不计）将该花圃分隔为两个小矩形区域，用来种植不同花卉，并在花圃两侧各留一个宽为3m的进出口（此处不用栅栏）． ![2025年江苏省南通市中考数学试卷_q024_img02](assets/2025年江苏省南通市中考数学试卷_q024_img02.png) |\n（1）求方案一中与墙垂直的边的长度；\n（2）要使方案二中花圃的面积最大，与墙平行的边的长度为多少米？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设与墙垂直的边的长度为xm，则与墙平行的边的长度为 （60﹣2x）m，根据题意得到x（60﹣2x）＝450，解方程即可得到结论；\n（2）设与墙平行的边的长度为tm，花圃的面积为$Sm^{2}$，根据题意得到函数解析式$S=\\frac{1}{3}t(66-t)=-\\frac{1}{3}t^{2}+22t$，根据二次函数的性质即可得到结论．\n【解答】解：（1）设与墙垂直的边的长度为xm，则与墙平行的边的长度为 （60﹣2x）m，\n根据题意得x（60﹣2x）＝450，\n解得$x_{1}＝x_{2}$＝15，\n答：与墙垂直的边的长度为15米；\n（2）设与墙平行的边的长度为tm，花圃的面积为$Sm^{2}$，\n根据题意得$S=\\frac{1}{3}t(66-t)=-\\frac{1}{3}t^{2}+22t$，\n∴$S=-\\frac{1}{3}(t-33)^{2}+363$，\n∵$-\\frac{1}{3}＜0$，\n∴当t＝33时，S有最大值363，\n答：当与墙平行的边的长度为33米时，花圃的面积最大．\n【点评】本题考查了二次函数的应用，矩形的面积公式，正确地理解题意列出函数解析式是解题的关键．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q024_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q024_img02",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q024_img02.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "矩形面积公式",
+          "一元二次方程",
+          "二次函数顶点坐标"
+        ],
+        "reasoning": "（1）通过矩形面积公式建立方程；（2）通过二次函数的性质确定最大值",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"矩形面积公式\", \"一元二次方程\", \"二次函数顶点坐标\"],\n  \"reasoning\": \"（1）通过矩形面积公式建立方程；（2）通过二次函数的性质确定最大值\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "如图，矩形ABCD中，对角线AC，BD相交于点O．M是BC的中点，DM交AC于点G．\n（1）求证：AG＝2GC；\n（2）设∠BCD，∠BDC的角平分线交于点I．\n①当AB＝6，BC＝8时，求点I到BC的距离；\n②若AB+AC＝2BC，作直线GI分别交BD，CD于E，F两点，求\\frac{EF}{BC}的值．\n[图1]",
+      "stem_markdown": "如图，矩形ABCD中，对角线AC，BD相交于点O．M是BC的中点，DM交AC于点G．\n（1）求证：AG＝2GC；\n（2）设∠BCD，∠BDC的角平分线交于点I．\n①当AB＝6，BC＝8时，求点I到BC的距离；\n②若AB+AC＝2BC，作直线GI分别交BD，CD于E，F两点，求$\\frac{EF}{BC}$的值．\n![2025年江苏省南通市中考数学试卷_q025_img01](assets/2025年江苏省南通市中考数学试卷_q025_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据矩形的性质得到AD∥BC，AD＝BC，根据相似三角形的性质得到$\\frac{AG}{CG}=\\frac{AD}{MC}$，得到BC＝2CM，求得AD＝2CM，得到$\\frac{AG}{CG}=2$，于是得到AG＝2GC；\n（2）①根据勾股定理得到$AC=\\sqrt{6^{2}+8^{2}}=10$，求得BD＝AC＝10，如图，过点I作IH⊥BC，垂足为H，设IH＝r，则$\\frac{1}{2}$（BC+CD+BD）•r$=\\frac{1}{2}$BC•CD，得到r＝2，于是得到结论；\n②如图，作IH⊥BC，垂足为H，作GQ⊥BC，垂足为Q，设IH＝r，AB＝CD＝c，AC＝BD＝b，由AB+AC＝2BC得$BC=\\frac{b+c}{2}$，在△BCD中，$\\frac{1}{2}(b+c+\\frac{b+c}{2})⋅r=\\frac{1}{2}⋅\\frac{b+c}{2}⋅c$，解方程得到$r=\\frac{1}{3}c$，根据相似三角形的性质得到$\\frac{GQ}{AB}=\\frac{CG}{CA}$，求得$GQ=\\frac{1}{3}c$，得到GQ＝IH，根据相似三角形的性质即可得到结论．\n【解答】（1）证明：∵四边形ABCD是矩形，\n∴AD∥BC，AD＝BC，\n∴△ADG∽△CMG，\n∴$\\frac{AG}{CG}=\\frac{AD}{MC}$，\n∵M是BC的中点，\n∴BC＝2CM，\n∴AD＝2CM，\n∴$\\frac{AG}{CG}=2$，\n∴AG＝2GC；\n（2）解：①在Rt△ABC中，∵AB＝6，BC＝8，\n∴$AC=\\sqrt{6^{2}+8^{2}}=10$，\n∴BD＝AC＝10，\n[[image:rId48]]\n如图，过点I作IH⊥BC，垂足为H，\n设IH＝r，则$\\frac{1}{2}$（BC+CD+BD）•r$=\\frac{1}{2}$BC•CD，\n∴r＝2，\n即IH＝2，\n∴点I到BC的距离为2；\n②如图，作IH⊥BC，垂足为H，作GQ⊥BC，垂足为Q，\n[[image:rId49]]\n设IH＝r，AB＝CD＝c，AC＝BD＝b，\n由AB+AC＝2BC得$BC=\\frac{b+c}{2}$，\n在△BCD中，$\\frac{1}{2}(b+c+\\frac{b+c}{2})⋅r=\\frac{1}{2}⋅\\frac{b+c}{2}⋅c$，\n∴$r=\\frac{1}{3}c$，\n∵GQ∥AB，\n∴△CGQ∽△CAB，\n∴$\\frac{GQ}{AB}=\\frac{CG}{CA}$，\n∵AG＝2GC，\n∴AC＝3GC，\n∴$\\frac{GQ}{AB}=\\frac{1}{3}$，\n∴$GQ=\\frac{1}{3}c$，\n∴GQ＝IH，\n∵IH⊥BC，GQ⊥BC，\n∴GQ∥IH，\n∴四边形GQHI是平行四边形，\n∴GI∥BC，\n即EF∥BC，\n∴$\\frac{AG}{AC}=\\frac{DF}{DC}$，\n∴△DEF∽△DBC，\n∴$\\frac{EF}{BC}=\\frac{DF}{DC}$，\n∴$\\frac{EF}{BC}=\\frac{AG}{AC}=\\frac{2}{3}$．\n【点评】本题是相似形的综合题，考查了相似三角形的判定和性质，矩形的性质，勾股定理，熟练掌握相似三角形的判定和性质定理是解题的关键．",
+      "full_score": 13,
+      "images": [
+        {
+          "image_id": "2025年江苏省南通市中考数学试卷_q025_img01",
+          "path": "assets/2025年江苏省南通市中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "勾股定理",
+          "矩形的性质"
+        ],
+        "reasoning": "题目涉及相似三角形、勾股定理和矩形性质的应用。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"勾股定理\", \"矩形的性质\"],\n  \"reasoning\": \"题目涉及相似三角形、勾股定理和矩形性质的应用。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南通市中考数学试卷_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "在平面直角坐标系xOy中，反比例函数的图象经过点A（1，5），点A，B关于原点对称．该函数图象上另有两点M₁，M₂，它们的横坐标分别为m，m+n，其中m＞1，n＞0．依次作直线AM₁，BM₁与y轴分别交于点C₁，D₁，直线AM₂，BM₂与y轴分别交于点C₂，D₂.记OC₁﹣OD₁＝d₁，OC₂﹣OD₂＝d₂．\n（1）若m＝2，求OC₁的长；\n（2）求代数式（m+n）•d₂的值；\n（3）当m（d₁﹣d₂）＝2d₂，3（d₁+d₂）＝2n³时，求点D₂关于直线AM₂对称的点P的坐标．\n2025年江苏省南通市中考数学试卷",
+      "stem_markdown": "在平面直角坐标系xOy中，反比例函数的图象经过点A（1，5），点A，B关于原点对称．该函数图象上另有两点$M_{1}$，$M_{2}$，它们的横坐标分别为m，m+n，其中m＞1，n＞0．依次作直线$AM_{1}$，$BM_{1}$与y轴分别交于点$C_{1}$，$D_{1}$，直线$AM_{2}$，$BM_{2}$与y轴分别交于点$C_{2}$，$D_{2}$.记$OC_{1}﹣OD_{1}＝d_{1}$，$OC_{2}﹣OD_{2}＝d_{2}$．\n（1）若m＝2，求$OC_{1}$的长；\n（2）求代数式（m+n）•$d_{2}$的值；\n（3）当m（$d_{1}﹣d_{2}$）＝$2d_{2}$，3（$d_{1}+d_{2}$）＝$2n^{3}$时，求点$D_{2}$关于直线$AM_{2}$对称的点P的坐标．\n2025年江苏省南通市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）依据题意，先用待定系数法求出$y=\\frac{5}{x}$和直线AM的解析式$y=-\\frac{5}{2}x+\\frac{15}{2}$，进而可以计算得解；\n（2）依据题意，设直线$AM_{1}$的解析式为y＝$k_{1}$x+$b_{1}$（$k_{1}$≠0），结合A（1，5），$M_{1}(m，\\frac{5}{m})$，可得$AM_{1}$的解析式为$y=-\\frac{5}{m}x+\\frac{5}{m}+5$，又设直线$BM_{1}$的解析式为y＝$k_{2}$x+$b_{2}$（$k_{2}$≠0），从而可得$BM_{1}$的解析式为$y=\\frac{5}{m}x+\\frac{5}{m}-5$，故$OC_{1}=\\frac{5}{m}+5$，$OD_{1}$＝5$-\\frac{5}{m}$，则$d_{1}=\\frac{10}{m}$.同理，$d_{2}=\\frac{10}{m+n}$，进而可以得解；\n（3）依据题意，由m（$d_{1}﹣d_{2}$）＝$2d_{2}$，则$md_{1}$＝（m+2）•$d_{2}$，又由（2），得$md_{1}$＝（m+n）•$d_{2}$＝10，故n＝2，结合3（$d_{1}+d_{2}$）＝$2n^{3}$，则3（$\\frac{10}{m}+\\frac{10}{m+2}$）＝16，可得m＝3，进而求出$AM_{2}$的解析式为y＝﹣x+6，$BM_{2}$的解析式为y＝x﹣4，从而$C_{2}$（0，6），$D_{2}$（0，﹣4），又$M_{2}$（5，1），可得△$C_{2}D_{2}$$M_{2}$是等腰直角三角形．进而可以判断得解．\n【解答】（1）解：设反比例函数的解析式为$y=\\frac{k}{x}$，\n∵A（1，5）在函数图象上，\n∴k＝5．\n∴$y=\\frac{5}{x}$．\n∴$M_{1}(2，\\frac{5}{2})$．\n设直线AM的解析式为y＝$k_{1}$x+$b_{1}$（$k_{1}$≠0），\n∵A（1，5），$M_{1}(2，\\frac{5}{2})$，\n∴$y=-\\frac{5}{2}x+\\frac{15}{2}$，\n∴点$C_{1}$的坐标为$(0，\\frac{15}{2})$．\n∴$OC_{1}=\\frac{15}{2}$．\n（2）解：设直线$AM_{1}$的解析式为y＝$k_{1}$x+$b_{1}$（$k_{1}$≠0），\n.∵A（1，5），$M_{1}(m，\\frac{5}{m})$，\n∴$AM_{1}$的解析式为$y=-\\frac{5}{m}x+\\frac{5}{m}+5$．\n设直线$BM_{1}$的解析式为y＝$k_{2}$x+$b_{2}$（$k_{2}$≠0），\n∵B（﹣1，﹣5），$M_{1}(m，\\frac{5}{m})$，\n∴$BM_{1}$的解析式为$y=\\frac{5}{m}x+\\frac{5}{m}-5$．\n∴$OC_{1}=\\frac{5}{m}+5$，$OD_{1}$＝5$-\\frac{5}{m}$\n∴$d_{1}=\\frac{10}{m}$.同理，$d_{2}=\\frac{10}{m+n}$．\n∴（m+n）•$d_{2}$＝10．\n（3）解：∵m（$d_{1}﹣d_{2}$）＝$2d_{2}$，\n∴$md_{1}$＝（m+2）•$d_{2}$．\n由（2），得$md_{1}$＝（m+n）•$d_{2}$＝10．\n∴n＝2．\n∵3（$d_{1}+d_{2}$）＝$2n^{3}$．\n∴3（$\\frac{10}{m}+\\frac{10}{m+2}$）＝16．\n∴m＝3．\n∴$M_{2}$（5，1）．\n∵A（1，5），B（﹣1，﹣5），\n∴$AM_{2}$的解析式为y＝﹣x+6，$BM_{2}$的解析式为y＝x﹣4．\n∴$C_{2}$（0，6），$D_{2}$（0，﹣4）．\n又∵$M_{2}$（5，1），\n∴△$C_{2}D_{2}$$M_{2}$是等腰直角三角形．\n∴点$D_{2}$关于直线$AM_{2}$对称的点P的坐标为（10，6）．\n【点评】本题主要考查了反比例函数图象上点的坐标特征、一次函数图象上点的坐标特征、坐标与图形变化﹣对称、关于原点对称的点的坐标，解题时要熟练掌握并能灵活运用反比例函数的性质是关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:29:05；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId51]] ____ [[image:rId52]] ____ [[image:rId53]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 13,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的性质",
+          "一次函数的解析式",
+          "坐标与图形变化﹣对称",
+          "关于原点对称的点的坐标"
+        ],
+        "reasoning": "题中涉及反比例函数图象上点的坐标、一次函数图象上点的坐标及对称变换，要求学生理解并应用这些概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的性质\", \"一次函数的解析式\", \"坐标与图形变化﹣对称\", \"关于原点对称的点的坐标\"],\n  \"reasoning\": \"题中涉及反比例函数图象上点的坐标、一次函数图象上点的坐标及对称变换，要求学生理解并应用这些概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:41:48",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 26,
+      "ok": 26,
+      "fallback": 0
+    }
+  }
+}

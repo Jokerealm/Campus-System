@@ -1,0 +1,1150 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年青海省西宁市中考数学试卷",
+  "source": {
+    "name": "2025年青海省西宁市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年青海省西宁市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列四个实数中，最大的是（ ）",
+      "stem_markdown": "下列四个实数中，最大的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣7"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{30}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据正数＞0＞负数进行比较即可．\n【解答】解：∵$\\sqrt{30}＞\\frac{1}{2}＞$0＞﹣7，\n∴最大的是$\\sqrt{30}$，\n故选：D．\n【点评】本题考查了实数大小比较，掌握正数＞0＞负数是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "有理数与无理数的大小比较",
+          "正数大于零",
+          "负数小于零"
+        ],
+        "reasoning": "选项中只有 D 考察了无理数的概念和大小比较",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"有理数与无理数的大小比较\", \"正数大于零\", \"负数小于零\"],\n  \"reasoning\": \"选项中只有 D 考察了无理数的概念和大小比较\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "在中国，鼓是精神的象征，舞是力量的表现，先贤孔子曾说过“鼓之舞之”，可见“鼓舞”一词起源之早．如图所示，鼓的主视图是（ ）\n[图1]",
+      "stem_markdown": "在中国，鼓是精神的象征，舞是力量的表现，先贤孔子曾说过“鼓之舞之”，可见“鼓舞”一词起源之早．如图所示，鼓的主视图是（ ）\n![2025年青海省西宁市中考数学试卷_q002_img01](assets/2025年青海省西宁市中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年青海省西宁市中考数学试卷_q002_img02](assets/2025年青海省西宁市中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年青海省西宁市中考数学试卷_q002_img03](assets/2025年青海省西宁市中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年青海省西宁市中考数学试卷_q002_img04](assets/2025年青海省西宁市中考数学试卷_q002_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年青海省西宁市中考数学试卷_q002_img05](assets/2025年青海省西宁市中考数学试卷_q002_img05.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据主视图是从物体正面看所得到的图形解答即可．\n【解答】解：鼓的主视图是[[image:rId33]]．\n故选：A．\n【点评】本题考查简单组合体的三视图，理解视图的定义，掌握解答几何体三视图的画法是正确解答的前提．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q002_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q002_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q002_img02",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q002_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q002_img03",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q002_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q002_img04",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q002_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q002_img05",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q002_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "视图",
+          "几何体"
+        ],
+        "reasoning": "主视图是从物体正面看所得到的图形",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"视图\", \"几何体\"],\n  \"reasoning\": \"主视图是从物体正面看所得到的图形\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "下列说法正确的是（ ）",
+      "stem_markdown": "下列说法正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "概率很大的事件一定会发生"
+        },
+        {
+          "label": "B",
+          "text": "“任意画一个三角形，其外角和是360°”是必然事件"
+        },
+        {
+          "label": "C",
+          "text": "两组身高数据的方差分别是$s_{甲}^{2}$＝0.1，$s_{乙}^{2}$＝0.3，则乙组的身高更整齐"
+        },
+        {
+          "label": "D",
+          "text": "某抽奖活动的中奖概率为$\\frac{1}{10}$，表示抽奖10次就有1次中奖"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据概率，方差等，逐一进行判断即可．\n【解答】解：A．概率很大的事件不一定会发生，故A选项错误；\nB．“任意画一个三角形，其外角和是360°”是必然事件，故B选项正确；\nC．∵$s_{甲}^{2}$＝0.1，$s_{乙}^{2}$＝0.3，\n∴$s_{甲}^{2}$＜$s_{乙}^{2}$，\n∴甲组的身高更整齐，故C选项错误；\nD．某抽奖活动的中奖概率为$\\frac{1}{10}$，不表示抽奖10次就有1次中奖，故D选项错误；\n故选：B．\n【点评】本题考查了概率的意义，方差等，掌握相关概念是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率",
+          "方差",
+          "三角形的外角和"
+        ],
+        "reasoning": "选项B提到任意三角形外角和为360°，这是必然事件；选项C比较两组数据的方差判断整齐度；选项D解释概率的概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率\", \"方差\", \"三角形的外角和\"],\n  \"reasoning\": \"选项B提到任意三角形外角和为360°，这是必然事件；选项C比较两组数据的方差判断整齐度；选项D解释概率的概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "当x＝1时，下列代数式在实数范围内有意义的是（ ）",
+      "stem_markdown": "当x＝1时，下列代数式在实数范围内有意义的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\sqrt{x-1}}{x-1}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\sqrt{x-1}}{x}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\sqrt{x-2}}{x-1}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\sqrt{x-2}}{x}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据二次根式和分式有意义的条件进行判断即可．\n【解答】解：当x＝1时，x﹣1＝0，故A选项，C选项无意义，\n当x＝1时，$\\sqrt{x-2}$无意义，故D选项无意义，\n故选：B．\n【点评】本题考查了分式和二次根式有意义的条件，掌握分式和二次根式有意义是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式有意义的条件",
+          "分式有意义的条件"
+        ],
+        "reasoning": "选项A、C、D在x=1时导致根号下非正或分母为零，只有B满足条件",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式有意义的条件\", \"分式有意义的条件\"],\n  \"reasoning\": \"选项A、C、D在x=1时导致根号下非正或分母为零，只有B满足条件\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "下列运算正确的是（ ）",
+      "stem_markdown": "下列运算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "（﹣3）^{﹣2}＝9"
+        },
+        {
+          "label": "B",
+          "text": "2^{4}÷2^{0}＝8"
+        },
+        {
+          "label": "C",
+          "text": "（5×10^{3}）×（4×10^{2}）＝2×10^{6}"
+        },
+        {
+          "label": "D",
+          "text": "（﹣2×10^{2}）^{3}＝8×10^{6}"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据实数的运算法则进行计算即可．\n【解答】解：A．（﹣3）^{﹣2}$=\\frac{1}{9}$，故A选项错误；\nB.2^{4}÷2^{0}＝2^{4}＝16，故B选项错误；\nC．（5×10^{3}）×（4×10^{2}）＝5×10^{3}×4×10^{2}＝20×10^{5}＝2×10^{6}，故C选项正确；\nD．（﹣2×10^{2}）^{3}＝（﹣2）^{3}×（10^{2}）^{3}＝﹣8×10^{6}，故D选项错误；\n故选：C．\n【点评】本题考查了实数的运算，掌握运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "幂的乘方与除法法则",
+          "科学记数法的运算",
+          "负指数幂"
+        ],
+        "reasoning": "选项C涉及科学记数法的乘法和幂的乘方，选项D涉及幂的乘方与负数的乘方。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"幂的乘方与除法法则\", \"科学记数法的运算\", \"负指数幂\"],\n  \"reasoning\": \"选项C涉及科学记数法的乘法和幂的乘方，选项D涉及幂的乘方与负数的乘方。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，直线l和直线l外一点A，以点A为圆心，适当的长度为半径画弧，交直线l于点M，N；分别以点M，N为圆心，线段MN的长为半径画弧，两弧交于点P（点P与点A在直线l的两侧）；作直线AP交直线l于点O，连接AM，AN，PM，PN．根据以上作图过程，有以下结论：①△AMN是等边三角形；②AP垂直平分线段MN；③PA平分∠MPN；④四边形AMPN是菱形；⑤cos∠MPN=\\frac{1}{2}．其中正确结论的个数是（ ）\n[图1]",
+      "stem_markdown": "如图，直线l和直线l外一点A，以点A为圆心，适当的长度为半径画弧，交直线l于点M，N；分别以点M，N为圆心，线段MN的长为半径画弧，两弧交于点P（点P与点A在直线l的两侧）；作直线AP交直线l于点O，连接AM，AN，PM，PN．根据以上作图过程，有以下结论：①△AMN是等边三角形；②AP垂直平分线段MN；③PA平分∠MPN；④四边形AMPN是菱形；⑤cos∠MPN$=\\frac{1}{2}$．其中正确结论的个数是（ ）\n![2025年青海省西宁市中考数学试卷_q006_img01](assets/2025年青海省西宁市中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "2个"
+        },
+        {
+          "label": "B",
+          "text": "3个"
+        },
+        {
+          "label": "C",
+          "text": "4个"
+        },
+        {
+          "label": "D",
+          "text": "5个"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】由作图可知AM＝AN，MN＝PM＝PN，判断出AP垂直平分线段MN，再根据菱形，等边三角形的判定，解直角三角形的知识一一判断即可．\n【解答】解：由作图可知AM＝AN，MN＝PM＝PN，\n∴PA垂直平分线段MN，故②正确，\n∴PA平分MPN，故③正确，\n无法判断△AMN，四边形AMPN是菱形，故①④错误．\n∵PM＝PN，AP⊥MN，\n∴MO＝ON，\n∴cos∠MPN$=\\frac{OM}{PM}=\\frac{1}{2}$，故⑤正确．\n故选：B．\n【点评】本题考查作图﹣复杂作图，线段垂直平分线的性质，等边三角形的判定和性质，菱形的判定与性质，解直角三角形等知识，解题的关键是掌握相关知识解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q006_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的判定",
+          "线段垂直平分线的性质",
+          "菱形的判定",
+          "解直角三角形"
+        ],
+        "reasoning": "作图过程中的等边三角形、垂直平分线和菱形判定",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的判定\", \"线段垂直平分线的性质\", \"菱形的判定\", \"解直角三角形\"],\n  \"reasoning\": \"作图过程中的等边三角形、垂直平分线和菱形判定\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "如图，一次函数y₁＝k₁x+b（k₁≠0）的图象与两坐标轴分别交于点A，B，与反比例函数y₂=\\frac{k_{2}}{x}（k₂≠0，x＞0）的图象交于点C（1，2），D(m，\\frac{1}{2})．下列结论错误的是（ ）\n[图1]",
+      "stem_markdown": "如图，一次函数$y_{1}＝k_{1}$x+b（$k_{1}$≠0）的图象与两坐标轴分别交于点A，B，与反比例函数$y_{2}=\\frac{k_{2}}{x}$（$k_{2}$≠0，x＞0）的图象交于点C（1，2），D$(m，\\frac{1}{2})$．下列结论错误的是（ ）\n![2025年青海省西宁市中考数学试卷_q007_img01](assets/2025年青海省西宁市中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$b=\\frac{5}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "△BOC与△AOD的面积相等"
+        },
+        {
+          "label": "C",
+          "text": "△COD的面积是$\\frac{17}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "当1≤x≤4时，$y_{1}$≥$y_{2}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据先求出反比例函数和一次函数的解析式，再反比例函数与一次函数的性质，逐项判断即可．\n【解答】解：（1）由$y_{2}=\\frac{k_{2}}{x}$过点C（1，2）和D（m，$\\frac{1}{2}$）可得：$\\begin{cases} k_{2}=2 \\\\ \\frac{k_{2}}{m}=\\frac{1}{2} \\end{cases}$，\n解得：$\\begin{cases} k_{2}=2 \\\\ m=4 \\end{cases}$\n∴$y_{2}=\\frac{2}{x}$，\n又由$y_{1}$＝kx+b过点C（1，2）和D（4，$\\frac{1}{2}$）可得：$\\begin{cases} k+b=2 \\\\ 4k+b=\\frac{1}{2} \\end{cases}$，\n解得$\\begin{cases} k=-\\frac{1}{2} \\\\ b=\\frac{5}{2} \\end{cases}$，\n∴$y_{1}=-\\frac{1}{2}x+\\frac{5}{2}$，A选项正确，不符合题意；\n又∵一次函数$y_{1}＝k_{1}$x+b（$k_{1}$≠0）的图象与两坐标轴分别交于点A，B，\n∴A坐标为（5，0），B（0，$\\frac{5}{2}$），\n又点C的坐标是C（1，2），D（4，$\\frac{1}{2}$）\n∴△BOC的面积$=\\frac{1}{2}×\\frac{5}{2}×$1$=\\frac{5}{4}$，\n△AOD的面积$=\\frac{1}{2}×5×\\frac{1}{2}=\\frac{5}{4}$，\n∴△BOC与△AOD的面积相等，B选项正确，不符合题意；\n△COD的面积＝△BOA的面积﹣△AOD的面积﹣△BOC的面积$=\\frac{1}{2}×$5$×\\frac{5}{2}-\\frac{5}{4}-\\frac{5}{4}=$$\\frac{15}{4}$，故C选项错误，符合题意；\n由图可知，当1≤x≤4时，$y_{1}$≥$y_{2正确，}_{D}_{项不符合题意}$；\n故选：C．\n【点评】本题考查反比例函数和一次函数的交点问题，熟练掌握反比例函数和一次函数的基本特点以及能根据坐标系中点的位置，将数形相结合进行简单计算是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q007_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数图像与性质",
+          "反比例函数图像与性质",
+          "三角形面积计算"
+        ],
+        "reasoning": "题中涉及一次函数和反比例函数的图像与性质，以及三角形面积的计算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数图像与性质\", \"反比例函数图像与性质\", \"三角形面积计算\"],\n  \"reasoning\": \"题中涉及一次函数和反比例函数的图像与性质，以及三角形面积的计算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，用四个全等的直角三角形拼成“赵爽弦图”，得到大正方形ABCD和小正方形EFGH，连接BD交CH于点P．若BP＝BC，则tan∠CBG的值是（ ）\n[图1]",
+      "stem_markdown": "如图，用四个全等的直角三角形拼成“赵爽弦图”，得到大正方形ABCD和小正方形EFGH，连接BD交CH于点P．若BP＝BC，则tan∠CBG的值是（ ）\n![2025年青海省西宁市中考数学试卷_q008_img01](assets/2025年青海省西宁市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sqrt{2}-$1"
+        },
+        {
+          "label": "B",
+          "text": "2$-\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\sqrt{2}}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2\\sqrt{2}}{3}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】依据题意，设△BGC的边长BC＝c，CG＝b，BG＝a，从而小正方形EFGH的边长FG＝a﹣b，又BP＝BC，BG⊥PC，则CG＝GP＝b，可得HP＝a﹣2b，又DE∥BG，则$\\frac{DH}{BG}=\\frac{HP}{PG}$，故$\\frac{b}{a}=\\frac{a-2b}{b}$，进而$\\frac{b}{a}=-$1$+\\sqrt{2}$（负根不合题意，舍去），最后可得tan∠CBG$=\\frac{CG}{BG}=\\frac{b}{a}=-$1$+\\sqrt{2}$，即可得解．\n【解答】解：由题意，设△BGC的边长BC＝c，CG＝b，BG＝a，\n∴小正方形EFGH的边长FG＝a﹣b．\n∵BP＝BC，BG⊥PC，\n∴CG＝GP＝b．\n∴HP＝a﹣2b．\n∵DE∥BG，\n∴$\\frac{DH}{BG}=\\frac{HP}{PG}$．\n∴$\\frac{b}{a}=\\frac{a-2b}{b}$．\n∴$b^{2}$+2ab﹣$a^{2}$＝0．\n∴$(\\frac{b}{a})^{2}$+2（$\\frac{b}{a}$）﹣1＝0．\n∴$\\frac{b}{a}=-$1$+\\sqrt{2}$（负根不合题意，舍去）．\n∴tan∠CBG$=\\frac{CG}{BG}=\\frac{b}{a}=-$1$+\\sqrt{2}$．\n故选：A．\n【点评】本题主要考查了勾股定理的应用、解直角三角形，解题时要熟练掌握并能根据题意列出关系式是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q008_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "相似三角形",
+          "比例性质",
+          "解直角三角形"
+        ],
+        "reasoning": "题中通过计算小正方形边长与直角三角形边长的关系，利用勾股定理和相似三角形的性质求解tan∠CBG的值。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"相似三角形\", \"比例性质\", \"解直角三角形\"],\n  \"reasoning\": \"题中通过计算小正方形边长与直角三角形边长的关系，利用勾股定理和相似三角形的性质求解tan∠CBG的值。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "相反数等于它本身的数是 ____ ．",
+      "stem_markdown": "相反数等于它本身的数是 ____ ．",
+      "options": [],
+      "answer": "0．",
+      "solution": "【分析】根据0的相反数是0，即可求解．\n【解答】解：相反数等于它本身的数是0，\n故答案为：0．\n【点评】本题考查了相反数，掌握其性质是解题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "0的相反数是0"
+        ],
+        "reasoning": "题中设问要求相反数等于它本身的数，只有0满足条件。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"0的相反数是0\"],\n  \"reasoning\": \"题中设问要求相反数等于它本身的数，只有0满足条件。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "分解因式：8ab²﹣2a＝ ____ ．",
+      "stem_markdown": "分解因式：$8ab^{2}$﹣2a＝ ____ ．",
+      "options": [],
+      "answer": "2a（2b﹣1）（2b+1）．",
+      "solution": "【分析】利用提公因式法和平方差公式法分解因式．\n【解答】解：$8ab^{2}$﹣2a\n＝2a（$4b^{2}$﹣1）＝2a（2b﹣1）（2b+1）．\n故答案为：2a（2b﹣1）（2b+1）．\n【点评】本题考查了提公因式法和公式法的综合运用，解题的关键是掌握提公因式法和公式法进行因式分解．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式",
+          "平方差公式"
+        ],
+        "reasoning": "题目中使用了提取公因式和平方差公式进行因式分解",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式\", \"平方差公式\"],\n  \"reasoning\": \"题目中使用了提取公因式和平方差公式进行因式分解\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "等腰三角形的两边长分别为3和7，则第三边长为 ____ ．",
+      "stem_markdown": "等腰三角形的两边长分别为3和7，则第三边长为 ____ ．",
+      "options": [],
+      "answer": "7．",
+      "solution": "【分析】分两种情况讨论，由三角形三边关系定理判定等腰三角形的腰长是7，于是得到答案．\n【解答】解：当等腰三角形的腰长是3时，\n3+3＜7，不满足三角形三边关系定理，\n∴等腰三角形的第三边不能是3；\n当等腰三角形的腰长是7时，\n7+3＞7，满足三角形三边关系定理，\n∴等腰三角形的第三边为7．\n故答案为：7．\n【点评】本题考查等腰三角形的性质，三角形三边关系，关键是要分两种情况讨论．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形三边关系定理",
+          "等腰三角形的性质"
+        ],
+        "reasoning": "题中讨论等腰三角形的第三边长度时应用了三角形三边关系定理来排除不可能的情况。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形三边关系定理\", \"等腰三角形的性质\"],\n  \"reasoning\": \"题中讨论等腰三角形的第三边长度时应用了三角形三边关系定理来排除不可能的情况。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "如图，小明从A处沿东北方向走到B处，再从B处沿南偏东63°方向走到C处，则∠ABC的度数是 ____ ．\n[图1]",
+      "stem_markdown": "如图，小明从A处沿东北方向走到B处，再从B处沿南偏东63°方向走到C处，则∠ABC的度数是 ____ ．\n![2025年青海省西宁市中考数学试卷_q012_img01](assets/2025年青海省西宁市中考数学试卷_q012_img01.png)",
+      "options": [],
+      "answer": "108°．",
+      "solution": "【分析】根据方向角求出∠EBC，再根据平行线的性质求出∠ABE即可得出答案．\n【解答】解：如图：\n[[image:rId38]]\n∵小明从A处沿东北方向走到B处，再从B处沿南偏东63°方向走到C处，\n∴∠DAB＝45°，∠CBE＝63°，\n∵AD∥BE，\n∴∠ABE＝∠DAB＝45°，\n∴∠ABC＝∠ABE+∠EBC＝45°+63°＝108°．\n故答案为：108°．\n【点评】此题主要考查了方位角，关键是掌握方位角的概念：方位角是表示方向的角；以正北，正南方向为基准，来描述物体所处的方向．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q012_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方位角",
+          "平行线的性质",
+          "角度计算"
+        ],
+        "reasoning": "题中条件给出了方向角和角度关系，要求计算∠ABC的度数，涉及角度计算和平行线性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方位角\", \"平行线的性质\", \"角度计算\"],\n  \"reasoning\": \"题中条件给出了方向角和角度关系，要求计算∠ABC的度数，涉及角度计算和平行线性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "如图，四边形ABCD是⊙O的外切四边形，且AB＝9，CD＝15，则四边形ABCD的周长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，四边形ABCD是⊙O的外切四边形，且AB＝9，CD＝15，则四边形ABCD的周长为 ____ ．\n![2025年青海省西宁市中考数学试卷_q013_img01](assets/2025年青海省西宁市中考数学试卷_q013_img01.png)",
+      "options": [],
+      "answer": "48．",
+      "solution": "【分析】根据切线长定理得到AE＝AH，BE＝BF，CF＝CG，DH＝DG，得到AD+BC＝AB+CD＝24，根据四边形的周长公式计算，得到答案．\n【解答】解：∵四边形ABCD是⊙O的外切四边形，\n∴AE＝AH，BE＝BF，CF＝CG，DH＝DG，\n∴AD+BC＝AB+CD＝24，\n∴四边形ABCD的周长＝AD+BC+AB+CD＝24+24＝48，\n故答案为：48．\n[[image:rId40]]\n【点评】本题考查的是切线长定理，掌握从圆外一点引圆的两条切线，它们的切线长相等是解题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q013_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q013_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线长定理",
+          "四边形的周长公式"
+        ],
+        "reasoning": "题中通过切线长定理得出AD+BC=AB+CD，利用四边形的周长公式求解。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线长定理\", \"四边形的周长公式\"],\n  \"reasoning\": \"题中通过切线长定理得出AD+BC=AB+CD，利用四边形的周长公式求解。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，菱形ABCD的对角线AC，BD相交于点O，AE⊥BC，垂足为E，连接OE．若BD＝6，OE=\\sqrt{5}，则菱形ABCD的面积是 ____ ．\n[图1]",
+      "stem_markdown": "如图，菱形ABCD的对角线AC，BD相交于点O，AE⊥BC，垂足为E，连接OE．若BD＝6，OE$=\\sqrt{5}$，则菱形ABCD的面积是 ____ ．\n![2025年青海省西宁市中考数学试卷_q014_img01](assets/2025年青海省西宁市中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "6$\\sqrt{5}$．",
+      "solution": "【分析】由菱形的性质得AC⊥BD，OA＝OC，由AE⊥BC，垂足为E，得∠AEC＝90°，则OE＝OA＝OC$=\\frac{1}{2}$AC，因为OE$=\\sqrt{5}$，所以AC＝2OE＝2$\\sqrt{5}$，而BD＝6，则$S_{菱形}_{ABCD}=\\frac{1}{2}$AC•BD＝6$\\sqrt{5}$，于是得到问题的答案．\n【解答】解：∵四边形ABCD是菱形，对角线AC，BD相交于点O，\n∴AC⊥BD，OA＝OC，\n∵AE⊥BC，垂足为E，OE$=\\sqrt{5}$，\n∴∠AEC＝90°，\n∴OE＝OA＝OC$=\\frac{1}{2}$AC，\n∴AC＝2OE＝2$\\sqrt{5}$，\n∵BD＝6，\n∴$S_{菱形}_{ABCD}=\\frac{1}{2}$AC•BD$=\\frac{1}{2}×$2$\\sqrt{5}×$6＝6$\\sqrt{5}$，\n故答案为：6$\\sqrt{5}$．\n【点评】此题重点考查菱形的性质、直角三角形斜边上的中线等于斜边的一半等知识，正确地求出AC的长是解题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q014_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "菱形的性质",
+          "直角三角形斜边上的中线",
+          "勾股定理"
+        ],
+        "reasoning": "菱形对角线互相垂直且平分，OE是斜边上的中线，利用勾股定理解出AC长度",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"菱形的性质\", \"直角三角形斜边上的中线\", \"勾股定理\"],\n  \"reasoning\": \"菱形对角线互相垂直且平分，OE是斜边上的中线，利用勾股定理解出AC长度\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "若关于x的一元二次方程kx²﹣2x+1＝0有两个不相等的实数根，请写出一个满足条件的k的值 ____ ．",
+      "stem_markdown": "若关于x的一元二次方程$kx^{2}$﹣2x+1＝0有两个不相等的实数根，请写出一个满足条件的k的值 ____ ．",
+      "options": [],
+      "answer": "﹣1（答案不唯一）．",
+      "solution": "【分析】根据一元二次方程根的判别式求出k的取值范围，再在取值范围内取值即可．\n【解答】解：∵关于x的一元二次方程$kx^{2}$﹣2x+1＝0有两个不相等的实数根，\n∴Δ＝4﹣4k＞0，\n∴k＜1且k≠0，\n不妨令k＝﹣1，\n故答案为：﹣1（答案不唯一）．\n【点评】本题考查了一元二次方程根的判别式，熟练掌握该知识点是关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程根的判别式",
+          "实数根",
+          "不等式的解法"
+        ],
+        "reasoning": "Δ=4-4k>0，求得k的取值范围",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程根的判别式\", \"实数根\", \"不等式的解法\"],\n  \"reasoning\": \"Δ=4-4k>0，求得k的取值范围\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "如图，在正五边形ABCDE内，以AB为边作等边△ABF，再以点A为圆心，AE长为半径作弧．若AB＝3，则图中阴影部分的面积是 ____ ．\n[图1]",
+      "stem_markdown": "如图，在正五边形ABCDE内，以AB为边作等边△ABF，再以点A为圆心，AE长为半径作弧．若AB＝3，则图中阴影部分的面积是 ____ ．\n![2025年青海省西宁市中考数学试卷_q016_img01](assets/2025年青海省西宁市中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "$\\frac{6π}{5}$．",
+      "solution": "【分析】由五边形ABCDE是正五边形，△ABF是等边三角形，求得∠BAE＝108°，∠BAF＝60°，则∠EAF＝∠BAE﹣∠BAF＝48°，而AF＝AE＝AB＝3，即可根据扇形的面积公式求得$S_{阴影}=\\frac{6π}{5}$，于是得到问题的答案．\n【解答】解：∵五边形ABCDE是正五边形，△ABF是等边三角形，\n∴∠BAE$=\\frac{1}{5}×$（5﹣2）×180°＝108°，∠BAF＝60°，\n∴∠EAF＝∠BAE﹣∠BAF＝48°，\n∵AF＝AE＝AB＝3，\n∴$S_{阴影}=\\frac{48π×3^{2}}{360}=$$\\frac{6π}{5}$，\n故答案为：$\\frac{6π}{5}$．\n【点评】此题重点考查多边形内角和定理、等边三角形的性质、扇形的面积公式等知识，正确地求出∠EAF的度数是解题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q016_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正多边形内角和定理",
+          "等边三角形性质",
+          "扇形面积公式"
+        ],
+        "reasoning": "利用正五边形内角和和等边三角形性质得出∠EAF的度数，进而计算阴影部分面积。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正多边形内角和定理\", \"等边三角形性质\", \"扇形面积公式\"],\n  \"reasoning\": \"利用正五边形内角和和等边三角形性质得出∠EAF的度数，进而计算阴影部分面积。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "blank",
+      "stem_text": "在平面直角坐标系xOy中，点A（4，0），点P在过原点的直线l上，且AP＝OP＝4，则直线l的解析式是 ____ ．",
+      "stem_markdown": "在平面直角坐标系xOy中，点A（4，0），点P在过原点的直线l上，且AP＝OP＝4，则直线l的解析式是 ____ ．",
+      "options": [],
+      "answer": "$y=\\sqrt{3}x$或$y=-\\sqrt{3}x$．",
+      "solution": "【分析】设直线l的解析式为：y＝kx（k≠0），再根据已知条件判定点P在OA的垂直平分线上，从而求出点P的横坐标，然后根据利用勾股定理求出点P的纵坐标，再把点P的坐标代入y＝kx，求出k即可．\n【解答】解：设直线l的解析式为：y＝kx（k≠0），\n∵AP＝OP，\n∴点P在OA的垂直平分线上，\n∵A（4，0），\n∴点P的横坐标为2，\n如图所示：当直线l在第一、三象限时，过点P作PB⊥OA，\n[[image:rId43]]\n∴∠PBO＝90°，\n由勾股定理得：$BP=\\sqrt{OP^{2}-OB^{2}}=\\sqrt{4^{2}-2^{2}}=2\\sqrt{3}$，\n∴点P坐标为$(2，2\\sqrt{3})$，\n把点P代入y＝kx得：$k=\\sqrt{3}$，\n∴直线l的解析式为：$y=\\sqrt{3}x$；\n如图所示：当直线l在第二、四象限时，过点P作PB⊥OA，\n[[image:rId44]]\n∴∠PBO＝90°，\n由勾股定理得：$BP=\\sqrt{OP^{2}-OB^{2}}=\\sqrt{4^{2}-2^{2}}=2\\sqrt{3}$，\n∴点P坐标为$(2，-2\\sqrt{3})$，\n把点P$(2，-2\\sqrt{3})$代入y＝kx得：$k=-\\sqrt{3}$，\n∴直线l的解析式为$y=-\\sqrt{3}x$，\n综上可知：直线l的解析式是$y=\\sqrt{3}x$或$y=-\\sqrt{3}x$，\n故答案为：$y=\\sqrt{3}x$或$y=-\\sqrt{3}x$．\n【点评】本题主要考查了利用待定系数法求一次函数的解析式，解题关键是熟练掌握利用待定系数法求一次函数的解析式的一般步骤．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "一次函数的性质",
+          "垂直平分线"
+        ],
+        "reasoning": "利用勾股定理求点P的坐标，结合一次函数的性质和垂直平分线的性质确定直线方程。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"一次函数的性质\", \"垂直平分线\"],\n  \"reasoning\": \"利用勾股定理求点P的坐标，结合一次函数的性质和垂直平分线的性质确定直线方程。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "blank",
+      "stem_text": "如图1，在Rt△ABC中，∠C＝90°，动点P从点A出发，沿着A→B→C的路径运动到点C停止，过点P作PQ⊥AC，垂足为Q．设点P的运动路程为x，PQ﹣AQ的值为y，y随x变化的函数图象如图2所示，则BC的长为 ____ ．\n[图1]",
+      "stem_markdown": "如图1，在Rt△ABC中，∠C＝90°，动点P从点A出发，沿着$\\overrightarrow{A}\\overrightarrow{B}$C的路径运动到点C停止，过点P作PQ⊥AC，垂足为Q．设点P的运动路程为x，PQ﹣AQ的值为y，y随x变化的函数图象如图2所示，则BC的长为 ____ ．\n![2025年青海省西宁市中考数学试卷_q018_img01](assets/2025年青海省西宁市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "$\\frac{8}{3}$．",
+      "solution": "【分析】由图象可知，当点P到达点B时，此时点Q与点C重合，当点P在BC上运动时，点Q的位置始终保持不变，当点P运动到PC＝AC时，此时x＝4，当P点与C点重合时，此时PQ﹣AQ＝﹣2，即AC＝2，设点P运动到PC＝AC时，BP＝a，进而得到AB＝4﹣a，BC＝2+a，利用勾股定理列出方程求出a的值，进而求出BC的值即可．\n【解答】解：由图象可知，当点P到达点B时，此时点Q与点C重合，\n当点P在BC上运动时，点Q的位置始终保持不变，AQ的值为AC的长，为定值，y随着x的增大逐渐减小，当点P运动到PC＝AC时，此时x＝4，y＝0，\n当P点与C点重合时，此时PQ＝0，y＝PQ﹣AQ＝0﹣AC＝﹣2，\n即AC＝2，\n设点P运动到PC＝AC时，BP＝a，则AB＝4﹣a，BC＝2+a，\n在Rt△ABC中，由勾股定理得：（4﹣a）^{2}＝（2+a）^{2}+2^{2}，\n解得$a=\\frac{2}{3}$，\n∴$BC=a+2=\\frac{8}{3}$，\n故答案为：$\\frac{8}{3}$．\n【点评】本题考查动点问题的函数图象，勾股定理，掌握以上知识点是解题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q018_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "函数图像分析",
+          "直角三角形性质"
+        ],
+        "reasoning": "图象分析得知PQ-AQ随x变化，结合勾股定理求BC",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"函数图像分析\", \"直角三角形性质\"],\n  \"reasoning\": \"图象分析得知PQ-AQ随x变化，结合勾股定理求BC\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "（1）计算：\\sqrt[3]{-8}-\\sqrt{28}+|2-\\sqrt{7}|．\n（2）化简：（2a+b）²﹣（2a+b）（2a﹣b）．",
+      "stem_markdown": "（1）计算：$\\sqrt[3]{-8}-\\sqrt{28}+|2-\\sqrt{7}|$．\n（2）化简：（2a+b）^{2}﹣（2a+b）（2a﹣b）．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先化简，再计算；\n（2）根据平方差公式和完全平方公式进行计算．\n【解答】解：（1）$\\sqrt[3]{-8}-\\sqrt{28}+|2-\\sqrt{7}|$\n$=-2-2\\sqrt{7}+(\\sqrt{7}-2)$\n$=-\\sqrt{7}-4$；\n（2）（2a+b）^{2}﹣（2a+b）（2a﹣b）\n＝（$4a^{2}$+4ab+$b^{2}$）﹣（$4a^{2}﹣b^{2}$）\n＝4ab+$2b^{2}$．\n【点评】本题考查了实数的运算，掌握运算法则是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "立方根",
+          "绝对值",
+          "二次根式",
+          "平方差公式",
+          "完全平方公式"
+        ],
+        "reasoning": "题目（1）涉及立方根、绝对值和二次根式的计算；题目（2）涉及平方差公式和完全平方公式的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"立方根\", \"绝对值\", \"二次根式\", \"平方差公式\", \"完全平方公式\"],\n  \"reasoning\": \"题目（1）涉及立方根、绝对值和二次根式的计算；题目（2）涉及平方差公式和完全平方公式的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "先化简，再求值：\\frac{m^{2}-m}{m^{2}+2m+1}÷(\\frac{2}{m+1}-\\frac{1}{m})，其中m满足m（m+4）＝﹣4．",
+      "stem_markdown": "先化简，再求值：$\\frac{m^{2}-m}{m^{2}+2m+1}÷(\\frac{2}{m+1}-\\frac{1}{m})$，其中m满足m（m+4）＝﹣4．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】利用分式的混合运算化简，解一元二次方程，代入化简后的分式求值．\n【解答】解：m（m+4）＝﹣4，\n解得，$m_{1}＝m_{2}$＝﹣2，\n$\\frac{m^{2}-m}{m^{2}+2m+1}÷(\\frac{2}{m+1}-\\frac{1}{m})$\n$=\\frac{m(m-1)}{((m+1))^{2}}÷\\frac{2m-(m+1)}{m(m+1)}$\n$=\\frac{m(m-1)}{((m+1))^{2}}⋅\\frac{m(m+1)}{m-1}$\n$=\\frac{m^{2}}{m+1}$\n$=\\frac{(-2)^{2}}{-2+1}$\n＝﹣4．\n【点评】本题考查了分式的化简求值，解一元二次方程，解题的关键是掌握分式的混合运算和一元二次方程的解法．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程的解法",
+          "分式的混合运算",
+          "代数恒等变形"
+        ],
+        "reasoning": "题目中解了一元二次方程并代入化简后的分式求值。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程的解法\", \"分式的混合运算\", \"代数恒等变形\"],\n  \"reasoning\": \"题目中解了一元二次方程并代入化简后的分式求值。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，点E是正方形ABCD的边BC的中点，连接DE，将△EDC沿DE所在直线折叠，点C落在点F处，连接EF并延长交AB于点G，连接DG．\n（1）求证：△ADG≌△FDG；\n（2）若AB＝2\\sqrt{5}，求AG的长．\n[图1]",
+      "stem_markdown": "如图，点E是正方形ABCD的边BC的中点，连接DE，将△EDC沿DE所在直线折叠，点C落在点F处，连接EF并延长交AB于点G，连接DG．\n（1）求证：△ADG≌△FDG；\n（2）若AB＝2$\\sqrt{5}$，求AG的长．\n![2025年青海省西宁市中考数学试卷_q021_img01](assets/2025年青海省西宁市中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由正方形的性质得AD＝CD，∠A＝∠C＝90°，由折叠得FD＝CD，∠DFE＝∠C＝90°，则AD＝FD，∠DFG＝90°，而DG＝DG，即可根据“HL”证明Rt△ADG≌Rt△FDG．\n（2）因为AD＝DC＝BC＝AB＝2$\\sqrt{5}$，点E是BC的中点，所以BE＝CE$=\\frac{1}{2}$BC$=\\sqrt{5}$，则FE＝BE$=\\sqrt{5}$，而FG＝AG，则BG＝2$\\sqrt{5}-$AG，EG$=\\sqrt{5}+$FG$=\\sqrt{5}+$AG，由勾股定理得$(\\sqrt{5})^{2}$+（2$\\sqrt{5}-$AG）^{2}＝（$\\sqrt{5}+$AG）^{2}，求得AG$=\\frac{2\\sqrt{5}}{3}$．\n【解答】（1）证明：∵四边形ABCD是正方形，\n∴AD＝CD，∠A＝∠C＝90°，\n由折叠得FD＝CD，∠DFE＝∠C＝90°，\n∴AD＝FD，∠DFG＝90°，\n在Rt△ADG和Rt△FDG中，\n$\\begin{cases} DG=DG \\\\ AD=FD \\end{cases}$，\n∴Rt△ADG≌Rt△FDG（HL）．\n（2）解：∵AD＝DC＝BC＝AB＝2$\\sqrt{5}$，点E是BC的中点，\n∴BE＝CE$=\\frac{1}{2}$BC$=\\sqrt{5}$，\n∴FE＝BE$=\\sqrt{5}$，\n∵FG＝AG，\n∴BG＝2$\\sqrt{5}-$AG，EG$=\\sqrt{5}+$FG$=\\sqrt{5}+$AG，\n∵∠B＝90°，\n∴$BE^{2}+BG^{2}＝EG^{2}$，\n∴$(\\sqrt{5})^{2}$+（2$\\sqrt{5}-$AG）^{2}＝（$\\sqrt{5}+$AG）^{2}，\n解得AG$=\\frac{2\\sqrt{5}}{3}$，\n∴AG的长是$\\frac{2\\sqrt{5}}{3}$．\n【点评】此题重点考查正方形的性质、翻折变换的性质、全等三角形的判定与性质、勾股定理等中知识，推导出AD＝FD，∠DFG＝90°，进而证明Rt△ADG≌Rt△FDG是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q021_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正方形的性质",
+          "翻折变换的性质",
+          "全等三角形的判定与性质"
+        ],
+        "reasoning": "证明△ADG≌△FDG时利用了正方形的性质和翻折变换的性质",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正方形的性质\", \"翻折变换的性质\", \"全等三角形的判定与性质\"],\n  \"reasoning\": \"证明△ADG≌△FDG时利用了正方形的性质和翻折变换的性质\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "近年来，雪豹已成为西宁的城市新名片．某文创店内以“雪豹”为主题的文创产品琳琅满目．数学兴趣小组的同学想要调查全校学生对其中四类文创产品的喜爱情况，设计了调查问卷．\n调查问卷 年 月 在下面四类文创产品中，你最喜爱的是（ㅤㅤ）（单选） A．玩偶 B．冰箱贴 C．创意摆件 D．手机挂件\n【数据的收集与整理】\n数学兴趣小组的同学从收集到的调查问卷中随机抽取了部分问卷进行整理，绘制了如下两幅不完整的统计图．根据图中信息，请回答下列问题：\n[图1]\n（1）本次抽样调查的样本容量是 ____ ；\n（2）扇形图中“玩偶”对应扇形的圆心角的度数是 ____ ；\n【做出合理估计】\n（3）若全校共有1800名学生，请你估计全校最喜爱手机挂件的学生人数是多少？\n【解决概率问题】\n（4）文创店负责人为了宣传以“雪豹”为主题的文创产品，端午节期间设置了抽奖活动：在一个不透明的盒子中装有四个完全相同的小球，它们分别写有A，B，C，D（A玩偶、B冰箱贴、C创意摆件、D手机挂件），摸出哪个小球就获得相应的文创产品．甲随机摸出一个小球后，放回并摇匀，乙再随机摸出一个．请用画树状图或列表的方法求出甲，乙两人恰好获得同一类文创产品的概率．",
+      "stem_markdown": "近年来，雪豹已成为西宁的城市新名片．某文创店内以“雪豹”为主题的文创产品琳琅满目．数学兴趣小组的同学想要调查全校学生对其中四类文创产品的喜爱情况，设计了调查问卷．\n调查问卷 年 月 在下面四类文创产品中，你最喜爱的是（ㅤㅤ）（单选） A．玩偶 B．冰箱贴 C．创意摆件 D．手机挂件\n【数据的收集与整理】\n数学兴趣小组的同学从收集到的调查问卷中随机抽取了部分问卷进行整理，绘制了如下两幅不完整的统计图．根据图中信息，请回答下列问题：\n![2025年青海省西宁市中考数学试卷_q022_img01](assets/2025年青海省西宁市中考数学试卷_q022_img01.png)\n（1）本次抽样调查的样本容量是 ____ ；\n（2）扇形图中“玩偶”对应扇形的圆心角的度数是 ____ ；\n【做出合理估计】\n（3）若全校共有1800名学生，请你估计全校最喜爱手机挂件的学生人数是多少？\n【解决概率问题】\n（4）文创店负责人为了宣传以“雪豹”为主题的文创产品，端午节期间设置了抽奖活动：在一个不透明的盒子中装有四个完全相同的小球，它们分别写有A，B，C，D（A玩偶、B冰箱贴、C创意摆件、D手机挂件），摸出哪个小球就获得相应的文创产品．甲随机摸出一个小球后，放回并摇匀，乙再随机摸出一个．请用画树状图或列表的方法求出甲，乙两人恰好获得同一类文创产品的概率．",
+      "options": [],
+      "answer": "120",
+      "solution": "【分析】（1）根据喜爱冰箱贴的人数和占比即可得解；\n（2）先求出喜爱玩偶的人数，进而可求占比，再用360°相乘即可得解；\n（3）直接利用公式即可求解；\n（4）列树状图求解即可．\n【解答】解：（1）已知喜爱冰箱贴的人数有36人，占比为30%，\n∴$\\frac{36}{30%}=$120；\n故答案为：120；\n（2）喜爱玩偶的人数有120﹣36﹣12﹣40＝32（人），\n∴360°$×\\frac{32}{120}=$96°；\n故答案为：96°；\n（3）$1800×\\frac{40}{120}=600$（人）\n答：估计全校最喜爱手机挂件的学生有600人（6分）\n（4）根据题意，可以画出如下树状图：\n[[image:rId48]][[image:rId49]][[image:rId50]][[image:rId51]]\n由树状图可以看出，所有可能出现的结果共有16种，即AA，AB，AC，AD，BA，BB，BC，BD，CA，CB，CC，CD，DA，DB，DC，DD，这些结果出现的可能性相等，其中甲，乙两人恰好获得同一类文创产品的结果共有4种，即AA，BB，CC，DD．\n所以，$P(甲，乙两人恰好获得同一类文创产品)=\\frac{4}{16}=\\frac{1}{4}$．\n【点评】本题主要考查了概率公式、数据统计分析、列表发与树状图等内容，熟练掌握相关知识是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q022_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率与概率的关系",
+          "统计图表的应用",
+          "概率计算"
+        ],
+        "reasoning": "通过统计图表分析得出样本容量及玩偶对应的圆心角度数；利用频率计算全校喜爱手机挂件的学生人数；用树状图计算甲乙两人获得同一类文创产品的概率。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率与概率的关系\", \"统计图表的应用\", \"概率计算\"],\n  \"reasoning\": \"通过统计图表分析得出样本容量及玩偶对应的圆心角度数；利用频率计算全校喜爱手机挂件的学生人数；用树状图计算甲乙两人获得同一类文创产品的概率。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "西宁将丁香定为市花，是这座城市同丁香的精神共鸣——坚韧、顽强、浪漫．某小区物业计划购买白丁香、紫丁香两个品种的丁香，用于美化小区．若购买12株白丁香和7株紫丁香共1160元；购买9株白丁香和14株紫丁香共1570元．\n（1）求白丁香和紫丁香的单价分别是多少？\n（2）该小区物业计划购买白丁香和紫丁香共45株，其中紫丁香至少购买20株，怎样购买总费用最少？最少费用为多少元？",
+      "stem_markdown": "西宁将丁香定为市花，是这座城市同丁香的精神共鸣——坚韧、顽强、浪漫．某小区物业计划购买白丁香、紫丁香两个品种的丁香，用于美化小区．若购买12株白丁香和7株紫丁香共1160元；购买9株白丁香和14株紫丁香共1570元．\n（1）求白丁香和紫丁香的单价分别是多少？\n（2）该小区物业计划购买白丁香和紫丁香共45株，其中紫丁香至少购买20株，怎样购买总费用最少？最少费用为多少元？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据题意列出方程组即可解决问题；\n（2）根据题意得w＝30m+2250，然后利用一次函数性质即可解决问题．\n【解答】解：（1）设白丁香的单价为x元，紫丁香的单价为y元．\n根据题意，得$\\begin{cases} 12x+7y=1160 \\\\ 9x+14y=1570 \\end{cases}$，\n解方程组，得$\\begin{cases} x=50 \\\\ y=80 \\end{cases}$，\n答：白丁香的单价为50元，紫丁香的单价为80元；\n（2）设购买紫丁香m株，则购买白丁香（45﹣m）株，总费用为w元．\n根据题意，得w＝80m+50×（45﹣m）＝30m+2250，\n∵30＞0，\n∴w随m的增大而增大，\n∵m≥20，\n∴当m＝20时，$w_{最小}$＝30×20+2250＝2850，\n答：购买紫丁香20株，白丁香25株时，总费用最少，最少费用为2850元．\n【点评】本题考查一次函数的应用，二元一次方程组的应用，解决本题的关键是理解题意找等量关系．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "线性方程组",
+          "一次函数",
+          "不等式约束"
+        ],
+        "reasoning": "第（1）问通过线性方程组求解单价；第（2）问通过一次函数确定最小费用",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"线性方程组\", \"一次函数\", \"不等式约束\"],\n  \"reasoning\": \"第（1）问通过线性方程组求解单价；第（2）问通过一次函数确定最小费用\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，AB，AC是⊙O的弦，AB＝AC，半径OE，OF分别与弦AB，AC垂直，垂足分别为G，H，AM∥OF交OE于点M，AN∥OE交OF于点N，连接OA．\n（1）求证：∠AOE＝∠AOF；\n（2）求证：四边形AMON是菱形；\n（3）若AB＝16，OA＝10，则OM＝ ____ ．\n[图1]",
+      "stem_markdown": "如图，AB，AC是⊙O的弦，AB＝AC，半径OE，OF分别与弦AB，AC垂直，垂足分别为G，H，AM∥OF交OE于点M，AN∥OE交OF于点N，连接OA．\n（1）求证：∠AOE＝∠AOF；\n（2）求证：四边形AMON是菱形；\n（3）若AB＝16，OA＝10，则OM＝ ____ ．\n![2025年青海省西宁市中考数学试卷_q024_img01](assets/2025年青海省西宁市中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "$\\frac{25}{3}$．",
+      "solution": "【分析】（1）根据弧，弦，角之间的关系以及垂径定理，即可得证；\n（2）先证明四边形AMON为平行四边形，等积法推出OM＝ON，即可得证；\n（3）利用垂径定理及勾股定理求出OG的长，设OM＝AM＝x，在Rt△AGM中，利用勾股定理进行求解即可．\n【解答】（1）证明：∵AB＝AC，\n∴$AB=AC$，\n∵半径OE，OF分别与弦AB，AC垂直，\n∴$AE=BE$，$AF=CF$，\n∴$AE=BE=$$AF=CF$，\n∴∠AOE＝∠AOF；\n（2）证明：∵AM∥OF，AN∥OE，\n∴四边形AMON为平行四边形，\n∵半径OE，OF分别与弦AB，AC垂直，\n∴AG$=\\frac{1}{2}$AB，$AH=\\frac{1}{2}AC$，\n∵AB＝AC，\n∴AG＝AH，\n∵$S_{四边形}_{AMON}$＝OM•AG＝ON•AH，\n∴OM＝ON，\n∴四边形AMON为菱形；\n（3）解：∵AB＝16，\n∴$AG=\\frac{1}{2}AB=8$，\n在Rt△AOG中，由勾股定理得$OG=\\sqrt{OA^{2}-AG^{2}}=6$，\n由（2）知四边形AMON为菱形，\n设OM＝AM＝x，则MG＝OM﹣OG＝x﹣6，\n在Rt△AGM中，由勾股定理得$x^{2}$＝8^{2}+（x﹣6）^{2}，\n解得$x=\\frac{25}{3}$，\n故答案为：$\\frac{25}{3}$．\n【点评】本题考查圆的综合应用，主要考查弧，弦，角之间的关系，垂径定理，勾股定理，菱形的判定和性质，熟练掌握相关知识点是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q024_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "垂径定理",
+          "相似三角形",
+          "平行四边形的性质",
+          "菱形的判定"
+        ],
+        "reasoning": "第（1）问利用垂径定理证明∠AOE＝∠AOF；第（2）问通过平行线证明四边形AMON为平行四边形，并利用等积法证明OM＝ON；第（3）问利用垂径定理和勾股定理求OG，再利用菱形的性质求OM。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"垂径定理\", \"相似三角形\", \"平行四边形的性质\", \"菱形的判定\"],\n  \"reasoning\": \"第（1）问利用垂径定理证明∠AOE＝∠AOF；第（2）问通过平行线证明四边形AMON为平行四边形，并利用等积法证明OM＝ON；第（3）问利用垂径定理和勾股定理求OG，再利用菱形的性质求OM。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "如图，在平面直角坐标系xOy中，以P为顶点的抛物线的解析式为y＝ax²﹣4ax（a＜0），点A的坐标是（﹣1，0），以原点为中心，把点A顺时针旋转90°，得到点A′．\n（1）直接写出A′点的坐标和抛物线的对称轴；\n（2）当3≤x≤5时，y有最大值为1﹣2a，求抛物线的解析式；\n（3）在（2）的条件下，若点M在y轴上，点N在坐标平面内，是否存在以点A′，P，M，N为顶点的四边形是矩形？若存在，请直接写出所有符合条件的点N的坐标；若不存在，请说明理由．\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系xOy中，以P为顶点的抛物线的解析式为y＝$ax^{2}$﹣4ax（a＜0），点A的坐标是（﹣1，0），以原点为中心，把点A顺时针旋转90°，得到点A′．\n（1）直接写出A′点的坐标和抛物线的对称轴；\n（2）当3≤x≤5时，y有最大值为1﹣2a，求抛物线的解析式；\n（3）在（2）的条件下，若点M在y轴上，点N在坐标平面内，是否存在以点A′，P，M，N为顶点的四边形是矩形？若存在，请直接写出所有符合条件的点N的坐标；若不存在，请说明理由．\n![2025年青海省西宁市中考数学试卷_q025_img01](assets/2025年青海省西宁市中考数学试卷_q025_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据旋转的性质，二次函数的对称轴公式进行计算即可；\n（2）根据二次函数的增减性，列出方程求出a的值即可；\n（3）分A'P为对角线，A'M为对角线，MP为对角线，三种情况进行讨论求解即可．\n【解答】解：（1）∵点A的坐标是（﹣1，0），\n∴OA＝1，\n∵以原点为中心，把点A顺时针旋转90°，\n∴∠AOA'＝90°，OA'＝OA＝1，\n此时点A'在y轴正半轴上，\n∴A'（0，1）；\n∵y＝$ax^{2}$﹣4ax（a＜0），\n∴对称轴为直线$x=-\\frac{-4a}{2a}=2$；\n（2）∵y＝$ax^{2}$﹣4ax（a＜0），对称轴为直线x＝2，\n∴当x＞2时，y随x的增大而减小，\n∵3≤x≤5，\n∴当x＝3，y有最大值为3^{2}a﹣4×3a＝﹣3a＝1﹣2a，\n∴a＝﹣1，\n∴y＝﹣$x^{2}$+4x；\n（3）存在，理由如下：\n∵y＝﹣$x^{2}$+4x，\n∴当x＝2时，y＝﹣2^{2}+4×2＝4，\n∴P（2，4），\n设M（0，m），N（s，t），\n由（1）知A'（0，1），\n当以点A'，P，M，N为顶点的四边形是矩形时，分三种情况：\n①当A'P为对角线时，则△A'MP为以M为顶点的直角三角形，PN∥A'M，即PN∥y轴，A'N∥PM，\n∴PM⊥y轴，\n∴A'N⊥y轴，\n∴M（0，4），N（2，1）；\n②当以A'M为对角线时，则$\\begin{cases} 0+0=2+s \\\\ 1+m=4+t \\end{cases}$，\n解得$\\begin{cases} s=-2 \\\\ m=t+3 \\end{cases}$，\n∴M（0，t+3），N（﹣2，t），\n∵A'M＝PN，\n∴（t+3﹣1）^{2}＝（2+2）^{2}+（4﹣t）^{2}，\n解得$t=\\frac{7}{3}$，\n∴$N(-2，\\frac{7}{3})$；\n③当以PM为对角线时，要满足A'，P，M，N为顶点的四边形是矩形，\n则需要满足△A'PM是以∠PA'M为直角的直角三角形，\n即PA'⊥y轴，与题意不符，故此种情况不存在；\n综上，N（2，1）或$N(-2，\\frac{7}{3})$．\n[[image:rId54]]\n【点评】本题考查二次函数的综合应用，主要考查旋转的性质，二次函数的图象和性质，矩形的性质，正确的求出函数解析式，利用数形结合和分类讨论的思想进行求解是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q025_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的图象和性质",
+          "旋转的性质",
+          "矩形的性质",
+          "一元二次方程"
+        ],
+        "reasoning": "第（2）问通过二次函数增减性求a值，第（3）问通过矩形性质讨论点N位置",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的图象和性质\", \"旋转的性质\", \"矩形的性质\", \"一元二次方程\"],\n  \"reasoning\": \"第（2）问通过二次函数增减性求a值，第（3）问通过矩形性质讨论点N位置\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年青海省西宁市中考数学试卷_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "综合与实践\n【问题提出】\n原题呈现（人教版九年级下册85页第14题）\n如图1，在锐角△ABC中，探究\\frac{a}{sin∠BAC}，\\frac{b}{sin∠ABC}，\\frac{c}{sin∠ACB}之间的关系．\n【问题探究】\n将下列探究过程补充完整：\n（1）如图1，过点A作AD⊥BC，垂足为D，过点B作BE⊥AC，垂足为E．\n在Rt△ABD中sin∠ABC=\\frac{AD}{c}∴AD＝c•sin∠ABC\n在Rt△ADC中sin∠ACB=\\frac{AD}{b}∴AD＝b•sin∠ACB\n∴c•sin∠ABC＝b•sin∠ACB即\\frac{b}{sin∠ABC}=\\frac{c}{sin∠ACB}\n同理在Rt△AEB中BE＝ ____\n在Rt△BEC中BE＝ ____\n∴ ____ ＝ ____\n即\\frac{a}{sin∠BAC}=\\frac{c}{sin∠ACB}\n∴\\frac{a}{sin∠BAC}=\\frac{b}{sin∠ABC}=\\frac{c}{sin∠ACB}；\n【结论应用】\n（2）如图2，在△ABC中，AB＝2\\sqrt{3}，∠A＝70°，∠B＝50°．求AC，BC的长．（结果保留小数点后一位；参考数据：sin50°≈0.77，sin70°≈0.94．）\n【深度探究】\n（3）如图3，⊙O是锐角△ABC的外接圆，半径为R．\n求证：\\frac{a}{sin∠BAC}=\\frac{b}{sin∠ABC}=\\frac{c}{sin∠ACB}=2R．\n【拓展应用】\n（4）如图4，在△ABC中，∠BAC＝60°，∠B＝45°，AB＝2\\sqrt{2}，D是线段BC上的一个动点，以AD为直径的⊙O分别交AB，AC于点E，F，连接EF．则线段EF长度的最小值是 ____ ．\n[图1]\n2025年青海省西宁市中考数学试卷",
+      "stem_markdown": "综合与实践\n【问题提出】\n原题呈现（人教版九年级下册85页第14题）\n如图1，在锐角△ABC中，探究$\\frac{a}{sin∠BAC}，\\frac{b}{sin∠ABC}，\\frac{c}{sin∠ACB}$之间的关系．\n【问题探究】\n将下列探究过程补充完整：\n（1）如图1，过点A作AD⊥BC，垂足为D，过点B作BE⊥AC，垂足为E．\n在Rt△ABD中sin∠ABC$=\\frac{AD}{c}$∴AD＝c•sin∠ABC\n在Rt△ADC中sin∠ACB$=\\frac{AD}{b}$∴AD＝b•sin∠ACB\n∴c•sin∠ABC＝b•sin∠ACB即$\\frac{b}{sin∠ABC}=\\frac{c}{sin∠ACB}$\n同理在Rt△AEB中BE＝ ____\n在Rt△BEC中BE＝ ____\n∴ ____ ＝ ____\n即$\\frac{a}{sin∠BAC}=\\frac{c}{sin∠ACB}$\n∴$\\frac{a}{sin∠BAC}=\\frac{b}{sin∠ABC}=\\frac{c}{sin∠ACB}$；\n【结论应用】\n（2）如图2，在△ABC中，AB＝2$\\sqrt{3}$，∠A＝70°，∠B＝50°．求AC，BC的长．（结果保留小数点后一位；参考数据：sin50°≈0.77，sin70°≈0.94．）\n【深度探究】\n（3）如图3，⊙O是锐角△ABC的外接圆，半径为R．\n求证：$\\frac{a}{sin∠BAC}=\\frac{b}{sin∠ABC}=\\frac{c}{sin∠ACB}=$2R．\n【拓展应用】\n（4）如图4，在△ABC中，∠BAC＝60°，∠B＝45°，AB＝2$\\sqrt{2}$，D是线段BC上的一个动点，以AD为直径的⊙O分别交AB，AC于点E，F，连接EF．则线段EF长度的最小值是 ____ ．\n![2025年青海省西宁市中考数学试卷_q026_img01](assets/2025年青海省西宁市中考数学试卷_q026_img01.png)\n2025年青海省西宁市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "26．（12分）综合与实践\n【问题提出】\n原题呈现（人教版九年级下册85页第14题）\n如图1，在锐角△ABC中，探究$\\frac{a}{sin∠BAC}，\\frac{b}{sin∠ABC}，\\frac{c}{sin∠ACB}$之间的关系．\n【问题探究】\n将下列探究过程补充完整：\n（1）如图1，过点A作AD⊥BC，垂足为D，过点B作BE⊥AC，垂足为E．\n在Rt△ABD中sin∠ABC$=\\frac{AD}{c}$∴AD＝c•sin∠ABC\n在Rt△ADC中sin∠ACB$=\\frac{AD}{b}$∴AD＝b•sin∠ACB\n∴c•sin∠ABC＝b•sin∠ACB即$\\frac{b}{sin∠ABC}=\\frac{c}{sin∠ACB}$\n同理在Rt△AEB中BE＝c•sin∠BAC\n在Rt△BEC中BE＝a•sin∠ACB\n∴c•sin∠BAC ＝a•sin∠ACB\n即$\\frac{a}{sin∠BAC}=\\frac{c}{sin∠ACB}$\n∴$\\frac{a}{sin∠BAC}=\\frac{b}{sin∠ABC}=\\frac{c}{sin∠ACB}$；\n【结论应用】\n（2）如图2，在△ABC中，AB＝2$\\sqrt{3}$，∠A＝70°，∠B＝50°．求AC，BC的长．（结果保留小数点后一位；参考数据：sin50°≈0.77，sin70°≈0.94．）\n【深度探究】\n（3）如图3，⊙O是锐角△ABC的外接圆，半径为R．\n求证：$\\frac{a}{sin∠BAC}=\\frac{b}{sin∠ABC}=\\frac{c}{sin∠ACB}=$2R．\n【拓展应用】\n（4）如图4，在△ABC中，∠BAC＝60°，∠B＝45°，AB＝2$\\sqrt{2}$，D是线段BC上的一个动点，以AD为直径的⊙O分别交AB，AC于点E，F，连接EF．则线段EF长度的最小值是 $\\sqrt{3}$ ．\n[[image:rId55]]\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:26:22；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId57]] ____ [[image:rId58]] ____ [[image:rId59]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年青海省西宁市中考数学试卷_q026_img01",
+          "path": "assets/2025年青海省西宁市中考数学试卷_q026_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正弦函数定义",
+          "直角三角形性质",
+          "相似三角形",
+          "圆的性质"
+        ],
+        "reasoning": "探究三角形边角关系涉及正弦函数和直角三角形性质",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正弦函数定义\", \"直角三角形性质\", \"相似三角形\", \"圆的性质\"],\n  \"reasoning\": \"探究三角形边角关系涉及正弦函数和直角三角形性质\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:53:27",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 26,
+      "ok": 26,
+      "fallback": 0
+    }
+  }
+}

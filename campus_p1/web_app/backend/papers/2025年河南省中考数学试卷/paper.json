@@ -1,0 +1,1086 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年河南省中考数学试卷",
+  "source": {
+    "name": "2025年河南省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年河南省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年河南省中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "在学校足球比赛中，如果某班足球队进4个球记作+4个，那么该队失3个球记作（ ）",
+      "stem_markdown": "在学校足球比赛中，如果某班足球队进4个球记作+4个，那么该队失3个球记作（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "+3个"
+        },
+        {
+          "label": "B",
+          "text": "﹣3个"
+        },
+        {
+          "label": "C",
+          "text": "+4个"
+        },
+        {
+          "label": "D",
+          "text": "﹣4个"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】用正负数表示两种具有相反意义的量，据此即可求得答案．\n【解答】解：如果某班足球队进4个球记作+4个，\n那么该队失3个球记作﹣3个，\n故选：B．\n【点评】本题考查正数和负数，理解具有相反意义的量是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正负数的应用",
+          "具有相反意义的量"
+        ],
+        "reasoning": "题中用正负数表示进球和失球，失球为负数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正负数的应用\", \"具有相反意义的量\"],\n  \"reasoning\": \"题中用正负数表示进球和失球，失球为负数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "数学活动课上，小颖绘制的某立体图形展开图如图所示，则该立体图形是（ ）\n[图1]",
+      "stem_markdown": "数学活动课上，小颖绘制的某立体图形展开图如图所示，则该立体图形是（ ）\n![2025年河南省中考数学试卷_q002_img01](assets/2025年河南省中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年河南省中考数学试卷_q002_img02](assets/2025年河南省中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年河南省中考数学试卷_q002_img03](assets/2025年河南省中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年河南省中考数学试卷_q002_img04](assets/2025年河南省中考数学试卷_q002_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年河南省中考数学试卷_q002_img05](assets/2025年河南省中考数学试卷_q002_img05.png)"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据圆锥的展开图是一个扇形和一个圆判断即可．\n【解答】解：由圆锥的展开图可知，这个几何体是圆锥．\n故选：D．\n【点评】本题考查了几何体的展开图，掌握常见几何体的展开图是解答本题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q002_img01",
+          "path": "assets/2025年河南省中考数学试卷_q002_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年河南省中考数学试卷_q002_img02",
+          "path": "assets/2025年河南省中考数学试卷_q002_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年河南省中考数学试卷_q002_img03",
+          "path": "assets/2025年河南省中考数学试卷_q002_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年河南省中考数学试卷_q002_img04",
+          "path": "assets/2025年河南省中考数学试卷_q002_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年河南省中考数学试卷_q002_img05",
+          "path": "assets/2025年河南省中考数学试卷_q002_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆锥的展开图",
+          "扇形",
+          "圆"
+        ],
+        "reasoning": "题目描述了圆锥的展开图包含一个扇形和一个圆，要求识别出对应的立体图形。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆锥的展开图\", \"扇形\", \"圆\"],\n  \"reasoning\": \"题目描述了圆锥的展开图包含一个扇形和一个圆，要求识别出对应的立体图形。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "通电瞬间，导线中的电流以接近光速形成，但其中自由电子定向移动的平均速度大约只有0.000074m/s，比蜗牛爬行的速度还慢．数据“0.000074”用科学记数法表示为（ ）",
+      "stem_markdown": "通电瞬间，导线中的电流以接近光速形成，但其中自由电子定向移动的平均速度大约只有0.000074m/s，比蜗牛爬行的速度还慢．数据“0.000074”用科学记数法表示为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.74×10^{﹣4}"
+        },
+        {
+          "label": "B",
+          "text": "7.4×10^{﹣4}"
+        },
+        {
+          "label": "C",
+          "text": "7.4×10^{﹣5}"
+        },
+        {
+          "label": "D",
+          "text": "74×10^{﹣6}"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：0.000074＝7.4×10^{﹣5}．\n故选：C．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "小数点移动与指数关系"
+        ],
+        "reasoning": "题中要求将0.000074用科学记数法表示，考察了科学记数法的表示方法和小数点移动与指数的关系。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"小数点移动与指数关系\"],\n  \"reasoning\": \"题中要求将0.000074用科学记数法表示，考察了科学记数法的表示方法和小数点移动与指数的关系。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "如图所示，有一个六边形零件，利用图中的量角器可以量出该零件内角的度数，则所量内角的度数为（ ）\n[图1]",
+      "stem_markdown": "如图所示，有一个六边形零件，利用图中的量角器可以量出该零件内角的度数，则所量内角的度数为（ ）\n![2025年河南省中考数学试卷_q004_img01](assets/2025年河南省中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "100°"
+        },
+        {
+          "label": "B",
+          "text": "110°"
+        },
+        {
+          "label": "C",
+          "text": "120°"
+        },
+        {
+          "label": "D",
+          "text": "130°"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】由量角器可知，∠1＝120°，再利用对顶角相等求解即可．\n【解答】解：如图，延长BO，\n[[image:rId35]]\n由量角器可知，∠AOD＝120°，\n∴∠BOC＝∠AOD＝120°，\n即所量内角的度数为120°，\n故选：C．\n【点评】本题考查了量角器，对顶角，正确读出量角器度数是解题关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q004_img01",
+          "path": "assets/2025年河南省中考数学试卷_q004_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "对顶角相等",
+          "量角器使用"
+        ],
+        "reasoning": "量角器读数和对顶角相等求解",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"对顶角相等\", \"量角器使用\"],\n  \"reasoning\": \"量角器读数和对顶角相等求解\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "一元二次方程x²﹣2x＝0的根的情况是（ ）",
+      "stem_markdown": "一元二次方程$x^{2}$﹣2x＝0的根的情况是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "有两个不相等的实数根"
+        },
+        {
+          "label": "B",
+          "text": "有两个相等的实数根"
+        },
+        {
+          "label": "C",
+          "text": "只有一个实数根"
+        },
+        {
+          "label": "D",
+          "text": "没有实数根"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据Δ＞0，即可判断根的情况．\n【解答】解：由条件可得Δ＝（﹣2）^{2}﹣4×1×0＝4＞0，\n∴方程有两个不相等的实数根，\n故选：A．\n【点评】本题考查了一元二次方程跟的判别式，熟练掌握该知识点是解题关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程根的判别式",
+          "根的判别式Δ > 0, 有两个不相等的实数根"
+        ],
+        "reasoning": "根据Δ=4>0判断方程有两个不相等的实数根",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程根的判别式\", \"根的判别式Δ > 0, 有两个不相等的实数根\"],\n  \"reasoning\": \"根据Δ=4>0判断方程有两个不相等的实数根\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图所示的网格中，每个小正方形的边长均为1，△ABC的三个顶点均在网格线的交点上，点D，E分别是边BA，CA与网格线的交点，连接DE，则DE的长为（ ）\n[图1]",
+      "stem_markdown": "如图所示的网格中，每个小正方形的边长均为1，△ABC的三个顶点均在网格线的交点上，点D，E分别是边BA，CA与网格线的交点，连接DE，则DE的长为（ ）\n![2025年河南省中考数学试卷_q006_img01](assets/2025年河南省中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{3}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】证明△ADF≌△BDG（AAS），得AD＝BD，同理AE＝CE，再证明DE是△ABC的中位线，即可得出结论．\n【解答】解：如图，由题意可知，BC＝AF＝BG＝2，∠AFD＝∠BGD＝90°，\n又∵∠ADF＝∠BDG，\n∴△ADF≌△BDG（AAS），\n∴AD＝BD，\n同理：AE＝CE，\n∴DE是△ABC的中位线，\n∴DE$=\\frac{1}{2}$BC＝1，\n故选：B．\n[[image:rId37]]\n【点评】本题考查了三角形中位线定理以及全等三角形的判定与性质等知识，熟练掌握三角形中位线定理以及全等三角形的判定与性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q006_img01",
+          "path": "assets/2025年河南省中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形中位线定理",
+          "全等三角形的判定（AAS）",
+          "直角三角形的性质"
+        ],
+        "reasoning": "题中通过证明△ADF≌△BDG（AAS）得出AD=BD，再证AE=CE，最后利用DE是△ABC的中位线得出DE长度",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形中位线定理\", \"全等三角形的判定（AAS）\", \"直角三角形的性质\"],\n  \"reasoning\": \"题中通过证明△ADF≌△BDG（AAS）得出AD=BD，再证AE=CE，最后利用DE是△ABC的中位线得出DE长度\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "化简\\frac{x^{2}-2}{x-1}-\\frac{1}{1-x}的结果是（ ）",
+      "stem_markdown": "化简$\\frac{x^{2}-2}{x-1}-\\frac{1}{1-x}$的结果是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x+1"
+        },
+        {
+          "label": "B",
+          "text": "x"
+        },
+        {
+          "label": "C",
+          "text": "x﹣1"
+        },
+        {
+          "label": "D",
+          "text": "x﹣2"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】将原式变形后将分子相减，然后约分即可．\n【解答】解：原式$=\\frac{x^{2}-2}{x-1}+\\frac{1}{x-1}$\n$=\\frac{x^{2}-1}{x-1}$\n$=\\frac{(x+1)(x-1)}{x-1}$\n＝x+1，\n故选：A．\n【点评】本题考查分式的加减法，熟练掌握其运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式的加减法",
+          "通分",
+          "约分"
+        ],
+        "reasoning": "解答过程中需要对分式进行通分和约分",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式的加减法\", \"通分\", \"约分\"],\n  \"reasoning\": \"解答过程中需要对分式进行通分和约分\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "甲骨文是我国已发现最早的成熟文字，代表了早期中华文明的辉煌成就．正面分别印有甲骨文“美”“丽”“山”“河”的四张卡片如图所示，它们除正面外完全相同．把这四张卡片背面朝上洗匀，从中随机抽取两张，则这两张卡片正面恰好是甲骨文“丽”和“山”的概率是（ ）\n[图1]",
+      "stem_markdown": "甲骨文是我国已发现最早的成熟文字，代表了早期中华文明的辉煌成就．正面分别印有甲骨文“美”“丽”“山”“河”的四张卡片如图所示，它们除正面外完全相同．把这四张卡片背面朝上洗匀，从中随机抽取两张，则这两张卡片正面恰好是甲骨文“丽”和“山”的概率是（ ）\n![2025年河南省中考数学试卷_q008_img01](assets/2025年河南省中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{12}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】列表可得出所有等可能的结果数以及这两张卡片正面恰好是甲骨文“丽”和“山”的结果数，再利用概率公式可得出答案．\n【解答】解：列表如下：\n| 美 | 丽 | 山 | 河 |\n| --- | --- | --- | --- |\n| 美 | （美，丽） | （美，山） | （美，河） |\n| 丽 | （丽，美） | （丽，山） | （丽，河） |\n| 山 | （山，美） | （山，丽） | （山，河） |\n| 河 | （河，美） | （河，丽） | （河，山） |\n共有12种等可能的结果，其中这两张卡片正面恰好是甲骨文“丽”和“山”的结果有：（丽，山），（山，丽），共2种，\n∴这两张卡片正面恰好是甲骨文“丽”和“山”的概率为$\\frac{2}{12}=\\frac{1}{6}$．\n故选：B．\n【点评】本题考查列表法与树状图法、概率公式，熟练掌握列表法与树状图法以及概率公式是解答本题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q008_img01",
+          "path": "assets/2025年河南省中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "组合计数",
+          "古典概型"
+        ],
+        "reasoning": "计算抽取两张卡片恰好是‘丽’和‘山’的概率时使用了组合计数和古典概型的概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"组合计数\", \"古典概型\"],\n  \"reasoning\": \"计算抽取两张卡片恰好是‘丽’和‘山’的概率时使用了组合计数和古典概型的概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，在菱形ABCD中，∠B＝45°，AB＝6，点E在边BC上，连接AE，将△ABE沿AE折叠，若点B落在BC延长线上的点F处，则CF的长为（ ）\n[图1]",
+      "stem_markdown": "如图，在菱形ABCD中，∠B＝45°，AB＝6，点E在边BC上，连接AE，将△ABE沿AE折叠，若点B落在BC延长线上的点F处，则CF的长为（ ）\n![2025年河南省中考数学试卷_q009_img01](assets/2025年河南省中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "6﹣3$\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "2$\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "text": "6$\\sqrt{2}-$6"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据菱形的性质求出AB＝BC＝6，根据折叠的性质求出AE⊥BF，BE＝EF，解直角三角形求出BF＝2BE＝6$\\sqrt{2}$，再根据线段的和差求解即可．\n【解答】解：∵四边形ABCD是菱形，AB＝6，\n∴AB＝BC＝6，\n根据折叠的性质得，AE⊥BF，BE＝EF，\n∵∠B＝45°，\n∴∠BAE＝90°﹣45°＝∠B，\n∴AE＝BE$=\\frac{\\sqrt{2}}{2}$AB＝3$\\sqrt{2}$，\n∴BF＝2BE＝6$\\sqrt{2}$，\n∴CF＝BF﹣BC＝6$\\sqrt{2}-$6，\n故选：D．\n【点评】此题考查了折叠的性质、菱形的性质，熟记折叠的性质、菱形的性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q009_img01",
+          "path": "assets/2025年河南省中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰直角三角形的性质",
+          "菱形的性质",
+          "折叠的性质",
+          "勾股定理"
+        ],
+        "reasoning": "折叠后 AE⊥BF，且 BE=EF，利用勾股定理解三角形求 BF 长度",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰直角三角形的性质\", \"菱形的性质\", \"折叠的性质\", \"勾股定理\"],\n  \"reasoning\": \"折叠后 AE⊥BF，且 BE=EF，利用勾股定理解三角形求 BF 长度\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "汽车轮胎的摩擦系数是影响行车安全的重要因素，在一定条件下，它会随车速的变化而变化．研究发现，某款轮胎的摩擦系数μ与车速v（km/h）之间的函数关系如图所示．下列说法中错误的是（ ）\n[图1]",
+      "stem_markdown": "汽车轮胎的摩擦系数是影响行车安全的重要因素，在一定条件下，它会随车速的变化而变化．研究发现，某款轮胎的摩擦系数μ与车速v（km/h）之间的函数关系如图所示．下列说法中错误的是（ ）\n![2025年河南省中考数学试卷_q010_img01](assets/2025年河南省中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "汽车静止时，这款轮胎的摩擦系数为0.9"
+        },
+        {
+          "label": "B",
+          "text": "当0≤v≤60时，这款轮胎的摩擦系数随车速的增大而减小"
+        },
+        {
+          "label": "C",
+          "text": "要使这款轮胎的摩擦系数不低于0.71，车速应不低于60km/h"
+        },
+        {
+          "label": "D",
+          "text": "若车速从25km/h增大到60km/h，则这款轮胎的摩擦系数减小0.04"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据题意和函数图象中的数据，可以判断各个选项中的说法是否正确．\n【解答】解：由图象可得，\n汽车静止时，这款轮胎的摩擦系数为0.9，故选项A说法正确，不符合题意；\n当0≤v≤60时，这款轮胎的摩擦系数随车速的增大而减小，故选项B说法正确，不符合题意；\n要使这款轮胎的摩擦系数不低于0.71，车速应不超过60km/h，故选项C说法错误，符合题意；\n若车速从25km/h增大到60km/h，则这款轮胎的摩擦系数减小0.04，故选项D说法正确，不符合题意；\n故选：C．\n【点评】本题考查了函数的图象，利用数形结合的思想解答是解答本题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q010_img01",
+          "path": "assets/2025年河南省中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "函数图像",
+          "变量关系",
+          "不等式应用"
+        ],
+        "reasoning": "选项C考察轮胎摩擦系数与车速的关系及不等式的应用",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"函数图像\", \"变量关系\", \"不等式应用\"],\n  \"reasoning\": \"选项C考察轮胎摩擦系数与车速的关系及不等式的应用\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "请写出一个使\\sqrt{5-x}在实数范围内有意义的x的值： ____ ．",
+      "stem_markdown": "请写出一个使$\\sqrt{5-x}$在实数范围内有意义的x的值： ____ ．",
+      "options": [],
+      "answer": "0（答案不唯一）．",
+      "solution": "【分析】二次根式有意义即被开方数为非负数，由此计算即可．\n【解答】解：若$\\sqrt{5-x}$在实数范围内有意义，\n则5﹣x≥0，\n解得x≤5，\n即x的值可以是0（答案不唯一），\n故答案为：0（答案不唯一）．\n【点评】本题考查了二次根式有意义的条件，熟练掌握二次根式有意义的条件是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式",
+          "二次根式的意义"
+        ],
+        "reasoning": "根据二次根式有意义的条件，被开方数必须是非负的。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式\", \"二次根式的意义\"],\n  \"reasoning\": \"根据二次根式有意义的条件，被开方数必须是非负的。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "为考察学校劳动实践基地甲、乙两种小麦的长势，数学兴趣小组从两种小麦中各随机抽取20株进行测量，测得两种小麦苗高的平均数相同，方差分别为s甲²＝3.6，s乙²＝5.8，则这两种小麦长势更整齐的是 ____ （填“甲”或“乙”）．",
+      "stem_markdown": "为考察学校劳动实践基地甲、乙两种小麦的长势，数学兴趣小组从两种小麦中各随机抽取20株进行测量，测得两种小麦苗高的平均数相同，方差分别为$s_{甲}^{2}$＝3.6，$s_{乙}^{2}$＝5.8，则这两种小麦长势更整齐的是 ____ （填“甲”或“乙”）．",
+      "options": [],
+      "answer": "甲．",
+      "solution": "【分析】根据方差的定义求解即可．\n【解答】解：∵$s_{甲}^{2}$＝3.6，$s_{乙}^{2}$＝5.8，\n∴$s_{甲}^{2}$＜$s_{乙}^{2}$，\n∴这两种小麦长势更整齐的是甲，\n故答案为：甲．\n【点评】本题主要考查方差，解题的关键是掌握方差的意义：方差是反映一组数据的波动大小的一个量．方差越大，则平均值的离散程度越大，稳定性也越差；反之，则它与其平均值的离散程度越小，稳定性越好．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方差"
+        ],
+        "reasoning": "方差比较两种小麦长势的整齐度",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方差\"],\n  \"reasoning\": \"方差比较两种小麦长势的整齐度\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "观察2x，4x²，6x³，8x⁴，⋯，根据这些式子的变化规律，可得第n个式子为 ____ ．",
+      "stem_markdown": "观察2x，$4x^{2}$，$6x^{3}$，$8x^{4}$，⋯，根据这些式子的变化规律，可得第n个式子为 ____ ．",
+      "options": [],
+      "answer": "$2nx^{n}$．",
+      "solution": "【分析】已知式子，得到第n个式子为2n•$x^{n}$，即可得到答案．\n【解答】解：第1个式子：2x＝1×2•$x^{1}$，\n第2个式子：$4x^{2}$＝2×2•$x^{2}$，\n第3个式子：$6x^{3}$＝3×2•$x^{3}$，\n第4个式子：$8x^{4}$＝4×2•$x^{4}$，\n…，\n观察发现，第n个式子为$2nx^{n}$，\n故答案为：$2nx^{n}$．\n【点评】本题是单项式规律题，根据给出的单项式发现一般规律是解题关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等差数列",
+          "幂的乘方",
+          "观察归纳"
+        ],
+        "reasoning": "观察前几个式子发现系数和指数的变化规律",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等差数列\", \"幂的乘方\", \"观察归纳\"],\n  \"reasoning\": \"观察前几个式子发现系数和指数的变化规律\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "我国魏晋时期数学家刘徽在为《九章算术》作注时，创立了“割圆术”．如图是研究“割圆术”时的一个图形，AB所在圆的圆心为点O，四边形ABCD为矩形，边CD与⊙O相切于点E，连接BE，∠ABE＝15°，连接OE交AB于点F．若AB＝4，则图中阴影部分的面积为 ____ ．\n[图1]",
+      "stem_markdown": "我国魏晋时期数学家刘徽在为《九章算术》作注时，创立了“割圆术”．如图是研究“割圆术”时的一个图形，$AB$所在圆的圆心为点O，四边形ABCD为矩形，边CD与⊙O相切于点E，连接BE，∠ABE＝15°，连接OE交AB于点F．若AB＝4，则图中阴影部分的面积为 ____ ．\n![2025年河南省中考数学试卷_q014_img01](assets/2025年河南省中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "$\\frac{4π}{3}-$2$\\sqrt{3}$．",
+      "solution": "【分析】根据切线的性质得到OE⊥CD，根据矩形的性质得到AB∥CD，得到OE⊥AB，根据垂径定理求出AF，解直角三角形分别求出OA、OF，根据扇形面积公式、三角形面积公式计算，得到答案．\n【解答】解：∵边CD与⊙O相切于点E，\n∴OE⊥CD，\n∵四边形ABCD为矩形，\n∴AB∥CD，\n∴OE⊥AB，\n∴AF＝FB$=\\frac{1}{2}$AB$=\\frac{1}{2}×$4＝2，\n由圆周角定理得：∠AOE＝2∠ABE＝30°，\n∴OA＝2AF＝4，\n由勾股定理得：OF$=\\sqrt{OA^{2}-AF^{2}}=\\sqrt{4^{2}-2^{2}}=$2$\\sqrt{3}$，\n则$S_{阴影部分}＝S_{扇形}_{AOE}﹣S_{△}_{AOF}=\\frac{30π×4^{2}}{360}-$$\\frac{1}{2}×$2×2$\\sqrt{3}=\\frac{4π}{3}-$2$\\sqrt{3}$，\n故答案为：$\\frac{4π}{3}-$2$\\sqrt{3}$．\n【点评】本题考查的是切线的性质、扇形面积计算、矩形的性质，熟记圆的切线垂直于经过切点的半径是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q014_img01",
+          "path": "assets/2025年河南省中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线的性质",
+          "矩形的性质",
+          "垂径定理",
+          "圆周角定理"
+        ],
+        "reasoning": "根据切线性质和矩形性质得出OE⊥AB，利用垂径定理求AF，再求扇形和三角形面积。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线的性质\", \"矩形的性质\", \"垂径定理\", \"圆周角定理\"],\n  \"reasoning\": \"根据切线性质和矩形性质得出OE⊥AB，利用垂径定理求AF，再求扇形和三角形面积。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "定义：有两个内角的差为90°的三角形叫做“反直角三角形”．如图，在△ABC中，AB＝AC＝5，BC＝8，点P为边BC上一点，若△APC为“反直角三角形”，则BP的长为 ____ ．\n[图1]",
+      "stem_markdown": "定义：有两个内角的差为90°的三角形叫做“反直角三角形”．如图，在△ABC中，AB＝AC＝5，BC＝8，点P为边BC上一点，若△APC为“反直角三角形”，则BP的长为 ____ ．\n![2025年河南省中考数学试卷_q015_img01](assets/2025年河南省中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "$\\frac{25}{4}$或$\\frac{11}{2}$．",
+      "solution": "【分析】分情况讨论：①当∠APC﹣∠C＝90°时，过点A作 AD⊥BC于点D，由等腰三角形的性质得到BD＝CD＝4，证明△ADB∽△PAB，得到$\\frac{AB}{BP}=\\frac{BD}{AB}$，即可求出BP 的长；\n②当∠APC﹣∠CAP＝90°时，过点P作PM⊥BC交AC于点M，由等角对等边得到AM＝PM，再证明△CMP∽△CAD，设CP＝x，进而得出$PM=\\frac{3}{4}x$，CM$=\\frac{5}{4}$x，根据AC＝AM+CM＝PM+CM，求出x的值，即可求出BP的长；\n③当∠CAP＝∠C+90°时，利用锐角三角函数，得出∠C＞30°，∠BAC＜120°，即此种情况不存在；\n④当∠CAP＝∠APC+90°时，同③理可证，此种情况不存在；即可得解．\n【解答】解：∵AB＝AC＝5，\n∴∠B＝∠C，\n∵∠APC＝∠B+∠BAP，\n∴∠APC＞∠B，\n∴∠APC＞∠C，\n若△APC为“反直角三角形”，\n①当∠APC﹣∠C＝90°时，过点A作AD⊥BC于点D，\n[[image:rId43]]\n∵AB＝AC＝5，BC＝8，\n∴$BD=CD=\\frac{1}{2}BC=4$，\n∴$AD=\\sqrt{AB^{2}-BD^{2}}=3$，\n∵∠B＝∠C，\n∴∠APC﹣∠B＝∠BAP＝90°，\n∵∠B＝∠B，∠ADB＝∠PAB＝90°，\n∴△ADB∽△PAB，\n∴$\\frac{AB}{BP}=\\frac{BD}{AB}$，\n∴$\\frac{5}{BP}=\\frac{4}{5}$，\n∴$BP=\\frac{25}{4}$；\n②当∠APC﹣∠CAP＝90°时，过点P作PM⊥BC交AC于点M，\n[[image:rId44]]\n∴∠APC﹣∠APM＝∠CPM＝90°，\n∴∠CAP＝∠APM，\n∴AM＝PM，\n∵PM⊥BC，AD⊥BC，\n∴PM∥AD，\n∴△CMP∽△CAD，\n∴$\\frac{CP}{CD}=\\frac{PM}{AD}=\\frac{CM}{AC}$，\n设CP＝x，则BP＝8﹣x，\n∴$\\frac{x}{4}=\\frac{PM}{3}=\\frac{CM}{5}$，\n∴$PM=\\frac{3}{4}x$，CM$=\\frac{5}{4}x$，\n∴AC＝AM+CM＝PM+CM$=\\frac{3}{4}x+\\frac{5}{4}x=5$，\n∴x$=\\frac{5}{2}$，\n∴BP$=8-\\frac{5}{2}=\\frac{11}{2}$；\n③当∠CAP＝∠C+90°时，如图，在CB上截取CE＝AE，连接AE，过点A作AD⊥BC于点D，过点E作EF⊥AC于点F，\n[[image:rId45]]\n则∠EAC＝∠C，∠ADE＝∠PAE＝90°，\n又∵∠AED＝∠PEA，\n∴△AED∽△PEA，\n∴$\\frac{AE}{PE}=\\frac{ED}{AE}$，\n∵CE＝AE，EF⊥AC，\n∴AF＝CF$=\\frac{1}{2}$AC$=\\frac{5}{2}$，\n∵∠ADC＝∠EFC＝90°，∠C＝∠C，\n∴△CEF∽△CAD，\n∴$\\frac{CE}{AC}=\\frac{CF}{CD}$，即$\\frac{CE}{5}=\\frac{\\frac{5}{2}}{4}$，\n∴CE$=\\frac{25}{8}=$AE，\n∴DE＝CD﹣CE$=\\frac{7}{8}$，\n同理可得：△AED∽△PEA，\n∴$\\frac{PE}{AE}=\\frac{AE}{DE}$，即$\\frac{PE}{\\frac{25}{8}}=\\frac{\\frac{25}{8}}{\\frac{7}{8}}$，\n∴PE$=\\frac{625}{56}$，\n又∵BE＝BC﹣CE$=\\frac{39}{8}$，$\\frac{625}{56}＞\\frac{39}{8}$，\n∴PE＞BE，即点P在CB的延长线上，不符合题意；\n④当∠CAP＝∠APC+90°时，\n∵当点P与点B重合时，∠APC最小，此时∠APC＝∠B＞30°，\n同③可证，此种情况不存在；\n综上可知，BP的长为$\\frac{25}{4}$或$\\frac{11}{2}$，\n故答案为：$\\frac{25}{4}$或$\\frac{11}{2}$．\n【点评】本题考查了等腰三角形的判定和性质，解直角三角形的应用，相似三角形的判定和性质等知识，理解“反直角三角形”的定义，利用分类讨论的思想解决问题是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q015_img01",
+          "path": "assets/2025年河南省中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "相似三角形的判定和性质",
+          "勾股定理",
+          "锐角三角函数"
+        ],
+        "reasoning": "通过等腰三角形性质和相似三角形判定，结合勾股定理和锐角三角函数解决角度问题。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"相似三角形的判定和性质\", \"勾股定理\", \"锐角三角函数\"],\n  \"reasoning\": \"通过等腰三角形性质和相似三角形判定，结合勾股定理和锐角三角函数解决角度问题。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "solution",
+      "stem_text": "（1）计算：\\sqrt[3]{8}+（π﹣1）⁰-\\sqrt{3}×\\sqrt{3}；\n（2）化简：（x+1）²﹣x（x+2）．",
+      "stem_markdown": "（1）计算：$\\sqrt[3]{8}+$（π﹣1）^{0}$-\\sqrt{3}×\\sqrt{3}$；\n（2）化简：（x+1）^{2}﹣x（x+2）．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用立方根的定义，零指数幂，二次根式的乘法法则计算后再算加减即可；\n（2）利用完全平方公式，单项式乘单项式法则展开，然后去括号并合并同类项即可．\n【解答】解：（1）原式＝2+1﹣3\n＝3﹣3\n＝0；\n（2）原式＝$x^{2}$+2x+1﹣（$x^{2}$+2x）\n＝$x^{2}$+2x+1﹣$x^{2}$﹣2x\n＝1．\n【点评】本题考查整式的混合运算，实数的运算，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "立方根",
+          "零指数幂",
+          "二次根式的乘法",
+          "整式的混合运算"
+        ],
+        "reasoning": "题目（1）涉及立方根和零指数幂的计算；（2）涉及完全平方公式和单项式乘单项式的展开",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"立方根\", \"零指数幂\", \"二次根式的乘法\", \"整式的混合运算\"],\n  \"reasoning\": \"题目（1）涉及立方根和零指数幂的计算；（2）涉及完全平方公式和单项式乘单项式的展开\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "为加强对青少年学生的宪法法治教育，普及宪法法治知识，教育部决定举办第十届全国学生“学宪法 讲宪法”活动．某学校为了解学生对宪法法治知识的掌握情况，从七、八年级各随机抽取50名学生进行测试，并对测试得分（10分为满分，9分或9分以上为优秀）进行整理、描述、分析，部分信息如下．\n[图1]\n得分统计表\n统计量 | 年级\n七年级 | 八年级\n平均数 | 7.86 | 7.86\n中位数 | a | 8\n众数 | 7 | b\n优秀率 | 38% | c\n根据以上信息，回答下列问题．\n（1）表格中的a＝ ____ ，b＝ ____ ，c＝ ____ ．\n（2）你认为哪个年级的学生对宪法法治知识的掌握情况更好？请说明理由．",
+      "stem_markdown": "为加强对青少年学生的宪法法治教育，普及宪法法治知识，教育部决定举办第十届全国学生“学宪法 讲宪法”活动．某学校为了解学生对宪法法治知识的掌握情况，从七、八年级各随机抽取50名学生进行测试，并对测试得分（10分为满分，9分或9分以上为优秀）进行整理、描述、分析，部分信息如下．\n![2025年河南省中考数学试卷_q017_img01](assets/2025年河南省中考数学试卷_q017_img01.png)\n得分统计表\n| 统计量 | 年级 |  |\n| --- | --- | --- |\n| 七年级 | 八年级 |  |\n| 平均数 | 7.86 | 7.86 |\n| 中位数 | a | 8 |\n| 众数 | 7 | b |\n| 优秀率 | 38% | c |\n根据以上信息，回答下列问题．\n（1）表格中的a＝ ____ ，b＝ ____ ，c＝ ____ ．\n（2）你认为哪个年级的学生对宪法法治知识的掌握情况更好？请说明理由．",
+      "options": [],
+      "answer": "7.5，8，22%",
+      "solution": "【分析】（1）根据中位数、众数的定义可得a、b的值，先求出八年级测试成绩在9分或9分以上人数所占百分比可得c的值；\n（2）可从中位数、众数、优秀率角度分析求解．\n【解答】解：（1）∵七年级测试成绩的第25、26个数据是7和8，\n即八年级测试成绩的中位数a$=\\frac{7+8}{2}=$7.5，\n八年级测试成绩8分出现的次数最多，\n∴八年级测试成绩的众数b＝8，\n八年级测试成绩在9分或9分以上人数所占百分比为（6+5）÷50×100%＝22%，\n∴c＝22%，\n故答案为：7.5，8，22%；\n（2）七年级学生对宪法法治知识的掌握情况更好，理由如下：\n∵八年级测试成绩的优秀率小于七年级，\n∴七年级学生对宪法法治知识的掌握情况更好（答案不唯一）．\n【点评】本题考查了众数、中位数，掌握众数、中位数的定义是解题的关键．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q017_img01",
+          "path": "assets/2025年河南省中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中位数",
+          "众数",
+          "平均数"
+        ],
+        "reasoning": "表格中给出了七、八年级的中位数、众数和平均数，以及八年级的优秀率",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中位数\", \"众数\", \"平均数\"],\n  \"reasoning\": \"表格中给出了七、八年级的中位数、众数和平均数，以及八年级的优秀率\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "小军将一副三角板按如图方式摆放在平面直角坐标系xOy中，其中含30°角的三角板OAB的直角边OA落在y轴上，含45°角的三角板OAC的直角顶点C的坐标为（2，2），反比例函数y=\\frac{k}{x}（x＞0）的图象经过点C．\n（1）求反比例函数的表达式．\n（2）将三角板OAB绕点O顺时针旋转90°，AB边上的点D恰好落在反比例函数图象上，求旋转前点D的坐标．\n[图1]",
+      "stem_markdown": "小军将一副三角板按如图方式摆放在平面直角坐标系xOy中，其中含30°角的三角板OAB的直角边OA落在y轴上，含45°角的三角板OAC的直角顶点C的坐标为（2，2），反比例函数y$=\\frac{k}{x}$（x＞0）的图象经过点C．\n（1）求反比例函数的表达式．\n（2）将三角板OAB绕点O顺时针旋转90°，AB边上的点D恰好落在反比例函数图象上，求旋转前点D的坐标．\n![2025年河南省中考数学试卷_q018_img01](assets/2025年河南省中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）把C的坐标为（2，2）代入反比例函数$y=\\frac{k}{x}(x＞0)$，即可得到答案；\n（2）求解$CO^{2}$＝2^{2}+2^{2}＝8，证明AC＝CO，求解$AO=\\sqrt{CO^{2}+AC^{2}}=4$，如图，△OAB旋转到△OEF的位置，D点对应G点；可得OE＝OA＝4，结合D的对应点G在$y=\\frac{4}{x}$的图象上，可得EG＝1，进一步求解即可．\n【解答】解：（1）∵含45°角的三角板OAC的直角顶点C的坐标为（2，2），反比例函数$y=\\frac{k}{x}(x＞0)$的图象经过点C，\n∴k＝2×2＝4，\n∴反比例函数的表达式为：$y=\\frac{4}{x}$；\n（2）∵C（2，2），\n∴$CO^{2}$＝2^{2}+2^{2}＝8，\n∵含45°角的三角板OAC为等腰直角三角形，∠ACO＝90°，\n∴AC＝CO，$AO=\\sqrt{CO^{2}+AC^{2}}=4$，\n如图，△OAB旋转到△OEF的位置，D点对应G点，\n∴OE＝OA＝4，\n[[image:rId48]]\n∵D的对应点G在$y=\\frac{4}{x}$的图象上，\n∴$y_{G}$＝1，\n∴EG＝1，\n由旋转可得：AD＝GE＝1，\n∴D（﹣1，4）．\n【点评】本题考查的是勾股定理的应用，等腰直角三角形的性质，旋转的性质，反比例函数的应用，理解题意是解本题的关键．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q018_img01",
+          "path": "assets/2025年河南省中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数",
+          "勾股定理",
+          "等腰直角三角形"
+        ],
+        "reasoning": "第（1）问通过点C的坐标直接求反比例函数表达式，考察反比例函数的概念和计算；第（2）问通过勾股定理求AC的长度，利用等腰直角三角形的性质确定旋转后的点D位置。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数\", \"勾股定理\", \"等腰直角三角形\"],\n  \"reasoning\": \"第（1）问通过点C的坐标直接求反比例函数表达式，考察反比例函数的概念和计算；第（2）问通过勾股定理求AC的长度，利用等腰直角三角形的性质确定旋转后的点D位置。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "如图，四边形ABCD是平行四边形，以BC为直径的圆交AD于点E．\n（1）请用无刻度的直尺和圆规作出圆心O（保留作图痕迹，不写作法）．\n（2）若点E是AD的中点，连接OA，CE．求证：四边形AOCE是平行四边形．\n[图1]",
+      "stem_markdown": "如图，四边形ABCD是平行四边形，以BC为直径的圆交AD于点E．\n（1）请用无刻度的直尺和圆规作出圆心O（保留作图痕迹，不写作法）．\n（2）若点E是AD的中点，连接OA，CE．求证：四边形AOCE是平行四边形．\n![2025年河南省中考数学试卷_q019_img01](assets/2025年河南省中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）作线段BC的垂直平分线，垂足为O，点O即为所求；\n（2）证明AE＝CO，AE∥CO即可．\n【解答】（1）解：如图，点O即为所求；\n[[image:rId50]]\n（2）证明：∵四边形ABCD是平行四边形，\n∴AD＝BC，AD∥BC，\n∵E是AD的中点，O是BC的中点，\n∵AE＝DE＝OC＝OB，\n∵AE∥OC，\n∴四边形AOCE是平行四边形．\n【点评】本题考查作图﹣复杂作图，平行四边形的判定和性质，解题的关键是掌握相关知识解决问题．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q019_img01",
+          "path": "assets/2025年河南省中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行四边形的性质",
+          "垂直平分线的性质",
+          "中点的定义"
+        ],
+        "reasoning": "第（2）问证明四边形AOCE为平行四边形时，利用了平行四边形的性质和中点的定义",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行四边形的性质\", \"垂直平分线的性质\", \"中点的定义\"],\n  \"reasoning\": \"第（2）问证明四边形AOCE为平行四边形时，利用了平行四边形的性质和中点的定义\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "为助力乡村振兴，支持惠农富农，某合作社销售我省西部山区出产的甲、乙两种苹果．已知2箱甲种苹果和3箱乙种苹果的售价之和为440元；4箱甲种苹果和5箱乙种苹果的售价之和为800元．\n（1）求甲、乙两种苹果每箱的售价．\n（2）某公司计划从该合作社购买甲、乙两种苹果共12箱，且乙种苹果的箱数不超过甲种苹果的箱数．求该公司最少需花费多少元．\n[图1]",
+      "stem_markdown": "为助力乡村振兴，支持惠农富农，某合作社销售我省西部山区出产的甲、乙两种苹果．已知2箱甲种苹果和3箱乙种苹果的售价之和为440元；4箱甲种苹果和5箱乙种苹果的售价之和为800元．\n（1）求甲、乙两种苹果每箱的售价．\n（2）某公司计划从该合作社购买甲、乙两种苹果共12箱，且乙种苹果的箱数不超过甲种苹果的箱数．求该公司最少需花费多少元．\n![2025年河南省中考数学试卷_q020_img01](assets/2025年河南省中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设甲种苹果每箱的售价为a元，乙种苹果每箱的售价为b元，根据2箱甲种苹果和3箱乙种苹果的售价之和为440元；4箱甲种苹果和5箱乙种苹果的售价之和为800元；列出二元一次方程组，解方程组即可；\n（2）设购买甲种苹果x箱，则购买乙种苹果（12﹣x）箱，根据乙种苹果的箱数不超过甲种苹果的箱数，列出一元一次不等式，解得x≥6，再设该公司需花费w元，根据题意列出w关于x的一次函数关系式，然后由一次函数的性质即可解决问题．\n【解答】解：（1）设甲种苹果每箱的售价为a元，乙种苹果每箱的售价为b元，\n根据题意得：$\\begin{cases} 2a+3b=440 \\\\ 4a+5b=800 \\end{cases}$，\n解得：$\\begin{cases} a=100 \\\\ b=80 \\end{cases}$，\n答：甲种苹果每箱的售价为100元，乙种苹果每箱的售价为80元；\n（2）设购买甲种苹果x箱，则购买乙种苹果（12﹣x）箱，\n根据题意得：12﹣x≤x，\n解得：x≥6，\n设该公司需花费w元，\n根据题意得：w＝100x+80（12﹣x）＝20x+960，\n∵20＞0，\n∴w随x的增大而增大，\n∴当x＝6时，w有最小值＝20×6+960＝1080，\n答：该公司最少需花费1080元．\n【点评】本题考查了二元一次方程组的应用、一元一次不等式的应用以及一次函数的应用，解题的关键是：（1）找准等量关系，正确列出二元一次方程组；（2）找出数量关系，正确列出一元一次不等式和一次函数关系式．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q020_img01",
+          "path": "assets/2025年河南省中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "线性方程组",
+          "一次不等式",
+          "一次函数"
+        ],
+        "reasoning": "题目通过线性方程组求出苹果售价，再通过一次不等式确定购买方案，最后用一次函数求最小花费。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"线性方程组\", \"一次不等式\", \"一次函数\"],\n  \"reasoning\": \"题目通过线性方程组求出苹果售价，再通过一次不等式确定购买方案，最后用一次函数求最小花费。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "焦裕禄纪念园是全国重点革命烈士纪念建筑物保护单位，革命烈士纪念碑位于纪念园南部的中心．某综合与实践小组开展测量纪念碑高度的活动，记录如下．\n活动主题 | 测量纪念碑的高度\n实物图和测量示意图 | [图1]\n测量说明 | 如图，纪念碑AB位于有台阶的平台BC上，太阳光下，其顶端A的影子落在点D处，同一时刻，竖直放置的标杆DE顶端E的影子落在点F处，位于点M处的观测者眼睛所在位置为点N，点N，E，A在一条直线上，纪念碑底部点B在观测者的水平视线上．\n测量数据 | DE＝2.1m，DF＝2.1m，DM＝1m，MN＝1.2m．\n备注 | 点F，M，D，C在同一水平线上．\n根据以上信息，解决下列问题．\n（1）由标杆的影子DF的长和标杆DE的长相等，可得CD＝CA，请说明理由．\n（2）求纪念碑AB的高度．\n（3）小红通过间接测量得到CD的长，进而求出纪念碑AB的高度约为18.5m．查阅资料得知，纪念碑的实际高度为19.64m．请判断小红的结果和（2）中的结果哪个误差较大？并分析误差较大的可能原因（写出一条即可）．",
+      "stem_markdown": "焦裕禄纪念园是全国重点革命烈士纪念建筑物保护单位，革命烈士纪念碑位于纪念园南部的中心．某综合与实践小组开展测量纪念碑高度的活动，记录如下．\n| 活动主题 | 测量纪念碑的高度 |\n| --- | --- |\n| 实物图和测量示意图 | ![2025年河南省中考数学试卷_q021_img01](assets/2025年河南省中考数学试卷_q021_img01.png) |\n| 测量说明 | 如图，纪念碑AB位于有台阶的平台BC上，太阳光下，其顶端A的影子落在点D处，同一时刻，竖直放置的标杆DE顶端E的影子落在点F处，位于点M处的观测者眼睛所在位置为点N，点N，E，A在一条直线上，纪念碑底部点B在观测者的水平视线上． |\n| 测量数据 | DE＝2.1m，DF＝2.1m，DM＝1m，MN＝1.2m． |\n| 备注 | 点F，M，D，C在同一水平线上． |\n根据以上信息，解决下列问题．\n（1）由标杆的影子DF的长和标杆DE的长相等，可得CD＝CA，请说明理由．\n（2）求纪念碑AB的高度．\n（3）小红通过间接测量得到CD的长，进而求出纪念碑AB的高度约为18.5m．查阅资料得知，纪念碑的实际高度为19.64m．请判断小红的结果和（2）中的结果哪个误差较大？并分析误差较大的可能原因（写出一条即可）．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据平行投影的性质可得$\\frac{AC}{CD}=\\frac{DE}{DF}$，即可证明结论；\n（2）令BN与DE的交点为H，则四边形BCDH和MNHD是矩形，设AB＝xm，证明△NEH﹣△NAB得到$\\frac{EH}{AB}=\\frac{NH}{NB}$，求出x的值即可；\n（3）比较纪念碑的实际高度与小红和（2）中的结果，得到误差较大的一方，再分析可能的原因即可．\n【解答】解：（1）∵太阳光下，其顶端A的影子落在点D处，同一时刻，竖直放置的标杆DE顶端E的影子落在点F处，\n∴$\\frac{AC}{CD}=\\frac{DE}{DF}$，\n∵标杆的影子DF的长和标杆DE的长相等，\n即DE＝DF，\n∴CD＝CA；\n（2）如图，令BN与DE的交点为H，\n[[image:rId53]]\n则四边形BCDH和MNHD是矩形，\n∵DE＝2.1m，DF＝2.1m，DM＝1m，MN＝1.2m，\n∴BC＝DH＝MN＝1.2m，NH＝DM＝1m，\n∴EH＝DE﹣DH＝0.9m，\n设AB＝xm，则AC＝AB+BC＝（1.2+x）m，\n∴BH＝CD＝（1.2+x）m，\n∴NB＝BH+NH＝（2.2+x），\n∵EH∥AB，\n∴△NEH∽△NAB，\n∴$\\frac{EH}{AB}=\\frac{NH}{NB}$，\n∴$\\frac{0.9}{x}=\\frac{1}{2.2+x}$，\n解得：x＝19.8，\n经检验，x＝19.8是原方程的解，\n答：纪念碑AB的高度为19.8m．\n（3）纪念碑的实际高度为19.64m，小红求出纪念碑AB的高度约为18.5m，（2）中纪念碑AB的高度为19.8m，\n则小红的结果误差较大，\n理由是：纪念碑AB位于有台阶的平台BC上，点C的位置无法正确定位，使得CD的长存在误差，影响计算结果．\n【点评】本题考查了相似三角形的应用，平行投影，矩形的判定和性质，掌握相似三角形的判定和性质是解题关键．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q021_img01",
+          "path": "assets/2025年河南省中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "平行投影",
+          "矩形的性质"
+        ],
+        "reasoning": "（1）利用标杆的影子DF的长和标杆DE的长相等得出CD＝CA；（2）利用相似三角形的性质求纪念碑AB的高度；（3）分析误差来源",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"平行投影\", \"矩形的性质\"],\n  \"reasoning\": \"（1）利用标杆的影子DF的长和标杆DE的长相等得出CD＝CA；（2）利用相似三角形的性质求纪念碑AB的高度；（3）分析误差来源\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "在二次函数y＝ax²+bx﹣2中，x与y的几组对应值如表所示．\nx | … | ﹣2 | 0 | 1 | …\ny | … | ﹣2 | ﹣2 | 1 | …\n（1）求二次函数的表达式．\n（2）求二次函数图象的顶点坐标，并在给出的平面直角坐标系中画出二次函数的图象．\n（3）将二次函数的图象向右平移n个单位长度后，当0≤x≤3时，若图象对应的函数最大值与最小值的差为5，请直接写出n的值．\n[图1]",
+      "stem_markdown": "在二次函数y＝$ax^{2}$+bx﹣2中，x与y的几组对应值如表所示．\n| x | … | ﹣2 | 0 | 1 | … |\n| --- | --- | --- | --- | --- | --- |\n| y | … | ﹣2 | ﹣2 | 1 | … |\n（1）求二次函数的表达式．\n（2）求二次函数图象的顶点坐标，并在给出的平面直角坐标系中画出二次函数的图象．\n（3）将二次函数的图象向右平移n个单位长度后，当0≤x≤3时，若图象对应的函数最大值与最小值的差为5，请直接写出n的值．\n![2025年河南省中考数学试卷_q022_img01](assets/2025年河南省中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）依据题意，结合表格数据可得，二次函数的对称轴是直线x$=\\frac{-2+0}{2}=-$1，则可设二次函数为y＝a（x+1）^{2}+k，结合图象过（0，﹣2），（1，1），可得﹣2＝a（0+1）^{2}+k，且1＝a（1+1）^{2}+k，进而求出a，k后即可判断得解；\n（2）依据题意，结合（1）y＝（x+1）^{2}﹣3，可得顶点坐标为（﹣1，﹣3），进而可以作图得解；\n（3）依据题意，由二次函数的图象向右平移n个单位长度后，则新函数为y＝（x+1﹣n）^{2}﹣3，故此时对称轴是直线x＝n﹣1，函数图象开口向上，然后分三种情形分别讨论计算，进而可以得解．\n【解答】解：（1）由题意，结合表格数据可得，二次函数的对称轴是直线x$=\\frac{-2+0}{2}=-$1．\n∴可设二次函数为y＝a（x+1）^{2}+k．\n又∵图象过（0，﹣2），（1，1），\n∴﹣2＝a（0+1）^{2}+k，且1＝a（1+1）^{2}+k．\n∴a＝1，k＝﹣3．\n∴二次函数为y＝（x+1）^{2}﹣3，即y＝$x^{2}$+2x﹣2．\n（2）由题意，结合（1）y＝（x+1）^{2}﹣3，\n∴顶点坐标为（﹣1，﹣3）．\n作图如下．\n[[image:rId55]]\n（3）由题意，∵二次函数的图象向右平移n个单位长度后，\n∴新函数为y＝（x+1﹣n）^{2}﹣3．\n∴此时对称轴是直线x＝n﹣1，函数图象开口向上．\n∴①当3≤n﹣1时，即n≥4，\n∴当x＝0时，y取最大值为（1﹣n）^{2}﹣3；当x＝3时，y取最小值为（4﹣n）^{2}﹣3．\n又∵最大值与最小值的差为5，\n∴（1﹣n）^{2}﹣3﹣（4﹣n）^{2}+3＝5．\n∴n$=\\frac{10}{3}＜$4，不合题意．\n②当0＜n﹣1＜3时，即1＜n＜4，\n∴当x＝0或x＝3时，y取最大值为（1﹣n）^{2}﹣3或（4﹣n）^{2}﹣3；当x＝n﹣1时，y取最小值为﹣3．\n又∵最大值与最小值的差为5，\n∴（1﹣n）^{2}﹣3+3＝5或（4﹣n）^{2}﹣3+3＝5．\n∴n＝1$+\\sqrt{5}$或n＝1$-\\sqrt{5}$（不合题意，舍去）或n＝4$+\\sqrt{5}$（不合题意，舍去）或n＝4$-\\sqrt{5}$．\n③当n﹣1≤0时，即n≤1，\n∴当x＝0时，y取最小值为（1﹣n）^{2}﹣3；当x＝3时，y取最大值为（4﹣n）^{2}﹣3．\n又∵最大值与最小值的差为5，\n∴（4﹣n）^{2}﹣3﹣（1﹣n）^{2}+3＝5．\n∴n$=\\frac{5}{3}＞$1，不合题意．\n综上，n＝1$+\\sqrt{5}$或n＝4$-\\sqrt{5}$．\n【点评】本题主要考查了二次函数图象与几何变换、二次函数的性质、二次函数图象上点的坐标特征、二次函数的最值、待定系数法求二次函数解析式，解题时要熟练掌握并能灵活运用二次函数的性质是关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q022_img01",
+          "path": "assets/2025年河南省中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的顶点坐标",
+          "二次函数的对称轴",
+          "二次函数的平移变换",
+          "二次函数的最大值和最小值"
+        ],
+        "reasoning": "第（1）问通过给定点求二次函数表达式，涉及二次函数顶点坐标的求法。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的顶点坐标\", \"二次函数的对称轴\", \"二次函数的平移变换\", \"二次函数的最大值和最小值\"],\n  \"reasoning\": \"第（1）问通过给定点求二次函数表达式，涉及二次函数顶点坐标的求法。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河南省中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "在∠AOB中，点C是∠AOB的平分线上一点，过点C作CD⊥OB，垂足为点D，过点D作DE⊥OA，垂足为点E，直线DE，OC交于点F，过点C作CG⊥DE，垂足为点G．\n（1）观察猜想\n如图1，当∠AOB为锐角时，用等式表示线段CG，OE，OD的数量关系： ____ ．\n（2）类比探究\n如图2，当∠AOB为钝角时，请依据题意补全图形（无需尺规作图），并判断（1）中的结论是否仍然成立？若成立，请证明；若不成立，请写出正确结论，并证明．\n（3）拓展应用\n当0°＜∠AOB＜180°，且∠AOB≠90°时，若\\frac{GF}{EF}=3，请直接写出\\frac{OD}{CD}的值．\n[图1]\n2025年河南省中考数学试卷",
+      "stem_markdown": "在∠AOB中，点C是∠AOB的平分线上一点，过点C作CD⊥OB，垂足为点D，过点D作DE⊥OA，垂足为点E，直线DE，OC交于点F，过点C作CG⊥DE，垂足为点G．\n（1）观察猜想\n如图1，当∠AOB为锐角时，用等式表示线段CG，OE，OD的数量关系： ____ ．\n（2）类比探究\n如图2，当∠AOB为钝角时，请依据题意补全图形（无需尺规作图），并判断（1）中的结论是否仍然成立？若成立，请证明；若不成立，请写出正确结论，并证明．\n（3）拓展应用\n当0°＜∠AOB＜180°，且∠AOB≠90°时，若$\\frac{GF}{EF}=3$，请直接写出$\\frac{OD}{CD}$的值．\n![2025年河南省中考数学试卷_q023_img01](assets/2025年河南省中考数学试卷_q023_img01.png)\n2025年河南省中考数学试卷",
+      "options": [],
+      "answer": "OD＝CG+OE",
+      "solution": "【分析】（1）如图，过点C作CP⊥OA于点P，由角平分线的性质定理可得CP＝CD，再证明Rt△POC≌Rt△DOC（HL）可得OP＝OD，然后说明四边形CPEG是矩形可得PE＝CG，最后根据线段的和差以及等量代换即可解答；\n（2）如图，过点C作CQ⊥OA于点Q，由角平分线的性质定理可得CQ＝CD，再证明Rt△QOC≌Rt△DOC可得OQ＝OD，然后说明四边形CQEG是矩形可得QE＝CG，最后根据线段的和差以及等量代换即可解答；\n（3）分0°＜∠AOB＜90°和90°＜∠AOB＜180°分别利用（1）（2）的相关结论以及相似三角形的判定与性质、勾股定理解答即可．\n【解答】解：（1）如图，过点C作CP⊥OA于点P，\n[[image:rId57]]\n∵OC 平分∠AOB，CD⊥OB，CP⊥OA，\n∴CP＝CD，\n在Rt△POC和Rt△DOC中，\n∵OC＝OC，CP＝CD，\n∴Rt△POC≌Rt△DOC（HL），\n∴OP＝OD，\n∵DE⊥OA，CG⊥DE，CP⊥OA，\n∴∠CPE＝∠PEG＝∠CGE＝90°，\n∴四边形CPEG是矩形，\n∴PE＝CG，\n∴OD＝OP＝PE+OE＝CG+OE，\n故答案为：OD＝CG+OE；\n（2）不成立，OD＝CG﹣OE，证明如下：\n如图，过点C作CQ⊥OA于点Q，\n[[image:rId58]]\n∵OC 平分∠AOB，CD⊥OB，CQ⊥OA，\n∴CQ＝CD，\n在Rt△QOC和Rt△DOC 中，\n∵OC＝OC，CP＝CD，\n∴Rt△QOC≌Rt△DOC，\n∴OQ＝OD，\n∵DE⊥OA，CG⊥DE，CP⊥OA，\n∴∠CQE＝∠QEG＝∠CGE＝90°，\n∴四边形CQEG是矩形，\n∴QE＝CG，\n∴OD＝OQ＝QE﹣OE＝CG﹣OE；\n（3）①如图：当0°＜∠AOB＜90°时，\n[[image:rId59]]\n∵CG⊥DE，DE⊥OA，\n∴CG∥OE，\n∴△OEF∽△CGF，\n∴$\\frac{CG}{OE}=\\frac{GF}{EF}=3$，\n即CG＝3OE，OD＝CG+OE＝3OE+OE＝4OE，\n∴$DE=\\sqrt{OD^{2}-OE^{2}}=\\sqrt{(4OE)^{2}-OE^{2}}=\\sqrt{15}OE$，\n∵∠DCG+∠CDG＝90°，∠ODE+∠CDG＝90°，\n∴∠DCG＝∠ODE，\n∴△CDG∽△DOE，\n∴$\\frac{OD}{CD}=\\frac{DE}{CG}=\\frac{\\sqrt{15}OE}{3OE}=\\frac{\\sqrt{15}}{3}$；\n②如图：当90°＜∠AOB＜180°时，\n[[image:rId60]]\n∵CG⊥GF，GF⊥OE，\n∴CG∥OE，\n∴△OEF∽△CGF，\n∴$\\frac{CG}{OE}=\\frac{GF}{EF}=3$，\n即CG＝3OE，\n∴OD＝CG﹣OE＝3OE﹣OE＝2OE，\n∴$DE=\\sqrt{OD^{2}-OE^{2}}=\\sqrt{(2OE)^{2}-OE^{2}}=\\sqrt{3}OE′$，\n∵∠DCG+∠CDG＝90°，∠ODE+∠CDG＝90°，\n∴∠DCG＝∠ODE，\n∴△CDG∽△DOE，$\\frac{OD}{CD}=\\frac{DE}{CG}=\\frac{\\sqrt{3}OE}{3OE}=\\frac{\\sqrt{3}}{3}$，\n综上，$\\frac{OD}{CD}$的值为$\\frac{\\sqrt{15}}{3}$或$\\frac{\\sqrt{3}}{3}$．\n【点评】本题是相似形的综合题，主要考查了角平分线的性质定理、全等三角形的判定与性质、相似三角形的判定与性质、矩形的判定与性质等知识点，灵活运用相关知识成为解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:33:51；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId62]] ____ [[image:rId63]] ____ [[image:rId64]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年河南省中考数学试卷_q023_img01",
+          "path": "assets/2025年河南省中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "角平分线的性质定理",
+          "全等三角形的判定与性质",
+          "相似三角形的判定与性质",
+          "勾股定理"
+        ],
+        "reasoning": "题目涉及角平分线性质、全等三角形和相似三角形的判定与性质，以及勾股定理的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"角平分线的性质定理\", \"全等三角形的判定与性质\", \"相似三角形的判定与性质\", \"勾股定理\"],\n  \"reasoning\": \"题目涉及角平分线性质、全等三角形和相似三角形的判定与性质，以及勾股定理的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:30:48",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 23,
+      "ok": 23,
+      "fallback": 0
+    }
+  }
+}

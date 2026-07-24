@@ -1,0 +1,1118 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年四川省攀枝花市中考数学试卷",
+  "source": {
+    "name": "2025年四川省攀枝花市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年四川省攀枝花市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "2的绝对值是（ ）",
+      "stem_markdown": "2的绝对值是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣2"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "±2"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】利用绝对值的定义解答．\n【解答】解：|2|＝2．\n故选：B．\n【点评】本题考查了绝对值，解题的关键是掌握绝对值的定义．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值"
+        ],
+        "reasoning": "题目要求计算2的绝对值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\"],\n  \"reasoning\": \"题目要求计算2的绝对值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "银江水电站位于攀枝花市境内金沙江与雅砻江交汇处附近，每年可为国家电网输送约16亿千瓦时的清洁能源．16亿可用科学记数法记为（ ）",
+      "stem_markdown": "银江水电站位于攀枝花市境内金沙江与雅砻江交汇处附近，每年可为国家电网输送约16亿千瓦时的清洁能源．16亿可用科学记数法记为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.16×10^{10}"
+        },
+        {
+          "label": "B",
+          "text": "1.6×10^{9}"
+        },
+        {
+          "label": "C",
+          "text": "16×10^{8}"
+        },
+        {
+          "label": "D",
+          "text": "1600000000"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：16亿＝1600000000＝1.6×10^{9}．\n故选：B．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "小数点移动与指数关系"
+        ],
+        "reasoning": "题目要求将16亿转换为科学记数法形式，考察了如何将大数用科学记数法表示。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"小数点移动与指数关系\"],\n  \"reasoning\": \"题目要求将16亿转换为科学记数法形式，考察了如何将大数用科学记数法表示。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "如图，直线a截直线b、c所得的一对同位角是（ ）\n[图1]",
+      "stem_markdown": "如图，直线a截直线b、c所得的一对同位角是（ ）\n![2025年四川省攀枝花市中考数学试卷_q003_img01](assets/2025年四川省攀枝花市中考数学试卷_q003_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "∠2与∠3"
+        },
+        {
+          "label": "B",
+          "text": "∠1与∠4"
+        },
+        {
+          "label": "C",
+          "text": "∠5与∠7"
+        },
+        {
+          "label": "D",
+          "text": "∠1与∠8"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据同位角的定义判断即可．\n【解答】解：A、∠2与∠3是同旁内角，故此选项不符合题意；\nB、∠1与∠4不是同位角，故此选项不符合题意；\nC、∠5与∠7是同位角，故此选项符合题意；\nD、∠1与∠8不是同位角，故此选项不符合题意；\n故选：C．\n【点评】本题考查了同位角、内错角、同旁内角，熟练掌握同位角的定义是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q003_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q003_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同位角"
+        ],
+        "reasoning": "题中设问要求判断哪一对角是同位角，考察了同位角的概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同位角\"],\n  \"reasoning\": \"题中设问要求判断哪一对角是同位角，考察了同位角的概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "不等式组\\begin{cases} -x＞2 \\\\ x-3＜0 \\end{cases}的解集是（ ）",
+      "stem_markdown": "不等式组$\\begin{cases} -x＞2 \\\\ x-3＜0 \\end{cases}$的解集是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x＜﹣2"
+        },
+        {
+          "label": "B",
+          "text": "x＜3"
+        },
+        {
+          "label": "C",
+          "text": "﹣2＜x＜3"
+        },
+        {
+          "label": "D",
+          "text": "x＜﹣2或x＜3"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】分别求出不等式①、②的解集，再找出它们的公共部分即可．\n【解答】解：$\\begin{cases} -x＞2① \\\\ x-3＜0② \\end{cases}$，\n解不等式①，得x＜﹣2，\n解不等式②，得x＜3，\n所以不等式组的解集是x＜﹣2，\n故选：A．\n【点评】本题考查了解一元一次不等式组，正确计算是解题的关键．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组的解法",
+          "解不等式",
+          "数轴表示解集"
+        ],
+        "reasoning": "题中解不等式①和②并找出公共部分",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组的解法\", \"解不等式\", \"数轴表示解集\"],\n  \"reasoning\": \"题中解不等式①和②并找出公共部分\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "攀枝花市被誉为“中国钒钛之都”．如图是一个正方体的表面展开图，与“钒”字相对面上的字是（ ）\n[图1]",
+      "stem_markdown": "攀枝花市被誉为“中国钒钛之都”．如图是一个正方体的表面展开图，与“钒”字相对面上的字是（ ）\n![2025年四川省攀枝花市中考数学试卷_q005_img01](assets/2025年四川省攀枝花市中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "中"
+        },
+        {
+          "label": "B",
+          "text": "国"
+        },
+        {
+          "label": "C",
+          "text": "之"
+        },
+        {
+          "label": "D",
+          "text": "都"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据正方体的表面展开图找相对面的方法：“Z”字两端是对面，即可解答．\n【解答】解：攀枝花市被誉为“中国钒钛之都”．如图是一个正方体的表面展开图，与“钒”字相对面上的字是之，\n故选：C．\n【点评】本题考查了正方体相对两个面上的文字，熟练掌握根据正方体的表面展开图找相对面的方法是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q005_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相对面",
+          "正方体展开图"
+        ],
+        "reasoning": "题中考察了正方体展开图中‘Z’字两端相对面的概念",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相对面\", \"正方体展开图\"],\n  \"reasoning\": \"题中考察了正方体展开图中‘Z’字两端相对面的概念\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，四边形ABCD各边中点分别是E、F、G、H，两条对角线AC与BD互相垂直，则四边形EFGH一定是（ ）\n[图1]",
+      "stem_markdown": "如图，四边形ABCD各边中点分别是E、F、G、H，两条对角线AC与BD互相垂直，则四边形EFGH一定是（ ）\n![2025年四川省攀枝花市中考数学试卷_q006_img01](assets/2025年四川省攀枝花市中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "矩形"
+        },
+        {
+          "label": "B",
+          "text": "菱形"
+        },
+        {
+          "label": "C",
+          "text": "正方形"
+        },
+        {
+          "label": "D",
+          "text": "梯形"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】设AC交BD于点Q，EF交BD于点P，由E、F、G、H分别是AB、BC、CD、AD的中点，得EF∥AC，且EF$=\\frac{1}{2}$AC，GH∥AC，且GH$=\\frac{1}{2}$AC，EH∥BD，推导出EF∥GH，且EF＝GH，则四边形EFGH是平行四边形，因为AC⊥BD，所以∠FEH＝∠FPD＝∠CQD＝90°，则四边形EFGH是矩形，于是得到问题的答案．\n【解答】解：设AC交BD于点Q，EF交BD于点P，\n∵E、F、G、H分别是AB、BC、CD、AD的中点，\n∴EF∥AC，且EF$=\\frac{1}{2}$AC，GH∥AC，且GH$=\\frac{1}{2}$AC，EH∥BD，\n∴EF∥GH，且EF＝GH，\n∴四边形EFGH是平行四边形，\n∵AC⊥BD，\n∴∠FEH＝∠FPD＝∠CQD＝90°，\n∴四边形EFGH是矩形，\n故选：A．\n[[image:rId26]]\n【点评】此题重点考查中点四边形、三角形中位线定理、平行线的性质、平行四边形的判定、矩形的判定等知识，推导出EF∥GH，且EF＝GH是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q006_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形中位线定理",
+          "平行四边形的判定",
+          "矩形的判定"
+        ],
+        "reasoning": "通过中点四边形的性质得出EF∥GH且EF=GH，进而判断为平行四边形，再结合AC⊥BD得出直角，判断为矩形。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形中位线定理\", \"平行四边形的判定\", \"矩形的判定\"],\n  \"reasoning\": \"通过中点四边形的性质得出EF∥GH且EF=GH，进而判断为平行四边形，再结合AC⊥BD得出直角，判断为矩形。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "要估算一个池塘里鱼的数目，可先从池塘各个地方捞出300条鱼，在每条鱼身上做个标记，再全部放回池塘．过几天后从池塘中捞出200条鱼，发现当中有20条做过标记．就可估计池塘里鱼的数目为（ ）",
+      "stem_markdown": "要估算一个池塘里鱼的数目，可先从池塘各个地方捞出300条鱼，在每条鱼身上做个标记，再全部放回池塘．过几天后从池塘中捞出200条鱼，发现当中有20条做过标记．就可估计池塘里鱼的数目为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "3000"
+        },
+        {
+          "label": "B",
+          "text": "4000"
+        },
+        {
+          "label": "C",
+          "text": "6000"
+        },
+        {
+          "label": "D",
+          "text": "60000"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】利用样本估计总体列式计算即可．\n【解答】解：估计池塘里鱼的数目为300$÷\\frac{20}{200}=$3000（条），\n故选：A．\n【点评】本题主要考查用样本估计总体，从一个总体得到一个包含大量数据的样本，我们很难从一个个数字中直接看出样本所包含的信息．这时，我们用频率分布直方图来表示相应样本的频率分布，从而去估计总体的分布情况．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "比例关系",
+          "样本估计总体"
+        ],
+        "reasoning": "根据样本中有标记鱼的比例估计总体鱼的数量",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"比例关系\", \"样本估计总体\"],\n  \"reasoning\": \"根据样本中有标记鱼的比例估计总体鱼的数量\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，在正五边形ABCDE中，∠CAD的大小为（ ）\n[图1]",
+      "stem_markdown": "如图，在正五边形ABCDE中，∠CAD的大小为（ ）\n![2025年四川省攀枝花市中考数学试卷_q008_img01](assets/2025年四川省攀枝花市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "30°"
+        },
+        {
+          "label": "B",
+          "text": "36°"
+        },
+        {
+          "label": "C",
+          "text": "40°"
+        },
+        {
+          "label": "D",
+          "text": "45°"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】作正五边形ABCDE外接圆，进而得出答案．\n【解答】解：作正五边形ABCDE外接圆，\n∴∠CAD$=\\frac{1}{2}×$（360°÷5）＝36°．\n[[image:rId28]]\n故选：B．\n【点评】本题主要考查多边形内角与外角，三角形的外接圆与外心，作出正五边形ABCDE外接圆是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q008_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正多边形的性质",
+          "圆周角定理",
+          "三角形外接圆"
+        ],
+        "reasoning": "作正五边形ABCDE外接圆得出∠CAD=36°",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正多边形的性质\", \"圆周角定理\", \"三角形外接圆\"],\n  \"reasoning\": \"作正五边形ABCDE外接圆得出∠CAD=36°\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "关于抛物线y＝﹣x²+6x﹣7，下列说法正确的是（ ）",
+      "stem_markdown": "关于抛物线y＝﹣$x^{2}$+6x﹣7，下列说法正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "开口向上"
+        },
+        {
+          "label": "B",
+          "text": "对称轴是直线x＝﹣3"
+        },
+        {
+          "label": "C",
+          "text": "与y轴的交点坐标是（0，7）"
+        },
+        {
+          "label": "D",
+          "text": "顶点坐标是（3，2）"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】先将题目中的解析式化为顶点式，然后即可判断哪个选项符合题意．\n【解答】解：∵抛物线y＝﹣$x^{2}$+6x﹣7＝﹣（x﹣3）^{2}+2，\n∴该函数图象开口向下，故选项A错误，不符合题意；\n对称轴为直线x＝3，故选项B错误，不符合题意；\n与y轴的交点坐标为（0，﹣7），故选项C错误，不符合题意；\n顶点坐标为（3，2），故选项D正确，符合题意；\n故选：D．\n【点评】本题考查二次函数的性质，解答本题的关键是明确题意，利用二次函数的性质解答．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的顶点式",
+          "抛物线的开口方向",
+          "抛物线的对称轴",
+          "抛物线与y轴的交点"
+        ],
+        "reasoning": "题目通过化简抛物线方程为顶点式，考察了抛物线的开口方向、对称轴和与y轴的交点。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的顶点式\", \"抛物线的开口方向\", \"抛物线的对称轴\", \"抛物线与y轴的交点\"],\n  \"reasoning\": \"题目通过化简抛物线方程为顶点式，考察了抛物线的开口方向、对称轴和与y轴的交点。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，△ABC中，AB＝AC＝5，BC＝6，D为BC的中点，CE⊥AB于点E，AD与CE相交于点O，则\\frac{OD}{OC}=（ ）\n[图1]",
+      "stem_markdown": "如图，△ABC中，AB＝AC＝5，BC＝6，D为BC的中点，CE⊥AB于点E，AD与CE相交于点O，则$\\frac{OD}{OC}=$（ ）\n![2025年四川省攀枝花市中考数学试卷_q010_img01](assets/2025年四川省攀枝花市中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{24}{25}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】先利用等腰三角形的性质可得AD⊥BC，CD＝BD＝3，然后根据垂直定义可得∠AEC＝∠ADC＝90°，从而可得∠DOC+∠OCD＝90°，∠EAD+∠AOE＝90°，再根据对顶角相等可得∠AOE＝∠DOC，从而可得∠EAD＝∠OCD，进而可得△ADB∽△CDO，最后利用相似三角形的性质进行计算，即可解答．\n【解答】解：AB＝AC＝5，BC＝6，D为BC的中点，\n∴AD⊥BC，CD＝BD$=\\frac{1}{2}$BC＝3，\n∵CE⊥AB，\n∴∠AEC＝∠ADC＝90°，\n∴∠DOC+∠OCD＝90°，∠EAD+∠AOE＝90°，\n∵∠AOE＝∠DOC，\n∴∠EAD＝∠OCD，\n∴△ADB∽△CDO，\n∴$\\frac{OD}{OC}=\\frac{DB}{AB}=$$\\frac{3}{5}$，\n故选：B．\n【点评】本题考查了等腰三角形的性质，相似三角形的判定与性质，根据题目的已知条件并结合图形进行分析是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q010_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "等腰三角形的性质",
+          "垂直的定义"
+        ],
+        "reasoning": "利用垂直定义和等腰三角形性质得出相似三角形，计算比值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"等腰三角形的性质\", \"垂直的定义\"],\n  \"reasoning\": \"利用垂直定义和等腰三角形性质得出相似三角形，计算比值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem_text": "已知直角坐标系xOy，点A在该坐标系中的坐标为（﹣1，2），现将直角坐标系xOy绕点O按逆时针方向旋转90°到x′Oy′的位置，则点A在新坐标系x′Oy′中的坐标为（ ）",
+      "stem_markdown": "已知直角坐标系xOy，点A在该坐标系中的坐标为（﹣1，2），现将直角坐标系xOy绕点O按逆时针方向旋转90°到x′Oy′的位置，则点A在新坐标系x′Oy′中的坐标为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "（﹣1，2）"
+        },
+        {
+          "label": "B",
+          "text": "（2，1）"
+        },
+        {
+          "label": "C",
+          "text": "（2，﹣1）"
+        },
+        {
+          "label": "D",
+          "text": "（﹣2，﹣1）"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据旋转的性质即可得到结论．\n【解答】解：∵现将直角坐标系xOy绕点O按逆时针方向旋转90°到x′Oy′的位置，\n∴相当于把点A在原平面直角坐标系中按逆时针方向旋转90°，\n∵点A在该坐标系中的坐标为（﹣1，2），\n∴点A在新坐标系x′Oy′中的坐标为（2，1），\n故选：B．\n[[image:rId30]]\n【点评】本题考查了坐标与图形变化﹣旋转熟练掌握旋转的性质是解题的关键．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "旋转变换",
+          "坐标系变换",
+          "逆时针旋转"
+        ],
+        "reasoning": "题中描述了点A绕原点逆时针旋转90°后的坐标变化",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"旋转变换\", \"坐标系变换\", \"逆时针旋转\"],\n  \"reasoning\": \"题中描述了点A绕原点逆时针旋转90°后的坐标变化\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem_text": "如图，在四边形ABCD中，∠ABC＝∠ADC＝90°，对角线AC与BD相交于点O，M、N分别为AC、BD的中点，∠ACD＝15°，AC＝8，OD＝OM．以下结论错误的是（ ）\n[图1]",
+      "stem_markdown": "如图，在四边形ABCD中，∠ABC＝∠ADC＝90°，对角线AC与BD相交于点O，M、N分别为AC、BD的中点，∠ACD＝15°，AC＝8，OD＝OM．以下结论错误的是（ ）\n![2025年四川省攀枝花市中考数学试卷_q012_img01](assets/2025年四川省攀枝花市中考数学试卷_q012_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "MN⊥BD"
+        },
+        {
+          "label": "B",
+          "text": "MN＝2"
+        },
+        {
+          "label": "C",
+          "text": "$AB=4\\sqrt{3}$"
+        },
+        {
+          "label": "D",
+          "text": "△BAD∽△COD"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】利用直角三角形的斜边上的中线的性质，等腰三角形的判定与性质，三角形的内角和定理，含30°角的直角三角形的性质，等腰直角三角形的判定与性质和相似三角形的判定定理对每个选项的结论进行逐一判断即可得出结论．\n【解答】解：连接MD，MB，如图，\n[[image:rId32]]\n∵∠ABC＝90°，M为AC的中点，\n∴BM$=\\frac{1}{2}$AC，\n∵∠ADC＝90°，N为BD的中点，\n∴DM＝CM$=\\frac{1}{2}$AC，\n∴DM＝BM，\n∵N为BD的中点，\n∴MN⊥BD．\n故A选项正确，不符合题意；\n∵DM＝CM$=\\frac{1}{2}$AC，\n∴∠MDC＝∠ACD＝15°，\n∴∠AMD＝∠DMC+∠ACD＝30°，\n∵OD＝OM，\n∴∠ODM＝∠AMD＝30°，\n∵AC＝8，\n∴DM$=\\frac{1}{2}$AC＝4，\n∵MN⊥BD，\n∴∠DNM＝90°，\n∴MN$=\\frac{1}{2}$DM＝2，\n故B选项正确，不符合题意；\n∵∠BDC＝∠ODM+∠MDC＝45°，\n∴∠ADB＝∠BDC＝45°，\n∵MA＝MD＝MC＝MB$=\\frac{1}{2}$AC＝4，\n∴点A，B，C，D四点在以点M为圆心，半径为4的圆上，\n∴∠BCA＝∠BDA＝45°，\n∴△ABC为等腰直角三角形，\n∴AB＝BC$=\\frac{\\sqrt{2}}{2}$AC＝4$\\sqrt{2}$，\n∴C选项错误，符合题意；\n∵∠ABD＝∠ACD，∠ADB＝∠BDC＝45°，\n∴△BAD∽△COD，\n∴D选项正确，不符合题意．\n故选：C．\n【点评】本题主要考查了直角三角形的性质，直角三角形的斜边上的中线的性质，等腰直角三角形的性质，含30°角的直角三角形的性质，等腰三角形判定与性质，圆的有关性质，圆周角定理，相似三角形的判定与性质，添加适当的辅助线是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q012_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形的斜边上的中线的性质",
+          "等腰三角形的判定与性质",
+          "含30°角的直角三角形的性质",
+          "相似三角形的判定定理"
+        ],
+        "reasoning": "题中条件涉及直角三角形斜边中线、等腰三角形性质及相似三角形判定，考察学生对这些知识的理解和应用能力。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形的斜边上的中线的性质\", \"等腰三角形的判定与性质\", \"含30°角的直角三角形的性质\", \"相似三角形的判定定理\"],\n  \"reasoning\": \"题中条件涉及直角三角形斜边中线、等腰三角形性质及相似三角形判定，考察学生对这些知识的理解和应用能力。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "请你取一个a的值，说明命题“|a﹣1|＝a﹣1”是假命题，那么a＝ ____ ．",
+      "stem_markdown": "请你取一个a的值，说明命题“|a﹣1|＝a﹣1”是假命题，那么a＝ ____ ．",
+      "options": [],
+      "answer": "﹣1（答案不唯一）．",
+      "solution": "【分析】根据绝对值的性质、假命题的概念解答．\n【解答】解：当a＝﹣1时，a﹣1＜0，\n则|a﹣1|＝﹣（a﹣1）＝1﹣a，\n说明命题“|a﹣1|＝a﹣1”是假命题，\n故答案为：﹣1（答案不唯一）．\n【点评】本题考查的是命题与定理，判断一个命题是假命题，只需举出一个反例即可．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值的性质",
+          "假命题"
+        ],
+        "reasoning": "条件 a=-1 使得 |a-1|=1-a 不等于 a-1",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值的性质\", \"假命题\"],\n  \"reasoning\": \"条件 a=-1 使得 |a-1|=1-a 不等于 a-1\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "已知a、b是方程x²+2x﹣3＝0的两根，则\\frac{1}{a}+\\frac{1}{b}的值为 ____ ．",
+      "stem_markdown": "已知a、b是方程$x^{2}$+2x﹣3＝0的两根，则$\\frac{1}{a}+\\frac{1}{b}$的值为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{2}{3}$．",
+      "solution": "【分析】利用根与系数的关系，可得出a+b＝﹣2，ab＝﹣3，再将其代入$\\frac{1}{a}+\\frac{1}{b}=$$\\frac{a+b}{ab}$中，即可求出结论．\n【解答】解：∵a、b是方程$x^{2}$+2x﹣3＝0的两根，\n∴a+b＝﹣2，ab＝﹣3，\n∴$\\frac{1}{a}+\\frac{1}{b}=$$\\frac{a+b}{ab}=\\frac{-2}{-3}=$$\\frac{2}{3}$．\n故答案为：$\\frac{2}{3}$．\n【点评】本题考查了根与系数的关系，牢记“一元二次方程$ax^{2}$+bx+c＝0（a≠0）的两根之和等于$-\\frac{b}{a}$，两根之积等于$\\frac{c}{a}$”是解题的关键．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "根与系数的关系",
+          "分式的化简",
+          "代数式求值"
+        ],
+        "reasoning": "利用根与系数关系得出a+b和ab的值，进而求解代数式",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"根与系数的关系\", \"分式的化简\", \"代数式求值\"],\n  \"reasoning\": \"利用根与系数关系得出a+b和ab的值，进而求解代数式\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "在分别写有数字1到10的10张卡片中，随机地抽出1张卡片，抽到卡片上的数字是质数的概率是 ____ ．",
+      "stem_markdown": "在分别写有数字1到10的10张卡片中，随机地抽出1张卡片，抽到卡片上的数字是质数的概率是 ____ ．",
+      "options": [],
+      "answer": "$\\frac{2}{5}$．",
+      "solution": "【分析】确定10张卡片中质数的个数后利用概率的公式求概率即可．\n【解答】解：∵共10张卡片，为质数的有2，3，5，7，共4个，\n∴卡片上的数字是质数的概率是$\\frac{4}{10}=\\frac{2}{5}$．\n故答案为：$\\frac{2}{5}$．\n【点评】此题主要考查了概率公式的应用，一般方法为：如果一个事件有n种可能，而且这些事件的可能性相同，其中事件A出现m种可能，那么事件A的概率P（A）$=\\frac{m}{n}$．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率计算",
+          "质数定义"
+        ],
+        "reasoning": "根据卡片上的数字是质数的概率计算公式",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率计算\", \"质数定义\"],\n  \"reasoning\": \"根据卡片上的数字是质数的概率计算公式\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "类比圆面积公式的推导，我们对扇形的面积公式进行如下探究：将扇形均匀分割成n个“小扇形”（如图1），扇形的面积就是这些“小扇形”的面积和，当n无限大时，这些“小扇形”可以近似地看成底边长分别为l₁，l₂，⋯，ln，高为r的“小三角形”，它们的面积和为\\frac{1}{2}l_{1}r+\\frac{1}{2}l_{2}r+⋯+\\frac{1}{2}l_{n}r=\\frac{1}{2}r(l_{1}+l_{2}+⋯+l_{n})=\\frac{1}{2}lr．即扇形面积S=\\frac{1}{2}lr．\n请根据这样的方法继续思考：如图2，扇形ODG与扇形OEF有共同的圆心角，且弧长分别为3和7，DE＝4，则图中阴影部分面积是 ____ ．\n[图1]",
+      "stem_markdown": "类比圆面积公式的推导，我们对扇形的面积公式进行如下探究：将扇形均匀分割成n个“小扇形”（如图1），扇形的面积就是这些“小扇形”的面积和，当n无限大时，这些“小扇形”可以近似地看成底边长分别为$l_{1}$，$l_{2}$，⋯，$l_{n}$，高为r的“小三角形”，它们的面积和为$\\frac{1}{2}l_{1}r+\\frac{1}{2}l_{2}r+⋯+\\frac{1}{2}l_{n}r=\\frac{1}{2}r(l_{1}+l_{2}+⋯+l_{n})=\\frac{1}{2}lr$．即扇形面积$S=\\frac{1}{2}lr$．\n请根据这样的方法继续思考：如图2，扇形ODG与扇形OEF有共同的圆心角，且弧长分别为3和7，DE＝4，则图中阴影部分面积是 ____ ．\n![2025年四川省攀枝花市中考数学试卷_q016_img01](assets/2025年四川省攀枝花市中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "20．",
+      "solution": "【分析】根据题目当中的方法继续思考：图中阴影部分面积为S$=\\frac{1}{2}$（$l_{1}+l_{2}$）d，其中扇形ODG的弧长是$l_{1}$，扇形OEF的弧长是$l_{2}$，DE的长度为d．\n【解答】解：根据题意，图中阴影部分面积是$\\frac{1}{2}(3+7)×4=$20，\n故答案为：20．\n【点评】本题主要考查了扇形面积的计算，根据题目的思考方法得出S$=\\frac{1}{2}$（$l_{1}+l_{2}$）d是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q016_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "弧长公式",
+          "扇形面积公式",
+          "等分图形求和"
+        ],
+        "reasoning": "阴影部分面积计算涉及弧长和半径关系，以及扇形面积的计算方法。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"弧长公式\", \"扇形面积公式\", \"等分图形求和\"],\n  \"reasoning\": \"阴影部分面积计算涉及弧长和半径关系，以及扇形面积的计算方法。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "计算：\\frac{a}{a^{2}-1}⋅\\frac{a^{2}+a}{a^{2}}．",
+      "stem_markdown": "计算：$\\frac{a}{a^{2}-1}⋅\\frac{a^{2}+a}{a^{2}}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先把分子、分母分解因式，再约分即可．\n【解答】解：$\\frac{a}{a^{2}-1}⋅\\frac{a^{2}+a}{a^{2}}$\n$=\\frac{a}{(a+1)(a-1)}⋅\\frac{a(a+1)}{a^{2}}$\n$=\\frac{1}{a-1}$．\n【点评】本题考查了分式的乘除法，熟练掌握运算法则是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "因式分解",
+          "分式的乘除法"
+        ],
+        "reasoning": "题目要求计算分式乘法，涉及分解因式和分式的约分。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"因式分解\", \"分式的乘除法\"],\n  \"reasoning\": \"题目要求计算分式乘法，涉及分解因式和分式的约分。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "中国在2024年巴黎奥运会上再次刷新了境外参赛的金牌数纪录，显示出中国体育竞技水平的持续提升．以下是我国体育健儿在近六届奥运会中获得的金牌数条形统计图．\n[图1]\n（1）根据图中数据将近六届奥运会中国获得的金牌数整理成一个统计表；\n（2）近六届奥运会中国获得的金牌数的众数、中位数分别是多少？",
+      "stem_markdown": "中国在2024年巴黎奥运会上再次刷新了境外参赛的金牌数纪录，显示出中国体育竞技水平的持续提升．以下是我国体育健儿在近六届奥运会中获得的金牌数条形统计图．\n![2025年四川省攀枝花市中考数学试卷_q018_img01](assets/2025年四川省攀枝花市中考数学试卷_q018_img01.png)\n（1）根据图中数据将近六届奥运会中国获得的金牌数整理成一个统计表；\n（2）近六届奥运会中国获得的金牌数的众数、中位数分别是多少？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）列表即可；\n（2）根据众数和中位数的定义求解即可．\n【解答】解：（1）列表如下：\n| 第28届 | 第29届 | 第30届 | 第31届 | 第32届 | 第33届 |\n| --- | --- | --- | --- | --- | --- |\n| 32块 | 51块 | 38块 | 26块 | 38块 | 40块 |\n（2）这组数据中38出现2次，所以众数为38块；\n这组数据的第3、4个数据分别为38、38，\n所以这组数据的中位数为$\\frac{38+38}{2}=$38（块）．\n【点评】本题主要考查条形统计图，解题的关键是掌握众数和中位数的定义．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q018_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率分布表",
+          "众数",
+          "中位数"
+        ],
+        "reasoning": "表格整理和计算众数、中位数",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率分布表\", \"众数\", \"中位数\"],\n  \"reasoning\": \"表格整理和计算众数、中位数\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "如图，函数y＝x﹣1和y=\\frac{2}{x}的图象相交于A、B两点．\n（1）A点的坐标为 ____ ，B点的坐标为 ____ ；观察图象，不等式x﹣1＜\\frac{2}{x}的解集为 ____ ；\n（2）若y轴上存在点C，使S△ABC＝6，求点C的坐标．\n[图1]",
+      "stem_markdown": "如图，函数y＝x﹣1和y$=\\frac{2}{x}$的图象相交于A、B两点．\n（1）A点的坐标为 ____ ，B点的坐标为 ____ ；观察图象，不等式x﹣1$＜\\frac{2}{x}$的解集为 ____ ；\n（2）若y轴上存在点C，使$S_{△}_{ABC}$＝6，求点C的坐标．\n![2025年四川省攀枝花市中考数学试卷_q019_img01](assets/2025年四川省攀枝花市中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "（2，1），（﹣1，﹣2），0＜x＜2或x＜﹣1",
+      "solution": "【分析】（1）联立方程组，解方程组求出A，B坐标，再利用图象求出不等式的解集；\n（2）将△ABC的面积转化为两个三角形的面积之和即可．\n【解答】解：（1）联立方程组得：$\\begin{cases} y=x-1 \\\\ y=\\frac{2}{x} \\end{cases}$，\n解得$\\begin{cases} x=-1 \\\\ y=-2 \\end{cases}$或$\\begin{cases} x=2 \\\\ y=1 \\end{cases}$，\n∴A点的坐标为（2，1），B点的坐标为（﹣1，﹣2），\n观察图象，不等式x﹣1$＜\\frac{2}{x}$的解集为0＜x＜2或x＜﹣1．\n故答案为：（2，1），（﹣1，﹣2），0＜x＜2或x＜﹣1；\n（2）设 y＝x﹣1与y轴的交点为M，则点M的坐标为（0，﹣1），\n设C点的坐标为 （0，$y_{c}$），\n[[image:rId36]]\n由题意知，$S_{△}_{ABC}＝S_{△}_{BCM}+S_{△}_{ACM}=\\frac{1}{2}×$|﹣1﹣$y_{C}$|×1$+\\frac{1}{2}×$|﹣1﹣$y_{C}|×2=\\frac{3}{2}|y_{C}$+1|＝6，\n解得|$y_{c}$+1|＝4，\n当 $y_{c}$+1≥0 时，$y_{c}$+1＝4，解得$y_{c}$＝3，\n当 $y_{c}$+1≤0 时，$y_{c}$+1＝﹣4，解得$y_{c}$＝﹣5，\n∴点C的坐标为（0，3）或（0，﹣5）．\n【点评】本题是反比例函数与一次函数图象交点问题，函数与不等式的关系，三角形的面积等，能利用数形结合的思想是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q019_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程组",
+          "反比例函数图像",
+          "一次函数图像",
+          "三角形面积"
+        ],
+        "reasoning": "通过解方程组找出交点坐标，利用图象判断不等式解集，计算三角形面积确定C点坐标。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程组\", \"反比例函数图像\", \"一次函数图像\", \"三角形面积\"],\n  \"reasoning\": \"通过解方程组找出交点坐标，利用图象判断不等式解集，计算三角形面积确定C点坐标。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "如图，已知Rt△ABC中，∠C＝90°，∠A、∠B、∠C的对边分别为a、b、c．\n（1）根据锐角三角函数的定义，证明：sin²A+cos²A＝1；\n（2）若sinA=\\frac{1}{3}，求cosA的值．\n[图1]",
+      "stem_markdown": "如图，已知Rt△ABC中，∠C＝90°，∠A、∠B、∠C的对边分别为a、b、c．\n（1）根据锐角三角函数的定义，证明：$sin^{2}$A+$cos^{2}$A＝1；\n（2）若sinA$=\\frac{1}{3}$，求cosA的值．\n![2025年四川省攀枝花市中考数学试卷_q020_img01](assets/2025年四川省攀枝花市中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "证明：$sin^{2}$A+$cos^{2}$A＝1；\n（2）若sinA$=\\frac{1}{3}$，求cosA的值．\n[[image:rId37]]\n【分析】（1）在Rt△ABC中，利用勾股定理，锐角三角函数的定义可得：$a^{2}+b^{2}＝c^{2}$，sinA$=\\frac{a}{c}$，cosA$=\\frac{b}{c}$，然后进行计算即可解答；\n（2）利用（1）的结论进行计算，即可解答．\n【解答】（1）证明：在Rt△ABC中，∠C＝90°，\n∴$a^{2}+b^{2}＝c^{2}$，sinA$=\\frac{a}{c}$，cosA$=\\frac{b}{c}$，\n∴$sin^{2}$A+$cos^{2}$A＝$(\\frac{a}{c})^{2}+(\\frac{b}{c})^{2}=\\frac{a^{2}}{c^{2}}+$$\\frac{b^{2}}{c^{2}}=\\frac{a^{2}+b^{2}}{c^{2}}=$$\\frac{c^{2}}{c^{2}}=$1；\n（2）解：∵$sin^{2}$A+$cos^{2}$A＝1，\n∴$\\frac{1}{9}+cos^{2}$A＝1，\n∴$cos^{2}$A$=\\frac{8}{9}$，\n∴cosA$=\\frac{2\\sqrt{2}}{3}$或cosA$=-\\frac{2\\sqrt{2}}{3}$（舍去），\n即cosA的值为$\\frac{2\\sqrt{2}}{3}$．\n【点评】本题考查了解直角三角形的应用，同角三角函数的关系，熟练掌握锐角三角函数的定义是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q020_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "锐角三角函数的定义",
+          "勾股定理",
+          "同角三角函数的关系"
+        ],
+        "reasoning": "（1）利用锐角三角函数定义和勾股定理证明sin²A+cos²A=1；（2）利用同角三角函数关系求cosA的值。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"锐角三角函数的定义\", \"勾股定理\", \"同角三角函数的关系\"],\n  \"reasoning\": \"（1）利用锐角三角函数定义和勾股定理证明sin²A+cos²A=1；（2）利用同角三角函数关系求cosA的值。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "在攀枝花高质量发展建设共同富裕试验区的进程中，有关部门积极助力果农成立芒果种植专业合作社，运用“实体店+直播”的新电商模式扩大芒果销售．某合作社精品芒果成本为60元/箱，每天的销售量y箱与售价x元/箱满足关系式y＝﹣20x+2200．\n（1）若芒果的售价为80元/箱，求合作社每天芒果的销售利润；\n（2）若规定芒果的售价不低于86元/箱，且每天的销售量不少于300箱，求芒果的售价应定在什么范围．",
+      "stem_markdown": "在攀枝花高质量发展建设共同富裕试验区的进程中，有关部门积极助力果农成立芒果种植专业合作社，运用“实体店+直播”的新电商模式扩大芒果销售．某合作社精品芒果成本为60元/箱，每天的销售量y箱与售价x元/箱满足关系式y＝﹣20x+2200．\n（1）若芒果的售价为80元/箱，求合作社每天芒果的销售利润；\n（2）若规定芒果的售价不低于86元/箱，且每天的销售量不少于300箱，求芒果的售价应定在什么范围．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）求出当x＝80时y的值，即可解决问题；\n（2）根据规定芒果的售价不低于86元/箱，且每天的销售量不少于300箱，列出一元一次不等式组，解不等式组即可．\n【解答】解：（1）∵y＝﹣20x+2200，\n∴当x＝80时，y＝﹣20×80+2200＝600，\n∴600×（80﹣60）＝12000（元），\n答：若芒果的售价为80元/箱，合作社每天芒果的销售利润为12000元；\n（2）由题意得：$\\begin{cases} x≥86 \\\\ -20x+2200≥300 \\end{cases}$，\n解得：86≤x≤95，\n答：芒果的售价x的范围为86≤x≤95．\n【点评】本题主要考查了一元一次不等式组的应用以及一次函数的应用，找准等量关系，正确列出一元一次不等式组是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数的应用",
+          "一元一次不等式组的应用",
+          "利润计算"
+        ],
+        "reasoning": "第（1）问通过一次函数求解销售量，第（2）问通过一元一次不等式组确定售价范围",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数的应用\", \"一元一次不等式组的应用\", \"利润计算\"],\n  \"reasoning\": \"第（1）问通过一次函数求解销售量，第（2）问通过一元一次不等式组确定售价范围\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，⊙O是△ABC的内切圆，与AB、BC、CA分别相切于点D、E、F，∠DOE＝120°，∠EOF＝150°．\n（1）求△ABC的三个内角的大小；\n（2）设⊙O的直径为d，证明：d＝AB+AC﹣BC．\n[图1]",
+      "stem_markdown": "如图，⊙O是△ABC的内切圆，与AB、BC、CA分别相切于点D、E、F，∠DOE＝120°，∠EOF＝150°．\n（1）求△ABC的三个内角的大小；\n（2）设⊙O的直径为d，证明：d＝AB+AC﹣BC．\n![2025年四川省攀枝花市中考数学试卷_q022_img01](assets/2025年四川省攀枝花市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "证明：d＝AB+AC﹣BC．\n[[image:rId38]]\n【分析】（1）由⊙O是△ABC的内切圆，与AB、BC、CA分别相切于点D、E、F，得∠ODB＝∠OEB＝∠OEC＝∠OFC＝90°，而∠DOE＝120°，∠EOF＝150°，则∠B＝360°﹣∠ODB﹣∠OEB﹣∠DOE＝60°，∠C＝360°﹣∠OEC﹣∠OFC﹣∠EOF＝30°，所以∠A＝180°﹣∠B﹣∠C＝90°．\n（2）由切线长定理得AD＝AF，BD＝BE，CF＝CE，则BD+CF＝BE+CE＝BC，由AB+AC＝AD+BD+CF+AF＝2AF+BC，得2AF＝AB+AC﹣BC，由∠ODA＝∠OFA＝∠A＝90°，证明四边形ADOF是矩形，则OD＝AF，因为⊙O的直径为d，OD为⊙O的半径，所以d＝2OD＝2AF＝AB+AC﹣BC．\n【解答】（1）解：∵⊙O是△ABC的内切圆，与AB、BC、CA分别相切于点D、E、F，\n∴AB⊥OD，BC⊥OE，CA⊥OF，\n∴∠ODB＝∠OEB＝∠OEC＝∠OFC＝90°，\n∵∠DOE＝120°，∠EOF＝150°，\n∴∠B＝360°﹣∠ODB﹣∠OEB﹣∠DOE＝60°，∠C＝360°﹣∠OEC﹣∠OFC﹣∠EOF＝30°，\n∴∠A＝180°﹣∠B﹣∠C＝90°，\n∴∠A、∠B、∠C的度数分别为90°、60°、30°．\n（2）证明：∵AD＝AF，BD＝BE，CF＝CE，\n∴BD+CF＝BE+CE＝BC，\n∵AB+AC＝AD+BD+CF+AF＝2AF+BC，\n∴2AF＝AB+AC﹣BC，\n∵∠ODA＝∠OFA＝∠A＝90°，\n∴四边形ADOF是矩形，\n∴OD＝AF，\n∵⊙O的直径为d，OD为⊙O的半径，\n∴d＝2OD＝2AF，\n∴d＝AB+AC﹣BC．\n【点评】此题重点考查三角形的内切圆与内心、切线的性质、切线长定理、四边形的内角和等于360°、三角形内角和定理、矩形的判定等知识，推导出∠B＝60°，∠C＝30°是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q022_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线长定理",
+          "三角形内角和定理",
+          "四边形的内角和等于360°"
+        ],
+        "reasoning": "第（1）问通过切线长定理得出∠B和∠C的度数；第（2）问通过切线长定理和四边形的内角和等于360°证明d=AB+AC-BC。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线长定理\", \"三角形内角和定理\", \"四边形的内角和等于360°\"],\n  \"reasoning\": \"第（1）问通过切线长定理得出∠B和∠C的度数；第（2）问通过切线长定理和四边形的内角和等于360°证明d=AB+AC-BC。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "跨学科主题学习活动中，某探究小组对“弹珠在水平轨道上运动快慢、路程随时间变化的关系”开展深入探究．先设计方案，再进行实验，利用所学知识对实验数据进行分析，并进一步应用．\n【设计实验方案】如图1所示，设计一个由倾斜和水平轨道组成的实验装置，将弹珠从倾斜轨道顶端由静止释放．从弹珠运动到A点处开始，用计时器、测速仪等测量并记录弹珠在水平轨道上的运动时间t（s）、运动快慢v（cm/s）、运动路程y（cm）的数据．\n[图1]\n【收集整理数据】\n运动时间t（s） | 0 | 4 | 8 | 12 | 16 | 20 | …\n运动快慢v（cm/s） | 12 | 10 | 8 | 6 | 4 | 2 | …\n运动路程y（cm） | 0 | 44 | 80 | 108 | 128 | 140 | …\n【数学建模探究】\n【猜想】根据表格中的数据分别在图2、图3的平面直角坐标系中描点、连线，观察图象并猜想：v与t之间的关系可以近似地用 ____ 函数表示，y与t之间的关系可以近似地用 ____ 函数表示．（选填：一次、二次、反比例）\n【检验】根据猜想求出v与t，y与t之间的函数关系式，并代入一组数据进行验证．\n【应用】当弹珠到达水平轨道上A点时，前方B点处有一辆电动小车以3cm/s的速度在匀速向前直线运动，若弹珠能追上小车，那么AB的最大值是多少？",
+      "stem_markdown": "跨学科主题学习活动中，某探究小组对“弹珠在水平轨道上运动快慢、路程随时间变化的关系”开展深入探究．先设计方案，再进行实验，利用所学知识对实验数据进行分析，并进一步应用．\n【设计实验方案】如图1所示，设计一个由倾斜和水平轨道组成的实验装置，将弹珠从倾斜轨道顶端由静止释放．从弹珠运动到A点处开始，用计时器、测速仪等测量并记录弹珠在水平轨道上的运动时间t（s）、运动快慢v（cm/s）、运动路程y（cm）的数据．\n![2025年四川省攀枝花市中考数学试卷_q023_img01](assets/2025年四川省攀枝花市中考数学试卷_q023_img01.png)\n【收集整理数据】\n| 运动时间t（s） | 0 | 4 | 8 | 12 | 16 | 20 | … |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 运动快慢v（cm/s） | 12 | 10 | 8 | 6 | 4 | 2 | … |\n| 运动路程y（cm） | 0 | 44 | 80 | 108 | 128 | 140 | … |\n【数学建模探究】\n【猜想】根据表格中的数据分别在图2、图3的平面直角坐标系中描点、连线，观察图象并猜想：v与t之间的关系可以近似地用 ____ 函数表示，y与t之间的关系可以近似地用 ____ 函数表示．（选填：一次、二次、反比例）\n【检验】根据猜想求出v与t，y与t之间的函数关系式，并代入一组数据进行验证．\n【应用】当弹珠到达水平轨道上A点时，前方B点处有一辆电动小车以3cm/s的速度在匀速向前直线运动，若弹珠能追上小车，那么AB的最大值是多少？",
+      "options": [],
+      "answer": "一次，二次",
+      "solution": "【分析】（猜想）利用描点法解答即可；\n（检验）利用待定系数法解答即可；\n（应用）根据追及关系列方程，结合二次函数性质，得AB最大值为81cm．\n【解答】解：【猜想】[[image:rId40]]，\n观察v随t的变化，是均匀减小，符合一次函数特征；y与t的关系结合图象判断为二次函数，\n故答案为：一次，二次；\n【检验】求v与t的函数关系式：\n设v＝kt+b，把t＝0，v＝12和t＝4，v＝10代入，\n可得$\\begin{cases} b=12 \\\\ 4k+b=10 \\end{cases}$，解得$\\begin{cases} k=-0.5 \\\\ b=12 \\end{cases}$，所以v＝﹣0.5t+12，\n验证：当t＝8时，v＝﹣0.5×8+12＝8，与表格数据一致；\n求y与t的函数关系式：\n设y＝$at^{2}$+bt+c，把t＝0，y＝0，t＝4，y＝44，t＝8，y＝80代入，\n可得$\\begin{cases} c=0， \\\\ 16a+4b+c=44 \\\\ 64a+8b+c=80 \\end{cases}$\n解得$\\begin{cases} a=-0.25 \\\\ b=12 \\\\ c=0 \\end{cases}$，\n∴y＝﹣0.$25t^{2}$+12t，\n验证：当t＝12时，y＝﹣0.25×144+12×12＝108，与表格数据一致；\n【应用】设运动时间为t秒时弹珠追上小车，\n此时弹珠运动的路程y等于AB的距离加上小车运动的路程3t，即y＝s+3t（s为AB的距离），\n由y＝﹣0.$25t^{2}$+12t，\n可得﹣0.$25t^{2}$+12t＝s+3t，\n整理得s＝﹣0.$25t^{2}$+9t，\n对于二次函数s＝﹣0.$25t^{2}$+9t，a＝﹣0.25＜0，\n其最大值在t＝18时取得，\n把t＝18代入s＝﹣0.$25t^{2}$+9t，得s＝81，\n所以AB的最大值是81cm．\n【点评】本题主要考查了一次函数的图象与性质，二次函数的图象与性质，待定系数法，一次函数与二次函数的应用，熟练掌握一次函数与二次函数的性质是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q023_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数",
+          "二次函数",
+          "待定系数法"
+        ],
+        "reasoning": "通过描点连线观察v随t的变化规律，确定v与t的关系为一次函数；通过多项式代入数据确定y与t的关系为二次函数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数\", \"二次函数\", \"待定系数法\"],\n  \"reasoning\": \"通过描点连线观察v随t的变化规律，确定v与t的关系为一次函数；通过多项式代入数据确定y与t的关系为二次函数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省攀枝花市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图1，正方形ABCD的边长为2．E、F分别为边BC、CD上的动点，△CEF的周长为4，G是CB延长线上的一点，且GB＝DF．\n（1）求证：AG⊥AF；\n（2）试问∠EAF的大小是否为定值，如果是，请求出该定值；如果不是，请说明理由；\n（3）如图2，若M为边BC的中点，过点A作AH⊥EF，垂足为H．求MH的最小值．\n[图1]\n2025年四川省攀枝花市中考数学试卷",
+      "stem_markdown": "如图1，正方形ABCD的边长为2．E、F分别为边BC、CD上的动点，△CEF的周长为4，G是CB延长线上的一点，且GB＝DF．\n（1）求证：AG⊥AF；\n（2）试问∠EAF的大小是否为定值，如果是，请求出该定值；如果不是，请说明理由；\n（3）如图2，若M为边BC的中点，过点A作AH⊥EF，垂足为H．求MH的最小值．\n![2025年四川省攀枝花市中考数学试卷_q024_img01](assets/2025年四川省攀枝花市中考数学试卷_q024_img01.png)\n2025年四川省攀枝花市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用SAS易证△ABG≌△ADF（SAS），进而得证；\n（2）由△CEF的周长为4，导边可得EF＝EG，再根据SSS可证△AGE≌△AFE，据此得解；\n（3）设BE＝x，DF＝y，在Rt△CEF中利用勾股定理可得xy＝4﹣（x+y），再利用等面积可得AH＝2，最后利用三边关系求解即可．\n【解答】（1）证明：∵四边形ABCD是正方形，\n∴AB＝AD，∠ABE＝∠ADF＝∠BAD＝90°，\n∴∠ABG＝∠ADF＝90°，\n在△ABG和△ADF中，\n$\\begin{cases} AB=AD \\\\ ∠ABG=∠ADF \\\\ GB=DF \\end{cases}$，\n∴△ABG≌△ADF（SAS），\n∴∠BAG＝∠DAF，\n∴∠BAD＝∠DAF+∠BAF＝∠BAG+∠BAF＝∠GAF＝90°，\n∴AG⊥AF；\n（2）解：由（1）知△ABG≌△ADF（SAS），\n∴AG＝AF，\n∵△CEF的周长为4，CD+CB＝2+2＝4，\n∴CE+EF+CF＝CB+CD＝CF+DF+CE+BE，\n∴EF＝DF+BE＝BG+BE＝EG，\n在△AGE和△AFE中，\n$\\begin{cases} AG=AF \\\\ AE=AE \\\\ GE=FE \\end{cases}$，\n∴△AGE≌△AFE（SAS），\n∴$∠EAF=∠EAG=\\frac{1}{2}∠GAF=45°$，\n∴∠EAF的大小为定值45°；\n（3）方法一：设BE＝x，DF＝y，则EF＝EG＝x+y，\n∵正方形边长为2，\n∴CE＝CB﹣BE＝2﹣x，CF＝CD﹣DF＝2﹣y，\n在Rt△CEF中，$CE^{2}+CF^{2}＝EF^{2}$，\n即（2﹣x）^{2}+（2﹣y）^{2}＝（x+y）^{2}，\n整理得xy＝4﹣2（x+y），\n∵AH⊥EF，\n∴$S_{△}_{AEF}=\\frac{1}{2}$AH•（x+y），\n又∵$S_{△}_{AEF}＝S_{正方形}_{ABCD}﹣S_{△}_{ABE}﹣S_{△}_{ADF}﹣S_{△}_{CEF}$\n＝4﹣x﹣y﹣2+（x+y）$-\\frac{1}{2}$xy\n＝4﹣x﹣y﹣2+（x+y）﹣2+（x+y）\n＝x+y，\n∴$\\frac{1}{2}$AH•（x+y）＝x+y，\n∴AH＝2，\n∵M为BC中点，\n∴BM$=\\frac{1}{2}BC=1$，\n∴AM$=\\sqrt{AB^{2}+BM^{2}}=\\sqrt{5}$，\n∵MH≥AM﹣AH，当且仅当A、H、M三点共线时取等，\n∴MH$≥\\sqrt{5}-2$，\n即MH最小值为$\\sqrt{5}-$2．\n求AH的方法二：∵正方形ABCD的边长为2，\n∴AB＝BC＝2，∠ABC＝90°，\n∴AB是△AEG的高，\n∵AH⊥EF，\n∴ABH是△AEG的高，\n由（2）得△AGE≌△AFE，\n∴$S_{△}_{AEG}＝S_{△}_{AEF}$，即$\\frac{1}{2}AB⋅EG=\\frac{1}{2}EF⋅AH$，\n∵EG＝EF，\n∴AH＝AB＝2；\n【点评】本题主要考查了正方形的性质、全等三角形判定和性质等内容，熟练掌握相关知识是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:22:41；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId43]] ____ [[image:rId44]] ____ [[image:rId45]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年四川省攀枝花市中考数学试卷_q024_img01",
+          "path": "assets/2025年四川省攀枝花市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形",
+          "勾股定理",
+          "正方形性质",
+          "等面积法"
+        ],
+        "reasoning": "题目涉及全等三角形的判定与性质、正方形的性质、勾股定理以及等面积法的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形\", \"勾股定理\", \"正方形性质\", \"等面积法\"],\n  \"reasoning\": \"题目涉及全等三角形的判定与性质、正方形的性质、勾股定理以及等面积法的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:10:28",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 24,
+      "ok": 24,
+      "fallback": 0
+    }
+  }
+}

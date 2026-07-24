@@ -1,0 +1,1087 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年辽宁省中考数学试卷",
+  "source": {
+    "name": "2025年辽宁省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年辽宁省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列几何体中，主视图为三角形的是（ ）",
+      "stem_markdown": "下列几何体中，主视图为三角形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年辽宁省中考数学试卷_q001_img01](assets/2025年辽宁省中考数学试卷_q001_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年辽宁省中考数学试卷_q001_img02](assets/2025年辽宁省中考数学试卷_q001_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年辽宁省中考数学试卷_q001_img03](assets/2025年辽宁省中考数学试卷_q001_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年辽宁省中考数学试卷_q001_img04](assets/2025年辽宁省中考数学试卷_q001_img04.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】主视图是从正面看到的图形，据此判断出对应几何体的主视图形状即可得到答案．\n【解答】解；A、圆锥的主视图是三角形，符合题意；\nB、圆柱的主视图是长方形，不符合题意；\nC、球的主视图是圆，不符合题意；\nD、正方体的主视图是正方形，不符合题意；\n故选：A．\n【点评】本题主要考查了简单几何体的三视图，掌握其性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q001_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q001_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q001_img02",
+          "path": "assets/2025年辽宁省中考数学试卷_q001_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q001_img03",
+          "path": "assets/2025年辽宁省中考数学试卷_q001_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q001_img04",
+          "path": "assets/2025年辽宁省中考数学试卷_q001_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三视图",
+          "圆锥",
+          "圆柱",
+          "球"
+        ],
+        "reasoning": "题目要求识别主视图为三角形的几何体",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三视图\", \"圆锥\", \"圆柱\", \"球\"],\n  \"reasoning\": \"题目要求识别主视图为三角形的几何体\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "十年砥砺，春华秋实．据2025年5月6日《辽宁日报》报道，辽宁省科学技术馆作为我省重要的科普宣传阵地和科学文化交流平台．自2015年开馆以来，累计接待观众超1900万人次．数据19000000用科学记数法表示为（ ）",
+      "stem_markdown": "十年砥砺，春华秋实．据2025年5月6日《辽宁日报》报道，辽宁省科学技术馆作为我省重要的科普宣传阵地和科学文化交流平台．自2015年开馆以来，累计接待观众超1900万人次．数据19000000用科学记数法表示为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1900×10^{4}"
+        },
+        {
+          "label": "B",
+          "text": "19×10^{6}"
+        },
+        {
+          "label": "C",
+          "text": "1.9×10^{7}"
+        },
+        {
+          "label": "D",
+          "text": "1.9×10^{8}"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：19000000＝1.9×10^{7}．\n故选：C．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "小数点移动"
+        ],
+        "reasoning": "解答过程中使用了科学记数法的表示形式和小数点移动的规则来转换数字",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"小数点移动\"],\n  \"reasoning\": \"解答过程中使用了科学记数法的表示形式和小数点移动的规则来转换数字\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "数学中有许多优美的曲线，下列四条曲线既是轴对称图形又是中心对称图形的是（ ）",
+      "stem_markdown": "数学中有许多优美的曲线，下列四条曲线既是轴对称图形又是中心对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年辽宁省中考数学试卷_q003_img01](assets/2025年辽宁省中考数学试卷_q003_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年辽宁省中考数学试卷_q003_img02](assets/2025年辽宁省中考数学试卷_q003_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年辽宁省中考数学试卷_q003_img03](assets/2025年辽宁省中考数学试卷_q003_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年辽宁省中考数学试卷_q003_img04](assets/2025年辽宁省中考数学试卷_q003_img04.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】把一个图形绕某一点旋转180°，如果旋转后的图形能够与原来的图形重合，那么这个图形就叫做中心对称图形；如果一个图形沿一条直线折叠，直线两旁的部分能够互相重合，这个图形叫做轴对称图形，由此即可判断．\n【解答】解：A、此曲线是中心对称图形，不是轴对称图形，故A不符合题意；\nB、该曲线既是轴对称图形又是中心对称图形，故B符合题意；\nC、该曲线是轴对称图形，不是中心对称图形，故C不符合题意；\nD、此曲线不是中心对称图形，也不是轴对称图形，故D不符合题意．\n故选：B．\n【点评】本题考查中心对称图形，轴对称图形，关键是掌握轴对称图形和中心对称图形的定义．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q003_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q003_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q003_img02",
+          "path": "assets/2025年辽宁省中考数学试卷_q003_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q003_img03",
+          "path": "assets/2025年辽宁省中考数学试卷_q003_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q003_img04",
+          "path": "assets/2025年辽宁省中考数学试卷_q003_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中心对称图形",
+          "轴对称图形"
+        ],
+        "reasoning": "题干要求识别既是轴对称又是中心对称的图形，解答过程详细描述了这两种图形的定义。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中心对称图形\", \"轴对称图形\"],\n  \"reasoning\": \"题干要求识别既是轴对称又是中心对称的图形，解答过程详细描述了这两种图形的定义。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "下列计算正确的是（ ）",
+      "stem_markdown": "下列计算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "m+3m＝$4m^{2}$"
+        },
+        {
+          "label": "B",
+          "text": "2m•3m＝$5m^{2}$"
+        },
+        {
+          "label": "C",
+          "text": "（mn）^{2}＝$mn^{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$(m^{2})^{3}＝m^{6}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据合并同类项、单项式乘法、积的乘方、幂的乘方逐项判断即可．\n【解答】解：根据合并同类项、单项式乘法、积的乘方、幂的乘方逐项分析判断如下：\nA．m+3m＝（1+3）m＝4m，故该选项错误，不符合题意；\nB．2m•3m＝（2×3）（m•m）＝$6m^{2}$，故该选项错误，不符合题意；\nC．（mn）^{2}＝$m^{2}n^{2}$，故该选项错误，不符合题意；\nD．$(m^{2})^{3}＝m^{2×3}＝m^{6}$，故该选项正确，符合题意．\n故选：D．\n【点评】本题主要考查了合并同类项、单项式乘法、积的乘方、幂的乘方等知识点，掌握相关运算法则成为解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "合并同类项",
+          "单项式乘法",
+          "幂的乘方"
+        ],
+        "reasoning": "选项分析涉及合并同类项、单项式乘法和幂的乘方运算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"合并同类项\", \"单项式乘法\", \"幂的乘方\"],\n  \"reasoning\": \"选项分析涉及合并同类项、单项式乘法和幂的乘方运算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "不透明袋子中仅有红、黄小球各一个，这两个小球除颜色外都相同．从中随机摸出一个小球，记下颜色后，放回并摇匀，再从中随机摸出一个小球，则两次摸出相同颜色的小球的概率为（ ）",
+      "stem_markdown": "不透明袋子中仅有红、黄小球各一个，这两个小球除颜色外都相同．从中随机摸出一个小球，记下颜色后，放回并摇匀，再从中随机摸出一个小球，则两次摸出相同颜色的小球的概率为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{3}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】列表可得出所有等可能的结果数以及两次摸出相同颜色的小球的结果数，再利用概率公式可得出答案．\n【解答】解：从中随机摸出一个小球，记下颜色后，放回并摇匀，再从中随机摸出一个小球，列表如下：\n| 红 | 黄 | |\n| --- | --- | --- |\n| 红 | （红，红） | （红，黄） |\n| 黄 | （黄，红） | （黄，黄） |\n共有4种等可能的结果，其中两次摸出相同颜色的小球的结果有2种，\n∴两次摸出的都是红球的概率为$\\frac{2}{4}=\\frac{1}{2}$．\n故选：C．\n【点评】本题考查列表法与树状图法，概率公式，熟练掌握列表法与树状图法是解答本题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "列举法",
+          "概率计算",
+          "样本空间"
+        ],
+        "reasoning": "列表法列出所有可能结果，计算相同颜色的概率。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"列举法\", \"概率计算\", \"样本空间\"],\n  \"reasoning\": \"列表法列出所有可能结果，计算相同颜色的概率。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，点C在∠AOB的边OA上，CD⊥OB，垂足为D，DE∥OA，若∠EDB＝40°，则∠ACD的度数为（ ）\n[图1]",
+      "stem_markdown": "如图，点C在∠AOB的边OA上，CD⊥OB，垂足为D，DE∥OA，若∠EDB＝40°，则∠ACD的度数为（ ）\n![2025年辽宁省中考数学试卷_q006_img01](assets/2025年辽宁省中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "50°"
+        },
+        {
+          "label": "B",
+          "text": "120°"
+        },
+        {
+          "label": "C",
+          "text": "130°"
+        },
+        {
+          "label": "D",
+          "text": "140°"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据平行线的性质，得到∠O＝∠EDB，再根据三角形的外角的性质，求出∠ACD的度数即可．\n【解答】解：由条件可知∠CDO＝90°，∠O＝∠EDB＝40°，\n∴∠ACD＝∠CDO+∠O＝90°+40°＝130°；\n故选：C．\n【点评】本题考查平行线的性质，三角形的外角性质，熟练掌握以上知识点是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q006_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行线的性质",
+          "三角形外角的性质"
+        ],
+        "reasoning": "题中条件DE∥OA和∠EDB＝40°，利用平行线性质得出∠O＝40°，再利用三角形外角性质求∠ACD。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行线的性质\", \"三角形外角的性质\"],\n  \"reasoning\": \"题中条件DE∥OA和∠EDB＝40°，利用平行线性质得出∠O＝40°，再利用三角形外角性质求∠ACD。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "如图，在矩形ABCD中，点E在边AD上，BE＝BC，连接CE，若AB＝3，AE＝4，则CE的长为（ ）\n[图1]",
+      "stem_markdown": "如图，在矩形ABCD中，点E在边AD上，BE＝BC，连接CE，若AB＝3，AE＝4，则CE的长为（ ）\n![2025年辽宁省中考数学试卷_q007_img01](assets/2025年辽宁省中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "2$\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{10}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】利用勾股定理求出BE的长，进而得到BC的长，推出AD的长，进而求出DE的长，再利用勾股定理求出CE的长即可．\n【解答】解：在矩形ABCD中，AB＝3，AE＝4，\n∴∠A＝∠D＝90°，AD＝BC，CD＝AB＝3，\n在直角三角形ABE中，由勾股定理得：$BE=\\sqrt{AE^{2}+AB^{2}}=5$，\n∴BC＝BE＝5，\n∴AD＝5，\n∴DE＝AD﹣AE＝1，\n在直角三角形CDE中，由勾股定理得：$CE=\\sqrt{CD^{2}+DE^{2}}=\\sqrt{10}$；\n故选：D．\n【点评】本题考查矩形的性质，勾股定理，熟练掌握矩形的性质，勾股定理是解题的关键，",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q007_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "矩形的性质",
+          "直角三角形"
+        ],
+        "reasoning": "题中利用勾股定理计算BE和CE的长度，同时利用矩形的性质确定边长关系。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"矩形的性质\", \"直角三角形\"],\n  \"reasoning\": \"题中利用勾股定理计算BE和CE的长度，同时利用矩形的性质确定边长关系。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "在平面直角坐标系xOy中，点A的坐标为（3，0），点B的坐标为（2，﹣2），将线段AB平移得到线段CD，点A的对应点C的坐标为（3，5），则点B的对应点D的坐标为（ ）",
+      "stem_markdown": "在平面直角坐标系xOy中，点A的坐标为（3，0），点B的坐标为（2，﹣2），将线段AB平移得到线段CD，点A的对应点C的坐标为（3，5），则点B的对应点D的坐标为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "（7，﹣2）"
+        },
+        {
+          "label": "B",
+          "text": "（2，3）"
+        },
+        {
+          "label": "C",
+          "text": "（2，﹣7）"
+        },
+        {
+          "label": "D",
+          "text": "（﹣3，﹣2）"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据平移的性质，由点A平移后的对应点C的坐标确定平移规则，再应用于点B即可得到点D的坐标．\n【解答】解：∵点A的坐标为（3，0），点B的坐标为（2，﹣2），将线段AB平移得到线段CD，点A的对应点C的坐标为（3，5），\n∴点A向上平移5个单位得到点C，\n∴点B向上平移5个单位得到点D，\n∴点D的坐标为（2，﹣2+5），即（2，3）；\n故选：B．\n【点评】本题考查坐标与图形变换—平移，掌握平移的性质是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "坐标平移",
+          "点的坐标变化规律"
+        ],
+        "reasoning": "由点A平移后得到点C的坐标变化确定平移规律，再应用到点B",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"坐标平移\", \"点的坐标变化规律\"],\n  \"reasoning\": \"由点A平移后得到点C的坐标变化确定平移规律，再应用到点B\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "中国古代数学家杨辉的《田亩比类乘除捷法》中记载：“直田积八百六十四步，只云长阔共六十步，问长多阔几何．”其大意是：一块矩形田地的面积为864平方步，只知道它的长与宽共60步，问它的长比宽多多少步？设这个矩形的宽为x步，根据题意可列方程为（ ）",
+      "stem_markdown": "中国古代数学家杨辉的《田亩比类乘除捷法》中记载：“直田积八百六十四步，只云长阔共六十步，问长多阔几何．”其大意是：一块矩形田地的面积为864平方步，只知道它的长与宽共60步，问它的长比宽多多少步？设这个矩形的宽为x步，根据题意可列方程为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x（60﹣x）＝864"
+        },
+        {
+          "label": "B",
+          "text": "x（x﹣60）＝864"
+        },
+        {
+          "label": "C",
+          "text": "x（60+x）＝864"
+        },
+        {
+          "label": "D",
+          "text": "2[x+（x+60）]＝864"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据题意，设宽为x步，则长为（60﹣x）步，利用矩形面积公式即可列出方程．\n【解答】解：利用矩形面积公式即可列出方程为：\nx（60﹣x）＝864，\n故选：A．\n【点评】本题考查根据实际问题列一元二次方程，理解题意是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程",
+          "矩形面积公式",
+          "代数表达式"
+        ],
+        "reasoning": "利用矩形面积公式列出方程 x(60-x) = 864",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程\", \"矩形面积公式\", \"代数表达式\"],\n  \"reasoning\": \"利用矩形面积公式列出方程 x(60-x) = 864\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，在△ABC中，AB＝16，BC＝12，CA＝10，∠ABC的平分线BP与AC相交于点D．在线段AD上取一点K，以点C为圆心，CK长为半径作弧，与射线BP相交于点M和点N，再分别以点M和点N为圆心，大于\\frac{1}{2}MN的长为半径作弧，两弧相交于点Q，作射线CQ，与AB相交于点E，连接DE．则△DAE的周长为（ ）\n[图1]",
+      "stem_markdown": "如图，在△ABC中，AB＝16，BC＝12，CA＝10，∠ABC的平分线BP与AC相交于点D．在线段AD上取一点K，以点C为圆心，CK长为半径作弧，与射线BP相交于点M和点N，再分别以点M和点N为圆心，大于$\\frac{1}{2}$MN的长为半径作弧，两弧相交于点Q，作射线CQ，与AB相交于点E，连接DE．则△DAE的周长为（ ）\n![2025年辽宁省中考数学试卷_q010_img01](assets/2025年辽宁省中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "16"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据作图可知CE⊥BD，证明△BOC≌△BOE，得到OC＝OE，BC＝BE，进而求出AE的长，得到BD垂直平分CE，得到DE＝CD，进而推出△DAE的周长等于AE+AC的长即可．\n【解答】解：由作图可知，CE⊥BD，设CE，BD交于点O，则：∠BOC＝∠BOE＝90°，\n[[image:rId41]]\n∵BP平分∠ABC，\n∴∠ABO＝∠CBO，\n在△BOC和△BOE中，\n$\\begin{cases} ∠BOC=∠BOE \\\\ OB=OB \\\\ ∠CBO=∠EBO \\end{cases}$，\n∴△BOC≌△BOE（ASA），\n∴OC＝OE，BC＝BE＝12，\n∴BD垂直平分CE，AE＝AB﹣BE＝4，\n∴DE＝CD，\n∴△ADE的周长为AE+DE+AD＝AE+AD+CD＝AE+AC＝14；\n故选：B．\n【点评】本题考查尺规作图作垂线，掌握全等三角形的判定和性质，中垂线的判定和性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q010_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "角平分线性质",
+          "全等三角形判定",
+          "中垂线性质",
+          "勾股定理"
+        ],
+        "reasoning": "题中BP平分∠ABC，BP与AC交于D，作图中CE⊥BD，证明△BOC≌△BOE，利用全等三角形性质得出OC＝OE，BC＝BE，进而求出AE的长。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"角平分线性质\", \"全等三角形判定\", \"中垂线性质\", \"勾股定理\"],\n  \"reasoning\": \"题中BP平分∠ABC，BP与AC交于D，作图中CE⊥BD，证明△BOC≌△BOE，利用全等三角形性质得出OC＝OE，BC＝BE，进而求出AE的长。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "在乒乓球质量检测中，如果一只乒乓球的质量超出标准质量0.02g记作+0.02g，那么低于标准质量0.01g记作 ____ g．",
+      "stem_markdown": "在乒乓球质量检测中，如果一只乒乓球的质量超出标准质量0.02g记作+0.02g，那么低于标准质量0.01g记作 ____ g．",
+      "options": [],
+      "answer": "﹣0.01．",
+      "solution": "【分析】正负数是一对具有相反意义的量，若超出标准质量用“+”表示，那么低于标准质量就用“﹣”表示，据此求解即可．\n【解答】解：低于标准质量0.01g记作﹣0.01g，\n故答案为：﹣0.01．\n【点评】本题主要考查了正负数的实际应用，熟练掌握该知识点是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正负数",
+          "实际应用"
+        ],
+        "reasoning": "低于标准质量用‘﹣’表示",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正负数\", \"实际应用\"],\n  \"reasoning\": \"低于标准质量用‘﹣’表示\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "在电压不变的情况下，电流I（单位：A）与电阻R（单位：Ω）是反比例函数关系．当R＝4时，I＝5．则电流I与电阻R之间的函数表达式为I＝ ____ ．",
+      "stem_markdown": "在电压不变的情况下，电流I（单位：A）与电阻R（单位：Ω）是反比例函数关系．当R＝4时，I＝5．则电流I与电阻R之间的函数表达式为I＝ ____ ．",
+      "options": [],
+      "answer": "$\\frac{20}{R}$．",
+      "solution": "【分析】设电流I与电阻R之间的函数表达式为$I=\\frac{U}{R}(U≠0)$，利用待定系数法求解即可．\n【解答】解：设电流I与电阻R之间的函数表达式为$I=\\frac{U}{R}(U≠0)$，\n由条件可得$5=\\frac{U}{4}$，\n∴U＝20，\n∴$I=\\frac{20}{R}$，\n故答案为：$\\frac{20}{R}$．\n【点评】本题主要考查了反比例函数的实际应用，理解题意是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数",
+          "待定系数法"
+        ],
+        "reasoning": "根据题目条件R=4时I=5，利用待定系数法求解反比例函数表达式",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数\", \"待定系数法\"],\n  \"reasoning\": \"根据题目条件R=4时I=5，利用待定系数法求解反比例函数表达式\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "甲、乙两名运动员进行跳远测试，每人测试10次，他们各自测试成绩（单位：cm）的平均数和方差如下表：\n运动员 | 平均数 | 方差\n甲 | 601 | 95.4\n乙 | 601 | 243.4\n则这两名运动员测试成绩更稳定的是 ____ （填“甲”或“乙”）．",
+      "stem_markdown": "甲、乙两名运动员进行跳远测试，每人测试10次，他们各自测试成绩（单位：cm）的平均数和方差如下表：\n| 运动员 | 平均数 | 方差 |\n| --- | --- | --- |\n| 甲 | 601 | 95.4 |\n| 乙 | 601 | 243.4 |\n则这两名运动员测试成绩更稳定的是 ____ （填“甲”或“乙”）．",
+      "options": [],
+      "answer": "甲．",
+      "solution": "【分析】根据方差越小，成绩越稳定，据此可得答案．\n【解答】解：∵甲的方差95.4＜乙的方差243.4，\n∴这两名运动员测试成绩更稳定的是甲，\n故答案为：甲．\n【点评】本题主要考查了方差与稳定性之间的关系，掌握方差越小，成绩越稳定是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方差",
+          "稳定性"
+        ],
+        "reasoning": "比较两组数据的方差大小，方差小的更稳定。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方差\", \"稳定性\"],\n  \"reasoning\": \"比较两组数据的方差大小，方差小的更稳定。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，为了测量树AB的高度，在水平地面上取一点C，在C处测得∠ACB＝51°，BC＝6m，则树AB的高约为 ____ m（结果精确到0.1m．参考数据：sin51°≈0.78，cos51°≈0.63，tan51°≈1.23）．\n[图1]",
+      "stem_markdown": "如图，为了测量树AB的高度，在水平地面上取一点C，在C处测得∠ACB＝51°，BC＝6m，则树AB的高约为 ____ m（结果精确到0.1m．参考数据：sin51°≈0.78，cos51°≈0.63，tan51°≈1.23）．\n![2025年辽宁省中考数学试卷_q014_img01](assets/2025年辽宁省中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "7.4．",
+      "solution": "【分析】在Rt△ABC中，由AB＝BC×tan∠CAB即可求解．\n【解答】解：由题意得AB⊥BC，∠ACB＝51°，BC＝6m，\n在Rt△ABC中，tan∠ACB$=\\frac{AB}{BC}$，即tan51°$=\\frac{AB}{6}$，\nAB≈6×1.23＝7.4（m），\n故答案为：7.4．\n【点评】本题考查了解直角三角形的实际应用，正确使用三角函数是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q014_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "直角三角形"
+        ],
+        "reasoning": "计算树高时使用了正切函数关系式 tan∠ACB = AB / BC",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"直角三角形\"],\n  \"reasoning\": \"计算树高时使用了正切函数关系式 tan∠ACB = AB / BC\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，在菱形ABCD中，对角线AC与BD相交于点O，AC＝8，BD＝12，点E在线段OA上，AE＝2，点F在线段OC上，OF＝1，连接BE，点G为BE的中点，连接FG，则FG的长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在菱形ABCD中，对角线AC与BD相交于点O，AC＝8，BD＝12，点E在线段OA上，AE＝2，点F在线段OC上，OF＝1，连接BE，点G为BE的中点，连接FG，则FG的长为 ____ ．\n![2025年辽宁省中考数学试卷_q015_img01](assets/2025年辽宁省中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "$\\sqrt{13}$．",
+      "solution": "【分析】由菱形对角线互相垂直且平分，可得$OA=\\frac{1}{2}AC=4，OB=\\frac{1}{2}BD=6$，AC⊥BD，取OE中点H，连接GH，则$GH=\\frac{1}{2}OB$，GH∥OB，再用勾股定理解Rt△GHF即可．\n【解答】解：方法一：在菱形ABCD中，对角线AC与BD相交于点O，AC＝8，BD＝12，\n∴$OA=\\frac{1}{2}AC=4，OB=\\frac{1}{2}BD=6$，AC⊥BD，\n∵AE＝2，\n∴OE＝OA﹣AE＝4﹣2＝2，\n如图，取OE中点H，连接GH，\n[[image:rId44]]\n∵点G为BE的中点，点H为OE的中点，\n∴GH是三角形EBO的中位线，\n∴$GH=\\frac{1}{2}OB=3$，GH∥OB，\n∴∠GHE＝∠BOA＝90°，\n∵OF＝1，\n∴$HF=OH+OF=\\frac{1}{2}OE+OF=\\frac{1}{2}×2+1=2$，\n在直角三角形GFH中，由勾股定理得：$GF=\\sqrt{GH^{2}+HF^{2}}=\\sqrt{3^{2}+2^{2}}=\\sqrt{13}$；\n方法二：在菱形ABCD中，对角线AC与BD相交于点O，AC＝8，AE＝2，OF＝1，\n∴OB＝6，OC＝4，\n∴CE＝8﹣2＝6，CF＝OC﹣OF＝4﹣1＝3，\n∴F为CE的中点，\n又∵点G为BE的中点，\n∴GF为△BCE的中位线，\n∵BC$=\\sqrt{6^{2}+4^{2}}=$2$\\sqrt{13}$，\n∴FG$=\\sqrt{13}$．\n故答案为：$\\sqrt{13}$．\n【点评】本题考查菱形的性质，勾股定理，三角形中位线的性质，熟练掌握三角形中位线的性质是解答本题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q015_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "菱形的性质",
+          "勾股定理",
+          "三角形中位线的性质"
+        ],
+        "reasoning": "题中利用菱形对角线互相垂直平分的性质得出相关线段长度，进而构造直角三角形求解。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"菱形的性质\", \"勾股定理\", \"三角形中位线的性质\"],\n  \"reasoning\": \"题中利用菱形对角线互相垂直平分的性质得出相关线段长度，进而构造直角三角形求解。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "solution",
+      "stem_text": "（1）计算：3²+（﹣1）×4+\\sqrt[3]{-27}+|﹣2|；\n（2）计算：\\frac{1}{m+1}÷\\frac{m^{3}}{m^{2}+2m+1}-\\frac{1}{m^{3}}．",
+      "stem_markdown": "（1）计算：3^{2}+（﹣1）×4$+\\sqrt[3]{-27}+$|﹣2|；\n（2）计算：$\\frac{1}{m+1}÷\\frac{m^{3}}{m^{2}+2m+1}-\\frac{1}{m^{3}}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）分别进行乘方、乘法运算，以及求立方根和绝对值，再进行加减计算；\n（2）先将除法化为乘法，再进行分式的减法计算．\n【解答】解：（1）原式＝9﹣4﹣3+2\n＝4；\n（2）原式$=\\frac{1}{m+1}×\\frac{((m+1))^{2}}{m^{3}}-\\frac{1}{m^{3}}$\n$=\\frac{m+1}{m^{3}}-\\frac{1}{m^{3}}$\n$=\\frac{m}{m^{3}}$\n$=\\frac{1}{m^{2}}$．\n【点评】本题考查了实数的混合运算，分式的混合运算，熟练掌握运算法则是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "有理数的运算",
+          "分式的运算"
+        ],
+        "reasoning": "题目涉及有理数的乘方、乘法、立方根和绝对值计算，以及分式的乘除法和约分",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"有理数的运算\", \"分式的运算\"],\n  \"reasoning\": \"题目涉及有理数的乘方、乘法、立方根和绝对值计算，以及分式的乘除法和约分\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "小张计划购进A，B两种文创产品，在“文化夜市”上进行销售．已知A种文创产品比B种文创产品每件进价多3元，购进2件A种文创产品和3件B种文创产品共需花费26元．\n（1）求B种文创产品每件的进价；\n（2）小张决定购进A，B两种文创产品共100件，且总费用不超过550元，那么小张最多可以购进多少件A种文创产品？",
+      "stem_markdown": "小张计划购进A，B两种文创产品，在“文化夜市”上进行销售．已知A种文创产品比B种文创产品每件进价多3元，购进2件A种文创产品和3件B种文创产品共需花费26元．\n（1）求B种文创产品每件的进价；\n（2）小张决定购进A，B两种文创产品共100件，且总费用不超过550元，那么小张最多可以购进多少件A种文创产品？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设B种文创产品每件的进价为x元，根据A种文创产品比B种文创产品每件进价多3元，购进2件A种文创产品和3件B种文创产品共需花费26元，列出一元一次方程进行求解即可；\n（2）设小张购进m件A种文创产品，根据总费用不超过550元，列出不等式进行求解即可．\n【解答】解：（1）设B种文创产品每件的进价为x元，根据题意可得：\n2（x+3）+3x＝26，\n解得：x＝4，\n答：B种文创产品每件的进价为4元；\n（2）设小张购进m件A种文创产品，由（1）可知，A种文创产品每件的进价为4+3＝7元，则：\n7m+4（100﹣m）≤550，\n解得：m≤50；\n答：小张最多可以购进50件A种文创产品．\n【点评】本题考查一元一次方程和一元一次不等式的实际应用，正确的列出方程组和不等式，是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "一元一次不等式"
+        ],
+        "reasoning": "题目通过一元一次方程求解B种文创产品的进价，并通过一元一次不等式确定A种文创产品的最大购买数量。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"一元一次不等式\"],\n  \"reasoning\": \"题目通过一元一次方程求解B种文创产品的进价，并通过一元一次不等式确定A种文创产品的最大购买数量。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "种下绿色希望，建设美丽辽宁．某学校学生积极参与春季义务植树活动，在活动结束后，该学校为了解八年级学生植树棵数的情况，随机抽取若干名八年级参加植树的学生，统计每人的植树棵数，并对数据进行整理、描述和分析，部分信息如下：\n抽取的八年级学生植树棵数的人数统计表\n棵数/棵 | 1 | 2 | 3 | 4 | 5\n人数/人 | 4 | 10 | m | 6 | n\n请根据以上信息，解答下列问题：\n（1）求m，n的值；\n（2）求被抽取的八年级学生植树棵数的中位数；\n（3）本次植树活动中，植树不少于4棵的学生将被学校评为“绿动先锋”，该学校八年级有320名学生参加了此次植树活动，请你估计这些学生中被评为“绿动先锋”的人数．\n[图1]",
+      "stem_markdown": "种下绿色希望，建设美丽辽宁．某学校学生积极参与春季义务植树活动，在活动结束后，该学校为了解八年级学生植树棵数的情况，随机抽取若干名八年级参加植树的学生，统计每人的植树棵数，并对数据进行整理、描述和分析，部分信息如下：\n抽取的八年级学生植树棵数的人数统计表\n| 棵数/棵 | 1 | 2 | 3 | 4 | 5 |\n| --- | --- | --- | --- | --- | --- |\n| 人数/人 | 4 | 10 | m | 6 | n |\n请根据以上信息，解答下列问题：\n（1）求m，n的值；\n（2）求被抽取的八年级学生植树棵数的中位数；\n（3）本次植树活动中，植树不少于4棵的学生将被学校评为“绿动先锋”，该学校八年级有320名学生参加了此次植树活动，请你估计这些学生中被评为“绿动先锋”的人数．\n![2025年辽宁省中考数学试卷_q018_img01](assets/2025年辽宁省中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "14，6",
+      "solution": "【分析】（1）先用植树棵数为2棵的人数除以所占的比例求出调查的人数，进而用总人数乘以植树棵数为3棵的人数所占的比例，求出m的值，再用总数减去其它组的数量求出n的值即可；\n（2）根据中位数的确定方法进行求解即可；\n（3）利用样本估计总体的思想进行求解即可．\n【解答】解：（1）10÷25% ＝40（人），\n∴m＝40×35%＝14，n＝40﹣4﹣10﹣14﹣6＝6，\n故答案为：14，6；\n（2）将数据排序后，位于第20个和第21个数据均为3，\n∴中位数为3；\n（3）$320×\\frac{6+6}{40}=96$（人），\n答：估计这些学生中被评为“绿动先锋”的人数为96人．\n【点评】本题考查统计图表，求中位数，利用样本估计总体，从统计图表中有效的获取信息是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q018_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率分布直方图",
+          "中位数",
+          "样本估计总体"
+        ],
+        "reasoning": "（1）通过计算求出调查总人数，进而求出m和n；（2）中位数的确定方法；（3）利用样本估计总体的思想",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率分布直方图\", \"中位数\", \"样本估计总体\"],\n  \"reasoning\": \"（1）通过计算求出调查总人数，进而求出m和n；（2）中位数的确定方法；（3）利用样本估计总体的思想\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "为方便悬挂电子屏幕，学校需要在校门上方的抛物线形框架结构上增加立柱．为此，某数学兴趣小组开展了综合与实践活动，记录如下：\n活动主题 | 为校门上方的抛物线形框架结构增加立柱\n活动准备 | 1．去学校档案馆查阅框架结构的图纸； 2．准备皮尺等测量工具．\n采集数据 | 图1是校门及上方抛物线形框架结构的平面示意图，信息如下： 1．大门形状为矩形（矩形ABCD）； 2．底部跨度（AD的长）为8m； 3．立柱OE的长为2m，且OE⊥AD，垂足为O，AO＝OD． | [图1]\n设计方案 | 考虑实用和美观等因素，在A，D间增加两根与AD垂直的立柱，垂足分别为M₁，M₂，立柱的另一端点N₁，N₂在抛物线形框架结构上，其中AM₁＝M₂D＝1m． | [图1]\n确定思路 | 小组成员经过讨论，确定以点O为坐标原点，线段AD所在直线为x轴，建立如图2所示的平面直角坐标系．点E的坐标为（0，2），设抛物线的表达式为y＝ax²+2，分析数据得到点A或点D的坐标，进而求出抛物线的表达式，再利用表达式求出增加立柱的长度，从而解决问题．\n根据以上信息，解决下列问题：\n（1）求抛物线的表达式；\n（2）现有一根长度为2m的材料，如果用它制作这两根立柱，请你通过计算．判断这根材料的长度是否够用（因施工产生的材料长度变化忽略不计）．",
+      "stem_markdown": "为方便悬挂电子屏幕，学校需要在校门上方的抛物线形框架结构上增加立柱．为此，某数学兴趣小组开展了综合与实践活动，记录如下：\n| 活动主题 | 为校门上方的抛物线形框架结构增加立柱 |  |\n| --- | --- | --- |\n| 活动准备 | 1．去学校档案馆查阅框架结构的图纸； 2．准备皮尺等测量工具． |  |\n| 采集数据 | 图1是校门及上方抛物线形框架结构的平面示意图，信息如下： 1．大门形状为矩形（矩形ABCD）； 2．底部跨度（AD的长）为8m； 3．立柱OE的长为2m，且OE⊥AD，垂足为O，AO＝OD． | ![2025年辽宁省中考数学试卷_q019_img01](assets/2025年辽宁省中考数学试卷_q019_img01.png) |\n| 设计方案 | 考虑实用和美观等因素，在A，D间增加两根与AD垂直的立柱，垂足分别为M_{1}，M_{2}，立柱的另一端点N_{1}，N_{2}在抛物线形框架结构上，其中AM_{1}＝M_{2}D＝1m． | ![2025年辽宁省中考数学试卷_q019_img02](assets/2025年辽宁省中考数学试卷_q019_img02.png) |\n| 确定思路 | 小组成员经过讨论，确定以点O为坐标原点，线段AD所在直线为x轴，建立如图2所示的平面直角坐标系．点E的坐标为（0，2），设抛物线的表达式为y＝ax^{2}+2，分析数据得到点A或点D的坐标，进而求出抛物线的表达式，再利用表达式求出增加立柱的长度，从而解决问题． |  |\n根据以上信息，解决下列问题：\n（1）求抛物线的表达式；\n（2）现有一根长度为2m的材料，如果用它制作这两根立柱，请你通过计算．判断这根材料的长度是否够用（因施工产生的材料长度变化忽略不计）．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）求出A点坐标，代入函数解析式，进行求解即可；\n（2）求出$N_{1}$的坐标，进而求出$M_{1}N_{1}$的长，进行判断即可．\n【解答】解：（1）由条件可得AD＝8，OA＝OD＝4，\n∴A（﹣4，0），\n由条件可得：0＝16a+2，\n∴$a=-\\frac{1}{8}$，\n∴$y=-\\frac{1}{8}x^{2}+2$；\n（2）$OM_{1}＝OM_{2}$＝3，\n∴$N_{1}$，$N_{2}$关于y轴对称，\n∵$y=-\\frac{1}{8}x^{2}+2$，\n∴当x＝3时，$y=-\\frac{1}{8}×3^{2}+2=\\frac{7}{8}$，\n∴$M_{1}N_{1}=M_{2}N_{2}=\\frac{7}{8}$，\n∵$2×\\frac{7}{8}=\\frac{7}{4}＜2$，\n故这根材料的长度够用．\n【点评】本题考查二次函数的实际应用，正确的求出函数解析式是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q019_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q019_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q019_img02",
+          "path": "assets/2025年辽宁省中考数学试卷_q019_img02.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的应用",
+          "坐标系的应用",
+          "抛物线方程"
+        ],
+        "reasoning": "第（1）问求抛物线方程，使用了坐标系和二次函数的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的应用\", \"坐标系的应用\", \"抛物线方程\"],\n  \"reasoning\": \"第（1）问求抛物线方程，使用了坐标系和二次函数的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "如图，在平面直角坐标系xOy中，直线y＝﹣x+4与y轴相交于点A，与x轴相交于点B，点C在线段OA上（不与点O，A重合），过点C作OA的垂线，与直线AB相交于点D，点A关于直线CD的对称点为E，连接DE．\n（1）求证：∠OAB＝45°；\n（2）设点C的坐标为（0，m），当0＜m＜2时，线段DE与线段OB相交于点F，求四边形COFD面积的最大值．\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系xOy中，直线y＝﹣x+4与y轴相交于点A，与x轴相交于点B，点C在线段OA上（不与点O，A重合），过点C作OA的垂线，与直线AB相交于点D，点A关于直线CD的对称点为E，连接DE．\n（1）求证：∠OAB＝45°；\n（2）设点C的坐标为（0，m），当0＜m＜2时，线段DE与线段OB相交于点F，求四边形COFD面积的最大值．\n![2025年辽宁省中考数学试卷_q020_img01](assets/2025年辽宁省中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先求得A（0，4），B（4，0），得到OA＝4，OB＝4，利用等腰直角三角形的性质即可证明结论成立；\n（2）由题意得OC＝m，AC＝4﹣m，根据折叠的性质得CE＝AC＝4﹣m，OE＝CE﹣OC＝4﹣2m，利用等腰直角三角形的判定和性质求得OF＝OE＝4﹣2m，CD＝AC＝4﹣m，再利用梯形的面积公式求得四边形COFD面积关于m的二次函数，利用二次函数的性质求解即可．\n【解答】（1）证明：由条件可知A（0，4），B（4，0），\n∴OA＝4，OB＝4，\n∵∠AOB＝90°，\n∴∠OAB＝45°；\n（2）解：∵点C的坐标为（0，m），\n∴OC＝m，AC＝4﹣m，\n由条件可知CE＝AC＝4﹣m，∠OAB＝∠CED＝45°，\n∴OE＝CE﹣OC＝4﹣2m，\n∵∠EOF＝90°，\n∴∠OEF＝∠OFE＝45°，\n∴OF＝OE＝4﹣2m，\n∵CD⊥OA，\n∴∠OAB＝∠CDA＝45°，\n∴CD＝AC＝4﹣m，\n∴四边形COFD面积$=\\frac{1}{2}(OF+CD)×OC$\n$=\\frac{1}{2}(4-2m+4-m)⋅m$\n$=-\\frac{3}{2}m^{2}+4m$\n$=-\\frac{3}{2}((m-\\frac{4}{3}))^{2}+\\frac{8}{3}$\n∵$-\\frac{3}{2}＜0$，\n∴当$m=\\frac{4}{3}$，四边形COFD面积有最大值，最大值为$\\frac{8}{3}$．\n【点评】本题考查了一次函数的性质，二次函数的性质，等腰直角三角形的判定和性质．第2问求得四边形COFD面积关于m的二次函数的解析式是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q020_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰直角三角形的性质",
+          "一次函数与坐标轴的交点",
+          "折叠的性质",
+          "梯形的面积公式"
+        ],
+        "reasoning": "（1）通过计算A、B两点坐标得出OA=OB=4，利用等腰直角三角形的性质证明∠OAB=45°；（2）通过计算C、D、E、F各点坐标关系，利用梯形面积公式求解最大值。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰直角三角形的性质\", \"一次函数与坐标轴的交点\", \"折叠的性质\", \"梯形的面积公式\"],\n  \"reasoning\": \"（1）通过计算A、B两点坐标得出OA=OB=4，利用等腰直角三角形的性质证明∠OAB=45°；（2）通过计算C、D、E、F各点坐标关系，利用梯形面积公式求解最大值。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，在△ABC中，AC＝BC，以AB为直径作⊙O，与AC相交于点D．连接OC，与⊙O相交于点E．\n（1）如图1，连接DE，求∠ADE的度数；\n（2）如图2，若点D为AC的中点，且AC＝6，求DE的长．\n[图1]",
+      "stem_markdown": "如图，在△ABC中，AC＝BC，以AB为直径作⊙O，与AC相交于点D．连接OC，与⊙O相交于点E．\n（1）如图1，连接DE，求∠ADE的度数；\n（2）如图2，若点D为AC的中点，且AC＝6，求$DE$的长．\n![2025年辽宁省中考数学试卷_q021_img01](assets/2025年辽宁省中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）连接OD，先证明△OAC≌△OBC（SSS），得到∠AOC＝∠BOC＝90°，由等腰三角形性质得到∠OAD＝∠ODA，∠ODE＝∠OED，设∠OAD＝∠ODA＝x，∠ODE＝∠OED＝y，在四边形OADE中，由四边形内角和等于360°计算即可；\n（2）根据直角三角形斜边中线的性质先证明△ADO为等边三角形，则可求∠DOE度数，再由弧长公式即可求解．\n【解答】解：（1）连接OD，\n[[image:rId50]]\n在△OAC和△OBC中，\n$\\begin{cases} CA=CB \\\\ OA=OB \\\\ OC=OC \\end{cases}$，\n∴△OAC≌△OBC（SSS），\n∴∠AOC＝∠BOC，\n∵∠AOC+∠BOC＝180°，\n∴∠AOC＝∠BOC＝90°，\n∵OA＝OD＝OE，\n∴∠OAD＝∠ODA，∠ODE＝∠OED，\n设∠OAD＝∠ODA＝x，∠ODE＝∠OED＝y，\n在四边形OADE中，∵∠OAD+∠ADE+∠OED+∠AOC＝360°\n∴x+x+y+y+90°＝360°，\n∴∠ADE＝∠ADO+∠ODE＝x+y＝135°；\n（2）连接OD，\n[[image:rId51]]\n∵∠AOC＝90°，D为AC中点，\n∴$OD=AD=\\frac{1}{2}AC=\\frac{1}{2}×6=3$，\n∴OD＝OA＝AD＝3，\n∴△ADO为等边三角形，\n∴∠AOD＝60°，\n∴∠DOE＝90°﹣60°＝30°，\n∴$DE$的长为：$\\frac{30π×3}{180}=\\frac{1}{2}π$．\n【点评】本题考查了全等三角形的判定与性质，等腰三角形的性质，直角三角形斜边中线的性质，弧长公式等知识点，熟练掌握各知识点并灵活运用是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q021_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定与性质",
+          "等腰三角形的性质",
+          "直角三角形斜边中线的性质",
+          "弧长公式"
+        ],
+        "reasoning": "第（1）问通过全等三角形判定△OAC≌△OBC，利用等腰三角形性质得出∠AOC＝∠BOC＝90°；第（2）问利用直角三角形斜边中线性质得出△ADO为等边三角形，进而求出弧长。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定与性质\", \"等腰三角形的性质\", \"直角三角形斜边中线的性质\", \"弧长公式\"],\n  \"reasoning\": \"第（1）问通过全等三角形判定△OAC≌△OBC，利用等腰三角形性质得出∠AOC＝∠BOC＝90°；第（2）问利用直角三角形斜边中线性质得出△ADO为等边三角形，进而求出弧长。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "（1）如图1，在△ABC与△DCB中，∠BAC＝∠CDB，AC与DB相交于点P，PB＝PC，求证：△ABC≌△DCB；\n（2）如图2，将图1中的△DCB绕点B逆时针旋转得到△D′C′B，当点D的对应点D′在线段BA的延长线上时，BC′与AC相交于点M，若AB＝2，BC＝3，∠ABC＝60°，求CM的长；\n（3）如图3，在（2）的条件下，连接CC′并延长，与BD′的延长线相交于点N，连接MN，求△AMN的面积．\n[图1]",
+      "stem_markdown": "（1）如图1，在△ABC与△DCB中，∠BAC＝∠CDB，AC与DB相交于点P，PB＝PC，求证：△ABC≌△DCB；\n（2）如图2，将图1中的△DCB绕点B逆时针旋转得到△D′C′B，当点D的对应点D′在线段BA的延长线上时，BC′与AC相交于点M，若AB＝2，BC＝3，∠ABC＝60°，求CM的长；\n（3）如图3，在（2）的条件下，连接CC′并延长，与BD′的延长线相交于点N，连接MN，求△AMN的面积．\n![2025年辽宁省中考数学试卷_q022_img01](assets/2025年辽宁省中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用等边对等角求得∠DBC＝∠ACB，再利用AAS证明△ABC≌△DCB即可；\n（2）由题意得△ABC≌△D′C′B，得到∠BAC＝∠C′D′B，AB＝D′C′＝2，AC＝BD′，作AE⊥BC于点E，利用直角三角形的性质结合勾股定理求得BE＝1，$BD′=AC=\\sqrt{7}$，证明AM∥C′D′，推出△BAM∽△BD′C′，利用相似三角形的性质列式计算即可求解；\n（3）设∠BC′C＝α，由旋转的性质得BC′＝BC，则∠BC′C＝∠BCC′＝α，利用三角形内角和定理以及平角的性质求得∠BNC＝120°﹣α，∠D′C′N＝120°﹣α，推出∠BNC＝∠D′C′N＝120°﹣α，求得$AN=AC=\\sqrt{7}$，作CF⊥BN于点F，求得$S_{△ACN}=\\frac{3\\sqrt{21}}{4}$，再求得AM：CM＝4：3，据此求解即可．\n【解答】（1）证明：∵PB＝PC，\n∴∠PBC＝∠PCB，即∠DBC＝∠ACB，\n∵，\n在△ABC和△DCB中，\n$\\begin{cases} ∠BAC=∠CDB \\\\ ∠ACB=∠DBC \\\\ BC=CB \\end{cases}$，\n∴△ABC≌△DCB（AAS）；\n（2）解：由（1）知：△ABC≌△DCB，即△ABC≌△D′C′B，\n∴∠BAC＝∠C′D′B，AB＝D′C′＝2，AC＝BD′，\n作AE⊥BC于点E，如图2，\n[[image:rId53]]\n∵∠ABC＝60°，\n∴∠BAE＝30°，\n∴$BE=\\frac{1}{2}AB=1$，\n在直角三角形ABE中，由勾股定理得：$AE=\\sqrt{AB^{2}-BE^{2}}=\\sqrt{3}$，\n∴CE＝BC﹣BE＝2，\n在直角三角形ACE中，由勾股定理得：$AC=\\sqrt{AE^{2}+CE^{2}}=\\sqrt{7}$，\n∴$BD′=AC=\\sqrt{7}$，\n∵∠BAC＝∠C′D′B，\n∴AM∥C′D′，\n∴△BAM∽△BD′C′，\n∴$\\frac{BA}{BD′}=\\frac{AM}{C′D′}$，即$\\frac{2}{\\sqrt{7}}=\\frac{AM}{2}$，\n∴$AM=\\frac{4\\sqrt{7}}{7}$，\n∴$CM=AC-AM=\\frac{3\\sqrt{7}}{7}$；\n（3）解：设∠BC′C＝α，\n由旋转的性质得BC′＝BC，则∠BC′C＝∠BCC′＝α，\n∵∠ABC＝∠D′C′B＝60°，∠NBC+∠BCN+∠BNC＝180°，∠BC′C+∠BC′D′+∠D′C′N＝180°，\n∴∠BNC＝120°﹣α，∠D′C′N＝120°﹣α，\n∴∠BNC＝∠D′C′N＝120°﹣α，\n∵AM∥C′D′，\n∴∠ANC＝∠ACN，\n∴$AN=AC=\\sqrt{7}$，\n作CF⊥BN于点F，如图3，\n[[image:rId54]]\n∵∠ABC＝60°，\n∴∠BCF＝30°，\n∵BC＝3，\n∴$BF=\\frac{3}{2}$，\n在直角三角形BCF中，由勾股定理得：$CF=\\sqrt{BC^{2}-BF^{2}}=\\frac{3\\sqrt{3}}{2}$，\n∴$S_{△ACN}=\\frac{1}{2}AN×CF=\\frac{1}{2}×\\sqrt{7}×\\frac{3\\sqrt{3}}{2}=\\frac{3\\sqrt{21}}{4}$，\n∵$AM=\\frac{4\\sqrt{7}}{7}$，$CM=\\frac{3\\sqrt{7}}{7}$，即AM：CM＝4：3，\n∴$S_{△AMN}=\\frac{4}{7}S_{△ACN}=\\frac{3\\sqrt{21}}{7}$．\n【点评】本题属于几何变换综合题，主要考查了等边对等角，相似三角形的判定和性质，全等三角形的判定和性质，勾股定理等知识，解题的关键是熟练掌握基本知识．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q022_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定（AAS）",
+          "相似三角形的判定和性质",
+          "勾股定理",
+          "旋转的性质"
+        ],
+        "reasoning": "题目涉及全等三角形、相似三角形和旋转的性质，其中第（1）问直接使用了AAS判定全等，第（2）问通过旋转性质和相似三角形的性质求解，第（3）问则结合全等和相似三角形的性质及旋转的性质进行综合分析。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定（AAS）\", \"相似三角形的判定和性质\", \"勾股定理\", \"旋转的性质\"],\n  \"reasoning\": \"题目涉及全等三角形、相似三角形和旋转的性质，其中第（1）问直接使用了AAS判定全等，第（2）问通过旋转性质和相似三角形的性质求解，第（3）问则结合全等和相似三角形的性质及旋转的性质进行综合分析。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年辽宁省中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "如图，在平面直角坐标系xOy中，二次函数y₁=-\\frac{1}{4}（x﹣1）²+1的图象与x轴的正半轴相交于点A，二次函数y₂＝ax²+c的图象经过点A，且与二次函数y₁的图象的另一个交点为B，点B的横坐标为-\\frac{7}{3}．\n（1）求点A的坐标及a，c的值．\n（2）直线x＝m与二次函数y₁，y₂的图象分别相交于点C，D，与直线AB相交于点E，当-\\frac{7}{3}＜m＜3时，\n①求证：DE＝2CE；\n②当四边形ACBD的一组对边平行时，请直接写出m的值．\n（3）二次函数y₁=-\\frac{1}{4}（x﹣1）²+1（-\\frac{7}{3}≤x＜3）与二次函数y₂＝ax²+c（x≥3）组成新函数y₃，当-\\frac{7}{3}≤x≤t﹣n时，函数y₃的最小值为\\frac{11}{9}-\\frac{5}{t}，最大值为\\frac{8}{3}-t，求n的取值范围．\n[图1]\n2025年辽宁省中考数学试卷",
+      "stem_markdown": "如图，在平面直角坐标系xOy中，二次函数$y_{1}=-\\frac{1}{4}$（x﹣1）^{2}+1的图象与x轴的正半轴相交于点A，二次函数$y_{2}＝ax^{2}$+c的图象经过点A，且与二次函数$y_{1}$的图象的另一个交点为B，点B的横坐标为$-\\frac{7}{3}$．\n（1）求点A的坐标及a，c的值．\n（2）直线x＝m与二次函数$y_{1}$，$y_{2}$的图象分别相交于点C，D，与直线AB相交于点E，当$-\\frac{7}{3}＜$m＜3时，\n①求证：DE＝2CE；\n②当四边形ACBD的一组对边平行时，请直接写出m的值．\n（3）二次函数$y_{1}=-\\frac{1}{4}$（x﹣1）^{2}+1（$-\\frac{7}{3}≤$x＜3）与二次函数$y_{2}＝ax^{2}$+c（x≥3）组成新函数$y_{3}$，当$-\\frac{7}{3}≤$x≤t﹣n时，函数$y_{3}$的最小值为$\\frac{11}{9}-\\frac{5}{t}$，最大值为$\\frac{8}{3}-$t，求n的取值范围．\n![2025年辽宁省中考数学试卷_q023_img01](assets/2025年辽宁省中考数学试卷_q023_img01.png)\n2025年辽宁省中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先求出A（3，0），$B(-\\frac{7}{3}，-\\frac{16}{9})$，再分别代入$y_{2}=ax^{2}+c$，列出二元一次方程组，即可解答；\n（2）①设直线AB的解析式为y＝kx+b（k≠0），将A（3，0），$B(-\\frac{7}{3}，-\\frac{16}{9})$分别代入，得直线AB的解析式为$y=\\frac{1}{3}x-1$，设点E的坐标为$(m，\\frac{1}{3}m-1)$，求出$y_{2}=\\frac{1}{2}x^{2}-\\frac{9}{2}$，\n$D(m，\\frac{1}{2}m^{2}-\\frac{9}{2})$，$C(m，-\\frac{1}{4}m^{2}+\\frac{1}{2}m+\\frac{3}{4})$，则$CE=-\\frac{1}{4}m^{2}+\\frac{1}{6}m+\\frac{7}{4}$，\n$DE=2(-\\frac{1}{4}m^{2}+\\frac{1}{6}m+\\frac{7}{4})$，即可解答．\n②当AC∥DB时，△ACE∽△BDE，当AD∥BC时，△BCE∽△ADE，再分类讨论，即可解答；\n（3）易得$y_{3}=\\begin{cases} -\\frac{1}{4}((x-1))^{2}+1(-\\frac{7}{3}≤x＜3) \\\\ \\frac{1}{2}x^{2}-\\frac{9}{2}(x≥3) \\end{cases}$，当$x=-\\frac{7}{3}$时，$y_{3}$取得最小值为$\\frac{11}{9}-\\frac{5}{t}$，解出$t=\\frac{5}{3}$；当x＝1时，函数$y_{3}$的最大值为$\\frac{8}{3}-t$，解得$t=\\frac{5}{3}$；当$y_{2}$＝1时，$\\frac{1}{2}x^{2}-\\frac{9}{2}=1$，解得，$x=\\sqrt{11}$或$-\\sqrt{11}$（舍去），$1≤\\frac{5}{3}-n≤\\sqrt{11}$，即可解答．\n【解答】解：（1）令$-\\frac{1}{4}((x-1))^{2}+1=0$，\n解得$x_{1}$＝﹣1，$x_{2}$＝3，\n∴A（3，0），\n将$x=-\\frac{7}{3}$代入$y_{1}=-\\frac{1}{4}((x-1))^{2}+1$，得$y_{1}=-\\frac{16}{9}$，\n∴$B(-\\frac{7}{3}，-\\frac{16}{9})$，\n将A（3，0），$B(-\\frac{7}{3}，-\\frac{16}{9})$分别代入$y_{2}=ax^{2}+c$，得\n$\\begin{cases} 9a+c=0 \\\\ \\frac{49}{9}a+c=-\\frac{16}{9} \\end{cases}$，\n解得$\\begin{cases} a=\\frac{1}{2} \\\\ c=-\\frac{9}{2} \\end{cases}$．\n答：点A的坐标为（3，0），a，c的值分别为$\\frac{1}{2}，-\\frac{9}{2}$．\n（2）①证明：如图，\n[[image:rId56]]\n设直线AB的解析式为y＝kx+b（k≠0），由条件可得：\n$\\begin{cases} 3k+b=0 \\\\ -\\frac{7}{3}k+b=-\\frac{16}{9} \\end{cases}$，解得$\\begin{cases} k=\\frac{1}{3} \\\\ b=-1 \\end{cases}$，\n∴$y=\\frac{1}{3}x-1$，\n设点E的坐标为$(m，\\frac{1}{3}m-1)$，\n∵$\\begin{cases} a=\\frac{1}{2} \\\\ c=-\\frac{9}{2} \\end{cases}$，\n∴$y_{2}=\\frac{1}{2}x^{2}-\\frac{9}{2}$，\n将x＝m代入$y_{1}$得$D(m，\\frac{1}{2}m^{2}-\\frac{9}{2})$，\n将x＝m代入$y_{2}$，得$C(m，-\\frac{1}{4}m^{2}+\\frac{1}{2}m+\\frac{3}{4})$，\n∴$CE=-\\frac{1}{4}m^{2}+\\frac{1}{2}m+\\frac{3}{4}-(\\frac{1}{3}m-1)=-\\frac{1}{4}m^{2}+\\frac{1}{6}m+\\frac{7}{4}$，\n$DE=(\\frac{1}{3}m-1)-(\\frac{1}{2}m^{2}-\\frac{9}{2})=2(-\\frac{1}{4}m^{2}+\\frac{1}{6}m+\\frac{7}{4})$，\n∴DE＝2CE；\n②如图：\n[[image:rId57]]\n当AC∥DB时，△ACE∽△BDE，\n∴$\\frac{DE}{CE}=\\frac{BE}{AE}=2$，\n∴$\\frac{AE}{AB}=\\frac{y_{E}}{y_{B}}=\\frac{1}{3}$，\n即$\\frac{\\frac{1}{3}m-1}{-\\frac{16}{9}}=\\frac{1}{3}$，解得$m=\\frac{11}{9}$．\n当AD∥BC时，△BCE∽△ADE，\n∴$\\frac{DE}{CE}=\\frac{AE}{BE}=2$，\n∴$\\frac{AE}{AB}=\\frac{y_{E}}{y_{B}}=\\frac{2}{3}$，\n即$\\frac{\\frac{1}{3}m-1}{-\\frac{16}{9}}=\\frac{2}{3}$，解得$m=-\\frac{5}{9}$，\n∴$m=\\frac{11}{9}$或$m=-\\frac{5}{9}$．\n（3）由条件可知$y_{3}=\\begin{cases} -\\frac{1}{4}((x-1))^{2}+1(-\\frac{7}{3}≤x＜3) \\\\ \\frac{1}{2}x^{2}-\\frac{9}{2}(x≥3) \\end{cases}$，\n∴当$-\\frac{7}{3}≤x≤1$时，y随x的增大而增大；当1＜x＜3时，y随x的增大而减小；\n当x≥3时，y随x的增大而增大．且当$x=-\\frac{7}{3}$时，$y_{3}$取得最小值．\n∵当$-\\frac{7}{3}≤x≤t-n$时，函数$y_{3}$的最小值为$\\frac{11}{9}-\\frac{5}{t}$，最大值为$\\frac{8}{3}-t$，\n∴当$x=-\\frac{7}{3}$时，$y_{3}$取得最小值为$\\frac{11}{9}-\\frac{5}{t}$，即$\\frac{11}{9}-\\frac{5}{t}=-\\frac{16}{9}$，\n解得$t=\\frac{5}{3}$．\n∵$-\\frac{7}{3}≤x≤t-n$时，函数$y_{3}$的最大值为$\\frac{8}{3}-t$，\n∴当x＝1时，函数$y_{3}$的最大值为$\\frac{8}{3}-t$，即$\\frac{8}{3}-t=1$，\n解得$t=\\frac{5}{3}$；\n当$y_{2}$＝1时，$\\frac{1}{2}x^{2}-\\frac{9}{2}=1$，\n解得，$x=\\sqrt{11}$或$-\\sqrt{11}$（舍去），\n∴$1≤t-n≤\\sqrt{11}$，\n∵$t=\\frac{5}{3}$，\n∴$1≤\\frac{5}{3}-n≤\\sqrt{11}$，化简得$-2≤-3n≤3\\sqrt{11}-5$，\n解得，$\\frac{5}{3}-\\sqrt{11}≤n≤\\frac{2}{3}$．\n【点评】本题考查二次函数的图象综合问题，二元一次方程组，一元一次不等式组，一次函数，平行线的性质，相似三角形，正确作出辅助线是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:34:22；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId59]] ____ [[image:rId60]] ____ [[image:rId61]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 13,
+      "images": [
+        {
+          "image_id": "2025年辽宁省中考数学试卷_q023_img01",
+          "path": "assets/2025年辽宁省中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数图像与性质",
+          "一元二次方程",
+          "相似三角形",
+          "一次函数"
+        ],
+        "reasoning": "题目涉及二次函数图像、一元二次方程求解、相似三角形的性质以及一次函数的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数图像与性质\", \"一元二次方程\", \"相似三角形\", \"一次函数\"],\n  \"reasoning\": \"题目涉及二次函数图像、一元二次方程求解、相似三角形的性质以及一次函数的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:49:29",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 23,
+      "ok": 23,
+      "fallback": 0
+    }
+  }
+}

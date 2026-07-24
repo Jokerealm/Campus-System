@@ -1,0 +1,1016 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年上海市中考数学试卷",
+  "source": {
+    "name": "2025年上海市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年上海市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年上海市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列运算中，正确的是（ ）",
+      "stem_markdown": "下列运算中，正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$m^{3}+m^{3}＝2m^{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$m^{3}+m^{3}＝m^{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$m^{3}•m^{3}＝m^{9}$"
+        },
+        {
+          "label": "D",
+          "text": "$(m^{3})^{3}＝m^{6}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】A、B选项均根据合并同类项法则计算，然后判断即可；\nC．根据同底数幂相乘法则进行计算，然后判断即可；\nD．根据幂的乘方法则进行计算，然后判断即可．\n【解答】解：A．∵$m^{3}+m^{3}＝2m^{3}$，∴此选项的计算正确，故此选项符合题意；\nB．∵$m^{3}+m^{3}＝2m^{3}$，∴此选项的计算错误，故此选项不符合题意；\nC．∵$m^{3}•m^{3}＝m^{6}$，∴此选项的计算错误，故此选项不符合题意；\nD．∵$(m^{3})^{3}＝m^{9}$，∴此选项的计算错误，故此选项不符合题意；\n故选：A．\n【点评】本题主要考查了整式的有关运算，解题关键是熟练掌握同底数幂的乘法法则、幂的乘方法则和合并同类项法则．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "合并同类项",
+          "同底数幂的乘法",
+          "幂的乘方"
+        ],
+        "reasoning": "选项A涉及合并同类项，选项C涉及同底数幂的乘法，选项D涉及幂的乘方。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"合并同类项\", \"同底数幂的乘法\", \"幂的乘方\"],\n  \"reasoning\": \"选项A涉及合并同类项，选项C涉及同底数幂的乘法，选项D涉及幂的乘方。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "下列代数式中，能表示“x与y的差的平方”的是（ ）",
+      "stem_markdown": "下列代数式中，能表示“x与y的差的平方”的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x^{2}﹣y^{2}$"
+        },
+        {
+          "label": "B",
+          "text": "（x﹣y）^{2}"
+        },
+        {
+          "label": "C",
+          "text": "$x^{2}$﹣y"
+        },
+        {
+          "label": "D",
+          "text": "x﹣$y^{2}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】先列出前半部分“x与y的差”，即x﹣y，再列后半部分”的平方”，即可得出答案．\n【解答】解：根据题目可列出（x﹣y）^{2}，\n故选B．\n【点评】本题考查的是根据题意列出代数式．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平方差公式",
+          "代数式变形"
+        ],
+        "reasoning": "题中要求表达‘x与y的差的平方’，选项B正确表达了这一形式。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平方差公式\", \"代数式变形\"],\n  \"reasoning\": \"题中要求表达‘x与y的差的平方’，选项B正确表达了这一形式。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "下列函数中，是正比例函数的是（ ）",
+      "stem_markdown": "下列函数中，是正比例函数的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "y＝3x+1"
+        },
+        {
+          "label": "B",
+          "text": "y＝$3x^{2}$"
+        },
+        {
+          "label": "C",
+          "text": "y$=\\frac{3}{x}$"
+        },
+        {
+          "label": "D",
+          "text": "y$=\\frac{x}{3}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据形如y＝kx（k≠0）的是正比例函数，逐项分析判断，即可求解．\n【解答】解：A．y＝3x+1是一次函数，不是正比例函数，故不符合题意；\nB．y＝$3x^{2}$是二次函数，故不符合题意；\nC．y$=\\frac{3}{x}$是反比例函数，故不符合题意；\nD．y$=\\frac{x}{3}$是正比例函数，故符合题意；\n故选：D．\n【点评】本题主要考查了正比例函数的定义，熟练掌握定义是关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正比例函数",
+          "一次函数",
+          "二次函数",
+          "反比例函数"
+        ],
+        "reasoning": "选项D中的函数形式y=x/3符合正比例函数的定义y=kx（k≠0)",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正比例函数\", \"一次函数\", \"二次函数\", \"反比例函数\"],\n  \"reasoning\": \"选项D中的函数形式y=x/3符合正比例函数的定义y=kx（k≠0)\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "如图是某校体育组60人的某科成绩，下列说法中正确的是（ ）\n[图1]",
+      "stem_markdown": "如图是某校体育组60人的某科成绩，下列说法中正确的是（ ）\n![2025年上海市中考数学试卷_q004_img01](assets/2025年上海市中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "中位数是21"
+        },
+        {
+          "label": "B",
+          "text": "中位数是75"
+        },
+        {
+          "label": "C",
+          "text": "众数是21"
+        },
+        {
+          "label": "D",
+          "text": "众数是85"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】分别根据中位数和众数的定义解答即可．\n【解答】解：由统计图可知，把该校体育组60人的某科成绩中出现最多的是85分，故众数是85．\n故选：D．\n【点评】本题考查条形统计图、众数、中位数，能够从统计图中获取必要信息是解答本题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年上海市中考数学试卷_q004_img01",
+          "path": "assets/2025年上海市中考数学试卷_q004_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中位数",
+          "众数"
+        ],
+        "reasoning": "题中通过统计图确定众数和中位数",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中位数\", \"众数\"],\n  \"reasoning\": \"题中通过统计图确定众数和中位数\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "在正方形ABCD中，|\\overrightarrow{AB}+\\overrightarrow{BC}|：|\\overrightarrow{CD}|的值是（ ）",
+      "stem_markdown": "在正方形ABCD中，$|\\overrightarrow{AB}+\\overrightarrow{BC}|$：$|\\overrightarrow{CD}|$的值是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\sqrt{2}}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】利用三角形法则，等腰直角三角形的性质求解．\n【解答】解：如图，连接AC．\n[[image:rId18]]\n∵四边形ABCD是正方形，\n∴AD＝CD，∠D＝90°，\n∴AC$=\\sqrt{2}$CD，\n∵$\\overrightarrow{AB}+\\overrightarrow{BC}=$$\\overrightarrow{AC}$，\n∴$|\\overrightarrow{AB}+\\overrightarrow{BC}|$：|$\\overrightarrow{CD}$|$=\\sqrt{2}$．\n故选：C．\n【点评】本题考查平面向量，正方形的性质，等腰直角三角形的性质，解题的关键是掌握三角形法则．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "向量加法的三角形法则",
+          "正方形的性质",
+          "等腰直角三角形的性质"
+        ],
+        "reasoning": "题中利用向量加法的三角形法则和正方形的性质得出 |\\overrightarrow{AB}+\\overrightarrow{BC}|=|\\overrightarrow{AC}|=\\sqrt{2}CD",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"向量加法的三角形法则\", \"正方形的性质\", \"等腰直角三角形的性质\"],\n  \"reasoning\": \"题中利用向量加法的三角形法则和正方形的性质得出 |\\overrightarrow{AB}+\\overrightarrow{BC}|=|\\overrightarrow{AC}|=\\sqrt{2}CD\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "在锐角三角形ABC中，AB＝AC，BC＝8，它的外接圆O的半径长为5，若点D是边BC的中点，以点D为圆心的圆和⊙O相交，那么⊙D的半径长可以是（ ）",
+      "stem_markdown": "在锐角三角形ABC中，AB＝AC，BC＝8，它的外接圆O的半径长为5，若点D是边BC的中点，以点D为圆心的圆和⊙O相交，那么⊙D的半径长可以是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据题意，等腰△ABC 的外接圆半径为5，由等腰三角形的性质、勾股定理求得OD＝3；当⊙D与⊙O相交时，圆心距需满足条件|5﹣r|＜OD＜5+r，代入数值求解r的范围，进而确定选项．\n【解答】解：如图，连接AD并延长交⊙O于点E，\n∵AB＝AC，D为BC中点，\n∴BD＝DC＝4，OD⊥BC，\n锐角三角形ABC中，AB＝AC，\n∴外接圆心O在AD上，\n连接OB，由勾股定理得：$OD=\\sqrt{OB^{2}-BD^{2}}=3$，\n[[image:rId19]]\n设以D为圆心的圆的半径为r，⊙D，⊙O相交应满足：|5﹣r|＜OD＜5+r，\n即|5﹣r|＜3＜5+r，\n解得：2＜r＜8，在此范围的半径只有选项B，\n故选：B．\n【点评】本题考查了等腰三角形的性质，勾股定理，两圆相交的条件等知识，掌握两圆相交的条件是关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "勾股定理",
+          "两圆相交的条件"
+        ],
+        "reasoning": "根据等腰三角形性质和勾股定理求得OD长度，利用两圆相交条件判断半径范围。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"勾股定理\", \"两圆相交的条件\"],\n  \"reasoning\": \"根据等腰三角形性质和勾股定理求得OD长度，利用两圆相交条件判断半径范围。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "blank",
+      "stem_text": "分解因式：a²b+ab²＝ ____ ．",
+      "stem_markdown": "分解因式：$a^{2}$b+$ab^{2}$＝ ____ ．",
+      "options": [],
+      "answer": "ab（a+b）．",
+      "solution": "【分析】先确定公因式，再提取即可．\n【解答】解：$a^{2}$b+$ab^{2}$＝ab（a+b），\n故答案为：ab（a+b）．\n【点评】本题考查了因式分解﹣提公因式法，熟练掌握公因式的确定方法是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式法"
+        ],
+        "reasoning": "题目要求分解因式，解答中明确提到先确定公因式，再提取",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式法\"],\n  \"reasoning\": \"题目要求分解因式，解答中明确提到先确定公因式，再提取\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "blank",
+      "stem_text": "不等式组\\begin{cases} \\frac{x}{2}-1＞0 \\\\ 2x+3≥x \\end{cases}的解集是 ____ ．",
+      "stem_markdown": "不等式组$\\begin{cases} \\frac{x}{2}-1＞0 \\\\ 2x+3≥x \\end{cases}$的解集是 ____ ．",
+      "options": [],
+      "answer": "x＞2．",
+      "solution": "【分析】分别求出每一个不等式的解集，根据口诀：同大取大、同小取小、大小小大中间找、大大小小无解了确定不等式组的解集．\n【解答】解：由$\\frac{x}{2}-$1＞0得：x＞2，\n由2x+3≥x得：x≥﹣3，\n则不等式组的解集为x＞2，\n故答案为：x＞2．\n【点评】本题考查的是解一元一次不等式组，正确求出每一个不等式解集是基础，熟知“同大取大；同小取小；大小小大中间找；大大小小找不到”的原则是解答此题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组",
+          "解不等式",
+          "不等式组的解集"
+        ],
+        "reasoning": "通过解两个不等式得到各自的解集，再根据口诀确定最终解集。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组\", \"解不等式\", \"不等式组的解集\"],\n  \"reasoning\": \"通过解两个不等式得到各自的解集，再根据口诀确定最终解集。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "方程\\sqrt{x-6}=2的解为 ____ ．",
+      "stem_markdown": "方程$\\sqrt{x-6}=$2的解为 ____ ．",
+      "options": [],
+      "answer": "x＝10．",
+      "solution": "【分析】将原方程两边同时平方得x﹣6＝4，解得x的值后并检验即可．\n【解答】解：已知方程$\\sqrt{x-6}=$2，\n则x﹣6＝4，\n解得：x＝10，\n经检验，x＝10是原方程的解，\n故答案为：x＝10．\n【点评】本题考查无理方程，熟练掌握解方程的方法是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "平方根性质"
+        ],
+        "reasoning": "解方程过程中使用了平方运算来消去根号",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"平方根性质\"],\n  \"reasoning\": \"解方程过程中使用了平方运算来消去根号\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "一元二次方程2x²+x+m＝0没有实数根，那么m的取值范围是 ____ ．",
+      "stem_markdown": "一元二次方程$2x^{2}$+x+m＝0没有实数根，那么m的取值范围是 ____ ．",
+      "options": [],
+      "answer": "m$＞\\frac{1}{8}$．",
+      "solution": "【分析】根据方程的系数，结合根的判别式Δ＝$b^{2}$﹣4ac＜0，可得出1﹣8m＜0，解之即可得出m的取值范围．\n【解答】解：∵一元二次方程$2x^{2}$+x+m＝0没有实数根，\n∴Δ＝1^{2}﹣4×2×m＝1﹣8m＜0，\n解得：m$＞\\frac{1}{8}$，\n∴m的取值范围是m$＞\\frac{1}{8}$．\n故答案为：m$＞\\frac{1}{8}$．\n【点评】本题考查了根的判别式，牢记“当Δ＜0时，方程无实数根”是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "根的判别式",
+          "一元二次方程"
+        ],
+        "reasoning": "根据方程没有实数根得出判别式小于0",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"根的判别式\", \"一元二次方程\"],\n  \"reasoning\": \"根据方程没有实数根得出判别式小于0\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "抛物线y＝3x²向下平移两个单位所得的抛物线解析式为 ____ ．",
+      "stem_markdown": "抛物线y＝$3x^{2}$向下平移两个单位所得的抛物线解析式为 ____ ．",
+      "options": [],
+      "answer": "y＝$3x^{2}$﹣2．",
+      "solution": "【分析】根据二次函数的平移法则进行平移即可．\n【解答】解：∵抛物线y＝$3x^{2}$向下平移两个单位，\n∴y＝$3x^{2}$﹣2，\n故答案为：y＝$3x^{2}$﹣2．\n【点评】本题考查了二次函数的平移，掌握二次函数平移法则是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数平移法则"
+        ],
+        "reasoning": "抛物线向下平移两个单位",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数平移法则\"],\n  \"reasoning\": \"抛物线向下平移两个单位\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "已知一个反比例函数，在每个象限内，函数值y随x的增大而减小，那么这个反比例函数的解析式可以是 ____ ．（只需写出一个）",
+      "stem_markdown": "已知一个反比例函数，在每个象限内，函数值y随x的增大而减小，那么这个反比例函数的解析式可以是 ____ ．（只需写出一个）",
+      "options": [],
+      "answer": "y$=\\frac{1}{x}$（答案不唯一）．",
+      "solution": "【分析】根据反比例函数的性质解答．\n【解答】解：根据反比例函数的性质，在每个象限内，函数值y随x的增大而减小，\n∴k＞0，\n∴这个解析式可以是y$=\\frac{1}{x}$（答案不唯一）．\n故答案为：y$=\\frac{1}{x}$（答案不唯一）．\n【点评】本题主要考查反比例函数的性质，当k＞0时，在每一个象限内，y随x的增大而减小；当k＜0时，在每一个象限，y随x的增大而增大．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的性质",
+          "在每个象限内y随x增大而减小"
+        ],
+        "reasoning": "题目要求在每个象限内y随x增大而减小，这是反比例函数性质的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的性质\", \"在每个象限内y随x增大而减小\"],\n  \"reasoning\": \"题目要求在每个象限内y随x增大而减小，这是反比例函数性质的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "小明手中有1、2、3、4四张牌，小军手中有2、4、6、8四张牌，若小明从小军手中抽一张牌，抽到任何牌的概率相等，那么抽到的牌和自己原有的牌的数字相等的概率为 ____ ．",
+      "stem_markdown": "小明手中有1、2、3、4四张牌，小军手中有2、4、6、8四张牌，若小明从小军手中抽一张牌，抽到任何牌的概率相等，那么抽到的牌和自己原有的牌的数字相等的概率为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{1}{2}$．",
+      "solution": "【分析】得出所有等可能结果，从中找到符合条件的结果数，再根据概率公式求解即可．\n【解答】解：由题意知，共有4种等可能结果，其中抽到的牌和自己原有的牌的数字相等的有2种结果，\n所以抽到的牌和自己原有的牌的数字相等的概率为$\\frac{2}{4}=\\frac{1}{2}$，\n故答案为：$\\frac{1}{2}$．\n【点评】本题考查了概率公式：根据概率的定义计算出这个事件的概率．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "组合数学",
+          "古典概率"
+        ],
+        "reasoning": "从4张牌中选择1张，计算符合条件的概率",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"组合数学\", \"古典概率\"],\n  \"reasoning\": \"从4张牌中选择1张，计算符合条件的概率\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，某公司安装了一个人脸打卡器，AB是高2.7m的门框，某人CD高1.8m，只有当∠CAB＝53°时，他才能开门，那么BD长为 ____ ．（参考数据：sin53°≈0.8，cos53°≈0.6，tan53°≈1.33，保留1位小数）\n[图1]",
+      "stem_markdown": "如图，某公司安装了一个人脸打卡器，AB是高2.7m的门框，某人CD高1.8m，只有当∠CAB＝53°时，他才能开门，那么BD长为 ____ ．（参考数据：sin53°≈0.8，cos53°≈0.6，tan53°≈1.33，保留1位小数）\n![2025年上海市中考数学试卷_q014_img01](assets/2025年上海市中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "1.2m．",
+      "solution": "【分析】过点C作CE⊥AB，利用矩形的性质和判定先得到BD与CE、CD与EB间关系，再利用线段的和差关系求出AE的长，最后利用直角三角形的边角间关系得结论．\n【解答】解：过点C作CE⊥AB，垂足为E．\n由题意易知四边形CDBE是矩形，\n∴CD＝BE＝1.8m，BD＝CE．\n∴AE＝AB﹣BE＝2.7﹣1.8＝0.9m．\n在Rt△ACE中，\n∵tanA$=\\frac{CE}{AE}$，\n∴CE＝tanA•AE≈1.33×0.9＝1.197≈1.2（m）．\n∴BD＝1.2m．\n故答案为：1.2m．\n[[image:rId21]]\n【点评】本题主要考查了解直角三角形，掌握直角三角形的边角间关系、矩形的性质和判定是解决本题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年上海市中考数学试卷_q014_img01",
+          "path": "assets/2025年上海市中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "直角三角形边角关系",
+          "矩形性质"
+        ],
+        "reasoning": "题中通过正切函数计算CE长度，涉及直角三角形边角关系；利用矩形性质得出CD与BE的关系。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"直角三角形边角关系\", \"矩形性质\"],\n  \"reasoning\": \"题中通过正切函数计算CE长度，涉及直角三角形边角关系；利用矩形性质得出CD与BE的关系。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "某高铁站出站后有出租车、地铁、汽车、公交等出行方式，高铁站为调查各个出行方式的人流，先对2000人展开调查，结果如图所示，那么某日高铁站出站客流约为1.8万人，其中有约 ____ 人选择出租车．\n[图1]",
+      "stem_markdown": "某高铁站出站后有出租车、地铁、汽车、公交等出行方式，高铁站为调查各个出行方式的人流，先对2000人展开调查，结果如图所示，那么某日高铁站出站客流约为1.8万人，其中有约 ____ 人选择出租车．\n![2025年上海市中考数学试卷_q015_img01](assets/2025年上海市中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "0.18万．",
+      "solution": "【分析】用总人数乘出站选择出租车的人数所占的百分比即可．\n【解答】解：某日高铁站出站客流约为1.8万人，其中选择出租车约有1.8×（1﹣15%﹣15%﹣60%）＝0.18（万人）．\n故答案为：0.18万．\n【点评】本题考查了扇形统计图，解答本题的关键是明确题意，利用数形结合的思想解答．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年上海市中考数学试卷_q015_img01",
+          "path": "assets/2025年上海市中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "百分比计算",
+          "扇形统计图"
+        ],
+        "reasoning": "根据扇形统计图中的百分比计算出选择出租车的人数",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"百分比计算\", \"扇形统计图\"],\n  \"reasoning\": \"根据扇形统计图中的百分比计算出选择出租车的人数\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "已知我国通过科技，研究出了一种超皮秒工具，进行一次擦除仅仅需要400皮秒，已知1皮秒等于1×10﹣¹²秒，那么这个工具1秒可以擦除 ____ 次（用科学记数法表示）．",
+      "stem_markdown": "已知我国通过科技，研究出了一种超皮秒工具，进行一次擦除仅仅需要400皮秒，已知1皮秒等于1×10^{﹣12}秒，那么这个工具1秒可以擦除 ____ 次（用科学记数法表示）．",
+      "options": [],
+      "answer": "2.5×10^{9}．",
+      "solution": "【分析】用1秒除以400皮秒，答案写成科学记数法即可．\n【解答】解：这个工具1秒可以擦除1÷（400×1×10^{﹣12}）＝2.5×10^{9}（次）．\n故答案为：2.5×10^{9}．\n【点评】本题考查了科学记数法—表示较小的数，熟练掌握运算法则是关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "除法运算"
+        ],
+        "reasoning": "设问要求用科学记数法表示擦除次数，涉及除法运算和科学记数法的使用。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"除法运算\"],\n  \"reasoning\": \"设问要求用科学记数法表示擦除次数，涉及除法运算和科学记数法的使用。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "blank",
+      "stem_text": "已知矩形ABCD中，点E在边CD上，F是点E关于直线AD的对称点，联结EF、AF、BE，若四边形ABEF是菱形，那么\\frac{AB}{AD}的值为 ____ ．",
+      "stem_markdown": "已知矩形ABCD中，点E在边CD上，F是点E关于直线AD的对称点，联结EF、AF、BE，若四边形ABEF是菱形，那么$\\frac{AB}{AD}$的值为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{2\\sqrt{3}}{3}$，",
+      "solution": "【分析】由轴对称的性质可得DF＝DE，设DF＝DE＝m，则EF＝DE+DF＝2m，由菱形的性质得到 AB＝AF＝EF＝2m，证明∠ADF＝90°，利用勾股定理可得$AD=\\sqrt{3}m$，据此可得答案．\n【解答】解；∵E关于直线AD的对称点为F，\n∴DF＝DE，\n[[image:rId23]]\n设DF＝DE＝m，则EF＝DE+DF＝2m，\n∵四边形AFEB是菱形，\n∴AB＝AF＝EF＝2m，\n∵四边形ABCD是矩形，\n∴∠ADC＝90°，\n∴∠ADF＝180°﹣∠ADC＝90°，\n∴$AD=\\sqrt{AF^{2}-DF^{2}}=\\sqrt{3}m$，\n∴$AB：AD=2m：\\sqrt{3}m=\\frac{2\\sqrt{3}}{3}$，\n故答案为：$\\frac{2\\sqrt{3}}{3}$，\n【点评】本题主要考查了矩形的性质，菱形的性质，轴对称的性质，勾股定理，掌握以上性质是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "轴对称的性质",
+          "菱形的性质",
+          "勾股定理"
+        ],
+        "reasoning": "菱形ABEF中，AB=AF=EF，利用勾股定理求AD长度，结合矩形性质得出AD与AB的关系",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"轴对称的性质\", \"菱形的性质\", \"勾股定理\"],\n  \"reasoning\": \"菱形ABEF中，AB=AF=EF，利用勾股定理求AD长度，结合矩形性质得出AD与AB的关系\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "blank",
+      "stem_text": "已知平面内有一个角，一个圆与这个角的两边都有两个交点，若此圆在角的边上截得的两条弦恰好是某正五边形的一边，那么这个角的度数为 ____ 度．",
+      "stem_markdown": "已知平面内有一个角，一个圆与这个角的两边都有两个交点，若此圆在角的边上截得的两条弦恰好是某正五边形的一边，那么这个角的度数为 ____ 度．",
+      "options": [],
+      "answer": "108或36．",
+      "solution": "【分析】分两种情况，由正多边形的性质，即可求解．\n【解答】解：如图：\n[[image:rId24]]\n∵∠MPN是正五边形的一个内角，\n∴∠MPN$=\\frac{(5-2)×180°}{5}=$108°；\n如图：\n[[image:rId25]]\n∵∠OAB和∠OBA是正五边形的两个外角，\n∴∠OAB＝∠OBA$=\\frac{360°}{5}=$72°，\n∴∠AOB＝180°﹣72°﹣72°＝36°，\n∴这个角的度数为108°或36°．\n故答案为：108或36．\n【点评】本题考查直线与圆的位置关系，正多边形和圆，多边形的内角和外角，关键是要分两种情况讨论．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正多边形的内角和",
+          "正多边形的外角和",
+          "直线与圆的位置关系"
+        ],
+        "reasoning": "题中通过正五边形的内角和和外角和计算角度，涉及正多边形的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正多边形的内角和\", \"正多边形的外角和\", \"直线与圆的位置关系\"],\n  \"reasoning\": \"题中通过正五边形的内角和和外角和计算角度，涉及正多边形的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "计算：\\frac{4}{\\sqrt{5}+1}-20^{\\frac{1}{2}}+|2-\\sqrt{5}|+((\\frac{1}{2}))^{-3}．",
+      "stem_markdown": "计算：$\\frac{4}{\\sqrt{5}+1}-20^{\\frac{1}{2}}+|2-\\sqrt{5}|+((\\frac{1}{2}))^{-3}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】利用分母有理化，二次根式的性质，绝对值的性质，负整数指数幂计算后再算加减即可．\n【解答】解：原式$=\\frac{4(\\sqrt{5}-1)}{5-1}-\\sqrt{20}+$$\\sqrt{5}-$2+8\n$=\\sqrt{5}-$1﹣2$\\sqrt{5}+\\sqrt{5}-$2+8\n＝5．\n【点评】本题考查分数指数幂，实数的运算，负整数指数幂，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分母有理化",
+          "二次根式的性质",
+          "绝对值的性质",
+          "负整数指数幂"
+        ],
+        "reasoning": "分母有理化处理 \\(\frac{4}{\\sqrt{5}+1}\\)；二次根式 \\(\\sqrt{20}\\) 和 \\(\\sqrt{5}\\) 的性质；绝对值 \\(|2-\\sqrt{5}|\\)；负整数指数幂 \\((\frac{1}{2})^{-3}\\)。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分母有理化\", \"二次根式的性质\", \"绝对值的性质\", \"负整数指数幂\"],\n  \"reasoning\": \"分母有理化处理 \\(\\frac{4}{\\sqrt{5}+1}\\)；二次根式 \\(\\sqrt{20}\\) 和 \\(\\sqrt{5}\\) 的性质；绝对值 \\(|2-\\sqrt{5}|\\)；负整数指数幂 \\((\\frac{1}{2})^{-3}\\)。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "解方程：\\frac{x-3}{x-2}-\\frac{2}{x^{2}-3x+2}=\\frac{2}{x-1}．",
+      "stem_markdown": "解方程：$\\frac{x-3}{x-2}-\\frac{2}{x^{2}-3x+2}=$$\\frac{2}{x-1}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先把整式方程化为分式方程求出x的值，再代入最简公分母进行检验即可．\n【解答】解：方程两边同乘（x﹣2）（x﹣1），\n得：（x﹣3）（x﹣1）﹣2＝2（x﹣2），\n解得：x＝1或5，\n检验：当x＝1时，（x﹣2）（x﹣1）＝0，\n当x＝5时，（x﹣2）（x﹣1）≠0，\n∴原方程的解为x＝5．\n【点评】本题考查了解分式方程，熟练掌握解分式方程的方法是解答此题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [],
+        "reasoning": "",
+        "confidence": 0.0,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "fallback",
+        "reason": "json_parse_or_validation_failed",
+        "raw_output": "{\n  \"knowledge_points\": [\"分式方程\", \"去分母\", \"最简公分母\", \"检验解\"},\n  \"reasoning\": \"去分母后得到整式方程并检验解是否使最简公分母为零\",\n  \"confidence\": 0.95\n}",
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程\", \"去分母\", \"最简公分母\", \"检验解\"},\n  \"reasoning\": \"去分母后得到整式方程并检验解是否使最简公分母为零\",\n  \"confidence\": 0.95\n}"
+          },
+          {
+            "step": 1,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程\", \"去分母\", \"最简公分母\", \"检验解\"},\n  \"reasoning\": \"去分母后得到整式方程并检验解是否使最简公分母为零\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "某品牌储水机的容量是200升，当加水加满时，储水机会自动停止加水，已知加冷水量y（升）和时间x（分钟）的图象如图所示，加水过程中，水的温度t（摄氏度）和x（分钟）的关系：t=\\frac{20x+100}{x+2}．\n（1）求y与x的函数关系式，并写出定义域；\n（2）求储水机中的水加满时，储水机内水的温度．\n[图1]",
+      "stem_markdown": "某品牌储水机的容量是200升，当加水加满时，储水机会自动停止加水，已知加冷水量y（升）和时间x（分钟）的图象如图所示，加水过程中，水的温度t（摄氏度）和x（分钟）的关系：t$=\\frac{20x+100}{x+2}$．\n（1）求y与x的函数关系式，并写出定义域；\n（2）求储水机中的水加满时，储水机内水的温度．\n![2025年上海市中考数学试卷_q021_img01](assets/2025年上海市中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）求出每分钟加水量，从而写出y与x的函数关系式，当y＝200时，求出对应x的值，从而写出定义域即可；\n（2）将y＝200对应的x的值代入t与x的关系式，求出对应t的值即可．\n【解答】解：（1）每分钟加水量为（160﹣80）÷2＝40（升），\n则y＝40x+80，\n当40x+80＝200时，解得x＝3，\n∴y与x的函数关系式及定义域为y＝40x+80（0≤x≤3）．\n（2）当x＝3时，t$=\\frac{20×3+100}{3+2}=$32，\n∴储水机中的水加满时，储水机内水的温度为32摄氏度．\n【点评】本题考查一次函数的应用，求出y与x的函数关系式是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年上海市中考数学试卷_q021_img01",
+          "path": "assets/2025年上海市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数",
+          "分式函数",
+          "方程求解"
+        ],
+        "reasoning": "第（1）问求y与x的函数关系式，涉及一次函数；第（2）问求储水机内水的温度，涉及分式函数和方程求解。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数\", \"分式函数\", \"方程求解\"],\n  \"reasoning\": \"第（1）问求y与x的函数关系式，涉及一次函数；第（2）问求储水机内水的温度，涉及分式函数和方程求解。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "某小组对分割梯形组成等腰三角形展开研究．\n（1）如图1，梯形ABCD中，AD∥BC，AB⊥BC，点E是AB中点，D是梯形的顶点，将△ADE绕E旋转180°得到△BFE，若AD＝a，且此时DF＝DC，求BC的长（用含a的代数式尝试表示）；\n（2）如图2，梯形MNPQ，MN∥PQ，MQ＝NP，请设计一种方法，用一条直线或两条直线分割梯形为若干部分，再进行一系列的图形运动，拼成一个等腰三角形，在图2中画出图形，要求：①所得的部分不重叠，不间隙地拼；②在答题纸横线上并写出等腰三角形的腰是哪条线段；③在答题纸横线上写出这一或两条直线的顶点．（模仿1中的表述：点E是AB中点，D是梯形的顶点）\n[图1]",
+      "stem_markdown": "某小组对分割梯形组成等腰三角形展开研究．\n（1）如图1，梯形ABCD中，AD∥BC，AB⊥BC，点E是AB中点，D是梯形的顶点，将△ADE绕E旋转180°得到△BFE，若AD＝a，且此时DF＝DC，求BC的长（用含a的代数式尝试表示）；\n（2）如图2，梯形MNPQ，MN∥PQ，MQ＝NP，请设计一种方法，用一条直线或两条直线分割梯形为若干部分，再进行一系列的图形运动，拼成一个等腰三角形，在图2中画出图形，要求：①所得的部分不重叠，不间隙地拼；②在答题纸横线上并写出等腰三角形的腰是哪条线段；③在答题纸横线上写出这一或两条直线的顶点．（模仿1中的表述：点E是AB中点，D是梯形的顶点）\n![2025年上海市中考数学试卷_q022_img01](assets/2025年上海市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）如图1中，过点D作DH⊥BC于点H．证明BG＝AD＝a，BH＝AD＝a，再证明FH＝HC＝2a可得结论；\n（2）取MN，MQ，PN的中点J，K，T，连接JK，延长JK交PQ的延长线于点L，连接JT，延长JT交QP的延长线于点G即可，\n【解答】解：（1）如图1中，过点D作DH⊥BC于点H．\n[[image:rId28]]\n∵AB⊥BC，AD∥BC，\n∴∠A＝∠ABC＝90°，\n∵∠DHB＝90°，\n∴四边形ABHD是矩形，\n∴AD＝BH＝a，\n∵E是AB的中点，\n∴AE＝EB，\n∵∠A＝∠EBF＝90°，∠AED＝∠FEB，\n∴△AED≌△BEF（ASA），\n∴AD＝FB＝a，\n∵DF＝DC，DH⊥CF，\n∴FH＝HC＝2a，\n∴BC＝BH+CH＝3a；\n（2）图形如图2所示．\n方法：取MN，MQ，PN的中点J，K，T，连接JK，延长JK交PQ的延长线于点L，连接JT，延长JT交QP的延长线于点G，\n【点评】本题考查作图﹣旋转变换，平行线的性质，等腰三角形的判定和性质，解题的关键是理解题意，灵活运用所学知识解决问题．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年上海市中考数学试卷_q022_img01",
+          "path": "assets/2025年上海市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形",
+          "等腰三角形的性质",
+          "旋转的性质"
+        ],
+        "reasoning": "（1）通过旋转构造相似三角形求解；（2）利用中点构造等腰三角形",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形\", \"等腰三角形的性质\", \"旋转的性质\"],\n  \"reasoning\": \"（1）通过旋转构造相似三角形求解；（2）利用中点构造等腰三角形\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "如图，在⊙O中，AB和CD是弦，半径OA、OB分别交CD于点E、F，且CE＝DF．\n（1）求证：AB∥CD；\n（2）若AB＝BD，求证：AB²＝BF•OB．\n[图1]",
+      "stem_markdown": "如图，在⊙O中，AB和CD是弦，半径OA、OB分别交CD于点E、F，且CE＝DF．\n（1）求证：AB∥CD；\n（2）若AB＝BD，求证：$AB^{2}$＝BF•OB．\n![2025年上海市中考数学试卷_q023_img01](assets/2025年上海市中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）连接OC，OD，证明△OCE≌△ODF（SAS），得出OE＝OF，得到CD∥AB；\n（2）证明△BAF∽△BOA，得到$\\frac{AB}{OB}=\\frac{BF}{AB}$，得出$AB^{2}$＝BF•OB．\n【解答】证明：（1）连接OC，OD，\n[[image:rId30]]\n∵OC＝OD，\n∴∠OCD＝∠ODC，\n∵CE＝DF，\n∴△OCE≌△ODF（SAS），\n∴OE＝OF，\n∴$\\frac{OE}{OA}=\\frac{OF}{OB}$，\n∵∠EOF＝∠AOB，\n∴△OEF∽△OAB，\n∴EF∥AB，\n∴CD∥AB；\n（2）∵△OCE≌△ODF，\n∴∠COE＝∠DOF，\n∵AB＝BD，\n∴∠AOB＝∠DOF，\n∴∠AOB＝∠DOF＝∠COE，\n连接AF，\n∵OA＝OD，\n∴△AOF≌△DOF（SAS），\n∴∠OAF＝∠ODF＝∠OCE，\n∵∠OCE＝∠OAF，∠OEC＝∠AEF，\n∴△OEC∽△FEA，\n∴∠COE＝∠AFE，\n∴∠AOB＝∠FAB＝∠AFE，\n∴△BAF∽△BOA，\n∴$\\frac{AB}{OB}=\\frac{BF}{AB}$，\n∴$AB^{2}$＝BF•OB．\n【点评】本题考查了圆的基本性质，相似三角形的性质与判定，掌握相似三角形的性质与判定是解题的关键．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年上海市中考数学试卷_q023_img01",
+          "path": "assets/2025年上海市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质与判定",
+          "圆的基本性质",
+          "全等三角形的判定（SAS）"
+        ],
+        "reasoning": "第（1）问证明△OCE≌△ODF利用SAS，第（2）问证明△BAF∽△BOA利用相似三角形的性质",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质与判定\", \"圆的基本性质\", \"全等三角形的判定（SAS）\"],\n  \"reasoning\": \"第（1）问证明△OCE≌△ODF利用SAS，第（2）问证明△BAF∽△BOA利用相似三角形的性质\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "在平面直角坐标系xOy中，抛物线y＝x²+bx+c经过点A（1，1）和B（3，1），顶点为点P，抛物线与y轴交于点C．\n（1）求b和c的值．\n（2）另一条抛物线y＝ax²+mx+n（a≠1）也经过点A（1，1）和B（3，1），顶点为点Q，与y轴交于点D．\n①求\\frac{CD}{PQ}的值；\n②当四边形CDPQ是直角梯形，求其最小内角的正弦值．",
+      "stem_markdown": "在平面直角坐标系xOy中，抛物线y＝$x^{2}$+bx+c经过点A（1，1）和B（3，1），顶点为点P，抛物线与y轴交于点C．\n（1）求b和c的值．\n（2）另一条抛物线y＝$ax^{2}$+mx+n（a≠1）也经过点A（1，1）和B（3，1），顶点为点Q，与y轴交于点D．\n①求$\\frac{CD}{PQ}$的值；\n②当四边形CDPQ是直角梯形，求其最小内角的正弦值．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）将A和B代入解析式，求出b和c的值；\n（2）①将A和B代入解析式，求出抛物线解析式为抛物线解析式为y＝$ax^{2}$﹣4ax+3a+1＝a（x﹣2）^{2}+1﹣a，得出D和Q的坐标，得到CD和PQ的长度，得出比值；\n②分类讨论即可．\n【解答】解：（1）将A（1，1），B（3，1）代入y＝$x^{2}$+bx+c中，\n∴$\\begin{cases} 1=1+b+c \\\\ 1=9+3b+c \\end{cases}$，\n∴$\\begin{cases} b=-4 \\\\ c=4 \\end{cases}$；\n（2）①将A（1，1），B（3，1）代入y＝$ax^{2}$+mx+n（a≠1）中，\n∴$\\begin{cases} 1=a+m+n \\\\ 1=9a+3m+n \\end{cases}$，\n∴$\\begin{cases} m=-4a \\\\ n=1+3a \\end{cases}$，\n∴抛物线解析式为y＝$ax^{2}$﹣4ax+3a+1＝a（x﹣2）^{2}+1﹣a，\n∵抛物线与y轴交于点D，\n∴D（0，3a+1），顶点Q（2，1﹣a），\n由（1）可知：y＝$x^{2}$﹣4x+4＝（x﹣2）^{2}，\n∴C（0，4），P（2，0），\n∴CD＝|3a﹣3|，PQ＝|a﹣1|，\n∴$\\frac{CD}{PQ}=\\frac{|3a-3|}{|a-1|}=3$；\n②a．当CD⊥PD时，如图所示，D（0，0），\n[[image:rId31]]\n∴3a+1＝0，\n∴a$=-\\frac{1}{3}$，\n∴Q（2，$\\frac{4}{3}$），\n∴∠QCD为最小内角，\n过点Q作QM⊥CD于点M，\n∴M（0，$\\frac{4}{3}$），\n∴QM＝2，CM$=\\frac{8}{3}$，CQ$=\\frac{10}{3}$，\n∴sin∠QCD$=\\frac{3}{5}$；\nb．当CD⊥CQ时，如图所示，Q（2，4），\n[[image:rId32]]\n∴1﹣a＝4，\n∴a＝﹣3，\n∴D（0，﹣8），\n∴∠CDP为最小内角，\n过点P作PN⊥CD于点N，\n∴N（0，0），\n∴PN＝2，DN＝8，PD$=2\\sqrt{17}$，\n∴sin∠CDP$=\\frac{\\sqrt{17}}{17}$；\n综上所述：最小的角的正弦值为$\\frac{3}{5}$或$\\frac{\\sqrt{17}}{17}$．\n【点评】本题考查了二次函数的性质，三角函数，分类讨论等，掌握二次函数的综合知识是解题的关键．",
+      "full_score": 12,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的性质",
+          "顶点坐标公式",
+          "相似三角形"
+        ],
+        "reasoning": "通过求解二次函数顶点坐标和与y轴交点，考察二次函数的性质和顶点坐标的计算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的性质\", \"顶点坐标公式\", \"相似三角形\"],\n  \"reasoning\": \"通过求解二次函数顶点坐标和与y轴交点，考察二次函数的性质和顶点坐标的计算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年上海市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "如图1，平行四边形ABCD中，点E、F分别是边BC、CD上的点．\n（1）若E是BC中点．\n①如图1，若AE＝EF，求证：∠BAE＝∠EFC；\n②如图2，若CF＝DF，联结BF交AE于G，求S△BEG：S△AEF的值；\n（2）如图3，若AB＝3，AD＝5，CF＝1，∠AEB＝∠AFE＝∠EFC，求AF的长．\n[图1]\n2025年上海市中考数学试卷",
+      "stem_markdown": "如图1，平行四边形ABCD中，点E、F分别是边BC、CD上的点．\n（1）若E是BC中点．\n①如图1，若AE＝EF，求证：∠BAE＝∠EFC；\n②如图2，若CF＝DF，联结BF交AE于G，求$S_{△}_{BEG}：S_{△}_{AEF}$的值；\n（2）如图3，若AB＝3，AD＝5，CF＝1，∠AEB＝∠AFE＝∠EFC，求AF的长．\n![2025年上海市中考数学试卷_q025_img01](assets/2025年上海市中考数学试卷_q025_img01.png)\n2025年上海市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）①延长FE，AB交于H，可证明△BEH≌△CEF（AAS），得到EH＝EF，∠H＝∠CFE，则可证明AE＝EH，得到∠H＝∠BAE，则∠BAE＝∠CFE；\n②如图所示，延长BF，AD交于M，由平行四边形的性质得到AD∥BC，AD＝BC，证明△BEG∽△MAG，△BCF∽△MDF，得到$\\frac{BE}{AM}=\\frac{GE}{AG}=\\frac{BG}{GM}$，$\\frac{BC}{DM}=\\frac{BF}{MF}=\\frac{CF}{DF}=1$，则BF＝MF，BC＝DM；设CE＝BE＝m，则BC＝DM＝2m，AM＝AD+DM＝4m，进而可得$\\frac{GE}{AG}=\\frac{BG}{MG}=\\frac{BE}{AM}=\\frac{1}{4}$，即可得到$\\frac{BG}{GF}=\\frac{2}{3}$，可证明$\\frac{S_{△BGE}}{S_{△BGA}}=\\frac{S_{△GFE}}{S_{△GFA}}=\\frac{GE}{AG}=\\frac{1}{4}$，$\\frac{S_{△ABG}}{S_{△AFG}}=\\frac{BG}{FG}=\\frac{2}{3}$，设$S_{△}_{ABG}$＝4n，则$S_{△}_{BGE}$＝n，$S_{△}_{AFG}$＝6n，则$S_{△EGF}=\\frac{3}{2}n$，据此可得答案；\n（2）延长AD，EF交于M，由平行四边形的性质可得AD∥BC，CD＝AB＝3，证明△AEF∽△MEA，△AEF∽△ECF，再证明△ECF∽△MDF，得到$\\frac{EC}{DM}=\\frac{EF}{FM}=\\frac{CF}{DF}$，求出 DF＝CD﹣CF＝2，设CE＝s，FE＝t，则由相似三角形的性质可得AE＝st，AF＝$t^{2}$DM＝2s，FM＝2t，进而可得AM＝AD+DM＝5+2s；再由△AEF∽△MEA，得到$\\frac{t}{st}=\\frac{st}{t+2t}=\\frac{t^{2}}{5+2s}$，则$\\begin{cases} \\frac{t}{st}=\\frac{st}{t+2t} \\\\ \\frac{st}{t+2t}=\\frac{t^{2}}{5+2s} \\end{cases}$，解方程即可得到答案．\n【解答】（1）①证明：如图所示，延长FE，AB交于H，\n[[image:rId34]]\n∵四边形ABCD是平行四边形，\n∴AB∥CD，\n∴∠EBH＝∠ECF，∠EHB＝∠EFC，\n∵E是边BC中点，\n∴BE＝CE，\n∴△BEH≌△CEF（AAS），\n∴EH＝EF，∠H＝∠CFE，\n∵AE＝EF，\n∴AE＝EH，\n∴∠H＝∠BAE，\n∴∠BAE＝∠CFE；\n方法2：过点E作EI∥AB交AF于点I，\n∵EI∥BA，AB∥CD，\n∴BAE＝∠AEI，∠EFC＝∠IEF，\n∵E为BC的中点，\n∴I为AF的中点，\n∵AE＝AF，\n∴∠AEI＝∠IEF，\n∴∠BAE＝∠EFC；\n[[image:rId35]]\n②解：如图所示，延长BF，AD交于M，\n[[image:rId36]]\n∵四边形ABCD是平行四边形，\n∴AD∥BC，AD＝BC，\n∴△BEG∽△MAG，△BCF∽△MDF，\n∴$\\frac{BE}{AM}=\\frac{GE}{AG}=\\frac{BG}{GM}$，$\\frac{BC}{DM}=\\frac{BF}{MF}=\\frac{CF}{DF}=1$，\n∴BF＝MF，BC＝DM，\n∵E是边BC中点，\n∴BC＝2CE＝2BE，\n设CE＝BE＝m，则BC＝DM＝2m，\n∴AM＝AD+DM＝4m，\n∴$\\frac{GE}{AG}=\\frac{BG}{MG}=\\frac{BE}{AM}=\\frac{m}{4m}=\\frac{1}{4}$，$\\frac{BF}{MF}=$1，\n∴$\\frac{BG}{GF}=\\frac{2}{3}$，\n∴$\\frac{S_{△BGE}}{S_{△BGA}}=\\frac{S_{△GFE}}{S_{△GFA}}=\\frac{GE}{AG}=\\frac{1}{4}$，$\\frac{S_{△ABG}}{S_{△AFG}}=\\frac{BG}{FG}=\\frac{2}{3}$，\n设$S_{△}_{ABG}$＝4n，则$S_{△}_{BGE}$＝n，$S_{△}_{AFG}$＝6n，\n∴$S_{△EGF}=\\frac{3}{2}n$，\n∴$\\frac{S_{△BGE}}{S_{△AEF}}=\\frac{S_{△BGE}}{S_{△AGF}+S_{△EGF}}=\\frac{n}{6n+\\frac{3}{2}n}=\\frac{2}{15}$；\n（2）解：如图所示，延长AD，EF交于M，\n[[image:rId37]]\n∵四边形ABCD是平行四边形，\n∴AD∥BC，CD＝AB＝3，\n∴∠AEB＝∠EAD，\n∵∠AEB＝∠AFE＝∠EFC，\n∴∠EFA＝∠EAD，\n又∵∠AEF＝∠MEA，\n∴△AEF∽△MEA，\n∵∠AEB+∠AEF+∠FEC＝∠EFC+∠FCE+∠FEC＝180°，∠AEB＝∠EFC，\n∴∠AEF＝∠FCE，\n∴△AEF∽△ECF，\n∵AD∥BC，\n∴△ECF∽△MDF，\n∴$\\frac{EC}{DM}=\\frac{EF}{FM}=\\frac{CF}{DF}$，\n∵CF＝1，\n∴DF＝CD﹣CF＝2，\n设CE＝s，FE＝t，\n∵△AEF∽△ECF，\n∴$\\frac{CF}{EF}=\\frac{CE}{AE}=\\frac{EF}{AF}$，即$\\frac{1}{t}=\\frac{s}{AE}=\\frac{t}{AF}$，\n∴AE＝st，AF＝$t^{2}$，\n∵$\\frac{EC}{DM}=\\frac{EF}{FM}=\\frac{CF}{DF}$，即$\\frac{s}{DM}=\\frac{t}{FM}=\\frac{1}{2}$，\n∴DM＝2s，FM＝2t，\n∴AM＝AD+DM＝5+2s，\n∵△AEF∽△MEA，\n∴$\\frac{EF}{AE}=\\frac{AE}{EM}=\\frac{AF}{AM}$，即$\\frac{t}{st}=\\frac{st}{t+2t}=\\frac{t^{2}}{5+2s}$，\n∴$\\begin{cases} \\frac{t}{st}=\\frac{st}{t+2t} \\\\ \\frac{st}{t+2t}=\\frac{t^{2}}{5+2s} \\end{cases}$，\n解得$\\begin{cases} s=\\sqrt{3} \\\\ t^{2}=\\frac{5\\sqrt{3}+6}{3} \\end{cases}$或$\\begin{cases} s=-\\sqrt{3} \\\\ t^{2}=\\frac{5\\sqrt{3}-6}{3} \\end{cases}$（舍去），\n∴$AF=\\frac{5\\sqrt{3}+6}{3}$．\n【点评】本题主要考查了平行四边形的性质，全等三角形的性质与判定，相似三角形的性质与判定，等腰三角形的性质与判定，正确作出辅助线构造全等三角形和相似三角形是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/6 15:26:04；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId39]] ____ [[image:rId40]] ____ [[image:rId41]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 14,
+      "images": [
+        {
+          "image_id": "2025年上海市中考数学试卷_q025_img01",
+          "path": "assets/2025年上海市中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质与判定",
+          "平行四边形的性质",
+          "全等三角形的性质与判定",
+          "等腰三角形的性质与判定"
+        ],
+        "reasoning": "题目涉及相似三角形、平行四边形和全等三角形的性质与判定，以及等腰三角形的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质与判定\", \"平行四边形的性质\", \"全等三角形的性质与判定\", \"等腰三角形的性质与判定\"],\n  \"reasoning\": \"题目涉及相似三角形、平行四边形和全等三角形的性质与判定，以及等腰三角形的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T03:22:51",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "cut_elapsed_sec": 0.24,
+      "qwen_elapsed_sec": 48.09,
+      "total": 25,
+      "skipped": 0,
+      "processed": 25,
+      "ok": 24,
+      "fallback": 1
+    }
+  }
+}

@@ -1,0 +1,880 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年内蒙古中考数学试卷",
+  "source": {
+    "name": "2025年内蒙古中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年内蒙古中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "我国是历史上最早认识和使用负数的国家．若盈利100元记作+100元，则亏损200元应记作（ ）",
+      "stem_markdown": "我国是历史上最早认识和使用负数的国家．若盈利100元记作+100元，则亏损200元应记作（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "+200元"
+        },
+        {
+          "label": "B",
+          "text": "﹣200元"
+        },
+        {
+          "label": "C",
+          "text": "+100元"
+        },
+        {
+          "label": "D",
+          "text": "﹣100元"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】在一对具有相反意义的量中，先规定其中一个为正，则另一个就用负表示．\n【解答】解：“正”和“负”相对，所以，若盈利100元记作+100元，则亏损200元应记作﹣200元．\n故选：B．\n【点评】此题主要考查了正负数的意义，解题关键是理解“正”和“负”的相对性，明确什么是一对具有相反意义的量．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正负数的意义",
+          "具有相反意义的量"
+        ],
+        "reasoning": "题中盈利和亏损是一对具有相反意义的量，盈利用正数表示，因此亏损要用负数表示。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正负数的意义\", \"具有相反意义的量\"],\n  \"reasoning\": \"题中盈利和亏损是一对具有相反意义的量，盈利用正数表示，因此亏损要用负数表示。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "下列汽车电子控制装置显示的图案中，是中心对称图形的为（ ）",
+      "stem_markdown": "下列汽车电子控制装置显示的图案中，是中心对称图形的为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年内蒙古中考数学试卷_q002_img01](assets/2025年内蒙古中考数学试卷_q002_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年内蒙古中考数学试卷_q002_img02](assets/2025年内蒙古中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年内蒙古中考数学试卷_q002_img03](assets/2025年内蒙古中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年内蒙古中考数学试卷_q002_img04](assets/2025年内蒙古中考数学试卷_q002_img04.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据中心对称图形的定义：“绕某一点旋转180°，旋转后的图形能与原图形重合，那么这个图形是中心对称图形，”进行判断即可．\n【解答】解：是中心对称图形的为选项B中的图案．\n故选：B．\n【点评】本题考查中心对称图形的定义，熟练掌握该知识点是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q002_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q002_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q002_img02",
+          "path": "assets/2025年内蒙古中考数学试卷_q002_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q002_img03",
+          "path": "assets/2025年内蒙古中考数学试卷_q002_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q002_img04",
+          "path": "assets/2025年内蒙古中考数学试卷_q002_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中心对称图形",
+          "旋转对称性"
+        ],
+        "reasoning": "题目要求识别中心对称图形，即绕某一点旋转180°后能与原图重合。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中心对称图形\", \"旋转对称性\"],\n  \"reasoning\": \"题目要求识别中心对称图形，即绕某一点旋转180°后能与原图重合。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "不等式组\\begin{cases} x-1≥0 \\\\ x＜3 \\end{cases}的解集在数轴上表示正确的是（ ）",
+      "stem_markdown": "不等式组$\\begin{cases} x-1≥0 \\\\ x＜3 \\end{cases}$的解集在数轴上表示正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年内蒙古中考数学试卷_q003_img01](assets/2025年内蒙古中考数学试卷_q003_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年内蒙古中考数学试卷_q003_img02](assets/2025年内蒙古中考数学试卷_q003_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年内蒙古中考数学试卷_q003_img03](assets/2025年内蒙古中考数学试卷_q003_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年内蒙古中考数学试卷_q003_img04](assets/2025年内蒙古中考数学试卷_q003_img04.png)"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】求出第一个不等式的解集，根据口诀：同大取大、同小取小、大小小大中间找、大大小小无解了确定不等式组的解集，继而结合数轴可得答案．\n【解答】解：由x﹣1≥0得：x≥1，\n又x＜3，\n所以不等式组的解集为1≤x＜3，\n故选：C．\n【点评】本题考查的是解一元一次不等式组，正确求出每一个不等式解集是基础，熟知“同大取大；同小取小；大小小大中间找；大大小小找不到”的原则是解答此题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q003_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q003_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q003_img02",
+          "path": "assets/2025年内蒙古中考数学试卷_q003_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q003_img03",
+          "path": "assets/2025年内蒙古中考数学试卷_q003_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q003_img04",
+          "path": "assets/2025年内蒙古中考数学试卷_q003_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组的解法",
+          "数轴表示解集"
+        ],
+        "reasoning": "题中要求解不等式组并表示解集，涉及一元一次不等式组的解法和数轴表示解集。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组的解法\", \"数轴表示解集\"],\n  \"reasoning\": \"题中要求解不等式组并表示解集，涉及一元一次不等式组的解法和数轴表示解集。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "如图，在平面直角坐标系中，△OAB的顶点坐标分别是O（0，0），A（2，1），B（1，2），以原点O为位似中心，在第三象限画△OA′B′与△OAB位似，若△OA′B′与△OAB的相似比为2：1．则点A的对应点A′的坐标为（ ）\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，△OAB的顶点坐标分别是O（0，0），A（2，1），B（1，2），以原点O为位似中心，在第三象限画△OA′B′与△OAB位似，若△OA′B′与△OAB的相似比为2：1．则点A的对应点A′的坐标为（ ）\n![2025年内蒙古中考数学试卷_q004_img01](assets/2025年内蒙古中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "（﹣2，﹣1）"
+        },
+        {
+          "label": "B",
+          "text": "（﹣4，﹣2）"
+        },
+        {
+          "label": "C",
+          "text": "（﹣1，﹣2）"
+        },
+        {
+          "label": "D",
+          "text": "（﹣2，﹣4）"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据位似的性质可得答案．\n【解答】解：∵以原点O为位似中心，在第三象限画△OA′B′与△OAB位似，△OA′B′与△OAB的相似比为2：1，\n∴点A（2，1）的对应点A′的坐标为（﹣2×2，﹣2×1），即（﹣4，﹣2）．\n故选：B．\n【点评】本题考查位似变换、坐标与图形性质，熟练掌握位似的性质是解答本题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q004_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q004_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "位似变换",
+          "坐标与图形性质"
+        ],
+        "reasoning": "相似比为2：1，且在第三象限画图，考察位似变换的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"位似变换\", \"坐标与图形性质\"],\n  \"reasoning\": \"相似比为2：1，且在第三象限画图，考察位似变换的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "如图，ABCD是一个矩形草坪．对角线AC、BD相交于点O，H是BC边的中点，连接OH，且OH＝20m，AD＝30m，则该草坪的面积为（ ）\n[图1]",
+      "stem_markdown": "如图，ABCD是一个矩形草坪．对角线AC、BD相交于点O，H是BC边的中点，连接OH，且OH＝20m，AD＝30m，则该草坪的面积为（ ）\n![2025年内蒙古中考数学试卷_q005_img01](assets/2025年内蒙古中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2400m^{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$1800m^{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$1200m^{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$600m^{2}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据矩形的性质得到CO＝OA，根据三角形中位线定理求出AB，再根据矩形的面积公式计算，得到答案．\n【解答】解：∵四边形ABCD为矩形，\n∴CO＝OA，\n∵H是BC边的中点，\n∴OH是△ABC的中位线，\n∴AB＝2OH＝2×20＝40（m），\n∴该草坪的面积为：40×30＝1200（$m^{2}$），\n故选：C．\n【点评】本题考查的是三角形中位线定理、矩形的性质，熟记三角形中位线等于第三边的一半是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q005_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形中位线定理",
+          "矩形的性质",
+          "矩形面积公式"
+        ],
+        "reasoning": "题目通过三角形中位线定理求得AB长度，进而利用矩形面积公式计算面积。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形中位线定理\", \"矩形的性质\", \"矩形面积公式\"],\n  \"reasoning\": \"题目通过三角形中位线定理求得AB长度，进而利用矩形面积公式计算面积。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，直线AB∥CD，点E，F分别在直线AB，CD上，连接EF，以点E为圆心，适当长为半径画弧．交射线EA于点M．交EF于点N．再分别以点M，N为圆心．大于\\frac{1}{2}MN的长为半径画弧（两弧半径相等），两弧在∠AEF的内部相交于点H，画射线EH交CD于点G，若∠AEF＝80°，则∠EGF的度数为（ ）\n[图1]",
+      "stem_markdown": "如图，直线AB∥CD，点E，F分别在直线AB，CD上，连接EF，以点E为圆心，适当长为半径画弧．交射线EA于点M．交EF于点N．再分别以点M，N为圆心．大于$\\frac{1}{2}$MN的长为半径画弧（两弧半径相等），两弧在∠AEF的内部相交于点H，画射线EH交CD于点G，若∠AEF＝80°，则∠EGF的度数为（ ）\n![2025年内蒙古中考数学试卷_q006_img01](assets/2025年内蒙古中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "100°"
+        },
+        {
+          "label": "B",
+          "text": "80°"
+        },
+        {
+          "label": "C",
+          "text": "50°"
+        },
+        {
+          "label": "D",
+          "text": "40°"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据角平分线的定义及平行线的性质求解．\n【解答】解：由作图得：EG平分∠AEF，∠AEF＝80°，\n∴∠AEG$=\\frac{1}{2}$∠AEF＝40°，\n∵AB∥CD，\n∴∠EGF＝∠AEG＝40°，\n故选：D．\n【点评】本题考查了基本作图，平行线的性质，掌握平行线的性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q006_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "角平分线的定义",
+          "平行线的性质",
+          "角度和"
+        ],
+        "reasoning": "根据作图得出EG平分∠AEF，利用平行线性质得出∠EGF的度数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"角平分线的定义\", \"平行线的性质\", \"角度和\"],\n  \"reasoning\": \"根据作图得出EG平分∠AEF，利用平行线性质得出∠EGF的度数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "在闭合电路中，通过定值电阻的电流I（单位：A）是它两端的电压U（单位：V）的正比例函数，其图象如图所示．当该电阻两端的电压为15V时，通过它的电流为（ ）\n[图1]",
+      "stem_markdown": "在闭合电路中，通过定值电阻的电流I（单位：A）是它两端的电压U（单位：V）的正比例函数，其图象如图所示．当该电阻两端的电压为15V时，通过它的电流为（ ）\n![2025年内蒙古中考数学试卷_q007_img01](assets/2025年内蒙古中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "12A"
+        },
+        {
+          "label": "B",
+          "text": "8A"
+        },
+        {
+          "label": "C",
+          "text": "6A"
+        },
+        {
+          "label": "D",
+          "text": "4A"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】利用待定系数法求出电流I关于电压U的函数关系式，将U＝15V代入函数关系式解出即可．\n【解答】解：设I＝kU，\n∵当U＝5V时，I＝4A，\n∴4＝5k，\n∴k$=\\frac{4}{5}$，\n∴I$=\\frac{4}{5}$U，\n当U＝15V时，I$=\\frac{4}{5}×$15＝12（A）．\n故选：A．\n【点评】本题考查正比例函数的图象，正确记忆相关知识点是解题关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q007_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正比例函数",
+          "待定系数法"
+        ],
+        "reasoning": "通过电压U和电流I的图象确定它们之间的正比例关系，并利用待定系数法求解函数表达式",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正比例函数\", \"待定系数法\"],\n  \"reasoning\": \"通过电压U和电流I的图象确定它们之间的正比例关系，并利用待定系数法求解函数表达式\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "已知点A（m，y₁），B（m+1，y₂）都在反比例函数y=-\\frac{3}{x}的图象上，则下列结论一定正确的是（ ）",
+      "stem_markdown": "已知点A（m，$y_{1}$），B（m+1，$y_{2}$）都在反比例函数y$=-\\frac{3}{x}$的图象上，则下列结论一定正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$y_{1}$＞$y_{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$y_{1}$＜$y_{2}$"
+        },
+        {
+          "label": "C",
+          "text": "当m＜0时，$y_{1}$＜$y_{2}$"
+        },
+        {
+          "label": "D",
+          "text": "当m＜﹣1时，$y_{1}$＜$y_{2}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据反比例函数图象上点的坐标特征解答即可．\n【解答】解：∵反比例函数常量k＝﹣3＜0，\n∴反比例函数图象分布在第二四象限，在每个象限内y随x的增大而增大，\nA、若两点在同一分支上，m＜m+1，故$y_{1}$＜$y_{2}$，原说法错误，不符合题意；\nB、若两点不在同一分支上，m＜m+1，故$y_{1}$＞$y_{2}$，原说法错误，不符合题意；\nC、当m＜0时，无法确定B（m+1，$y_{2}$）所在象限，原说法错误，不符合题意；\nD、当m＜﹣1时，两点都在第二象限，$y_{1}$＜$y_{2}$，原说法正确，符合题意；\n故选：D．\n【点评】本题考查了反比例函数图象上点的坐标特征，熟练掌握该知识点是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的性质",
+          "反比例函数图象上的点的坐标特征",
+          "象限内点的坐标符号",
+          "不等式的应用"
+        ],
+        "reasoning": "题中通过反比例函数图象上点的坐标特征和象限内点的坐标符号判断y₁、y₂的大小关系。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的性质\", \"反比例函数图象上的点的坐标特征\", \"象限内点的坐标符号\", \"不等式的应用\"],\n  \"reasoning\": \"题中通过反比例函数图象上点的坐标特征和象限内点的坐标符号判断y₁、y₂的大小关系。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "在单词class（班级）中随机选择一个字母，则选中字母“s”的概率是 ____ ．",
+      "stem_markdown": "在单词class（班级）中随机选择一个字母，则选中字母“s”的概率是 ____ ．",
+      "options": [],
+      "answer": "$\\frac{2}{5}$．",
+      "solution": "【分析】在单词class（班级）中随机选择一个字母共有5种等可能结果，其中选中字母“s”的有2种结果，再根据概率公式求解即可．\n【解答】解：在单词class（班级）中随机选择一个字母共有5种等可能结果，其中选中字母“s”的有2种结果，\n所以选中字母“s”的概率是$\\frac{2}{5}$，\n故答案为：$\\frac{2}{5}$．\n【点评】本题主要考查概率公式，解题的关键是掌握随机事件A的概率P（A）＝事件A可能出现的结果数÷所有可能出现的结果数．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率公式",
+          "等可能事件"
+        ],
+        "reasoning": "计算单词中特定字母出现的概率需要考虑总字母数和目标字母数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率公式\", \"等可能事件\"],\n  \"reasoning\": \"计算单词中特定字母出现的概率需要考虑总字母数和目标字母数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "冰糖葫芦是我国传统小吃．若大串冰糖葫芦每根穿5个山楂，小串冰糖葫芦每根穿3个山楂，则穿m根大串和n根小串冰糖葫芦需要的山楂总个数用代数式表示为 ____ ．\n[图1]",
+      "stem_markdown": "冰糖葫芦是我国传统小吃．若大串冰糖葫芦每根穿5个山楂，小串冰糖葫芦每根穿3个山楂，则穿m根大串和n根小串冰糖葫芦需要的山楂总个数用代数式表示为 ____ ．\n![2025年内蒙古中考数学试卷_q010_img01](assets/2025年内蒙古中考数学试卷_q010_img01.png)",
+      "options": [],
+      "answer": "（5m+3n）个．",
+      "solution": "【分析】分别用m、n表示出大串冰糖葫芦和小串冰糖葫芦山楂的数量，再相加即可．\n【解答】解：需要的山楂总个数为：（5m+3n）个，\n故答案为：（5m+3n）个．\n【点评】本题考查了列代数式，解题的关键是根据数量关系来列代数式．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q010_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "代数式",
+          "线性组合"
+        ],
+        "reasoning": "设大串和小串冰糖葫芦山楂数量，相加得总和",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"代数式\", \"线性组合\"],\n  \"reasoning\": \"设大串和小串冰糖葫芦山楂数量，相加得总和\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "如图，因地形原因，湖泊两端A，B的距离不易测量，某科技小组需要用无人机进行测量，他们将无人机上升并飞行至距湖面90m的点C处，从C点测得A点的俯角为60°，测得B点的俯角为30°（A，B，C三点在同一竖直平面内），则湖泊两端A，B的距离为 ____ m（结果保留根号）．\n[图1]",
+      "stem_markdown": "如图，因地形原因，湖泊两端A，B的距离不易测量，某科技小组需要用无人机进行测量，他们将无人机上升并飞行至距湖面90m的点C处，从C点测得A点的俯角为60°，测得B点的俯角为30°（A，B，C三点在同一竖直平面内），则湖泊两端A，B的距离为 ____ m（结果保留根号）．\n![2025年内蒙古中考数学试卷_q011_img01](assets/2025年内蒙古中考数学试卷_q011_img01.png)",
+      "options": [],
+      "answer": "120$\\sqrt{3}$．",
+      "solution": "【分析】过点C作CD⊥AB，垂足为D，根据题意可得：EF∥AB，从而可得∠FCA＝∠CAB＝60°，∠ECB＝∠CBA＝30°，然后分别在Rt△ACD和Rt△BCD中，利用锐角三角函数的定义求出AD和BD的长，最后进行计算即可解答．\n【解答】解：如图：过点C作CD⊥AB，垂足为D，\n[[image:rId43]]\n由题意得：EF∥AB，\n∴∠FCA＝∠CAB＝60°，∠ECB＝∠CBA＝30°，\n在Rt△ACD中，CD＝90m，\n∴AD$=\\frac{CD}{tan60°}=\\frac{90}{\\sqrt{3}}=$30$\\sqrt{3}$（m），\n在Rt△BCD中，BD$=\\frac{CD}{tan30°}=\\frac{90}{\\frac{\\sqrt{3}}{3}}=$90$\\sqrt{3}$（m），\n∴AB＝AD+BD＝120$\\sqrt{3}$（m），\n∴湖泊两端A，B的距离为120$\\sqrt{3}$m，\n故答案为：120$\\sqrt{3}$．\n【点评】本题考查了解直角三角形的应用﹣仰角俯角问题，根据题目的已知条件并结合图形添加适当的辅助线是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q011_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q011_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "锐角三角函数",
+          "垂直平分线性质",
+          "平行线的性质"
+        ],
+        "reasoning": "题中通过C点测得A、B两点的俯角，利用正切函数关系求距离。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"锐角三角函数\", \"垂直平分线性质\", \"平行线的性质\"],\n  \"reasoning\": \"题中通过C点测得A、B两点的俯角，利用正切函数关系求距离。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "如图，在菱形ABCD中，AB＝4\\sqrt{5}，对角线BD的长为16，E是AD的中点，F是BD上一点，连接EF．若BF＝3，则EF的长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在菱形ABCD中，AB＝4$\\sqrt{5}$，对角线BD的长为16，E是AD的中点，F是BD上一点，连接EF．若BF＝3，则EF的长为 ____ ．\n![2025年内蒙古中考数学试卷_q012_img01](assets/2025年内蒙古中考数学试卷_q012_img01.png)",
+      "options": [],
+      "answer": "$\\sqrt{85}$．",
+      "solution": "【分析】由菱形的性质可得AC⊥BD，AO＝CO，BO＝DO＝8，AB＝AD＝4$\\sqrt{5}$，由勾股定理可求AO的长，通过证明△EGD∽△AOD，可求EG$=\\frac{1}{2}$AO＝2，DG$=\\frac{1}{2}$DO＝4，由勾股定理可求解．\n【解答】解：如图，连接AC交BD于O，过点E作EG⊥BD于G，\n∵四边形ABCD是菱形，对角线BD的长为16，\n∴AC⊥BD，AO＝CO，BO＝DO＝8，AB＝AD＝4$\\sqrt{5}$，\n∴AO$=\\sqrt{AD^{2}-OD^{2}}=\\sqrt{80-64}=$4，\n∵E是AD的中点，\n∴AD＝2DE，\n∵EG⊥BD，\n∴EG∥AC，\n∴△EGD∽△AOD，\n∴$\\frac{EG}{AO}=\\frac{DG}{DO}=\\frac{DE}{AD}=\\frac{1}{2}$，\n∴EG$=\\frac{1}{2}$AO＝2，DG$=\\frac{1}{2}$DO＝4，\n∵BF＝3，\n∴FG＝BD﹣GD﹣BF＝9，\n∴EF$=\\sqrt{EG^{2}+FG^{2}}=\\sqrt{81+4}=$$\\sqrt{85}$，\n故答案为：$\\sqrt{85}$．\n[[image:rId45]]\n【点评】本题考查了菱形的性质，相似三角形的判定和性质，勾股定理，添加恰当辅助线构造相似三角形是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q012_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "勾股定理",
+          "菱形的性质"
+        ],
+        "reasoning": "通过△EGD∽△AOD证明EG和DG的长度，利用勾股定理计算EF的长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"勾股定理\", \"菱形的性质\"],\n  \"reasoning\": \"通过△EGD∽△AOD证明EG和DG的长度，利用勾股定理计算EF的长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "solution",
+      "stem_text": "计算：\n（1）|﹣5|+\\sqrt{4}+（﹣6）×\\frac{1}{3}；\n（2）\\frac{x^{2}-1}{x}⋅\\frac{x}{x^{2}+2x+1}．",
+      "stem_markdown": "计算：\n（1）|﹣5|$+\\sqrt{4}+$（﹣6）$×\\frac{1}{3}$；\n（2）$\\frac{x^{2}-1}{x}⋅\\frac{x}{x^{2}+2x+1}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据绝对值、算术平方根以及有理数的乘法的计算方法进行计算即可；\n（2）根据分式乘除法的计算方法进行计算即可..\n【解答】解：（1）原式＝5+2﹣2＝5；\n（2）原式$=\\frac{(x+1)(x-1)}{x}•\\frac{x}{(x+1)^{2}}$\n$=\\frac{ x-1}{x+1}$．\n【点评】本题考查有理数的运算，分式的乘除法，掌握有理数混合运算的方法以及分式乘除法的计算方法是正确解答的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值",
+          "算术平方根",
+          "有理数的乘法",
+          "分式的乘除法"
+        ],
+        "reasoning": "题目（1）涉及绝对值和算术平方根的计算；题目（2）涉及分式的乘除法计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\", \"算术平方根\", \"有理数的乘法\", \"分式的乘除法\"],\n  \"reasoning\": \"题目（1）涉及绝对值和算术平方根的计算；题目（2）涉及分式的乘除法计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "solution",
+      "stem_text": "每年的6月6日是全国爱眼日．某校为了解八年级学生的视力健康状况，从该年级学生今年的体检结果中随机抽取了40名学生的视力数据，将所得视力数据进行整理后分为5组，得到如下的频数分布表：\n分组 | A | B | C | D | E\n1.0≤x＜4.2 | 4.2≤x＜4.5 | 4.5≤x＜4.8 | 4.8≤x＜5.1 | 5.1≤x≤5.3\n人数（频数） | 2 | 8 | 14 | 12 | 4\n请根据所给信息，解答下列问题：\n（1）这40名学生视力的中位数落在哪个组内？\n（2）该校八年级共有500名学生．\n①根据如表数据，请估计这500名八年级学生的视力在4.8≤x≤5.3范围内的人数；\n②从去年同期这500名学生的体检结果中可知，视力在4.8≤x≤5.3范围内的人数为263人．如果你是该校的一名学生，请说明这500名学生今年和去年视力在4.8≤x≤5.3范围内的人数变化情况，并为学校提一条保护学生视力的合理化建议．",
+      "stem_markdown": "每年的6月6日是全国爱眼日．某校为了解八年级学生的视力健康状况，从该年级学生今年的体检结果中随机抽取了40名学生的视力数据，将所得视力数据进行整理后分为5组，得到如下的频数分布表：\n| 分组 | A | B | C | D | E |\n| --- | --- | --- | --- | --- | --- |\n| 1.0≤x＜4.2 | 4.2≤x＜4.5 | 4.5≤x＜4.8 | 4.8≤x＜5.1 | 5.1≤x≤5.3 |  |\n| 人数（频数） | 2 | 8 | 14 | 12 | 4 |\n请根据所给信息，解答下列问题：\n（1）这40名学生视力的中位数落在哪个组内？\n（2）该校八年级共有500名学生．\n①根据如表数据，请估计这500名八年级学生的视力在4.8≤x≤5.3范围内的人数；\n②从去年同期这500名学生的体检结果中可知，视力在4.8≤x≤5.3范围内的人数为263人．如果你是该校的一名学生，请说明这500名学生今年和去年视力在4.8≤x≤5.3范围内的人数变化情况，并为学校提一条保护学生视力的合理化建议．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据中位数的定义求解即可；\n（2）①总人数乘以样本中D、E组人数和所占比例即可；\n②比较去年和今年该视力范围内人数即可得出答案，建议答案不唯一，合理均可．\n【解答】解：（1）这40名学生视力的中位数是第20、21个数据的平均数，而这2个数据均落在C组，\n所以这40名学生视力的中位数落在C组；\n（2）①500$×\\frac{12+4}{40}=$200（名），\n答：估计这500名八年级学生的视力在4.8≤x≤5.3范围内的人数约为200名；\n②去年视力在4.8≤x≤5.3范围内的人数为263人，今年视力在4.8≤x≤5.3范围内的人数约为200人，今年视力在该范围内的人数明显减少，\n建议：保护性用眼，保持工作、生活环境光线的柔和，避免强烈紫外线的照射．尽量减少熬夜和过度用眼，减少过度使用电子产品．增加户外活动，定期远眺．\n【点评】本题考查了中位数以及频数分布表、样本估计总体，明确中位数所反映数据的特征是解决问题、做出判断的前提．",
+      "full_score": 7,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中位数",
+          "频率分布表",
+          "样本估计总体"
+        ],
+        "reasoning": "第（1）问需要计算中位数，涉及频数分布表；第（2）问①需要根据样本估计总体人数，涉及频率分布表；第（2）问②需要比较去年和今年的数据变化，涉及样本估计总体。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中位数\", \"频率分布表\", \"样本估计总体\"],\n  \"reasoning\": \"第（1）问需要计算中位数，涉及频数分布表；第（2）问①需要根据样本估计总体人数，涉及频率分布表；第（2）问②需要比较去年和今年的数据变化，涉及样本估计总体。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "solution",
+      "stem_text": "智能机器人的广泛应用是智慧农业的发展趋势之一．某品牌苹果采摘机器人的机械手能自动对成熟的苹果进行采摘，一个机器人可以搭载多个机械手同时工作．在正常工作状态下，该机器人的每一个机械手平均a秒采摘一个成熟的苹果，它的一个机械手用800秒采摘苹果的个数比用600秒采摘苹果的个数多25个．\n（1）求a的值；\n（2）现需要一定数量的苹果发往外地，采摘工作由多个机器人共同完成．每个机器人搭载4个相同的机械手，那么至少需要多少个这样的机器人同时工作1小时，才能使采摘的苹果个数不少于10000个？\n[图1]",
+      "stem_markdown": "智能机器人的广泛应用是智慧农业的发展趋势之一．某品牌苹果采摘机器人的机械手能自动对成熟的苹果进行采摘，一个机器人可以搭载多个机械手同时工作．在正常工作状态下，该机器人的每一个机械手平均a秒采摘一个成熟的苹果，它的一个机械手用800秒采摘苹果的个数比用600秒采摘苹果的个数多25个．\n（1）求a的值；\n（2）现需要一定数量的苹果发往外地，采摘工作由多个机器人共同完成．每个机器人搭载4个相同的机械手，那么至少需要多少个这样的机器人同时工作1小时，才能使采摘的苹果个数不少于10000个？\n![2025年内蒙古中考数学试卷_q015_img01](assets/2025年内蒙古中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据“该机器人的一个机械手用800秒采摘苹果的个数比用600秒采摘苹果的个数多25个”，可列出关于a的一元一次方程，解之即可得出结论；\n（2）设需要x个这样的机器人，利用1小时采摘苹果的总数量＝每个机器人的一个机械手1小时采摘苹果的数量×4×使用机器人的数量，结合要求1小时采摘的苹果个数不少于10000个，可列出关于x的一元一次不等式，解之可得出x的取值范围，再取其中的最小整数值，即可得出结论．\n【解答】解：（1）根据题意得：25a＝800﹣600，\n解得：a＝8．\n答：a的值为8；\n（2）设需要x个这样的机器人，\n根据题意得：$\\frac{3600}{8}×$4x≥10000，\n解得：x$≥\\frac{50}{9}$，\n又∵x为正整数，\n∴x的最小值为6．\n答：至少需要6个这样的机器人同时工作1小时，才能使采摘的苹果个数不少于10000个．\n【点评】本题考查了一元一次方程的应用以及一元一次不等式的应用，解题的关键是：（1）找准等量关系，正确列出一元一次方程；（2）根据各数量之间的关系，正确列出一元一次不等式．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q015_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "一元一次不等式"
+        ],
+        "reasoning": "（1）用800秒采摘苹果的个数比用600秒采摘苹果的个数多25个，列出方程求a；（2）利用一元一次不等式计算所需机器人数量",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"一元一次不等式\"],\n  \"reasoning\": \"（1）用800秒采摘苹果的个数比用600秒采摘苹果的个数多25个，列出方程求a；（2）利用一元一次不等式计算所需机器人数量\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "solution",
+      "stem_text": "如图，AB是⊙O的直径，半径OC⊥AB．垂足为O，OC＝2，P是BA延长线上一点，连接CP，交⊙O于点D，连接AD，∠OCP＝60°．过点P作⊙O的切线，切点为E．交CO的延长线于点F．\n（1）求CD的长；\n（2）求∠DAB的度数；\n（3）求cos∠OFP的值．\n[图1]",
+      "stem_markdown": "如图，AB是⊙O的直径，半径OC⊥AB．垂足为O，OC＝2，P是BA延长线上一点，连接CP，交⊙O于点D，连接AD，∠OCP＝60°．过点P作⊙O的切线，切点为E．交CO的延长线于点F．\n（1）求$CD$的长；\n（2）求∠DAB的度数；\n（3）求cos∠OFP的值．\n![2025年内蒙古中考数学试卷_q016_img01](assets/2025年内蒙古中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）连接OD，判定△OCD是等边三角形，得到∠COD＝60°，由弧长公式即可求出$CD$的长；\n（2）求出∠AOD＝∠AOC﹣∠COD＝30°，由等腰三角形的性质得到∠DAB＝∠ADO$=\\frac{1}{2}×$（180°﹣30°）＝75°；\n（3）连接OE，由切线的性质得到半径OE⊥PE，由余角的性质推出∠POE＝∠OFP，由tanC$=\\frac{PO}{OC}=\\sqrt{3}$，求出PO＝2$\\sqrt{3}$，得到cos∠POE$=\\frac{OE}{PO}=\\frac{\\sqrt{3}}{3}$．因此cos∠OFP＝cos∠POE$=\\frac{\\sqrt{3}}{3}$．\n【解答】解：（1）连接OD，\n∵OC＝OD，∠OCD＝60°，\n∴△OCD是等边三角形，\n∴∠COD＝60°，\n∵OC＝2，\n∴$CD$的长$=\\frac{60π×2}{180}=\\frac{2}{3}$π；\n（2）∵OC⊥AB，\n∴∠AOC＝90°，\n∴∠AOD＝∠AOC﹣∠COD＝30°，\n∵OD＝OA，\n∴∠DAB＝∠ADO$=\\frac{1}{2}×$（180°﹣30°）＝75°；\n（3）连接OE，\n∵PE切圆与E，\n∴半径OE⊥PE，\n∵∠POE+∠OPE＝∠OFP+∠OPE，\n∴∠POE＝∠OFP，\n∵tanC＝tan60°$=\\frac{PO}{OC}=\\frac{OP}{2}=$$\\sqrt{3}$，\n∴PO＝2$\\sqrt{3}$，\n∵OE＝OC＝2，\n∴cos∠POE$=\\frac{OE}{PO}=\\frac{2}{2\\sqrt{3}}=$$\\frac{\\sqrt{3}}{3}$．\n∴cos∠OFP＝cos∠POE$=\\frac{\\sqrt{3}}{3}$．\n[[image:rId48]]\n【点评】本题考查切线的性质，解直角三角形，弧长的计算，等边三角形的判定和性质，关键是掌握弧长公式，锐角的余弦定义，由锐角的正切定义求出PO的长．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q016_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "弧长公式",
+          "等边三角形的性质",
+          "切线的性质",
+          "锐角的余弦定义"
+        ],
+        "reasoning": "第（1）问使用弧长公式计算CD长度，第（2）问利用等边三角形性质和等腰三角形性质求∠DAB，第（3）问通过切线性质和余弦定义求cos∠OFP。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"弧长公式\", \"等边三角形的性质\", \"切线的性质\", \"锐角的余弦定义\"],\n  \"reasoning\": \"第（1）问使用弧长公式计算CD长度，第（2）问利用等边三角形性质和等腰三角形性质求∠DAB，第（3）问通过切线性质和余弦定义求cos∠OFP。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "问题背景：\n综合与实践课上，老师让同学们设计一个家电装置图案，某小组设计的效果图如图1所示．\n[图1]\n外形参数：\n如图2，装置整体图案为轴对称图形，外形由上方的抛物线L₁，中间的矩形ABCD和下方的抛物线L₂组成．抛物线L₁的高度为8cm，矩形ABCD的边AB＝8cm，BC＝6cm，抛物线L₂的高度为4cm．在装置内部安装矩形电子显示屏EFGH，点E，F在抛物线L₂上，点H，G在抛物线L₁上．\n问题解决：\n如图3，该小组以矩形ABCD的顶点A为原点，以AB边所在的直线为x轴，以AD边所在的直线为y轴，建立平面直角坐标系．请结合外形参数，完成以下任务：\n（1）直接写出B，C，D三点的坐标；\n（2）直接写出抛物线L₁和L₂的顶点坐标，并分别求出抛物线L₁和L₂的函数表达式；\n（3）为满足矩形电子显示屏EFGH的空间要求，需要EH边的长为15cm，求此时EF边的长．",
+      "stem_markdown": "问题背景：\n综合与实践课上，老师让同学们设计一个家电装置图案，某小组设计的效果图如图1所示．\n![2025年内蒙古中考数学试卷_q017_img01](assets/2025年内蒙古中考数学试卷_q017_img01.png)\n外形参数：\n如图2，装置整体图案为轴对称图形，外形由上方的抛物线$L_{1}$，中间的矩形ABCD和下方的抛物线$L_{2}$组成．抛物线$L_{1}$的高度为8cm，矩形ABCD的边AB＝8cm，BC＝6cm，抛物线$L_{2}$的高度为4cm．在装置内部安装矩形电子显示屏EFGH，点E，F在抛物线$L_{2}$上，点H，G在抛物线$L_{1}$上．\n问题解决：\n如图3，该小组以矩形ABCD的顶点A为原点，以AB边所在的直线为x轴，以AD边所在的直线为y轴，建立平面直角坐标系．请结合外形参数，完成以下任务：\n（1）直接写出B，C，D三点的坐标；\n（2）直接写出抛物线$L_{1}$和$L_{2}$的顶点坐标，并分别求出抛物线$L_{1}$和$L_{2}$的函数表达式；\n（3）为满足矩形电子显示屏EFGH的空间要求，需要EH边的长为15cm，求此时EF边的长．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由矩形ABCD性质可得CD＝AB＝8cm，AD＝BC＝6cm，CD∥AB，BC∥AD，即可得出坐标；\n（2）由装置整体图案为轴对称图形，作出对称轴，分别交抛物线$L_{1}$于M，交抛物线$L_{2}$于N，交矩形ABCD于N，P，结合矩形和抛物线的对称性，可得直线MQ是抛物线$L_{1}$和$L_{2}$的对称轴，$AP=BP=\\frac{1}{2}AB=4$，∠DNP＝∠APN＝90°，由矩形DAPN中NP＝AD＝6，抛物线$L_{1}$的高度为8cm，抛物线$L_{2}$的高度为4cm，直线MQ是抛物线$L_{1}$和$L_{2}$的对称轴，即可得出抛物线$L_{1}$和$L_{2}$的顶点坐标分别为M（4，14），Q（4，﹣4），分别设抛物线$L_{1}$和$L_{2}$的表达式为$y=a_{1}(x-4)^{2}+14$，$y=a_{2}(x-4)^{2}-4$，分别将将D（0，6）和A（0，0）代入求解即可；\n（3）由装置整体图案为轴对称图形，得出EF⊥MG，HG⊥MG，证明HE⊥x轴，设$x_{E}＝x_{H}$＝n，则$y_{H}=-\\frac{1}{2}n^{2}+4n+6$，$y_{E}=\\frac{1}{4}n^{2}-2n$，则$EH=y_{H}-y_{E}=-\\frac{3}{4}n^{2}+6n+6=15$，求得$x_{E}$＝2，由抛物线对称性可得EF＝2（$x_{对称轴}﹣x_{E}$）＝4．\n【解答】解：（1）∵矩形ABCD的边AB＝8cm，BC＝6cm，\n∴CD＝AB＝8cm，AD＝BC＝6cm，CD∥AB，BC∥AD，\n∴B（8，0），C（8，6），D（0，6）；\n（2）∵装置整体图案为轴对称图形，\n如图，作出对称轴，分别交抛物线$L_{1}$于M，交抛物线$L_{2}$于N，交矩形ABCD于N，P，\n[[image:rId50]]\n结合矩形和抛物线的对称性，可得直线MQ是抛物线$L_{1}$和$L_{2}$的对称轴，$AP=BP=\\frac{1}{2}AB=4$，∠DNP＝∠APN＝90°，\n∴四边形DAPN是矩形，\n∴NP＝AD＝6，\n∵抛物线$L_{1}$的高度为8cm，抛物线$L_{2}$的高度为4cm，直线MQ是抛物线$L_{1}$和$L_{2}$的对称轴，\n∴MP＝MN+NP＝8+6＝14（cm），QP＝4cm，\n∴抛物线$L_{1}$和$L_{2}$的顶点坐标分别为M（4，14），Q（4，﹣4），\n分别设抛物线$L_{1}$和$L_{2}$的表达式为$y=a_{1}(x-4)^{2}+14$，$y=a_{2}(x-4)^{2}-4$，\n将D（0，6）代入$y=a_{1}(x-4)^{2}+14$，\n解得$a_{1}=-\\frac{1}{2}$，\n则抛物线$L_{1}$的表达式为$y=-\\frac{1}{2}(x-4)^{2}+14=-\\frac{1}{2}x^{2}+4x+6$；\n将A（0，0）代入$y=a_{2}(x-4)^{2}-4$，\n解得$a_{2}=\\frac{1}{4}$；\n则抛物线$L_{2}$的表达式为$y=\\frac{1}{4}(x-4)^{2}-4=\\frac{1}{4}x^{2}-2x$；\n（3）∵装置整体图案为轴对称图形，\n∴EF⊥MG，HG⊥MG，\n∵MQ⊥x轴，\n∴EF∥HG∥x轴，\n∵EFGH是矩形，\n∴HE⊥EF，\n∴HE⊥x轴，\n∴$x_{E}＝x_{H}$，\n设$x_{E}＝x_{H}$＝n，\n∴$y_{H}=-\\frac{1}{2}n^{2}+4n+6$，$y_{E}=\\frac{1}{4}n^{2}-2n$，\n∴$EH=y_{H}-y_{E}=-\\frac{3}{4}n^{2}+6n+6=15$，\n解得：n＝2或6（在对称轴右侧，舍），\n∴$x_{E}$＝2，\n由抛物线对称性可得EF＝2（$x_{对称轴}﹣x_{E}$）＝4．\n【点评】本题考查二次函数的图象与几何综合，矩形的性质，平面直角坐标系，待定系数法求二次函数的解析式，二次函数的图象与性质，熟练掌握相关性质是解题的关键．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q017_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的图象与性质",
+          "待定系数法求二次函数的解析式",
+          "平面直角坐标系",
+          "矩形的性质"
+        ],
+        "reasoning": "通过求解抛物线和矩形的坐标及函数表达式，涉及二次函数的性质和待定系数法。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的图象与性质\", \"待定系数法求二次函数的解析式\", \"平面直角坐标系\", \"矩形的性质\"],\n  \"reasoning\": \"通过求解抛物线和矩形的坐标及函数表达式，涉及二次函数的性质和待定系数法。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年内蒙古中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "如图，ABCD是一个平行四边形纸片，BD是一条对角线，BD＝BC＝5，CD＝6．\n（1）如图1，将平行四边形纸片ABCD沿BD折叠，点A的对应点落在点P处，PB交CD于点M．\n①试猜想PM与CM的数量关系，并说明理由；\n②求△BDM的面积；\n（2）如图2，点E，F分别在平行四边形纸片ABCD的AB，AD边上，连接EF，且EF∥BD，将平行四边形纸片ABCD沿EF折叠，使点A的对应点G落在CD边上，求DG的长．\n[图1]\n2025年内蒙古中考数学试卷",
+      "stem_markdown": "如图，ABCD是一个平行四边形纸片，BD是一条对角线，BD＝BC＝5，CD＝6．\n（1）如图1，将平行四边形纸片ABCD沿BD折叠，点A的对应点落在点P处，PB交CD于点M．\n①试猜想PM与CM的数量关系，并说明理由；\n②求△BDM的面积；\n（2）如图2，点E，F分别在平行四边形纸片ABCD的AB，AD边上，连接EF，且EF∥BD，将平行四边形纸片ABCD沿EF折叠，使点A的对应点G落在CD边上，求DG的长．\n![2025年内蒙古中考数学试卷_q018_img01](assets/2025年内蒙古中考数学试卷_q018_img01.png)\n2025年内蒙古中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）①由翻折得AD＝DP，∠DAB＝∠DPB，利用四边形ABCD是平行四边形，可证明DP＝BC，∠DPB＝∠BCD，再证明△DPM≌△BCM，即可求证；\n②由△DPM≌△BCM，得DM＝BM，过点M作MN⊥BD于点N，过点B作BH⊥CD于点H，利用等腰三角形性质得$DN=BN=\\frac{1}{2}BD=\\frac{5}{2}$，求出$cos∠CDB=\\frac{DH}{BD}=\\frac{3}{5}=\\frac{DN}{DM}=\\frac{\\frac{5}{2}}{DM}$，可得$DM=\\frac{25}{6}$，利用勾股定理求出$MN=\\sqrt{DM^{2}-DN^{2}}=\\frac{10}{3}$即可求解；\n（2）过点C作CP⊥BD于点P，连接AG交BD于点T，过点B作BH⊥CD于点H，由翻折的性质得AG⊥BD，同（2）可得$DH=CH=\\frac{1}{2}CD=3$，利用$S_{△BCD}=\\frac{1}{2}CD⋅BH=\\frac{1}{2}BD⋅CP$，求出$CP=\\frac{24}{5}$，可得$BP=\\sqrt{BC^{2}-CP^{2}}=\\frac{7}{5}$，证明△ADT≌△CBP，得出$DT=BP=\\frac{7}{5}$，求出$DP=BD-BP=5-\\frac{7}{5}=\\frac{18}{5}$，证明△DGT∽△DCP，利用相似三角形的性质即可求解．\n【解答】解：（1）①PM＝CM；理由如下：\n由翻折得AD＝DP，∠DAB＝∠DPB，四边形ABCD是平行四边形，\n∴AD＝BC，∠DAB＝∠BCD，\n∴DP＝BC，∠DPB＝∠BCD，\n又∵∠DMP＝∠BMC，\n∴△DPM≌△BCM（AAS），\n∴PM＝CM；\n②∵△DPM≌△BCM，\n∴DM＝BM，\n如图，过点M作MN⊥BD于点N，过点B作BH⊥CD于点H，\n[[image:rId52]]\n∴$DN=BN=\\frac{1}{2}BD=\\frac{5}{2}$，\n∵BD＝BC＝5，CD＝6，\n∴$DH=CH=\\frac{1}{2}CD=3$，\n∴$cos∠CDB=\\frac{DH}{BD}=\\frac{3}{5}=\\frac{DN}{DM}=\\frac{\\frac{5}{2}}{DM}$，\n∴$DM=\\frac{25}{6}$，\n∴$MN=\\sqrt{DM^{2}-DN^{2}}=\\frac{10}{3}$，\n∴$S_{△BDM}=\\frac{1}{2}BD×MN=\\frac{1}{2}×5×\\frac{10}{3}=\\frac{25}{3}$；\n（2）过点C作CP⊥BD于点P，连接AG交BD于点T，过点B作BH⊥CD于点H，\n[[image:rId53]]\n由翻折的性质得AG⊥BD，\n同（2）可得$DH=CH=\\frac{1}{2}CD=3$，\n∴$BH=\\sqrt{BD^{2}-DH^{2}}=4$，\n∴$S_{△BCD}=\\frac{1}{2}CD⋅BH=\\frac{1}{2}BD⋅CP$，即6×4＝5•CP，\n得$CP=\\frac{24}{5}$，\n∴$BP=\\sqrt{BC^{2}-CP^{2}}=\\frac{7}{5}$，\n平行四边形ABCD中，AD＝BC，AD∥CB，\n∴∠ADT＝∠CBP，\n又∵∠ATD＝∠CPB＝90°，\n∴△ADT≌△CBP（AAS），\n∴$DT=BP=\\frac{7}{5}$，\n∴DP＝BD﹣BP＝5$-\\frac{7}{5}=\\frac{18}{5}$，\n∵AG⊥BD，CP⊥BD，\n∴GT∥CP，\n∴△DGT∽△DCP，\n∴$\\frac{DG}{DC}=\\frac{DT}{DP}$，\n即$\\frac{DG}{6}=\\frac{\\frac{7}{5}}{\\frac{18}{5}}$，\n解得：$DG=\\frac{7}{3}$．\n【点评】本题考查平行四边形的性质，全等三角形的判定与性质，等腰三角形的性质，三角函数，相似三角形的判定与性质，勾股定理．熟练掌握相关性质是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:33:24；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId55]] ____ [[image:rId56]] ____ [[image:rId57]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 13,
+      "images": [
+        {
+          "image_id": "2025年内蒙古中考数学试卷_q018_img01",
+          "path": "assets/2025年内蒙古中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定与性质",
+          "相似三角形的判定与性质",
+          "勾股定理",
+          "平行四边形的性质"
+        ],
+        "reasoning": "题目涉及全等三角形、相似三角形和勾股定理的应用，以及平行四边形的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定与性质\", \"相似三角形的判定与性质\", \"勾股定理\", \"平行四边形的性质\"],\n  \"reasoning\": \"题目涉及全等三角形、相似三角形和勾股定理的应用，以及平行四边形的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:51:19",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 18,
+      "ok": 18,
+      "fallback": 0
+    }
+  }
+}

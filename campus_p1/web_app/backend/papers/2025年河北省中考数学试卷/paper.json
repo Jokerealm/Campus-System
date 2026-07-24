@@ -1,0 +1,1199 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年河北省中考数学试卷",
+  "source": {
+    "name": "2025年河北省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年河北省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年河北省中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "从﹣5℃上升了5℃后的温度，在温度计上显示正确的是（ ）",
+      "stem_markdown": "从﹣5℃上升了5℃后的温度，在温度计上显示正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年河北省中考数学试卷_q001_img01](assets/2025年河北省中考数学试卷_q001_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年河北省中考数学试卷_q001_img02](assets/2025年河北省中考数学试卷_q001_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年河北省中考数学试卷_q001_img03](assets/2025年河北省中考数学试卷_q001_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年河北省中考数学试卷_q001_img04](assets/2025年河北省中考数学试卷_q001_img04.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据题意列出算式﹣5+5，然后根据互为相反数的两个数相加得0计算即可判断．\n【解答】解：根据题意得﹣5+5＝0（℃），\n即温度计上显示0℃，\n故选：B．\n【点评】本题考查了有理数的加法，熟练掌握运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q001_img01",
+          "path": "assets/2025年河北省中考数学试卷_q001_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q001_img02",
+          "path": "assets/2025年河北省中考数学试卷_q001_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q001_img03",
+          "path": "assets/2025年河北省中考数学试卷_q001_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q001_img04",
+          "path": "assets/2025年河北省中考数学试卷_q001_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "有理数的加法",
+          "相反数的概念"
+        ],
+        "reasoning": "题中计算从﹣5℃上升5℃后的温度，涉及有理数加法和相反数的概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"有理数的加法\", \"相反数的概念\"],\n  \"reasoning\": \"题中计算从﹣5℃上升5℃后的温度，涉及有理数加法和相反数的概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "榫卯结构是两个构件采取凹凸结合的连接方式．如图是某个构件的截面图，其中AD∥BC，∠ABC＝70°，则∠BAD＝（ ）\n[图1]",
+      "stem_markdown": "榫卯结构是两个构件采取凹凸结合的连接方式．如图是某个构件的截面图，其中AD∥BC，∠ABC＝70°，则∠BAD＝（ ）\n![2025年河北省中考数学试卷_q002_img01](assets/2025年河北省中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "70°"
+        },
+        {
+          "label": "B",
+          "text": "100°"
+        },
+        {
+          "label": "C",
+          "text": "110°"
+        },
+        {
+          "label": "D",
+          "text": "130°"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】由平行线的性质推出∠BAD+∠ABC＝180°，即可求出∠BAD的度数．\n【解答】解：∵AD∥BC，\n∴∠BAD+∠ABC＝180°，\n∵∠ABC＝70°，\n∴∠BAD＝110°．\n故选：C．\n【点评】本题考查平行线的性质，关键是掌握两直线平行，同旁内角互补．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q002_img01",
+          "path": "assets/2025年河北省中考数学试卷_q002_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同旁内角互补",
+          "平行线的性质"
+        ],
+        "reasoning": "利用AD∥BC和同旁内角互补的性质得出∠BAD+∠ABC=180°，进而求出∠BAD的度数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同旁内角互补\", \"平行线的性质\"],\n  \"reasoning\": \"利用AD∥BC和同旁内角互补的性质得出∠BAD+∠ABC=180°，进而求出∠BAD的度数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "计算：（\\sqrt{10}+\\sqrt{6}）（\\sqrt{10}-\\sqrt{6}）＝（ ）",
+      "stem_markdown": "计算：（$\\sqrt{10}+\\sqrt{6}$）（$\\sqrt{10}-\\sqrt{6}$）＝（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据平方差公式计算即可．\n【解答】解：（$\\sqrt{10}+\\sqrt{6}$）（$\\sqrt{10}-\\sqrt{6}$）\n＝10﹣6\n＝4，\n故选：B．\n【点评】本题考查二次根式的混合运算，熟练掌握运算法则是解答本题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平方差公式",
+          "二次根式乘法"
+        ],
+        "reasoning": "题目使用了平方差公式进行计算",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平方差公式\", \"二次根式乘法\"],\n  \"reasoning\": \"题目使用了平方差公式进行计算\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "“这么近，那么美，周末到河北”．嘉嘉周末到弘济桥游览，发现青石桥面上有三叶虫化石，他想了解其长度，在化石旁放了一支笔拍下照片（如图）．回家后量出照片上笔和化石的长度分别为7cm和4cm，笔的实际长度为14cm，则该化石的实际长度为（ ）\n[图1]",
+      "stem_markdown": "“这么近，那么美，周末到河北”．嘉嘉周末到弘济桥游览，发现青石桥面上有三叶虫化石，他想了解其长度，在化石旁放了一支笔拍下照片（如图）．回家后量出照片上笔和化石的长度分别为7cm和4cm，笔的实际长度为14cm，则该化石的实际长度为（ ）\n![2025年河北省中考数学试卷_q004_img01](assets/2025年河北省中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "2cm"
+        },
+        {
+          "label": "B",
+          "text": "6cm"
+        },
+        {
+          "label": "C",
+          "text": "8cm"
+        },
+        {
+          "label": "D",
+          "text": "10cm"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据题意列出比例即可解答．\n【解答】解：设该化石的实际长度为xcm，根据题意得：\n$\\frac{14}{7}=\\frac{x}{4}$，\n解得x＝8，\n所以该化石的实际长度为8cm．\n故选：C．\n【点评】本题考查了比的应用，正确列出比例是解答本题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q004_img01",
+          "path": "assets/2025年河北省中考数学试卷_q004_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "比例关系",
+          "相似图形"
+        ],
+        "reasoning": "根据照片上笔和化石的长度比例计算实际长度",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"比例关系\", \"相似图形\"],\n  \"reasoning\": \"根据照片上笔和化石的长度比例计算实际长度\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "一个几何体由圆柱和正方体组成，其主视图、俯视图如图所示，则其左视图为（ ）\n[图1]",
+      "stem_markdown": "一个几何体由圆柱和正方体组成，其主视图、俯视图如图所示，则其左视图为（ ）\n![2025年河北省中考数学试卷_q005_img01](assets/2025年河北省中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年河北省中考数学试卷_q005_img02](assets/2025年河北省中考数学试卷_q005_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年河北省中考数学试卷_q005_img03](assets/2025年河北省中考数学试卷_q005_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年河北省中考数学试卷_q005_img04](assets/2025年河北省中考数学试卷_q005_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年河北省中考数学试卷_q005_img05](assets/2025年河北省中考数学试卷_q005_img05.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据主视图和俯视图，可判断左视图．\n【解答】解：由俯视图中的正方形位于横向的对称轴的位置上，故选项A的左视图符合题意．\n故选：A．\n【点评】本题考查三视图判断几何体，解题的关键是学会观察，灵活运用所学知识解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q005_img01",
+          "path": "assets/2025年河北省中考数学试卷_q005_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q005_img02",
+          "path": "assets/2025年河北省中考数学试卷_q005_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q005_img03",
+          "path": "assets/2025年河北省中考数学试卷_q005_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q005_img04",
+          "path": "assets/2025年河北省中考数学试卷_q005_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q005_img05",
+          "path": "assets/2025年河北省中考数学试卷_q005_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三视图",
+          "正方体",
+          "圆柱"
+        ],
+        "reasoning": "根据主视图和俯视图判断左视图，涉及三视图的概念。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三视图\", \"正方体\", \"圆柱\"],\n  \"reasoning\": \"根据主视图和俯视图判断左视图，涉及三视图的概念。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "若一元二次方程x（x+2）﹣3＝0的两根之和与两根之积分别为m，n，则点（m，n）在平面直角坐标系中位于（ ）",
+      "stem_markdown": "若一元二次方程x（x+2）﹣3＝0的两根之和与两根之积分别为m，n，则点（m，n）在平面直角坐标系中位于（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "第一象限"
+        },
+        {
+          "label": "B",
+          "text": "第二象限"
+        },
+        {
+          "label": "C",
+          "text": "第三象限"
+        },
+        {
+          "label": "D",
+          "text": "第四象限"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】先求出两根之和、两根之积，从而判断m，n的符号可以得解．\n【解答】解：由方程x（x+2）﹣3＝0，\n得到$x^{2}$+2x﹣3＝0．\n两根之和：$-\\frac{2}{1}=-2$，\n两根之积：$\\frac{-3}{1}=-$3．\n∴m，n都为负数，\n∴点（m，n）在第三象限．\n故选：C．\n【点评】本题主要考查了根与系数的关系、点的坐标，解题时要熟练掌握根与系数的关系是解题关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "根与系数的关系",
+          "一元二次方程的根"
+        ],
+        "reasoning": "根据方程求出两根之和与两根之积，判断m，n的符号",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"根与系数的关系\", \"一元二次方程的根\"],\n  \"reasoning\": \"根据方程求出两根之和与两根之积，判断m，n的符号\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "抛掷一个质地均匀的正方体木块（6个面上分别标有1，2，3中的一个数字），若向上一面出现数字1的概率为\\frac{1}{2}，出现数字2的概率为\\frac{1}{3}，则该木块不可能是（ ）",
+      "stem_markdown": "抛掷一个质地均匀的正方体木块（6个面上分别标有1，2，3中的一个数字），若向上一面出现数字1的概率为$\\frac{1}{2}$，出现数字2的概率为$\\frac{1}{3}$，则该木块不可能是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年河北省中考数学试卷_q007_img01](assets/2025年河北省中考数学试卷_q007_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年河北省中考数学试卷_q007_img02](assets/2025年河北省中考数学试卷_q007_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年河北省中考数学试卷_q007_img03](assets/2025年河北省中考数学试卷_q007_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年河北省中考数学试卷_q007_img04](assets/2025年河北省中考数学试卷_q007_img04.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】直接由概率公式求解即可．\n【解答】解：∵向上一面出现数字1的概率为$\\frac{1}{2}$，出现数字2的概率为$\\frac{1}{3}$，\n∴6个面中要有3个面标有“1”，有2个面标有“2”，\n∴只能有一个面标有“3”，\n∴该木块不可能是选项A．\n故选：A．\n【点评】此题考查了概率公式以及概率的意义，概率＝所求情况数与总情况数之比．熟记概率公式是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q007_img01",
+          "path": "assets/2025年河北省中考数学试卷_q007_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q007_img02",
+          "path": "assets/2025年河北省中考数学试卷_q007_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q007_img03",
+          "path": "assets/2025年河北省中考数学试卷_q007_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q007_img04",
+          "path": "assets/2025年河北省中考数学试卷_q007_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率公式",
+          "古典概型"
+        ],
+        "reasoning": "题中条件给出了出现数字1和数字2的概率，要求判断哪个木块不可能符合这些条件。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率公式\", \"古典概型\"],\n  \"reasoning\": \"题中条件给出了出现数字1和数字2的概率，要求判断哪个木块不可能符合这些条件。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "若a＝﹣3，则\\frac{a^{2}+12a+36}{a^{2}+6a}=（ ）",
+      "stem_markdown": "若a＝﹣3，则$\\frac{a^{2}+12a+36}{a^{2}+6a}=$（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣3"
+        },
+        {
+          "label": "B",
+          "text": "﹣1"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】先化简再求值即可．\n【解答】解：原式$=\\frac{a^{2}+12a+36}{a^{2}+6a}=\\frac{(a+6)^{2}}{a(a+6)}=$$\\frac{a+6}{a}$\n当a＝﹣3时，原式$=\\frac{-3+6}{-3}=-$1．\n故选：B．\n【点评】本题考查代数式求值，按照代数式规定的运算，计算的结果就是代数式的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "完全平方公式",
+          "分式化简",
+          "代入求值"
+        ],
+        "reasoning": "代数式化简后代入a=﹣3求值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"完全平方公式\", \"分式化简\", \"代入求值\"],\n  \"reasoning\": \"代数式化简后代入a=﹣3求值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，在五边形ABCDE中，AE∥BC，延长BA，BC，分别交直线DE于点M，N．若添加下列一个条件后，仍无法判定△MAE∽△DCN，则这个条件是（ ）\n[图1]",
+      "stem_markdown": "如图，在五边形ABCDE中，AE∥BC，延长BA，BC，分别交直线DE于点M，N．若添加下列一个条件后，仍无法判定△MAE∽△DCN，则这个条件是（ ）\n![2025年河北省中考数学试卷_q009_img01](assets/2025年河北省中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "∠B+∠4＝180°"
+        },
+        {
+          "label": "B",
+          "text": "CD∥AB"
+        },
+        {
+          "label": "C",
+          "text": "∠1＝∠4"
+        },
+        {
+          "label": "D",
+          "text": "∠2＝∠3"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】先根据平行线的性质得到∠AEM＝∠CND，∠MAE＝∠B，当添加∠B+∠4＝180°时，根据等角的补角相等证明∠DCN＝∠B，所以∠DCN＝∠MAE，则根据相似三角形的判定方法可对A选项进行判断；当添加CD∥AB时，根据平行线的性质得到∠DCN＝∠B，所以∠DCN＝∠MAE，则根据相似三角形的判定方法可对B选项进行判断；当添加∠1＝∠4时，根据等角的补角相等证明∠DCN＝∠MAE，则根据相似三角形的判定方法可对C选项进行判断；当添加∠2＝∠3时，根据等角的补角相等证明∠AEM＝∠CDN＝∠CND，于是根据相似三角形的判定方法可对D选项进行判断．\n【解答】解：∵AE∥BC，\n∴∠AEM＝∠CND，∠MAE＝∠B，\n当添加∠B+∠4＝180°时，\n∵∠DCN+∠4＝180°，\n∴∠DCN＝∠B，\n∴∠DCN＝∠MAE，\n∴△MAE∽△DCN，所以A选项不符合题意；\n当添加CD∥AB时，\n∴∠DCN＝∠B，\n∴∠DCN＝∠MAE，\n∴△MAE∽△DCN，所以B选项不符合题意；\n当添加∠1＝∠4时，\n∵∠MAE+∠1＝180°，∠DCN+∠4＝180°，\n∴∠DCN＝∠MAE，\n∴△MAE∽△DCN，所以C选项不符合题意；\n当添加∠2＝∠3时，\n∵∠AEM+∠2＝180°，∠CDN+∠3＝180°，\n∴∠AEM＝∠CDN＝∠CND\n∴不能判断△MAE∽△DCN，所以D选项符合题意．\n故选：D．\n【点评】本题考查了相似三角形的判定：有两组角对应相等的两个三角形相似．也考查了平行线的性质．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q009_img01",
+          "path": "assets/2025年河北省中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行线的性质",
+          "相似三角形的判定",
+          "等角的补角相等"
+        ],
+        "reasoning": "添加∠2＝∠3时，根据等角的补角相等证明∠AEM＝∠CDN＝∠CND，从而无法判定△MAE∽△DCN。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行线的性质\", \"相似三角形的判定\", \"等角的补角相等\"],\n  \"reasoning\": \"添加∠2＝∠3时，根据等角的补角相等证明∠AEM＝∠CDN＝∠CND，从而无法判定△MAE∽△DCN。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "在反比例函数y=\\frac{4}{x}中，若2＜y＜4，则（ ）",
+      "stem_markdown": "在反比例函数y$=\\frac{4}{x}$中，若2＜y＜4，则（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}＜$x＜1"
+        },
+        {
+          "label": "B",
+          "text": "1＜x＜2"
+        },
+        {
+          "label": "C",
+          "text": "2＜x＜4"
+        },
+        {
+          "label": "D",
+          "text": "4＜x＜8"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据反比例函数图象的性质代入函数值的范围即可求出x的取值范围．\n【解答】解：∵反比例函数y$=\\frac{4}{x}$，k＝4＞0，\n∴在每个象限内，y随x的增大而减小，\n∴当2＜y＜4时，$\\frac{4}{4}＜$x$＜\\frac{4}{2}$，\n∴1＜x＜2．\n故选：B．\n【点评】本题考查反比例函数的性质，解答本题的关键是明确题意，利用反比例函数的性质解答．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的性质",
+          "反比例函数图象的增减性"
+        ],
+        "reasoning": "根据反比例函数 y=\\frac{4}{x}，当 2＜y＜4 时，确定 x 的取值范围。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的性质\", \"反比例函数图象的增减性\"],\n  \"reasoning\": \"根据反比例函数 y=\\\\frac{4}{x}，当 2＜y＜4 时，确定 x 的取值范围。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem_text": "如图，将矩形ABCD沿对角线BD折叠，点A落在A′处，A′D交BC于点E．将△CDE沿DE折叠，点C落在△BDE内的C′处，下列结论一定正确的是（ ）\n[图1]",
+      "stem_markdown": "如图，将矩形ABCD沿对角线BD折叠，点A落在A′处，A′D交BC于点E．将△CDE沿DE折叠，点C落在△BDE内的C′处，下列结论一定正确的是（ ）\n![2025年河北省中考数学试卷_q011_img01](assets/2025年河北省中考数学试卷_q011_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "∠1＝45°﹣α"
+        },
+        {
+          "label": "B",
+          "text": "∠1＝α"
+        },
+        {
+          "label": "C",
+          "text": "∠2＝90°﹣α"
+        },
+        {
+          "label": "D",
+          "text": "∠2＝2α"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据矩形的性质的可得AD∥BC，∠C＝90°，则∠ADB＝∠1，进而根据折叠的性质得出2∠1＝90°﹣α，∠2＝2α，即可求解．\n【解答】解：∵四边形ABCD是矩形，\n∴AD∥BC，∠C＝90°，\n∴∠ADB＝∠1，\n∵将矩形ABCD沿对角线BD折叠，\n∴∠ADB＝∠A'DB，\n∴∠1＝∠A'DB，\n∵∠DEC＝90°﹣α，\n即2∠1＝90°﹣α，\n∴$∠1=45°-\\frac{1}{2}α$，故A不正确，\n∵∠BDE≠∠CDE，\n∴∠1≠α，故B不正确，\n∵将矩形ABCD沿对角线ED折叠，\n∴∠C'ED＝∠CED\n∠2＝180°﹣2∠CED＝180°﹣2（90°﹣α）＝2α，故C不正确，D选项正确，\n故选：D．\n【点评】本题考查了矩形的折叠问题，三角形内角和定理以及三角形的外角的性质，熟练掌握折叠的性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q011_img01",
+          "path": "assets/2025年河北省中考数学试卷_q011_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形内角和定理",
+          "折叠的性质",
+          "三角形外角的性质"
+        ],
+        "reasoning": "题中折叠后利用三角形内角和及外角性质得出∠2的度数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形内角和定理\", \"折叠的性质\", \"三角形外角的性质\"],\n  \"reasoning\": \"题中折叠后利用三角形内角和及外角性质得出∠2的度数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem_text": "在平面直角坐标系中，横、纵坐标都是整数的点称为整点．如图，正方形EFGH与正方形OABC的顶点均为整点．若只将正方形EFGH平移，使其内部（不含边界）有且只有A，B，C三个整点，则平移后点E的对应点坐标为（ ）\n[图1]",
+      "stem_markdown": "在平面直角坐标系中，横、纵坐标都是整数的点称为整点．如图，正方形EFGH与正方形OABC的顶点均为整点．若只将正方形EFGH平移，使其内部（不含边界）有且只有A，B，C三个整点，则平移后点E的对应点坐标为（ ）\n![2025年河北省中考数学试卷_q012_img01](assets/2025年河北省中考数学试卷_q012_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(\\frac{7}{5}，\\frac{11}{5})$"
+        },
+        {
+          "label": "B",
+          "text": "$(\\frac{8}{5}，\\frac{23}{10})$"
+        },
+        {
+          "label": "C",
+          "text": "$(\\frac{3}{2}，2)$"
+        },
+        {
+          "label": "D",
+          "text": "$(\\frac{3}{2}，\\frac{9}{4})$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】待定系数法求得直线FG的解析式为y＝﹣2x﹣1，根据选项判断平移方式，结合题意，即可求解．\n【解答】：设直线 FG的解析式为 y＝kx+b，代入（﹣1，1），（0，﹣1），\n∴$\\begin{cases} 1=-k+b \\\\ -1=b \\end{cases}$，解得$\\begin{cases} k=-2 \\\\ b=-1 \\end{cases}$，\n∴直线FG的解析式为 y＝﹣2x﹣1，\n∵E（1，2），\nA．当E为$(\\frac{7}{5}，\\frac{11}{5})$时，平移方式为向右平移$\\frac{2}{5}$个单位，向上平移$\\frac{1}{5}$个单位，\n∴直线FG平移后的解析式为$y=-2(x-\\frac{2}{5})-1+\\frac{1}{5}=-2x$，此时经过原点，对应的EH经过整点（2，1），符合题意，\nB．当E为$(\\frac{8}{5}，\\frac{23}{10})$时，平移方式为向右平移$\\frac{3}{5}$个单位，向上平移$\\frac{3}{10}$个单位，\n∴直线FG平移后的解析式为$y=-2(x-\\frac{3}{5})-1+\\frac{3}{10}=-2x+\\frac{1}{2}$，此时原点在FG下方，对应的EH在整点（2，1）上方，不符合题意，\nC．当E为$(\\frac{3}{2}，2)$时，平移方式为向右平移$\\frac{1}{2}$个单位，\n∴直线FG平移后的解析式为$y=-2(x-\\frac{1}{2})-1=-2x$，此时点（2，0）在正方形内部，不符合题意，\nD．当E为$(\\frac{3}{2}，\\frac{9}{4})$时，平移方式为向右平移$\\frac{1}{2}$个单位，向上平移$\\frac{1}{4}$个单位，\n∴直线FG平移后的解析式为y＝﹣2（x$-\\frac{1}{2}$）﹣1$+\\frac{1}{4}=-$2x$+\\frac{1}{4}$，此时点（2，1）在正方形内部，不符合题意，\n故选：A．\n【点评】本题考查了坐标与图象，一次函数的平移，正方形的性质，解题的关键是掌握相关知识的灵活运用．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q012_img01",
+          "path": "assets/2025年河北省中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数的平移",
+          "正方形的性质",
+          "整点的定义"
+        ],
+        "reasoning": "通过平移直线FG并判断平移后的直线是否经过整点A、B、C。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数的平移\", \"正方形的性质\", \"整点的定义\"],\n  \"reasoning\": \"通过平移直线FG并判断平移后的直线是否经过整点A、B、C。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "计算：2a²+4a²＝ ____ ．",
+      "stem_markdown": "计算：$2a^{2}+4a^{2}$＝ ____ ．",
+      "options": [],
+      "answer": "$6a^{2}$．",
+      "solution": "【分析】合并同类项的法则是系数和系数相加作为系数，字母和字母的指数不变．\n【解答】解：$2a^{2}+4a^{2}$＝（2+4）$a^{2}＝6a^{2}$．\n故答案为：$6a^{2}$．\n【点评】本题主要考查了合并同类项的法则，熟练掌握运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "合并同类项"
+        ],
+        "reasoning": "题目要求合并同类项，即系数相加，字母部分保持不变。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"合并同类项\"],\n  \"reasoning\": \"题目要求合并同类项，即系数相加，字母部分保持不变。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "平行四边形的一组邻边长分别为3，4，一条对角线长为n．若n为整数，则n的值可以为 ____ ．（写出一个即可）",
+      "stem_markdown": "平行四边形的一组邻边长分别为3，4，一条对角线长为n．若n为整数，则n的值可以为 ____ ．（写出一个即可）",
+      "options": [],
+      "answer": "2或3或4或5或6．",
+      "solution": "【分析】由平行四边形两个邻边长分别为3和4，根据三角形的三边关系，即可求得它的一条对角线长n的取值范围．\n【解答】解：如图，[[image:rId57]]\n∵平行四边形两个邻边长分别为3和4，\n∴它的一条对角线长n的取值范围是：4﹣3＜n＜4+3，\n即它的一条对角线长n的取值范围是：1＜n＜7．\n∴n＝2或3或4或5或6．\n故答案为：2或3或4或5或6．\n【点评】此题考查了平行四边形的性质以及三角形的三边关系．此题比较简单，注意掌握三角形三边关系的应用．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形的三边关系",
+          "平行四边形的性质"
+        ],
+        "reasoning": "题中通过三角形两边之差小于第三边，得出对角线长度的取值范围",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形的三边关系\", \"平行四边形的性质\"],\n  \"reasoning\": \"题中通过三角形两边之差小于第三边，得出对角线长度的取值范围\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "甲、乙两张等宽的长方形纸条，长分别为a，b．如图，将甲纸条的\\frac{1}{3}与乙纸条的\\frac{2}{5}叠合在一起，形成长为81的纸条，则a+b＝ ____ ．\n[图1]",
+      "stem_markdown": "甲、乙两张等宽的长方形纸条，长分别为a，b．如图，将甲纸条的$\\frac{1}{3}$与乙纸条的$\\frac{2}{5}$叠合在一起，形成长为81的纸条，则a+b＝ ____ ．\n![2025年河北省中考数学试卷_q015_img01](assets/2025年河北省中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "99．",
+      "solution": "【分析】根据将甲纸条的$\\frac{1}{3}$与乙纸条的$\\frac{2}{5}$叠合在一起，形成长为81的纸条，列方程组即可得到结论．\n【解答】解：根据题意得，$\\begin{cases} \\frac{1}{3}a=\\frac{2}{5}b \\\\ (1-\\frac{1}{3})a+b=81 \\end{cases}$，\n解得$\\begin{cases} a=54 \\\\ b=45 \\end{cases}$，\n∴a+b＝99，\n故答案为：99．\n【点评】本题考查了二元一次方程组的应用，正确地理解题意列出方程组是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q015_img01",
+          "path": "assets/2025年河北省中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方程组应用",
+          "分数运算"
+        ],
+        "reasoning": "题中通过叠合纸条形成新长度列出方程组，涉及分数运算和方程组求解。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方程组应用\", \"分数运算\"],\n  \"reasoning\": \"题中通过叠合纸条形成新长度列出方程组，涉及分数运算和方程组求解。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "2025年3月是第10个全国近视防控宣传教育月，活动主题为“抓早抓小抓关键，更快降低近视率”．如图是一幅眼肌运动训练图，其中数字1﹣12对应的点均匀分布在一个圆上，数字0对应圆心．图中以数字0～12对应的点为端点的所有线段中，有一条线段的长与其他的都不相等．若该圆的半径为1，则这条线段的长为 ____ ．\n（参考数据：sin15°=\\frac{\\sqrt{6}-\\sqrt{2}}{4}，sin75°=\\frac{\\sqrt{6}+\\sqrt{2}}{4}）\n眼肌运动训练图\n[图1] 使用方法：以0，1，2，3，…的顺序沿着箭头方向移动眼球．移动一圈后再回到原点，反复进行．",
+      "stem_markdown": "2025年3月是第10个全国近视防控宣传教育月，活动主题为“抓早抓小抓关键，更快降低近视率”．如图是一幅眼肌运动训练图，其中数字1﹣12对应的点均匀分布在一个圆上，数字0对应圆心．图中以数字0～12对应的点为端点的所有线段中，有一条线段的长与其他的都不相等．若该圆的半径为1，则这条线段的长为 ____ ．\n（参考数据：sin15°$=\\frac{\\sqrt{6}-\\sqrt{2}}{4}$，sin75°$=\\frac{\\sqrt{6}+\\sqrt{2}}{4}$）\n| 眼肌运动训练图 |\n| --- |\n| ![2025年河北省中考数学试卷_q016_img01](assets/2025年河北省中考数学试卷_q016_img01.png) 使用方法：以0，1，2，3，…的顺序沿着箭头方向移动眼球．移动一圈后再回到原点，反复进行． |",
+      "options": [],
+      "answer": "$\\frac{\\sqrt{6}+\\sqrt{2}}{2}$．",
+      "solution": "【分析】如图所示，设数字0记为圆心O，数字6记为A，数字7记为B，过点O作OD⊥AB于点D，首先得到线段AB的长与其他的都不相等，然后求出∠BOD＝75°，解直角三角形求出$BD=\\frac{\\sqrt{6}+\\sqrt{2}}{4}$，然后利用三线合一求解即可．\n【解答】解：如图所示，设数字0记为圆心O，数字6记为A，数字7记为B，过点O作OD⊥AB于点D，\n| 眼肌运动训练图 |\n| --- |\n| [[image:rId60]] 使用方法：以0，1，2，3，…的顺序沿着箭头方向移动眼球．移动一圈后再回到原点，反复进行． |\n由图可得，线段AB的长与其他的都不相等，\n∵其中数字1﹣12对应的点均匀分布在一个圆上，\n∴360°÷12＝30°，\n∴相邻两个数字与圆心O组成的圆心角为30°，\n∴∠AOB＝30°×5＝150°，\n∴$∠OAB=∠OBA=\\frac{1}{2}(180°-∠AOB)=15°$，\n∵OD⊥AB，\n∴∠BOD＝75°，\n∴$sin∠BOD=sin75°=\\frac{BD}{OB}$，\n即$\\frac{\\sqrt{6}+\\sqrt{2}}{4}=\\frac{BD}{1}$，\n∴$BD=\\frac{\\sqrt{6}+\\sqrt{2}}{4}$，\n∵OA＝OB，OD⊥AB，\n∴$AB=2BD=\\frac{\\sqrt{6}+\\sqrt{2}}{2}$，\n∴这条线段的长为$\\frac{\\sqrt{6}+\\sqrt{2}}{2}$，\n故答案为：$\\frac{\\sqrt{6}+\\sqrt{2}}{2}$．\n【点评】此题考查了圆心角，解直角三角形，等边对等角，三线合一性质等知识，解题的关键是掌握以上知识点．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q016_img01",
+          "path": "assets/2025年河北省中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正弦函数",
+          "圆周角定理",
+          "等腰三角形性质",
+          "勾股定理"
+        ],
+        "reasoning": "计算过程中使用了正弦函数值和圆周角定理来确定角度关系，同时利用了等腰三角形的性质和勾股定理来求解线段长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正弦函数\", \"圆周角定理\", \"等腰三角形性质\", \"勾股定理\"],\n  \"reasoning\": \"计算过程中使用了正弦函数值和圆周角定理来确定角度关系，同时利用了等腰三角形的性质和勾股定理来求解线段长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "（1）解不等式2x≤6，并在如图所给的数轴上表示其解集；\n（2）解不等式3﹣x＜5，并在如图所给的数轴上表示其解集；\n（3）直接写出不等式组\\begin{cases} 2x≤6 \\\\ 3-x＜5 \\end{cases}的解集．\n[图1]",
+      "stem_markdown": "（1）解不等式2x≤6，并在如图所给的数轴上表示其解集；\n（2）解不等式3﹣x＜5，并在如图所给的数轴上表示其解集；\n（3）直接写出不等式组$\\begin{cases} 2x≤6 \\\\ 3-x＜5 \\end{cases}$的解集．\n![2025年河北省中考数学试卷_q017_img01](assets/2025年河北省中考数学试卷_q017_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据解一元一次不等式的步骤，求出不等式的解集，并将解集在数轴上表示出来．\n（2）根据解一元一次不等式的步骤，求出不等式的解集，并将解集在数轴上表示出来．\n（3）结合（1）（2），写出不等式组的解集即可．\n【解答】解：（1）2x≤6，\nx≤3，\n数轴表示如下：\n[[image:rId62]]．\n（2）3﹣x＜5，\n﹣x＜2，\nx＞﹣2，\n数轴表示如上图．\n（3）由（1）（2）知，\n不等式组$\\begin{cases} 2x≤6 \\\\ 3-x＜5 \\end{cases}$的解集为：﹣2＜x≤3．\n【点评】本题主要考查了解一元一次不等式（组）及在数轴上表示不等式的解集，熟知解一元一次不等式（组）的步骤是解题的关键．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q017_img01",
+          "path": "assets/2025年河北省中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式的解法",
+          "数轴表示解集"
+        ],
+        "reasoning": "第（1）（2）问分别解了一元一次不等式并表示解集；第（3）问结合两问的结果得出不等式组的解集。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式的解法\", \"数轴表示解集\"],\n  \"reasoning\": \"第（1）（2）问分别解了一元一次不等式并表示解集；第（3）问结合两问的结果得出不等式组的解集。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "（1）一道习题及其错误的解答过程如下：\n计算：（﹣6）×（\\frac{1}{2}+\\frac{2}{3}-\\frac{5}{6}）． 解：（﹣6）×（\\frac{1}{2}+\\frac{2}{3}-\\frac{5}{6}） ＝﹣6×\\frac{1}{2}+6×\\frac{2}{3}-6×\\frac{5}{6}⋯第一步 ＝﹣3+4﹣5……第二步 ＝﹣4……第三步\n请指出在第几步开始出现错误，并选择你喜欢的方法写出正确的解答过程．\n（2）计算：|2-\\sqrt{2}|﹣（﹣2）²×（\\frac{1}{2}-\\frac{1}{4}）．",
+      "stem_markdown": "（1）一道习题及其错误的解答过程如下：\n计算：（﹣6）×（$\\frac{1}{2}+$$\\frac{2}{3}-$$\\frac{5}{6}$）． 解：（﹣6）×（$\\frac{1}{2}+$$\\frac{2}{3}-$$\\frac{5}{6}$） ＝﹣6$×\\frac{1}{2}+6×\\frac{2}{3}-6×\\frac{5}{6}⋯$第一步 ＝﹣3+4﹣5……第二步 ＝﹣4……第三步\n请指出在第几步开始出现错误，并选择你喜欢的方法写出正确的解答过程．\n（2）计算：|2$-\\sqrt{2}$|﹣（﹣2）^{2}×（$\\frac{1}{2}-\\frac{1}{4}$）．",
+      "options": [],
+      "answer": "",
+      "solution": "解：（﹣6）×（$\\frac{1}{2}+$$\\frac{2}{3}-$$\\frac{5}{6}$） ＝﹣6$×\\frac{1}{2}+6×\\frac{2}{3}-6×\\frac{5}{6}⋯$第一步 ＝﹣3+4﹣5……第二步 ＝﹣4……第三步\n请指出在第几步开始出现错误，并选择你喜欢的方法写出正确的解答过程．\n（2）计算：|2$-\\sqrt{2}$|﹣（﹣2）^{2}×（$\\frac{1}{2}-\\frac{1}{4}$）．\n【分析】（1）根据题干中的解题步骤进行判断，并利用乘法分配律进行正确的计算即可；\n（2）先去绝对值并进行有理数的乘方运算，然后利用乘法分配律计算，最后算加减即可．\n【解答】解：（1）原解题步骤从第一步开始出现错误，正确解答过程如下：\n原式＝（﹣6）$×\\frac{1}{2}+$（﹣6）$×\\frac{2}{3}-$（﹣6）$×\\frac{5}{6}$\n＝﹣3﹣4+5\n＝﹣2；\n（2）原式＝2$-\\sqrt{2}-$4×（$\\frac{1}{2}-\\frac{1}{4}$）\n＝2$-\\sqrt{2}-$（4$×\\frac{1}{2}-$4$×\\frac{1}{4}$）\n＝2$-\\sqrt{2}-$（2﹣1）\n＝2$-\\sqrt{2}-$1\n＝1$-\\sqrt{2}$．\n【点评】本题考查有理数的混合运算，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "乘法分配律",
+          "绝对值",
+          "有理数的乘方"
+        ],
+        "reasoning": "第一步使用乘法分配律错误，导致结果错误。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"乘法分配律\", \"绝对值\", \"有理数的乘方\"],\n  \"reasoning\": \"第一步使用乘法分配律错误，导致结果错误。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "如图，四边形ABCD的对角线AC，BD相交于点E，AC＝AD，∠ACB＝∠ADB，点F在ED上，∠BAF＝∠EAD．\n（1）求证：△ABC≌△AFD；\n（2）若BE＝FE，求证：AC⊥BD．\n[图1]",
+      "stem_markdown": "如图，四边形ABCD的对角线AC，BD相交于点E，AC＝AD，∠ACB＝∠ADB，点F在ED上，∠BAF＝∠EAD．\n（1）求证：△ABC≌△AFD；\n（2）若BE＝FE，求证：AC⊥BD．\n![2025年河北省中考数学试卷_q019_img01](assets/2025年河北省中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由AC，BD相交于点E，∠ACB＝∠ADB，点F在ED上，得∠ACB＝∠ADF，由∠BAF＝∠EAD，推导出∠BAC＝∠FAD，而AC＝AD，即可根据“ASA”证明△ABC≌△AFD；\n（2）由全等三角形的性质得AB＝AF，而BE＝FE，根据等腰三角形的“三线合一”得AC⊥BD．\n【解答】证明：（1）∵AC，BD相交于点E，∠ACB＝∠ADB，点F在ED上，\n∴∠ACB＝∠ADF，\n∵∠BAF＝∠EAD，\n∴∠BAF﹣∠CAF＝∠EAD﹣∠CAF，\n∴∠BAC＝∠FAD，\n在△ABC和△AFD中，\n$\\begin{cases} ∠BAC=∠FAD \\\\ AC=AD \\\\ ∠ACB=∠ADF \\end{cases}$，\n∴△ABC≌△AFD（ASA）．\n（2）由（1）得△ABC≌△AFD，\n∴AB＝AF，\n∵BE＝FE，\n∴AC⊥BF，即AC⊥BD．\n【点评】此题重点考查全等三角形的判定与性质、等腰三角形的“三线合一”等知识，推导出∠BAC＝∠FAD，进而证明△ABC≌△AFD是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q019_img01",
+          "path": "assets/2025年河北省中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定（ASA）",
+          "等腰三角形的性质（三线合一）"
+        ],
+        "reasoning": "（1）由∠ACB＝∠ADF 和 ∠BAF＝∠EAD 推导出∠BAC＝∠FAD；（2）由 BE＝FE 得到 AC⊥BF，即 AC⊥BD。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定（ASA）\", \"等腰三角形的性质（三线合一）\"],\n  \"reasoning\": \"（1）由∠ACB＝∠ADF 和 ∠BAF＝∠EAD 推导出∠BAC＝∠FAD；（2）由 BE＝FE 得到 AC⊥BF，即 AC⊥BD。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "某工厂生产A，B，C，D四种产品．为提升产品的竞争力，该工厂计划对部分种类的产品优化生产流程，降低成本；对其他种类的产品增加研发投入，提升品质．经研究，该工厂做出了甲、乙两种调整方案，这两种方案将对四种产品的成本产生不同的影响．\n下面是该工厂这四种产品的部分信息：\na．调整前，各产品年产量的不完整的条形统计图（图1）和扇形统计图（图2）．\n[图1]\nb．各产品单件成本的核算情况统计表及说明．\n类别 数据 产品 | A | B | C | D\n调整前单件成本/（元/件） | 18 | 26 | 20 | 36\n调整后单件成本/（元/件） | 方案甲 | 13 | 22 | m | 40\n方案乙 | 16 | n | 18 | 32\n说明：对于统计表中的数据，方案甲的平均数与调整前的相同，方案乙的中位数与调整前的相同．\n根据以上信息，解答下列问题：\n（1）求调整前A产品的年产量；\n（2）直接写出m，n的值；\n（3）若调整后这四种产品的年产量均与调整前的相同，请通过计算说明甲、乙两种方案哪种总成本较低．",
+      "stem_markdown": "某工厂生产A，B，C，D四种产品．为提升产品的竞争力，该工厂计划对部分种类的产品优化生产流程，降低成本；对其他种类的产品增加研发投入，提升品质．经研究，该工厂做出了甲、乙两种调整方案，这两种方案将对四种产品的成本产生不同的影响．\n下面是该工厂这四种产品的部分信息：\na．调整前，各产品年产量的不完整的条形统计图（图1）和扇形统计图（图2）．\n![2025年河北省中考数学试卷_q020_img01](assets/2025年河北省中考数学试卷_q020_img01.png)\nb．各产品单件成本的核算情况统计表及说明．\n| 类别 数据 产品 | A | B | C | D |  |\n| --- | --- | --- | --- | --- | --- |\n| 调整前单件成本/（元/件） | 18 | 26 | 20 | 36 |  |\n| 调整后单件成本/（元/件） | 方案甲 | 13 | 22 | m | 40 |\n| 方案乙 | 16 | n | 18 | 32 |  |\n说明：对于统计表中的数据，方案甲的平均数与调整前的相同，方案乙的中位数与调整前的相同．\n根据以上信息，解答下列问题：\n（1）求调整前A产品的年产量；\n（2）直接写出m，n的值；\n（3）若调整后这四种产品的年产量均与调整前的相同，请通过计算说明甲、乙两种方案哪种总成本较低．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先根据调整前D产品产量及其所占百分比求出总产量，再用总产量乘C对应百分比求出其产量，再根据四个产品的产量和等于总产量求出A产品的产量；\n（2）根据平均数和中位数的定义求解即可；\n（3）根据A产品年产量×单件成本+B产品年产量×单件成本+C产品年产量×单件成本+D产品年产量×单件成本分别求出方案甲、乙的总成本，从而得出答案．\n【解答】解：（1）调整前，总产量为40÷20%＝200（万件），\n所以C产品的产量为200×15%＝30（万件），\n则A产品的年产量为200﹣（70+30+40）＝60（万件）；\n（2）由题意知，$\\frac{18+26+20+36}{4}=\\frac{13+22+m+40}{4}$，\n解得m＝25；\n∵调整前单件成本的中位数为$\\frac{20+26}{2}=$23（元/件），\n∴$\\frac{18+n}{2}=$23，\n解得n＝28；\n（3）方案甲总成本为60×13+70×22+30×25+40×40＝4670（万元），\n方案乙总成本为60×16+70×28+30×18+40×32＝4740（万元），\n4670＜4740，\n所以方案甲总成本较低．\n【点评】本题考查的是条形统计图和扇形统计图的综合运用．读懂统计图，从不同的统计图中得到必要的信息是解决问题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q020_img01",
+          "path": "assets/2025年河北省中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平均数",
+          "中位数",
+          "条形统计图",
+          "扇形统计图"
+        ],
+        "reasoning": "第（1）问利用条形统计图和扇形统计图求调整前A产品的年产量；第（2）问利用平均数和中位数的定义求m，n的值；第（3）问利用总成本计算比较两种方案的优劣。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平均数\", \"中位数\", \"条形统计图\", \"扇形统计图\"],\n  \"reasoning\": \"第（1）问利用条形统计图和扇形统计图求调整前A产品的年产量；第（2）问利用平均数和中位数的定义求m，n的值；第（3）问利用总成本计算比较两种方案的优劣。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图1，图2，正方形ABCD的边长为5．扇形OEF所在圆的圆心O在对角线BD上，且不与点D重合，半径OE＝2，点E，F分别在边AD，CD上，DE＝DF（DE≥2），扇形OEF的弧交线段OB于点M，记为EMF．\n（1）如图1，当AE＝3时，求∠EMF的度数；\n（2）如图2，当四边形OEMF为菱形时，求DE的长；\n（3）当∠EOF＝150°时，求EMF的长．\n[图1]",
+      "stem_markdown": "如图1，图2，正方形ABCD的边长为5．扇形OEF所在圆的圆心O在对角线BD上，且不与点D重合，半径OE＝2，点E，F分别在边AD，CD上，DE＝DF（DE≥2），扇形OEF的弧交线段OB于点M，记为$EMF$．\n（1）如图1，当AE＝3时，求∠EMF的度数；\n（2）如图2，当四边形OEMF为菱形时，求DE的长；\n（3）当∠EOF＝150°时，求$EMF$的长．\n![2025年河北省中考数学试卷_q021_img01](assets/2025年河北省中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用正方形的性质得到AD＝BC＝5，∠ADC＝90°，利用已知条件得到DE＝DF＝OE＝OF＝2，再利用正方形的判定与性质得到四边形OEDF为正方形，最后利用圆周角定理解答即可；\n（2）连接EF，交BD于点H，利用菱形的性质得到OE＝EM＝OF＝MF＝2，EH⊥MD，利用直角三角形的边角关系定理和等腰直角三角形的判定与性质解答即可；\n（3）利用分类讨论的思想方法分两种情况解答：画出图形，利用弧长公式解答即可．\n【解答】解：（1）∵四边形ABCD为边长为5的正方形，\n∴AD＝BC＝5，∠ADC＝90°，\n∵AE＝3，\n∴DE＝2，\n∵DE＝DF，\n∴DE＝DF＝2．\n∵OE＝OF＝2，\n∴DE＝DF＝OE＝OF＝2，\n∴四边形OEDF为正方形，\n∴∠EOF＝90°，\n∴∠EMF$=\\frac{1}{2}∠$EOF＝45°；\n（2）连接EF，交BD于点H，如图，\n[[image:rId66]]\n∵四边形OEMF为菱形，\n∴OE＝EM＝OF＝MF＝2，EH⊥MD，\n∵OM＝OE＝OF＝2，\n∴△OEM，△OFM为等边三角形，\n∴∠OEM＝∠OME＝∠OMF＝∠OFM＝60°，\n∴EH＝ME•sin60°＝2$×\\frac{\\sqrt{3}}{2}=\\sqrt{3}$．\n∵四边形ABCD为边长为5的正方形，\n∴BD平分∠ADC，\n∴∠ADB＝45°，\n∴△EDH为等腰直角三角形，\n∴DH＝EH$=\\sqrt{3}$，\n∴DE$=\\sqrt{2}$DH$=\\sqrt{6}$；\n（3）当∠EOF＝150°时，即$EMF$为劣弧时，如图，\n[[image:rId67]]\n∴$EMF$的长$=\\frac{150π×2}{180}=\\frac{5π}{3}$；\n当∠EOF＝150°时，即$EMF$为优弧时，如图，\n[[image:rId68]]\n∴$EMF$的长$=\\frac{210π×2}{180}=\\frac{7π}{3}$．\n综上，当∠EOF＝150°时，$EMF$的长为$\\frac{5}{3}π$或$\\frac{7}{3}π$．\n【点评】本题主要考查了圆的有关性质，圆周角定理，正方形的性质，菱形的性质，等腰三角形的性质，等腰直角三角形的性质，直角三角形的性质，勾股定理，直角三角形的边角关系定理，弧长公式，分类讨论的思想方法，熟练掌握圆的有关性质是解题的关键．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q021_img01",
+          "path": "assets/2025年河北省中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正方形的性质",
+          "圆周角定理",
+          "等腰直角三角形的性质",
+          "弧长公式"
+        ],
+        "reasoning": "题目涉及正方形、圆周角、等腰直角三角形和弧长计算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正方形的性质\", \"圆周角定理\", \"等腰直角三角形的性质\", \"弧长公式\"],\n  \"reasoning\": \"题目涉及正方形、圆周角、等腰直角三角形和弧长计算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "一般固体都具有热胀冷缩的性质，固体受热后其长度的增加称为线膨胀．在0﹣100℃（本题涉及的温度均在此范围内），原长为lm的铜棒、铁棒受热后，伸长量y（m）与温度的增加量x（℃）之间的关系均为y＝alx，其中a为常数，称为该金属的线膨胀系数．已知铜的线膨胀系数aCu＝1.7×10﹣⁵（单位：/℃）；原长为2.5m的铁棒从20℃加热到80℃伸长了1.8×10﹣³m．\n（1）原长为0.6m的铜棒受热后升高50℃，求该铜棒的伸长量（用科学记数法表示）．\n（2）求铁的线膨胀系数aFe；若原长为1m的铁棒受热后伸长4.8×10﹣⁴m，求该铁棒温度的增加量．\n（3）将原长相等的铜棒和铁棒从0℃开始分别加热，当它们的伸长量相同时，若铁棒的温度比铜棒的高20℃，求该铁棒温度的增加量．",
+      "stem_markdown": "一般固体都具有热胀冷缩的性质，固体受热后其长度的增加称为线膨胀．在0﹣100℃（本题涉及的温度均在此范围内），原长为lm的铜棒、铁棒受热后，伸长量y（m）与温度的增加量x（℃）之间的关系均为y＝alx，其中a为常数，称为该金属的线膨胀系数．已知铜的线膨胀系数$a_{Cu}$＝1.7×10^{﹣5}（单位：/℃）；原长为2.5m的铁棒从20℃加热到80℃伸长了1.8×10^{﹣3}m．\n（1）原长为0.6m的铜棒受热后升高50℃，求该铜棒的伸长量（用科学记数法表示）．\n（2）求铁的线膨胀系数$a_{Fe}$；若原长为1m的铁棒受热后伸长4.8×10^{﹣4}m，求该铁棒温度的增加量．\n（3）将原长相等的铜棒和铁棒从0℃开始分别加热，当它们的伸长量相同时，若铁棒的温度比铜棒的高20℃，求该铁棒温度的增加量．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据题意列式计算即可；\n（2）根据题意先求得$a_{Fe}$，然后列式计算求得该铁棒温度的增加量即可；\n（3）设铜棒增加的温度为x℃，则铁棒增加的温度为（x+20）℃，设它们的长度均为l，根据题意列得方程，解方程求得x的值后代入x+20中计算即可．\n【解答】解：（1）1.7×10^{﹣5}×0.6×50＝5.1×10^{﹣4}（m），\n即该铜棒的伸长量为5.1×10^{﹣4}m；\n（2）$a_{Fe}=\\frac{1.8×10^{-3}}{2.5×(80-20)}=$1.2×10^{﹣5}，\n4.8×10^{﹣4}÷（1.2×10^{﹣5}×1）＝40（℃），\n即该铁棒温度的增加量为40℃；\n（3）设铜棒增加的温度为x℃，则铁棒增加的温度为（x+20）℃，设它们的长度均为l，\n由题意得1.7×10^{﹣5}lx＝1.2×10^{﹣5}l（x+20），\n整理得：17x＝12x+240，\n解得：x＝48，\n则x+20＝48+20＝68，\n即该铁棒温度的增加量为68℃．\n【点评】本题考查有理数的混合运算，科学记数法表示较小的数，理解题意并列得正确的算式及方程是解题的关键．",
+      "full_score": 9,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "线性关系",
+          "线性方程",
+          "科学记数法"
+        ],
+        "reasoning": "题目涉及铜棒和铁棒伸长量与温度的关系，以及通过线性方程求解未知系数和未知量。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"线性关系\", \"线性方程\", \"科学记数法\"],\n  \"reasoning\": \"题目涉及铜棒和铁棒伸长量与温度的关系，以及通过线性方程求解未知系数和未知量。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "综合与实践\n[情境]要将矩形铁板切割成相同的两部分，焊接成直角护板（如图1），需找到合适的切割线．\n[模型]已知矩形ABCD（数据如图2所示）．作一条直线MN，使MN与BC所夹的锐角为45°，且将矩形ABCD分成周长相等的两部分．\n[操作]嘉嘉和淇淇尝试用不同方法解决问题．\n如图3，嘉嘉的思路如下： ①连接AC，BD交于点O； ②过点O作EF⊥BC，分别交BC，AD于点E，F； … [图1] | 如图4，淇淇的方法如下： ①在边BC上截取BG＝AB，连接AG； ②作线段GC的垂直平分线l，交BC于点M； ③在边AD上截取AN＝GM，作直线MN． [图1]\n[探究]根据以上描述，解决下列问题．\n（1）图2中，矩形ABCD的周长为 ____ ；\n（2）在图3的基础上，用尺规作图作出直线MN（作出一条即可，保留作图痕迹，不写作法）；\n（3）根据淇淇的作图过程，请说明图4中的直线MN符合要求．\n[拓展]操作和探究中蕴含着一般性结论，请继续研究下面的问题．\n（4）如图5，若直线PQ将矩形ABCD分成周长相等的两部分，分别交边AD，BC于点P，Q，过点B作BH⊥PQ于点H，连接CH．\n①当∠PQC＝45°时，求tan∠BCH的值；\n②当∠BCH最大时，直接写出CH的长．\n[图1]\n[图1]",
+      "stem_markdown": "综合与实践\n[情境]要将矩形铁板切割成相同的两部分，焊接成直角护板（如图1），需找到合适的切割线．\n[模型]已知矩形ABCD（数据如图2所示）．作一条直线MN，使MN与BC所夹的锐角为45°，且将矩形ABCD分成周长相等的两部分．\n[操作]嘉嘉和淇淇尝试用不同方法解决问题．\n如图3，嘉嘉的思路如下： ①连接AC，BD交于点O； ②过点O作EF⊥BC，分别交BC，AD于点E，F； … ![2025年河北省中考数学试卷_q023_img01](assets/2025年河北省中考数学试卷_q023_img01.png) | 如图4，淇淇的方法如下： ①在边BC上截取BG＝AB，连接AG； ②作线段GC的垂直平分线l，交BC于点M； ③在边AD上截取AN＝GM，作直线MN． ![2025年河北省中考数学试卷_q023_img02](assets/2025年河北省中考数学试卷_q023_img02.png)\n[探究]根据以上描述，解决下列问题．\n（1）图2中，矩形ABCD的周长为 ____ ；\n（2）在图3的基础上，用尺规作图作出直线MN（作出一条即可，保留作图痕迹，不写作法）；\n（3）根据淇淇的作图过程，请说明图4中的直线MN符合要求．\n[拓展]操作和探究中蕴含着一般性结论，请继续研究下面的问题．\n（4）如图5，若直线PQ将矩形ABCD分成周长相等的两部分，分别交边AD，BC于点P，Q，过点B作BH⊥PQ于点H，连接CH．\n①当∠PQC＝45°时，求tan∠BCH的值；\n②当∠BCH最大时，直接写出CH的长．\n![2025年河北省中考数学试卷_q023_img03](assets/2025年河北省中考数学试卷_q023_img03.png)\n![2025年河北省中考数学试卷_q023_img04](assets/2025年河北省中考数学试卷_q023_img04.png)",
+      "options": [],
+      "answer": "10",
+      "solution": "【分析】（1）根据矩形的周长公式计算即可；\n（2）以点E为圆心EO为半径画弧，交BC于点M，延长MO交AD于点N，连接MN，由作图可知△OME是等腰直角三角形，根据等腰直角三角形的性质可证∠NMC＝45°，根据矩形的性质可证△AON≌△COM，根据全等三角形的性质可证AN＝CM，DN＝BM，从而可证直线MN把矩形分成了周长相等的两部分，所以线段MN即为所求；\n（3）根据矩形的性质可证四边形AGMN是平行四边形，根据平行四边形的性质可证∠NMG＝∠AGB＝45°，根据平行四边形的性质和矩形的性质可以证明出AN＝CM，BM＝DN，所以可以证明AN+AB+BM＝CM+CD+DN，所以直线MN把矩形ABCD分成了周长相等的两部分，从而可证直线MN符合要求；\n（4）①过点H作HG⊥BC，连接AC交PQ于点O，过点P作PK⊥BC于点K，过点O作OT⊥BC，根据矩形的性质可得：AP＝CQ，PD＝BQ，AB＝DC＝PK＝1，根据勾股定理可以求出$PQ=\\sqrt{2}$，利用AAS可证△AOP≌△COQ，根据全等三角形的性质可得：$PO=QO=\\frac{\\sqrt{2}}{2}$OT＝QT＝2，从而可得：$CQ=\\frac{5}{2}$，BQ$=\\frac{3}{2}$，根据等腰直角三角形的性质可得：HG$=\\frac{3}{4}$，$CG=\\frac{13}{4}$，根据正切的定义可以求出∠BCH的正切；②连接AC交PQ于点O，PQ把矩形ABCD分成了周长相等的两部分，点O为AC和PQ的中点，利用勾股定理可以求出$AC=\\sqrt{17}LH=\\frac{\\sqrt{17}}{4}$，过点L作LT⊥BC，则△BLT∽△BDC，根据相似三角形的性质可以求出$LT=\\frac{1}{4}$，BT＝1，CT＝3，在Rt△CLT中，利用勾股定理可得：$CL^{2}=\\frac{145}{16}$，在Rt△CLH中，利用勾股定理即可求出CH的长度．\n【解答】（1）解：∵四边形ABCD是矩形，\n∴AB＝CD，AD＝BC，\n∵AB＝1，AD＝4，\n∴AB＝CD＝1，AD＝BC＝4，\n∴矩形ABCD的周长为2（AB+AD）＝2×（1+4）＝10，\n故答案为：10；\n（2）解：如图所示，以点E为圆心EO为半径画弧，交BC于点M，延长MO交AD于点N，线段MN即为所求，\n[[image:rId73]]\n∵EF⊥BC，\n∴∠BEF＝90°，\n∵EM＝EO，\n∴△EOM是等腰直角三角形，\n∴∠OME＝45°，\n∵矩形ABCD的对角线交于点O，\n∴AO＝CO，\n∵四边形ABCD是矩形，\n∴AD∥BC，AD＝BC，\n∴∠AON＝∠COM，\n在△AON和△COM中，\n$\\begin{cases} ∠OAN=∠OCM \\\\ AO=CO \\\\ ∠AON=∠COM \\end{cases}$，\n∴△AON≌△COM（ASA），\n∴AN＝CM，\n∴DN＝BM，\n∴AN+AB+BM＝CM+CD+DN，\n∴直线MN把矩形ABCD分成周长相等的两部分；\n（3）证明：∵四边形ABCD是矩形，\n∴∠B＝90°，AD∥BC，\n∵BG＝AB，\n∴∠AGB＝45°，\n∵AN＝MG，\n∴四边形AGMN是平行四边形，\n∴MN∥AG，\n∴∠NMG＝∠AGB＝45°，\n∵直线l是GC的垂直平分线，\n∴GM＝CM，\n∴GM＝CM＝AN，\n∴BM＝BC﹣CM，DN＝AD﹣AN，\n∴BM＝DN，\n∴AN+AB+BM＝CM+CD+DN，\n∴MN把矩形ABCD分成了周长相等的两部分，\n∴直线MN符合要求；\n（4）解：①如图所示，过点H作HG⊥BC，连接AC交PQ于点O，过点P作PK⊥BC于点K，过点O作OT⊥BC，\n[[image:rId74]]\n∵四边形ABCD是矩形，且直线PQ将矩形ABCD分成周长相等的两部分，则点O是矩形ABCD的对角线AC与BD的交点，\n∴点O是AC的中点，\n∴$BT=CT=\\frac{1}{2}BC=2$，\n∴AP＝CQ，PD＝BQ，AB＝DC＝PK＝1，\n∵∠PQC＝45°，\n∴△PQK是等腰直角三角形，\n∴PK＝QK＝1，\n∴$PQ=\\sqrt{PK^{2}+QK^{2}}=\\sqrt{1^{2}+1^{2}}=\\sqrt{2}$，\n∵四边形ABCD是矩形，\n∴AD∥BC，\n∴∠APQ＝∠CQP＝45°，\n在△AOP和△COQ中，\n$\\begin{cases} ∠AOP=∠COQ \\\\ ∠APO=∠CQP \\\\ AP=CQ \\end{cases}$，\n∴△AOP≌△COQ（AAS），\n∴$PO=QO=\\frac{\\sqrt{2}}{2}$，OT＝QT$=\\frac{1}{2}$，\n∴CQ＝CT+QT＝2$+\\frac{1}{2}=\\frac{5}{2}$，\n∴BQ＝BC﹣CQ＝4$-\\frac{5}{2}=\\frac{3}{2}$，\n∵BH⊥PQ于点H，∠BQH＝∠PQC＝45°，\n∴∠BHQ＝90°，\n∴△BHQ是等腰直角三角形，\n∴HG＝GQ$=\\frac{1}{2}$BQ$=\\frac{1}{2}×\\frac{3}{2}=\\frac{3}{4}$，$CG=CQ+GQ=\\frac{5}{2}+\\frac{3}{4}=\\frac{13}{4}$，\n∴$tan∠BCH=\\frac{HG}{CG}=\\frac{\\frac{3}{4}}{\\frac{13}{4}}=\\frac{3}{13}$；\n②如图所示，连接BD交PQ于点O，\n[[image:rId75]]\n∵PQ把矩形ABCD分成了周长相等的两部分，\n∴点O为BD和PQ的中点，\n∵BH⊥PQ，\n∴点H在以BO为直径的⊙L上，当CH与⊙L相切时，∠BCH最大，\n∵AB＝1，AD＝4，\n∴$BD=\\sqrt{1^{2}+4^{2}}=\\sqrt{17}$，\n∴$BO=\\frac{1}{2}AC=\\frac{\\sqrt{17}}{2}$，\n∴$LH=BL=OL=\\frac{\\sqrt{17}}{4}$，\n过点L作LT⊥BC，\n∴∠BTL＝90°，\n∵四边形ABCD是矩形，\n∴∠BCD＝90°，\n∴TL∥CD，\n则△BLT∽△BDC，\n∴$\\frac{BL}{BD}=\\frac{LT}{CD}=\\frac{BT}{BC}$，\n∴$\\frac{\\frac{\\sqrt{17}}{4}}{\\sqrt{17}}=\\frac{LT}{1}=\\frac{BT}{4}$，\n∴$LT=\\frac{1}{4}$BT$=\\frac{1}{4}$，\n∴CT＝BC﹣BT＝4﹣1＝3，\n∴$CL^{2}=TL^{2}+CT^{2}=\\frac{145}{16}$，\n∵CH是⊙L的切线，\n∴∠CHL＝90°，\n∴$CH=\\sqrt{CL^{2}-HL^{2}}=\\sqrt{\\frac{145}{16}-(\\frac{\\sqrt{17}}{4})^{2}}=\\sqrt{\\frac{145}{16}-\\frac{17}{16}}=\\sqrt{8}=2\\sqrt{2}$．\n【点评】本题是四边形的综合题，主要考查了矩形的性质、中心对称图形的性质、圆的基本性质、切线的性质、圆周角定理、勾股定理、相似三角形的判定与性质，本题的综合性较强，难度较大，需要综合运用矩形、圆、切线等图形的性质，解决本题的关键是作辅助线构造直角三角形，利用直角三角形的性质求解．",
+      "full_score": 11,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q023_img01",
+          "path": "assets/2025年河北省中考数学试卷_q023_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q023_img02",
+          "path": "assets/2025年河北省中考数学试卷_q023_img02.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q023_img03",
+          "path": "assets/2025年河北省中考数学试卷_q023_img03.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年河北省中考数学试卷_q023_img04",
+          "path": "assets/2025年河北省中考数学试卷_q023_img04.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰直角三角形的性质",
+          "矩形的性质",
+          "相似三角形的判定与性质",
+          "勾股定理"
+        ],
+        "reasoning": "题目涉及等腰直角三角形、矩形的性质以及相似三角形的判定和勾股定理的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰直角三角形的性质\", \"矩形的性质\", \"相似三角形的判定与性质\", \"勾股定理\"],\n  \"reasoning\": \"题目涉及等腰直角三角形、矩形的性质以及相似三角形的判定和勾股定理的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年河北省中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，在平面直角坐标系中，抛物线y＝﹣x²+bx+c经过点A（0，3），B（6，3），顶点为P．抛物线y＝a（x﹣3）²+d（a＜0）经过点C（\\frac{1}{2}，2）．两条抛物线在第一象限内的部分分别记为L₁，L₂．\n（1）求b，c的值及点P的坐标．\n（2）点D在L₁上，到x轴的距离为\\frac{23}{4}．判断L₂能否经过点D，若能，求a的值；若不能，请说明理由．\n（3）直线AE：y＝kx+n（k＞0）交L₁于点E，点M在线段AE上，且点M的横坐标是点E横坐标的一半．\n①若点E与点P重合，点M恰好落在L₂上，求a的值；\n②若点M为直线AE与L₂的唯一公共点，请直接写出k的值．\n[图1]\n2025年河北省中考数学试卷",
+      "stem_markdown": "如图，在平面直角坐标系中，抛物线y＝﹣$x^{2}$+bx+c经过点A（0，3），B（6，3），顶点为P．抛物线y＝a（x﹣3）^{2}+d（a＜0）经过点C（$\\frac{1}{2}$，2）．两条抛物线在第一象限内的部分分别记为$L_{1}$，$L_{2}$．\n（1）求b，c的值及点P的坐标．\n（2）点D在$L_{1}$上，到x轴的距离为$\\frac{23}{4}$．判断$L_{2}$能否经过点D，若能，求a的值；若不能，请说明理由．\n（3）直线AE：y＝kx+n（k＞0）交$L_{1}$于点E，点M在线段AE上，且点M的横坐标是点E横坐标的一半．\n①若点E与点P重合，点M恰好落在$L_{2}$上，求a的值；\n②若点M为直线AE与$L_{2}$的唯一公共点，请直接写出k的值．\n![2025年河北省中考数学试卷_q024_img01](assets/2025年河北省中考数学试卷_q024_img01.png)\n2025年河北省中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）待定系数法求解析式即可求解；\n（2）根据题意得出$y_{D}=\\frac{23}{4}$，代入抛物线解析式得出$D(\\frac{1}{2}，\\frac{23}{4})$或$(\\frac{1}{2}，\\frac{23}{4})$，而$L_{2}$经过点$C(\\frac{1}{2}，2)$和$(\\frac{11}{2}，2)$，即可得出结论；\n（3）①先求得$M(\\frac{3}{2}，\\frac{15}{2})$和$C(\\frac{1}{2}，2)$，代入解析式，待定系数法求解析式，即可求解；\n②根据题意得出直线AE的解析式为y＝kx+3，根据y＝a（x﹣3）^{2}+d（a＜0）经过点$C(\\frac{1}{2}，2)$，得出$y=a(x-3)^{2}+2-\\frac{25}{4}a=ax^{2}-6ax+\\frac{11}{4}a+2$，联立直线解析式，根据一元二次方程根与系数的关系得出$E(\\frac{6a+k}{a}，\\frac{6ak+k^{2}}{a}+3)$，$M(\\frac{6a+k}{2a}，\\frac{6a+k}{2a}k+3)$，将E代入y＝﹣$x^{2}$+6x+3，得出$\\frac{6ak+k^{2}}{a}+3=-\\frac{(6a+k)^{2}}{a^{2}}+6×\\frac{6a+k}{a}+3①$，根据点M为直线AE与$L_{2}$的唯一公共点，得出$Δ=(k+6a)^{2}-4×a×(\\frac{11a}{4}-1)=0②$，联立解得k的值，即可求解．\n【解答】解：（1）∵抛物线y＝﹣$x^{2}$+bx+c经过点A（0，3），B（6，3），顶点为P，\n∴$\\begin{cases} c=3 \\\\ -36+6b+c=3 \\end{cases}$，\n解得：b＝6，c＝3，\n∴y＝﹣$x^{2}$+6x+3＝﹣（x﹣3）^{2}+12，\n∴P（3，12）；\n（2）∵点D在$L_{1}$（第一象限）上，到x轴的距离为$\\frac{23}{4}$，\n则$y_{D}=\\frac{23}{4}$，\n∴当$y=\\frac{23}{4}$时，$\\frac{23}{4}=-x^{2}+6x+3$，\n解得：$x_{1}=\\frac{1}{2}$或$x_{2}=\\frac{11}{2}$，\n∴$D(\\frac{1}{2}，\\frac{23}{4})$或$(\\frac{11}{2}，\\frac{23}{4})$，\n∵抛物线y＝a（x﹣3）^{2}+d（a＜0）经过点$C(\\frac{1}{2}，2)$，对称轴为直线x＝3，\n∴$L_{2}$经过点$C(\\frac{1}{2}，2)$和$(\\frac{11}{2}，2)$，\n∴$L_{2}$不能经过点D，\n（3）①∵A（0，3），P（3，12），\n当E，P重合时，则E（3，12），\n∵M是AE的中点，\n∴$M(\\frac{3}{2}，\\frac{15}{2})$，\n∵点$M(\\frac{3}{2}，\\frac{15}{2})$恰好落在$L_{2}$上，$L_{2}$经过点$C(\\frac{1}{2}，2)$，\n∴$\\begin{cases} 2=(\\frac{1}{2}-3)^{2}a+d \\\\ \\frac{15}{2}=(\\frac{3}{2}-3)^{2}a+d \\end{cases}$，\n解得：$a=-\\frac{11}{8}$；\n②直线AE：y＝kx+n（k＞0）交$L_{1}$于点E，A（0，3），\n∴n＝3，\n∴直线AE的解析式为y＝kx+3，\n∵y＝a（x﹣3）^{2}+d（a＜0）经过点$C(\\frac{1}{2}，2)$，\n∴$2=\\frac{25}{4}a+d$，\n∴$d=2-\\frac{25}{4}a$，\n∴$y=a(x-3)^{2}+2-\\frac{25}{4}a=ax^{2}-6ax+\\frac{11}{4}a+2$，\n联立$\\begin{cases} y=ax^{2}-6ax+\\frac{11}{4}a+2 \\\\ y=kx+3 \\end{cases}$，\n消去y得，$ax^{2}-kx-6ax+\\frac{11a}{4}-1=0$，\n∴$x_{1}=x_{2}=\\frac{6a+k}{2a}$，\n∵点M的横坐标是点E横坐标的一半，\n∴$M(\\frac{6a+k}{2a}，\\frac{6a+k}{2a}k+3)$，$E(\\frac{6a+k}{a}，\\frac{6ak+k^{2}}{a}+3)$，\n将E代入y＝﹣$x^{2}$+6x+3，\n∴$\\frac{6ak+k^{2}}{a}+3=-\\frac{(6a+k)^{2}}{a^{2}}+6×\\frac{6a+k}{a}+3①$\n∵点M为直线AE与$L_{2}$的唯一公共点，\n∴$Δ=(k+6a)^{2}-4×a×(\\frac{11a}{4}-1)=0$②，\n联立①②得：$\\begin{cases} a=-1 \\\\ k=6-\\sqrt{15} \\end{cases}$或$\\begin{cases} a=-1 \\\\ k=6+\\sqrt{15} \\end{cases}$，\n当$k=6+\\sqrt{15}$时，唯一公共点不在第一象限，不符合题意，\n∴$k=6-\\sqrt{15}$．\n【点评】本题考查了二次函数的综合，一元二次方程根与系数的关系，一次函数与二次函数交点问题，熟练掌握以上知识是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:35:02；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId78]] ____ [[image:rId80]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年河北省中考数学试卷_q024_img01",
+          "path": "assets/2025年河北省中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "二次函数的性质",
+          "一元二次方程根与系数的关系",
+          "一次函数与二次函数交点问题"
+        ],
+        "reasoning": "题目涉及二次函数的解析式求解、顶点坐标计算、一元二次方程根的性质等知识点。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"二次函数的性质\", \"一元二次方程根与系数的关系\", \"一次函数与二次函数交点问题\"],\n  \"reasoning\": \"题目涉及二次函数的解析式求解、顶点坐标计算、一元二次方程根的性质等知识点。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:29:57",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 24,
+      "ok": 24,
+      "fallback": 0
+    }
+  }
+}

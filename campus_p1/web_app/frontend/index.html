@@ -1,0 +1,1075 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 切题识别 · 阅卷分析</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <style>
+    /* 原生版最小补丁：让 view 切换干净一点 */
+    [hidden] { display: none !important; }
+    .tab-btn.active { background: #1f6feb; color: #fff; }
+    .q-card { border: 1px solid #e3e3e3; border-radius: 8px; padding: 12px; margin-bottom: 12px; background: #fff; }
+    .q-header { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; font-size: 14px; }
+    .q-no { font-weight: 600; }
+    .q-type { background: #eef; padding: 2px 8px; border-radius: 4px; }
+    .q-score { color: #666; }
+    .q-warn { color: #c33; }
+    .q-conf { color: #888; margin-left: auto; }
+    .edit-label { font-size: 12px; color: #888; margin-bottom: 4px; }
+    .md-view { min-height: 24px; padding: 6px 8px; border: 1px dashed transparent; border-radius: 4px; }
+    .md-view:focus { outline: none; border-color: #1f6feb; background: #fafcff; }
+    .opt-row { display: flex; gap: 8px; align-items: flex-start; margin: 4px 0; }
+    .opt-label { font-weight: 600; }
+    .kp-list { list-style: none; padding: 0; margin: 0; }
+    .kp-list li { display: inline-block; background: #eef; padding: 2px 8px; border-radius: 12px; margin: 2px; font-size: 13px; }
+    .kp-list button { background: none; border: none; cursor: pointer; color: #c33; }
+    .kp-add input { width: 200px; }
+    .conf-block input[type=range] { width: 200px; }
+    .save-hint { color: #c33; font-size: 12px; }
+    .raw-detail { margin-top: 6px; }
+    .raw-detail pre { background: #f6f8fa; padding: 8px; font-size: 12px; overflow-x: auto; color: #000; }
+    .btn-primary { background: #1f6feb; color: #fff; padding: 6px 12px; border: none; border-radius: 6px; cursor: pointer; }
+    .btn-primary.big { padding: 10px 18px; font-size: 15px; }
+    .btn-primary:disabled { background: #aac; cursor: not-allowed; }
+    .btn-mini { background: #eef; color: #333; padding: 2px 8px; border: 1px solid #ccd; border-radius: 4px; cursor: pointer; font-size: 12px; }
+    .btn-icon { background: none; border: none; cursor: pointer; font-size: 16px; }
+    .btn-del { background: none; border: none; cursor: pointer; color: #c33; font-size: 18px; }
+    .health-badge { padding: 2px 8px; border-radius: 12px; background: #eee; font-size: 12px; }
+    .health-badge.ok { background: #dfd; color: #285; }
+    .health-badge.fail { background: #fdd; color: #a33; }
+    .health-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; }
+    .health-dot.ok { background: #2a4; } .health-dot.fail { background: #c33; }
+    .topbar { display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; background: #fff; border-bottom: 1px solid #eee; }
+    .topbar-left { display: flex; align-items: center; gap: 16px; }
+    .logo { font-size: 22px; }
+    .tabs { display: flex; gap: 4px; }
+    .tab-btn { padding: 6px 14px; border: 1px solid #ccd; background: #fff; border-radius: 6px; cursor: pointer; }
+    .main { display: flex; min-height: calc(100vh - 60px); }
+    .sidebar { width: 260px; border-right: 1px solid #eee; background: #fafbfc; padding: 12px; overflow-y: auto; }
+    .sidebar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-weight: 600; }
+    .paper-item { padding: 8px; border-radius: 6px; cursor: pointer; position: relative; }
+    .paper-item:hover { background: #eef; }
+    .paper-item.active { background: #dde7ff; }
+    .paper-name { font-weight: 600; font-size: 14px; }
+    .paper-meta { font-size: 12px; color: #888; }
+    .paper-empty { color: #888; font-size: 13px; padding: 8px; }
+    .content { flex: 1; padding: 16px; overflow-y: auto; }
+    .empty-state { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 60vh; border: 2px dashed #ccd; border-radius: 12px; }
+    .empty-state.dragging { background: #eef; border-color: #1f6feb; }
+    .empty-icon { font-size: 48px; }
+    .empty-tip { color: #888; font-size: 13px; }
+    .uploaded-list { margin-top: 16px; text-align: left; min-width: 320px; }
+    .uploaded-row { display: flex; justify-content: space-between; padding: 4px 0; }
+    .uploaded-size { color: #888; font-size: 12px; }
+    .processing { padding: 24px; }
+    .progress-bar { background: #eee; border-radius: 8px; overflow: hidden; height: 12px; }
+    .progress-fill { background: #1f6feb; height: 100%; transition: width 0.2s; }
+    .progress-text { display: flex; justify-content: space-between; margin: 8px 0; font-size: 14px; }
+    .progress-num { font-weight: 600; }
+    .progress-log { background: #f6f8fa; padding: 8px; border-radius: 6px; max-height: 240px; overflow-y: auto; font-size: 13px; }
+    .progress-line { display: flex; gap: 6px; align-items: center; padding: 2px 0; }
+    .progress-line .dot { width: 8px; height: 8px; border-radius: 50%; background: #888; }
+    .dot.s-ok { background: #2a4; } .dot.s-fb { background: #c93; } .dot.s-err { background: #c33; } .dot.s-start { background: #1f6feb; }
+    .paper-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .paper-stats { color: #666; font-size: 14px; }
+    .feedback-layout { display: flex; gap: 16px; min-height: 70vh; }
+    .feedback-config { width: 320px; flex-shrink: 0; }
+    .feedback-preview { flex: 1; min-width: 0; }
+    .form-row { margin-bottom: 12px; }
+    .form-row label { display: block; font-size: 12px; color: #666; margin-bottom: 4px; }
+    .form-row input, .form-row select { width: 100%; padding: 4px 8px; border: 1px solid #ccd; border-radius: 4px; }
+    .muted { color: #888; font-size: 13px; }
+    .fb-error { background: #fdd; padding: 8px; border-radius: 4px; color: #a33; }
+    .fb-toolbar { display: flex; gap: 6px; align-items: center; margin-bottom: 8px; }
+    .md-render { background: #f6f8fa; padding: 12px; border-radius: 6px; max-height: 70vh; overflow: auto; white-space: pre-wrap; }
+    .feedback-empty { text-align: center; padding: 60px 0; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="logo">📐</div>
+        <nav class="tabs">
+          <button class="tab-btn" id="tab-cut" onclick="switchTab('cut')">切题识别</button>
+          <button class="tab-btn" id="tab-fb" onclick="switchTab('feedback')">阅卷分析</button>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <span class="health-badge" id="health-badge">
+          <span class="health-dot" id="health-dot"></span>
+          GPU: <span id="health-device">?</span>
+        </span>
+      </div>
+    </header>
+
+    <div class="main">
+      <!-- 左侧：试卷列表 -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <span>已识别试卷</span>
+          <button class="btn-icon" onclick="loadPapers()" title="刷新">↻</button>
+        </div>
+        <div id="paper-list" class="paper-list"></div>
+      </aside>
+
+      <!-- 中间主区域：三种视图（空 / 进度 / 详情） -->
+      <main class="content">
+        <section id="view-empty" class="empty-state">
+          <div class="empty-icon">📄</div>
+          <h2>等待上传试卷</h2>
+          <p>拖拽 .docx 到此处，或点击下方按钮选择文件</p>
+          <label class="btn-primary">
+            选择文件
+            <input type="file" id="file-input" multiple accept=".docx" style="display:none" />
+          </label>
+          <p class="empty-tip">支持多份试卷同时上传，上传完成后点击"开始识别"</p>
+          <div id="uploaded-list" class="uploaded-list" hidden>
+            <h3>已上传（<span id="uploaded-count">0</span> 份）</h3>
+            <div id="uploaded-rows"></div>
+            <button class="btn-primary big" id="btn-start" onclick="startRecognition()">▶ 开始识别</button>
+          </div>
+        </section>
+
+        <section id="view-processing" class="processing" hidden>
+          <h2>正在识别…</h2>
+          <div class="progress-bar"><div id="progress-fill" class="progress-fill" style="width:0%"></div></div>
+          <div class="progress-text">
+            <span id="progress-text">初始化…</span>
+            <span class="progress-num" id="progress-num">0%</span>
+          </div>
+          <div class="progress-log" id="progress-log"></div>
+        </section>
+
+        <section id="view-detail" class="paper-detail" hidden>
+          <header class="paper-detail-header">
+            <h2 id="detail-title"></h2>
+            <div class="paper-stats" id="detail-stats"></div>
+            <button class="btn-mini" onclick="downloadPaperJson()" title="下载 paper.json">↓ 下载 JSON</button>
+            <button class="btn-primary" onclick="continueRecognition()">↪ 继续识别</button>
+          </header>
+          <div id="questions" class="questions"></div>
+        </section>
+      </main>
+    </div>
+
+    <!-- 阅卷分析 Tab：与切题识别共用 sidebar + content 双列布局 -->
+    <div class="main" id="view-feedback" hidden>
+      <!-- 左侧：已生成报告历史栏 -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <span>已生成报告</span>
+          <button class="btn-icon" onclick="newFbReport()" title="新建报告">＋</button>
+        </div>
+        <div id="fb-report-list" class="paper-list"></div>
+      </aside>
+
+      <!-- 中间主区域：与切题识别三视图完全一致（空 / 进度 / 详情） -->
+      <main class="content">
+        <section id="view-fb-empty" class="empty-state">
+          <div class="empty-icon">📊</div>
+          <h2>等待生成教学反馈报告</h2>
+          <p>选择试卷 → 填写班级 / 教师 → 上传班级阅卷统计 Excel → 选择模板</p>
+          <button class="btn-primary big" onclick="newFbReport()">＋ 新建报告</button>
+          <p class="empty-tip">支持 Markdown / Word / PDF 三种格式，参考人数由 Excel 自动读取。</p>
+        </section>
+
+        <section id="view-fb-processing" class="processing" hidden>
+          <h2>正在生成报告…</h2>
+          <div class="progress-bar"><div id="fb-progress-fill" class="progress-fill" style="width:0%"></div></div>
+          <div class="progress-text">
+            <span id="fb-progress-text">初始化…</span>
+            <span class="progress-num" id="fb-progress-num">0%</span>
+          </div>
+          <div class="progress-log" id="fb-progress-log"></div>
+        </section>
+
+        <section id="view-fb-detail" class="paper-detail" hidden>
+          <header class="paper-detail-header">
+            <h2 id="fb-detail-title"></h2>
+            <div class="paper-stats" id="fb-detail-stats"></div>
+            <button class="btn-primary" onclick="newFbReport()">＋ 新建报告</button>
+          </header>
+
+          <!-- 仅在新建时显示配置区 -->
+          <div id="fb-config" class="fb-config-card">
+            <div class="form-row">
+              <label>选择试卷</label>
+              <select id="fb-paper"></select>
+            </div>
+            <div class="form-row">
+              <label>班级</label>
+              <input id="fb-class" placeholder="例如：初三(1)班" />
+            </div>
+            <div class="form-row">
+              <label>任课教师</label>
+              <input id="fb-teacher" placeholder="任课教师" />
+            </div>
+            <div class="form-row">
+              <label>上传班级阅卷统计 Excel</label>
+              <input type="file" id="fb-excel" accept=".xlsx" />
+              <span class="muted" id="fb-excel-name" hidden></span>
+              <span class="muted small">参考人数由 Excel 自动读取，无需填写。</span>
+            </div>
+            <div class="form-row">
+              <label>报告模板（Markdown）</label>
+              <select id="fb-md-tpl"></select>
+              <input type="file" id="fb-md-upload" accept=".md,.j2,.txt" style="margin-top:4px" />
+            </div>
+            <div class="form-row">
+              <label>报告模板（Word，可选）</label>
+              <select id="fb-docx-tpl"><option value="">-- 不生成 docx --</option></select>
+            </div>
+            <div class="form-row">
+              <button class="btn-primary big" id="btn-fb-generate" disabled>▶ 生成报告</button>
+            </div>
+            <div id="fb-error" class="fb-error" hidden></div>
+          </div>
+
+          <!-- 报告已生成时显示的工具栏 + 渲染 -->
+          <div id="fb-result" hidden>
+            <div class="fb-toolbar">
+              <button class="btn-mini" onclick="fbDownload('md')">下载 Markdown</button>
+              <button class="btn-mini" id="btn-fb-pdf" onclick="fbDownload('pdf')" hidden>下载 PDF</button>
+              <button class="btn-mini" id="btn-fb-docx" onclick="fbDownload('docx')" hidden>下载 Word</button>
+              <span class="muted" id="fb-avg" style="margin-left:auto"></span>
+            </div>
+            <pre class="md-render" id="fb-md"></pre>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+<script>
+// ============ 全局状态 ============
+let state = {
+  tab: 'cut',                  // 'cut' | 'feedback'
+  papers: [],                  // [{paperId, sourceName, questionCount, ok, fallback}]
+  currentPaper: null,          // 完整 paper.json
+  uploaded: [],                // [{name, path, size}]
+  processing: false,
+  progressPercent: 0,
+  progressTotal: 0,
+  progressDone: 0,
+  health: { ok: false, device: '', tooltip: '' },
+  dirty: {},                   // qid -> bool
+  // 阅卷分析
+  fbPaperId: '',
+  fbExcelFile: null,
+  fbTemplates: [],
+  fbMdTpl: '',
+  fbDocxTpl: '',
+  fbReport: null,
+  fbGenerating: false,
+  fbError: '',
+  fbReports: [],            // [{report_id, paper_name, avg_total_score, total_score, ts}]
+  fbFbView: 'empty',        // 'empty' | 'processing' | 'detail'
+};
+
+// ============ 工具 ============
+function $(id) { return document.getElementById(id); }
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]); }
+
+// 极简 markdown：仅支持 # / ** / 图片 / 段落/换行
+function renderMd(s) {
+  if (!s) return '';
+  let html = esc(s);
+  // 图片: ![alt](url)
+  html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (m, alt, url) => `<img alt="${alt}" src="${url}">`);
+  // 链接 [txt](url)
+  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+  // 加粗 **x**
+  html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  // 标题 # / ## / ###
+  html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>')
+             .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+             .replace(/^# (.+)$/gm, '<h1>$1</h1>');
+  // 列表 - xxx
+  html = html.replace(/(^|\n)((?:- .+\n?)+)/g, (m, pre, list) => {
+    const items = list.trim().split('\n').map(l => `<li>${l.replace(/^- /, '')}</li>`).join('');
+    return `${pre}<ul>${items}</ul>`;
+  });
+  // 段落：双换行
+  html = html.split(/\n{2,}/).map(p => /^\s*<(h\d|ul|pre|img)/.test(p) ? p : `<p>${p.replace(/\n/g, '<br>')}</p>`).join('\n');
+  return html;
+}
+
+function rewriteMd(md) {
+  if (!md || !state.currentPaper) return md;
+  const pid = state.currentPaper.paper_id;
+  return md.replace(/(!\[[^\]]*\]\()\s*assets\//g, `$1/api/papers/${pid}/assets/`);
+}
+
+function htmlToMd(html) {
+  return html.replace(/<br\s*\/?>/gi, '\n')
+             .replace(/<\/(p|div|h\d|li)>/gi, '\n')
+             .replace(/<[^>]+>/g, '')
+             .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+             .trim();
+}
+
+function formatSize(n) {
+  if (n < 1024) return n + ' B';
+  if (n < 1024 * 1024) return (n / 1024).toFixed(1) + ' KB';
+  return (n / 1024 / 1024).toFixed(2) + ' MB';
+}
+
+function qtypeLabel(t) {
+  return ({ single_choice: '单选', multiple_choice: '多选', blank: '填空', solution: '解答' })[t] || (t || '?');
+}
+
+function formatRaw(raws) {
+  if (!Array.isArray(raws)) return JSON.stringify(raws, null, 2);
+  return raws.map(r => `[step ${r.step}]\n${r.raw}`).join('\n\n---\n\n');
+}
+
+// ============ 视图切换 ============
+function switchTab(t) {
+  state.tab = t;
+  $('tab-cut').classList.toggle('active', t === 'cut');
+  $('tab-fb').classList.toggle('active', t === 'feedback');
+  const isCut = (t === 'cut');
+  // 切题页与阅卷页是两个并行的 .main 容器，按 tab 切换显隐
+  $('view-feedback').hidden = isCut;
+  // 切题页的 .main 是 index.html 里第一个 .main，没有 ID，用 :scope 索引定位
+  document.querySelectorAll('.main')[0].hidden = !isCut;
+  if (t === 'feedback') {
+    if (state.fbTemplates.length === 0) loadFbTemplates();
+    loadFbReports();
+    // 有当前报告 → detail；否则暂进 detail（显示配置卡片），由 loadFbReports 回调后决定是否改 empty
+    if (state.fbReport) {
+      showFbView('detail');
+    } else {
+      showFbView(state.fbReports.length === 0 ? 'empty' : 'detail');
+      if (!state.fbReport) $('fb-config').hidden = false;
+    }
+    renderFbReports();
+  }
+}
+
+function showView(name) {
+  $('view-empty').hidden = name !== 'empty';
+  $('view-processing').hidden = name !== 'processing';
+  $('view-detail').hidden = name !== 'detail';
+}
+
+// ============ 健康检查 ============
+async function loadHealth() {
+  try {
+    const r = await fetch('/api/health');
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const d = await r.json();
+    state.health.ok = true;
+    state.health.device = d.default_device || d.device || 'cuda:2';
+    const tips = ['默认设备: ' + state.health.device];
+    if (d.cuda_available) tips.push('CUDA 已初始化 (count=' + (d.device_count || '?') + ')');
+    else if (d.torch_error) tips.push('CUDA 未初始化: ' + d.torch_error);
+    state.health.tooltip = tips.join('\n');
+  } catch (e) {
+    state.health.ok = false;
+    state.health.device = '';
+    state.health.tooltip = '无法连接后端: ' + e.message;
+  }
+  const b = $('health-badge'), dot = $('health-dot');
+  b.className = 'health-badge ' + (state.health.ok ? 'ok' : 'fail');
+  dot.className = 'health-dot ' + (state.health.ok ? 'ok' : 'fail');
+  b.title = state.health.tooltip;
+  $('health-device').textContent = state.health.device || '?';
+}
+
+// ============ 试卷列表 ============
+async function loadPapers() {
+  try {
+    const r = await fetch('/api/papers');
+    const d = await r.json();
+    state.papers = d.papers || [];
+  } catch (e) {
+    state.papers = [];
+  }
+  renderPaperList();
+  // 同步到阅卷分析的 select
+  const sel = $('fb-paper');
+  sel.innerHTML = '<option value="">-- 选择已识别试卷 --</option>' +
+    state.papers.map(p => `<option value="${esc(p.paperId)}">${esc(p.sourceName)}</option>`).join('');
+  if (state.fbPaperId) sel.value = state.fbPaperId;
+}
+
+function renderPaperList() {
+  const wrap = $('paper-list');
+  if (state.papers.length === 0) {
+    wrap.innerHTML = '<div class="paper-empty">暂无已识别试卷</div>';
+    return;
+  }
+  wrap.innerHTML = state.papers.map(p => {
+    const active = state.currentPaper && state.currentPaper.paper_id === p.paperId;
+    const timeStr = p.mtime ? formatTs(p.mtime * 1000) : '';
+    return `<div class="paper-item ${active ? 'active' : ''}" data-id="${esc(p.paperId)}">
+      <div class="paper-name">${esc(p.sourceName)}</div>
+      <div class="paper-meta">${p.questionCount} 题 · ${esc(timeStr)}</div>
+      <button class="btn-del" data-del="${esc(p.paperId)}" title="删除">×</button>
+    </div>`;
+  }).join('');
+  wrap.querySelectorAll('.paper-item').forEach(el => {
+    el.onclick = e => {
+      if (e.target.dataset.del) return;
+      selectPaper(el.dataset.id);
+    };
+  });
+  wrap.querySelectorAll('[data-del]').forEach(btn => {
+    btn.onclick = e => {
+      e.stopPropagation();
+      deletePaper(btn.dataset.del);
+    };
+  });
+}
+
+async function selectPaper(paperId) {
+  const r = await fetch('/api/papers/' + encodeURIComponent(paperId));
+  if (!r.ok) return;
+  state.currentPaper = await r.json();
+  state.dirty = {};
+  renderDetail();
+  showView('detail');
+  renderPaperList();
+}
+
+// 下载当前试卷的 paper.json 到本地
+function downloadPaperJson() {
+  const p = state.currentPaper;
+  if (!p || !p.paper_id) return;
+  const blob = new Blob([JSON.stringify(p, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${p.paper_id}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+async function deletePaper(paperId) {
+  if (!confirm('删除 ' + paperId + ' ?')) return;
+  await fetch('/api/papers/' + encodeURIComponent(paperId), { method: 'DELETE' });
+  if (state.currentPaper && state.currentPaper.paper_id === paperId) {
+    state.currentPaper = null;
+    showView('empty');
+  }
+  loadPapers();
+}
+
+function continueRecognition() {
+  state.currentPaper = null;
+  state.uploaded = [];
+  state.progressTotal = 0; state.progressDone = 0; state.progressPercent = 0;
+  renderUploaded();
+  showView('empty');
+  renderPaperList();
+}
+
+// ============ 试卷详情 ============
+function renderDetail() {
+  const p = state.currentPaper;
+  $('detail-title').textContent = p.source.name;
+  const pr = (p.meta && p.meta.pipeline_run) || {};
+  $('detail-stats').textContent = `${p.questions.length} 题 · ok ${pr.ok || 0} / fb ${pr.fallback || 0}`;
+  $('questions').innerHTML = p.questions.map(q => renderQuestion(q)).join('');
+  bindQuestionEvents();
+}
+
+function renderQuestion(q) {
+  const qa = q.qwen_analysis || {};
+  const kps = qa.knowledge_points || [];
+  const conf = qa.confidence || 0;
+  const starOn = '★'.repeat(Math.round(conf * 5));
+  const starOff = '☆'.repeat(5 - Math.round(conf * 5));
+  const html = (md) => renderMd(rewriteMd(md || ''));
+
+  return `<article class="q-card" data-qid="${esc(q.question_id)}">
+    <header class="q-header">
+      <span class="q-no">第 ${q.question_no} 题</span>
+      <span class="q-type">${esc(qtypeLabel(q.question_type))}</span>
+      ${q.full_score ? `<span class="q-score">${q.full_score} 分</span>` : ''}
+      ${q.needs_review ? `<span class="q-warn">⚠ 需复查</span>` : ''}
+      <span class="q-conf" title="parse_confidence=${q.parse_confidence}">切题置信度 ${(q.parse_confidence * 100).toFixed(0)}%</span>
+    </header>
+
+    <div class="q-stem">
+      <div class="edit-label">题目</div>
+      <div class="md-view" contenteditable="true" spellcheck="false" data-field="stem_markdown">${html(q.stem_markdown || q.stem_text)}</div>
+    </div>
+
+    ${q.options && q.options.length ? `<div class="q-options">
+      <div class="edit-label">选项</div>
+      ${q.options.map((opt, oi) => `<div class="opt-row" data-qid="${esc(q.question_id)}" data-oi="${oi}">
+        <span class="opt-label">${esc(opt.label)}.</span>
+        <div class="opt-text md-view" contenteditable="true" spellcheck="false">${html(opt.text)}</div>
+      </div>`).join('')}
+    </div>` : ''}
+
+    <div class="q-answer">
+      <div class="edit-label">答案</div>
+      <div class="md-view" contenteditable="true" spellcheck="false" data-field="answer">${html(q.answer || '（无）')}</div>
+    </div>
+
+    ${q.solution ? `<div class="q-solution">
+      <div class="edit-label">解析</div>
+      <div class="md-view" contenteditable="true" spellcheck="false" data-field="solution">${html(q.solution)}</div>
+    </div>` : ''}
+
+    ${qa ? `<div class="q-kp">
+      <div class="kp-block">
+        <div class="edit-label">📚 知识点</div>
+        <ul class="kp-list">${kps.map((kp, ki) => `<li>${esc(kp)} <button data-rmkp="${ki}">×</button></li>`).join('')}</ul>
+        <div class="kp-add"><input data-addkp placeholder="+ 添加知识点，回车确认" /></div>
+      </div>
+      <div class="kp-block">
+        <div class="edit-label">💡 依据</div>
+        <div class="md-view reasoning" contenteditable="true" spellcheck="false" data-field="reasoning">${html(qa.reasoning || '（无）')}</div>
+      </div>
+      <div class="kp-block conf-block">
+        <div class="edit-label">置信度</div>
+        <input type="range" min="0" max="1" step="0.01" value="${conf}" data-conf />
+        <span class="conf-num">${(conf * 100).toFixed(0)}%</span>
+        <span class="conf-stars">${starOn}${starOff}</span>
+      </div>
+      ${qa.raw_outputs ? `<details class="raw-detail"><summary>查看模型原始输出</summary><pre>${esc(formatRaw(qa.raw_outputs))}</pre></details>` : ''}
+      <div class="save-hint" data-savehint hidden>● 未保存</div>
+    </div>` : `<div class="q-kp missing">⚠ 此题未生成 qwen_analysis</div>`}
+  </article>`;
+}
+
+function bindQuestionEvents() {
+  document.querySelectorAll('#questions .q-card').forEach(card => {
+    const qid = card.dataset.qid;
+    const q = state.currentPaper.questions.find(x => x.question_id === qid);
+    if (!q) return;
+    card.querySelectorAll('[data-field]').forEach(el => {
+      el.addEventListener('blur', () => {
+        const field = el.dataset.field;
+        const md = htmlToMd(el.innerHTML);
+        const target = (field === 'reasoning') ? (q.qwen_analysis || {}) : q;
+        if (target[field] === md) return;
+        target[field] = md;
+        markDirty(qid);
+        saveQuestion(q);
+      });
+    });
+    card.querySelectorAll('.opt-row').forEach(row => {
+      const oi = parseInt(row.dataset.oi, 10);
+      const el = row.querySelector('.md-view');
+      el.addEventListener('blur', () => {
+        const md = htmlToMd(el.innerHTML);
+        if (q.options[oi].text === md) return;
+        q.options[oi].text = md;
+        markDirty(qid);
+        saveQuestion(q);
+      });
+    });
+    const conf = card.querySelector('[data-conf]');
+    if (conf) {
+      conf.addEventListener('input', () => {
+        const v = parseFloat(conf.value);
+        q.qwen_analysis.confidence = v;
+        const block = card.querySelector('.conf-block');
+        block.querySelector('.conf-num').textContent = (v * 100).toFixed(0) + '%';
+        block.querySelector('.conf-stars').textContent = '★'.repeat(Math.round(v * 5)) + '☆'.repeat(5 - Math.round(v * 5));
+        markDirty(qid);
+        saveQuestion(q);
+      });
+    }
+    const addKpInput = card.querySelector('[data-addkp]');
+    if (addKpInput) {
+      addKpInput.addEventListener('keydown', e => {
+        if (e.key !== 'Enter') return;
+        const v = addKpInput.value.trim();
+        if (!v) return;
+        q.qwen_analysis.knowledge_points = (q.qwen_analysis.knowledge_points || []).concat([v]);
+        addKpInput.value = '';
+        markDirty(qid);
+        saveQuestion(q);
+        // 重渲染该卡片
+        card.outerHTML = renderQuestion(q);
+        bindQuestionEvents();
+      });
+    }
+    card.querySelectorAll('[data-rmkp]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const ki = parseInt(btn.dataset.rmkp, 10);
+        q.qwen_analysis.knowledge_points.splice(ki, 1);
+        markDirty(qid);
+        saveQuestion(q);
+        card.outerHTML = renderQuestion(q);
+        bindQuestionEvents();
+      });
+    });
+  });
+}
+
+function markDirty(qid) {
+  state.dirty[qid] = true;
+  const card = document.querySelector(`.q-card[data-qid="${CSS.escape(qid)}"]`);
+  if (card) card.querySelector('[data-savehint]').hidden = false;
+}
+
+let saveQueue = Promise.resolve();
+function saveQuestion(q) {
+  saveQueue = saveQueue.then(async () => {
+    const payload = {
+      stem_text: q.stem_text,
+      stem_markdown: q.stem_markdown,
+      options: q.options,
+      answer: q.answer,
+      solution: q.solution,
+      knowledge_points: q.qwen_analysis && q.qwen_analysis.knowledge_points,
+      reasoning: q.qwen_analysis && q.qwen_analysis.reasoning,
+      confidence: q.qwen_analysis && q.qwen_analysis.confidence,
+    };
+    await fetch(`/api/papers/${encodeURIComponent(q.paper_id)}/questions/${encodeURIComponent(q.question_id)}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    delete state.dirty[q.question_id];
+    const card = document.querySelector(`.q-card[data-qid="${CSS.escape(q.question_id)}"]`);
+    if (card) card.querySelector('[data-savehint]').hidden = true;
+  });
+}
+
+// ============ 上传 + 识别 ============
+function bindUploadEvents() {
+  $('file-input').addEventListener('change', e => {
+    uploadFiles(Array.from(e.target.files || []));
+    e.target.value = '';
+  });
+  const dz = $('view-empty');
+  dz.addEventListener('dragover', e => { e.preventDefault(); dz.classList.add('dragging'); });
+  dz.addEventListener('dragleave', e => { e.preventDefault(); dz.classList.remove('dragging'); });
+  dz.addEventListener('drop', e => {
+    e.preventDefault();
+    dz.classList.remove('dragging');
+    uploadFiles(Array.from(e.dataTransfer.files || []));
+  });
+}
+
+async function uploadFiles(files) {
+  const docx = files.filter(f => f.name.toLowerCase().endsWith('.docx'));
+  if (docx.length === 0) { alert('请上传 .docx 文件'); return; }
+  const fd = new FormData();
+  docx.forEach(f => fd.append('files', f));
+  const res = await fetch('/api/upload', { method: 'POST', body: fd });
+  const data = await res.json();
+  state.uploaded = state.uploaded.concat(data.files || []);
+  renderUploaded();
+}
+
+function renderUploaded() {
+  const wrap = $('uploaded-list');
+  if (state.uploaded.length === 0) { wrap.hidden = true; return; }
+  wrap.hidden = false;
+  $('uploaded-count').textContent = state.uploaded.length;
+  $('uploaded-rows').innerHTML = state.uploaded.map(f =>
+    `<div class="uploaded-row"><span class="uploaded-name">📎 ${esc(f.name)}</span><span class="uploaded-size">${formatSize(f.size)}</span></div>`
+  ).join('');
+}
+
+async function startRecognition() {
+  if (state.uploaded.length === 0) return;
+  const res = await fetch('/api/tasks/start', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      docxPaths: state.uploaded.map(f => f.path),
+      device: state.health.device || 'cuda:2',
+    }),
+  });
+  const data = await res.json();
+  if (data.error) { alert(data.error); return; }
+  state.processing = true;
+  state.progressLog = [];
+  state.progressTotal = 0; state.progressDone = 0; state.progressPercent = 0;
+  $('progress-fill').style.width = '0%';
+  $('progress-num').textContent = '0%';
+  $('progress-text').textContent = '初始化…';
+  $('progress-log').innerHTML = '';
+  showView('processing');
+  connectSSE(data.taskId);
+}
+
+function connectSSE(taskId) {
+  const es = new EventSource('/api/tasks/' + taskId + '/stream');
+  es.onmessage = ev => {
+    let msg;
+    try { msg = JSON.parse(ev.data); } catch { return; }
+    if (msg.event === 'connected') return;
+    if (msg.event === 'paper_start') {
+      pushLog('start', `📄 开始处理 ${msg.paperName}`);
+      return;
+    }
+    if (msg.event === 'progress') {
+      state.progressDone++;
+      state.progressTotal = Math.max(state.progressTotal, msg.questionTotal);
+      const pct = (state.progressDone / state.progressTotal) * 100;
+      state.progressPercent = isFinite(pct) ? Math.min(100, pct) : 0;
+      $('progress-fill').style.width = state.progressPercent + '%';
+      $('progress-num').textContent = state.progressPercent.toFixed(0) + '%';
+      $('progress-text').textContent = `${msg.paperName} · 第 ${msg.questionIndex + 1}/${msg.questionTotal} 题 · ${msg.status}`;
+      pushLog(msg.status === 'ok' ? 'ok' : 'fb', `${msg.paperName} q${msg.questionIndex + 1}/${msg.questionTotal} → ${msg.status} (${(msg.confidence * 100).toFixed(0)}%)`);
+      return;
+    }
+    if (msg.event === 'paper_done') {
+      pushLog('ok', `✅ ${msg.paperName}: ${msg.ok} ok, ${msg.fallback} fallback`);
+      return;
+    }
+    if (msg.event === 'paper_error') {
+      pushLog('err', `❌ ${msg.paperName}: ${msg.error}`);
+      return;
+    }
+    if (msg.event === 'finished') {
+      es.close();
+      state.processing = false;
+      $('progress-fill').style.width = '100%';
+      $('progress-num').textContent = '100%';
+      $('progress-text').textContent = '识别完成';
+      state.uploaded = [];
+      renderUploaded();
+      loadPapers();
+      showView('empty');
+      return;
+    }
+    if (msg.event === 'fatal') {
+      es.close();
+      state.processing = false;
+      alert('Fatal: ' + msg.error);
+      showView('empty');
+      return;
+    }
+  };
+  es.onerror = () => { es.close(); state.processing = false; alert('SSE 连接断开'); showView('empty'); };
+}
+
+function pushLog(status, text) {
+  const wrap = $('progress-log');
+  const div = document.createElement('div');
+  div.className = 'progress-line';
+  div.innerHTML = `<span class="dot s-${status}"></span><span class="msg">${esc(text)}</span>`;
+  wrap.appendChild(div);
+  wrap.scrollTop = wrap.scrollHeight;
+}
+
+// ============ 阅卷分析 ============
+async function loadFbTemplates() {
+  try {
+    const r = await fetch('/api/feedback/templates');
+    const d = await r.json();
+    state.fbTemplates = d.templates || [];
+    const mdSel = $('fb-md-tpl'), docxSel = $('fb-docx-tpl');
+    const mdItems = state.fbTemplates.filter(t => t.format === 'md');
+    const docxItems = state.fbTemplates.filter(t => t.format === 'docx');
+    mdSel.innerHTML = mdItems.map(t => `<option value="${esc(t.name)}">${esc(t.name)}${t.builtin ? '（内置）' : ''}</option>`).join('');
+    docxSel.innerHTML = '<option value="">-- 不生成 docx --</option>' +
+      docxItems.map(t => `<option value="${esc(t.name)}">${esc(t.name)}${t.builtin ? '（内置）' : ''}</option>`).join('');
+    if (!state.fbMdTpl && mdItems.length) state.fbMdTpl = mdItems[0].name;
+    if (state.fbMdTpl) mdSel.value = state.fbMdTpl;
+  } catch (e) { console.warn('load templates failed', e); }
+}
+
+function bindFbEvents() {
+  $('fb-paper').addEventListener('change', e => {
+    state.fbPaperId = e.target.value;
+    state.fbReport = null;
+    refreshFbBtn();
+    showFbView('detail');
+    $('fb-config').hidden = false;
+    $('fb-result').hidden = true;
+    $('fb-error').hidden = true;
+    $('fb-excel').value = '';
+    $('fb-excel-name').hidden = true;
+    state.fbExcelFile = null;
+    $('fb-detail-title').textContent = '新建教学反馈报告';
+    $('fb-detail-stats').textContent = '';
+    loadFbReports();
+  });
+  $('fb-excel').addEventListener('change', e => {
+    const f = e.target.files && e.target.files[0];
+    if (!f) return;
+    state.fbExcelFile = f;
+    const span = $('fb-excel-name');
+    span.textContent = '已选择：' + f.name;
+    span.hidden = false;
+    refreshFbBtn();
+  });
+  $('fb-md-tpl').addEventListener('change', e => { state.fbMdTpl = e.target.value; });
+  $('fb-docx-tpl').addEventListener('change', e => { state.fbDocxTpl = e.target.value; });
+  $('fb-md-upload').addEventListener('change', async e => {
+    const f = e.target.files && e.target.files[0];
+    if (!f) return;
+    const fd = new FormData(); fd.append('file', f);
+    try {
+      const r = await fetch('/api/feedback/templates', { method: 'POST', body: fd });
+      if (!r.ok) throw new Error('上传失败');
+      await loadFbTemplates();
+    } catch (err) { showFbError('模板上传失败：' + err.message); }
+  });
+  $('fb-class').addEventListener('input', e => { state.fbClassName = e.target.value; });
+  $('fb-teacher').addEventListener('input', e => { state.fbTeacher = e.target.value; });
+  $('btn-fb-generate').addEventListener('click', fbGenerate);
+}
+
+function refreshFbBtn() {
+  const ok = state.fbPaperId && state.fbExcelFile && state.fbMdTpl && !state.fbGenerating;
+  $('btn-fb-generate').disabled = !ok;
+}
+
+function showFbError(msg) {
+  state.fbError = msg;
+  const div = $('fb-error');
+  div.textContent = '⚠ ' + msg;
+  div.hidden = false;
+}
+
+// 视图切换：与切题 showView 同源
+function showFbView(name) {
+  state.fbFbView = name;
+  $('view-fb-empty').hidden = (name !== 'empty');
+  $('view-fb-processing').hidden = (name !== 'processing');
+  $('view-fb-detail').hidden = (name !== 'detail');
+}
+
+// 从后端拉报告列表（持久化）
+// 改为永远拉全部，让左侧面板作为"全局报告抽屉"，不受当前选中试卷影响
+async function loadFbReports() {
+  try {
+    const r = await fetch(`/api/feedback/reports/list`);
+    if (!r.ok) return;
+    const d = await r.json();
+    state.fbReports = (d.reports || []).map(x => ({
+      report_id: x.report_id,
+      paper_id: x.paper_id,
+      paper_name: x.paper_name,
+      avg_total_score: x.avg_total_score,
+      total_score: x.total_score,
+      ts: typeof x.ts === 'number' ? x.ts * (x.ts > 1e12 ? 1 : 1000) : Date.now(),
+    })).sort((a, b) => b.ts - a.ts);
+    renderFbReports();
+  } catch (e) {
+    console.warn('loadFbReports failed:', e);
+  }
+}
+
+// 删除报告
+async function deleteFbReport(reportId, ev) {
+  if (ev) { ev.stopPropagation(); ev.preventDefault(); }
+  if (!confirm('确定删除该报告？')) return;
+  try {
+    const r = await fetch(`/api/feedback/reports/${encodeURIComponent(reportId)}`, { method: 'DELETE' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    state.fbReports = state.fbReports.filter(x => x.report_id !== reportId);
+    if (state.fbReport && state.fbReport.report_id === reportId) {
+      state.fbReport = null;
+      newFbReport();
+    }
+    renderFbReports();
+  } catch (e) {
+    showFbError('删除失败：' + e.message);
+  }
+}
+
+// 渲染报告侧栏列表
+function renderFbReports() {
+  const wrap = $('fb-report-list');
+  if (!state.fbReports || state.fbReports.length === 0) {
+    wrap.innerHTML = '<div class="paper-empty">暂无报告</div>';
+    return;
+  }
+  const cur = state.fbReport && state.fbReport.report_id;
+  wrap.innerHTML = state.fbReports.map(r => {
+    const active = (r.report_id === cur);
+    const meta = r.avg_total_score != null
+      ? `均分 ${r.avg_total_score} / ${r.total_score || '?'} · ${formatTs(r.ts)}`
+      : `${r.paper_name || ''} · ${formatTs(r.ts)}`;
+    return `<div class="paper-item report-item ${active ? 'active' : ''}" data-id="${esc(r.report_id)}">
+      <button class="btn-del" title="删除报告" onclick="deleteFbReport('${esc(r.report_id)}', event)">×</button>
+      <div class="report-name">${esc(r.paper_name || r.report_id)}</div>
+      <div class="report-meta">${esc(meta)}</div>
+    </div>`;
+  }).join('');
+  Array.from(wrap.querySelectorAll('.report-item')).forEach(el => {
+    el.addEventListener('click', () => selectFbReport(el.dataset.id));
+  });
+}
+
+function formatTs(ts) {
+  if (!ts) return '';
+  const d = new Date(ts);
+  if (isNaN(d.getTime())) return '';
+  const pad = n => String(n).padStart(2, '0');
+  return `${d.getMonth() + 1}/${d.getDate()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+// 新建报告：清空当前报告 + 回到配置表单
+function newFbReport() {
+  state.fbReport = null;
+  state.fbExcelFile = null;
+  $('fb-excel').value = '';
+  $('fb-excel-name').hidden = true;
+  $('fb-error').hidden = true;
+  showFbView('detail');
+  $('fb-config').hidden = false;
+  $('fb-result').hidden = true;
+  $('fb-detail-title').textContent = '新建教学反馈报告';
+  $('fb-detail-stats').textContent = '';
+  renderFbReports();
+}
+
+// 点击左侧报告项：重新拉取报告并展示
+async function selectFbReport(reportId) {
+  try {
+    const r = await fetch(`/api/feedback/reports/${encodeURIComponent(reportId)}`);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    state.fbReport = await r.json();
+    renderFbReport();
+    showFbView('detail');
+    renderFbReports();
+  } catch (e) {
+    showFbError('加载报告失败：' + e.message);
+  }
+}
+
+async function fbGenerate() {
+  refreshFbBtn();
+  if ($('btn-fb-generate').disabled) return;
+  state.fbGenerating = true;
+  $('btn-fb-generate').textContent = '生成中…';
+  $('btn-fb-generate').disabled = true;
+  $('fb-error').hidden = true;
+
+  // 切到进度视图
+  showFbView('processing');
+  $('fb-progress-fill').style.width = '0%';
+  $('fb-progress-num').textContent = '0%';
+  $('fb-progress-text').textContent = '排队中…';
+  $('fb-progress-log').innerHTML = '';
+
+  try {
+    const fd = new FormData();
+    fd.append('paper_id', state.fbPaperId);
+    fd.append('teacher', $('fb-teacher').value);
+    fd.append('class_name', $('fb-class').value);
+    fd.append('excel', state.fbExcelFile);
+    fd.append('md_template', state.fbMdTpl);
+    fd.append('docx_template', state.fbDocxTpl);
+    const r = await fetch('/api/feedback/reports', { method: 'POST', body: fd });
+    if (!r.ok) { const t = await r.text(); throw new Error(t || 'HTTP ' + r.status); }
+    const sub = await r.json();
+    if (!sub.job_id) throw new Error('未返回 job_id');
+
+    const report = await _pollFbProgress(sub.job_id);
+    state.fbReport = report;
+    // 重新从磁盘拉取列表，避免本地与磁盘不一致
+    await loadFbReports();
+    renderFbReport();
+    showFbView('detail');
+  } catch (e) {
+    showFbError('生成失败：' + e.message);
+    showFbView('detail');
+  } finally {
+    state.fbGenerating = false;
+    $('btn-fb-generate').textContent = '▶ 生成报告';
+    refreshFbBtn();
+  }
+}
+
+function _fbAppendLog(msg, kind) {
+  const wrap = $('fb-progress-log');
+  const div = document.createElement('div');
+  div.className = 'progress-line';
+  const dot = document.createElement('span');
+  dot.className = 'dot';
+  if (kind === 'done') dot.style.background = '#2da44e';
+  if (kind === 'error') dot.style.background = '#cf222e';
+  const txt = document.createElement('span');
+  txt.textContent = msg;
+  div.appendChild(dot);
+  div.appendChild(txt);
+  wrap.appendChild(div);
+  wrap.scrollTop = wrap.scrollHeight;
+}
+
+function _pollFbProgress(jobId) {
+  return new Promise((resolve, reject) => {
+    const tick = async () => {
+      try {
+        const r = await fetch(`/api/feedback/reports/progress/${jobId}`);
+        const j = await r.json();
+        if (j.status === 'done' && j.report_id) {
+          $('fb-progress-fill').style.width = '100%';
+          $('fb-progress-num').textContent = '100%';
+          $('fb-progress-text').textContent = '生成完成';
+          _fbAppendLog(`✓ ${j.message || '完成'}`, 'done');
+          const r2 = await fetch(`/api/feedback/reports/by-job/${jobId}`);
+          if (!r2.ok) throw new Error('取报告失败 HTTP ' + r2.status);
+          resolve(await r2.json());
+          return;
+        }
+        if (j.status === 'error') {
+          _fbAppendLog(`✗ ${j.message || j.error || '失败'}`, 'error');
+          reject(new Error(j.error || j.message || '生成失败'));
+          return;
+        }
+        const pct = Math.max(0, Math.min(100, j.percent || 0));
+        $('fb-progress-fill').style.width = pct + '%';
+        $('fb-progress-num').textContent = pct + '%';
+        $('fb-progress-text').textContent = `${j.message || j.stage || '处理中…'} (${pct}%)`;
+        const lastStage = $('fb-progress-log').dataset.lastStage;
+        if (j.stage && j.stage !== lastStage) {
+          $('fb-progress-log').dataset.lastStage = j.stage;
+          _fbAppendLog(`• ${j.message || j.stage}`);
+        }
+        setTimeout(tick, 600);
+      } catch (e) {
+        reject(e);
+      }
+    };
+    tick();
+  });
+}
+
+function renderFbReport() {
+  const r = state.fbReport;
+  if (!r) {
+    $('fb-result').hidden = true;
+    $('fb-config').hidden = false;
+    return;
+  }
+  // 报告已生成：隐藏配置、显示结果
+  $('fb-config').hidden = true;
+  $('fb-result').hidden = false;
+  $('btn-fb-pdf').hidden = !r.has_pdf;
+  $('btn-fb-docx').hidden = !r.has_docx;
+  const avg = r.report.avg_total_score, total = r.report.total_score;
+  $('fb-detail-title').textContent = `${r.paper_name || ''} · 教学反馈报告`;
+  $('fb-detail-stats').textContent = (avg != null && total != null) ? `班级均分 ${avg} / ${total}` : '';
+  $('fb-avg').textContent = (avg != null && total != null) ? `班级均分 ${avg} / ${total}` : '';
+  $('fb-md').textContent = r.md;
+}
+
+function fbDownload(fmt) {
+  if (!state.fbReport) return;
+  window.location.href = `/api/feedback/reports/${state.fbReport.report_id}/download?format=${fmt}`;
+}
+
+// ============ 启动 ============
+document.addEventListener('DOMContentLoaded', () => {
+  bindUploadEvents();
+  bindFbEvents();
+  loadHealth();
+  loadPapers();
+  showView('empty');
+  showFbView('empty');
+});
+</script>
+</body>
+</html>

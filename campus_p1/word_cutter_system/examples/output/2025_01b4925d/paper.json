@@ -1,0 +1,672 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025_01b4925d",
+  "source": {
+    "name": "2025年海南省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年海南省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025_01b4925d_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列4个汉字中，从数学的角度可以看作轴对称图形的是（ ）",
+      "stem_markdown": "下列4个汉字中，从数学的角度可以看作轴对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025_01b4925d_q001_img01](assets/2025_01b4925d_q001_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025_01b4925d_q001_img02](assets/2025_01b4925d_q001_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025_01b4925d_q001_img03](assets/2025_01b4925d_q001_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025_01b4925d_q001_img04](assets/2025_01b4925d_q001_img04.png)"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据如果一个图形沿一条直线折叠，直线两旁的部分能够互相重合，这个图形叫做轴对称图形，这条直线叫做对称轴进行分析即可．\n【解答】解：A，B，D选项中的汉字都能不找到这样的一条直线，使图形沿一条直线折叠，直线两旁的部分能够互相重合，所以不是轴对称图形；\nC选项中的汉字能找到一条直线，使图形沿一条直线折叠，直线两旁的部分能够互相重合，所以是轴对称图形．\n故选：C．\n【点评】本题考查了轴对称图形的概念，轴对称图形的关键是寻找对称轴，图形两部分折叠后可重合．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q001_img01",
+          "path": "assets/2025_01b4925d_q001_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025_01b4925d_q001_img02",
+          "path": "assets/2025_01b4925d_q001_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025_01b4925d_q001_img03",
+          "path": "assets/2025_01b4925d_q001_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025_01b4925d_q001_img04",
+          "path": "assets/2025_01b4925d_q001_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "下列立体图形的俯视图为圆的是（ ）",
+      "stem_markdown": "下列立体图形的俯视图为圆的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025_01b4925d_q002_img01](assets/2025_01b4925d_q002_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025_01b4925d_q002_img02](assets/2025_01b4925d_q002_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025_01b4925d_q002_img03](assets/2025_01b4925d_q002_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025_01b4925d_q002_img04](assets/2025_01b4925d_q002_img04.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据俯视图是由上面看得到的图形解答即可．\n【解答】解：在四个选项中，只有选项B的几何体的俯视图是圆．\n故选：B．\n【点评】本题考查了简单几何体的三视图，掌握主视图，左视图，俯视图分别是从物体的正面，左面，上面看得到的图形是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q002_img01",
+          "path": "assets/2025_01b4925d_q002_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025_01b4925d_q002_img02",
+          "path": "assets/2025_01b4925d_q002_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025_01b4925d_q002_img03",
+          "path": "assets/2025_01b4925d_q002_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025_01b4925d_q002_img04",
+          "path": "assets/2025_01b4925d_q002_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "2025年“五一”期间，海南省旅文厅在全岛推出26场体育赛事活动，拉动相关消费约6500万元．数据65000000用科学记数法表示为（ ）",
+      "stem_markdown": "2025年“五一”期间，海南省旅文厅在全岛推出26场体育赛事活动，拉动相关消费约6500万元．数据65000000用科学记数法表示为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "6.5×10^{6}"
+        },
+        {
+          "label": "B",
+          "text": "6.5×10^{7}"
+        },
+        {
+          "label": "C",
+          "text": "0.65×10^{6}"
+        },
+        {
+          "label": "D",
+          "text": "0.65×10^{7}"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：65000000＝6.5×10^{7}．\n故选：B．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "当x＝2时，代数式2x﹣3的值为（ ）",
+      "stem_markdown": "当x＝2时，代数式2x﹣3的值为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "﹣1"
+        },
+        {
+          "label": "D",
+          "text": "﹣5"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】利用代入法，代入所求的式子即可．\n【解答】解：当x＝2时，原式＝2×2﹣3＝1．\n故选：A．\n【点评】本题考查代数式求值，按照代数式规定的运算，计算的结果就是代数式的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "分式方程\\frac{x-2025}{x+3}=0的解是（ ）",
+      "stem_markdown": "分式方程$\\frac{x-2025}{x+3}=0$的解是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x＝﹣3"
+        },
+        {
+          "label": "B",
+          "text": "x＝3"
+        },
+        {
+          "label": "C",
+          "text": "x＝2025"
+        },
+        {
+          "label": "D",
+          "text": "x＝﹣2025"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据分式方程的解法进行计算即可．\n【解答】解：将分式方程$\\frac{x-2025}{x+3}=$0的两边都乘以x+3得，\nx﹣2025＝0，\n解得x＝2025，\n经检验，x＝2025是原方程的解，\n故选：C．\n【点评】本题考查解分式方程，掌握分式方程的解法是正确解答的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "在如图所示的正方形网格中，若建立平面直角坐标系，使“少”“年”的坐标分别为（﹣1，0）、（1，1），则“强”的坐标为（ ）\n[图1]",
+      "stem_markdown": "在如图所示的正方形网格中，若建立平面直角坐标系，使“少”“年”的坐标分别为（﹣1，0）、（1，1），则“强”的坐标为（ ）\n![2025_01b4925d_q006_img01](assets/2025_01b4925d_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "（3，3）"
+        },
+        {
+          "label": "B",
+          "text": "（2，3）"
+        },
+        {
+          "label": "C",
+          "text": "（4，3）"
+        },
+        {
+          "label": "D",
+          "text": "（4，5）"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据已知建立适当的平面直角坐标系，即可解答．\n【解答】解：建立适当的平面直角坐标系如图所示：\n[[image:rId37]]\n则“强”的坐标为（2，3），\n故选：B．\n【点评】本题考查了点的坐标，建立适当的平面直角坐标系是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q006_img01",
+          "path": "assets/2025_01b4925d_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "下列运算结果为m⁵的是（ ）",
+      "stem_markdown": "下列运算结果为$m^{5}$的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$m^{2}•m^{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$(m^{2})^{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$m^{2}+m^{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$m^{9}﹣m^{4}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据幂的乘方与积的乘方、同底数幂的乘法及合并同类项进行计算即可．\n【解答】解：A．原式＝$m^{5}$，故本选项符合题意；\nB．原式＝$m^{6}$，故本选项不符合题意；\nC．原式不能合并同类项，故本选项不符合题意；\nD．原式不能合并同类项，故本选项不符合题意．\n故选：A．\n【点评】本题主要考查幂的乘方与积的乘方、同底数幂的乘法，熟练掌握以上知识点是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "已知三角形三条边的长分别为3、5、x，则x的值可能是（ ）",
+      "stem_markdown": "已知三角形三条边的长分别为3、5、x，则x的值可能是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】三角形两边之和大于第三边，三角形两边的差小于第三边，由此得到2＜x＜8，即可得到答案．\n【解答】解：由三角形三边关系定理得到：5﹣3＜x＜5+3，\n∴2＜x＜8，\n∴x的值可能是5．\n故选：B．\n【点评】本题考查三角形三边关系，关键是掌三角形三边关系定理．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "掷一枚质地均匀的正方体骰子，骰子的六个面上分别刻有1到6的点数，观察向上一面的点数．下列说法正确的是（ ）",
+      "stem_markdown": "掷一枚质地均匀的正方体骰子，骰子的六个面上分别刻有1到6的点数，观察向上一面的点数．下列说法正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "出现点数为6的概率是$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "出现点数为0是随机事件"
+        },
+        {
+          "label": "C",
+          "text": "出现点数为偶数是必然事件"
+        },
+        {
+          "label": "D",
+          "text": "出现点数为奇数是不可能事件"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据必然事件、不可能事件、随机事件的概念以及事件发生的可能性大小判断即可．\n【解答】解：A．出现的点数是6的概率是$\\frac{1}{6}$，故A正确，符合题意；\nB．出现的点数为0是不可能事件，故B错误，不符合题意；\nC．掷一枚质地均匀的正方体骰子，向上一面的点数为偶数是随机事件，故C错误，不符合题意；\nD．出现的点数为奇数是随机事件，故D错误，不符合题意；\n故选：A．\n【点评】本题考查的是概率公式、必然事件、不可能事件、随机事件的概念．必然事件指在一定条件下，一定发生的事件．不可能事件是指在一定条件下，一定不发生的事件，不确定事件即随机事件是指在一定条件下，可能发生也可能不发生的事件．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "将一副三角尺平放在桌面上，如图所示．若AB∥CE，则∠BCD的大小为（ ）\n[图1]",
+      "stem_markdown": "将一副三角尺平放在桌面上，如图所示．若AB∥CE，则∠BCD的大小为（ ）\n![2025_01b4925d_q010_img01](assets/2025_01b4925d_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "100°"
+        },
+        {
+          "label": "B",
+          "text": "120°"
+        },
+        {
+          "label": "C",
+          "text": "135°"
+        },
+        {
+          "label": "D",
+          "text": "150°"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据直角三角板的度数，平行线的性质可得∠BCD的度数．\n【解答】解：∵AB∥CE，∠A＝30°，\n∴∠ACE＝∠A＝30°，\n∵∠ACB＝90°，∠DCE＝90°\n∴∠BCD＝360°﹣90°﹣90°﹣30°＝150°．\n故选：D．\n【点评】此题主要考查了平行线的性质，关键是掌握平行线的性质．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q010_img01",
+          "path": "assets/2025_01b4925d_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q011",
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem_text": "如图，在△ABC中，∠C＝30°，AB＝1，以AB为直径的半圆O交AC于点D，若BC与半圆O相切于点B，则BD的长为（ ）\n[图1]",
+      "stem_markdown": "如图，在△ABC中，∠C＝30°，AB＝1，以AB为直径的半圆O交AC于点D，若BC与半圆O相切于点B，则$BD$的长为（ ）\n![2025_01b4925d_q011_img01](assets/2025_01b4925d_q011_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{π}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{π}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{π}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{π}{2}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】连接OD，根据切线的性质得到∠ABC＝90°，根据直角三角形的性质求出∠A，根据圆周角定理求出∠BOD，再根据弧长公式计算，得到答案．\n【解答】解：如图，连接OD，\n∵BC与半圆O相切于点B，\n∴∠ABC＝90°，\n∵∠C＝30°，\n∴∠A＝90°﹣30°＝60°，\n由圆周角定理得：∠BOD＝2∠A＝120°，\n∴$BD$的长为：$\\frac{120π×\\frac{1}{2}}{180}=\\frac{π}{3}$，\n故选：C．\n[[image:rId40]]\n【点评】本题考查的是切线的性质、弧长的计算，熟记圆的切线垂直于经过切点的半径是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q011_img01",
+          "path": "assets/2025_01b4925d_q011_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q012",
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem_text": "如图，在平面直角坐标系xOy中，一次函数y₁＝kx+b的图象与反比例函数y₂=\\frac{m}{x}的图象交于点A（﹣1，﹣2）、B（2，n）．则不等式kx+b＞\\frac{m}{x}的解集为（ ）\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系xOy中，一次函数$y_{1}$＝kx+b的图象与反比例函数$y_{2}=\\frac{m}{x}$的图象交于点A（﹣1，﹣2）、B（2，n）．则不等式kx+b$＞\\frac{m}{x}$的解集为（ ）\n![2025_01b4925d_q012_img01](assets/2025_01b4925d_q012_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "x＞2"
+        },
+        {
+          "label": "B",
+          "text": "x＜﹣1"
+        },
+        {
+          "label": "C",
+          "text": "﹣1＜x＜2"
+        },
+        {
+          "label": "D",
+          "text": "﹣1＜x＜0或x＞2"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】结合图象，根据两函数的交点横坐标，找出一次函数图象在反比例图象上方时x的范围即可．\n【解答】解：由图象得：不等式kx+b$＞\\frac{m}{x}$的解集为：﹣1＜x＜0或x＞2．\n故选：D．\n【点评】此题考查了一次函数与反比例函数的交点问题，利用了数形结合的思想．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q012_img01",
+          "path": "assets/2025_01b4925d_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "写出一个比﹣2大的实数 ____ ．",
+      "stem_markdown": "写出一个比﹣2大的实数 ____ ．",
+      "options": [],
+      "answer": "﹣1（只要比﹣2大即可）．",
+      "solution": "【分析】因为正数和0都大于负数，绝对值小于2的负数也比﹣2大，所以比﹣2大的实数有无数个，如﹣1，0．\n【解答】解：例如，|﹣2|＞|﹣1|，所以﹣1＞﹣2，故比﹣2大的实数有﹣1，答案不唯一．\n故答案为：﹣1（只要比﹣2大即可）．\n【点评】本题考查了实数大小比较．比较有理数的大小的方法：（1）负数＜0＜正数；（2）两个负数，绝对值大的反而小．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "分解因式：a²﹣2ab+b²＝ ____ ．",
+      "stem_markdown": "分解因式：$a^{2}$﹣2ab+$b^{2}$＝ ____ ．",
+      "options": [],
+      "answer": "（a﹣b）^{2}．",
+      "solution": "【分析】根据完全平方公式进行因式分解即可．\n【解答】解：$a^{2}$﹣2ab+$b^{2}$＝（a﹣b）^{2}，\n故答案为：（a﹣b）^{2}．\n【点评】本题主要考查公式法进行因式分解，熟练掌握完全平方公式是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，在菱形ABCD中，对角线AC、BD相交于点O．以点A为圆心，适当长为半径画弧，分别交AB、AC于点M、N；再分别以M、N为圆心，大于\\frac{1}{2}MN的长为半径画弧，两弧在∠BAC内交于点G；作射线AG，交BD于点H．若AB＝7，OH＝2，则S△ABH＝ ____ ．\n[图1]",
+      "stem_markdown": "如图，在菱形ABCD中，对角线AC、BD相交于点O．以点A为圆心，适当长为半径画弧，分别交AB、AC于点M、N；再分别以M、N为圆心，大于$\\frac{1}{2}$MN的长为半径画弧，两弧在∠BAC内交于点G；作射线AG，交BD于点H．若AB＝7，OH＝2，则$S_{△}_{ABH}$＝ ____ ．\n![2025_01b4925d_q015_img01](assets/2025_01b4925d_q015_img01.png)",
+      "options": [],
+      "answer": "7．",
+      "solution": "【分析】过H作HE⊥AB于E，根据菱形的性质得到AO⊥BD，由作图知，射线AG平分∠BAC，根据角平分线的性质得到HE＝OH＝2，根据三角形面积的公式即可得到结论．\n【解答】解：过H作HE⊥AB于E，\n∵在菱形ABCD中，AO⊥BD，\n由作图知，射线AG平分∠BAC，\n∴HE＝OH＝2，\n∴$S_{△}_{ABH}=\\frac{1}{2}$AB•EH$=\\frac{1}{2}×$7×2＝7，\n故答案为：7．\n[[image:rId43]]\n【点评】本题考查了作图﹣基本作图，角平分线的性质，菱形的性质，三角形的面积，熟练掌握各知识点是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q015_img01",
+          "path": "assets/2025_01b4925d_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "如图，点E是▱ABCD内一动点，且∠AEB＝90°，AB＝4，BC＝7．\n（1）△AEB面积的最大值为 ____ ；\n（2）连接CE，分别取CD、CE的中点M、N，连接MN．若∠BAD＝120°，则线段MN长度的最小值为 ____ ．\n[图1]",
+      "stem_markdown": "如图，点E是▱ABCD内一动点，且∠AEB＝90°，AB＝4，BC＝7．\n（1）△AEB面积的最大值为 ____ ；\n（2）连接CE，分别取CD、CE的中点M、N，连接MN．若∠BAD＝120°，则线段MN长度的最小值为 ____ ．\n![2025_01b4925d_q016_img01](assets/2025_01b4925d_q016_img01.png)",
+      "options": [],
+      "answer": "4",
+      "solution": "【分析】（1）利用点的轨迹的知识确定点E的运动轨迹为以AB为直径的半圆，再利用圆的有关性质解答即可；\n（2）连接DE，利用三角形的中位线定理得到MN$=\\frac{1}{2}$DE，则DE取得最小值时，MN长度最小；设AB的中点为O，连接OD，交半圆于点E，则此时DE最小．\n【解答】解：（1）∵点E是▱ABCD内一动点，且∠AEB＝90°，\n∴点E的运动轨迹为以AB为直径的半圆，\n设AB的中点为O，当OE⊥AB时，△AEB面积取得最大值，如图，\n[[image:rId45]]\n则OA＝OB$=\\frac{1}{2}$AB＝2，\n∴△AEB面积的最大值$=\\frac{1}{2}AB⋅OE=\\frac{1}{2}×4×2=$4．\n故答案为：4；\n（2）连接DE，如图，\n[[image:rId46]]\n∵CD、CE的中点为M、N，\n∴MN$=\\frac{1}{2}$DE，\n∴DE取得最小值时，MN长度最小．\n由（1）知：点E的运动轨迹为以AB为直径的半圆，设AB的中点为O，连接OD，交半圆于点E，如图，\n[[image:rId47]]\n则此时DE最小，OE＝OA＝OB＝2．\n过点O作OF⊥AD，交DA的延长线于点F，\n∵∠BAD＝120°，\n∴∠OAF＝60°，\n∴OF＝OA•sin60°$=\\sqrt{3}$，AF＝OA•cos60°＝1，\n∴DF＝AD+AF＝8，\n∴OD$=\\sqrt{DF^{2}+OF^{2}}=\\sqrt{8^{2}+(\\sqrt{3})^{2}}=$$\\sqrt{67}$，\n∴DE＝OD﹣OE$=\\sqrt{67}-$2，\n∴线段MN长度的最小值$=\\frac{1}{2}$DE$=\\frac{\\sqrt{67}-2}{2}$．\n故答案为：$\\frac{\\sqrt{67}-2}{2}$．\n【点评】本题主要考查了平行四边形的性质，点的轨迹，直角三角形的性质，勾股定理，直角三角形的边角关系定理，三角形的中位线定理，圆的有关性质，圆周角定理，利用点的轨迹知识确定点E的轨迹是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q016_img01",
+          "path": "assets/2025_01b4925d_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "（1）计算：|﹣1|×2-\\sqrt{2^{2}}÷((-3))^{0}；\n（2）解不等式组：\\begin{cases} x-1＞1 & ① \\\\ 2x-3＜5 & ② \\end{cases}．",
+      "stem_markdown": "（1）计算：|﹣1|×2$-\\sqrt{2^{2}}÷((-3))^{0}$；\n（2）解不等式组：$\\begin{cases} x-1＞1 & ① \\\\ 2x-3＜5 & ② \\end{cases}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用绝对值的性质，二次根式的性质，零指数幂计算后再算乘除，最后算加减即可；\n（2）解各不等式得出对应的解集后求得它们的公共部分即可．\n【解答】解：（1）原式＝1×2﹣2÷1\n＝2﹣2\n＝0；\n（2）解不等式①得：x＞2，\n解不等式②得：x＜4，\n故原不等式组的解集为2＜x＜4．\n【点评】本题考查解一元一次不等式组，实数的运算，熟练掌握解不等式组的方法及相关运算法则是解题的关键．",
+      "full_score": 12,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "某汽车销售公司分两批次采购新能源汽车．第一批购进1辆A型汽车、4辆B型汽车，共花费68万元；第二批购进2辆A型汽车、3辆B型汽车，共花费76万元（同类型汽车进价不变）．某销售经理估计每辆A型汽车的进价约为19～21万元，每辆B型汽车的进价约为11∼13万元．\n（1）求A、B型汽车的进价，并判断该销售经理的估计是否正确；\n（2）现实生活中的很多问题可以用方程（组）解决，请写出解二元一次方程组的常用方法．",
+      "stem_markdown": "某汽车销售公司分两批次采购新能源汽车．第一批购进1辆A型汽车、4辆B型汽车，共花费68万元；第二批购进2辆A型汽车、3辆B型汽车，共花费76万元（同类型汽车进价不变）．某销售经理估计每辆A型汽车的进价约为19～21万元，每辆B型汽车的进价约为11∼13万元．\n（1）求A、B型汽车的进价，并判断该销售经理的估计是否正确；\n（2）现实生活中的很多问题可以用方程（组）解决，请写出解二元一次方程组的常用方法．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设A型汽车每辆的进价为x万元，B型汽车每辆的进价为y万元，根据第一批购进1辆A型汽车、4辆B型汽车，共花费68万元；第二批购进2辆A型汽车、3辆B型汽车，共花费76万元；列出二元一次方程组，解方程组即可；\n（2）写出解二元一次方程组的常用方法即可．\n【解答】解：（1）设A型汽车每辆的进价为x万元，B型汽车每辆的进价为y万元，\n根据题意得：$\\begin{cases} x+4y=68 \\\\ 2x+3y=76 \\end{cases}$，\n解得：$\\begin{cases} x=20 \\\\ y=12 \\end{cases}$，\n即A型汽车每辆的进价为20万元，B型汽车每辆的进价为12万元，\n∵19＜20＜21，11＜12＜13，\n∴该销售经理的估计正确；\n（2）解二元一次方程组的常用方法：代入消元法，加减消元法．\n【点评】本题考查了二元一次方程组的应用，找准等量关系，正确列出二元一次方程组是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "2025年初，海南省教育厅印发了《关于优化义务教育学校学生作息时间的通知》，各市县中小学积极实施大课间质量提升活动．某校为了解学生对本校大课间活动实施情况的满意程度，从八年级随机抽取20名学生进行问卷调查（满分100分，划分为A、B、C、D、E五个等次），统计结果如下（其中两个原始数据因某种原因模糊，用▲和★表示）：\n54，71，57，▲，65，67，73，76，76，77，79，87，88，87，87，82，89，★，92，94．\n数据统计表\n分数段 | 等次 | 人数\n90≤x≤100 | A | a\n80≤x＜90 | B | 6\n70≤x＜80 | C | 6\n60≤x＜70 | D | b\n0≤x＜60 | E | 2\n（1）扇形统计图中m＝ ____ ，统计表中a＝ ____ ；\n（2）这20个数据的众数为 ____ ，中位数为 ____ ；\n（3）若该校八年级共有400人，请估计评价结果为“A”等次的八年级学生有 ____ 人；\n（4）为更好地开展大课间活动，请提一条合理建议．\n[图1]",
+      "stem_markdown": "2025年初，海南省教育厅印发了《关于优化义务教育学校学生作息时间的通知》，各市县中小学积极实施大课间质量提升活动．某校为了解学生对本校大课间活动实施情况的满意程度，从八年级随机抽取20名学生进行问卷调查（满分100分，划分为A、B、C、D、E五个等次），统计结果如下（其中两个原始数据因某种原因模糊，用▲和★表示）：\n54，71，57，▲，65，67，73，76，76，77，79，87，88，87，87，82，89，★，92，94．\n数据统计表\n| 分数段 | 等次 | 人数 |\n| --- | --- | --- |\n| 90≤x≤100 | A | a |\n| 80≤x＜90 | B | 6 |\n| 70≤x＜80 | C | 6 |\n| 60≤x＜70 | D | b |\n| 0≤x＜60 | E | 2 |\n（1）扇形统计图中m＝ ____ ，统计表中a＝ ____ ；\n（2）这20个数据的众数为 ____ ，中位数为 ____ ；\n（3）若该校八年级共有400人，请估计评价结果为“A”等次的八年级学生有 ____ 人；\n（4）为更好地开展大课间活动，请提一条合理建议．\n![2025_01b4925d_q019_img01](assets/2025_01b4925d_q019_img01.png)",
+      "options": [],
+      "answer": "15，3",
+      "solution": "【分析】（1）根据扇形统计图可以得出m＝15，再用20乘以15%求出a的值；\n（2）根据众数和中位数的定义计算即可；\n（3）用400乘以“A”等次学生所占百分比即可；\n（4）建议学校增加大课间活动项目，提高学生满意程度．\n【解答】解：（1）扇形统计图中：m%＝1﹣10%﹣15%﹣30%﹣30%＝15%，\n∴m＝15；\na＝20×15%＝3，\n故答案为：15，3；\n（2）∵b＝20×15%＝3，\n∴由题意可知，▲和★一个在A组一个在D租，\n∴20个数据中出现次数最多的是87，即众数为87；\n∵把20个数据从小到大排列的第10位数77和第11位数79，\n∴中位数为：$\\frac{77+79}{2}=$78，\n故答案为：87，78；\n（3）400$×\\frac{3}{20}=$60（人），\n评价结果为“A”等次的八年级学生有60人，\n故答案为：60；\n（4）建议学校增加大课间活动项目．\n【点评】此题考查的是扇形统计图和频数分布表，众数，中位数等知识．关键是掌握众数和中位数的定义．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q019_img01",
+          "path": "assets/2025_01b4925d_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "现有一台红外线理疗灯（如图1所示），该设备的主体由底座AB、立柱BC、伸缩杆CD和灯臂DE组成，A、B、C三点在同一直线上，图2是该设备的平面示意图．AC垂直于AF，AF与水平线l平行，CD与l的夹角为∠1，DE与l的夹角为∠2．经测量：AB为12cm，BC为26cm，DE为30cm，∠BCD＝154°，∠CDE＝63°．\n（1）填空：∠1＝ ____ °，∠2＝ ____ °；\n（2）已知点E到AF的距离EM为50cm时，该设备使用效果最佳．求此时伸缩杆CD的长度．（参考数据：sin26°＝0.44，cos26°＝0.90，sin37°＝0.60，cos37°＝0.80）\n[图1]",
+      "stem_markdown": "现有一台红外线理疗灯（如图1所示），该设备的主体由底座AB、立柱BC、伸缩杆CD和灯臂DE组成，A、B、C三点在同一直线上，图2是该设备的平面示意图．AC垂直于AF，AF与水平线l平行，CD与l的夹角为∠1，DE与l的夹角为∠2．经测量：AB为12cm，BC为26cm，DE为30cm，∠BCD＝154°，∠CDE＝63°．\n（1）填空：∠1＝ ____ °，∠2＝ ____ °；\n（2）已知点E到AF的距离EM为50cm时，该设备使用效果最佳．求此时伸缩杆CD的长度．（参考数据：sin26°＝0.44，cos26°＝0.90，sin37°＝0.60，cos37°＝0.80）\n![2025_01b4925d_q020_img01](assets/2025_01b4925d_q020_img01.png)",
+      "options": [],
+      "answer": "64，53",
+      "solution": "【分析】（1）根据题意，由∠BCD＝154°，利用三角形的外角的性质，可求得∠1的度数，利用平角的定义，可得到∠2的度数；\n（2）在Rt△EDH中，利用EH＝DE•cos∠HED，求得EH的长，得到MH的长，即可知AG，结合已知条件，得到CG长，在Rt△CGD中，利用三角函数求得CD长即可．\n【解答】解：（1）如图，延长AC交DG于G点，延长ME交DG于H点，\n[[image:rId50]]\n∴∠CGD＝90°，∠EHD＝90°，\n∵∠BCD＝154°，\n∴∠1＝∠BCD﹣∠CGD＝154°﹣90°＝64°，\n∵∠CDE＝63°，\n∴∠2＝180°﹣∠1﹣∠CDE＝180°﹣64°﹣63°＝53°，\n故答案为：64，53；\n（2）∵∠2＝53°，∠EHD＝90°，\n∴∠HED＝37°，\n∵在Rt△EDH中，DE＝30cm，cos∠HED$=\\frac{EH}{DE}$，\n∴EH＝DE•cos∠HED＝30×cos37°≈24（cm），\n∵EM＝50cm\n∴MH＝EM+EH＝74（cm），\n∴AG＝MH＝74cm，\n∵AC＝AB+BC＝12+26＝38（cm），\n∴CG＝AG﹣AC＝36（cm），\n∵在Rt△CGD中，∠GCD＝90°﹣∠1＝26°，cos∠GCD$=\\frac{CG}{CD}$，\n∴CD$=\\frac{CG}{cos∠GCD}=\\frac{36}{cos26°}≈$40（cm），\n答：此时伸缩杆CD的长度约为40cm．\n【点评】本题考查了解直角三角形的应用，熟练掌握解直角三角形是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q020_img01",
+          "path": "assets/2025_01b4925d_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，抛物线y＝ax²+bx+c（a＞0）经过A（4，0）、B（﹣2，6）两点．点P（x₀，y₀）是线段AB上的动点，过点P作PQ⊥x轴交抛物线于点Q．\n（1）若c＝﹣4．\n①求抛物线的解析式；\n②求线段PQ长度的最大值；\n③若t≤x₀≤t+1，求x₀取何值时线段PQ的长度最大（可用含t的代数式表示x₀）．（2）若c≠﹣4，t≤x₀≤t+1，问题（1）中③的结论是否会发生变化，请说明理由．\n[图1]",
+      "stem_markdown": "如图，抛物线y＝$ax^{2}$+bx+c（a＞0）经过A（4，0）、B（﹣2，6）两点．点P（$x_{0}$，$y_{0}$）是线段AB上的动点，过点P作PQ⊥x轴交抛物线于点Q．\n（1）若c＝﹣4．\n①求抛物线的解析式；\n②求线段PQ长度的最大值；\n③若t≤$x_{0}$≤t+1，求$x_{0}$取何值时线段PQ的长度最大（可用含t的代数式表示$x_{0}$）．（2）若c≠﹣4，t≤$x_{0}$≤t+1，问题（1）中③的结论是否会发生变化，请说明理由．\n![2025_01b4925d_q021_img01](assets/2025_01b4925d_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）①利用待定系数法代入计算求解即可；\n②设直线AB的解析式为y＝kx+b，利用待定系数法确定函数解析式，然后结合图形得出$|PQ|=-(x_{0}-1)^{2}+9$．然后利用二次函数的性质求解即可；\n③根据二次函数的性质结合图象求解即可；\n（2）根据题意重新确定二次函数的解析式为y＝$ax^{2}$﹣（1+2a）x+4﹣8a，得出$|PQ|=-a(x_{0}-1)^{2}+9a$，然后即可求解．\n【解答】解：（1）①∵c＝﹣4，\n∴设抛物线的解析式为：y＝$ax^{2}$+bx﹣4，\n∵抛物线y＝$ax^{2}$+bx+c（a＞0），经过A（4，0）、B（﹣2，6）两点，\n∴$\\begin{cases} 0=16a+4b-4 \\\\ 6=4a-2b-4 \\end{cases}$，\n解得$\\begin{cases} a=1 \\\\ b=-3 \\end{cases}$，\n∴抛物线的解析式为：y＝$x^{2}$﹣3x﹣4；\n②设直线AB的解析式为y＝kx+b，将点A、B代入，\n得$\\begin{cases} 0=4k+b \\\\ 6=-2k+b \\end{cases}$，\n解得$\\begin{cases} k=-1 \\\\ b=4 \\end{cases}$，\n∴y＝﹣x+4，\n∵点P（$x_{0}$，$y_{0}$）是线段AB上的动点，过点P作PQ⊥x轴交抛物线于点Q，\n∴P（$x_{0}$，﹣$x_{0}$+4），Q（$x_{0}$，$(x_{0})^{2}-3x_{0}$﹣4），\n∴|PQ|＝﹣$x_{0}$+4﹣（$(x_{0})^{2}-3x_{0}$﹣4）＝﹣（$x_{0}$﹣1）^{2}+9，\n由题意得：﹣2≤$x_{0}$≤4，\n∴当$x_{0}$＝1时，|PQ|取得最大值为9；\n③∵|PQ|＝﹣（$x_{0}$﹣1）^{2}+9，﹣2≤$x_{0}$≤4，\n∴当t≥﹣2，t+1≤1时，\n即﹣2≤t≤0时，PQ的最大长度在$x_{0}$＝t+1处取得；\n当t＜1，t+1＞1时，\n即0＜t＜1时，PQ的最大长度在$x_{0}$＝1处取得；\n当t≥1，t+1≤4时，\n即1≤t≤3时，PQ的最大长度在$x_{0}$＝t处取得；\n综上，$x_{0}$＝t+1或$x_{0}$＝1或$x_{0}$＝t．\n（2）不发生变化，理由如下：\n∵抛物线y＝$ax^{2}$+bx+c（a＞0）经过A（4，0）、B（﹣2，6）两点，\n∴$\\begin{cases} 0=16a+4b+c \\\\ 6=4a-2b+c \\end{cases}$，\n解得$\\begin{cases} b=-1-2a \\\\ c=4-8a \\end{cases}$，\n∴抛物线的解析式为：y＝$ax^{2}$﹣（1+2a）x+4﹣8a，\n∵点P（$x_{0}$，$y_{0}$）是线段AB上的动点，\n∴$y_{0}$＝﹣$x_{0}$+4，\n∵点Q在抛物线上，\n∴点Q的坐标为Q[$x_{0}$，$a(x_{0})^{2}-$（1+2a）$x_{0}$+4﹣8a]，\n∴|PQ|＝﹣$x_{0}$+4﹣[$a(x_{0})^{2}-$（1+2a）$x_{0}$+4﹣8a]＝﹣a（$x_{0}$﹣1）^{2}+9a，\n∵|PQ|解析式图形开口方向及对称轴同（1）中③的解析图象一致，\n∴问题（1）中③的结论未发生变化．\n【点评】本题考查二次函数的综合应用，主要考查二次函数的判定和性质，待定系数法确定函数解析式，理解题意，熟练掌握运用二次函数的性质是解题关键．",
+      "full_score": 15,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q021_img01",
+          "path": "assets/2025_01b4925d_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    },
+    {
+      "question_id": "2025_01b4925d_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "图形的平移、旋转和对称是我们从图形变换的视角研究图形的重要方法．为了深入理解旋转的本质，王老师和同学们在数学实践课上以正方形为背景进行如下探究．\n【知识技能】\n（1）如图1，在正方形ABCD中，E、F分别是边CD、AD上的点，连接BE、BF、EF，且∠EBF＝45°．将△BCE绕点B按逆时针方向旋转90°至△BAM，则点M在DA的延长线上．\n①证明△BFM≌△BFE，并判断AF+EC＝EF是否成立；\n②若DF＝5，DE＝12，请计算正方形ABCD的周长．\n【教学理解】\n（2）如图2，在正方形ABCD中，E、F分别是边AB、CD上的点，AE＝CF．连接AF、CE，M、N分别是线段AF、CE上的点，连接BM、BN、MN，且∠MBN＝45°（点E、F、M、N均不与端点重合）．请猜想线段AM、MN、NC的数量关系，并说明理由．\n【拓展研究】\n（3）如图3，BD是正方形ABCD的对角线，P、Q分别为线段BD、BC上的点，且∠PQB＝45°．将△BPQ绕点B按顺时针方向旋转（旋转角小于45°）至△BMN．连接ND，取线段ND的中点E，连接CE、CM，求\\frac{CM}{CE}的值．\n[图1]\n2025年海南省中考数学试卷",
+      "stem_markdown": "图形的平移、旋转和对称是我们从图形变换的视角研究图形的重要方法．为了深入理解旋转的本质，王老师和同学们在数学实践课上以正方形为背景进行如下探究．\n【知识技能】\n（1）如图1，在正方形ABCD中，E、F分别是边CD、AD上的点，连接BE、BF、EF，且∠EBF＝45°．将△BCE绕点B按逆时针方向旋转90°至△BAM，则点M在DA的延长线上．\n①证明△BFM≌△BFE，并判断AF+EC＝EF是否成立；\n②若DF＝5，DE＝12，请计算正方形ABCD的周长．\n【教学理解】\n（2）如图2，在正方形ABCD中，E、F分别是边AB、CD上的点，AE＝CF．连接AF、CE，M、N分别是线段AF、CE上的点，连接BM、BN、MN，且∠MBN＝45°（点E、F、M、N均不与端点重合）．请猜想线段AM、MN、NC的数量关系，并说明理由．\n【拓展研究】\n（3）如图3，BD是正方形ABCD的对角线，P、Q分别为线段BD、BC上的点，且∠PQB＝45°．将△BPQ绕点B按顺时针方向旋转（旋转角小于45°）至△BMN．连接ND，取线段ND的中点E，连接CE、CM，求$\\frac{CM}{CE}$的值．\n![2025_01b4925d_q022_img01](assets/2025_01b4925d_q022_img01.png)\n2025年海南省中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）①由四边形ABCD是正方形和将△BCE绕点B按逆时针方向旋转90°至△BAM，可得∠BAM+∠A＝180°，∠EBC+∠ABE＝90°＝∠MBA+∠ABE＝∠MBE，故点M在DA的延长线上，而∠EBF＝45°，即得∠MBF＝∠EBF，从而△BFM≌△BFE（SAS），有FM＝EF，可知AF+EC＝EF成立；\n②求出EF$=\\sqrt{DF^{2}+DE^{2}}=$13，得AF+EC＝13，即可得AD+CD＝（AF+EC）+DF+DE＝30，故正方形ABCD的周长为60；\n（2）将△BCN绕点B逆时针旋转90°得△BAG，连接GM，证明△BMN≌△BMG（SAS），得MN＝GM，再证明∠GAM＝90°得$AM^{2}+AG^{2}＝GM^{2}$，即可得$AM^{2}+NC^{2}＝MN^{2}$；\n（3）过C作CH⊥BD于H，连接HE，设MN交BC于K，求出$\\frac{BC}{CH}=\\frac{BM}{HE}=$$\\sqrt{2}$，再证明∠MBC＝∠EHC，即可得△MBC∽△EHC，故$\\frac{CM}{CE}=\\frac{BC}{CH}=$$\\sqrt{2}$．\n【解答】（1）①证明：∵四边形ABCD是正方形，\n∴∠A＝∠ABC＝90°，\n∵将△BCE绕点B按逆时针方向旋转90°至△BAM，\n∴BE＝BM，∠BAM＝∠C＝90°，∠EBC＝∠MBA，AM＝CE，\n∴∠BAM+∠A＝180°，∠EBC+∠ABE＝90°＝∠MBA+∠ABE＝∠MBE，\n∴点M在DA的延长线上，\n∵∠EBF＝45°，\n∴∠MBF＝∠MBE﹣∠EBF＝90°﹣45°＝45°，\n∴∠MBF＝∠EBF，\n在△BFM和△BFE中，\n$\\begin{cases} BM=BE \\\\ ∠MBF=∠EBF \\\\ BF=BF \\end{cases}$，\n∴△BFM≌△BFE（SAS），\n∴FM＝EF，\n∵FM＝AF+AM＝AF+CE，\n∴EF＝AF+CE，\n∴AF+EC＝EF成立；\n②∵DF＝5，DE＝12，∠D＝90°，\n∴EF$=\\sqrt{DF^{2}+DE^{2}}=\\sqrt{5^{2}+12^{2}}=$13，\n∴AF+EC＝13，\n∴AD+CD＝（AF+EC）+DF+DE＝13+5+12＝30，\n∴正方形ABCD的边长为30÷2＝15，\n∴正方形ABCD的周长为15×4＝60；\n（2）解：$AM^{2}+NC^{2}＝MN^{2}$，理由如下：\n将△BCN绕点B逆时针旋转90°得△BAG，连接GM，如图：\n[[image:rId53]]\n由旋转性质可得：△BCN≌△BAG，\n∴∠CBN＝∠ABG，CN＝AG，∠BCN＝∠BAG，BN＝BG，\n∴∠CBN+∠ABN＝90°＝∠ABG+∠ABN＝∠GBN，\n∵∠MBN＝45°，\n∴∠MBG＝∠GBN﹣∠MBN＝90°﹣45°＝45°，\n∴∠MBN＝∠MBG，\n∵BM＝BM，BN＝BG，\n∴△BMN≌△BMG（SAS），\n∴MN＝GM，\n∵AE＝CF，AE∥CF，\n∴四边形AECF是平行四边形，\n∴CE∥AF，\n∴∠BEC＝∠BAM，\n∵∠BCN+∠BEC＝90°，\n∴∠BAG+∠BAM＝90°，即∠GAM＝90°，\n∴$AM^{2}+AG^{2}＝GM^{2}$，\n∴$AM^{2}+NC^{2}＝MN^{2}$；\n（3）解：过C作CH⊥BD于H，连接HE，设MN交BC于K，如图：\n[[image:rId54]]\n∵四边形ABCD是正方形，CH⊥BD，\n∴H为BD中点，△BCH是等腰直角三角形，\n∴$\\frac{BC}{CH}=\\sqrt{2}$，\n∵E为DN的中点，\n∴HE是△BDN的中位线，\n∴BN＝2HE，HE∥BN，\n∵∠PQB＝45°，∠DBC＝45°，\n∴△BPQ是等腰直角三角形，\n∵将△BPQ绕点B按顺时针方向旋转（旋转角小于45°）至△BMN，\n∴△BMN是等腰直角三角形，\n∴BN$=\\sqrt{2}$BM，\n∴$\\sqrt{2}$BM＝2HE，\n∴$\\frac{BM}{HE}=\\sqrt{2}$，\n∴$\\frac{BC}{CH}=\\frac{BM}{HE}=$$\\sqrt{2}$，\n∵∠BNK＝45°＝∠DBC，\n∴∠BNK+∠KBN＝∠DBC+∠KBN，即∠BKM＝∠DBN，\n∵HE∥BN，\n∵∠DHE＝∠DBN，\n∴∠BKM＝∠DHE，\n∴90°﹣∠BKM＝90°﹣∠DHE，即∠MBC＝∠EHC，\n∴△MBC∽△EHC，\n∴$\\frac{CM}{CE}=\\frac{BC}{CH}=$$\\sqrt{2}$，\n即$\\frac{CM}{CE}$的值为$\\sqrt{2}$．\n【点评】本题考查相似三角形综合应用，涉及全等三角形判定与性质，等腰直角三角形三边的关系，勾股定理及应用等知识，解题的关键是掌握全等三角形判定与性质，相似三角形判定与性质．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:26:51；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId56]] ____ [[image:rId57]] ____ [[image:rId58]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 15,
+      "images": [
+        {
+          "image_id": "2025_01b4925d_q022_img01",
+          "path": "assets/2025_01b4925d_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false
+    }
+  ]
+}

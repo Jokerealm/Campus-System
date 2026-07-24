@@ -1,0 +1,1236 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年黑龙江省哈尔滨市中考数学试卷",
+  "source": {
+    "name": "2025年黑龙江省哈尔滨市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年黑龙江省哈尔滨市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "\\frac{1}{2}的倒数是（ ）",
+      "stem_markdown": "$\\frac{1}{2}$的倒数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "﹣2"
+        },
+        {
+          "label": "C",
+          "text": "$-\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据倒数的定义求解．\n【解答】解：$\\frac{1}{2}$的倒数是2，\n故选：D．\n【点评】本题考查了倒数的定义，掌握倒数的定义：乘积是1的两个数互为倒数是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "倒数的定义"
+        ],
+        "reasoning": "题中求$\frac{1}{2}$的倒数是多少",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"倒数的定义\"],\n  \"reasoning\": \"题中求$\\frac{1}{2}$的倒数是多少\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "传统建筑中的窗格设计精巧、样式繁多，体现了我国建筑独特的艺术表现力和文化内涵．下列窗格图案中既是轴对称图形，又是中心对称图形的是（ ）",
+      "stem_markdown": "传统建筑中的窗格设计精巧、样式繁多，体现了我国建筑独特的艺术表现力和文化内涵．下列窗格图案中既是轴对称图形，又是中心对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q002_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q002_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q002_img02](assets/2025年黑龙江省哈尔滨市中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q002_img03](assets/2025年黑龙江省哈尔滨市中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q002_img04](assets/2025年黑龙江省哈尔滨市中考数学试卷_q002_img04.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据中心对称图形与轴对称图形的定义解答即可．\n【解答】解：A、该图形是中心对称图形，不是轴对称图形，不符合题意；\nB、该图形既是中心对称图形，又是轴对称图形，符合题意；\nC、该图形既不是中心对称图形，也不是轴对称图形，不符合题意；\nD、该图形不是中心对称图形，是轴对称图形，不符合题意，\n故选：B．\n【点评】本题考查的是中心对称图形与轴对称图形的定义，熟知把一个图形绕某一点旋转180°，如果旋转后的图形能够与原来的图形重合，那么这个图形就叫做中心对称图形；如果一个图形沿一条直线折叠，直线两旁的部分能够互相重合，这个图形叫做轴对称图形是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q002_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q002_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q002_img02",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q002_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q002_img03",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q002_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q002_img04",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q002_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中心对称图形",
+          "轴对称图形"
+        ],
+        "reasoning": "题中设问要求判断哪个图形既是中心对称又是轴对称",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中心对称图形\", \"轴对称图形\"],\n  \"reasoning\": \"题中设问要求判断哪个图形既是中心对称又是轴对称\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "黑龙江水系径流资源丰富，水能资源总蕴藏量约32000000千瓦，将32000000用科学记数法表示为（ ）",
+      "stem_markdown": "黑龙江水系径流资源丰富，水能资源总蕴藏量约32000000千瓦，将32000000用科学记数法表示为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.2×10^{5}"
+        },
+        {
+          "label": "B",
+          "text": "3.2×10^{6}"
+        },
+        {
+          "label": "C",
+          "text": "3.2×10^{7}"
+        },
+        {
+          "label": "D",
+          "text": "3.2×10^{8}"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：32000000＝3.2×10^{7}．\n故选：C．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法"
+        ],
+        "reasoning": "题目要求将32000000用科学记数法表示，这是科学记数法的基本应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\"],\n  \"reasoning\": \"题目要求将32000000用科学记数法表示，这是科学记数法的基本应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "六个大小相同的正方体搭成的几何体如图所示，其俯视图是（ ）\n[图1]",
+      "stem_markdown": "六个大小相同的正方体搭成的几何体如图所示，其俯视图是（ ）\n![2025年黑龙江省哈尔滨市中考数学试卷_q004_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q004_img02](assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q004_img03](assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q004_img04](assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q004_img05](assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img05.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据俯视图是从上面看到的图形进行求解即可．\n【解答】解：观察图形可知，可知该几何体的俯视图如选项A所示．\n故选：A．\n【点评】本题考查了简单组合体的三视图的知识，俯视图是从物体的上面看得到的视图．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q004_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q004_img02",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q004_img03",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q004_img04",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q004_img05",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q004_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "视图与投影",
+          "正方体的俯视图"
+        ],
+        "reasoning": "题中考察了从上面看几何体的形状",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"视图与投影\", \"正方体的俯视图\"],\n  \"reasoning\": \"题中考察了从上面看几何体的形状\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "方程\\frac{5}{x+2}=\\frac{3}{x}的解为（ ）",
+      "stem_markdown": "方程$\\frac{5}{x+2}=\\frac{3}{x}$的解为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x＝2"
+        },
+        {
+          "label": "B",
+          "text": "x＝3"
+        },
+        {
+          "label": "C",
+          "text": "x＝﹣3"
+        },
+        {
+          "label": "D",
+          "text": "x＝1"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】分式方程去分母转化为整式方程，求出整式方程的解得到x的值，经检验即可得到分式方程的解\n【解答】解：去分母得：5x＝3x+6，\n解得：x＝3，\n检验：把x＝3代入得：x（x+2）≠0，\n∴分式方程的解为x＝3．\n故选：B．\n【点评】此题考查了解分式方程，熟知分式方程的解法是解本题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程的解法",
+          "去分母",
+          "解整式方程",
+          "检验解是否满足原方程"
+        ],
+        "reasoning": "题中通过去分母将分式方程转化为整式方程并求解，最后需要检验解是否满足原方程",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程的解法\", \"去分母\", \"解整式方程\", \"检验解是否满足原方程\"],\n  \"reasoning\": \"题中通过去分母将分式方程转化为整式方程并求解，最后需要检验解是否满足原方程\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "抛物线y=-\\frac{1}{2}((x-3))^{2}+4的顶点坐标是（ ）",
+      "stem_markdown": "抛物线y$=-\\frac{1}{2}((x-3))^{2}+$4的顶点坐标是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "（3，4）"
+        },
+        {
+          "label": "B",
+          "text": "（﹣3，4）"
+        },
+        {
+          "label": "C",
+          "text": "（﹣3，﹣4）"
+        },
+        {
+          "label": "D",
+          "text": "（3，﹣4）"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据抛物线y＝a（x﹣h）^{2}+k的顶点坐标为（h，k）直接写出即可．\n【解答】解：抛物线y$=-\\frac{1}{2}((x-3))^{2}+$4的顶点坐标是（3，4），\n故选：A．\n【点评】本题考查抛物线的顶点求解方法，掌握抛物线的顶点求解方法是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数顶点式",
+          "抛物线顶点坐标"
+        ],
+        "reasoning": "题中给出了抛物线的一般形式并要求顶点坐标，考察了二次函数顶点式的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数顶点式\", \"抛物线顶点坐标\"],\n  \"reasoning\": \"题中给出了抛物线的一般形式并要求顶点坐标，考察了二次函数顶点式的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "如图，用大小相等的小正方形拼大正方形，拼第1个正方形需要4个小正方形，拼第2个正方形需要9个小正方形，按照这样的方法拼成的第6个正方形需要（ ）个小正方形．\n[图1]",
+      "stem_markdown": "如图，用大小相等的小正方形拼大正方形，拼第1个正方形需要4个小正方形，拼第2个正方形需要9个小正方形，按照这样的方法拼成的第6个正方形需要（ ）个小正方形．\n![2025年黑龙江省哈尔滨市中考数学试卷_q007_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "49"
+        },
+        {
+          "label": "D",
+          "text": "56"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】观察图形变化可得所需要的小正方形的个数都是平方数，然后根据相应的序数与正方形的个数的关系找出规律解答即可．\n【解答】解：观察图形可知：\n第1个正方形需要4个小正方形，4＝2^{2}，\n第2个正方形需要9个小正方形，9＝3^{2}，\n第3个正方形需要16个小正方形，16＝4^{2}，\n所以第4个正方形需要小正方形的个数为：（4+1）^{2}＝25（个）；\n第5个正方形需要小正方形的个数为：（5+1）^{2}＝36（个）；\n所以第6个正方形需要小正方形的个数为：（6+1）^{2}＝49（个）；\n故选：C．\n【点评】本题是对图形变化规律的考查，仔细观察图形，得出各个图形中小正方形的个数是平方数是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q007_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平方数",
+          "图形变化规律"
+        ],
+        "reasoning": "观察图形变化得出所需小正方形个数为平方数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平方数\", \"图形变化规律\"],\n  \"reasoning\": \"观察图形变化得出所需小正方形个数为平方数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，AB∥CD∥EF，若BC＝5，CE＝8，则\\frac{AD}{DF}=（ ）\n[图1]",
+      "stem_markdown": "如图，AB∥CD∥EF，若BC＝5，CE＝8，则$\\frac{AD}{DF}=$（ ）\n![2025年黑龙江省哈尔滨市中考数学试卷_q008_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{8}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{8}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据平行线分线段成比例定理得$\\frac{AD}{DF}=\\frac{BC}{CE}$，即可得出结论．\n【解答】解：∵AB∥CD∥EF，\n∴$\\frac{AD}{DF}=\\frac{BC}{CE}$，\n∵BC＝5，CE＝8，\n∴$\\frac{AD}{DF}=\\frac{BC}{CE}=\\frac{5}{8}$．\n故选：D．\n【点评】本题考查了平行线分线段成比例定理：三条平行线截两条直线，所得的对应线段成比例，熟练掌握平行线分线段成比例定理是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q008_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行线分线段成比例定理"
+        ],
+        "reasoning": "根据平行线AB∥CD∥EF，应用平行线分线段成比例定理得出AD/DF=BC/CE",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行线分线段成比例定理\"],\n  \"reasoning\": \"根据平行线AB∥CD∥EF，应用平行线分线段成比例定理得出AD/DF=BC/CE\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，△ABC中，AB＝AC＝10，点F为AB的中点，以点A为圆心，适当长为半径画弧，分别交AB，AC于点M，N，分别以点M，N为圆心，大于MN的长的一半为半径画弧，两弧交于点D，画射线AD交BC于点E，连接EF，则EF的长是（ ）\n[图1]",
+      "stem_markdown": "如图，△ABC中，AB＝AC＝10，点F为AB的中点，以点A为圆心，适当长为半径画弧，分别交AB，AC于点M，N，分别以点M，N为圆心，大于MN的长的一半为半径画弧，两弧交于点D，画射线AD交BC于点E，连接EF，则EF的长是（ ）\n![2025年黑龙江省哈尔滨市中考数学试卷_q009_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "$5\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "$5\\sqrt{3}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】利用等腰三角形的性质，直角三角形斜边中线的性质求解．\n【解答】解：∵AB＝AC＝10，AD平分∠BAC，\n∴AE⊥BC，\n∵F是AB的中点，\n∴EF$=\\frac{1}{2}$AB＝5．\n故选：A．\n【点评】本题考查作图﹣基本作图，角平分线的性质，线段垂直平分线的性质，等腰三角形的性质，解题的关键是掌握相关知识解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q009_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "直角三角形斜边中线的性质",
+          "角平分线的性质"
+        ],
+        "reasoning": "题中利用等腰三角形AD平分∠BAC的性质和F为AB中点得出EF=1/2AB=5",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"直角三角形斜边中线的性质\", \"角平分线的性质\"],\n  \"reasoning\": \"题中利用等腰三角形AD平分∠BAC的性质和F为AB中点得出EF=1/2AB=5\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，在▱ABCD中，∠A＝30°，AB＝6，AD＝3．点P从点A出发，以每秒3个单位长度的速度沿折线AD→DC运动，同时点Q从点A出发，以每秒2个单位长度的速度沿AB向点B运动，其中一个动点到达终点时，另一个动点也随之停止运动．设△BPQ的面积为y，运动时间为x秒，则下列图象中大致反映y与x之间函数关系的是（ ）\n[图1]",
+      "stem_markdown": "如图，在▱ABCD中，∠A＝30°，AB＝6，AD＝3．点P从点A出发，以每秒3个单位长度的速度沿折线$\\overrightarrow{AD}$DC运动，同时点Q从点A出发，以每秒2个单位长度的速度沿AB向点B运动，其中一个动点到达终点时，另一个动点也随之停止运动．设△BPQ的面积为y，运动时间为x秒，则下列图象中大致反映y与x之间函数关系的是（ ）\n![2025年黑龙江省哈尔滨市中考数学试卷_q010_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q010_img02](assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q010_img03](assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q010_img04](assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年黑龙江省哈尔滨市中考数学试卷_q010_img05](assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img05.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】依据题意，根据动点的运动规律分两种情形分析判断列出函数关系式，从而可以判断得解．\n【解答】解：由题意，∵AB＝6，AD＝3，\n∴Q从A到B需要3秒，P从A到D需要1秒，从D到C需要2秒．\n①当0＜x＜≤1时，如图，过P作PH⊥AB于H，\n[[image:rId51]]\n∴AP＝3x，AQ＝2x．\n∴BQ＝AB﹣AQ＝6﹣2x．\n又∵∠A＝30°，\n∴PH$=\\frac{1}{2}$AP$=\\frac{3}{2}$x．\n∴$S_{△}_{BPQ}=\\frac{1}{2}$BQ•PH$=\\frac{3}{4}$x（6﹣2x）$=-\\frac{3}{2}x^{2}$$+\\frac{9}{2}$x，即y$=-\\frac{3}{2}x^{2}$$+\\frac{9}{2}$x．\n②当1＜x＜3时，如图，如图，过P作PG⊥AB于G，DH⊥AB，\n[[image:rId52]]\n∵AB∥CD，\n∴DH＝PG．\n∵∠A＝30°，AD＝3，\n∴PG＝DH$=\\frac{3}{2}$．\n∴$S_{△}_{BPQ}=\\frac{1}{2}$BQ•PG$=\\frac{3}{4}$（6﹣2x）$=-\\frac{3}{2}$x$+\\frac{9}{2}$，即y$=-\\frac{3}{2}$x$+\\frac{9}{2}$．\n故选：A．\n【点评】本题主要考查了动点问题的函数图象，解题时要熟练掌握并能根据题意列出关系式是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q010_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q010_img02",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q010_img03",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q010_img04",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q010_img05",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q010_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形面积公式",
+          "平行四边形性质",
+          "一次函数",
+          "二次函数"
+        ],
+        "reasoning": "题中涉及三角形面积计算、平行四边形性质及动点运动时间与面积变化关系",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形面积公式\", \"平行四边形性质\", \"一次函数\", \"二次函数\"],\n  \"reasoning\": \"题中涉及三角形面积计算、平行四边形性质及动点运动时间与面积变化关系\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "在函数y=\\frac{2}{x-7}中，自变量x的取值范围是 ____ ．",
+      "stem_markdown": "在函数y$=\\frac{2}{x-7}$中，自变量x的取值范围是 ____ ．",
+      "options": [],
+      "answer": "x≠7．",
+      "solution": "【分析】根据分式的分母不为零列出不等式，解不等式得到答案．\n【解答】解：由题意得：x﹣7≠0，\n解得：x≠7，\n故答案为：x≠7．\n【点评】本题考查的是函数自变量的取值范围，熟记分式的分母不为零是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式有意义的条件",
+          "解不等式"
+        ],
+        "reasoning": "题中要求分母不为零，即x-7≠0",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式有意义的条件\", \"解不等式\"],\n  \"reasoning\": \"题中要求分母不为零，即x-7≠0\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "把多项式3m²﹣12分解因式的结果是 ____ ．",
+      "stem_markdown": "把多项式$3m^{2}$﹣12分解因式的结果是 ____ ．",
+      "options": [],
+      "answer": "3（m+2）（m﹣2）．",
+      "solution": "【分析】先提公因式，再利用平方差公式继续分解即可解答．\n【解答】解：$3m^{2}$﹣12\n＝3（$m^{2}$﹣4）\n＝3（m+2）（m﹣2），\n故答案为：3（m+2）（m﹣2）．\n【点评】本题考查了提公因式法与公式法的综合运用，准确熟练地进行计算是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式",
+          "平方差公式"
+        ],
+        "reasoning": "多项式分解因式中的提公因式和平方差公式应用",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式\", \"平方差公式\"],\n  \"reasoning\": \"多项式分解因式中的提公因式和平方差公式应用\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "桌上倒扣着背面图案相同的7张扑克牌，其中5张红桃，2张黑桃．从中随机抽取1张，则抽取的扑克牌的花色是红桃的概率是 ____ ．",
+      "stem_markdown": "桌上倒扣着背面图案相同的7张扑克牌，其中5张红桃，2张黑桃．从中随机抽取1张，则抽取的扑克牌的花色是红桃的概率是 ____ ．",
+      "options": [],
+      "answer": "$\\frac{5}{7}$．",
+      "solution": "【分析】直接根据概率公式求解即可．\n【解答】解：∵共有7张扑克牌，其中5张红桃，\n∴从中随机抽取1张，则抽取的扑克牌的花色是红桃的概率$=\\frac{5}{7}$．\n故答案为：$\\frac{5}{7}$．\n【点评】本题考查的是概率公式，熟记随机事件的概率公式是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率公式",
+          "古典概型"
+        ],
+        "reasoning": "计算红桃的概率需要知道总牌数和红桃牌数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率公式\", \"古典概型\"],\n  \"reasoning\": \"计算红桃的概率需要知道总牌数和红桃牌数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "不等式组\\begin{cases} 2x+1＞5 \\\\ x-4＜3 \\end{cases}的解集是 ____ ．",
+      "stem_markdown": "不等式组$\\begin{cases} 2x+1＞5 \\\\ x-4＜3 \\end{cases}$的解集是 ____ ．",
+      "options": [],
+      "answer": "2＜x＜7．",
+      "solution": "【分析】根据解一元一次不等式组的步骤，对所给不等式组进行求解即可．\n【解答】解：由2x+1＞5得，x＞2，\n由x﹣4＜3得，x＜7，\n所以不等式组的解集为2＜x＜7．\n故答案为：2＜x＜7．\n【点评】本题主要考查了解一元一次不等式组，熟知解一元一次不等式组的步骤是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组的解法",
+          "解一元一次不等式"
+        ],
+        "reasoning": "求解过程中分别解两个一元一次不等式并取交集",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组的解法\", \"解一元一次不等式\"],\n  \"reasoning\": \"求解过程中分别解两个一元一次不等式并取交集\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "一个扇形的弧长是\\frac{7}{6}πcm，半径是3cm，则此扇形的圆心角是 ____ .度．",
+      "stem_markdown": "一个扇形的弧长是$\\frac{7}{6}$πcm，半径是3cm，则此扇形的圆心角是 ____ .度．",
+      "options": [],
+      "answer": "70．",
+      "solution": "【分析】设扇形的圆心角的度数是n°，根据弧长公式即可列方程求得n的值．\n【解答】解：设扇形的圆心角的度数是n°，则$\\frac{nπ⋅3}{180}=\\frac{7}{6}π$，\n解得：n＝70，\n故答案为：70．\n【点评】本题考查弧长公式，正确记忆公式是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "弧长公式",
+          "角度与弧长的关系"
+        ],
+        "reasoning": "题中利用弧长公式 \\(\frac{nπr}{180} = \text{弧长}\\) 求解 n",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"弧长公式\", \"角度与弧长的关系\"],\n  \"reasoning\": \"题中利用弧长公式 \\(\\frac{nπr}{180} = \\text{弧长}\\) 求解 n\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "某玩具汽车的功率P（单位：W）为定值，行驶速度v（单位：m/s）与所受阻力F（单位：N）是反比例函数关系，它的图象如图所示，则该玩具汽车的功率P＝ ____ W．\n[图1]",
+      "stem_markdown": "某玩具汽车的功率P（单位：W）为定值，行驶速度v（单位：m/s）与所受阻力F（单位：N）是反比例函数关系，它的图象如图所示，则该玩具汽车的功率P＝ ____ W．\n![2025年黑龙江省哈尔滨市中考数学试卷_q016_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "20．",
+      "solution": "【分析】设v与F之间的函数关系式为v$=\\frac{P}{F}$，把（10，2）代入即可；\n【解答】解：设v与F之间的函数关系式为v$=\\frac{P}{F}$，\n把（10，2）代入v$=\\frac{P}{F}$得，P＝20，\n答：该玩具汽车的功率P＝20W，\n故答案为：20．\n【点评】本题考查反比例函数的应用，解答该类问题的关键是确定两个变量之间的函数关系，然后利用待定系数法求出它们的关系式．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q016_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数",
+          "待定系数法"
+        ],
+        "reasoning": "根据图象设v与F之间的函数关系式为v=P/F，并代入已知点（10，2）求解P",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数\", \"待定系数法\"],\n  \"reasoning\": \"根据图象设v与F之间的函数关系式为v=P/F，并代入已知点（10，2）求解P\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "blank",
+      "stem_text": "定义新运算：a⊗b＝2ab﹣b²，则（3n）⊗（2n）的运算结果是 ____ ．",
+      "stem_markdown": "定义新运算：a⊗b＝2ab﹣$b^{2}$，则（3n）⊗（2n）的运算结果是 ____ ．",
+      "options": [],
+      "answer": "$8n^{2}$．",
+      "solution": "【分析】将 a＝3n 和 b＝2n 代入公式 a⊗b＝2ab﹣$b^{2}$ 进行计算．\n【解答】解：∵a⊗b＝2ab﹣$b^{2}$，\n∴（3n）⊗（2n）＝2×（3n）×（2n）﹣（2n）^{2}＝2×3n×2n﹣$4n^{2}＝12n^{2}﹣4n^{2}＝8n^{2}$；\n故答案为：$8n^{2}$．\n【点评】本题主要考查新定义的题型和整式的乘法运算，解决此题的关键是正确的计算．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "代数式乘法",
+          "新定义运算",
+          "合并同类项"
+        ],
+        "reasoning": "代数式（3n）⊗（2n）中使用了新定义的运算规则进行计算",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"代数式乘法\", \"新定义运算\", \"合并同类项\"],\n  \"reasoning\": \"代数式（3n）⊗（2n）中使用了新定义的运算规则进行计算\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "blank",
+      "stem_text": "在△ABC中，∠A＝80°，点D在射线AB上，AD＝AC，连接CD，∠BCD＝10°，则∠ABC＝ ____ 度．",
+      "stem_markdown": "在△ABC中，∠A＝80°，点D在射线AB上，AD＝AC，连接CD，∠BCD＝10°，则∠ABC＝ ____ 度．",
+      "options": [],
+      "answer": "40或60．",
+      "solution": "【分析】分两种情况，根据等腰三角形的性质，三角形的内角和定理以及三角形外角的性质解答即可．\n【解答】解：如图1，\n[[image:rId54]]\n∵∠A＝80°，AD＝AC，\n∴∠ADC＝∠ACD＝50°，\n∴∠ABC＝∠ADC﹣∠BCD＝50°﹣10°＝40°；\n如图2，\n[[image:rId55]]\n∵∠A＝80°，AD＝AC，\n∴∠ADC＝∠ACD＝50°，\n∴∠ABC＝∠ADC+∠BCD＝50°+10°＝60°．\n故答案为：40或60．\n【点评】本题考查了等腰三角形的性质，三角形的内角和定理以及三角形外角的性质，解决本题的关键是掌握等腰三角形的性质．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "三角形内角和定理",
+          "三角形外角的性质"
+        ],
+        "reasoning": "题中利用等腰三角形性质得出∠ADC=∠ACD，再结合三角形内角和及外角性质求解。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"三角形内角和定理\", \"三角形外角的性质\"],\n  \"reasoning\": \"题中利用等腰三角形性质得出∠ADC=∠ACD，再结合三角形内角和及外角性质求解。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "blank",
+      "stem_text": "抛物线y＝x²﹣2x+c与y轴交于点C（0，﹣3），与x轴交于点A，B，则线段AB长是 ____ ．",
+      "stem_markdown": "抛物线y＝$x^{2}$﹣2x+c与y轴交于点C（0，﹣3），与x轴交于点A，B，则线段AB长是 ____ ．",
+      "options": [],
+      "answer": "4．",
+      "solution": "【分析】利用待定系数法确定抛物线解析式，然后利用该抛物线解析式求得点A、B的坐标，继而根据两点间的距离公式求得答案．\n【解答】解：把（0，﹣3）代入y＝$x^{2}$﹣2x+c，得c＝﹣3．\n令y＝$x^{2}$﹣2x﹣3＝0．\n解得$x_{1}$＝3，$x_{2}$＝﹣1．\n∴A（﹣1，0），B（3，0）．\n∴AB＝3﹣（﹣1）＝4．\n故答案为：4．\n【点评】本题考查了二次函数图象上点的坐标特征，抛物线与x轴的交点，把求二次函数y＝$ax^{2}$+bx+c（a，b，c是常数，a≠0）与x轴的交点坐标问题转化为解关于x的一元二次方程是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "一元二次方程根与系数的关系",
+          "抛物线与x轴的交点"
+        ],
+        "reasoning": "通过待定系数法确定抛物线方程，利用一元二次方程根与系数的关系求解x轴交点坐标，进而计算线段长度。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"一元二次方程根与系数的关系\", \"抛物线与x轴的交点\"],\n  \"reasoning\": \"通过待定系数法确定抛物线方程，利用一元二次方程根与系数的关系求解x轴交点坐标，进而计算线段长度。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "blank",
+      "stem_text": "如图，▱ABCD中，对角线AC，BD交于点O，过点O作BD的垂线，分别交BC，AD于点M，N，延长DC交直线MN于点E，延长BA交直线MN于点F，分别连接DF，BE，有如下结论：①OA＝OC，OB＝OD；②四边形BEDF是菱形；③若FA＝FN＝1，AB＝3，则OD=\\sqrt{39}；④若FA＝1，AB＝3，∠ABE＝60°，点P为EF上的一个动点，则PA+PB的最小值是\\sqrt{21}．上述结论中，所有正确结论的序号是 ____ ．\n[图1]",
+      "stem_markdown": "如图，▱ABCD中，对角线AC，BD交于点O，过点O作BD的垂线，分别交BC，AD于点M，N，延长DC交直线MN于点E，延长BA交直线MN于点F，分别连接DF，BE，有如下结论：①OA＝OC，OB＝OD；②四边形BEDF是菱形；③若FA＝FN＝1，AB＝3，则OD$=\\sqrt{39}$；④若FA＝1，AB＝3，∠ABE＝60°，点P为EF上的一个动点，则PA+PB的最小值是$\\sqrt{21}$．上述结论中，所有正确结论的序号是 ____ ．\n![2025年黑龙江省哈尔滨市中考数学试卷_q020_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "①②④．",
+      "solution": "【分析】①根据四边形ABCD是平行四边形得OA＝OC，OB＝OD，由此可对结论①进行判断；\n②根据EF⊥BD，OB＝OD得EF是BD的垂直平分线，进而得EB＝ED，FB＝FD，证明△FBO和△EDO全等得FB＝ED，继而得得EB＝ED＝FB＝FD，由此可对结论②进行判断；\n③依题意得FB＝FA+AB＝4，证明∠FBM＝∠FMB得FM＝FN＝4，再证明△OAN和△OCM全等得OM＝ON，进而得FM＝1+2ON＝4，则ON$=\\frac{3}{2}$，OF$=\\frac{5}{2}$，在Rt△OBF中，由勾股定理得OB＝OD$=\\frac{\\sqrt{39}}{2}$，由此可对结论③进行判断；\n④过点A作AH⊥BD于点H，根据菱形性质得EB＝ED＝FB＝FD＝4，证明△BEF是等边三角形得FE＝FB＝4，∠FBO＝30°，在Rt△OBF中，由勾股定理得OB$=2\\sqrt{3}$，则BD$=4\\sqrt{3}$，在Rt△ABH中，根据∠FBO＝30°得AH$=\\frac{3}{2}$，由勾股定理得BH$=\\frac{3\\sqrt{3}}{2}$，则DH$=\\frac{5\\sqrt{3}}{2}$，在Rt△ADH中，由勾股定理得AD$=\\sqrt{21}$，根据EF是BD的垂直平分线得PB＝PD，则PA+PB＝PA+PD≥AD$=\\sqrt{21}$，由此可得PA+PB的最小值为$\\sqrt{21}$，据此可对结论④进行判断；综上所述即可得出答案．\n【解答】解：①∵四边形ABCD是平行四边形，\n∴OA＝OC，OB＝OD，\n故结论①正确；\n②∵EF⊥BD，OB＝OD，\n∴EF是BD的垂直平分线，\n∴EB＝ED，FB＝FD，∠FOB＝∠EOD＝90°，\n∵四边形ABCD是平行四边形，\n∴AB∥CD，\n∴∠FBO＝∠EDO，\n在△FBO和△EDO中，\n$\\begin{cases} ∠FOB=∠EOD=90° \\\\ OB=OD \\\\ ∠FBO=∠EDO \\end{cases}$，\n∴△FBO≌△EDO（ASA），\n∴FB＝ED，\n∴EB＝ED＝FB＝FD，\n∴四边形BEDF是菱形，\n故结论②正确；\n③∵FA＝FN＝1，AB＝3，\n∴FB＝FA+AB＝4，∠FAN＝∠FNA，\n∵四边形ABCD是平行四边形，\n∴AD∥BC，\n∴∠FAN＝∠FBM，∠FNA＝∠FMB，∠OAN＝∠OCM，\n∴∠FBM＝∠FMB，\n∴FM＝FN＝4，\n在△OAN和△OCM中，\n$\\begin{cases} ∠OAN=∠OCM \\\\ OA=OC \\\\ ∠AON=∠COM \\end{cases}$，\n∴△OAN≌△OCM（ASA），\n∴OM＝ON，\n∴MN＝2ON，\n∴FM＝FN+MN＝1+2ON＝4，\n∴ON$=\\frac{3}{2}$，\n∴OF＝FN+ON$=1+\\frac{3}{2}=\\frac{5}{2}$，\n在Rt△OBF中，OB$=\\sqrt{FB^{2}-OF^{2}}=\\sqrt{4^{2}-(\\frac{5}{2})^{2}}=$$\\frac{\\sqrt{39}}{2}$，\n∴OD＝OB$=\\frac{\\sqrt{39}}{2}$，\n故结论③不正确；\n④过点A作AH⊥BD于点H，连接PD，如图所示：\n[[image:rId57]]\n∴△ABH和△ADH都是直角三角形，\n∵FA＝1，AB＝3，\n∴FB＝FA+AB＝4，\n∵四边形BEDF是菱形，\n∴EB＝ED＝FB＝FD＝4，\n∵∠ABE＝60°，\n∴△BEF是等边三角形，\n∴FE＝FB＝4，∠FBO$=\\frac{1}{2}$∠ABE＝30°，\n∴OE＝OF$=\\frac{1}{2}$FE＝2，\n在Rt△OBF中，由勾股定理得：OB$=\\sqrt{FB^{2}-OF^{2}}=\\sqrt{4^{2}-2^{2}}=$$2\\sqrt{3}$，\n∴OD＝OB$=2\\sqrt{3}$，\n∴BD＝OD+OB$=4\\sqrt{3}$，\n在Rt△ABH中，∠FBO＝30°，\n∴AH$=\\frac{1}{2}$AB$=\\frac{3}{2}$，\n由勾股定理得：BH$=\\sqrt{AB^{2}-AH^{2}}=\\sqrt{3^{2}-(\\frac{3}{2})^{2}}=$$\\frac{3\\sqrt{3}}{2}$，\n∴DH＝BD﹣BH$=4\\sqrt{3}-\\frac{3\\sqrt{3}}{2}=\\frac{5\\sqrt{3}}{2}$，\n在Rt△ADH中，由勾股定理得：AD$=\\sqrt{AH^{2}+DH^{2}}=\\sqrt{(\\frac{3}{2})^{2}+(\\frac{5\\sqrt{3}}{2})^{2}}=$$\\sqrt{21}$，\n∵EF是BD的垂直平分线，\n∴PB＝PD，\n∴PA+PB＝PA+PD，\n∴当PA+PD为最小时，PA+PB为最小，\n根据“两点之间线段最短”得：PA+PD≥AD$=\\sqrt{21}$，\n∴PA+PD的最小值为$\\sqrt{21}$，\n∴PA+PB的最小值为$\\sqrt{21}$，\n故结论④正确，\n综上所述：正确的结论是①②④．\n故答案为：①②④．\n【点评】此题主要考查了平行四边形的判定与性质，菱形的判定和性质，线段垂直平分线的性质，利用轴对称的性质求最短路线问题，理解平行四边形的判定与性质，线段垂直平分线的性质，熟练掌握菱形的判定和性质，等边三角形的性质，灵活运用含有30°角的直角三角形性质及勾股定理进行计算是解决问题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q020_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行四边形的性质",
+          "菱形的性质",
+          "垂直平分线的性质",
+          "等边三角形的性质"
+        ],
+        "reasoning": "题中涉及平行四边形、菱形、垂直平分线和等边三角形的性质判断",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行四边形的性质\", \"菱形的性质\", \"垂直平分线的性质\", \"等边三角形的性质\"],\n  \"reasoning\": \"题中涉及平行四边形、菱形、垂直平分线和等边三角形的性质判断\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "先化简，再求代数式(\\frac{1}{a-3}+\\frac{3}{a^{2}-6a+9})÷\\frac{a}{a-3}的值，其中a＝2sin60°+3tan45°．",
+      "stem_markdown": "先化简，再求代数式$(\\frac{1}{a-3}+\\frac{3}{a^{2}-6a+9})÷\\frac{a}{a-3}$的值，其中a＝2sin60°+3tan45°．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先根据分式混合运算的法则把原式进行化简，再求出a的值代入进行计算即可．\n【解答】解：$(\\frac{1}{a-3}+\\frac{3}{a^{2}-6a+9})÷\\frac{a}{a-3}$\n$=\\frac{a}{((a-3))^{2}}⋅\\frac{a-3}{a}$\n$=\\frac{1}{a-3}$．\n当a＝2sin60°+3tan45°\n＝2$×\\frac{\\sqrt{3}}{2}+$3×1\n＝3$+\\sqrt{3}$时，\n原式$=\\frac{\\sqrt{3}}{3}$．\n【点评】本题考查的是分式的化简求值，熟知分式混合运算的法则是解题的关键．",
+      "full_score": 7,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分数的加减乘除运算",
+          "代数式的化简",
+          "特殊角的三角函数值"
+        ],
+        "reasoning": "代数式化简过程中涉及分数的加减乘除运算，最终代入特殊角的三角函数值求值。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分数的加减乘除运算\", \"代数式的化简\", \"特殊角的三角函数值\"],\n  \"reasoning\": \"代数式化简过程中涉及分数的加减乘除运算，最终代入特殊角的三角函数值求值。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，方格中每个小正方形的边长均为1个单位长度，每个小正方形的顶点叫格点，△ABC的三个顶点均在格点上，请用无刻度的直尺按下列要求画图．\n（1）在方格纸中，画出△ACD（点D在格点上），满足\\frac{CD}{AC}=\\frac{1}{2}，且△ACD的面积是5；\n（2）在△ABC的边BA上画出点E，使线段BE的长是3个单位长度（保留作图痕迹，体现作图过程），连接ED，并直接写出tan∠EDA的值．\n[图1]",
+      "stem_markdown": "如图，方格中每个小正方形的边长均为1个单位长度，每个小正方形的顶点叫格点，△ABC的三个顶点均在格点上，请用无刻度的直尺按下列要求画图．\n（1）在方格纸中，画出△ACD（点D在格点上），满足$\\frac{CD}{AC}=\\frac{1}{2}$，且△ACD的面积是5；\n（2）在△ABC的边BA上画出点E，使线段BE的长是3个单位长度（保留作图痕迹，体现作图过程），连接ED，并直接写出tan∠EDA的值．\n![2025年黑龙江省哈尔滨市中考数学试卷_q022_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据要求画出图形即可；\n（2）取格点M，N，连接MN交AB于点E，过点E作EH⊥AD于点H，求出EH，DH可得结论．\n【解答】解：（1）△ACD．如图所示．\n[[image:rId59]]\n（2）如图，点E即为所求．\n过点E作EH⊥AD于点H．\n∵AB$=\\sqrt{3^{2}+4^{2}}=$5，EH∥BN，BN＝3，AN＝4，\n∴$\\frac{EH}{BN}=\\frac{AE}{AB}=$$\\frac{AH}{AN}=\\frac{2}{5}$，\n∴EH$=\\frac{6}{5}$，AH$=\\frac{8}{5}$，\n∴HN＝AN﹣AH＝4$-\\frac{8}{5}=\\frac{12}{5}$，\n∴DH＝DN+HN＝1$+\\frac{12}{5}=\\frac{17}{5}$，\n∴tan∠EDA$=\\frac{EH}{DH}=\\frac{\\frac{6}{5}}{\\frac{17}{5}}=$$\\frac{6}{17}$．\n【点评】本题考查作图﹣应用与设计作图，勾股定理，相似三角形的判定和性质，解直角三角形等知识，解题的关键是掌握相关知识解决问题．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q022_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的判定和性质",
+          "勾股定理",
+          "解直角三角形"
+        ],
+        "reasoning": "（1）根据\\(\frac{CD}{AC}=\frac{1}{2}\\)和△ACD的面积求解；（2）利用相似三角形的性质和勾股定理求解tan∠EDA",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的判定和性质\", \"勾股定理\", \"解直角三角形\"],\n  \"reasoning\": \"（1）根据\\(\\frac{CD}{AC}=\\frac{1}{2}\\)和△ACD的面积求解；（2）利用相似三角形的性质和勾股定理求解tan∠EDA\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "跳绳是一项集健身与娱乐为一体的体育活动，有利于学生的身心健康发展．颖立中学为了解全校学生60秒钟的跳绳次数，随机抽取部分学生进行测试，并将测试所得数据整理成不完整的频数分布表和扇形统计图．\nA组学生跳绳次数（单位：次）如下：65 70 73 80 85 95 96 96 98\n组别 | 次数x（单位：次） | 频数\nA组 | 60≤x＜100° | 9\nB组 | 100≤x＜140 | m\nC组 | 140≤x＜180 | 12\nD组 | 180≤x＜220 | 3\n根据以上信息回答下列问题：\n（1）在这次调查中，一共抽取了多少名学生？\n（2）A组学生跳绳次数的中位数是 ____ ，m的值是 ____ ；\n（3）若颖立中学共有1500名学生，估计该中学60秒钟的跳绳次数在100≤x＜140范围的学生有多少名．\n[图1]",
+      "stem_markdown": "跳绳是一项集健身与娱乐为一体的体育活动，有利于学生的身心健康发展．颖立中学为了解全校学生60秒钟的跳绳次数，随机抽取部分学生进行测试，并将测试所得数据整理成不完整的频数分布表和扇形统计图．\nA组学生跳绳次数（单位：次）如下：65 70 73 80 85 95 96 96 98\n| 组别 | 次数x（单位：次） | 频数 |\n| --- | --- | --- |\n| A组 | 60≤x＜100° | 9 |\n| B组 | 100≤x＜140 | m |\n| C组 | 140≤x＜180 | 12 |\n| D组 | 180≤x＜220 | 3 |\n根据以上信息回答下列问题：\n（1）在这次调查中，一共抽取了多少名学生？\n（2）A组学生跳绳次数的中位数是 ____ ，m的值是 ____ ；\n（3）若颖立中学共有1500名学生，估计该中学60秒钟的跳绳次数在100≤x＜140范围的学生有多少名．\n![2025年黑龙江省哈尔滨市中考数学试卷_q023_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "85，36",
+      "solution": "【分析】（1）将C组人数除以其所占百分比即可求出抽取的学生共有多少人；\n（2）根据中位数的定义即可求解，将抽取的总人数减去其他组人数即可求出B组的频数，即可得m的值；\n（3）将60秒钟的跳绳次数在100≤x＜140范围所占比乘以1500即可求解．\n【解答】解：（1）12÷20%＝60（名）．\n答：一共抽取60名学生．\n（2）A组学生跳绳次数的中位数85，\nm＝60﹣9﹣12﹣3＝36．\n故答案为：85，36；\n（3）$1500×\\frac{36}{60}=900$（名）．\n答：估计该中学60秒钟的跳绳次数在100≤x＜140范围的学生有900名．\n【点评】本题考查频数分布表，扇形统计图，由样本估计总体，能从统计图中获取有用信息是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q023_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率",
+          "中位数",
+          "样本估计总体"
+        ],
+        "reasoning": "第（2）问中位数需要计算，涉及频率的概念；第（3）问中利用样本估计总体的方法计算学生数量。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率\", \"中位数\", \"样本估计总体\"],\n  \"reasoning\": \"第（2）问中位数需要计算，涉及频率的概念；第（3）问中利用样本估计总体的方法计算学生数量。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "已知：在正方形ABCD的内侧作等边三角形CDF，连接AF，BF．\n（1）如图①，求证△ADF≌△BCF；\n（2）如图②，过点C作CE⊥CF，交AF的延长线于点E，CM平分∠BCE，交AE于点M，连接BM，AE交BC于点N，连接BD交CF于点G，在不添加任何辅助线的情况下，直接写出图②中四条与线段BF相等的线段（线段AF，BF除外）．\n[图1]",
+      "stem_markdown": "已知：在正方形ABCD的内侧作等边三角形CDF，连接AF，BF．\n（1）如图①，求证△ADF≌△BCF；\n（2）如图②，过点C作CE⊥CF，交AF的延长线于点E，CM平分∠BCE，交AE于点M，连接BM，AE交BC于点N，连接BD交CF于点G，在不添加任何辅助线的情况下，直接写出图②中四条与线段BF相等的线段（线段AF，BF除外）．\n![2025年黑龙江省哈尔滨市中考数学试卷_q024_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由四边形ABCD是正方形，得AD＝BC，由△CDF是等边三角形，得DF＝CF∠FDC＝∠FCD＝60°，得∠ADF＝∠BCF＝30°，进而即可得证；\n（2）先由等边三角形的性质，三角形的内角和及等角对等边证得BF＝FN，BG＝BF，再由CE⊥CF，CM平分∠BCE证得△BCM≌△ECM，得出BM＝EM，∠CMB＝∠CME，∠BMF＝∠BFM，证得BF＝BM，进而即可得解．\n【解答】（1）证明：∵四边形ABCD是正方形，\n∴AD＝BC．∠ADC＝∠BCD＝90°．\n∵△CDF是等边三角形，\n∴DF＝CF，∠FDC＝∠FCD＝60°．\n∴∠ADF＝∠BCF＝30°．\n∴△ADF≌△BCF（SAS）．\n（2）解：与线段BF相等的线段有BM，EM，BG，FN，理由如下，\n∵△CDF为等边三角形，\n∴∠FCD＝60°＝∠DFC＝∠FDC，CF＝CD＝CB＝DF＝DA，\n∴∠ADF＝∠BCF＝90°﹣60°＝30°，\n∴$∠DAF=∠DFA=∠CFB=∠CBF=\\frac{180°-30°}{2}=75°$，\n∴∠CFE＝180°﹣∠AFD﹣∠DFC＝180°﹣75°﹣60°＝45°，∠FAB＝∠FBA＝90°﹣75°＝15°，\n∴∠ANB＝90°﹣15°＝75°＝∠CNM＝∠CBF，∠MFB＝15°+15°＝30°，\n∴BF＝FN，\n∵四边形ABCD是正方形，BD为对角线，\n∴∠CDB＝45°，\n∴∠CGD＝∠FGB＝180°﹣45°﹣60°＝75°＝∠GFB，\n∴BG＝BF，\n∵CE⊥CF，∠FCE＝90°，\n∴∠BCE＝∠FCE﹣∠BCF＝90°﹣30°＝60°，∠E＝180°﹣∠FCE﹣∠CFE＝180°﹣90°﹣45°＝45°＝∠CFE，\n∴CF＝CE，\n∵CM平分∠BCE，\n∴∠BCM＝∠ECM＝30°，\n∴∠CMN＝180°﹣75°﹣30°＝75°，\n∵CM＝CM，\n∴△BCM≌△ECM（SAS），\n∴BM＝EM，∠CMB＝∠CME＝180°﹣45°﹣30°＝105°，\n∴∠BMF＝105°﹣75°＝30°＝∠BFM，\n∴BF＝BM，\n∴BF＝BM＝BG＝FN＝EM．\n【点评】本题主要考查了正方形的性质，全等三角形的判定和性质，三角形的外角和，内角和，等边三角形的性质，等腰三角形的判定和性质等知识点，熟练掌握以上知识点并能灵活运用是解决此题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q024_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定（SAS）",
+          "等边三角形的性质",
+          "正方形的性质",
+          "三角形的内角和"
+        ],
+        "reasoning": "第（1）问通过等边三角形和正方形的性质证明全等三角形，第（2）问利用全等三角形、等边三角形和正方形的性质找出相等线段。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定（SAS）\", \"等边三角形的性质\", \"正方形的性质\", \"三角形的内角和\"],\n  \"reasoning\": \"第（1）问通过等边三角形和正方形的性质证明全等三角形，第（2）问利用全等三角形、等边三角形和正方形的性质找出相等线段。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "为了节能减排，晶扬工厂决定将照明灯换成节能灯．若购买4盏甲型节能灯和5盏乙型节能灯需用64元；若购买6盏甲型节能灯和2盏乙型节能灯需用52元．\n（1）求1盏甲型节能灯和1盏乙型节能灯的售价各是多少元；\n（2）晶扬工厂决定购买以上两种型号的节能灯共50盏，总费用不超过360元，那么该工厂最少可以购买多少盏甲型节能灯？",
+      "stem_markdown": "为了节能减排，晶扬工厂决定将照明灯换成节能灯．若购买4盏甲型节能灯和5盏乙型节能灯需用64元；若购买6盏甲型节能灯和2盏乙型节能灯需用52元．\n（1）求1盏甲型节能灯和1盏乙型节能灯的售价各是多少元；\n（2）晶扬工厂决定购买以上两种型号的节能灯共50盏，总费用不超过360元，那么该工厂最少可以购买多少盏甲型节能灯？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设1盏甲型节能灯的售价是x元，1盏乙型节能灯的售价是y元，根据“购买4盏甲型节能灯和5盏乙型节能灯需用64元；购买6盏甲型节能灯和2盏乙型节能灯需用52元”，可列出关于x，y的二元一次方程组，解之即可得出结论；\n（2）设购买m盏甲型节能灯，则购买（50﹣m）盏乙型节能灯，利用总价＝单价×数量，结合总费用不超过360元，可列出关于m的一元一次不等式，解之取其中的最小值，即可得出结论．\n【解答】解：（1）设1盏甲型节能灯的售价是x元，1盏乙型节能灯的售价是y元，\n根据题意得：$\\begin{cases} 4x+5y=64 \\\\ 6x+2y=52 \\end{cases}$，\n解得：$\\begin{cases} x=6 \\\\ y=8 \\end{cases}$．\n答：1盏甲型节能灯的售价是6元，1盏乙型节能灯的售价是8元；\n（2）设购买m盏甲型节能灯，则购买（50﹣m）盏乙型节能灯，\n根据题意得：6m+8（50﹣m）≤360，\n解得：m≥20，\n∴m的最小值为20．\n答：该工厂最少可以购买20盏甲型节能灯．\n【点评】本题考查了二元一次方程组的应用以及一元一次不等式的应用，解题的关键是：（1）找准等量关系，正确列出二元一次方程组；（2）根据各数量之间的关系，正确列出一元一次不等式．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方程组应用",
+          "一元一次不等式应用"
+        ],
+        "reasoning": "题目通过方程组求解甲乙型节能灯的价格，再通过一元一次不等式确定购买方案。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方程组应用\", \"一元一次不等式应用\"],\n  \"reasoning\": \"题目通过方程组求解甲乙型节能灯的价格，再通过一元一次不等式确定购买方案。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "已知：△ABC内接于⊙O，圆心O在△ABC的内部，CD为⊙O的直径，连接BD，∠BCD+2∠ABD＝90°．\n（1）如图①，求证AB＝AC；\n（2）如图②，过点A作⊙O的切线，交BD的延长线于点P，求证BC＝2PA；\n（3）如图③，在（2）的条件下，PD＝3BD，连接DA并延长至点E，连接OE交AC于点M，OE＝AB，G为BC上一点，DG=AD，连接CG，点N在CG上，连接ON，∠EON＝2∠EDC，CN＝7，点F为AC的中点，连接EF，AF，求△AEF的面积．\n[图1]",
+      "stem_markdown": "已知：△ABC内接于⊙O，圆心O在△ABC的内部，CD为⊙O的直径，连接BD，∠BCD+2∠ABD＝90°．\n（1）如图①，求证AB＝AC；\n（2）如图②，过点A作⊙O的切线，交BD的延长线于点P，求证BC＝2PA；\n（3）如图③，在（2）的条件下，PD＝3BD，连接DA并延长至点E，连接OE交AC于点M，OE＝AB，G为$BC$上一点，$DG=AD$，连接CG，点N在CG上，连接ON，∠EON＝2∠EDC，CN＝7，点F为$AC$的中点，连接EF，AF，求△AEF的面积．\n![2025年黑龙江省哈尔滨市中考数学试卷_q026_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q026_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据圆周角定理得到∠CBD＝90°．设∠ABD＝α．得到∠ABC＝90°﹣α，∠ACD＝∠ABD＝α．求得∠BCD＝90°﹣2α．得到∠ACB＝∠ACD+∠BCD＝90°﹣α．于是得到结论．\n（2）连接OA，OB，并延长AO交BC于点R．根据线段垂直平分线的性质得到AO垂直平分BC．求得∠ARB＝90°，BR＝CR．根据切线的判定定理得到AF是⊙O的切线，求得∠PAR＝90°．根据矩形的性质即可得到结论．\n（3）如图③，连接OF，OA，并延长AO|交BC于点R．由F为$AC$的中点，得到OF⊥AC，根据平行线的性质得到∠COF＝∠EDC，∠EON＝2∠EDC，求得∠AOM＝∠COM，根据等腰三角形的性质得到∠ACO＝∠OAC，根据全等三角形的性质得到AM＝CN＝7，设BD＝x，则PD＝3x，根据矩形的性质得到AB＝PB＝4x，得到OR$=\\frac{x}{2}$，OA＝OC$=\\frac{7}{2}$x，求得CD＝7x，BC＝2PA＝4$\\sqrt{3}$x，得到OE＝2$\\sqrt{7}$x过点O作OH⊥AD于点H．解直角三角形得到$x=2\\sqrt{7}$．求得OH＝14．根据三角形的面积公式即可得到结论．\n【解答】（1）证明：∵CD为⊙O的直径，\n∴∠CBD＝90°．\n设∠ABD＝α．\n∴∠ABC＝90°﹣α，\n∠ACD＝∠ABD＝α．\n∵∠BCD+2∠ABD＝90°，\n∴∠BCD＝90°﹣2α．\n∴∠ACB＝∠ACD+∠BCD\n＝90°﹣α．\n∴∠ABC＝∠ACB．\n∴AB＝AC．\n（2）证明：连接OA，OB，并延长AO交BC于点R，\n[[image:rId63]]\n∵AB＝AC，OB＝OC，\n∴AO垂直平分BC．\n∴∠ARB＝90°，BR＝CR．\n∵AF是⊙O的切线，\n∴∠PAR＝90°．\n∵CD是⊙O的直径，\n∴∠CBD＝90°．\n∵四边形PARB是矩形，\n∴PA＝BR＝CR．\n∴BC＝2PA．\n（3）解：如图③，连接OF，OA，并延长AO|交BC于点R．\n[[image:rId64]]\n∵F为$AC$的中点，\n∴OF⊥AC，\n∵CD为⊙O的直径，\n∴∠DAC＝90°，\n∴OF∥AD，\n∴∠COF＝∠EDC，\n∠EON＝2∠EDC，\n∴∠AOC＝∠EON，\n∴∠AOM＝∠CON，\n∵OA＝OC，\n∴∠ACO＝∠OAC，\n∵$DG=DA$，\n∴∠ACO＝∠DCN，\n∴∠ACO＝∠OCN＝∠OAC，\n∴△AOM≌△CON（ASA），\n∴AM＝CN＝7，\n∵PD＝3DB，\n∴设BD＝x，则PD＝3x，\n∵四边形PARB是矩形，\n∴AB＝PB＝4x，\n∵OC＝OD，\n∴OR$=\\frac{x}{2}$，OA＝OC$=\\frac{7}{2}$x，\n∴CD＝7x，BC＝2PA＝4$\\sqrt{3}$x，\n∴AD$=\\sqrt{21}$x，AB＝2$\\sqrt{7}$x，\n∵OE＝AB，\n∴OE＝2$\\sqrt{7}$x\n过点O作OH⊥AD于点H．\n∴$DH=AH=\\frac{\\sqrt{21}}{2}x$．\n∴$OH=\\sqrt{OD^{2}-DH^{2}}=\\sqrt{7}x$．\n∴$sin∠DEO=\\frac{OH}{OE}=\\frac{1}{2}$．\n∴∠DEO＝30°．\n∴$EH=\\sqrt{3}OH，AE=7\\sqrt{3}$．\n∴$\\frac{\\sqrt{21}}{2}x+7\\sqrt{3}=\\sqrt{21}x$．\n解得$x=2\\sqrt{7}$．\n∴OH＝14．\n∵OF∥AD，\n∴$S_{△}_{AEF}＝S_{△}_{OAE}=\\frac{1}{2}AE⋅OH=$$\\frac{1}{2}×$7$\\sqrt{3}×$14$=49\\sqrt{3}$．\n【点评】本题是圆的综合题，考查了切线的判定和性质，解直角三角形，全等三角形的判定和性质，圆周角定理，垂径定理，平行线的判定和性质，矩形的判定和性质，正确地作出辅助线是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q026_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q026_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆周角定理",
+          "垂径定理",
+          "切线的判定和性质",
+          "全等三角形的判定和性质"
+        ],
+        "reasoning": "题目涉及圆周角定理、垂径定理、切线的判定和性质以及全等三角形的判定和性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆周角定理\", \"垂径定理\", \"切线的判定和性质\", \"全等三角形的判定和性质\"],\n  \"reasoning\": \"题目涉及圆周角定理、垂径定理、切线的判定和性质以及全等三角形的判定和性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年黑龙江省哈尔滨市中考数学试卷_q027",
+      "question_no": "27",
+      "question_type": "solution",
+      "stem_text": "已知：在平面直角坐标系中，O为坐标原点，直线AB与y轴交于点A，与x轴交于点B，点A的坐标为（0，7），点B的坐标为(-\\frac{21}{4}，0)．\n（1）求直线AB的解析式；\n（2）如图①，C为x轴正半轴上一点，CD⊥AB于点D，点D在线段AB上（点D不与点A重合），连接AC，设点C的横坐标为m，CD的长为d，求d与m的函数解析式（不要求写出自变量m的取值范围）；\n（3）如图②，在（2）的条件下，点D横坐标为﹣3m，在第一象限内作直角三角形AEC，∠AEC＝90°，∠OCE＝135°，点F在x轴上，设点F的横坐标为n（2＜n＜4），点S在OC上，OS=-\\frac{1}{6}n^{2}+\\frac{2}{3}n，在第四象限内作SR⊥OC，SR=\\frac{n}{2}，连接OR，RG⊥OR，交x轴于点G，连接EF并延长交GR于点P，PG+OR=\\frac{5}{3}PR，求点P的坐标．\n[图1]\n2025年黑龙江省哈尔滨市中考数学试卷",
+      "stem_markdown": "已知：在平面直角坐标系中，O为坐标原点，直线AB与y轴交于点A，与x轴交于点B，点A的坐标为（0，7），点B的坐标为$(-\\frac{21}{4}，0)$．\n（1）求直线AB的解析式；\n（2）如图①，C为x轴正半轴上一点，CD⊥AB于点D，点D在线段AB上（点D不与点A重合），连接AC，设点C的横坐标为m，CD的长为d，求d与m的函数解析式（不要求写出自变量m的取值范围）；\n（3）如图②，在（2）的条件下，点D横坐标为﹣3m，在第一象限内作直角三角形AEC，∠AEC＝90°，∠OCE＝135°，点F在x轴上，设点F的横坐标为n（2＜n＜4），点S在OC上，OS$=-\\frac{1}{6}n^{2}+\\frac{2}{3}$n，在第四象限内作SR⊥OC，SR$=\\frac{n}{2}$，连接OR，RG⊥OR，交x轴于点G，连接EF并延长交GR于点P，PG+OR$=\\frac{5}{3}$PR，求点P的坐标．\n![2025年黑龙江省哈尔滨市中考数学试卷_q027_img01](assets/2025年黑龙江省哈尔滨市中考数学试卷_q027_img01.png)\n2025年黑龙江省哈尔滨市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用待定系数法即可求解；\n（2）由题易得sin$=\\frac{OA}{AB}=\\frac{4}{5}$，所以CD＝BC•sin∠ABC，即可得解；\n（3）过点D作DT⊥x轴于点T，易得OC＝1．再求出E（4，3），过点E作EH⊥x轴于点H，由题可得根据三角比可得∠ROS＝∠OFP．延长OR，EP交于点Q，过点Q作QL⊥x轴于点L，可得$OL=FL=\\frac{n}{2}=SR$，再分别证△OLQ≌△RSG（AAS）和△KOQ≌△OGR（SAS），可得∠KQO＝90°，最后分别求出直线RG和直线EF解析式即可得解．\n【解答】解：（1）设直线AB的解析式为y＝kx+b．\n将点$(0，7)，(-\\frac{21}{4}，0)$代入，\n得$\\begin{cases} b=7 \\\\ -\\frac{21}{4}k+b=0 \\end{cases}$，\n解得$\\begin{cases} k=\\frac{4}{3} \\\\ b=7 \\end{cases}$，\n∴直线AB的解析式为$y=\\frac{4}{3}x+7$．\n（2）∵A（0，7），B（$-\\frac{21}{4}$，0），\n∴$OA=7，OB=\\frac{21}{4}，AB=\\frac{35}{4}$，\n∴sin∠ABC$=\\frac{OA}{AB}=\\frac{4}{5}$，\n∵点C的横坐标为m，\n.∴$BC=m+\\frac{21}{4}$．\n∵CD⊥AB，\n∴CD＝BC•sin∠ABC\n$=(m+\\frac{21}{4})⋅\\frac{4}{5}$\n$=\\frac{4}{5}m+\\frac{21}{5}$，\n∴d$=\\frac{4}{5}$m$+\\frac{21}{5}$；\n（3）如图②，过点D作DT⊥x轴于点T，\n[[image:rId66]]\n∵点D的横坐标为﹣3m．点C的横坐标为m．\n∴CT＝4m．\n∵tan∠DCT＝tan∠DAO$=\\frac{3}{4}$，\n∴DT＝3m．\n∵tan∠ABO$=\\frac{4}{3}$，\n∴$BT=\\frac{9}{4}m，OT=3m$．\n∴$\\frac{9}{4}m+3m=\\frac{21}{4}$．\n∴m＝1．\n∴OC＝1．\n∵∠OCE＝135°，\n∴∠ECG＝45°．\n∴直线CE的解析式为y＝x﹣1．\n∵∠AEC＝90°，\n∴直线AE的解析式为y＝﹣x+7．\n∴E（4，3）．\n∵OS$=-\\frac{1}{6}n^{2}$$+\\frac{2}{3}$n，SR$=\\frac{n}{2}$，\n∴$tan∠ROS=\\frac{3}{4-n}$．\n过点E作EH⊥x轴于点H，\n∴$tan∠EFH=\\frac{3}{4-n}=tan∠ROS$，\n∴∠ROS＝∠OFP．\n延长OR，EP交于点Q，过点Q作QL⊥x轴于点L．\n∴$OL=FL=\\frac{n}{2}=SR$．\n在y轴负半轴上截取OK＝OG，连接KG交OQ，FQ于点M，N，连接KQ．\n∵∠OGR+∠GOQ＝∠KOQ+∠GOQ＝90°，\n∴∠OGR＝∠KOQ＝∠OQL，\n∴△OLQ≌△RSG（AAS），\n∴OQ＝RG．\n∴△KOQ≌△OGR（SAS），\n∴∠KQO＝90°．\n设∠KOQ＝∠OGR＝α．\n∴∠OKQ＝90°﹣α．\n∵OK＝OG，\n∴∠OGN＝∠OKG＝45°．\n∵∠QKN＝∠PGN＝45°﹣α，∠KQN＝90°+2α，\n∴∠KNQ＝∠PNG＝45°﹣α．\n设PN＝PG＝b，PR＝3a．\n∵$PG+OR=\\frac{5}{3}PR$，\n∴KQ＝QN＝OR＝5a﹣b，PQ＝5a，\n∴RQ＝4a，\n∴OQ＝9a﹣b，RG＝3a+b，\n∴9a﹣b＝3a+b，得b＝3a．\n∴$tanα=\\frac{1}{3}$，\n∴FH＝1，OF＝3，\n∴n＝3，\n∴$OS=\\frac{1}{2}，SR=\\frac{3}{2}，OG=5$．\n∴直线RG的解析式为y$=\\frac{1}{3}$x$-\\frac{5}{3}$，\n直线EF的解析式为y＝3x﹣9，\n联立$\\begin{cases} y=\\frac{1}{3}x-\\frac{5}{3} \\\\ y=3x-9 \\end{cases}$，解得$\\begin{cases} x=\\frac{11}{4} \\\\ y=-\\frac{3}{4} \\end{cases}$，\n∴点P的坐标为$(\\frac{11}{4}，-\\frac{3}{4})$．\n【点评】本题考查一次函数综合，全等三角形的判定与性质，解直角三角形，勾股定理，矩形的判定和性质，比例的基本性质，平行线的性质，锐角三角函数，能够正确作出辅助线是解题关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:18:55；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId68]] ____ [[image:rId69]] ____ [[image:rId70]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年黑龙江省哈尔滨市中考数学试卷_q027_img01",
+          "path": "assets/2025年黑龙江省哈尔滨市中考数学试卷_q027_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "相似三角形的性质",
+          "三角函数",
+          "全等三角形的判定"
+        ],
+        "reasoning": "题目（2）通过计算斜边BC与角度ABC的关系求解CD长度，涉及相似三角形性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"相似三角形的性质\", \"三角函数\", \"全等三角形的判定\"],\n  \"reasoning\": \"题目（2）通过计算斜边BC与角度ABC的关系求解CD长度，涉及相似三角形性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:32:42",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 27,
+      "ok": 27,
+      "fallback": 0
+    }
+  }
+}

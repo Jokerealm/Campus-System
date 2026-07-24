@@ -1,0 +1,996 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年江西省中考数学试卷",
+  "source": {
+    "name": "2025年江西省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年江西省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年江西省中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列各数中，是无理数的是（ ）",
+      "stem_markdown": "下列各数中，是无理数的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "3.14"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{3}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】无限不循环小数叫做无理数，据此进行判断即可．\n【解答】解：0是整数，3.14是有限小数，$\\frac{2}{3}$是分数，它们不是无理数，\n$\\sqrt{2}$是无限不循环小数，它是无理数，\n故选：B．\n【点评】本题考查无理数，熟练掌握其定义是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "无理数的定义",
+          "无限不循环小数"
+        ],
+        "reasoning": "判断哪个选项中的数是无限不循环小数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"无理数的定义\", \"无限不循环小数\"],\n  \"reasoning\": \"判断哪个选项中的数是无限不循环小数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "在1个标准大气压下，四种晶体的熔点如表所示，则熔点最高的是（ ）\n晶体 | 固态氢 | 固态氧 | 固态氮 | 固态酒精\n熔点（单位：℃） | ﹣259 | ﹣218 | ﹣210 | ﹣117",
+      "stem_markdown": "在1个标准大气压下，四种晶体的熔点如表所示，则熔点最高的是（ ）\n| 晶体 | 固态氢 | 固态氧 | 固态氮 | 固态酒精 |\n| --- | --- | --- | --- | --- |\n| 熔点（单位：℃） | ﹣259 | ﹣218 | ﹣210 | ﹣117 |",
+      "options": [
+        {
+          "label": "A",
+          "text": "固态氢"
+        },
+        {
+          "label": "B",
+          "text": "固态氧"
+        },
+        {
+          "label": "C",
+          "text": "固态氮"
+        },
+        {
+          "label": "D",
+          "text": "固态酒精"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据正数和负数的实际意义比较各数的大小即可．\n【解答】解：∵﹣259＜﹣218＜﹣210＜﹣117，\n∴熔点最高的是固态酒精，\n故选：D．\n【点评】本题考查正数和负数，理解其实际意义是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正数和负数的实际意义",
+          "比较有理数的大小"
+        ],
+        "reasoning": "题中通过比较四个熔点的大小来确定最高熔点，涉及正数和负数的实际意义。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正数和负数的实际意义\", \"比较有理数的大小\"],\n  \"reasoning\": \"题中通过比较四个熔点的大小来确定最高熔点，涉及正数和负数的实际意义。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "下列图案中，是轴对称图形但不是中心对称图形的是（ ）",
+      "stem_markdown": "下列图案中，是轴对称图形但不是中心对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年江西省中考数学试卷_q003_img01](assets/2025年江西省中考数学试卷_q003_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年江西省中考数学试卷_q003_img02](assets/2025年江西省中考数学试卷_q003_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年江西省中考数学试卷_q003_img03](assets/2025年江西省中考数学试卷_q003_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年江西省中考数学试卷_q003_img04](assets/2025年江西省中考数学试卷_q003_img04.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据轴对称图形与中心对称图形的概念判断．\n【解答】解：A、图案是轴对称图形，但不是中心对称图形，符合题意；\nB、图案是轴对称图形，也是中心对称图形，不符合题意；\nC、图案是轴对称图形，也是中心对称图形，不符合题意；\nD、图案不是轴对称图形，是中心对称图形，不符合题意；\n故选：A．\n【点评】本题考查的是中心对称图形与轴对称图形的概念．轴对称图形的关键是寻找对称轴，图形两部分折叠后可重合，中心对称图形是要寻找对称中心，旋转180度后两部分重合．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q003_img01",
+          "path": "assets/2025年江西省中考数学试卷_q003_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年江西省中考数学试卷_q003_img02",
+          "path": "assets/2025年江西省中考数学试卷_q003_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年江西省中考数学试卷_q003_img03",
+          "path": "assets/2025年江西省中考数学试卷_q003_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年江西省中考数学试卷_q003_img04",
+          "path": "assets/2025年江西省中考数学试卷_q003_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "轴对称图形",
+          "中心对称图形"
+        ],
+        "reasoning": "图案是轴对称但不是中心对称",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"轴对称图形\", \"中心对称图形\"],\n  \"reasoning\": \"图案是轴对称但不是中心对称\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "某市为尽快了解义务教育阶段劳动课程开设及实施的情况，现面向全市义务教育阶段的学校进行抽样调查，下列抽样方式较合适的是（ ）",
+      "stem_markdown": "某市为尽快了解义务教育阶段劳动课程开设及实施的情况，现面向全市义务教育阶段的学校进行抽样调查，下列抽样方式较合适的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "随机抽取城区三分之一的学校"
+        },
+        {
+          "label": "B",
+          "text": "随机抽取乡村三分之一的学校"
+        },
+        {
+          "label": "C",
+          "text": "调查全体学校"
+        },
+        {
+          "label": "D",
+          "text": "随机抽取三分之一的学校"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据抽取样本的普遍性和代表性进行判断即可．\n【解答】解：根据抽样调查样本的普遍性和代表性可知，选项D相比较具有普遍性和代表性．\n故选：D．\n【点评】本题考查抽样调查样本的可靠性，理解抽样调查样本的普遍性和代表性是抽样的基本原则．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "随机抽样",
+          "样本代表性"
+        ],
+        "reasoning": "选项D具有普遍性和代表性",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"随机抽样\", \"样本代表性\"],\n  \"reasoning\": \"选项D具有普遍性和代表性\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "如图，△ABC是面积为1的等边三角形，分别取AC，BC，AB的中点得到△A₁B₁C₁；再分别取A₁C，B₁C，A₁B₁的中点得到△A₂B₂C₂；…依此类推，则△AnBn∁n的面积为（ ）\n[图1]",
+      "stem_markdown": "如图，△ABC是面积为1的等边三角形，分别取AC，BC，AB的中点得到△$A_{1}B_{1}$$C_{1}$；再分别取$A_{1}$C，$B_{1}$C，$A_{1}B_{1}$的中点得到△$A_{2}B_{2}$$C_{2}$；…依此类推，则△$A_{n}B_{n}$∁_{n}的面积为（ ）\n![2025年江西省中考数学试卷_q005_img01](assets/2025年江西省中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$((\\frac{1}{2}))^{n+1}$"
+        },
+        {
+          "label": "B",
+          "text": "$((\\frac{1}{3}))^{n}$"
+        },
+        {
+          "label": "C",
+          "text": "$((\\frac{1}{4}))^{n}$"
+        },
+        {
+          "label": "D",
+          "text": "$((\\frac{1}{4}))^{n-1}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据所给变换方式，依次求出所得三角形的面积，发现规律即可解决问题．\n【解答】解：由题知，\n因为点$A_{1}$，$B_{1}$，$C_{1}$分别是AC，BC，AB的中点，\n所以$A_{1}B_{1}$∥AB，$B_{1}C_{1}$∥AC，$A_{1}C_{1}$∥BC，$A_{1}B_{1}=\\frac{1}{2}AB$，\n所以△$A_{1}B_{1}$$C_{1}$∽△BAC，\n则$\\frac{S_{△A_{1}B_{1}C_{1}}}{S_{△ABC}}=(\\frac{A_{1}B_{1}}{AB})^{2}=\\frac{1}{4}$．\n又因为△ABC的面积为1，\n所以△$A_{1}B_{1}$$C_{1}$的面积为$\\frac{1}{4}$．\n同理可得，△$A_{2}B_{2}$$C_{2}$的面积为$\\frac{1}{4^{2}}$，△$A_{3}B_{3}$$C_{3}$的面积为$\\frac{1}{4^{3}}$，…，\n所以△$A_{n}B_{n}$∁_{n}的面积可表示为$\\frac{1}{4^{n}}$．\n故选：C．\n【点评】本题主要考查了图形变化的规律及有理数的乘方，能根据题意发现所得三角形面积变化的规律是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q005_img01",
+          "path": "assets/2025年江西省中考数学试卷_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "等边三角形的性质",
+          "图形变化的规律"
+        ],
+        "reasoning": "通过中点构造相似三角形，利用面积比等于相似比平方的性质",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"等边三角形的性质\", \"图形变化的规律\"],\n  \"reasoning\": \"通过中点构造相似三角形，利用面积比等于相似比平方的性质\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "在趣味跳高比赛中，规定跳跃高度与自己身高的比值最大的同学为获胜者．甲、乙、丙、丁四位同学的跳跃高度与他们身高的关系示意图如图所示，则获胜的同学是（ ）\n[图1]",
+      "stem_markdown": "在趣味跳高比赛中，规定跳跃高度与自己身高的比值最大的同学为获胜者．甲、乙、丙、丁四位同学的跳跃高度与他们身高的关系示意图如图所示，则获胜的同学是（ ）\n![2025年江西省中考数学试卷_q006_img01](assets/2025年江西省中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "甲"
+        },
+        {
+          "label": "B",
+          "text": "乙"
+        },
+        {
+          "label": "C",
+          "text": "丙"
+        },
+        {
+          "label": "D",
+          "text": "丁"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据正比例函数的性质解答即可．\n【解答】解：如图：\n[[image:rId32]]\n根据题意得k$=\\frac{y}{x}$，\n∴y＝kx，\n根据正比例函数的意义，k越大，图越陡，反之图越陡，k越大，\n∴观察图象，跳跃高度与自己身高的比值最大的同学为甲，\n∴获胜的同学是甲，\n故选：A．\n【点评】本题考查了函数的图象，读懂函数图象的意义是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q006_img01",
+          "path": "assets/2025年江西省中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正比例函数的性质",
+          "函数图像的应用"
+        ],
+        "reasoning": "图象显示甲同学的正比例函数斜率最大，比值最大。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正比例函数的性质\", \"函数图像的应用\"],\n  \"reasoning\": \"图象显示甲同学的正比例函数斜率最大，比值最大。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "blank",
+      "stem_text": "化简：\\sqrt[3]{8}= ____ ．",
+      "stem_markdown": "化简：$\\sqrt[3]{8}=$ ____ ．",
+      "options": [],
+      "answer": "2．",
+      "solution": "【分析】根据开立方定义：$x^{3}$＝a，则x叫a的立方根，记作$x=\\sqrt[3]{a}$，求解即可得到答案，．\n【解答】解：根据开立方定义：$x^{3}$＝a，则x叫a的立方根，记作$x=\\sqrt[3]{a}$，可得：\n$\\sqrt[3]{8}=\\sqrt[3]{2^{3}}=2$，\n故答案为：2．\n【点评】本题考查求一个数的立方根，正确记忆相关知识点是解题关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "立方根定义",
+          "立方根计算"
+        ],
+        "reasoning": "题目要求化简 \\(\\sqrt[3]{8}\\)，涉及立方根的定义和计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"立方根定义\", \"立方根计算\"],\n  \"reasoning\": \"题目要求化简 \\(\\sqrt[3]{8}\\)，涉及立方根的定义和计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "blank",
+      "stem_text": "因式分解：a²﹣a＝ ____ ．",
+      "stem_markdown": "因式分解：$a^{2}$﹣a＝ ____ ．",
+      "options": [],
+      "answer": "a（a﹣1）．",
+      "solution": "解：$a^{2}$﹣a＝a（a﹣1） ．\n【分析】直接提取公因式a，进而分解因式得出即可．\n【解答】解：$a^{2}$﹣a＝a（a﹣1）．\n故答案为：a（a﹣1）．\n【点评】此题主要考查了提取公因式法分解因式，正确找出公因式是解题关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式法",
+          "因式分解"
+        ],
+        "reasoning": "提取公因式 a 分解因式 a²﹣a",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式法\", \"因式分解\"],\n  \"reasoning\": \"提取公因式 a 分解因式 a²﹣a\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "如图，创意图案中间空白部分为正多边形，该正多边形的内角和为 ____ 度．\n[图1]",
+      "stem_markdown": "如图，创意图案中间空白部分为正多边形，该正多边形的内角和为 ____ 度．\n![2025年江西省中考数学试卷_q009_img01](assets/2025年江西省中考数学试卷_q009_img01.png)",
+      "options": [],
+      "answer": "720．",
+      "solution": "【分析】利用多边形的内角和公式进行计算即可．\n【解答】解：观察图形可知：该正多边形是正六边形，\n∴该正多边形的内角和为：（6﹣2）×180°＝4×180°＝720°．\n故答案为：720．\n【点评】本题主要考查了多边形的内角和外角，解题关键是熟练掌握多边形的内角和公式．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q009_img01",
+          "path": "assets/2025年江西省中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正多边形的内角和公式"
+        ],
+        "reasoning": "根据图形判断出正多边形是正六边形，应用内角和公式计算内角和。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正多边形的内角和公式\"],\n  \"reasoning\": \"根据图形判断出正多边形是正六边形，应用内角和公式计算内角和。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "不等式﹣x+1＞0的解集为 ____ ．",
+      "stem_markdown": "不等式﹣x+1＞0的解集为 ____ ．",
+      "options": [],
+      "answer": "x＜1．",
+      "solution": "【分析】按照解一元一次不等式的步骤，进行计算即可解答．\n【解答】解：﹣x+1＞0，\n﹣x＞﹣1，\nx＜1，\n故答案为：x＜1．\n【点评】本题考查了解一元一次不等式，熟练掌握解一元一次不等式的步骤是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "解一元一次不等式"
+        ],
+        "reasoning": "解不等式过程中需要移项和除法操作，涉及一元一次不等式的解法。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"解一元一次不等式\"],\n  \"reasoning\": \"解不等式过程中需要移项和除法操作，涉及一元一次不等式的解法。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "小美家有一辆燃油汽车和一辆纯电汽车，燃油汽车耗费6000元油费行驶的路程与纯电汽车耗费1000元电费行驶的路程相同，且每百公里的耗油费比耗电费约多50元，求纯电汽车每百公里的耗电费．设纯电汽车每百公里的耗电费为x元，可列分式方程为 ____ ．",
+      "stem_markdown": "小美家有一辆燃油汽车和一辆纯电汽车，燃油汽车耗费6000元油费行驶的路程与纯电汽车耗费1000元电费行驶的路程相同，且每百公里的耗油费比耗电费约多50元，求纯电汽车每百公里的耗电费．设纯电汽车每百公里的耗电费为x元，可列分式方程为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{6000}{x+50}=\\frac{1000}{x}$．",
+      "solution": "【分析】设纯电汽车每百公里的耗电费为x元，则燃油汽车每百公里的耗电费为（x+50）元，根据燃油汽车耗费6000元油费行驶的路程与纯电汽车耗费1000元电费行驶的路程相同，列出分式方程即可．\n【解答】解：设纯电汽车每百公里的耗电费为x元，则燃油汽车每百公里的耗电费为（x+50）元，\n由题意得：$\\frac{6000}{x+50}=\\frac{1000}{x}$，\n故答案为：$\\frac{6000}{x+50}=\\frac{1000}{x}$．\n【点评】本题考查了由实际问题抽象出分式方程，找准等量关系，正确列出分式方程是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程",
+          "实际问题与分式方程"
+        ],
+        "reasoning": "题中通过分式方程表示燃油汽车和纯电汽车的耗油费和耗电费的关系",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程\", \"实际问题与分式方程\"],\n  \"reasoning\": \"题中通过分式方程表示燃油汽车和纯电汽车的耗油费和耗电费的关系\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "如图，在矩形纸片ABCD中，沿着点A折叠纸片并展开，AB的对应边为AB′，折痕与边BC交于点P．当AB′与AB，AD中任意一边的夹角为15°时，∠APB的度数可以是 ____ ．\n[图1]",
+      "stem_markdown": "如图，在矩形纸片ABCD中，沿着点A折叠纸片并展开，AB的对应边为AB′，折痕与边BC交于点P．当AB′与AB，AD中任意一边的夹角为15°时，∠APB的度数可以是 ____ ．\n![2025年江西省中考数学试卷_q012_img01](assets/2025年江西省中考数学试卷_q012_img01.png)",
+      "options": [],
+      "answer": "82.5°或52.5°或37.5°．",
+      "solution": "【分析】由矩形的性质得∠B＝∠BAD＝90°，由折叠得∠PAB′＝∠PAB$=\\frac{1}{2}$∠BAB′，再分三种情况讨论，一是∠BAB′＝15°，则∠PAB$=\\frac{1}{2}×$15°＝7.5°，求得∠APB＝90°﹣∠PAB＝82.5°；二是∠DAB′＝15°，且点B′与点B在直线AD同侧，则∠PAB$=\\frac{1}{2}×$75°＝37.5°，求得∠APB＝90°﹣∠PAB＝52.5°；三是∠DAB′＝15°，且点B′与点B在直线AD异侧，则∠PAB$=\\frac{1}{2}×$105°＝52.5°，求得∠APB＝90°﹣∠PAB＝37.5°，于是得到问题的答案．\n【解答】解：∵四边形ABCD是矩形，\n∴∠B＝∠BAD＝90°，\n由折叠得∠PAB′＝∠PAB$=\\frac{1}{2}$∠BAB′，\n如图1，∠BAB′＝15°，\n∵∠PAB$=\\frac{1}{2}×$15°＝7.5°，\n∴∠APB＝90°﹣∠PAB＝82.5°；\n如图2，∠DAB′＝15°，且点B′与点B在直线AD同侧，\n∵∠BAB′＝∠BAD﹣∠DAB′＝75°，\n∴∠PAB$=\\frac{1}{2}×$75°＝37.5°，\n∴∠APB＝90°﹣∠PAB＝52.5°；\n如图3，∠DAB′＝15°，且点B′与点B在直线AD异侧，\n∵∠BAB′＝∠BAD+∠DAB′＝105°，\n∴∠PAB$=\\frac{1}{2}×$105°＝52.5°，\n∴∠APB＝90°﹣∠PAB＝37.5°，\n综上所述，∠APB的度数可以是82.5°或52.5°或37.5°，\n故答案为：82.5°或52.5°或37.5°．\n[[image:rId35]]\n[[image:rId36]]\n[[image:rId37]]\n【点评】此题重点考查矩形的性质、翻折变换的性质、直角三角形的两个锐角互余、数形结合与分类讨论数学思想的运用等知识与方法，正确地进行分类讨论并且画出相应的图形是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q012_img01",
+          "path": "assets/2025年江西省中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形的性质",
+          "矩形的性质",
+          "翻折变换的性质"
+        ],
+        "reasoning": "题中利用矩形的性质和翻折变换的性质得出∠PAB和∠APB的关系，涉及直角三角形的性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形的性质\", \"矩形的性质\", \"翻折变换的性质\"],\n  \"reasoning\": \"题中利用矩形的性质和翻折变换的性质得出∠PAB和∠APB的关系，涉及直角三角形的性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "solution",
+      "stem_text": "（1）计算：|﹣3|+((\\frac{1}{2}))^{0}-（﹣1）；\n（2）如图，已知点C在AE上，AB∥CD，∠1＝∠2．求证：AE∥DF．\n[图1]",
+      "stem_markdown": "（1）计算：|﹣3|$+((\\frac{1}{2}))^{0}-$（﹣1）；\n（2）如图，已知点C在AE上，AB∥CD，∠1＝∠2．求证：AE∥DF．\n![2025年江西省中考数学试卷_q013_img01](assets/2025年江西省中考数学试卷_q013_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据有理数加减混合运算法则求解即可；\n（2）根据平行线的判定定理与性质定理求证即可．\n【解答】（1）解：原式＝3+1+1＝5；\n（2）证明：∵AB∥CD，\n∴∠ACD＝∠1，\n∵∠1＝∠2，\n∴∠ACD＝∠2，\n∴AE∥DF．\n【点评】此题考查了平行线的判定与性质、有理数的加减混合运算，熟记平行线的判定与性质、有理数的加减混合运算法则是解题的关键．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q013_img01",
+          "path": "assets/2025年江西省中考数学试卷_q013_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值",
+          "零次幂",
+          "平行线的判定定理"
+        ],
+        "reasoning": "题目（2）中利用了平行线的判定定理∠1＝∠2推导出∠ACD＝∠2，从而证明AE∥DF。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\", \"零次幂\", \"平行线的判定定理\"],\n  \"reasoning\": \"题目（2）中利用了平行线的判定定理∠1＝∠2推导出∠ACD＝∠2，从而证明AE∥DF。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "solution",
+      "stem_text": "化简：(\\frac{1}{m+1}+\\frac{1}{m-1})÷\\frac{m}{m^{2}+2m+1}．",
+      "stem_markdown": "化简：$(\\frac{1}{m+1}+\\frac{1}{m-1})÷\\frac{m}{m^{2}+2m+1}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先算括号里面的，再算除法即可．\n【解答】解：$(\\frac{1}{m+1}+\\frac{1}{m-1})÷\\frac{m}{m^{2}+2m+1}$\n$=\\frac{m-1+m+1}{(m+1)(m-1)}•\\frac{(m+1)^{2}}{m}$\n$=\\frac{2m}{(m+1)(m-1)}•\\frac{(m+1)^{2}}{m}$\n$=\\frac{2(m+1)}{m-1}$．\n【点评】本题考查的是分式的混合运算，熟知分式混合运算的法则是解题的关键．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式的加减",
+          "分式的乘除",
+          "完全平方公式"
+        ],
+        "reasoning": "题目涉及分式的加减和乘除运算，最后利用完全平方公式简化表达式。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式的加减\", \"分式的乘除\", \"完全平方公式\"],\n  \"reasoning\": \"题目涉及分式的加减和乘除运算，最后利用完全平方公式简化表达式。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "solution",
+      "stem_text": "如图，在6×5的正方形网格中，点A，B，C均在格点上，请仅用无刻度直尺按下列要求完成作图．（保留作图痕迹）\n（1）在图1中作出BC的中点；\n（2）在图2中作出△ABC的重心．\n[图1]",
+      "stem_markdown": "如图，在6×5的正方形网格中，点A，B，C均在格点上，请仅用无刻度直尺按下列要求完成作图．（保留作图痕迹）\n（1）在图1中作出BC的中点；\n（2）在图2中作出△ABC的重心．\n![2025年江西省中考数学试卷_q015_img01](assets/2025年江西省中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用网格直接画图即可．\n（2）结合三角形的重心的定义，分别取BC，AC的中点D，E，连接AD，BE相交于点O，则点O即为所求．\n【解答】解：（1）如图1，点D即为所求．\n（2）如图2，分别取BC，AC的中点D，E，连接AD，BE相交于点O，\n则点O即为所求．\n[[image:rId40]]\n【点评】本题考查作图—应用与设计作图、三角形的重心、线段垂直平分线的性质，解题的关键是理解题意，灵活运用所学知识解决问题．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q015_img01",
+          "path": "assets/2025年江西省中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中点的概念",
+          "三角形重心的性质",
+          "线段垂直平分线的性质"
+        ],
+        "reasoning": "（2）中通过取中点和连接线段构造三角形的重心，涉及三角形重心的性质",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中点的概念\", \"三角形重心的性质\", \"线段垂直平分线的性质\"],\n  \"reasoning\": \"（2）中通过取中点和连接线段构造三角形的重心，涉及三角形重心的性质\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "solution",
+      "stem_text": "校园数学文化节期间，某班开展多轮开盲盒做游戏活动．每轮均有四个完全相同的盲盒，分别装着写有“幻方”、“数独”、“华容道”、“鲁班锁”游戏名称的卡片，每位参与者只能抽取一个盲盒，盲盒打开即作废．\n（1）若随机抽取一个盲盒并打开，恰好装有“数独”卡片的事件是 ____ ；\nA．必然事件\nB．随机事件\nC．不可能事件\n（2）若某轮只有小贤与小艺两位同学参加开盲盒游戏，请用画树状图法或列表法，求两人恰好抽中装着写有“华容道”和“鲁班锁”卡片盲盒的概率．",
+      "stem_markdown": "校园数学文化节期间，某班开展多轮开盲盒做游戏活动．每轮均有四个完全相同的盲盒，分别装着写有“幻方”、“数独”、“华容道”、“鲁班锁”游戏名称的卡片，每位参与者只能抽取一个盲盒，盲盒打开即作废．\n（1）若随机抽取一个盲盒并打开，恰好装有“数独”卡片的事件是 ____ ；\nA．必然事件\nB．随机事件\nC．不可能事件\n（2）若某轮只有小贤与小艺两位同学参加开盲盒游戏，请用画树状图法或列表法，求两人恰好抽中装着写有“华容道”和“鲁班锁”卡片盲盒的概率．",
+      "options": [],
+      "answer": "B",
+      "solution": "【分析】（1）根据题意，可知随机抽取一个盲盒并打开，恰好装有“数独”卡片的事件是随机事件；\n（2）根据题意画出相应的树状图，然后即可求得两人恰好抽中装着写有“华容道”和“鲁班锁”卡片盲盒的概率．\n【解答】解：（1）由题意可得，\n若随机抽取一个盲盒并打开，恰好装有“数独”卡片的事件是随机事件，\n故答案为：B；\n（2）设有“幻方”、“数独”、“华容道”、“鲁班锁”分别用A、B、C、D表示，\n树状图如下所示：\n[[image:rId41]]\n由上可得，一共有12种等可能性，其中两人恰好抽中装着写有“华容道”和“鲁班锁”卡片盲盒的可能性有2种，\n∴两人恰好抽中装着写有“华容道”和“鲁班锁”卡片盲盒的概率为$\\frac{2}{12}=\\frac{1}{6}$．\n【点评】本题考查列表法与树状图法、随机事件，解答本题的关键是明确题意，画出相应的树状图．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率计算",
+          "树状图法",
+          "随机事件"
+        ],
+        "reasoning": "（1）随机抽取一个盲盒并打开，恰好装有‘数独’卡片的事件是随机事件；（2）用树状图法求两人抽中特定卡片的概率。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率计算\", \"树状图法\", \"随机事件\"],\n  \"reasoning\": \"（1）随机抽取一个盲盒并打开，恰好装有‘数独’卡片的事件是随机事件；（2）用树状图法求两人抽中特定卡片的概率。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "如图，点A，B，C在⊙O上，∠ACB＝35°，以BA，BC为边作▱ABCD．\n（1）当BC经过圆心O时（如图1），求∠D的度数；\n（2）当AD与⊙O相切时（如图2），若⊙O的半径为6，求AC的长．\n[图1]",
+      "stem_markdown": "如图，点A，B，C在⊙O上，∠ACB＝35°，以BA，BC为边作▱ABCD．\n（1）当BC经过圆心O时（如图1），求∠D的度数；\n（2）当AD与⊙O相切时（如图2），若⊙O的半径为6，求$AC$的长．\n![2025年江西省中考数学试卷_q017_img01](assets/2025年江西省中考数学试卷_q017_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由BC是⊙O的直径，得∠BAC＝90°，而∠ACB＝35°，四边形ABCD是平行四边形，则∠D＝∠B＝90°﹣∠ACB＝55°；\n（2）连接OA、OC，由切线的性质得∠OAD＝90°，因为AD∥BC，所以∠CAD＝∠ACB＝35°，则∠OCA＝∠OAC＝∠OAD﹣∠CAD＝55°，求得∠AOC＝70°，即可由弧长公式求得$l_{AC}=\\frac{7π}{3}$．\n【解答】解：（1）∵BC经过圆心O，\n∴BC是⊙O的直径，\n∴∠BAC＝90°，\n∵∠ACB＝35°，四边形ABCD是平行四边形，\n∴∠D＝∠B＝90°﹣∠ACB＝55°，\n∴∠D的度数是55°．\n（2）连接OA、OC，\n∵AD与⊙O相切于点A，⊙O的半径为6，\n∴AD⊥OA，OA＝OC＝6，\n∴∠OAD＝90°，\n∵AD∥BC，\n∴∠CAD＝∠ACB＝35°，\n∴∠OCA＝∠OAC＝∠OAD﹣∠CAD＝55°，\n∴∠AOC＝180°﹣∠OCA﹣∠OAC＝70°，\n∴$l_{AC}=\\frac{70π×6}{180}=$$\\frac{7π}{3}$，\n∴$AC$的长为$\\frac{7π}{3}$．\n[[image:rId43]]\n【点评】此题重点考查直径所对的圆周角是直角、直角三角形的两个锐角互余、平行四边形的性质、切线的性质、等腰三角形的性质、三角形内角和定理、弧长公式等知识，正确地添加辅助线是解题的关键．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q017_img01",
+          "path": "assets/2025年江西省中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形的性质",
+          "平行四边形的性质",
+          "切线的性质",
+          "弧长公式"
+        ],
+        "reasoning": "（1）BC是直径，得出直角；（2）AD切⊙O，得出直角；（2）AD∥BC，得出同位角相等；（2）利用弧长公式计算AC长度",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形的性质\", \"平行四边形的性质\", \"切线的性质\", \"弧长公式\"],\n  \"reasoning\": \"（1）BC是直径，得出直角；（2）AD切⊙O，得出直角；（2）AD∥BC，得出同位角相等；（2）利用弧长公式计算AC长度\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "如图，直线l：y=\\frac{2}{3}x+m与反比例函数y=\\frac{k}{x}（k≠0）的图象交于点A（6，2）．\n（1）求一次函数和反比例函数解析式；\n（2）将直线l向上平移，在x轴上方与反比例函数图象交于点C，连接OA，OC，当∠1＝∠2时，求点C的坐标及直线l平移的距离．\n[图1]",
+      "stem_markdown": "如图，直线l：y$=\\frac{2}{3}$x+m与反比例函数y$=\\frac{k}{x}$（k≠0）的图象交于点A（6，2）．\n（1）求一次函数和反比例函数解析式；\n（2）将直线l向上平移，在x轴上方与反比例函数图象交于点C，连接OA，OC，当∠1＝∠2时，求点C的坐标及直线l平移的距离．\n![2025年江西省中考数学试卷_q018_img01](assets/2025年江西省中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）将点A（6，2）代入一次函数和反比例函数解析式求解即可；\n（2）根据∠1＝∠2以及反比例函数的图象的对称性可求出点C的坐标，进而利用待定系数法可求出直线l平移后图象对应的表达式，从而求出直线l向上平移的距离．\n【解答】解：（1）将点A（6，2）代入一次函数和反比例函数解析式得：$\\frac{2}{3}×6+m=2$，$2=\\frac{k}{6}$，\n解得：m＝﹣2，k＝12，\n∴一次函数和反比例函数解析式分别为y$=\\frac{2}{3}x-2$，$y=\\frac{12}{x}$；\n（2）∵∠1＝∠2，反比例函数的图象关于直线y＝x对称，\n∴点A与点C关于直线y＝x对称，\n∵A（6，2）\n∴C（2，6），\n设直线l平移后的直线对应的表达式为$y=\\frac{2}{3}x+n$，\n将点C（2，6）代入得：$\\frac{2}{3}×2+n=6$，\n解得：n$=\\frac{14}{3}$，\n∵$\\frac{14}{3}-(-2)=\\frac{20}{3}$，\n∴点C的坐标为（2，6），直线l向上平移的距离为$\\frac{20}{3}$．\n【点评】本题考查了一次函数与反比例函数的交点问题，图形的平移与对称性质，准确运用函数的性质和相关知识是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q018_img01",
+          "path": "assets/2025年江西省中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数解析式求解",
+          "反比例函数图像与性质",
+          "图形的平移与对称",
+          "角度相等与对称点"
+        ],
+        "reasoning": "条件中提到∠1＝∠2以及反比例函数的图象关于直线y＝x对称，用于确定点C的坐标和直线平移的距离。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数解析式求解\", \"反比例函数图像与性质\", \"图形的平移与对称\", \"角度相等与对称点\"],\n  \"reasoning\": \"条件中提到∠1＝∠2以及反比例函数的图象关于直线y＝x对称，用于确定点C的坐标和直线平移的距离。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "图1是一种靠墙玻璃淋浴房，其俯视示意图如图2所示，AE与DE两处是墙，AB与CD两处是固定的玻璃隔板，BC处是门框，测得AB＝BC＝CD＝60cm，∠ABC＝∠BCD＝135°，MN处是一扇推拉门，推动推拉门时，两端点M，N分别在BC，CD对应的轨道上滑动．当点N与点C重合时，推拉门与门框完全闭合；当点N滑动到限位点P处时，推拉门推至最大，此时测得∠CNM＝6°．\n（1）在推拉门从闭合到推至最大的过程中，\n①∠CMN的最小值为 ____ 度，最大值为 ____ 度；\n②△CMN面积的变化情况是 ____ ．\nA．越来越大\nB．越来越小\nC．先增大后减小\n（2）当∠CMN＝30°时，求△CMN的面积．\n[图1]",
+      "stem_markdown": "图1是一种靠墙玻璃淋浴房，其俯视示意图如图2所示，AE与DE两处是墙，AB与CD两处是固定的玻璃隔板，BC处是门框，测得AB＝BC＝CD＝60cm，∠ABC＝∠BCD＝135°，MN处是一扇推拉门，推动推拉门时，两端点M，N分别在BC，CD对应的轨道上滑动．当点N与点C重合时，推拉门与门框完全闭合；当点N滑动到限位点P处时，推拉门推至最大，此时测得∠CNM＝6°．\n（1）在推拉门从闭合到推至最大的过程中，\n①∠CMN的最小值为 ____ 度，最大值为 ____ 度；\n②△CMN面积的变化情况是 ____ ．\nA．越来越大\nB．越来越小\nC．先增大后减小\n（2）当∠CMN＝30°时，求△CMN的面积．\n![2025年江西省中考数学试卷_q019_img01](assets/2025年江西省中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "0，39",
+      "solution": "【分析】（1）①根据临界点运用已知条件以及三角形内角和定理即可解答；\n②由特殊情况分析：点N与点C重合时，S＝0，过没有点P的限制，点N与点D重合时，S＝0，即可解答；\n（2）当∠CMN＝30°时，NG$=\\frac{1}{2}$MN＝30，由勾股定理可得MG＝30$\\sqrt{3}$，再根据等腰直角三角形的性质可得CG＝NG＝30，则MC＝30$\\sqrt{3}-$30，最后根据三角形的面积公式求解即可．\n【解答】解：（1）①当点N与点C重合时，推拉门与门框完全闭合，此时∠CMN有最小值0°，\n当点N滑动到限位点P处时，推拉门推至最大，∠CNM＝6°，则此时∠CMN有最大值，\n∵∠CNM＝6°，∠BCD＝135°，\n∴∠CMN＝180°﹣6°﹣135°＝39°，即∠CMN有最大值为39°，\n故答案为：0，39；\n②由特殊情况分析：点N与点C重合时，S＝0，\n过没有点P的限制，点N与点D重合时，S＝0，\n∴△CMN面积的变化情况是先增大后减小．\n故答案为：C．\n（2）过N作NG⊥BC于G，如图，\n[[image:rId46]]\n当∠CMN＝30°时，NG$=\\frac{1}{2}$MN＝30，\n∴MG$=\\sqrt{MN^{2}-NG^{2}}=$30$\\sqrt{3}$，\n∵∠NCG＝45°，\n∴CG＝NG＝30，\n∴MC＝MG﹣CG＝30$\\sqrt{3}-$30，\n∴$S_{△}_{CMN}=\\frac{1}{2}$CM•NG$=\\frac{1}{2}×$（30$\\sqrt{3}-$30）×30＝（450$\\sqrt{3}-$450）$cm^{2}$．\n【点评】本题主要考查了三角形内角和定理、等腰直角三角形的性质、勾股定理、含30度直角三角形的性质、二次函数的应用等知识点，正确求得△CMN的函数解析式成为解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q019_img01",
+          "path": "assets/2025年江西省中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形内角和定理",
+          "等腰直角三角形的性质",
+          "勾股定理",
+          "二次函数的应用"
+        ],
+        "reasoning": "通过计算∠CMN的最小值和最大值，涉及三角形内角和定理；通过计算△CMN的面积，涉及等腰直角三角形的性质和勾股定理；通过分析△CMN面积的变化情况，涉及二次函数的应用。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形内角和定理\", \"等腰直角三角形的性质\", \"勾股定理\", \"二次函数的应用\"],\n  \"reasoning\": \"通过计算∠CMN的最小值和最大值，涉及三角形内角和定理；通过计算△CMN的面积，涉及等腰直角三角形的性质和勾股定理；通过分析△CMN面积的变化情况，涉及二次函数的应用。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "某文物考古研究院用1：1复原的青铜蒸馏器进行了蒸馏酒实验．用复原的青铜蒸馏器蒸馏粮食酒和芋头酒，需要的原材料与出酒率（出酒率=\\frac{出酒量}{糟醅量}×100%）如表：\n类别 | 原材料 | 出酒率\n粮食酒 | 粮食糟醅（含大米、糯米、谷壳、大曲和蒸馏水） | 30%\n芋头酒 | 芋头糟醅（含芋头、小曲和蒸馏水） | 20%\n如果第一次实验分别蒸馏出粮食酒和芋头酒共16公斤；第二次实验分别蒸馏出粮食酒和芋头酒共36公斤，且所用的粮食糟醅量是第一次的2倍，芋头糟醅量是第一次的3倍．\n（1）求第一次实验分别用了多少公斤粮食糟醅和芋头糟醅？\n（2）受限于当时的生产条件，古代青铜蒸馏器的出酒量约为现代复原品的80%．若粮食糟醅中大米占比约为\\frac{1}{4}，请问，在古代要想蒸馏出这两次实验得到的粮食酒总量，需要准备多少公斤大米？\n[图1]",
+      "stem_markdown": "某文物考古研究院用1：1复原的青铜蒸馏器进行了蒸馏酒实验．用复原的青铜蒸馏器蒸馏粮食酒和芋头酒，需要的原材料与出酒率（出酒率$=\\frac{出酒量}{糟醅量}×$100%）如表：\n| 类别 | 原材料 | 出酒率 |\n| --- | --- | --- |\n| 粮食酒 | 粮食糟醅（含大米、糯米、谷壳、大曲和蒸馏水） | 30% |\n| 芋头酒 | 芋头糟醅（含芋头、小曲和蒸馏水） | 20% |\n如果第一次实验分别蒸馏出粮食酒和芋头酒共16公斤；第二次实验分别蒸馏出粮食酒和芋头酒共36公斤，且所用的粮食糟醅量是第一次的2倍，芋头糟醅量是第一次的3倍．\n（1）求第一次实验分别用了多少公斤粮食糟醅和芋头糟醅？\n（2）受限于当时的生产条件，古代青铜蒸馏器的出酒量约为现代复原品的80%．若粮食糟醅中大米占比约为$\\frac{1}{4}$，请问，在古代要想蒸馏出这两次实验得到的粮食酒总量，需要准备多少公斤大米？\n![2025年江西省中考数学试卷_q020_img01](assets/2025年江西省中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设第一次实验用了x公斤粮食糟醅，y公斤芋头糟醅，根据第一次及第二次实验蒸馏出粮食酒和芋头酒的总质量，可列出关于x，y的二元一次方程组，解之即可得出结论；\n（2）设需要准备m公斤大米，根据在古代要想蒸馏出这两次实验得到的粮食酒总量，可列出关于m的一元一次方程，解之即可得出结论．\n【解答】解：（1）设第一次实验用了x公斤粮食糟醅，y公斤芋头糟醅，\n根据题意得：$\\begin{cases} 30%x+20%y=16 \\\\ 30%×2x+20%×3y=36 \\end{cases}$，\n解得：$\\begin{cases} x=40 \\\\ y=20 \\end{cases}$．\n答：第一次实验用了40公斤粮食糟醅，20公斤芋头糟醅；\n（2）设需要准备m公斤大米，\n根据题意得：（m$÷\\frac{1}{4}$）×30%×80%＝（40+40×2）×30%，\n解得：m＝37.5．\n答：需要准备37.5公斤大米．\n【点评】本题考查了二元一次方程组的应用以及一元一次方程的应用，解题的关键是：（1）找准等量关系，正确列出二元一次方程组；（2）找准等量关系，正确列出一元一次方程．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q020_img01",
+          "path": "assets/2025年江西省中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二元一次方程组",
+          "一元一次方程",
+          "百分比计算"
+        ],
+        "reasoning": "题目通过二元一次方程组和一元一次方程解决实际问题",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二元一次方程组\", \"一元一次方程\", \"百分比计算\"],\n  \"reasoning\": \"题目通过二元一次方程组和一元一次方程解决实际问题\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "某种饮品由浓缩咖啡、牛奶和糖浆三种成分调制而成，不同的配比会带来不同的口味．为了解不同配比对口味的影响，某咖啡店进行了“糖浆加入量对口味影响”的试验：保持浓缩咖啡30毫升和牛奶150毫升不变，分三个方案改变糖浆的加入量（方案A：10毫升；方案B：30毫升；方案C：50毫升），并从300位品尝嘉宾中随机抽取10位嘉宾对每种方案的甜度和整体口感评分（以1至10的整数评分，分值越高对应甜度越高或整体口感越好）．\n数据处理\n根据收集到的数据，绘制了下列统计图表．\n[图1]\n甜度、整体口感评分统计表\n项目评分 方案 | 甜度 | 整体口感\n平均数 | 中位数 | 平均数 | 中位数\nA | 2.1 | 2 | m | 2\nB | 6.5 | 5 | 7.1 | 7.5\nC | 8.5 | 8 | 5 | n\n数据应用\n（1）在如表中，m＝ ____ ，n＝ ____ ．\n请根据整体口感评分，说明三个方案中哪个方案最受欢迎．\n（2）结合图1，估计300位嘉宾在三个方案中最喜爱方案C的人数．\n（3）补全图2，并简单分析糖浆的加入量对饮品口味的影响．\n（4）调查显示，嘉宾对饮品的甜度和整体口感的关注度占比为3：7，现按照这个占比计算三种方案的综合得分，得分大于6.5分的方案即可推出，请结合数据分析，推断该店将会推出哪种方案．",
+      "stem_markdown": "某种饮品由浓缩咖啡、牛奶和糖浆三种成分调制而成，不同的配比会带来不同的口味．为了解不同配比对口味的影响，某咖啡店进行了“糖浆加入量对口味影响”的试验：保持浓缩咖啡30毫升和牛奶150毫升不变，分三个方案改变糖浆的加入量（方案A：10毫升；方案B：30毫升；方案C：50毫升），并从300位品尝嘉宾中随机抽取10位嘉宾对每种方案的甜度和整体口感评分（以1至10的整数评分，分值越高对应甜度越高或整体口感越好）．\n数据处理\n根据收集到的数据，绘制了下列统计图表．\n![2025年江西省中考数学试卷_q021_img01](assets/2025年江西省中考数学试卷_q021_img01.png)\n甜度、整体口感评分统计表\n| 项目评分 方案 | 甜度 | 整体口感 |  |  |\n| --- | --- | --- | --- | --- |\n| 平均数 | 中位数 | 平均数 | 中位数 |  |\n| A | 2.1 | 2 | m | 2 |\n| B | 6.5 | 5 | 7.1 | 7.5 |\n| C | 8.5 | 8 | 5 | n |\n数据应用\n（1）在如表中，m＝ ____ ，n＝ ____ ．\n请根据整体口感评分，说明三个方案中哪个方案最受欢迎．\n（2）结合图1，估计300位嘉宾在三个方案中最喜爱方案C的人数．\n（3）补全图2，并简单分析糖浆的加入量对饮品口味的影响．\n（4）调查显示，嘉宾对饮品的甜度和整体口感的关注度占比为3：7，现按照这个占比计算三种方案的综合得分，得分大于6.5分的方案即可推出，请结合数据分析，推断该店将会推出哪种方案．",
+      "options": [],
+      "answer": "2.4，5．",
+      "solution": "【分析】（1）根据图1求方案A整体口感的平均数可得得到m的值；根据方案C整体口感的得分以及中位数的定义解答即可，再根据平均数和中位数即可确定最受欢迎方案；\n（2）由图一可知最喜欢方案C的嘉宾有3人，然后运用样本估计整体即可解答；\n（3）根据表1补全图2，再根据图2进行分析即可解答；\n（4）分别求得三种方案的加权平均数，然后比较判断即可．\n【解答】解：（1）方案A整体口感的平均数为：$\\frac{2+1+1+3+1+2+2+3+1+8}{10}=2.4$，即m＝2.4．\n方案C整体口感得分从小到大排列为：2，2，3，3，5，5，5，8，8，9，则中位数为$\\frac{5+5}{2}=5$，即n＝5．\n由表1可知：方案B的平均数和中位数都最大，方案B最受欢迎．\n故答案为：2.4，5．\n（2）由图1可知：最喜欢方案C的有3人，则300位嘉宾在三个方案中最喜爱方案C的人数为$300×\\frac{3}{10}=90人$．\n答：估计300位嘉宾在三个方案中最喜爱方案C的人数为90人．\n（3）补全图2如下：\n甜度、整体口感评分平均数复合统计图\n[[image:rId49]]\n由图2可知：随着糖浆的加入量的增多，饮品甜度不断增加，整体口感得分先增高后降低．\n（4）方案A综合得分为：2.1×0.3+2.4×0.7＝2.31；\n方案B综合得分为：6.5×0.3+7.1×0.7＝6.92；\n方案C综合得分为：8.5×0.3+5×0.7＝6.05；\n由6.92＞6.5，则推断该店将会推出方案B．\n【点评】本题主要考查了折线统计图、条形统计图、平均数、中位数、用样本估计整体等知识点，灵活运用相关知识成为解题的关键．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q021_img01",
+          "path": "assets/2025年江西省中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平均数",
+          "中位数",
+          "样本估计总体"
+        ],
+        "reasoning": "根据整体口感评分计算平均数和中位数，结合样本估计总体人数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平均数\", \"中位数\", \"样本估计总体\"],\n  \"reasoning\": \"根据整体口感评分计算平均数和中位数，结合样本估计总体人数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "问题背景：对于一个函数，如果存在自变量x₀＝m时，其对应的函数值y₀＝m，那么我们称该函数为“不动点函数”，点（m，m）为该函数图象上的一个不动点．例如：在函数y＝x²中，当x＝1时，y＝1，则我们称函数y＝x²为“不动点函数”，点（1，1）为该函数图象上的一个不动点．某数学兴趣小组围绕该定义，对一次函数和二次函数进行了相关探究．\n探究1\n（1）对一次函数y＝kx+b（k≠0）进行探究后，得出下列结论：\n①y＝x+2是“不动点函数”，且只有一个不动点；\n②y＝﹣3x+2是“不动点函数”，且不动点是(\\frac{1}{2}，0)；\n③y＝x是“不动点函数”，且有无数个不动点．\n以上结论中，你认为正确的是 ____ （填写正确结论的序号）．\n（2）若一次函数y＝kx+b（k≠0）是“不动点函数”，请直接写出k，b应满足的条件．\n探究2\n（3）对二次函数y＝ax²+bx+c（a≠0）进行探究后，该小组设计了以下问题，请你解答．若抛物线y＝x²﹣2bx+c的顶点为该函数图象上的一个不动点，求b，c满足的关系式．\n探究3\n（4）某种商品每件的进价为6元，在某段时间内，若以每件x元出售，可卖出（12﹣x）件，获得利润y元．请写出y关于x的函数表达式，判断该函数是否是“不动点函数”，并说明理由；若该函数是“不动点函数”，请联系以上情境说明该函数不动点表达的实际意义．",
+      "stem_markdown": "问题背景：对于一个函数，如果存在自变量$x_{0}$＝m时，其对应的函数值$y_{0}$＝m，那么我们称该函数为“不动点函数”，点（m，m）为该函数图象上的一个不动点．例如：在函数y＝$x^{2}$中，当x＝1时，y＝1，则我们称函数y＝$x^{2}$为“不动点函数”，点（1，1）为该函数图象上的一个不动点．某数学兴趣小组围绕该定义，对一次函数和二次函数进行了相关探究．\n探究1\n（1）对一次函数y＝kx+b（k≠0）进行探究后，得出下列结论：\n①y＝x+2是“不动点函数”，且只有一个不动点；\n②y＝﹣3x+2是“不动点函数”，且不动点是$(\\frac{1}{2}，0)$；\n③y＝x是“不动点函数”，且有无数个不动点．\n以上结论中，你认为正确的是 ____ （填写正确结论的序号）．\n（2）若一次函数y＝kx+b（k≠0）是“不动点函数”，请直接写出k，b应满足的条件．\n探究2\n（3）对二次函数y＝$ax^{2}$+bx+c（a≠0）进行探究后，该小组设计了以下问题，请你解答．若抛物线y＝$x^{2}$﹣2bx+c的顶点为该函数图象上的一个不动点，求b，c满足的关系式．\n探究3\n（4）某种商品每件的进价为6元，在某段时间内，若以每件x元出售，可卖出（12﹣x）件，获得利润y元．请写出y关于x的函数表达式，判断该函数是否是“不动点函数”，并说明理由；若该函数是“不动点函数”，请联系以上情境说明该函数不动点表达的实际意义．",
+      "options": [],
+      "answer": "③",
+      "solution": "【分析】（1）根据“不动点函数”的定义，代入点（m，m），计算即可判断；\n（2）根据“不动点函数”的定义，代入点（m，m），计算即可得解；\n（3）先求得顶点坐标为（b，c﹣$b^{2}$），根据“不动点函数”的定义，即可得到b＝c﹣$b^{2}$；\n（4）根据题意得，y＝（x﹣6）（12﹣x）＝﹣$x^{2}$+18x﹣72，令x＝﹣$x^{2}$+18x﹣72解方程即可求解．\n【解答】解：（1）①对于y＝x+2，\n由于m≠m+2，\n所以y＝x+2不是“不动点函数”，原说法错误；\n②对于y＝﹣3x+2，代入点（m，m），\n得m＝﹣3m+2，\n解得$m=\\frac{1}{2}$，\n所以y＝﹣3x+2是“不动点函数”，且不动点是$(\\frac{1}{2}，\\frac{1}{2})$，原说法错误；\n③y＝x是“不动点函数”，且有无数个不动点，说法正确．\n故答案为：③；\n（2）∵一次函数y＝kx+b（k≠0）是“不动点函数”，\n∴代入点（m，m），\n得m＝mk+b，\n整理得（1﹣k）m＝b，\n当1﹣k≠0即k≠1且k≠0时，b为任意实数；\n当1﹣k＝0即k＝1时，b＝0；\n（3）由抛物线y＝$x^{2}$﹣2bx+c＝（x﹣b）^{2}+c﹣$b^{2}$得，\n顶点坐标为（b，c﹣$b^{2}$），\n∵抛物线y＝$x^{2}$﹣2bx+c的顶点为该函数图象上的一个不动点，\n∴b＝c﹣$b^{2}$；\n（4）根据题意得，y＝（x﹣6）（12﹣x）＝﹣$x^{2}$+18x﹣72，\n∴令x＝﹣$x^{2}$+18x﹣72，\n整理得$x^{2}$﹣17x+72＝0，\n解得$x_{1}$＝8，$x_{2}$＝9，\n∴该函数是“不动点函数”，不动点表达的实际意义为：在这段时间内，当销售单价为8元或9元时，销售总利润与销售单价相等．\n【点评】本题考查了一次函数、二次函数和一元二次方程的应用．正确理解“不动点函数”的定义是解题的关键．",
+      "full_score": 9,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数",
+          "二次函数",
+          "顶点坐标",
+          "一元二次方程"
+        ],
+        "reasoning": "第（1）问考察了一次函数的不动点性质，第（3）问考察了二次函数的顶点坐标及不动点性质，第（4）问考察了一元二次方程的根的概念",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数\", \"二次函数\", \"顶点坐标\", \"一元二次方程\"],\n  \"reasoning\": \"第（1）问考察了一次函数的不动点性质，第（3）问考察了二次函数的顶点坐标及不动点性质，第（4）问考察了一元二次方程的根的概念\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江西省中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "综合与实践\n从特殊到一般是研究数学问题的一般思路，综合实践小组以特殊四边形为背景就三角形的旋转放缩问题展开探究．\n特例研究\n在正方形ABCD中，AC，BD相交于点O．\n（1）如图1，△ADC可以看成是△AOB绕点A逆时针旋转并放大k倍得到，此时旋转角的度数为 ____ ，k的值为 ____ ；\n（2）如图2，将△AOB绕点A逆时针旋转，旋转角为α，并放大得到△AEF（点O，B的对应点分别为点E，F），使得点E落在OD上，点F落在BC上，求\\frac{BF}{OE}的值；\n类比探究\n（3）如图3，在菱形ABCD中，∠ABC＝60°，O是AB的垂直平分线与BD的交点，将△AOB绕点A逆时针旋转，旋转角为α，并放缩得到△AEF（点O，B的对应点分别为点E，F），使得点E落在OD上，点F落在BC上．猜想\\frac{BF}{OE}的值是否与α有关，并说明理由；\n（4）若（3）中∠ABC＝β，其余条件不变，探究BA，BE，BF之间的数量关系（用含β的式子表示）．\n[图1]\n2025年江西省中考数学试卷",
+      "stem_markdown": "综合与实践\n从特殊到一般是研究数学问题的一般思路，综合实践小组以特殊四边形为背景就三角形的旋转放缩问题展开探究．\n特例研究\n在正方形ABCD中，AC，BD相交于点O．\n（1）如图1，△ADC可以看成是△AOB绕点A逆时针旋转并放大k倍得到，此时旋转角的度数为 ____ ，k的值为 ____ ；\n（2）如图2，将△AOB绕点A逆时针旋转，旋转角为α，并放大得到△AEF（点O，B的对应点分别为点E，F），使得点E落在OD上，点F落在BC上，求$\\frac{BF}{OE}$的值；\n类比探究\n（3）如图3，在菱形ABCD中，∠ABC＝60°，O是AB的垂直平分线与BD的交点，将△AOB绕点A逆时针旋转，旋转角为α，并放缩得到△AEF（点O，B的对应点分别为点E，F），使得点E落在OD上，点F落在BC上．猜想$\\frac{BF}{OE}$的值是否与α有关，并说明理由；\n（4）若（3）中∠ABC＝β，其余条件不变，探究BA，BE，BF之间的数量关系（用含β的式子表示）．\n![2025年江西省中考数学试卷_q023_img01](assets/2025年江西省中考数学试卷_q023_img01.png)\n2025年江西省中考数学试卷",
+      "options": [],
+      "answer": "45°，$\\sqrt{2}$",
+      "solution": "【分析】（1）利用正方形的性质结合旋转的性质求解即可；\n（2）由题意得△AEF∽△AOB，推出∠EAB＝∠EAO，$\\frac{AF}{AE}=\\frac{AB}{AO}$，再得到△AFB∽△AEO，推出$\\frac{BF}{OE}=\\frac{AB}{AO}$，根据正方形的性质求解即可；\n（3）同理可证△AFB∽△AEO，得到$\\frac{BF}{OE}=\\frac{AB}{AO}$，根据线段垂直平分线的性质求得AB＝2BG，再根据余弦函数的定义求解即可；\n（4）同理可证，$∠BAO=\\frac{β}{2}$，$\\frac{BF}{OE}=\\frac{AB}{OA}=2cos\\frac{β}{2}$，根据BE＝OE+OB，求解即可．\n【解答】解：（1）∵四边形ABCD是正方形，\n∴∠OAB＝∠DAC＝45°，AD$=\\sqrt{2}$OA，\n∴旋转角为45°，k$=\\frac{AD}{OA}=\\sqrt{2}$，\n∴k$=\\sqrt{2}$，\n故答案为：45°，$\\sqrt{2}$；\n（2）根据题意得△AEF∽△AOB，\n∴∠EAF＝∠OAB，$\\frac{AF}{AB}=\\frac{AE}{AO}$，\n∴∠FAB＝∠EAO，$\\frac{AF}{AE}=\\frac{AB}{AO}$，\n∴△AFB∽△AEO，\n∴$\\frac{BF}{OE}=\\frac{AB}{AO}$，\n∠OAB＝45°，∠AOB＝90°，\n∴$\\frac{AB}{AO}=\\sqrt{2}$，\n∴$\\frac{BF}{OE}=\\frac{AB}{AO}=\\sqrt{2}$，\n（3）$\\frac{BF}{OE}$的值与α无关，理由如下，如图，\n[[image:rId51]]\n同理可证△AFB∽△AEO，\n∴$\\frac{BF}{OE}=\\frac{AB}{AO}$，\n∵菱形ABCD中，∠ABC＝60°，\n∴∠ABO＝30°，\n∵O是AB的垂直平分线与BD的交点，\n∴AO＝BO，\n∴∠BAO＝∠ABO＝30°，\n过点O作OG⊥AB于点G，\n∴AB＝2BG，cos∠ABO$=\\frac{BG}{OB}=\\frac{BG}{OA}=cos30°=\\frac{\\sqrt{3}}{2}$，\n∴$\\frac{AB}{OA}=\\sqrt{3}$，\n∴$\\frac{BF}{OE}=\\frac{AB}{AO}=\\sqrt{3}$，\n∴$\\frac{BF}{OE}$的值与α无关；\n（4）同理可证，∠BAO$=\\frac{β}{2}$，$\\frac{BF}{OE}=\\frac{AB}{OA}=$2cos$\\frac{β}{2}$，\n∴BF＝OE•2cos$\\frac{β}{2}$，BA＝OB•2cos$\\frac{β}{2}$，\n∵BE＝OE+OB，\n∴BF+BA＝OE•2cos$\\frac{β}{2}+OB⋅2cos\\frac{β}{2}$\n＝2（OE+OB）cos$\\frac{β}{2}=2BEcos\\frac{β}{2}$，\n即BF+BA＝2BEcos$\\frac{β}{2}$．\n【点评】本题考查了旋转的性质，相似三角形的判定和性质，解直角三角形，线段垂直平分线的性质，正方形和菱形的性质．解题的关键是灵活运用所学知识解决问题．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/6 15:25:44；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId53]] ____ [[image:rId54]] ____ [[image:rId55]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年江西省中考数学试卷_q023_img01",
+          "path": "assets/2025年江西省中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的判定和性质",
+          "正方形的性质",
+          "旋转的性质",
+          "余弦函数"
+        ],
+        "reasoning": "（2）通过△AEF∽△AOB得出比例关系，（3）通过△AFB∽△AEO得出比例关系，（4）利用余弦函数求解角度关系",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的判定和性质\", \"正方形的性质\", \"旋转的性质\", \"余弦函数\"],\n  \"reasoning\": \"（2）通过△AEF∽△AOB得出比例关系，（3）通过△AFB∽△AEO得出比例关系，（4）利用余弦函数求解角度关系\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:48:36",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 23,
+      "ok": 23,
+      "fallback": 0
+    }
+  }
+}

@@ -1,0 +1,1191 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年天津市中考数学试卷",
+  "source": {
+    "name": "2025年天津市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年天津市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年天津市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "计算（﹣21）÷（﹣7）的结果等于（ ）",
+      "stem_markdown": "计算（﹣21）÷（﹣7）的结果等于（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣3"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "$-\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{3}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】两数相除，同号得正，并把绝对值相除，由此计算即可．\n【解答】解：（﹣21）÷（﹣7）＝21÷7＝3，\n故选：B．\n【点评】本题考查了有理数的除法，熟练掌握运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "有理数的除法"
+        ],
+        "reasoning": "题目要求计算两个负数的除法结果，涉及同号得正原则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"有理数的除法\"],\n  \"reasoning\": \"题目要求计算两个负数的除法结果，涉及同号得正原则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "如图是一个由6个相同的正方体组成的立体图形，它的主视图是（ ）\n[图1]",
+      "stem_markdown": "如图是一个由6个相同的正方体组成的立体图形，它的主视图是（ ）\n![2025年天津市中考数学试卷_q002_img01](assets/2025年天津市中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年天津市中考数学试卷_q002_img02](assets/2025年天津市中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年天津市中考数学试卷_q002_img03](assets/2025年天津市中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年天津市中考数学试卷_q002_img04](assets/2025年天津市中考数学试卷_q002_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年天津市中考数学试卷_q002_img05](assets/2025年天津市中考数学试卷_q002_img05.png)"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据从正面看得到的图形是主视图，可得答案．\n【解答】解：该立体图形的主视图为：\n[[image:rId35]]．\n故选：D．\n【点评】本题考查了简单组合体的三视图，解题的关键是理解简单组合体的三视图的定义，明确从正面看得到的图形是主视图．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q002_img01",
+          "path": "assets/2025年天津市中考数学试卷_q002_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年天津市中考数学试卷_q002_img02",
+          "path": "assets/2025年天津市中考数学试卷_q002_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年天津市中考数学试卷_q002_img03",
+          "path": "assets/2025年天津市中考数学试卷_q002_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年天津市中考数学试卷_q002_img04",
+          "path": "assets/2025年天津市中考数学试卷_q002_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年天津市中考数学试卷_q002_img05",
+          "path": "assets/2025年天津市中考数学试卷_q002_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "视图与投影",
+          "主视图"
+        ],
+        "reasoning": "主视图是从正面看到的形状",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"视图与投影\", \"主视图\"],\n  \"reasoning\": \"主视图是从正面看到的形状\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "估计1+\\sqrt{6}的值在（ ）",
+      "stem_markdown": "估计$1+\\sqrt{6}$的值在（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1和2之间"
+        },
+        {
+          "label": "B",
+          "text": "2和3之间"
+        },
+        {
+          "label": "C",
+          "text": "3和4之间"
+        },
+        {
+          "label": "D",
+          "text": "4和5之间"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】先估算$\\sqrt{6}$的取值范围，即可估算出$1+\\sqrt{6}$的取值范围．\n【解答】解：∵$\\sqrt{4}＜\\sqrt{6}＜\\sqrt{9}$，\n∴$2＜\\sqrt{6}＜3$，\n∴$3＜1+\\sqrt{6}＜4$，\n故选：C．\n【点评】本题考查了估算无理数的大小，熟练掌握夹逼法是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不完全平方根的估算",
+          "夹逼法"
+        ],
+        "reasoning": "通过估算\\(\\sqrt{6}\\)的范围来确定\\(1+\\sqrt{6}\\)的范围",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不完全平方根的估算\", \"夹逼法\"],\n  \"reasoning\": \"通过估算\\(\\sqrt{6}\\)的范围来确定\\(1+\\sqrt{6}\\)的范围\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "在一些美术字中，有的汉字是轴对称图形．下面4个汉字中，可以看作是轴对称图形的是（ ）",
+      "stem_markdown": "在一些美术字中，有的汉字是轴对称图形．下面4个汉字中，可以看作是轴对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年天津市中考数学试卷_q004_img01](assets/2025年天津市中考数学试卷_q004_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年天津市中考数学试卷_q004_img02](assets/2025年天津市中考数学试卷_q004_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年天津市中考数学试卷_q004_img03](assets/2025年天津市中考数学试卷_q004_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年天津市中考数学试卷_q004_img04](assets/2025年天津市中考数学试卷_q004_img04.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】如果一个图形沿一条直线折叠，直线两旁的部分能够互相重合，这个图形叫做轴对称图形，据此进行判断即可．\n【解答】解：选项A、C、D的汉字均不能找到这样的一条直线，使图形沿该直线对折后直线两旁的部分能够完全重合，所以不是轴对称图形；\n选项B的汉字能找到这样的一条直线，使图形沿该直线对折后直线两旁的部分能够完全重合，所以是轴对称图形．\n故选：B．\n【点评】本题考查轴对称图形，熟练掌握其定义是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q004_img01",
+          "path": "assets/2025年天津市中考数学试卷_q004_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年天津市中考数学试卷_q004_img02",
+          "path": "assets/2025年天津市中考数学试卷_q004_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年天津市中考数学试卷_q004_img03",
+          "path": "assets/2025年天津市中考数学试卷_q004_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年天津市中考数学试卷_q004_img04",
+          "path": "assets/2025年天津市中考数学试卷_q004_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "轴对称图形",
+          "对称轴"
+        ],
+        "reasoning": "选项B能找到对称轴，使图形对折后两部分重合。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"轴对称图形\", \"对称轴\"],\n  \"reasoning\": \"选项B能找到对称轴，使图形对折后两部分重合。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "据2025年5月7日《天津日报》报道，今年“五一”小长假，全市跨区域人员流动量达到31492000人次．将数据31492000用科学记数法表示应为（ ）",
+      "stem_markdown": "据2025年5月7日《天津日报》报道，今年“五一”小长假，全市跨区域人员流动量达到31492000人次．将数据31492000用科学记数法表示应为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.31492×10^{8}"
+        },
+        {
+          "label": "B",
+          "text": "3.1492×10^{7}"
+        },
+        {
+          "label": "C",
+          "text": "31.492×10^{6}"
+        },
+        {
+          "label": "D",
+          "text": "314.92×10^{5}"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：31492000＝3.1492×10^{7}．\n故选：B．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "小数点移动"
+        ],
+        "reasoning": "题中要求将数据用科学记数法表示，考察了科学记数法的表示方法和小数点移动的规则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"小数点移动\"],\n  \"reasoning\": \"题中要求将数据用科学记数法表示，考察了科学记数法的表示方法和小数点移动的规则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "tan45°-\\sqrt{2}cos45°的值等于（ ）",
+      "stem_markdown": "$tan45°-\\sqrt{2}cos45°$的值等于（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "$1-\\frac{\\sqrt{2}}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$1-\\sqrt{2}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】利用特殊锐角三角函数值计算后再算加减即可．\n【解答】解：原式＝1$-\\sqrt{2}×\\frac{\\sqrt{2}}{2}$\n＝1﹣1\n＝0，\n故选：A．\n【点评】本题考查实数的运算，特殊锐角三角函数值，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "特殊锐角三角函数值",
+          "实数的运算"
+        ],
+        "reasoning": "题中使用了 tan45° 和 cos45° 的特殊值进行计算",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"特殊锐角三角函数值\", \"实数的运算\"],\n  \"reasoning\": \"题中使用了 tan45° 和 cos45° 的特殊值进行计算\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "若点A（﹣3，y₁），B（1，y₂），C（3，y₃）都在反比例函数y=-\\frac{9}{x}的图象上，则y₁，y₂，y₃的大小关系是（ ）",
+      "stem_markdown": "若点A（﹣3，$y_{1}$），B（1，$y_{2}$），C（3，$y_{3}$）都在反比例函数$y=-\\frac{9}{x}$的图象上，则$y_{1}$，$y_{2}$，$y_{3}$的大小关系是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$y_{1}$＜$y_{2}$＜$y_{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$y_{3}$＜$y_{2}$＜$y_{1}$"
+        },
+        {
+          "label": "C",
+          "text": "$y_{1}$＜$y_{3}$＜$y_{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$y_{2}$＜$y_{3}$＜$y_{1}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据反比例函数图象上点的坐标特征解答即可．\n【解答】解：∵反比例函数的k＝﹣9＜0，\n∴反比例函数图象分布在第二四象限，在每个象限内y随x的增大而增大，\n∵点A（﹣3，$y_{1}$）在第二象限，\n∴$y_{1}$＞0，\n又∵1＜3，\n∴$y_{2}$＜$y_{3}$＜0，\n∴$y_{2}$＜$y_{3}$＜$y_{1}$．\n故选：D．\n【点评】本题考查了反比例函数图象上点的坐标特征，熟练掌握该知识点是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的性质",
+          "反比例函数图象上的点的坐标特征",
+          "象限内点的坐标符号"
+        ],
+        "reasoning": "反比例函数图象分布在第二四象限，在每个象限内y随x的增大而增大；点A在第二象限，y₁＞0；1＜3，y₂＜y₃＜0。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的性质\", \"反比例函数图象上的点的坐标特征\", \"象限内点的坐标符号\"],\n  \"reasoning\": \"反比例函数图象分布在第二四象限，在每个象限内y随x的增大而增大；点A在第二象限，y₁＞0；1＜3，y₂＜y₃＜0。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "《算学启蒙》是我国古代的数学著作，其中有一道题：“今有良马日行二百四十里，驽马日行一百五十里．驽马先行一十二日，问良马几何日追及之．”意思是：跑得快的马每天走240里，跑得慢的马每天走150里．慢马先走12天，快马几天可以追上慢马？设快马x天可以追上慢马，则可以列出的方程为（ ）",
+      "stem_markdown": "《算学启蒙》是我国古代的数学著作，其中有一道题：“今有良马日行二百四十里，驽马日行一百五十里．驽马先行一十二日，问良马几何日追及之．”意思是：跑得快的马每天走240里，跑得慢的马每天走150里．慢马先走12天，快马几天可以追上慢马？设快马x天可以追上慢马，则可以列出的方程为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "240x＝150（x+12）"
+        },
+        {
+          "label": "B",
+          "text": "240x＝150（x﹣12）"
+        },
+        {
+          "label": "C",
+          "text": "150x＝240（x+12）"
+        },
+        {
+          "label": "D",
+          "text": "150x＝240（x﹣12）"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】设快马x天可以追上慢马，根据路程＝速度×时间，即可得出关于x的一元一次方程，此题得解．\n【解答】解：依题意，得：240x＝150（x+12）．\n故选：A．\n【点评】本题考查了由实际问题抽象出一元一次方程，找准等量关系，正确列出一元一次方程是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "行程问题",
+          "一元一次方程",
+          "速度、时间和距离的关系"
+        ],
+        "reasoning": "题目通过设定快马和慢马的速度及慢马先走的时间，要求学生列出表示追及问题的方程。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"行程问题\", \"一元一次方程\", \"速度、时间和距离的关系\"],\n  \"reasoning\": \"题目通过设定快马和慢马的速度及慢马先走的时间，要求学生列出表示追及问题的方程。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "计算\\frac{2}{a^{2}-1}+\\frac{1}{a+1}的结果等于（ ）",
+      "stem_markdown": "计算$\\frac{2}{a^{2}-1}+\\frac{1}{a+1}$的结果等于（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{a-1}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{a+1}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{1-a}$"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】先把分式进行通分，再根据同分母分式相加法则进行计算，然后约分即可．\n【解答】解：原式$=\\frac{2}{(a+1)(a-1)}+\\frac{a-1}{(a+1)(a-1)}$\n$=\\frac{a+1}{(a+1)(a-1)}$\n$=\\frac{1}{a-1}$，\n故选：A．\n【点评】本题主要考查了分式的加减运算，解题关键是熟练掌握分式的通分与约分．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "通分",
+          "同分母分式相加",
+          "约分"
+        ],
+        "reasoning": "解答过程中需要通分、合并同类项和约分",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"通分\", \"同分母分式相加\", \"约分\"],\n  \"reasoning\": \"解答过程中需要通分、合并同类项和约分\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，CD是△ABC的角平分线．按以下步骤作图：①以点A为圆心，适当长为半径画弧，与边AB相交于点E，与边AC相交于点F；②以点B为圆心，AE长为半径画弧，与边BC相交于点G；③以点G为圆心，EF长为半径画弧，与第②步中所画的弧相交于点H；④作射线BH，与CD相交于点M，与边AC相交于点N．则下列结论一定正确的是（ ）\n[图1]",
+      "stem_markdown": "如图，CD是△ABC的角平分线．按以下步骤作图：①以点A为圆心，适当长为半径画弧，与边AB相交于点E，与边AC相交于点F；②以点B为圆心，AE长为半径画弧，与边BC相交于点G；③以点G为圆心，EF长为半径画弧，与第②步中所画的弧相交于点H；④作射线BH，与CD相交于点M，与边AC相交于点N．则下列结论一定正确的是（ ）\n![2025年天津市中考数学试卷_q010_img01](assets/2025年天津市中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "∠ABN＝∠A"
+        },
+        {
+          "label": "B",
+          "text": "BN⊥AC"
+        },
+        {
+          "label": "C",
+          "text": "CM＝AD"
+        },
+        {
+          "label": "D",
+          "text": "BM＝BD"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】由作图过程可知，∠CBN＝∠BAC，由角平分线的定义可得∠ACD＝∠BCD．根据∠CAD+∠ACD+∠ADC＝180°，∠CBM+∠BCM+∠BMC＝180°，可得∠ADC＝∠BMC，进而可得∠BDM＝∠BMD，则BM＝BD，即可得出答案．\n【解答】解：由作图过程可知，∠CBN＝∠BAC．\n∵CD是△ABC的角平分线，\n∴∠ACD＝∠BCD．\n∵∠CAD+∠ACD+∠ADC＝180°，∠CBM+∠BCM+∠BMC＝180°，\n∴∠ADC＝∠BMC，\n∴∠BDM＝∠BMD，\n∴BM＝BD，\n故D选项一定正确．\n故选：D．\n【点评】本题考查作图—基本作图、角平分线的定义，解题的关键是理解题意，灵活运用所学知识解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q010_img01",
+          "path": "assets/2025年天津市中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "角平分线的性质",
+          "三角形内角和定理",
+          "等腰三角形的判定"
+        ],
+        "reasoning": "作图过程中利用角平分线性质及三角形内角和定理得出BM=BD",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"角平分线的性质\", \"三角形内角和定理\", \"等腰三角形的判定\"],\n  \"reasoning\": \"作图过程中利用角平分线性质及三角形内角和定理得出BM=BD\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "single_choice",
+      "stem_text": "如图，在△ABC中，∠ACB＝90°，将△ABC绕点A顺时针旋转得到△AB′C′，点B，C的对应点分别为B′，C′，B′C′的延长线与边BC相交于点D，连接CC′．若AC＝4，CD＝3，则线段CC′的长为（ ）\n[图1]",
+      "stem_markdown": "如图，在△ABC中，∠ACB＝90°，将△ABC绕点A顺时针旋转得到△AB′C′，点B，C的对应点分别为B′，C′，B′C′的延长线与边BC相交于点D，连接CC′．若AC＝4，CD＝3，则线段CC′的长为（ ）\n![2025年天津市中考数学试卷_q011_img01](assets/2025年天津市中考数学试卷_q011_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{12}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{16}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{24}{5}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】连接AD，交CC'于点O，由旋转得AC'＝AC＝4，∠AC'B'＝∠ACB＝90°，则∠AC'D＝90°，可证明Rt△ACD≌Rt△AC'D，则C'D＝CD＝3，可知AD垂直平分CC'，可得CC'＝2OC，AD⊥CC'．由勾股定理得$AD=\\sqrt{AC^{2}+CD^{2}}=5$．根据$S_{△ACD}=\\frac{1}{2}CD⋅AC=\\frac{1}{2}AD⋅OC$，可得OC$=\\frac{CD⋅AC}{AD}=\\frac{3×4}{5}=\\frac{12}{5}$，进而可得答案．\n【解答】解：连接AD，交CC'于点O，\n[[image:rId42]]\n由旋转得：AC'＝AC＝4，∠AC'B'＝∠ACB＝90°，\n∴∠AC'D＝90°．\n在Rt△AC'D和Rt△ACD中，\n$\\begin{cases} AD=AD \\\\ AC=AC′ \\end{cases}$，\n∴Rt△ACD≌Rt△AC'D（HL），\n∴C'D＝CD＝3，\n∴AD垂直平分CC'，\n∴CC'＝2OC，AD⊥CC'．\n∵∠ACB＝90°，AC＝4，CD＝3，\n∴$AD=\\sqrt{AC^{2}+CD^{2}}=5$．\n∵$S_{△ACD}=\\frac{1}{2}CD⋅AC=\\frac{1}{2}AD⋅OC$，\n∴OC$=\\frac{CD⋅AC}{AD}=\\frac{3×4}{5}=\\frac{12}{5}$，\n∴$CC′=2×\\frac{12}{5}=\\frac{24}{5}$．\n故选：D．\n【点评】本题考查旋转的性质，解题的关键是理解题意，灵活运用所学知识解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q011_img01",
+          "path": "assets/2025年天津市中考数学试卷_q011_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "全等三角形",
+          "旋转的性质",
+          "垂径定理"
+        ],
+        "reasoning": "题中通过旋转得出AC'=AC，利用勾股定理求AD，再利用面积法求OC，最后求CC'",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"全等三角形\", \"旋转的性质\", \"垂径定理\"],\n  \"reasoning\": \"题中通过旋转得出AC'=AC，利用勾股定理求AD，再利用面积法求OC，最后求CC'\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "single_choice",
+      "stem_text": "四边形ABCD中，AD∥BC，∠B＝90°，AB＝8cm，AD＝10cm，BC＝16cm．动点M从点B出发，以2cm/s的速度沿边BA、边AD向终点D运动；动点N从点C同时出发，以1cm/s的速度沿边CB向终点B运动．规定其中一个动点到达终点时，另一个动点也随之停止运动．设运动的时间为ts．当t＝2s时，点M，N的位置如图所示．有下列结论：\n①当t＝6s时，CN＝DM；\n②当1≤t≤2时，△BMN的最大面积为26cm²；\n③t有两个不同的值满足△BMN的面积为39cm²．其中，正确结论的个数是（ ）\n[图1]",
+      "stem_markdown": "四边形ABCD中，AD∥BC，∠B＝90°，AB＝8cm，AD＝10cm，BC＝16cm．动点M从点B出发，以2cm/s的速度沿边BA、边AD向终点D运动；动点N从点C同时出发，以1cm/s的速度沿边CB向终点B运动．规定其中一个动点到达终点时，另一个动点也随之停止运动．设运动的时间为ts．当t＝2s时，点M，N的位置如图所示．有下列结论：\n①当t＝6s时，CN＝DM；\n②当1≤t≤2时，△BMN的最大面积为$26cm^{2}$；\n③t有两个不同的值满足△BMN的面积为$39cm^{2}$．其中，正确结论的个数是（ ）\n![2025年天津市中考数学试卷_q012_img01](assets/2025年天津市中考数学试卷_q012_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】当t＝6s时，点M在AD上，求出DM、CN，可判断①；当1≤t≤2时，点M在AB上，利用三角形面积公式求出△BMN的面积，利用二次函数的性质，可判断②；分两种情况：当点M在AB上时，点M在AD上，结合△BMN的面积为$39cm^{2}$，列出方程，可判断③．\n【解答】解：根据题意得：点M在AB上的运动时间为$\\frac{8}{2}=4s$点M在AD上的运动时间为$\\frac{10}{2}=5s$，点N在CB上的运动时间为16s，\n①当t＝6s时，点M在AD上，\n此时AM＝2×6﹣8＝4cm，CN＝6cm，\n∴DM＝AD﹣AM＝6cm，\n∴CN＝DM，故①正确；\n②当1≤t≤2时，点M在AB上，\n此时BM＝2tcm，CN＝tcm，\n∴BN＝（16﹣t）cm，\n∴$S_{△BMN}=\\frac{1}{2}BM×BN=\\frac{1}{2}×$2t（16﹣t）＝﹣$t^{2}$+16t＝﹣（t﹣8）^{2}+64，\n∵﹣1＜0，\n∴当t＜8时，$S_{△}_{BMN}$随t的增大而增大，\n∴当t＝2时，$S_{△}_{BMN}$取得最大值，最大值为﹣（2﹣8）^{2}+64＝28，\n即当1≤t≤2时，△BMN的最大面积为$28cm^{2}$，故②错误；\n③当点M在AB上时，\n∵△BMN的面积为$39cm^{2}$，\n∴$S_{△BMN}=\\frac{1}{2}BM×BN=\\frac{1}{2}×2t(16-t)=-t^{2}+16t=39$，\n解得：$t_{1}$＝3，$t_{2}$＝13（舍去），\n∴当t＝3时，△BMN的面积为$39cm^{2}$；\n当点M在AD上时，\n∵AD∥BC，∠B＝90°，\n∴∠A＝180°﹣∠B＝90°，即AB⊥AD，\n此时$S_{△BMN}=\\frac{1}{2}AB×BN=\\frac{1}{2}×8(16-t)=64-4t=39$．\n解得：$t=\\frac{25}{4}$，\n∴当$t=\\frac{25}{4}$时，△BMN的面积为$39cm^{2}$；\n∴t有两个不同的值满足△BMN的面积为$39cm^{2}$，故③正确．\n故选：C．\n【点评】本题主要查了二次函数的性质，一元二次方程的应用．掌握二次函数的性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q012_img01",
+          "path": "assets/2025年天津市中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "二次函数的应用",
+          "平行线的性质",
+          "勾股定理"
+        ],
+        "reasoning": "考察相似三角形性质、二次函数最大值、平行线和勾股定理",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"二次函数的应用\", \"平行线的性质\", \"勾股定理\"],\n  \"reasoning\": \"考察相似三角形性质、二次函数最大值、平行线和勾股定理\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "不透明袋子中装有13个球，其中有3个红球、4个黄球、6个绿球，这些球除颜色外无其他差别．从袋子中随机取出1个球，则它是绿球的概率为 ____ ．",
+      "stem_markdown": "不透明袋子中装有13个球，其中有3个红球、4个黄球、6个绿球，这些球除颜色外无其他差别．从袋子中随机取出1个球，则它是绿球的概率为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{6}{13}$．",
+      "solution": "【分析】从袋子中随机取出1个球共有13种等可能结果，其中它是绿球的有6种结果，再根据概率公式求解即可．\n【解答】解：从袋子中随机取出1个球共有13种等可能结果，其中它是绿球的有6种结果，\n所以从袋子中随机取出1个球，是绿球的概率为$\\frac{6}{13}$，\n故答案为：$\\frac{6}{13}$．\n【点评】本题主要考查概率公式，解题的关键是掌握随机事件A的概率P（A）＝事件A可能出现的结果数÷所有可能出现的结果数．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率计算",
+          "基本事件总数",
+          "特定事件数"
+        ],
+        "reasoning": "计算绿球概率时考虑了总球数和绿球数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率计算\", \"基本事件总数\", \"特定事件数\"],\n  \"reasoning\": \"计算绿球概率时考虑了总球数和绿球数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "计算3x﹣x﹣5x的结果为 ____ ．",
+      "stem_markdown": "计算3x﹣x﹣5x的结果为 ____ ．",
+      "options": [],
+      "answer": "﹣3x．",
+      "solution": "【分析】合并同类项的法则是系数和系数相加作为系数，字母和字母的指数不变．\n【解答】解：3x﹣x﹣5x＝（3﹣1﹣5）x＝﹣3x．\n故答案为：﹣3x．\n【点评】本题主要考查了合并同类项的法则，熟练掌握运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "合并同类项"
+        ],
+        "reasoning": "设问要求计算合并同类项后的结果，涉及合并同类项法则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"合并同类项\"],\n  \"reasoning\": \"设问要求计算合并同类项后的结果，涉及合并同类项法则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "计算(\\sqrt{61}+1)(\\sqrt{61}-1)的结果为 ____ ．",
+      "stem_markdown": "计算$(\\sqrt{61}+1)(\\sqrt{61}-1)$的结果为 ____ ．",
+      "options": [],
+      "answer": "60．",
+      "solution": "【分析】根据平方差公式计算即可．\n【解答】解：$(\\sqrt{61}+1)(\\sqrt{61}-1)$\n＝61﹣1\n＝60，\n故答案为：60．\n【点评】本题考查二次根式的混合运算、平方差公式，熟练掌握运算法则是解答本题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平方差公式"
+        ],
+        "reasoning": "题目中使用了平方差公式 $(a+b)(a-b)=a^2-b^2$ 来计算结果",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平方差公式\"],\n  \"reasoning\": \"题目中使用了平方差公式 $(a+b)(a-b)=a^2-b^2$ 来计算结果\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "将直线y＝3x﹣1向上平移m个单位长度，若平移后的直线经过第三、第二、第一象限，则m的值可以是 ____ （写出一个即可）．",
+      "stem_markdown": "将直线y＝3x﹣1向上平移m个单位长度，若平移后的直线经过第三、第二、第一象限，则m的值可以是 ____ （写出一个即可）．",
+      "options": [],
+      "answer": "2（答案不唯一）．",
+      "solution": "【分析】根据“上加下减”的平移法则，表示出平移后的直线解析式，再由平移后的直线经过第三、第二、第一象限得出m的取值范围即可．\n【解答】解：由题知，\n将直线y＝3x﹣1向上平移m个单位长度后，所得直线的函数解析式为y＝3x﹣1+m，\n则平移后的直线与y轴的交点坐标为（0，m﹣1）．\n又因为平移后的直线经过第三、第二、第一象限，\n所以m﹣1＞0，\n解得m＞1，\n所以m的值可以是2．\n故答案为：2（答案不唯一）．\n【点评】本题主要考查了一次函数图象与几何变换及一次函数的性质，熟知“上加下减”的平移法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数的平移",
+          "一次函数与坐标轴的交点",
+          "一次函数图像与系数的关系"
+        ],
+        "reasoning": "平移后的直线与y轴的交点坐标为（0，m﹣1），且经过第三、第二、第一象限，因此m﹣1＞0。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数的平移\", \"一次函数与坐标轴的交点\", \"一次函数图像与系数的关系\"],\n  \"reasoning\": \"平移后的直线与y轴的交点坐标为（0，m﹣1），且经过第三、第二、第一象限，因此m﹣1＞0。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "blank",
+      "stem_text": "如图，在矩形ABCD中，AB＝2，BC＝3，点E在边BC上，且EC＝2BE．\n（Ⅰ）线段AE的长为 ____ ；\n（Ⅱ）F为CD的中点，M为AF的中点，N为EF上一点，若∠FMN＝75°，则线段MN的长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在矩形ABCD中，AB＝2，BC＝3，点E在边BC上，且EC＝2BE．\n（Ⅰ）线段AE的长为 ____ ；\n（Ⅱ）F为CD的中点，M为AF的中点，N为EF上一点，若∠FMN＝75°，则线段MN的长为 ____ ．\n![2025年天津市中考数学试卷_q017_img01](assets/2025年天津市中考数学试卷_q017_img01.png)",
+      "options": [],
+      "answer": "$\\sqrt{5}$",
+      "solution": "【分析】（Ⅰ）求出BE＝1，由勾股定理可求AE的长；\n（Ⅱ）由SAS可证△ABE≌△ECF，可得AE＝EF$=\\sqrt{5}$，∠BAE＝∠CEF，由等腰直角三角形的性质和锐角三角函数可求MN的长．\n【解答】解：（Ⅰ）∵EC＝2BE，BC＝3，\n∴BE＝1，EC＝2，\n∴AE$=\\sqrt{AB^{2}+BE^{2}}=\\sqrt{1+4}=$$\\sqrt{5}$，\n故答案为：$\\sqrt{5}$；\n（Ⅱ）如图，过点M作MH⊥EF于H，\n∵四边形ABCD是矩形，\n∴∠B＝∠C＝∠D＝90°，AB＝CD＝2，\n∵F为CD的中点，\n∴CF＝DF＝1，\n∴BE＝CF＝1，AB＝EC＝2，\n∴△ABE≌△ECF（SAS），\n∴AE＝EF$=\\sqrt{5}$，∠BAE＝∠CEF，\n∴∠BAE+∠AEB＝90°＝∠CEF+∠AEB，\n∴∠AEF＝90°，\n∴∠EAF＝∠AFE＝45°，AF$=\\sqrt{2}$EF$=\\sqrt{10}$，\n∵M为AF的中点，\n∴MF$=\\frac{\\sqrt{10}}{2}$，\n∵MH⊥EF，\n∴∠MFH＝45°＝∠FMH，MH＝HF$=\\frac{\\sqrt{5}}{2}$，\n∵∠FMN＝75°，\n∴∠NMH＝30°，\n∴MN$=\\frac{MH}{cos∠NMH}=\\frac{\\frac{\\sqrt{5}}{2}}{\\frac{\\sqrt{3}}{2}}=$$\\frac{\\sqrt{15}}{3}$，\n故答案为：$\\frac{\\sqrt{15}}{3}$．\n[[image:rId45]]\n【点评】本题考查了矩形的性质，全等三角形的判定和性质，锐角三角函数，勾股定理，灵活运用这些性质解决问题是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q017_img01",
+          "path": "assets/2025年天津市中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "全等三角形的判定和性质",
+          "锐角三角函数",
+          "矩形的性质"
+        ],
+        "reasoning": "（Ⅰ）利用勾股定理求AE；（Ⅱ）通过全等三角形证明AE=EF，利用锐角三角函数求MN。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"全等三角形的判定和性质\", \"锐角三角函数\", \"矩形的性质\"],\n  \"reasoning\": \"（Ⅰ）利用勾股定理求AE；（Ⅱ）通过全等三角形证明AE=EF，利用锐角三角函数求MN。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "blank",
+      "stem_text": "如图，在每个小正方形的边长为1的网格中，点P，A均在格点上．\n（Ⅰ）线段PA的长为 ____ ；\n（Ⅱ）直线PA与△ABC的外接圆相切于点A，AB＝BC．点M在射线BC上，点N在线段BA的延长线上，满足CM＝2AN，且MN与射线BA垂直．请用无刻度的直尺，在如图所示的网格中，画出点M，N，并简要说明点M，N的位置是如何找到的（不要求证明） ____ ．\n[图1]",
+      "stem_markdown": "如图，在每个小正方形的边长为1的网格中，点P，A均在格点上．\n（Ⅰ）线段PA的长为 ____ ；\n（Ⅱ）直线PA与△ABC的外接圆相切于点A，AB＝BC．点M在射线BC上，点N在线段BA的延长线上，满足CM＝2AN，且MN与射线BA垂直．请用无刻度的直尺，在如图所示的网格中，画出点M，N，并简要说明点M，N的位置是如何找到的（不要求证明） ____ ．\n![2025年天津市中考数学试卷_q018_img01](assets/2025年天津市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "$\\sqrt{2}$",
+      "solution": "【分析】（1）利用勾股定理进行求解即可；\n（2）利用圆周角定理的推论，正方形的性质确定圆心，再根据全等三角形和等腰三角形的三线合一确定线段AC的中点G，利用网格确定点J为线段AQ的中点，则G，J为三角形的中位线，利用一组平行线确定点N为线段AQ的中点，证明△ABH≌△CBH和△AHQ≌△CHM，得出AQ＝CM，即CM＝2AN，最后利用切线的性质和等腰三角形的性质，得出△AMQ为等腰三角形，再利用等腰三角形的性质得出MN⊥AQ．\n【解答】解：（1）由勾股定理得$PA=\\sqrt{1+1}=\\sqrt{2}$，\n故答案为：$\\sqrt{2}$；\n（2）如图所示，点M，N即为所求，\n[[image:rId47]]\n作法：直线PA与射线BC的交点为M；取圆与网格线的交点D和E，连接DE；取格点F，连接AF，与DE相交于点O；连接BO并延长，与AC相交于点G，与直线PA相交于点H；连接CH并延长，与网格线相交于点J，连接AJ，与网格线相交于点I；连接GJ，与线段BA的延长线相交于点N，则点M，N即为所求．\n理由：∵∠DAE＝90°，\n∴DE为圆的直径，\n∵AF为正方形的对角线，\n∴∠DAF＝∠EAF＝45°，\n∴AF垂直平分线段DE，\n∴点O为圆的圆心，\n∴OA＝OC，\n又∵AB＝BC，OB＝OB，\n∴△AOB≌△COB（SSS），\n∴∠ABO＝∠CBO，\n∴BG 平分∠ABC，\n∴点G为线段AC的中点，\n由网格可知点J为线段AI的中点，\n∴GJ为△ACI的中位线，\n∴GJ∥CI，\n∴点N为线段AQ的中点，\n∴AQ＝2AN，\n∵AB＝BC，BH＝BH，∠ABH＝∠CBH，\n∴△ABH≌△CBH（SAS），\n∴AH＝CH，∠BAH＝∠BCH，\n∴∠QAH＝∠MCH，\n又∵∠AHQ＝∠CHM，\n∴△AHQ≌△CHM（ASA），\n∴AQ＝CM，即CM＝2AN，\n延长BH交QM于点T，\n∵AB＝BC，AQ＝CM，\n∴BQ＝BM，\n∵∠QBH＝∠MBH，\n∴BT⊥QM，\n∵AM为圆的切线，\n∴∠OAH＝90°，\n∴∠OAB+∠QAM＝90°，\n∵OA＝OB，\n∴∠OBA＝∠OAB，\n即∠QAM+∠OBA＝90°，\n∵∠OBA+∠AQM＝90°，\n∴∠QAM＝∠AQM，\n∴△AMQ为等腰三角形，\n∴MN⊥AQ，\n∴点M，N即为所求．\n【点评】本题主要考查了勾股定理，圆周角定理的推论，等腰三角形的性质，正方形的性质，三角形中位线的判定和性质，相似三角形的判定和性质等内容，解题的关键是熟练掌握以上性质并灵活应用．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q018_img01",
+          "path": "assets/2025年天津市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "圆周角定理",
+          "正方形的性质",
+          "相似三角形的判定和性质"
+        ],
+        "reasoning": "（1）利用勾股定理计算PA长度；（2）利用圆周角定理推论、正方形性质确定圆心及中点，通过全等三角形和等腰三角形性质确定点M、N位置。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"圆周角定理\", \"正方形的性质\", \"相似三角形的判定和性质\"],\n  \"reasoning\": \"（1）利用勾股定理计算PA长度；（2）利用圆周角定理推论、正方形性质确定圆心及中点，通过全等三角形和等腰三角形性质确定点M、N位置。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "解不等式组\\begin{cases} 3x≤2x+1① \\\\ 2x-3≥x-5② \\end{cases}，请结合题意填空，完成本题的解答．\n（Ⅰ）解不等式①，得 ____ ；\n（Ⅱ）解不等式②，得 ____ ；\n（Ⅲ）把不等式①和②的解集在数轴上表示出来；\n（Ⅳ）原不等式组的解集为 ____ ．\n[图1]",
+      "stem_markdown": "解不等式组$\\begin{cases} 3x≤2x+1① \\\\ 2x-3≥x-5② \\end{cases}$，请结合题意填空，完成本题的解答．\n（Ⅰ）解不等式①，得 ____ ；\n（Ⅱ）解不等式②，得 ____ ；\n（Ⅲ）把不等式①和②的解集在数轴上表示出来；\n（Ⅳ）原不等式组的解集为 ____ ．\n![2025年天津市中考数学试卷_q019_img01](assets/2025年天津市中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先求出每个不等式的解集，然后在数轴上表示出其解集，最后写出不等式组的解集即可．\n【解答】解：$\\begin{cases} 3x≤2x+1① \\\\ 2x-3≥x-5② \\end{cases}$，\n（Ⅰ）解不等式①，得x≤1；\n（Ⅱ）解不等式②，得x≥﹣2；\n（Ⅲ）把不等式①和②的解集在数轴上表示出来，\n[[image:rId49]]；\n（Ⅳ）原不等式组的解集为﹣2≤x≤1．\n【点评】本题考查解一元一次不等式组、在数轴上表示不等式（组）的解集，解答本题的关键是明确解一元一次不等式（组）的方法．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q019_img01",
+          "path": "assets/2025年天津市中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式",
+          "解一元一次不等式",
+          "数轴表示解集"
+        ],
+        "reasoning": "通过解不等式①和②得到具体的解集范围，并在数轴上表示",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式\", \"解一元一次不等式\", \"数轴表示解集\"],\n  \"reasoning\": \"通过解不等式①和②得到具体的解集范围，并在数轴上表示\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "为了解某校学生每月参加志愿服务的时间（单位：h），随机调查了该校a名学生，根据统计的结果，绘制出如图的统计图①和图②．\n[图1]\n请根据相关信息，解答下列问题：\n（Ⅰ）填空：a的值为 ____ ，图①中m的值为 ____ ，统计的这组学生每月参加志愿服务的时间数据的众数和中位数分别为 ____ 和 ____ ；\n（Ⅱ）求统计的这组学生每月参加志愿服务的时间数据的平均数；\n（Ⅲ）根据样本数据，若该校共有1000名学生，估计该校学生每月参加志愿服务的时间是4h的人数约为多少？",
+      "stem_markdown": "为了解某校学生每月参加志愿服务的时间（单位：h），随机调查了该校a名学生，根据统计的结果，绘制出如图的统计图①和图②．\n![2025年天津市中考数学试卷_q020_img01](assets/2025年天津市中考数学试卷_q020_img01.png)\n请根据相关信息，解答下列问题：\n（Ⅰ）填空：a的值为 ____ ，图①中m的值为 ____ ，统计的这组学生每月参加志愿服务的时间数据的众数和中位数分别为 ____ 和 ____ ；\n（Ⅱ）求统计的这组学生每月参加志愿服务的时间数据的平均数；\n（Ⅲ）根据样本数据，若该校共有1000名学生，估计该校学生每月参加志愿服务的时间是4h的人数约为多少？",
+      "options": [],
+      "answer": "40，25，4h，3h",
+      "solution": "【分析】（I）用每月参加志愿服务的时为2h的人数除以其所占百分比可得样本容量a，用每月参加志愿服务的时为3h的人数除以样本容量求得m的值；再根据众数和中位数的定义解答即可；\n（II）根据加权平均数公式解答即可；\n（III）用总人数乘样本中每月参加志愿服务的时间是4h的人数所占百分比即可．\n【解答】解：（I）由题意可知，a＝6÷15%＝40，\n∴m%$=\\frac{10}{40}×$100%＝25%，即m＝25，\n统计的这组学生每月参加志愿服务的时间数据的众数是4h，中位数是$\\frac{3+3}{2}=$3（h），\n故答案为：40，25，4h，3h；\n（II）观察条形统计图，\n∵$\\overline{x}=\\frac{1×5+2×6+3×10+4×14+5×5}{5+6+10+14+5}=3.2$（h），\n∴这组数据的平均数是3.2h．\n（III）∵在所抽取的样本中，每月参加志愿服务的时间是4h的学生占35%，\n∴根据样本数据，估计该校1000名学生中，每月参加志愿服务的时间是4h的学生约占35%，有1000×35%＝350（人），\n∴估计该校学生每月参加志愿服务的时间是4h的人数约为350人．\n【点评】本题考查条形统计图、扇形统计图、用样本估计总体、平均数、中位数、众数，解答本题的关键是明确题意，利用数形结合的思想解答．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q020_img01",
+          "path": "assets/2025年天津市中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率分布直方图",
+          "众数",
+          "中位数",
+          "平均数"
+        ],
+        "reasoning": "第（I）问通过条形图计算样本容量及众数、中位数",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率分布直方图\", \"众数\", \"中位数\", \"平均数\"],\n  \"reasoning\": \"第（I）问通过条形图计算样本容量及众数、中位数\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "已知AB与⊙O相切于点C，OA＝OB，∠AOB＝80°，OB与⊙O相交于点D，E为⊙O上一点．\n（Ⅰ）如图①，求∠CED的大小；\n（Ⅱ）如图②，当EC∥OA时，EC与OB相交于点F，延长BO与⊙O相交于点G，若⊙O的半径为3，求ED和EG的长．\n[图1]",
+      "stem_markdown": "已知AB与⊙O相切于点C，OA＝OB，∠AOB＝80°，OB与⊙O相交于点D，E为⊙O上一点．\n（Ⅰ）如图①，求∠CED的大小；\n（Ⅱ）如图②，当EC∥OA时，EC与OB相交于点F，延长BO与⊙O相交于点G，若⊙O的半径为3，求ED和EG的长．\n![2025年天津市中考数学试卷_q021_img01](assets/2025年天津市中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（I）连接OC，由切线的性质得OC⊥AB，而OA＝OB，∠AOB＝80°，所以∠COB＝∠COA＝40°，则∠CED$=\\frac{1}{2}$∠COB＝20°；\n（Ⅱ）连接OC，因为DG是⊙O的直径，⊙O的半径为3，所以∠DEG＝90°，DG＝6，由EC∥OA，得∠EFG＝∠AOB＝80°，而∠CED＝20°，则∠EDG＝∠EFG﹣∠CED＝60°，所以∠G＝30°，则ED$=\\frac{1}{2}$DG＝3，求得EG$=\\sqrt{DG^{2}-ED^{2}}=$3$\\sqrt{3}$．\n【解答】解：（I）如图①，连接OC，\n∵AB与⊙O相切于点C，\n∴OC⊥AB，\n∵OA＝OB，∠AOB＝80°，\n∴∠COB＝∠COA$=\\frac{1}{2}$∠AOB＝40°，\n∴∠CED$=\\frac{1}{2}$∠COB＝20°，\n∴∠CED的度数为20°．\n（Ⅱ）如图②，连接OC，\n∵DG是⊙O的直径，⊙O的半径为3，\n∴∠DEG＝90°，DG＝6，\n∵EC∥OA，\n∴∠EFG＝∠AOB＝80°，\n由（I）得∠CED＝20°，\n∴∠EDG＝∠EFG﹣∠CED＝60°，\n∴∠G＝90°﹣∠EDG＝30°，\n∴ED$=\\frac{1}{2}$DG＝3，\n∴EG$=\\sqrt{DG^{2}-ED^{2}}=\\sqrt{6^{2}-3^{2}}=$3$\\sqrt{3}$，\n∴ED的长是3，EG的长是3$\\sqrt{3}$．\n[[image:rId52]]\n[[image:rId53]]\n【点评】此题重点考查切线的性质、等腰三角形的性质、圆周角定理、平行线的性质、三角形的一个外角等于与它不相邻的两个内角的和、直角三角形中30°角所对的直角边等于斜边的一半、勾股定理等知识，正确地添加辅助线是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q021_img01",
+          "path": "assets/2025年天津市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线的性质",
+          "等腰三角形的性质",
+          "圆周角定理",
+          "勾股定理"
+        ],
+        "reasoning": "（Ⅰ）利用切线性质得出OC⊥AB，结合等腰三角形性质得出∠COB=40°，进而求出∠CED的度数；（Ⅱ）利用直径所对的圆周角是直角，求出∠EDG的度数，再利用30°角所对的直角边等于斜边一半求解ED和EG的长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线的性质\", \"等腰三角形的性质\", \"圆周角定理\", \"勾股定理\"],\n  \"reasoning\": \"（Ⅰ）利用切线性质得出OC⊥AB，结合等腰三角形性质得出∠COB=40°，进而求出∠CED的度数；（Ⅱ）利用直径所对的圆周角是直角，求出∠EDG的度数，再利用30°角所对的直角边等于斜边一半求解ED和EG的长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "综合与实践活动中，要用测角仪测量天津站附近世纪钟建筑AB的高度（如图①）．某学习小组设计了一个方案：如图②所示，点A，E，C依次在同一条水平直线上，CD⊥AC，EF⊥AC，且CD＝EF＝1.7m．在D处测得世纪钟建筑顶部B的仰角为22°，在F处测得世纪钟建筑顶部B的仰角为31°，CE＝32m．根据该学习小组测得的数据，计算世纪钟建筑AB的高度（结果取整数）．\n参考数据：tan22°≈0.4，tan31°≈0.6．\n[图1]",
+      "stem_markdown": "综合与实践活动中，要用测角仪测量天津站附近世纪钟建筑AB的高度（如图①）．某学习小组设计了一个方案：如图②所示，点A，E，C依次在同一条水平直线上，CD⊥AC，EF⊥AC，且CD＝EF＝1.7m．在D处测得世纪钟建筑顶部B的仰角为22°，在F处测得世纪钟建筑顶部B的仰角为31°，CE＝32m．根据该学习小组测得的数据，计算世纪钟建筑AB的高度（结果取整数）．\n参考数据：tan22°≈0.4，tan31°≈0.6．\n![2025年天津市中考数学试卷_q022_img01](assets/2025年天津市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】延长DF与AB相交于点G，根据题意可得DG∥CA，得出DF＝1.7m，在Rt△FGB中，$tan∠GFB=\\frac{GB}{GF}$，可得$GF=\\frac{GB}{tan31°}$．在Rt△DGB中，$tan∠GDB=\\frac{GB}{GD}$，可得$GD=\\frac{GB}{tan22°}$，根据GF+DF＝GD列式计算即可．\n【解答】解：如图，延长DF与AB相交于点G，\n[[image:rId55]]\n根据题意可得四边形GAEF和四边形FECD是矩形，∠GDB＝22°，∠GFB＝31°，∠DGB＝90°，\n∴AG＝EF＝CD＝1.7m，DF＝CE＝32m，\n在Rt△FGB中，$tan∠GFB=\\frac{GB}{GF}$，\n∴$GF=\\frac{GB}{tan31°}$，\n在Rt△DGB中，$tan∠GDB=\\frac{GB}{GD}$，\n∴$GD=\\frac{GB}{tan22°}$．\n∵GF+DF＝GD，\n∴$\\frac{GB}{tan31°}+32=\\frac{GB}{tan22°}$．\n∴$GB=\\frac{32×tan22°tan31°}{tan31°-tan22°}≈\\frac{32×0.4×0.6}{0.6-0.4}=38.4$．\n∴AB＝AG+GB≈1.7+38.4≈40（m），\n答：世纪钟建筑AB的高度约为40m．\n【点评】本题考查了解直角三角形的应用﹣仰角俯角问题，熟练掌握锐角三角函数的定义是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q022_img01",
+          "path": "assets/2025年天津市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "相似三角形",
+          "角度测量"
+        ],
+        "reasoning": "题中通过测量角度计算高度，涉及正切函数和角度测量。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"相似三角形\", \"角度测量\"],\n  \"reasoning\": \"题中通过测量角度计算高度，涉及正切函数和角度测量。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "已知小华的家、书店、公园依次在同一条直线上，书店离家0.6km，公园离家1.8km．小华从家出发，先匀速步行了6min到书店，在书店停留了12min，之后匀速步行了12min到公园，在公园停留25min后，再用15min匀速跑步返回家．下面图中x表示时间，y表示离家的距离．图象反映了这个过程中小华离家的距离与时间之间的对应关系．\n[图1]\n请根据相关信息，回答下列问题：\n（Ⅰ）①填表：\n小华离开家的时间/min | 1 | 6 | 18 | 50\n小华离家的距离/km | 0.6\n②填空：小华从公园返回家的速度为 ____ km/min；\n③当0≤x≤30时，请直接写出小华离家的距离y关于时间x的函数解析式；\n（Ⅱ）若小华的妈妈与小华同时从家出发，小华的妈妈以0.05km/min的速度散步直接到公园．在从家到公园的过程中，对于同一个x的值，小华离家的距离为y₁，小华的妈妈离家的距离为y₂，当y₁＜y₂时，求x的取值范围（直接写出结果即可）．",
+      "stem_markdown": "已知小华的家、书店、公园依次在同一条直线上，书店离家0.6km，公园离家1.8km．小华从家出发，先匀速步行了6min到书店，在书店停留了12min，之后匀速步行了12min到公园，在公园停留25min后，再用15min匀速跑步返回家．下面图中x表示时间，y表示离家的距离．图象反映了这个过程中小华离家的距离与时间之间的对应关系．\n![2025年天津市中考数学试卷_q023_img01](assets/2025年天津市中考数学试卷_q023_img01.png)\n请根据相关信息，回答下列问题：\n（Ⅰ）①填表：\n| 小华离开家的时间/min | 1 | 6 | 18 | 50 |\n| --- | --- | --- | --- | --- |\n| 小华离家的距离/km | 0.6 |  |  |  |\n②填空：小华从公园返回家的速度为 ____ km/min；\n③当0≤x≤30时，请直接写出小华离家的距离y关于时间x的函数解析式；\n（Ⅱ）若小华的妈妈与小华同时从家出发，小华的妈妈以0.05km/min的速度散步直接到公园．在从家到公园的过程中，对于同一个x的值，小华离家的距离为$y_{1}$，小华的妈妈离家的距离为$y_{2}$，当$y_{1}$＜$y_{2}$时，求x的取值范围（直接写出结果即可）．",
+      "options": [],
+      "answer": "0.12．",
+      "solution": "【分析】（Ⅰ）①根据图象及速度＝路程÷时间和路程＝速度×时间计算即可；\n②根据速度＝路程÷时间计算即可；\n③根据速度＝路程÷时间和路程＝速度×时间计算即可；\n（Ⅱ）在同一坐标系中画出小华的妈妈离家的距离为$y_{2}$与x之间的函数图象并写出$y_{2}$与x之间的函数关系式，求出两函数的交点的横坐标并根据图象得出当$y_{1}$＜$y_{2}$时，x的取值范围即可．\n【解答】解：（Ⅰ）①小华在最初的6min内的速度为0.6÷6＝0.1（km/min），\n当x＝1时，y＝0.1×1＝0.1，\n当x＝18时，y＝0.6，\n当x＝50时，1.8．\n②小华从公园返回家的速度为1.8÷15＝0.12（km/min）．\n故答案为：0.12．\n③当0≤x≤6时，y＝0.1x，\n当6＜x≤18，y＝0.6，\n当18＜x≤30时，小华的速度为（1.8﹣0.6）÷12＝0.1（km/min），则y＝0.6+0.1（x﹣18）＝0.1x﹣1.2，\n∴当0≤x≤30时，写出小华离家的距离y关于时间x的函数解析式y$=\\begin{cases} 0.1x(0≤x≤6) \\\\ 0.6(6＜x≤18) \\\\ 0.1x-1.2(18＜x≤30) \\end{cases}$．\n（Ⅱ）妈妈从家到公园所用时间为1.8÷0.05＝36（min），则小华的妈妈离家的距离为$y_{2}$与x之间的函数图象如图所示：\n[[image:rId57]]\n$y_{2}$与x之间的函数关系式为$y_{2}$＝0.05x（0≤x≤36），\n当6≤x≤18时，当$y_{1}＝y_{2}$时，得0.05x＝0.6，\n解得x＝12，\n当18＜x≤30时，当$y_{1}＝y_{2}$时，得0.1x﹣1.2＝0.05x，\n解得x＝24，\n由图象可知，当$y_{1}$＜$y_{2}$时，x的取值范围为12＜x＜24．\n【点评】本题考查一次函数的应用，掌握时间、速度和路程之间的关系是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q023_img01",
+          "path": "assets/2025年天津市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "行程问题",
+          "一次函数",
+          "速度=路程/时间",
+          "函数图像"
+        ],
+        "reasoning": "题目涉及行程问题中的速度、时间和距离关系，以及通过函数图像分析速度变化。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"行程问题\", \"一次函数\", \"速度=路程/时间\", \"函数图像\"],\n  \"reasoning\": \"题目涉及行程问题中的速度、时间和距离关系，以及通过函数图像分析速度变化。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "在平面直角坐标系中，O为原点，等边△ABC的顶点A（0，2），B（0，﹣1），点C在第一象限，等边△EOF的顶点E(-\\sqrt{3}，0)，顶点F在第二象限．\n（Ⅰ）填空：如图①，点F的坐标为 ____ ，点C的坐标为 ____ ；\n（Ⅱ）将等边△EOF沿水平方向向右平移，得到等边△E′O′F′，点E，O，F的对应点分别为E′，O′，F′．设OO′＝t．\n①如图②，若边E′F′与边AB相交于点G，当△E′O′F′与△ABC重叠部分为四边形OO′F′G时，试用含有t的式子表示线段GA的长，并直接写出t的取值范围；\n②设平移后重叠部分的面积为S，当\\frac{3\\sqrt{3}}{4}≤t≤\\frac{3\\sqrt{3}}{2}时，求S的取值范围（直接写出结果即可）．\n[图1]",
+      "stem_markdown": "在平面直角坐标系中，O为原点，等边△ABC的顶点A（0，2），B（0，﹣1），点C在第一象限，等边△EOF的顶点$E(-\\sqrt{3}，0)$，顶点F在第二象限．\n（Ⅰ）填空：如图①，点F的坐标为 ____ ，点C的坐标为 ____ ；\n（Ⅱ）将等边△EOF沿水平方向向右平移，得到等边△E′O′F′，点E，O，F的对应点分别为E′，O′，F′．设OO′＝t．\n①如图②，若边E′F′与边AB相交于点G，当△E′O′F′与△ABC重叠部分为四边形OO′F′G时，试用含有t的式子表示线段GA的长，并直接写出t的取值范围；\n②设平移后重叠部分的面积为S，当$\\frac{3\\sqrt{3}}{4}≤t≤\\frac{3\\sqrt{3}}{2}$时，求S的取值范围（直接写出结果即可）．\n![2025年天津市中考数学试卷_q024_img01](assets/2025年天津市中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "（$-\\frac{\\sqrt{3}}{2}，\\frac{3}{2}$），$C(\\frac{3\\sqrt{3}}{2}，\\frac{1}{2})$",
+      "solution": "【分析】（Ⅰ）作FG⊥OE于点G，作CH⊥AB于点H，根据等边三角形的性质，结合勾股定理进行求解即可；\n（Ⅱ）①平移的性质，得到∠F'E'O'＝∠OEF＝60°，$O′E′=OE=\\sqrt{3}$，求出OE'的长，解直角三角形求出OG的长，线段的和差表示出AG的长，当点F'落在y轴上之后，直至点E与点O重合之前，重叠部分为四边形，求出t的范围即可；\n②分$\\frac{3\\sqrt{3}}{4}≤t＜\\sqrt{3}$，t$=\\sqrt{3}$和$\\sqrt{3}＜t≤\\frac{3\\sqrt{3}}{2}$三种情况进行讨论求解即可．\n【解答】解：（Ⅰ）作 FG⊥OE于点G，作CH⊥AB于点H，\n[[image:rId59]]\n∵△OEF，△ABC均为等边三角形，\n∴$OG=\\frac{1}{2}OE$，OF＝OE，$AH=\\frac{1}{2}AB$，AC＝AB，\n∵A（0，2），B（0，﹣1），$E(-\\sqrt{3}，0)$，\n∴$OF=OE=\\sqrt{3}$，AC＝AB＝2+1＝3，OA＝2，\n∴$OG=\\frac{\\sqrt{3}}{2}$，$AH=\\frac{3}{2}$，\n∴$FG=\\sqrt{OF^{2}-OG^{2}}=\\frac{3}{2}$，OH＝OA﹣AH$=\\frac{1}{2}$，CH$=\\sqrt{AC^{2}-AH^{2}}=\\frac{3\\sqrt{3}}{2}$，\n∴F（$-\\frac{\\sqrt{3}}{2}，\\frac{3}{2}$），$C(\\frac{3\\sqrt{3}}{2}，\\frac{1}{2})$，\n故答案为：（$-\\frac{\\sqrt{3}}{2}，\\frac{3}{2}$），$C(\\frac{3\\sqrt{3}}{2}，\\frac{1}{2})$；\n（Ⅱ）①∵平移，\n∴∠F'E'O'＝∠OEF＝60°，$O′E′=OE=\\sqrt{3}$，\n∵OO'＝t，\n∴$OE′=O′E-OO′=\\sqrt{3}-t$，\n∴$OG=OE′⋅tan60°=\\sqrt{3}(\\sqrt{3}-t)=3-\\sqrt{3}t$，\n∴$AG=OA-OG=2-3+\\sqrt{3}t=\\sqrt{3}t-1$，\n当点F'落在y轴上时，此时，点O为O'E'的中点，则：$t=\\frac{\\sqrt{3}}{2}$，\n当点E'与点O重合时，$t=\\sqrt{3}$，\n∴当△E'O'F′与△ABC重叠部分为四边形OO'F′G时，$\\frac{\\sqrt{3}}{2}＜t＜\\sqrt{3}$；\n②当$\\frac{3\\sqrt{3}}{4}≤t＜\\sqrt{3}$时，则重叠的部分为四边形OO'F′G，\n如图，作F'M⊥x轴，\n[[image:rId60]]\n由（1）和（2）①可知：$F′M=\\frac{3}{2}$，$OG=3-\\sqrt{3}t$，OE'$=\\sqrt{3}-$t，\n∴S$=S_{ΔO′E′F′}-S_{ΔOE′G}=\\frac{1}{2}×\\sqrt{3}×\\frac{3}{2}-\\frac{1}{2}⋅(\\sqrt{3}-t)(3-\\sqrt{3}t)=-\\frac{\\sqrt{3}}{2}(t-\\sqrt{3})^{2}+\\frac{3\\sqrt{3}}{4}$，\n∴当t$=\\frac{3\\sqrt{3}}{4}$时，S的值最小，为$-\\frac{\\sqrt{3}}{2}×(\\frac{3\\sqrt{3}}{4}-\\sqrt{3})^{2}+\\frac{3\\sqrt{3}}{4}=\\frac{21\\sqrt{3}}{32}$，\n∴$\\frac{21\\sqrt{3}}{32}≤$S$＜\\frac{3\\sqrt{3}}{4}$，\n设BC交x轴于点N，则：$ON=OB⋅tan60°=\\sqrt{3}=O′E′$，\n∴当$t=\\sqrt{3}$时，此时点E'于O重合，O'与N点重合，重叠的部分恰为△O'E'F'，\n[[image:rId61]]\n∴$S=\\frac{1}{2}×\\sqrt{3}×\\frac{3}{2}=\\frac{3\\sqrt{3}}{4}$，\n当$\\sqrt{3}＜t≤\\frac{3\\sqrt{3}}{2}$，S随着t的增大而减小，\n∴当$t=\\frac{3\\sqrt{3}}{2}$时，S有最小值，此时点C'O'⊥x轴，如图：\n[[image:rId62]]\n此时重叠部分为五边形，$O′N=\\frac{3\\sqrt{3}}{2}-\\sqrt{3}=\\frac{\\sqrt{3}}{2}$，\n∵∠CNO'＝∠BNO＝90°﹣∠ABC＝30°，∠E'O'F'＝60°，\n∴∠NQO'＝90°，\n∴$O′Q=\\frac{1}{2}O′N=\\frac{\\sqrt{3}}{4}$，QN$=\\sqrt{3}O′Q=\\frac{3}{4}$，\n∴$S_{ΔO′NQ}=\\frac{1}{2}×\\frac{\\sqrt{3}}{4}×\\frac{3}{4}=\\frac{3\\sqrt{3}}{32}$，\n∵∠ACB＝60°，∠CQP＝∠NO'Q＝90°，\n∴∠F''PG＝∠CPQ＝30°，\n∴∠F''GP＝180°﹣30°﹣60°＝90°，\n由平移可得：$F′F″=NO′=\\frac{\\sqrt{3}}{2}$，F'F''∥NO'$=\\frac{\\sqrt{3}}{2}$，\n∴∠F'F''G＝∠O'E'F''＝60°\n∴∠F''F'G＝30°＝∠F''PG，\n∴F''P＝F'F''$=\\frac{\\sqrt{3}}{2}$\n同法可得：$S_{ΔF′GP}=\\frac{1}{2}×\\frac{\\sqrt{3}}{4}×\\frac{3}{4}=\\frac{3\\sqrt{3}}{32}$，\nS$=S_{ΔO′E′F″}-S_{ΔO′NQ}-S_{ΔF″GP}=\\frac{3\\sqrt{3}}{4}-\\frac{3\\sqrt{3}}{32}-\\frac{3\\sqrt{3}}{32}=\\frac{9\\sqrt{3}}{16}$；\n综上：$\\frac{9\\sqrt{3}}{16}≤S≤\\frac{3\\sqrt{3}}{4}$．\n【点评】本题考查坐标与图形，等边三角形的判定和性质，勾股定理，解直角三角形，二次函数求最值等知识点，熟练掌握相关知识点，利用数形结合和分类讨论的思想进行求解是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年天津市中考数学试卷_q024_img01",
+          "path": "assets/2025年天津市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的性质",
+          "坐标与图形",
+          "平移变换",
+          "勾股定理"
+        ],
+        "reasoning": "题目涉及等边三角形的性质、坐标系中的图形变换和平行线的性质，以及勾股定理的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的性质\", \"坐标与图形\", \"平移变换\", \"勾股定理\"],\n  \"reasoning\": \"题目涉及等边三角形的性质、坐标系中的图形变换和平行线的性质，以及勾股定理的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年天津市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "已知抛物线y＝ax²+bx+c（a，b，c为常数，a＜0，b＞0）．\n（Ⅰ）当a＝﹣1，b＝2，c＝3时，求该抛物线顶点P的坐标；\n（Ⅱ）点A（﹣1，0）和点B为抛物线与x轴的两个交点，点C为抛物线与y轴的交点．\n①当a＝﹣2时，若点D在抛物线上，∠CAD＝90°，AC＝AD，求点D的坐标；\n②若点B（m，0），∠CAB＝2∠ABC，以AC为边的▱ACEF的顶点F在抛物线的对称轴l上，当CE+CF取得最小值为2\\sqrt{6}时，求顶点E的坐标．\n2025年天津市中考数学试卷",
+      "stem_markdown": "已知抛物线y＝$ax^{2}$+bx+c（a，b，c为常数，a＜0，b＞0）．\n（Ⅰ）当a＝﹣1，b＝2，c＝3时，求该抛物线顶点P的坐标；\n（Ⅱ）点A（﹣1，0）和点B为抛物线与x轴的两个交点，点C为抛物线与y轴的交点．\n①当a＝﹣2时，若点D在抛物线上，∠CAD＝90°，AC＝AD，求点D的坐标；\n②若点B（m，0），∠CAB＝2∠ABC，以AC为边的▱ACEF的顶点F在抛物线的对称轴l上，当CE+CF取得最小值为$2\\sqrt{6}$时，求顶点E的坐标．\n2025年天津市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（I）待定系数法求解析式，即可求解；\n（II）①根据a＝﹣2，得出抛物线解析式为y＝﹣$2x^{2}$+bx+b+2，点D在第四象限，过点D作DH⊥x轴于点H，证明△ADH≌△CAO（AAS），进而得出点D的坐标为（b+1，﹣1），代入解析式，解方程，即可求解；\n②在x轴上点A的左侧取点G，使GA＝AC，连接GC．在Rt△AOC中，根据勾股定理，$AC^{2}＝AO^{2}+OC^{2}$，得出$GA=AC=\\sqrt{1+c^{2}}$，根据题意，点A和点B关于直线/对称，点F在直线l上，得AF＝BF．根据平行四边形的性质得出当点F在线段BC上时，CE+CF取得最小值$2\\sqrt{6}$，即$BC=2\\sqrt{6}$，勾股定理可得$m^{2}+c^{2}$＝24，进而代入$c^{2}＝m^{2}$﹣2m，求得点B（4，0），$C(0，2\\sqrt{2})$，可得直线BC的解析式为$y=-\\frac{\\sqrt{2}}{2}x+2\\sqrt{2}$，．求得点F的坐标为$(\\frac{3}{2}，\\frac{5\\sqrt{2}}{4})$，根据平移的性质即可得出点E的坐标为$(\\frac{5}{2}，\\frac{13\\sqrt{2}}{4})$．\n【解答】解：（I）∵a＝﹣1，b＝2，c＝3，\n∴该抛物线的解析式为y＝﹣$x^{2}$+2x+3，\n∵y＝﹣$x^{2}$+2x+3＝﹣（x﹣1）^{2}+4，\n∴该抛物线顶点P的坐标为（1，4）；\n（II）①∵点A（﹣1，0）在抛物线y＝$ax^{2}$+bx+c上，\n∴0＝a﹣b+c，即c＝b﹣a，\n又∵a＝﹣2，点C（0，c），\n∴OC＝c＝b+2，AO＝1，\n∴抛物线解析式为y＝﹣$2x^{2}$+bx+b+2，\n如图，点D在第四象限，过点D作DH⊥x轴于点H，\n[[image:rId63]]\n∴∠AHD＝90°，\n∴∠HAD+∠ADH＝90°，\n∵∠CAD＝90°，\n∴∠CAO+∠HAD＝90°，\n∴∠ADH＝∠CAO，\n又∵AD＝AC，∠AHD＝∠AOC＝90°，\n∴△ADH≌△CAO（AAS），\n∴DH＝AO＝1，AH＝OC＝b+2，\n∵OH＝AH﹣AO，\n∴OH＝b+2﹣1＝b+1，\n∴点D的坐标为（b+1，﹣1），\n∵点D在抛物线y＝﹣$2x^{2}$+bx+b+2上，\n∴﹣1＝﹣2（b+1）^{2}+b（b+1）+b+2，\n整理得，$b^{2}$+2b﹣1＝0，\n解得$b_{1}=-1+\\sqrt{2}，b_{2}=-1-\\sqrt{2}$，\n∵b＞0，\n∴$b_{2}=-1-\\sqrt{2}$，不合题意，舍去，\n∴$b=-1+\\sqrt{2}$，\n∴点D的坐标为$(\\sqrt{2}，-1)$；\n②∵c＝b﹣a，a＜0，b＞0，\n∴c＞0，m＞1，\n在x轴上点A的左侧取点G，使GA＝AC，连接GC．\n[[image:rId64]]\n∴∠ACG＝∠CGA，得∠CAB＝2∠CGA．\n∵∠CAB＝2∠ABC，\n∴∠ABC＝∠CGA．\n∴CG＝CB，则GO＝OB．\n在Rt△AOC中，根据勾股定理，$AC^{2}＝AO^{2}+OC^{2}$，\n∴$AC=\\sqrt{1+c^{2}}$，\n∴$GA=\\sqrt{1+c^{2}}$，\n∴$GO=GA+AO=\\sqrt{1+c^{2}}+1$．\n又∵点B（m，0），得OB＝m．\n∴$\\sqrt{1+c^{2}}+1=m$，即$c^{2}＝m^{2}$﹣2m，\n根据题意，点A和点B关于直线l对称，点F在直线l上，得AF＝BF．\n又∵▱ACEF中，AF＝CE．得CE＝BF．\n∴CE+CF＝BF+CF≥BC．\n∴当点F在线段BC上时，CE+CF取得最小值$2\\sqrt{6}$，即$BC=2\\sqrt{6}$，\n在Rt△OBC中，$OB^{2}+OC^{2}＝BC^{2}$，\n∴$m^{2}+c^{2}$＝24．\n将$c^{2}＝m^{2}$﹣2m代入，得$m^{2}$+（$m^{2}$﹣2m）＝24．\n解得$m_{1}$＝4，$m_{2}$＝﹣3（舍），\n∴$c=2\\sqrt{2}$，\n∴点B（4，0），$C(0，2\\sqrt{2})$，\n∴直线BC的解析式为$y=-\\frac{\\sqrt{2}}{2}x+2\\sqrt{2}$．\n设点F的横坐标为$x_{0}$，则4﹣$x_{0}＝x_{0}$﹣（﹣1），\n得$x_{0}=\\frac{3}{2}$，\n∴点F的坐标为$(\\frac{3}{2}，\\frac{5\\sqrt{2}}{4})$．\n∵线段CE可以看作是由线段AF经过平移得到的，\n∴点E可以看作是点F向右平移一个单位，向上平移$2\\sqrt{2}$个单位得到的，\n∴点E的坐标为$(\\frac{5}{2}，\\frac{13\\sqrt{2}}{4})$．\n【点评】本题考查了二次函数的综合应用，平行四边形的性质，等腰三角形的性质，熟练掌握以上知识是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:33:39；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId66]] ____ [[image:rId67]] ____ [[image:rId68]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的顶点坐标公式",
+          "抛物线与x轴的交点",
+          "平行四边形的性质",
+          "勾股定理"
+        ],
+        "reasoning": "题目涉及二次函数的顶点坐标、抛物线与x轴的交点以及平行四边形的性质和勾股定理。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的顶点坐标公式\", \"抛物线与x轴的交点\", \"平行四边形的性质\", \"勾股定理\"],\n  \"reasoning\": \"题目涉及二次函数的顶点坐标、抛物线与x轴的交点以及平行四边形的性质和勾股定理。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:14:55",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 25,
+      "ok": 25,
+      "fallback": 0
+    }
+  }
+}

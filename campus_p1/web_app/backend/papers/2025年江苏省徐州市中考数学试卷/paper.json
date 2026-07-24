@@ -1,0 +1,1226 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年江苏省徐州市中考数学试卷",
+  "source": {
+    "name": "2025年江苏省徐州市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年江苏省徐州市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "-\\frac{1}{2}的相反数是（ ）",
+      "stem_markdown": "$-\\frac{1}{2}$的相反数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "﹣2"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据只有符号不同的两个数互为相反数，可得答案．\n【解答】解：$-\\frac{1}{2}$的相反数是$\\frac{1}{2}$，\n故选：A．\n【点评】本题考查了相反数，在一个数的前面加上负号就是这个数的相反数．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相反数的概念"
+        ],
+        "reasoning": "题中要求找出-\frac{1}{2}的相反数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相反数的概念\"],\n  \"reasoning\": \"题中要求找出-\\frac{1}{2}的相反数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "传统纹样作为中华传统文化的一部分，具有深厚的底蕴．徐州出土汉代玉器的下列纹样，既是轴对称图形又是中心对称图形的是（ ）",
+      "stem_markdown": "传统纹样作为中华传统文化的一部分，具有深厚的底蕴．徐州出土汉代玉器的下列纹样，既是轴对称图形又是中心对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年江苏省徐州市中考数学试卷_q002_img01](assets/2025年江苏省徐州市中考数学试卷_q002_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年江苏省徐州市中考数学试卷_q002_img02](assets/2025年江苏省徐州市中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年江苏省徐州市中考数学试卷_q002_img03](assets/2025年江苏省徐州市中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年江苏省徐州市中考数学试卷_q002_img04](assets/2025年江苏省徐州市中考数学试卷_q002_img04.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据轴对称图形和中心对称图形的定义进行判断即可．\n【解答】解：A、图形是轴对称图形，不是中心对称图形，不符合题意；\nB、图形既是轴对称图形又是中心对称图形，符合题意；\nC、图形不是轴对称图形，是中心对称图形，不符合题意；\nD、图形不是轴对称图形，也不是中心对称图形，不符合题意；\n故选：B．\n【点评】本题考查了轴对称图形和中心对称图形，熟知中心对称图形是指图形绕着某个点旋转180°能与原来的图形重合；轴对称图形是指图形沿一条直线折叠，直线两旁的部分能够完全重合是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q002_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q002_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q002_img02",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q002_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q002_img03",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q002_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q002_img04",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q002_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "轴对称图形",
+          "中心对称图形"
+        ],
+        "reasoning": "设问要求判断哪个纹样既是轴对称又是中心对称，考察了轴对称和中心对称的概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"轴对称图形\", \"中心对称图形\"],\n  \"reasoning\": \"设问要求判断哪个纹样既是轴对称又是中心对称，考察了轴对称和中心对称的概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "一只不透明的袋子中装有4个红球与2个黑球，每个球除颜色外都相同．从中任意摸出3个球，下列事件为必然事件的是（ ）",
+      "stem_markdown": "一只不透明的袋子中装有4个红球与2个黑球，每个球除颜色外都相同．从中任意摸出3个球，下列事件为必然事件的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "至多有1个球是红球"
+        },
+        {
+          "label": "B",
+          "text": "至多有1个球是黑球"
+        },
+        {
+          "label": "C",
+          "text": "至少有1个球是红球"
+        },
+        {
+          "label": "D",
+          "text": "至少有1个球是黑球"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】分析可能出现的情况，得出必然事件．\n【解答】解：摸出3个球，可能为3个红球，或2个红球1个黑球，或1个红球2个黑球，\n∴至少有1个球是红球，\n故选：C．\n【点评】本题考查了随机事件，掌握必然事件的定义是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "组合概率",
+          "必然事件"
+        ],
+        "reasoning": "选项C描述的事件在所有可能的摸球结果中总是成立的",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"组合概率\", \"必然事件\"],\n  \"reasoning\": \"选项C描述的事件在所有可能的摸球结果中总是成立的\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "下列运算正确的是（ ）",
+      "stem_markdown": "下列运算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3a^{2}﹣2a^{2}$＝1"
+        },
+        {
+          "label": "B",
+          "text": "$(a^{2})^{3}＝a^{5}$"
+        },
+        {
+          "label": "C",
+          "text": "（3a）^{2}＝$6a^{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$a^{2}•a^{4}＝a^{6}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据同类项、幂的乘方、同底数幂的乘法计算即可．\n【解答】解：A、$3a^{2}﹣2a^{2}＝a^{2}$，错误；\nB、$(a^{2})^{3}＝a^{6}$，错误；\nC、（3a）^{2}＝$9a^{2}$，错误；\nD、$a^{2}•a^{4}＝a^{6}$，正确；\n故选：D．\n【点评】此题考查同类项、幂的乘方、同底数幂的乘法，关键是根据法则进行计算．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同类项",
+          "幂的乘方",
+          "同底数幂的乘法"
+        ],
+        "reasoning": "选项D涉及$a^2 \\cdot a^4 = a^6$的计算，考察同底数幂的乘法。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同类项\", \"幂的乘方\", \"同底数幂的乘法\"],\n  \"reasoning\": \"选项D涉及$a^2 \\cdot a^4 = a^6$的计算，考察同底数幂的乘法。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "使\\sqrt{x-1}有意义的x的取值范围是（ ）",
+      "stem_markdown": "使$\\sqrt{x-1}$有意义的x的取值范围是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x≠1"
+        },
+        {
+          "label": "B",
+          "text": "x≥1"
+        },
+        {
+          "label": "C",
+          "text": "x＞1"
+        },
+        {
+          "label": "D",
+          "text": "x≥0"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】先根据二次根式有意义的条件列出关于x的不等式，求出x的取值范围即可．\n【解答】解：∵$\\sqrt{x-1}$有意义，\n∴x﹣1≥0，即x≥1．\n故选：B．\n【点评】本题考查的是二次根式有意义的条件，熟知二次根式具有非负性是解答此题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式的意义",
+          "一元一次不等式的解法"
+        ],
+        "reasoning": "题中条件列出关于x的不等式x-1≥0，求解x的取值范围",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式的意义\", \"一元一次不等式的解法\"],\n  \"reasoning\": \"题中条件列出关于x的不等式x-1≥0，求解x的取值范围\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "下列计算错误的是（ ）",
+      "stem_markdown": "下列计算错误的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sqrt{2}+\\sqrt{3}=\\sqrt{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{2}×\\sqrt{3}=\\sqrt{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{8}÷\\sqrt{2}=2$"
+        },
+        {
+          "label": "D",
+          "text": "$(-\\sqrt{3})^{2}=3$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据二次根式的性质和运算法则逐一计算可得．\n【解答】解：A、$\\sqrt{2}$、$\\sqrt{3}$不能合并，此选项计算错误，符合题意；\nB、$\\sqrt{2}×\\sqrt{3}=\\sqrt{6}$，计算正确，此选项不符合题意；\nC、$\\sqrt{8}÷\\sqrt{2}=2$，计算正确，此选项不符合题意；\nD、$(-\\sqrt{3})^{2}=3$，计算正确，此选项不符合题意；\n故选：A．\n【点评】本题主要考查二次根式的混合运算，解题的关键是熟练掌握二次根式的性质和运算法则．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式的性质",
+          "二次根式的乘法",
+          "二次根式的除法",
+          "二次根式的平方"
+        ],
+        "reasoning": "选项A中的计算违反了二次根式的加法原则，其他选项均正确。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式的性质\", \"二次根式的乘法\", \"二次根式的除法\", \"二次根式的平方\"],\n  \"reasoning\": \"选项A中的计算违反了二次根式的加法原则，其他选项均正确。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "如图为一个正方体的展开图，将其折成一个正方体，所得图形可能是（ ）\n[图1]",
+      "stem_markdown": "如图为一个正方体的展开图，将其折成一个正方体，所得图形可能是（ ）\n![2025年江苏省徐州市中考数学试卷_q007_img01](assets/2025年江苏省徐州市中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年江苏省徐州市中考数学试卷_q007_img02](assets/2025年江苏省徐州市中考数学试卷_q007_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年江苏省徐州市中考数学试卷_q007_img03](assets/2025年江苏省徐州市中考数学试卷_q007_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年江苏省徐州市中考数学试卷_q007_img04](assets/2025年江苏省徐州市中考数学试卷_q007_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年江苏省徐州市中考数学试卷_q007_img05](assets/2025年江苏省徐州市中考数学试卷_q007_img05.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据正方体表面展开图的特征进行判断即可．\n【解答】解：根据正方体表面展开图的特征以及各个面上“线”以及方向可知，选项B中几何体符合题意，\n故选：B．\n【点评】本题考查展开图折叠成几何体，掌握正方体表面展开图的特征是正确解答的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q007_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q007_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q007_img02",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q007_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q007_img03",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q007_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q007_img04",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q007_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q007_img05",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q007_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "立体图形的展开与折叠",
+          "正方体的六个面"
+        ],
+        "reasoning": "题干描述了正方体的展开图，要求判断哪个选项能正确折叠成正方体。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"立体图形的展开与折叠\", \"正方体的六个面\"],\n  \"reasoning\": \"题干描述了正方体的展开图，要求判断哪个选项能正确折叠成正方体。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图为一次函数y＝kx+b的图象，关于x的不等式k（x﹣3）+b＜0的解集为（ ）\n[图1]",
+      "stem_markdown": "如图为一次函数y＝kx+b的图象，关于x的不等式k（x﹣3）+b＜0的解集为（ ）\n![2025年江苏省徐州市中考数学试卷_q008_img01](assets/2025年江苏省徐州市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "x＜﹣4"
+        },
+        {
+          "label": "B",
+          "text": "x＞﹣4"
+        },
+        {
+          "label": "C",
+          "text": "x＜2"
+        },
+        {
+          "label": "D",
+          "text": "x＞2"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】观察函数图象得到即可．\n【解答】解：由图象可得：当x＜﹣1时，kx+b＜0，\n所以关于x的不等式kx+b＜0的解集是x＜﹣1，\n所以关于x的不等式k（x﹣3）+b＜0的解集是x﹣3＜﹣1，\n所以解集为x＜2，\n故选：C．\n【点评】本题考查了一次函数与一元一次不等式的关系：从函数的角度看，就是寻求使一次函数y＝ax+b的值大于（或小于）0的自变量x的取值范围；从函数图象的角度看，就是确定直线y＝kx+b在x轴上（或下）方部分所有的点的横坐标所构成的集合．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q008_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数图像的应用",
+          "一元一次不等式的解法",
+          "不等式与函数关系"
+        ],
+        "reasoning": "题中通过一次函数图像判断不等式的解集",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数图像的应用\", \"一元一次不等式的解法\", \"不等式与函数关系\"],\n  \"reasoning\": \"题中通过一次函数图像判断不等式的解集\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "2025年“五一”假期，约有166200人次的参观者走进淮塔园林接受红色教育．将166200用科学记数法表示为 ____ ．",
+      "stem_markdown": "2025年“五一”假期，约有166200人次的参观者走进淮塔园林接受红色教育．将166200用科学记数法表示为 ____ ．",
+      "options": [],
+      "answer": "1.662×10^{5}．",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：166200＝1.662×10^{5}．\n故答案为：1.662×10^{5}．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法"
+        ],
+        "reasoning": "题目要求将166200用科学记数法表示，这是科学记数法的定义。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\"],\n  \"reasoning\": \"题目要求将166200用科学记数法表示，这是科学记数法的定义。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "小明家1～5月的电费（单位：元）分别为：137，140，140，117，104．该组数据的中位数是 ____ ．",
+      "stem_markdown": "小明家1～5月的电费（单位：元）分别为：137，140，140，117，104．该组数据的中位数是 ____ ．",
+      "options": [],
+      "answer": "137．",
+      "solution": "【分析】将数据从小到大排列之后，得出中位数．\n【解答】解：将数据从小到大排列为：104，117，137，140，140，\n∴中位数为137，\n故答案为：137．\n【点评】本题考查了中位数，掌握中位数的定义是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "排序",
+          "中位数"
+        ],
+        "reasoning": "将数据从小到大排列后找出中间位置的数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"排序\", \"中位数\"],\n  \"reasoning\": \"将数据从小到大排列后找出中间位置的数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "若二元一次方程组\\begin{cases} 3x+y=3 \\\\ 2x-y=2 \\end{cases}的解为\\begin{cases} x=a \\\\ y=b \\end{cases}，则a+b的值为 ____ ．",
+      "stem_markdown": "若二元一次方程组$\\begin{cases} 3x+y=3 \\\\ 2x-y=2 \\end{cases}$的解为$\\begin{cases} x=a \\\\ y=b \\end{cases}$，则a+b的值为 ____ ．",
+      "options": [],
+      "answer": "1．",
+      "solution": "【分析】由题意可知$\\begin{cases} 3a+b=3 \\\\ 2a-b=2 \\end{cases}$，解二元一次方程组即可求解．\n【解答】解：∵二元一次方程组$\\begin{cases} 3x+y=3 \\\\ 2x-y=2 \\end{cases}$的解为$\\begin{cases} x=a \\\\ y=b \\end{cases}$，\n∴$\\begin{cases} 3a+b=3① \\\\ 2a-b=2② \\end{cases}$，\n①+②得5a＝5，\n解得a＝1，\n将a＝1代入①得b＝0，\n∴a+b＝1+0＝1，\n故答案为：1．\n【点评】本题考查二元一次方程组的解法，熟练掌握加减消元法解二元一次方程组是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二元一次方程组的解法",
+          "加减消元法"
+        ],
+        "reasoning": "通过解二元一次方程组得到 a 和 b 的值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二元一次方程组的解法\", \"加减消元法\"],\n  \"reasoning\": \"通过解二元一次方程组得到 a 和 b 的值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "分式方程\\frac{3}{x}=\\frac{2}{x-3}的解为 ____ ．",
+      "stem_markdown": "分式方程$\\frac{3}{x}=\\frac{2}{x-3}$的解为 ____ ．",
+      "options": [],
+      "answer": "x＝9．",
+      "solution": "【分析】根据分式方程的步骤进行计算．\n【解答】解：$\\frac{3}{x}=\\frac{2}{x-3}$，\n3（x﹣3）＝2x，\n3x﹣9＝2x，\nx＝9，\n经检验，x＝9是原方程的解，\n故答案为：x＝9．\n【点评】本题考查了解分式方程，掌握解分式方程的步骤是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程的解法",
+          "去分母",
+          "移项",
+          "等式的性质"
+        ],
+        "reasoning": "解方程过程中去分母和移项考察了分式方程的解法",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程的解法\", \"去分母\", \"移项\", \"等式的性质\"],\n  \"reasoning\": \"解方程过程中去分母和移项考察了分式方程的解法\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "若点A（6，y₁），B（5，y₂）都在函数y=\\frac{-2}{x}的图象上，则y₁ ____ y₂（填“＞”“＝”或“＜”）．",
+      "stem_markdown": "若点A（6，$y_{1}$），B（5，$y_{2}$）都在函数$y=\\frac{-2}{x}$的图象上，则$y_{1}$ ____ $y_{2}$（填“＞”“＝”或“＜”）．",
+      "options": [],
+      "answer": "＞．",
+      "solution": "【分析】根据反比例函数的性质即可解决问题．\n【解答】解：由题知，\n因为反比例函数的解析式为$y=\\frac{-2}{x}$，\n所以反比例函数的图象位于第二、四象限，且在每个象限内y随x的增大而增大．\n又因为点A（6，$y_{1}$），B（5，$y_{2}$）都在该反比例函数的图象上，且6＞5＞0，\n所以$y_{1}$＞$y_{2}$．\n故答案为：＞．\n【点评】本题主要考查了反比例函数图象上点的坐标特征，熟知反比例函数的图象与性质是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的性质",
+          "反比例函数图象的位置",
+          "反比例函数图象上的点的坐标特征"
+        ],
+        "reasoning": "题中通过点A和B在反比例函数图象上的位置比较y₁和y₂的大小",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的性质\", \"反比例函数图象的位置\", \"反比例函数图象上的点的坐标特征\"],\n  \"reasoning\": \"题中通过点A和B在反比例函数图象上的位置比较y₁和y₂的大小\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，E，F，G，H分别为矩形ABCD各边的中点．若AB＝3，BC＝4，则四边形EFGH的周长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，E，F，G，H分别为矩形ABCD各边的中点．若AB＝3，BC＝4，则四边形EFGH的周长为 ____ ．\n![2025年江苏省徐州市中考数学试卷_q014_img01](assets/2025年江苏省徐州市中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "10．",
+      "solution": "【分析】由勾股定理可求AC的长，由三角形中位线定理可求EH＝FG$=\\frac{1}{2}$BD$=\\frac{5}{2}$，EF＝HG$=\\frac{1}{2}$AC$=\\frac{5}{2}$，即可求解．\n【解答】解：如图，连接AC，BD，\n∵AB＝3，BC＝4，\n∴AC$=\\sqrt{AB^{2}+BC^{2}}=$5，\n∵四边形ABCD是矩形，\n∴AC＝BD＝5，\n∵E，F，G，H分别为矩形ABCD各边的中点，\n∴EH＝FG$=\\frac{1}{2}$BD$=\\frac{5}{2}$，EF＝HG$=\\frac{1}{2}$AC$=\\frac{5}{2}$，\n∴四边形EFGH的周长＝4$×\\frac{5}{2}=$10，\n故答案为：10．\n[[image:rId42]]\n【点评】本题考查了矩形的性质，中点四边形，三角形中位线定理，勾股定理，灵活运用这些性质解决问题是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q014_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中点四边形的性质",
+          "三角形中位线定理",
+          "勾股定理"
+        ],
+        "reasoning": "题中利用中点四边形的性质和三角形中位线定理计算边长",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中点四边形的性质\", \"三角形中位线定理\", \"勾股定理\"],\n  \"reasoning\": \"题中利用中点四边形的性质和三角形中位线定理计算边长\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，将三角形纸片ABC折叠，使点A落在边BC上的点D处，折痕为CE．若△ABC的面积为8，△BCE的面积为5，则BD：DC＝ ____ ．\n[图1]",
+      "stem_markdown": "如图，将三角形纸片ABC折叠，使点A落在边BC上的点D处，折痕为CE．若△ABC的面积为8，△BCE的面积为5，则BD：DC＝ ____ ．\n![2025年江苏省徐州市中考数学试卷_q015_img01](assets/2025年江苏省徐州市中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "2：3．",
+      "solution": "【分析】由折叠的性质可得$S_{△}_{DEC}＝S_{△}_{AEC}$＝3，由面积关系可求解．\n【解答】解：∵△ABC的面积为8，△BCE的面积为5，\n∴△ACE的面积为3，\n∵将三角形纸片ABC折叠，使点A落在边BC上的点D处，\n∴$S_{△}_{DEC}＝S_{△}_{AEC}$＝3，\n∴△BDE的面积为2，\n∴BD：DC＝$S_{△}_{BDE}：S_{△}_{DEC}$＝2：3；\n故答案为：2：3．\n【点评】本题考查了翻折变换，掌握折叠的性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q015_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的面积比等于对应边的比",
+          "翻折变换的性质"
+        ],
+        "reasoning": "面积比等于对应边的比，翻折后对应边相等",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的面积比等于对应边的比\", \"翻折变换的性质\"],\n  \"reasoning\": \"面积比等于对应边的比，翻折后对应边相等\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "二次函数y＝x²+x+1的最小值为 ____ ．",
+      "stem_markdown": "二次函数y＝$x^{2}$+x+1的最小值为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{3}{4}$．",
+      "solution": "【分析】先将二次函数解析式配成顶点式，再得出最小值．\n【解答】解：∵y＝$x^{2}$+x+1$=(x+\\frac{1}{2})^{2}+\\frac{3}{4}$，\n∴最小值为$\\frac{3}{4}$，\n故答案为：$\\frac{3}{4}$．\n【点评】本题考查了二次函数的最值，掌握顶点式是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "配方法",
+          "二次函数顶点式"
+        ],
+        "reasoning": "通过配方法将二次函数化为顶点式得到最小值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"配方法\", \"二次函数顶点式\"],\n  \"reasoning\": \"通过配方法将二次函数化为顶点式得到最小值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "blank",
+      "stem_text": "如图所示，用黑白两色棋子摆图形，依此规律，第n个图形中黑色棋子的个数为 ____ （用含n的代数式表示）．\n[图1]",
+      "stem_markdown": "如图所示，用黑白两色棋子摆图形，依此规律，第n个图形中黑色棋子的个数为 ____ （用含n的代数式表示）．\n![2025年江苏省徐州市中考数学试卷_q017_img01](assets/2025年江苏省徐州市中考数学试卷_q017_img01.png)",
+      "options": [],
+      "answer": "3n+1．",
+      "solution": "【分析】根所给图形，依次求出图形中黑色棋子的个数，发现规律即可解决问题．\n【解答】解：由所给图形可知，\n第1个图形中黑色棋子的个数为：4＝1×3+1；\n第2个图形中黑色棋子的个数为：7＝2×3+1；\n第3个图形中黑色棋子的个数为：10＝3×3+1；\n…，\n所以第n个图形中黑色棋子的个数为3n+1．\n故答案为：3n+1．\n【点评】本题主要考查了图形变化的规律，能根据所给图形发现黑色棋子的个数依次增加3是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q017_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等差数列",
+          "观察与归纳"
+        ],
+        "reasoning": "通过观察前几个图形中黑色棋子的数量，发现数量随图形编号n的变化规律",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等差数列\", \"观察与归纳\"],\n  \"reasoning\": \"通过观察前几个图形中黑色棋子的数量，发现数量随图形编号n的变化规律\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "blank",
+      "stem_text": "如图为二次函数y＝ax²+bx+c的图象，下列代数式的值为负数的是 ____ （写出所有正确结果的序号）．\n①a；\n②2a+b；\n③c；\n④b²﹣4ac；\n⑤a﹣b+c．\n[图1]",
+      "stem_markdown": "如图为二次函数y＝$ax^{2}$+bx+c的图象，下列代数式的值为负数的是 ____ （写出所有正确结果的序号）．\n①a；\n②2a+b；\n③c；\n④$b^{2}$﹣4ac；\n⑤a﹣b+c．\n![2025年江苏省徐州市中考数学试卷_q018_img01](assets/2025年江苏省徐州市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "①②⑤．",
+      "solution": "【分析】根据抛物线与x轴（y轴）的交点，开口方向，对称轴及特殊点的函数值，逐一判断符号．\n【解答】解：由图示知，抛物线开口方向向下，则a＜0；\n由图示知，对称轴为直线x$=-\\frac{b}{2a}＜$1，故2a+b＜0；\n由图示知，抛物线与y轴交于正半轴，则c＞0；\n由图示知，抛物线与x轴有2个交点，$b^{2}$﹣4ac＞0．\n由图示知，当x＝﹣1时，抛物线在x轴的下方，\n∴y＝a﹣b+c＜0，\n综上所述，代数式的值为负数的是①②⑤．\n故答案为：①②⑤．\n【点评】本题考查了二次函数图象与系数的关系．关键是根据图象与坐标轴的交点，开口方向，对称轴，顶点坐标，特殊点的函数值进行判断．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q018_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数图像与系数关系",
+          "抛物线开口方向",
+          "对称轴位置",
+          "抛物线与x轴交点"
+        ],
+        "reasoning": "根据抛物线开口方向、对称轴位置和与x轴交点判断代数式的符号",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数图像与系数关系\", \"抛物线开口方向\", \"对称轴位置\", \"抛物线与x轴交点\"],\n  \"reasoning\": \"根据抛物线开口方向、对称轴位置和与x轴交点判断代数式的符号\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "计算：\n（1）(-1)^{2025}+2026^{0}-(\\frac{1}{3})^{-1}+\\sqrt[3]{27}；\n（2）(1+\\frac{1}{x-1})÷\\frac{x}{x^{2}-1}．",
+      "stem_markdown": "计算：\n（1）$(-1)^{2025}+2026^{0}-(\\frac{1}{3})^{-1}+\\sqrt[3]{27}$；\n（2）$(1+\\frac{1}{x-1})÷\\frac{x}{x^{2}-1}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先化简，再计算即可；\n（2）根据分式的化简方式进行计算即可．\n【解答】解：（1）$(-1)^{2025}+2026^{0}-(\\frac{1}{3})^{-1}+\\sqrt[3]{27}$\n＝﹣1+1﹣3+3\n＝0；\n（2）$(1+\\frac{1}{x-1})÷\\frac{x}{x^{2}-1}$\n$=\\frac{x-1+1}{x-1}⋅\\frac{(x+1)(x-1)}{x}$\n$=\\frac{x}{x-1}⋅\\frac{(x+1)(x-1)}{x}$\n＝x+1．\n【点评】本题考查了实数的运算，分式的运算，掌握运算法则是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "幂的运算",
+          "零指数幂",
+          "负整数指数幂",
+          "立方根"
+        ],
+        "reasoning": "(1) 考察了幂的运算、零指数幂和负整数指数幂的概念",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"幂的运算\", \"零指数幂\", \"负整数指数幂\", \"立方根\"],\n  \"reasoning\": \"(1) 考察了幂的运算、零指数幂和负整数指数幂的概念\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "（1）解方程：x²+2x﹣4＝0；\n（2）解不等式组：\\begin{cases} 2x-1＜3 \\\\ -\\frac{x}{2}＜2 \\end{cases}．",
+      "stem_markdown": "（1）解方程：$x^{2}$+2x﹣4＝0；\n（2）解不等式组：$\\begin{cases} 2x-1＜3 \\\\ -\\frac{x}{2}＜2 \\end{cases}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）用配方法解方程即可；\n（2）分别求每一个一元一次不等式，再求不等式组的解集即可．\n【解答】解：（1）$x^{2}$+2x﹣4＝0，\n（x+1）^{2}＝5，\n∴x+1$=\\sqrt{5}$或x+1$=-\\sqrt{5}$，\n解得x$=\\sqrt{5}-$1或x$=-\\sqrt{5}-$1；\n（2）$\\begin{cases} 2x-1＜3① \\\\ -\\frac{x}{2}＜2② \\end{cases}$，\n由①得x＜2，\n由②得x＞﹣4，\n∴不等式组的解集为﹣4＜x＜2．\n【点评】本题考查解一元一次方程组，解二元一次方程，熟练掌握解二元一次方程的方法，解一元一次不等式组的方法是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程的解法",
+          "一元一次不等式的解法",
+          "不等式组的解法"
+        ],
+        "reasoning": "题目要求解一元二次方程和一元一次不等式组，涉及配方法、解一元一次不等式和不等式组的求解。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程的解法\", \"一元一次不等式的解法\", \"不等式组的解法\"],\n  \"reasoning\": \"题目要求解一元二次方程和一元一次不等式组，涉及配方法、解一元一次不等式和不等式组的求解。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，甲、乙为两个可以自由转动的转盘，它们分别被分成了4等份与3等份，每份内均标有字母，转盘停止转动后，若指针落在两个区域的交线上，则重转一次．\n（1）转动甲盘，待其停止转动后，指针落在A区域的概率为 ____ ；\n（2）转动甲、乙两个转盘，用列表或画树状图的方法，求转盘停止转动后甲盘指针落在C区域且乙盘指针未落在Q区域的概率．\n[图1]",
+      "stem_markdown": "如图，甲、乙为两个可以自由转动的转盘，它们分别被分成了4等份与3等份，每份内均标有字母，转盘停止转动后，若指针落在两个区域的交线上，则重转一次．\n（1）转动甲盘，待其停止转动后，指针落在A区域的概率为 ____ ；\n（2）转动甲、乙两个转盘，用列表或画树状图的方法，求转盘停止转动后甲盘指针落在C区域且乙盘指针未落在Q区域的概率．\n![2025年江苏省徐州市中考数学试卷_q021_img01](assets/2025年江苏省徐州市中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "$\\frac{1}{4}$",
+      "solution": "【分析】（1）直接由概率公式求解即可；\n（2）画树状图，共有12种等可能的结果，其中转盘停止转动后甲盘指针落在C区域且乙盘指针未落在Q区域的结果有2种，再由概率公式求解即可．\n【解答】解：（1）转动甲盘，待其停止转动后，指针落在A区域的概率为$\\frac{1}{4}$，\n故答案为：$\\frac{1}{4}$；\n（2）画树状图如下：\n[[image:rId47]]\n共有12种等可能的结果，其中转盘停止转动后甲盘指针落在C区域且乙盘指针未落在Q区域的结果有2种，\n∴转盘停止转动后甲盘指针落在C区域且乙盘指针未落在Q区域的概率为$\\frac{2}{12}=\\frac{1}{6}$．\n【点评】此题考查的是树状图法求概率．树状图法适合两步或两步以上完成的事件；解题时要注意此题是放回试验还是不放回试验．用到的知识点为：概率＝所求情况数与总情况数之比．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q021_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率计算",
+          "树状图法",
+          "等可能事件"
+        ],
+        "reasoning": "第（2）问使用树状图法列出所有可能结果并计算满足条件的结果数",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率计算\", \"树状图法\", \"等可能事件\"],\n  \"reasoning\": \"第（2）问使用树状图法列出所有可能结果并计算满足条件的结果数\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "为了解某景区外地自驾游客的分布情况，某日小桐随机调查了该景区附近部分宾馆停车场的车辆数，根据车牌号归属地的不同，绘制了如图统计图（不完整）：\n[图1]\n根据图中信息，解答下列问题．\n（1）小桐共调查了 ____ 辆车，“豫”对应扇形的圆心角为 ____ °；\n（2）补全条形统计图；\n（3）若该景区附近宾馆停车场当日共有450辆外地自驾游客的车辆，估计其中车牌号归属地为“皖”的车辆有多少？",
+      "stem_markdown": "为了解某景区外地自驾游客的分布情况，某日小桐随机调查了该景区附近部分宾馆停车场的车辆数，根据车牌号归属地的不同，绘制了如图统计图（不完整）：\n![2025年江苏省徐州市中考数学试卷_q022_img01](assets/2025年江苏省徐州市中考数学试卷_q022_img01.png)\n根据图中信息，解答下列问题．\n（1）小桐共调查了 ____ 辆车，“豫”对应扇形的圆心角为 ____ °；\n（2）补全条形统计图；\n（3）若该景区附近宾馆停车场当日共有450辆外地自驾游客的车辆，估计其中车牌号归属地为“皖”的车辆有多少？",
+      "options": [],
+      "answer": "150，36",
+      "solution": "【分析】（1）利用车牌号归属地为“苏”车辆数除以对应的百分比即可得本次抽样调查的样本容量，利用360°×“豫”对应百分比求解即可；\n（2）先求出“鲁”的车辆数即可补全条形统计图；\n（3）利用“皖”的车辆×“皖”对应的百分比求解即可．\n【解答】解：（1）小桐共调查了75÷50%＝150（辆）车，“豫”对应扇形的圆心角为360°$×\\frac{15}{150}=$36°，\n故答案为：150，36；\n（2）车牌号归属地为“鲁”的车辆有150×18%＝27，\n补全条形统计图如图所示；\n[[image:rId49]]\n（3）450$×\\frac{21}{150}=$63（辆），\n答：其中车牌号归属地为“皖”的车辆有63辆．\n【点评】本题考查的是条形统计图和扇形统计图的综合运用，读懂统计图，从不同的统计图中得到必要的信息是解决问题的关键．条形统计图能清楚地表示出每个项目的数据；扇形统计图直接反映部分占总体的百分比大小．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q022_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率分布直方图",
+          "扇形统计图",
+          "样本估计总体"
+        ],
+        "reasoning": "第（1）问利用样本容量计算公式和扇形统计图中角度计算",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率分布直方图\", \"扇形统计图\", \"样本估计总体\"],\n  \"reasoning\": \"第（1）问利用样本容量计算公式和扇形统计图中角度计算\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "已知：如图，在▱ABCD中，E为BC的中点，EF⊥AC于点G，交AD于点F，AB⊥AC，连接AE，CF．求证：\n（1）△AGF≌△CGE；\n（2）四边形AECF是菱形．\n[图1]",
+      "stem_markdown": "已知：如图，在▱ABCD中，E为BC的中点，EF⊥AC于点G，交AD于点F，AB⊥AC，连接AE，CF．求证：\n（1）△AGF≌△CGE；\n（2）四边形AECF是菱形．\n![2025年江苏省徐州市中考数学试卷_q023_img01](assets/2025年江苏省徐州市中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由直角三角形的性质可得AE＝BE＝EC，由等腰三角形的性质可得AG＝GC，由ASA可证△AGF≌△CGE；\n（2）由全等三角形的性质可得AF＝CE，可证四边形AECF是平行四边形，由EF⊥AC，可证▱AECF是菱形．\n【解答】证明：（1）∵AB⊥AC，E为BC的中点，\n∴AE＝BE＝EC，\n∵EF⊥AC，\n∴EF垂直平分AC，\n∴AG＝GC，\n∵四边形ABCD是平行四边形，\n∴AD∥BC，\n∴∠DAC＝∠ACB，\n又∵∠AGF＝∠CGE，\n∴△AGF≌△CGE（ASA）；\n（2）∵△AGF≌△CGE，\n∴AF＝CE，\n又∵AF∥CE，\n∴四边形AECF是平行四边形，\n又∵EF⊥AC，\n∴▱AECF是菱形．\n【点评】本题考查了菱形的判定，平行四边形的性质，全等三角形的判定和性质，直角三角形的性质，证明△AGF≌△CGE是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q023_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形的性质",
+          "等腰三角形的性质",
+          "全等三角形的判定和性质",
+          "平行四边形的性质"
+        ],
+        "reasoning": "题目通过AB⊥AC和EF⊥AC证明△AGF≌△CGE，利用平行四边形的性质和EF⊥AC证明四边形AECF是菱形。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形的性质\", \"等腰三角形的性质\", \"全等三角形的判定和性质\", \"平行四边形的性质\"],\n  \"reasoning\": \"题目通过AB⊥AC和EF⊥AC证明△AGF≌△CGE，利用平行四边形的性质和EF⊥AC证明四边形AECF是菱形。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，⊙O为正三角形ABC的外接圆，直线CD经过点C，CD∥AB．\n（1）判断直线CD与⊙O的位置关系，并说明理由；\n（2）若圆的半径为2，求图中阴影部分的面积．\n[图1]",
+      "stem_markdown": "如图，⊙O为正三角形ABC的外接圆，直线CD经过点C，CD∥AB．\n（1）判断直线CD与⊙O的位置关系，并说明理由；\n（2）若圆的半径为2，求图中阴影部分的面积．\n![2025年江苏省徐州市中考数学试卷_q024_img01](assets/2025年江苏省徐州市中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由等边三角形的性质可得∠ABC＝∠ACB＝∠A＝60°，由等腰三角形的性质可求∠OCB＝30°，由平行线的性质可得∠ABC＝∠BCD＝60°，即可求解；\n（2）由扇形的面积公式和三角形的面积公式可求解．\n【解答】解：（1）CD与⊙O相切，理由如下：\n如图，连接OB，OC，\n∵△ABC是等边三角形，\n∴∠ABC＝∠ACB＝∠A＝60°，\n∴∠BOC＝120°，\n∵OB＝OC，\n∴∠OCB＝30°，\n∵CD∥AB，\n∴∠ABC＝∠BCD＝60°，\n∴∠OCD＝∠BCO+∠BCD＝90°，\n∴OC⊥CD，\n又∵OC是半径，\n∴CD与⊙O相切；\n（2）如图，过点O作OH⊥BC于H，\n∵OB＝OC＝2，∠OCB＝30°，\n∴OH＝1，BH＝CH$=\\sqrt{3}$，\n∴BC＝2$\\sqrt{3}$，\n∴$S_{阴影}＝S_{扇形}_{OBC}﹣S_{△}_{BOC}=\\frac{120×π×2^{2}}{360}-$$\\frac{1}{2}×$2$\\sqrt{3}×$1$=\\frac{4π}{3}-\\sqrt{3}$．\n[[image:rId52]]\n【点评】本题考查了直线与圆的位置的关系，等边三角形的性质，扇形面积公式，灵活运用这些性质解决问题是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q024_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的性质",
+          "平行线的性质",
+          "直角三角形的性质",
+          "扇形面积公式"
+        ],
+        "reasoning": "（1）通过等边三角形性质得出角度关系，利用平行线性质得出∠OCD=90°判断CD与⊙O位置关系；（2）利用扇形面积公式计算阴影部分面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的性质\", \"平行线的性质\", \"直角三角形的性质\", \"扇形面积公式\"],\n  \"reasoning\": \"（1）通过等边三角形性质得出角度关系，利用平行线性质得出∠OCD=90°判断CD与⊙O位置关系；（2）利用扇形面积公式计算阴影部分面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "下圆墩是“彭城七里”的起点，也是徐州城市历史的源头．某校数学综合与实践小组到下圆墩遗址公园参观，发现一处三角形的景观墙（如图），记作△ABC，同学们测得BC＝22.2m，∠B＝34.2°，∠C＝9.8°，求AC的长度．（精确到0.1m，参考数据：sin34.2°≈0.56，cos34.2°≈0.83，tan34.2°≈0.68，sin9.8°≈0.17，cos9.8°≈0.99，tan9.8°≈0.17）\n[图1]",
+      "stem_markdown": "下圆墩是“彭城七里”的起点，也是徐州城市历史的源头．某校数学综合与实践小组到下圆墩遗址公园参观，发现一处三角形的景观墙（如图），记作△ABC，同学们测得BC＝22.2m，∠B＝34.2°，∠C＝9.8°，求AC的长度．（精确到0.1m，参考数据：sin34.2°≈0.56，cos34.2°≈0.83，tan34.2°≈0.68，sin9.8°≈0.17，cos9.8°≈0.99，tan9.8°≈0.17）\n![2025年江苏省徐州市中考数学试卷_q025_img01](assets/2025年江苏省徐州市中考数学试卷_q025_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】如图，过A作AD⊥BC于D，则∠ADB＝∠ADC＝90°，设BD＝x，可得CD＝（22.2﹣x）m，再进一步利用三角函数求解即可．\n【解答】解：如图，过A作AD⊥BC于D，则∠ADB＝∠ADC＝90°，\n[[image:rId54]]\n设BD＝xm，而BC＝22.2m，\n∴CD＝（22.2﹣x）m，\n在Rt△ABD中，∠B＝34.2°，\n∴$tanB=\\frac{AD}{BD}=\\frac{AD}{X}=tan34.2°≈0.68$，\n∴AD＝0.68x，\n在Rt△ACD中，∠C＝9.8°，\n∴$tanC=\\frac{AD}{CD}=\\frac{0.68x}{22.2-x}=tan9.8°≈0.17$，\n∴3.774﹣0.17x＝0.68x，\n解得：x＝4.44，\n∴$cosC=\\frac{CD}{AC}=\\frac{22.2-4.44}{AC}=cos9.8°≈0.99$，\n∴$AC=\\frac{17.76}{0.99}≈17.9(m)$，\n∴AC的长度约为17.9m．\n【点评】本题考查的是解直角三角形的实际应用，掌握其性质是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q025_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "余弦函数",
+          "勾股定理"
+        ],
+        "reasoning": "通过计算正切和余弦值确定角度关系，进而求解边长",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"余弦函数\", \"勾股定理\"],\n  \"reasoning\": \"通过计算正切和余弦值确定角度关系，进而求解边长\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "“连弧纹镜”为战国至两汉时期备受推崇的铜镜设计，通常由六到十二个连续的等弧连成一圈，构成了别具一格的装饰图案．图1为徐州博物馆藏“八连弧纹镜”，纹饰中有八个连续的等弧连成一圈．图2为另一件连弧纹镜（残件）的示意图．\n（1）若将图2中的连弧纹镜补全，则该铜镜应为“ ____ 连弧纹镜”；\n（2）请用无刻度的直尺与圆规，补全图2中所有残缺的弧，使其“破镜重圆”．（保留作图痕迹，不写作法）\n[图1]",
+      "stem_markdown": "“连弧纹镜”为战国至两汉时期备受推崇的铜镜设计，通常由六到十二个连续的等弧连成一圈，构成了别具一格的装饰图案．图1为徐州博物馆藏“八连弧纹镜”，纹饰中有八个连续的等弧连成一圈．图2为另一件连弧纹镜（残件）的示意图．\n（1）若将图2中的连弧纹镜补全，则该铜镜应为“ ____ 连弧纹镜”；\n（2）请用无刻度的直尺与圆规，补全图2中所有残缺的弧，使其“破镜重圆”．（保留作图痕迹，不写作法）\n![2025年江苏省徐州市中考数学试卷_q026_img01](assets/2025年江苏省徐州市中考数学试卷_q026_img01.png)",
+      "options": [],
+      "answer": "七",
+      "solution": "【分析】（1）连接一段等弧两端点构造弦，在圆上依次截取相同长度的弦，即可得到答案；\n（2）先确定两个同心圆的圆心，补全两个同心圆，再依次找到等弧的圆心，即可补全等弧．\n【解答】解：（1）如图，连接一段等弧两端点构造弦，在圆上依次截取相同长度的弦即可；\n[[image:rId56]]\n若将图中的连弧纹镜补全，则该铜镜应为“七连弧纹镜”，\n故答案为：七；\n（2）如图所示，先确定两个同心圆的圆心，补全两个同心圆，再依次找到等弧的圆心即可，\n[[image:rId57]]\n【点评】此题考查确定圆的条件、垂径定理等知识，掌握以上知识点是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q026_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q026_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "垂径定理",
+          "确定圆的条件"
+        ],
+        "reasoning": "第（2）问需要确定两个同心圆的圆心和等弧的圆心，涉及确定圆的条件和垂径定理",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"垂径定理\", \"确定圆的条件\"],\n  \"reasoning\": \"第（2）问需要确定两个同心圆的圆心和等弧的圆心，涉及确定圆的条件和垂径定理\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q027",
+      "question_no": "27",
+      "question_type": "solution",
+      "stem_text": "急刹车时，停车距离是指骑车人从意识到应当刹车到车辆停下来所走的距离，记作ym；反应距离是指骑车人意识到应当刹车到实施刹车所走的距离，记作d₁m；刹车距离是指骑车人实施刹车到车辆停下来所走的距离，记作d₂m，已知y＝d₁+d₂，d₁与骑行速度成正比，d₂与骑行速度的平方成正比．当骑行速度为13km/h时，反应距离为2.6m，刹车距离为1m．\n（1）若骑行速度为26km/h，则d₁＝ ____ m，d₂＝ ____ m；\n（2）设骑行速度为xkm/h，求y关于x的函数表达式；\n（3）当刹车距离为2m时，停车距离为多少？（精确到0.1m，参考数据：\\sqrt{2}≈1.41，\\sqrt{3}≈1.73，\\sqrt{5}≈2.24）",
+      "stem_markdown": "急刹车时，停车距离是指骑车人从意识到应当刹车到车辆停下来所走的距离，记作ym；反应距离是指骑车人意识到应当刹车到实施刹车所走的距离，记作$d_{1}$m；刹车距离是指骑车人实施刹车到车辆停下来所走的距离，记作$d_{2}$m，已知y＝$d_{1}+d_{2}$，$d_{1}$与骑行速度成正比，$d_{2}$与骑行速度的平方成正比．当骑行速度为13km/h时，反应距离为2.6m，刹车距离为1m．\n（1）若骑行速度为26km/h，则$d_{1}$＝ ____ m，$d_{2}$＝ ____ m；\n（2）设骑行速度为xkm/h，求y关于x的函数表达式；\n（3）当刹车距离为2m时，停车距离为多少？（精确到0.1m，参考数据：$\\sqrt{2}≈1.41$，$\\sqrt{3}≈1$.73，$\\sqrt{5}≈2.24$）",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设$d_{1}＝k_{1}xd_{2}＝k_{2}$$x^{2}$结合题意可得$d_{1}$＝0.2x，$d_{2}=\\frac{1}{169}x^{2}$再进一步求解即可；\n（2）结合（1）可得：$y=d_{1}+d_{2}=\\frac{1}{169}x^{2}+0.2x$；\n（3）当刹车距离为2m时，可得$2=\\frac{1}{169}x^{2}$求解x，再进一步求解即可．\n【解答】解：（1）$d_{1}$与骑行速度成正比，$d_{2}$与骑行速度的平方成正比．骑行速度为xkm/h，$d_{1}＝k_{1}$x，$d_{2}＝k_{2}x^{2}$，\n∵当骑行速度为13km/h时，反应距离为2.6m，\n∴$13k_{1}$＝2.6，\n解得：$k_{1}$＝0.2，$d_{1}$＝0.2x，\n当x＝26时，$d_{1}$＝0.2×26＝5.2（m），\n∵当骑行速度为13km/h时，刹车距离为lm，\n∴1＝13^{2}×$k_{2}$，\n解得：$k_{2}=\\frac{1}{169}d_{2}=\\frac{1}{169}x^{2}$，\n当x＝26时，$d_{2}=\\frac{1}{169}×26^{2}=\\frac{1}{169}×2^{2}×13^{2}=4(m)$；\n（2）设骑行速度为xkm/h，而$d_{1}=0.2xd_{2}=\\frac{1}{169}x^{2}$．\n∴y关于x的函数表达式为$y=d_{1}+d_{2}=\\frac{1}{169}x^{2}+0.2x$；\n（3）∵当刹车距离为2m时，\n∴$2=\\frac{1}{169}x^{2}$，\n解得：$x=13\\sqrt{2}$（$x=-13\\sqrt{2}舍去$），\n∴y$=\\frac{1}{169}x^{2}+0.2x≈2+0.2×13×1.41=5.666≈5.7(m)$，\n∴停车距离约为5.7m．\n【点评】本题考查正比例函数与二次函数的实际应用，解题的关键是理解题意，掌握相关知识的灵活运用．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正比例函数",
+          "二次函数",
+          "方程求解"
+        ],
+        "reasoning": "通过骑行速度与反应距离、刹车距离的关系建立函数模型求解",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正比例函数\", \"二次函数\", \"方程求解\"],\n  \"reasoning\": \"通过骑行速度与反应距离、刹车距离的关系建立函数模型求解\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省徐州市中考数学试卷_q028",
+      "question_no": "28",
+      "question_type": "solution",
+      "stem_text": "如图1，将Rt△AOB绕直角顶点O旋转至△COD，点A，B的对应点分别为C，D．连接AD，BC，AC，BD，直线AC与BD交于点E．\n（1）△AOD与△BOC的面积存在怎样的数量关系？请说明理由；\n（2）如图2，连接OE，若AB，CD，OE的中点分别为P，Q，R．求证：P，Q，R三点共线；\n（3）已知AB＝5，随着OA，OB及旋转角的变化，若存在以A，B，C，D为顶点的四边形，其面积为S，则S的最大值为 ____ ．\n[图1]\n2025年江苏省徐州市中考数学试卷",
+      "stem_markdown": "如图1，将Rt△AOB绕直角顶点O旋转至△COD，点A，B的对应点分别为C，D．连接AD，BC，AC，BD，直线AC与BD交于点E．\n（1）△AOD与△BOC的面积存在怎样的数量关系？请说明理由；\n（2）如图2，连接OE，若AB，CD，OE的中点分别为P，Q，R．求证：P，Q，R三点共线；\n（3）已知AB＝5，随着OA，OB及旋转角的变化，若存在以A，B，C，D为顶点的四边形，其面积为S，则S的最大值为 ____ ．\n![2025年江苏省徐州市中考数学试卷_q028_img01](assets/2025年江苏省徐州市中考数学试卷_q028_img01.png)\n2025年江苏省徐州市中考数学试卷",
+      "options": [],
+      "answer": "25．",
+      "solution": "【分析】（1）作DF⊥OA于点F，作BG⊥OC，交CO的延长线于G，可证得△DOF≌△BOG，从而DF＝BG，进而得出结果；\n（2）连接OQ，OP，PE，QE，设OA和BD交于I，根据直角三角形的性质得出OQ$=\\frac{1}{2}CD，OP=\\frac{1}{2}AB$，可证得△AOC∽△BOD，进而得出∠AEB＝∠AOB＝90°，从而EP$=\\frac{1}{2}AB$，进而证得四边形OQEP是菱形，进而得出结论；\n（3）由（2）可知，BD⊥AC，从而$S_{四边形}_{ABCD}=\\frac{1}{2}AC⋅BD$，进而得出当C、O、A共线时，S四边形ABCD最大，此时∠AOD＝∠BOC＝∠COD＝∠AOB，△AOD≌△OCD≌△AOB≌△COB，从而得出$S_{四边形}_{ABCD}＝4S_{△}_{AOB}$，作OW⊥AB于W，因为OW≤OP，当OW＝OP$=\\frac{1}{2}$AB$=\\frac{5}{2}$时，$S_{△}_{AOB}_{最大}=\\frac{5}{2}×\\frac{5}{2}=\\frac{25}{4}$，进一步得出结果．\n【解答】（1）解：如图1，\n[[image:rId59]]\n△AOD与△BOC的面积相等，理由如下：\n作DF⊥OA于点F，作BG⊥OC，交CO的延长线于G，\n∴∠DFO＝∠G＝90°，\n由旋转可得，\n∠COD＝∠AOB＝90°，OD＝OB，OC＝OA，\n∴∠AOD+∠BOC＝360°﹣（∠COD+∠AOB）＝180°，\n∵∠BOG+∠BOC＝180°，\n∴∠BOG＝∠AOD，\n∴△DOF≌△BOG（AAS），\n∴DF＝BG，\n∴$S_{△}_{AOD}=\\frac{1}{2}OA⋅DF=\\frac{1}{2}OC⋅BG$，\n∵$S_{△}_{BOC}=\\frac{1}{2}OC⋅BG$，\n∴△AOD与△BOC的面积相等；\n（2）解：如图2，\n[[image:rId60]]\n连接OQ，OP，PE，QE，设OA和BD交于I，\n∵∠AOB＝∠COD＝90°，点P是AB的中点，Q是CD的中点，\n∴OQ$=\\frac{1}{2}CD，OP=\\frac{1}{2}AB$，\n∴AB＝CD，\n∴OP＝OQ，\n∵∠AOB＝∠COD＝90°，\n∴∠AOB+∠AOD＝∠COD+∠AOD，\n∴∠BOD＝∠AOC，\n∵$\\frac{OC}{OA}=\\frac{OD}{OB}=1$，\n∴△AOC∽△BOD，\n∴∠CAO＝∠DBO，\n∵∠AIE＝∠BIO，\n∴∠AEB＝∠AOB＝90°，\n∴EP$=\\frac{1}{2}AB$，\n同理可得，\nEQ$=\\frac{1}{2}$CD，\n∴OP＝OQ＝EQ＝EP，\n∴四边形OQEP是菱形，\n∴OE和PQ互相平分，\n∵点R是OE的中点，\n∴P，Q，R三点共线；\n（3）解：如图2，\n由（2）可知，\nBD⊥AC，\n∴$S_{四边形}_{ABCD}=\\frac{1}{2}AC⋅BD$，\n∵AC≤OA+OC，BD≤OB+OD，\n∴当C、O、A共线时，$S_{四边形}_{ABCD}$最大，\n如图3，\n[[image:rId61]]\n此时∠AOD＝∠BOC＝∠COD＝∠AOB，△AOD≌△OCD≌△AOB≌△COB，\n∴$S_{四边形}_{ABCD}＝4S_{△}_{AOB}$，\n作OW⊥AB于W，\n$S_{△}_{AOB}=\\frac{1}{2}AB⋅OW=$$\\frac{5}{2}$OW，\n∵OW≤OP，\n∴当OW＝OP$=\\frac{1}{2}$AB$=\\frac{5}{2}$时，$S_{△}_{AOB}_{最大}=\\frac{5}{2}×\\frac{5}{2}=\\frac{25}{4}$，\n∴S的最大值为：25，\n故答案为：25．\n【点评】本题考查了全等三角形的额判定和性质，相似三角形的判定和性质，直角三角形的性质，菱形的判定和性质等知识，解决问题的关键是熟练掌握有关基础知识．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:27:37；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId63]] ____ [[image:rId64]] ____ [[image:rId65]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年江苏省徐州市中考数学试卷_q028_img01",
+          "path": "assets/2025年江苏省徐州市中考数学试卷_q028_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定与性质",
+          "相似三角形的判定与性质",
+          "直角三角形的性质",
+          "菱形的判定与性质"
+        ],
+        "reasoning": "（1）通过全等三角形的判定证明△AOD与△BOC的面积相等。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定与性质\", \"相似三角形的判定与性质\", \"直角三角形的性质\", \"菱形的判定与性质\"],\n  \"reasoning\": \"（1）通过全等三角形的判定证明△AOD与△BOC的面积相等。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:45:52",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 28,
+      "ok": 28,
+      "fallback": 0
+    }
+  }
+}

@@ -1,0 +1,1164 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年广东省广州市中考数学试卷",
+  "source": {
+    "name": "2025年广东省广州市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年广东省广州市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列四个选项中，负无理数的是（ ）",
+      "stem_markdown": "下列四个选项中，负无理数的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-\\sqrt{2}$"
+        },
+        {
+          "label": "B",
+          "text": "﹣1"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】无限不循环小数叫做无理数，据此进行判断即可．\n【解答】解：$-\\sqrt{2}$是负无理数，\n﹣1，0，3是整数，它们不是无理数，\n故选：A．\n【点评】本题考查无理数，熟练掌握其定义是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "无理数",
+          "负数"
+        ],
+        "reasoning": "选项A中的-\\sqrt{2}是无限不循环小数，因此是负无理数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"无理数\", \"负数\"],\n  \"reasoning\": \"选项A中的-\\sqrt{2}是无限不循环小数，因此是负无理数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "如图，将Rt△ABC绕直角边AC所在直线旋转一周，可以得到的立体图形是（ ）\n[图1]",
+      "stem_markdown": "如图，将Rt△ABC绕直角边AC所在直线旋转一周，可以得到的立体图形是（ ）\n![2025年广东省广州市中考数学试卷_q002_img01](assets/2025年广东省广州市中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年广东省广州市中考数学试卷_q002_img02](assets/2025年广东省广州市中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年广东省广州市中考数学试卷_q002_img03](assets/2025年广东省广州市中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年广东省广州市中考数学试卷_q002_img04](assets/2025年广东省广州市中考数学试卷_q002_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年广东省广州市中考数学试卷_q002_img05](assets/2025年广东省广州市中考数学试卷_q002_img05.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据“面动成体”进行判断即可．\n【解答】解：将Rt△ABC绕直角边AC所在直线旋转一周所得到的立体图形是圆锥，\n故选：B．\n【点评】本题考查点、线、面、体，理解“面动成体”是正确解答的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q002_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q002_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q002_img02",
+          "path": "assets/2025年广东省广州市中考数学试卷_q002_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q002_img03",
+          "path": "assets/2025年广东省广州市中考数学试卷_q002_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q002_img04",
+          "path": "assets/2025年广东省广州市中考数学试卷_q002_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q002_img05",
+          "path": "assets/2025年广东省广州市中考数学试卷_q002_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆锥的形成",
+          "面动成体"
+        ],
+        "reasoning": "题中描述了将三角形绕直角边旋转形成立体图形的过程，考察了面动成体的概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆锥的形成\", \"面动成体\"],\n  \"reasoning\": \"题中描述了将三角形绕直角边旋转形成立体图形的过程，考察了面动成体的概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "下列运算正确的是（ ）",
+      "stem_markdown": "下列运算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a^{3}•a^{5}＝a^{15}$"
+        },
+        {
+          "label": "B",
+          "text": "（﹣2ab）^{3}＝$8a^{3}b^{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{a}-\\sqrt{b}=\\sqrt{a-b}$（a≥b≥0）"
+        },
+        {
+          "label": "D",
+          "text": "2$\\sqrt{a}+5\\sqrt{a}=7\\sqrt{a}$（a≥0）"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】利用二次根式的加减法，同底数幂乘法，积的乘方法则逐项判断即可．\n【解答】解：$a^{3}•a^{5}＝a^{8}$，则A不符合题意，\n（﹣2ab）^{3}＝﹣$8a^{3}b^{3}$，则B不符合题意，\n$\\sqrt{a}$与$\\sqrt{b}$不一定是同类二次根式，无法合并，则C不符合题意，\n2$\\sqrt{a}+5\\sqrt{a}=7\\sqrt{a}$（a≥0），则D符合题意，\n故选：D．\n【点评】本题考查二次根式的加减法，同底数幂乘法，积的乘方，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同底数幂乘法",
+          "积的乘方法则",
+          "二次根式的加减法"
+        ],
+        "reasoning": "选项D涉及的二次根式加减法和选项A涉及的同底数幂乘法是正确的计算方式。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同底数幂乘法\", \"积的乘方法则\", \"二次根式的加减法\"],\n  \"reasoning\": \"选项D涉及的二次根式加减法和选项A涉及的同底数幂乘法是正确的计算方式。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "关于x的方程x²﹣x+k²+2＝0根的情况为（ ）",
+      "stem_markdown": "关于x的方程$x^{2}$﹣x+$k^{2}$+2＝0根的情况为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "有两个相等的实数根"
+        },
+        {
+          "label": "B",
+          "text": "有两个不相等的实数根"
+        },
+        {
+          "label": "C",
+          "text": "无实数根"
+        },
+        {
+          "label": "D",
+          "text": "只有一个实数根"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】利用一元二次方程根的判别式即可解决问题．\n【解答】解：由题知，Δ＝（﹣1）^{2}﹣4（$k^{2}$+2）＝﹣$4k^{2}$﹣7＜0，\n所以方程无实数根．\n故选：C．\n【点评】本题主要考查了根的判别式，熟知一元二次方程根的判别式是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程根的判别式",
+          "根的判别式Δ= b²-4ac"
+        ],
+        "reasoning": "利用一元二次方程根的判别式判断方程根的情况",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程根的判别式\", \"根的判别式Δ= b²-4ac\"],\n  \"reasoning\": \"利用一元二次方程根的判别式判断方程根的情况\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "某地一周的每天最高气温如表，利用这些数据绘制了下列四个统计图，最适合描述气温变化趋势的是（ ）\n星期 | 一 | 二 | 三 | 四 | 五 | 六 | 日\n最高气温℃ | 25 | 25 | 28 | 30 | 33 | 30 | 29",
+      "stem_markdown": "某地一周的每天最高气温如表，利用这些数据绘制了下列四个统计图，最适合描述气温变化趋势的是（ ）\n| 星期 | 一 | 二 | 三 | 四 | 五 | 六 | 日 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 最高气温℃ | 25 | 25 | 28 | 30 | 33 | 30 | 29 |",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年广东省广州市中考数学试卷_q005_img01](assets/2025年广东省广州市中考数学试卷_q005_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年广东省广州市中考数学试卷_q005_img02](assets/2025年广东省广州市中考数学试卷_q005_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年广东省广州市中考数学试卷_q005_img03](assets/2025年广东省广州市中考数学试卷_q005_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年广东省广州市中考数学试卷_q005_img04](assets/2025年广东省广州市中考数学试卷_q005_img04.png)"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据频数分布直方图、扇形统计图、折线统计图、条形统计图各自的特点来判断即可．\n【解答】解：某地一周的每天最高气温如表，利用这些数据绘制了下列四个统计图，最适合描述气温变化趋势的是折线统计图．\n故选：C．\n【点评】本题主要考查了统计图的选择，熟练掌握扇形统计图表示的是部分在总体中所占的百分比，但一般不能直接从图中得到具体的数据；折线统计图表示的是事物的变化情况；条形统计图能清楚地表示出每个项目的具体数目是解决此题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q005_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q005_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q005_img02",
+          "path": "assets/2025年广东省广州市中考数学试卷_q005_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q005_img03",
+          "path": "assets/2025年广东省广州市中考数学试卷_q005_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q005_img04",
+          "path": "assets/2025年广东省广州市中考数学试卷_q005_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "折线统计图"
+        ],
+        "reasoning": "描述气温变化趋势需要选择合适的统计图，折线统计图能清晰展示数据随时间的变化趋势。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"折线统计图\"],\n  \"reasoning\": \"描述气温变化趋势需要选择合适的统计图，折线统计图能清晰展示数据随时间的变化趋势。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，在平面直角坐标系中，点A（﹣3，1），点B（﹣1，1），若将直线y＝x向上平移d个单位长度后与线段AB有交点，则d的取值范围是（ ）\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，点A（﹣3，1），点B（﹣1，1），若将直线y＝x向上平移d个单位长度后与线段AB有交点，则d的取值范围是（ ）\n![2025年广东省广州市中考数学试卷_q006_img01](assets/2025年广东省广州市中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣3≤d≤﹣1"
+        },
+        {
+          "label": "B",
+          "text": "1≤d≤3"
+        },
+        {
+          "label": "C",
+          "text": "﹣4≤d≤﹣2"
+        },
+        {
+          "label": "D",
+          "text": "2≤d≤4"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】求得平移后的解析式为y＝x+d，分别代入A、B的坐标，求得对应的d的值，根据题意得到2≤d≤4．\n【解答】解：把直线y＝x向上平移d个单位长度后得到y＝x+d，\n若直线过A（﹣3，1），则﹣3+d＝1，解得d＝4，\n若直线过B（﹣1，1），则﹣1+d＝1，解得d＝2，\n∴若将直线y＝x向上平移d个单位长度后与线段AB有交点，则2≤d≤4，\n故选：D．\n【点评】本题考查了一次函数图象与几何变换，一次函数的性质，根据题意列出关于d的不等式组是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q006_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数的图像和性质",
+          "直线平移",
+          "一元一次不等式组"
+        ],
+        "reasoning": "题中通过平移直线y=x得到y=x+d，并代入A、B两点坐标求解d的取值范围",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数的图像和性质\", \"直线平移\", \"一元一次不等式组\"],\n  \"reasoning\": \"题中通过平移直线y=x得到y=x+d，并代入A、B两点坐标求解d的取值范围\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "若|k|＝﹣k（k≠0），则反比例函数y=\\frac{k}{x}的图象在（ ）",
+      "stem_markdown": "若|k|＝﹣k（k≠0），则反比例函数y$=\\frac{k}{x}$的图象在（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "第一、二象限"
+        },
+        {
+          "label": "B",
+          "text": "第一、三象限"
+        },
+        {
+          "label": "C",
+          "text": "第二、四象限"
+        },
+        {
+          "label": "D",
+          "text": "第三、四象限"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据绝对值的性质得k＜0，再根据反比例函数的图象与k的关系即可得出答案．\n【解答】解：∵|k|＝﹣k（k≠0），\n∴k＜0，\n∴反比例函数y$=\\frac{k}{x}$的图象在第二、四象限．\n故选：C．\n【点评】本题主要考查反比例函数的图象和性质，熟练掌握反比例函数的图象和性质是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值的性质",
+          "反比例函数的图象与系数关系"
+        ],
+        "reasoning": "根据绝对值性质判断k<0，进而确定反比例函数图象位置",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值的性质\", \"反比例函数的图象与系数关系\"],\n  \"reasoning\": \"根据绝对值性质判断k<0，进而确定反比例函数图象位置\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，菱形ABCD的面积为10，点E，F，G，H分别为AB，BC，CD，DA的中点，则四边形EFGH的面积为（ ）\n[图1]",
+      "stem_markdown": "如图，菱形ABCD的面积为10，点E，F，G，H分别为AB，BC，CD，DA的中点，则四边形EFGH的面积为（ ）\n![2025年广东省广州市中考数学试卷_q008_img01](assets/2025年广东省广州市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】连接AC、BD，根据菱形的性质、面积公式得到AC⊥BD，$\\frac{1}{2}$AC•BD＝10，根据三角形中位线定理得到EF∥AC，EF$=\\frac{1}{2}$AC，证明四边形EFGH为矩形，根据矩形的面积公式计算，得到答案．\n【解答】解：如图，连接AC、BD，\n∵四边形ABCD为菱形，且面积为10，\n∴AC⊥BD，$\\frac{1}{2}$AC•BD＝10，\n∵E、F分别为AB、BC的中点，\n∴EF是△ABC的中位线，\n∴EF∥AC，EF$=\\frac{1}{2}$AC，\n同理可得：GH∥AC，GH$=\\frac{1}{2}$AC，FG∥BD，FG$=\\frac{1}{2}$BD，\n∴EF∥GH，EF＝GH，EF⊥FG，\n∴四边形EFGH为矩形，\n∴$S_{四边形}_{EFGH}$＝EF•FG$=\\frac{1}{2}$AC•$\\frac{1}{2}$BD$=\\frac{1}{2}×\\frac{1}{2}$AC•BD＝5，\n故选：B．\n[[image:rId43]]\n【点评】本题考查的是中点四边形，掌握三角形中位线定理、菱形的性质、矩形的判定是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q008_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形中位线定理",
+          "菱形的性质",
+          "矩形的判定",
+          "面积公式"
+        ],
+        "reasoning": "题中通过连接AC、BD并利用菱形面积公式和三角形中位线定理得出EF∥AC, EF=1/2AC等条件，进而判断四边形EFGH为矩形。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形中位线定理\", \"菱形的性质\", \"矩形的判定\", \"面积公式\"],\n  \"reasoning\": \"题中通过连接AC、BD并利用菱形面积公式和三角形中位线定理得出EF∥AC, EF=1/2AC等条件，进而判断四边形EFGH为矩形。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，⊙O的直径AB＝4，C为AB中点，点D在BC上，BD=\\frac{1}{3}BC，点P是AB上的一个动点，则△PCD周长的最小值是（ ）\n[图1]",
+      "stem_markdown": "如图，⊙O的直径AB＝4，C为$AB$中点，点D在$BC$上，$BD=\\frac{1}{3}BC$，点P是AB上的一个动点，则△PCD周长的最小值是（ ）\n![2025年广东省广州市中考数学试卷_q009_img01](assets/2025年广东省广州市中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "2$+\\sqrt{7}$"
+        },
+        {
+          "label": "B",
+          "text": "2+2$\\sqrt{3}$"
+        },
+        {
+          "label": "C",
+          "text": "3$+\\sqrt{7}$"
+        },
+        {
+          "label": "D",
+          "text": "4+4$\\sqrt{3}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】作直径CC′，连接DC′交AB于P，连接PC，OD，判定C的对称点是C′，得到此时△PCD的周长最小，判定△COD是等边三角形，由勾股定理求出CD＝2$\\sqrt{3}$，由C和C′关于AB对称，得到PC′＝PC，因此△PCD周长的最小值＝CD+DC′＝2+2$\\sqrt{3}$．\n【解答】解：作直径CC′，连接DC′交AB于P，连接PC，OD，\n∵C为$AB$中点，\n∴CC′⊥AB，\n∴C的对称点是C′，\n∴此时△PCD的周长最小，\n∵$BD=\\frac{1}{3}BC$，\n∴∠COD＝90°×（1$-\\frac{1}{3}$）＝60°，\n∵OC＝OD，\n∴△COD是等边三角形，\n∴CD＝OC$=\\frac{1}{2}$AB$=\\frac{1}{2}×$4＝2，\n∵CC′是圆的直径，\n∴∠CDC′＝90°，\n∴C'D$=\\sqrt{CC′^{2}-CD^{2}}=$2$\\sqrt{3}$，\n∵C和C′关于AB对称，\n∴PC′＝PC，\n∴△PCD的周长＝CD+PC+PD＝CD+PC′+PD＝CD+DC′＝2+2$\\sqrt{3}$，\n∴△PCD周长的最小值是2+2$\\sqrt{3}$．\n故选：B．\n[[image:rId45]]\n【点评】本题考查轴对称﹣路线最短问题，勾股定理，等边三角形的判定和性质，关键是作出C关于AB的对称点C′，从而得到使△PCD周长有最小值的点P．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q009_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的判定和性质",
+          "勾股定理",
+          "轴对称﹣路线最短问题"
+        ],
+        "reasoning": "作直径CC′，连接DC′交AB于P，判定C的对称点是C′，此时△PCD的周长最小。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的判定和性质\", \"勾股定理\", \"轴对称﹣路线最短问题\"],\n  \"reasoning\": \"作直径CC′，连接DC′交AB于P，判定C的对称点是C′，此时△PCD的周长最小。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "在平面直角坐标系中，两点A（x₁，y₁），B（x₂，y₂）在抛物线y＝ax²﹣2ax（a＞0）上，则下列结论中正确的是（ ）",
+      "stem_markdown": "在平面直角坐标系中，两点A（$x_{1}$，$y_{1}$），B（$x_{2}$，$y_{2}$）在抛物线y＝$ax^{2}$﹣2ax（a＞0）上，则下列结论中正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "当$x_{1}$＜0且$y_{1}•y_{2}$＜0时，则0＜$x_{2}$＜2"
+        },
+        {
+          "label": "B",
+          "text": "当$x_{1}$＜0且$y_{1}•y_{2}$＞0时，则0＜$x_{2}$＜2"
+        },
+        {
+          "label": "C",
+          "text": "当$x_{1}$＜$x_{2}$＜1时，则$y_{1}$＜$y_{2}$"
+        },
+        {
+          "label": "D",
+          "text": "当$x_{1}$＞$x_{2}$＞1时，则$y_{1}$＜$y_{2}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】抛物线y＝$ax^{2}$﹣2ax（a＞0）开口向上，顶点为（1，﹣a），与x轴交于（0，0）和（2，0），分析各选项时需结合抛物线的对称性、增减性及函数值的符号，据此进行作答即可．\n【解答】解：∵y＝$ax^{2}$﹣2ax（a＞0），\n∴抛物线的开口向上，\n则对称轴为直线$x=-\\frac{-2a}{2a}=1$，\n把x＝1代入y＝$ax^{2}$﹣2ax得y＝a﹣2a＝﹣a，\n∴顶点为（1，﹣a），\n∵两点A（$x_{1}$，$y_{1}$）．B（$x_{2}$，$y_{2}$）在抛物线y＝$ax^{2}$﹣2ax（a＞0），\n∴当$x_{1}$＜0目$y_{1}•y_{2}$＜0时，$y_{1}$＞0（因x＜0时抛物线在x轴上方），\n故$y_{2}$＜0，\n此时0＜$x_{2}$＜2，故A选项的结论正确；\n当$x_{1}$＜$x_{2}$＜1时，抛物线在x＜1时递减，\n故$x_{2}$越大，$y_{2}$越小，\n即$y_{1}$＞$y_{2}$，故C选项的结论错误；\n当$x_{1}$＜0且$y_{1}•y_{2}$＞0时，$y_{2}$＞0，\n此时$x_{2}$应满足$x_{2}$＜0或$x_{2}$＞2，故B选项的结论错误；\n当$x_{1}$＞$x_{2}$＞1时，抛物线在x＞1时递增，\n故$x_{1}$越大，$y_{1}$越大，\n即$y_{1}$＞$y_{2}$，故D选项的结论错误；\n故选：A．\n【点评】本题考查了二次函数的图象性质，掌握二次函数的图象性质是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "抛物线方程",
+          "抛物线的对称性",
+          "抛物线的增减性"
+        ],
+        "reasoning": "分析抛物线开口方向、顶点位置及对称轴，结合给定条件判断抛物线上的点的位置关系。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"抛物线方程\", \"抛物线的对称性\", \"抛物线的增减性\"],\n  \"reasoning\": \"分析抛物线开口方向、顶点位置及对称轴，结合给定条件判断抛物线上的点的位置关系。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "如图，直线AB，CD相交于点O，若∠1＝36°，则∠2的度数为 ____ °．\n[图1]",
+      "stem_markdown": "如图，直线AB，CD相交于点O，若∠1＝36°，则∠2的度数为 ____ °．\n![2025年广东省广州市中考数学试卷_q011_img01](assets/2025年广东省广州市中考数学试卷_q011_img01.png)",
+      "options": [],
+      "answer": "144．",
+      "solution": "【分析】根据邻补角的定义进行计算即可．\n【解答】解：∵∠1+∠2＝180°，而∠1＝36°，\n∴∠2＝180°﹣36°＝144°，\n故答案为：144．\n【点评】本题考查对顶角、邻补角，理解邻补角的定义是正确解答的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q011_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q011_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "对顶角相等",
+          "邻补角定义"
+        ],
+        "reasoning": "题中条件∠1和∠2是邻补角，要求∠2的度数需要利用邻补角的定义计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"对顶角相等\", \"邻补角定义\"],\n  \"reasoning\": \"题中条件∠1和∠2是邻补角，要求∠2的度数需要利用邻补角的定义计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "如图，在△ABC中，点D，E分别在AB，AC上，DE∥BC，若\\frac{DE}{BC}=\\frac{1}{3}，则\\frac{S_{△ADE}}{S_{△ABC}}= ____ ．\n[图1]",
+      "stem_markdown": "如图，在△ABC中，点D，E分别在AB，AC上，DE∥BC，若$\\frac{DE}{BC}=\\frac{1}{3}$，则$\\frac{S_{△ADE}}{S_{△ABC}}=$ ____ ．\n![2025年广东省广州市中考数学试卷_q012_img01](assets/2025年广东省广州市中考数学试卷_q012_img01.png)",
+      "options": [],
+      "answer": "$\\frac{1}{9}$．",
+      "solution": "【分析】根据题意证明△ADE∽△ABC，根据相似三角形的性质即可求解．\n【解答】解：∵DE∥BC，\n∴△ADE∽△ABC，\n∴$\\frac{S_{△ADE}}{S_{△ABC}}=(\\frac{DE}{BC})^{2}=(\\frac{1}{3})^{2}=\\frac{1}{9}$，\n故答案为：$\\frac{1}{9}$．\n【点评】本题考查了相似三角形的性质与判定，掌握其性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q012_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "平行线分线段成比例定理"
+        ],
+        "reasoning": "相似比等于对应面积比的平方",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"平行线分线段成比例定理\"],\n  \"reasoning\": \"相似比等于对应面积比的平方\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "要使代数式\\frac{\\sqrt{x+1}}{x-3}有意义，则x的取值范围是 ____ ．",
+      "stem_markdown": "要使代数式$\\frac{\\sqrt{x+1}}{x-3}$有意义，则x的取值范围是 ____ ．",
+      "options": [],
+      "answer": "x≥﹣1且x≠3．",
+      "solution": "【分析】根据二次根式及分式有意义的条件即可求得答案．\n【解答】解：要使代数式$\\frac{\\sqrt{x+1}}{x-3}$有意义，\n则x+1≥0且x﹣3≠0，\n解得：x≥﹣1且x≠3，\n故答案为：x≥﹣1且x≠3．\n【点评】本题考查二次根式及分式有意义的条件，熟练掌握其有意义的条件是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式",
+          "二次根式",
+          "分式"
+        ],
+        "reasoning": "代数式有意义需满足根号内部非负且分母不为零",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式\", \"二次根式\", \"分式\"],\n  \"reasoning\": \"代数式有意义需满足根号内部非负且分母不为零\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，在Rt△ABC中，∠ACB＝90°，AD平分∠CAB，已知cos∠CAD=\\frac{12}{13}，AB＝26，则点B到AD的距离为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在Rt△ABC中，∠ACB＝90°，AD平分∠CAB，已知cos∠CAD$=\\frac{12}{13}$，AB＝26，则点B到AD的距离为 ____ ．\n![2025年广东省广州市中考数学试卷_q014_img01](assets/2025年广东省广州市中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "10．",
+      "solution": "【分析】过点D作DH⊥AB于点H．可以假设AC＝12k，AD＝13k，则CD＝5k，证明DH＝CD＝5k，利用面积法求解．\n【解答】解：过点D作DH⊥AB于点H．\n[[image:rId49]]\n∵∠C＝90°，cos∠CAD$=\\frac{AC}{AD}=\\frac{12}{13}$，\n∴可以假设AC＝12k，AD＝13k，则CD＝5k，\n∵AD平分∠CAB，DC⊥AC，DH⊥AB，\n∴DH＝DC＝5k，\n设点B到AD的距离为h，则有$\\frac{1}{2}×$13k×h$=\\frac{1}{2}×$26×5k，\n解得h＝10．\n故答案为：10．\n【点评】本题考查解直角三角形，角平分线的性质，解题的关键是学会利用参数构建方程解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q014_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形",
+          "角平分线性质",
+          "余弦定理",
+          "面积法"
+        ],
+        "reasoning": "题中利用cos∠CAD和AD平分∠CAB构造相似三角形及角平分线性质",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形\", \"角平分线性质\", \"余弦定理\", \"面积法\"],\n  \"reasoning\": \"题中利用cos∠CAD和AD平分∠CAB构造相似三角形及角平分线性质\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "若抛物线y＝x²﹣6mx+6m²+5m+3的顶点在直线y＝x+2上，则m的值为 ____ ．",
+      "stem_markdown": "若抛物线y＝$x^{2}$﹣6mx+$6m^{2}$+5m+3的顶点在直线y＝x+2上，则m的值为 ____ ．",
+      "options": [],
+      "answer": "m的值为1或$-\\frac{1}{3}$，",
+      "solution": "【分析】先求出抛物线的顶点坐标，然后代入直线y＝x+2中进行计算，即可解答．\n【解答】解：y＝$x^{2}$﹣6mx+$6m^{2}$+5m+3\n＝$x^{2}$﹣6mx+$9m^{2}﹣9m^{2}+6m^{2}$+5m+3\n＝（x﹣3m）^{2}﹣$3m^{2}$+5m+3，\n∴抛物线y＝$x^{2}$﹣6mx+$6m^{2}$+5m+3的顶点为（3m，﹣$3m^{2}$+5m+3），\n把（3m，﹣$3m^{2}$+5m+3）代入y＝x+2中得：\n﹣$3m^{2}$+5m+3＝3m+2，\n整理得：$3m^{2}$﹣2m﹣1＝0，\n解得：$m_{1}$＝1，$m_{2}=-\\frac{1}{3}$，\n故答案为：m的值为1或$-\\frac{1}{3}$，\n故答案为：1或$-\\frac{1}{3}$．\n【点评】本题考查了二次函数的性质，一次函数图象上点的坐标特征，二次函数图象上点的坐标特征，准确熟练地进行计算是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的顶点坐标公式",
+          "二次函数的图像与性质",
+          "一次函数的图像与性质"
+        ],
+        "reasoning": "将抛物线顶点坐标代入直线方程求解m值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的顶点坐标公式\", \"二次函数的图像与性质\", \"一次函数的图像与性质\"],\n  \"reasoning\": \"将抛物线顶点坐标代入直线方程求解m值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "已知⊙O的半径为6，⊙O所在平面内有一动点P，过点P可以引⊙O的两条切线PA，PB，切点分别为A，B．点P与圆心O的距离为d，则d的取值范围是 ____ ；若过点O作OC∥PA交直线PB于点C（点C不与点B重合），线段OC与⊙O交于点D．设PA＝x，CD＝y，则y关于x的函数解析式为 ____ ．",
+      "stem_markdown": "已知⊙O的半径为6，⊙O所在平面内有一动点P，过点P可以引⊙O的两条切线PA，PB，切点分别为A，B．点P与圆心O的距离为d，则d的取值范围是 ____ ；若过点O作OC∥PA交直线PB于点C（点C不与点B重合），线段OC与⊙O交于点D．设PA＝x，CD＝y，则y关于x的函数解析式为 ____ ．",
+      "options": [],
+      "answer": "d＞6，y$=\\frac{((x-6))^{2}}{2x}$．",
+      "solution": "【分析】由题意知点P在⊙O外，得到d＞6，由平行线的性质和角平分线定义推出∠POC＝∠CPO，得到PC＝OC，由勾股定理得到（y+6）^{2}＝（x﹣y﹣6）^{2}+6^{2}，即可得到y关于x的函数关系式．\n【解答】解：∵过点P可以引⊙O的两条切线PA，PB，\n∴点P在⊙O外，\n∴d＞6；\n∵PA切⊙O于点A，PB切⊙O于点B，\n∴OP平分∠APB，\n∴∠APO＝∠BPO，\n∵OC∥PA，\n∴∠POC＝∠APO，\n∴∠POC＝∠CPO，\n∴PC＝OC，\n∵PA＝x，CD＝y，\n∴PC＝OC＝y+6，\n∴BC＝PB﹣PC＝x﹣（y+6）＝x﹣y﹣6，\n连接OB，\n∴半径OB⊥PB，\n∴∠OBC＝90°，\n∴$OC^{2}＝BC^{2}+OB^{2}$，\n∴（y+6）^{2}＝（x﹣y﹣6）^{2}+6^{2}，\n∴y$=\\frac{((x-6))^{2}}{2x}$．\n故答案为：d＞6，y$=\\frac{((x-6))^{2}}{2x}$．\n[[image:rId50]]\n【点评】本题考查切线的性质，勾股定理，函数关系式，关键是由勾股定理列出关于x、y的等式．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线的性质",
+          "平行线的性质",
+          "角平分线定理",
+          "勾股定理"
+        ],
+        "reasoning": "切线PA、PB与半径OA、OB垂直，OC∥PA，得出∠POC=∠CPO，从而PC=OC，利用勾股定理建立方程求y关于x的函数关系式。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线的性质\", \"平行线的性质\", \"角平分线定理\", \"勾股定理\"],\n  \"reasoning\": \"切线PA、PB与半径OA、OB垂直，OC∥PA，得出∠POC=∠CPO，从而PC=OC，利用勾股定理建立方程求y关于x的函数关系式。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "解不等式组\\begin{cases} 2x≥1 \\\\ 4x-3＜x+9 \\end{cases}并在数轴上表示解集．",
+      "stem_markdown": "解不等式组$\\begin{cases} 2x≥1 \\\\ 4x-3＜x+9 \\end{cases}$并在数轴上表示解集．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】解各不等式得出对应的解集后求得它们的公共部分，然后在数轴上表示出其解集即可．\n【解答】解：解第一个不等式得：x≥0.5，\n解第二个不等式得：x＜4，\n故原不等式组的解集为0.5≤x＜4，\n在数轴上表示其解集如图所示：\n[[image:rId51]]．\n【点评】本题考查解一元一次不等式组，在数轴上表示不等式的解集，熟练掌握解不等式组的方法是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组的解法",
+          "数轴表示解集"
+        ],
+        "reasoning": "题中解两个一元一次不等式并表示解集",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组的解法\", \"数轴表示解集\"],\n  \"reasoning\": \"题中解两个一元一次不等式并表示解集\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "如图，BA＝BE，∠1＝∠2，BC＝BD．求证：△ABC≌△EBD．\n[图1]",
+      "stem_markdown": "如图，BA＝BE，∠1＝∠2，BC＝BD．求证：△ABC≌△EBD．\n![2025年广东省广州市中考数学试卷_q018_img01](assets/2025年广东省广州市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】由∠1＝∠2，得到∠ABC＝∠EBD，即可证明△ABC≌△EBD（SAS）．\n【解答】证明：∵∠1＝∠2，\n∴∠1+∠EBC＝∠2+∠EBC，\n∴∠ABC＝∠EBD，\n在△ABC和△EBD中，\n$\\begin{cases} AB=EB \\\\ ∠ABC=∠EBD \\\\ BC=BD \\end{cases}$，\n∴△ABC≌△EBD（SAS）．\n【点评】本题考查全等三角形的判定，关键是掌握全等三角形的判定方法：SAS．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q018_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定（SAS）",
+          "角相等的性质"
+        ],
+        "reasoning": "题目通过∠1＝∠2推出∠ABC＝∠EBD，从而利用SAS证明全等。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定（SAS）\", \"角相等的性质\"],\n  \"reasoning\": \"题目通过∠1＝∠2推出∠ABC＝∠EBD，从而利用SAS证明全等。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "求代数式\\frac{2m^{2}+4m}{m-2}⋅\\frac{m^{2}-4m+4}{m}的值，其中m=\\sqrt{3}-1．",
+      "stem_markdown": "求代数式$\\frac{2m^{2}+4m}{m-2}⋅\\frac{m^{2}-4m+4}{m}$的值，其中m$=\\sqrt{3}-$1．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】将原式的分子，分母因式分解后进行约分，然后代入已知数值计算即可．\n【解答】解：原式$=\\frac{2m(m+2)}{m-2}•\\frac{(m-2)^{2}}{m}$\n＝2（m+2）（m﹣2），\n当m$=\\sqrt{3}-$1时，\n原式＝2（$\\sqrt{3}-$1+2）（$\\sqrt{3}-$1﹣2）\n＝2（$\\sqrt{3}+$1）（$\\sqrt{3}-$3）\n＝2（3﹣3$\\sqrt{3}+\\sqrt{3}-$3）\n＝﹣4$\\sqrt{3}$．\n【点评】本题考查分式的化简求值，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "因式分解",
+          "代数式化简",
+          "代数式求值"
+        ],
+        "reasoning": "原式通过因式分解简化后代入m的值求值",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"因式分解\", \"代数式化简\", \"代数式求值\"],\n  \"reasoning\": \"原式通过因式分解简化后代入m的值求值\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "为了弘扬中华优秀传统文化，某校开展主题为“多彩非遗，国韵传扬”的演讲比赛．评委从演讲的内容、能力、效果三个方面为选手打分，各项成绩均按百分制计．进入决赛的前两名选手需要确定名次（不能并列），他们的单项成绩如表所示：\n选手 | 内容 | 能力 | 效果\n甲 | 98 | 84 | 88\n乙 | 88 | 85 | 97\n（1）分别计算甲、乙两名选手的平均成绩（百分制），能否以此确定两人的名次？\n（2）如果评委认为“内容”这一项最重要，内容、能力、效果的成绩按照4：3：3的比确定，以此计算两名选手的平均成绩（百分制），并确定两人的名次；\n（3）如果你是评委，请按你认为各项的“重要程度”设计三项成绩的比，并解释设计的理由．",
+      "stem_markdown": "为了弘扬中华优秀传统文化，某校开展主题为“多彩非遗，国韵传扬”的演讲比赛．评委从演讲的内容、能力、效果三个方面为选手打分，各项成绩均按百分制计．进入决赛的前两名选手需要确定名次（不能并列），他们的单项成绩如表所示：\n| 选手 | 内容 | 能力 | 效果 |\n| --- | --- | --- | --- |\n| 甲 | 98 | 84 | 88 |\n| 乙 | 88 | 85 | 97 |\n（1）分别计算甲、乙两名选手的平均成绩（百分制），能否以此确定两人的名次？\n（2）如果评委认为“内容”这一项最重要，内容、能力、效果的成绩按照4：3：3的比确定，以此计算两名选手的平均成绩（百分制），并确定两人的名次；\n（3）如果你是评委，请按你认为各项的“重要程度”设计三项成绩的比，并解释设计的理由．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据算术平均数计算即可；\n（2）根据加权平均数公式解答即可；\n（3）将内容、能力和效果三项得分按3：4：3的比例确定各人的测试成绩（答案不唯一）．\n【解答】解：（1）甲的平均成绩为：$\\frac{98+84+88}{3}=$90（分），\n乙甲的平均成绩为：$\\frac{88+85+97}{3}=$90（分），\n所以不能以此确定两人的名次；\n（2）甲的平均成绩为：$\\frac{98×4+84×3+88×3}{4+3+3}=$90.8（分），\n乙的平均成绩为：$\\frac{88×4+85×3+97×3}{4+3+3}=$89.8（分），\n∵90.8＞89.8，\n∴甲排第一，乙排第二；\n（3）将内容、能力和效果三项得分按3：4：3的比例确定各人的测试成绩，确定录用者，因为能力比内容更重要（答案不唯一）．\n【点评】本题主要考查加权平均数，解题的关键是掌握加权平均数的定义．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "算术平均数",
+          "加权平均数",
+          "比例分配"
+        ],
+        "reasoning": "第（2）问使用了加权平均数公式计算平均成绩。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"算术平均数\", \"加权平均数\", \"比例分配\"],\n  \"reasoning\": \"第（2）问使用了加权平均数公式计算平均成绩。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，曲线G：y=\\frac{2}{x}（x＞0）经过点P（4，t）．\n（1）求t的值；\n（2）直线l：y＝﹣x+b也经过点P，求l与y轴交点的坐标，并在图中画出直线l；\n（3）在（2）的条件下，若在l与两坐标轴围成的三角形内部（不包含边界）随机取一个格点（横、纵坐标都是整数的点），求该格点在曲线G上的概率．\n[图1]",
+      "stem_markdown": "如图，曲线G：y$=\\frac{2}{x}$（x＞0）经过点P（4，t）．\n（1）求t的值；\n（2）直线l：y＝﹣x+b也经过点P，求l与y轴交点的坐标，并在图中画出直线l；\n（3）在（2）的条件下，若在l与两坐标轴围成的三角形内部（不包含边界）随机取一个格点（横、纵坐标都是整数的点），求该格点在曲线G上的概率．\n![2025年广东省广州市中考数学试卷_q021_img01](assets/2025年广东省广州市中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）直接把（4，t）代入y$=\\frac{2}{x}$进行计算，得t$=\\frac{1}{2}$；\n（2）先得出P（4，$\\frac{1}{2}$），再代入直线l：y＝﹣x+4.5，即可求出t与y轴交点的坐标，再由两点确定一直线画出直线l的函数图象；\n（3）先得出格点共有6个，分别是（1，3），（1，2），（1，1），（2，1），（2，2），（3，1），再分析所得格点（1，2），（2，1）在曲线G上，即有两个格点在曲线G上，最后由概率公式解答即可．\n【解答】解：（1）曲线G：y$=\\frac{2}{x}$过点P（4，t），\n∴t$=\\frac{2}{4}=\\frac{1}{2}$；\n（2）由（1）得t$=\\frac{1}{2}$，\n故P（4，$\\frac{1}{2}$），\n∵直线l：y＝﹣x+b也经过点P，\n∴把（4，$\\frac{1}{2}$）代入y＝﹣x+b，得$\\frac{1}{2}=-4+b$，\n解得b＝4.5，\n∴y＝﹣x+4.5，\n令x＝0，则y＝0+4.5＝4.5，\n∴l与y轴交点的坐标为（0，4.5），\n直线的函数图象，如图所示：\n[[image:rId54]]\n（3）根据题意，在l与两坐标轴围成的三角形内部（不包括边界）的格点共有6个，分别是（1，3），（1，2），（1，1），（2，1），（2，2），（3，1），\n∵曲线G：y$=\\frac{2}{x}$（x＞0），\n则1×3＝3≠2，1×2＝2，1×1≠2，2×1＝2，2×2＝4≠2，3×1＝3≠2，\n∴格点（1，2），（2，1）在曲线G上，即有两个格点在曲线G上，\n∴该格点在曲线G上的概率$=\\frac{2}{6}=\\frac{1}{3}$．\n【点评】本题考查了概率公式，反比例函数的性质，一次函数的性质，画函数图象，掌握相关性质是解答本题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q021_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的性质",
+          "一次函数的性质",
+          "概率公式"
+        ],
+        "reasoning": "第（3）问通过计算格点在曲线G上的概率，涉及反比例函数和一次函数的性质以及概率公式。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的性质\", \"一次函数的性质\", \"概率公式\"],\n  \"reasoning\": \"第（3）问通过计算格点在曲线G上的概率，涉及反比例函数和一次函数的性质以及概率公式。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "智能机器人广泛应用于智慧农业．为了降低成本和提高采摘效率，某果园引进一台智能采摘机器人进行某种水果采摘．\n（1）若用人工采摘的成本为a元，相比人工采摘，用智能机器人采摘的成本可降低30%．求用智能机器人采摘的成本是多少元；（用含a的代数式表示）\n（2）若要采摘4000千克该种水果，用这台智能采摘机器人采摘比4个工人同时采摘所需的天数还少1天，已知这台智能采摘机器人采摘的效率是一个工人的5倍．求这台智能采摘机器人每天可采摘该种水果多少千克．",
+      "stem_markdown": "智能机器人广泛应用于智慧农业．为了降低成本和提高采摘效率，某果园引进一台智能采摘机器人进行某种水果采摘．\n（1）若用人工采摘的成本为a元，相比人工采摘，用智能机器人采摘的成本可降低30%．求用智能机器人采摘的成本是多少元；（用含a的代数式表示）\n（2）若要采摘4000千克该种水果，用这台智能采摘机器人采摘比4个工人同时采摘所需的天数还少1天，已知这台智能采摘机器人采摘的效率是一个工人的5倍．求这台智能采摘机器人每天可采摘该种水果多少千克．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用用智能机器人采摘的成本＝（1﹣30%）×用人工采摘的成本，可用含a的代数式表示出用智能机器人采摘的成本；\n（2）设一个工人每天可采摘该种水果x千克，则这台智能采摘机器人每天可采摘该种水果5x千克，利用工作时间＝工作总量÷工作效率，结合用这台智能采摘机器人采摘比4个工人同时采摘所需的天数还少1天，可列出关于x的分式方程，解之经检验后，可得出x的值，再将其代入5x中，即可求出结论．\n【解答】解：（1）根据题意得：用智能机器人采摘的成本是（1﹣30%）a＝70%a元；\n（2）设一个工人每天可采摘该种水果x千克，则这台智能采摘机器人每天可采摘该种水果5x千克，\n根据题意得：$\\frac{4000}{4x}-\\frac{4000}{5x}=$1，\n解得：x＝200，\n经检验，x＝200是所列方程的解，且符合题意，\n∴5x＝5×200＝1000（千克）．\n答：这台智能采摘机器人每天可采摘该种水果1000千克．\n【点评】本题考查了分式方程的应用以及列代数式，解题的关键是：（1）根据各数量之间的关系，用含a的代数式表示出用智能机器人采摘的成本；（2）找准等量关系，正确列出分式方程．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "百分数计算",
+          "代数式表示",
+          "分式方程",
+          "工作效率"
+        ],
+        "reasoning": "第（1）问用智能机器人成本计算涉及百分数计算；第（2）问通过工作时间与工作效率的关系建立分式方程",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"百分数计算\", \"代数式表示\", \"分式方程\", \"工作效率\"],\n  \"reasoning\": \"第（1）问用智能机器人成本计算涉及百分数计算；第（2）问通过工作时间与工作效率的关系建立分式方程\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "宽与长的比是\\frac{\\sqrt{5}-1}{2}（约为0.618）的矩形叫做黄金矩形．现有一张黄金矩形纸片ABCD，长AD=\\sqrt{5}+1．如图1，折叠纸片ABCD，点B落在AD上的点E处，折痕为AF，连接EF．然后将纸片展开．\n（1）求AB的长；\n（2）求证：四边形CDEF是黄金矩形；\n（3）如图2，点G为AE的中点，连接FG，折叠纸片ABCD，点B落在FG上的点H处，折痕为FP，过点P作PQ⊥EF于点Q．四边形BFQP是否为黄金矩形？如果是，请证明；如果不是，请说明理由．\n[图1]",
+      "stem_markdown": "宽与长的比是$\\frac{\\sqrt{5}-1}{2}$（约为0.618）的矩形叫做黄金矩形．现有一张黄金矩形纸片ABCD，长AD$=\\sqrt{5}+$1．如图1，折叠纸片ABCD，点B落在AD上的点E处，折痕为AF，连接EF．然后将纸片展开．\n（1）求AB的长；\n（2）求证：四边形CDEF是黄金矩形；\n（3）如图2，点G为AE的中点，连接FG，折叠纸片ABCD，点B落在FG上的点H处，折痕为FP，过点P作PQ⊥EF于点Q．四边形BFQP是否为黄金矩形？如果是，请证明；如果不是，请说明理由．\n![2025年广东省广州市中考数学试卷_q023_img01](assets/2025年广东省广州市中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据黄金矩形的定义可得：$\\frac{AB}{AD}=\\frac{\\sqrt{5}-1}{2}$，再进一步求解即可；\n（2）先证明四边形ABFE是正方形；可得AB＝BF＝EF＝AE＝2，$DE=CF=\\sqrt{5}-1$，证明四边形CFED是矩形，从而可得答案；\n（3）先证四边形BPQF是矩形，然后求解$FG=\\sqrt{1^{2}+2^{2}}=\\sqrt{5}$，由对折可得：FH＝FB＝2，设BP＝x，则AP＝2﹣x，由面积可得：$\\frac{1}{2}×1×(2-x)+\\frac{1}{2}×2x+\\frac{1}{2}×\\sqrt{5}x=\\frac{1}{2}×(1+2)×2$，可得：$x=\\sqrt{5}-1$，再进一步可得结论．\n【解答】（1）解：∵$AD=\\sqrt{5}+1$，矩形ABCD是黄金矩形，\n∴$\\frac{AB}{AD}=\\frac{\\sqrt{5}-1}{2}$，\n∴$AB=\\frac{\\sqrt{5}-1}{2}×(\\sqrt{5}+1)=2$；\n（2）证明：∵折叠黄金矩形纸片ABCD，点B落在AD上的点E处，\n∴AB＝AE，∠B＝∠AEF，\n又∵四边形ABCD是矩形，\n∴∠BAE＝∠B＝∠C＝∠D＝90°，AB＝CD，$AD=BC=\\sqrt{5}+1$，\n∴∠BAE＝∠B＝∠AEF＝90°，\n∴四边形ABFE是矩形，\n∵AB＝AE，\n∴四边形ABFE是正方形，\n∴AB＝BF＝EF＝AE，\n由（1）可知，AB＝2，\n∴AB＝BF＝EF＝AE＝2，\n∴$DE=CF=\\sqrt{5}+1-2=\\sqrt{5}-1$，\n∵∠C＝∠D＝∠DEF＝90°，\n∴四边形CFED是矩形，\n∴EF＝CD＝2，\n∴$\\frac{DE}{FE}=\\frac{\\sqrt{5}-1}{2}$，\n∴四边形CDEF是黄金矩形；\n（3）解：四边形BPQF是黄金矩形，证明如下：\n∵PQ⊥EF，四边形ABFE是正方形，\n∴∠B＝∠BFE＝∠PQF＝90°，\n∴四边形BFQP是矩形，\n由（2）可知，AB＝BF＝AE＝EF＝2，\n∵G为AE的中点，\n∴AG＝EG＝1，\n∴$FG=\\sqrt{EG^{2}+EF^{2}}=\\sqrt{1^{2}+2^{2}}=\\sqrt{5}$，\n如图，连接PG，由对折可得：FH＝FB＝2，BP＝PH，∠PHF＝∠B＝90°，\n设BP＝PH＝x，则AP＝2﹣x，\n[[image:rId56]]\n∵$S_{△}_{APG}+S_{△}_{PBF}+S_{△}_{PGF}＝S_{梯形}_{ABFG}$\n∴$\\frac{1}{2}×1×(2-x)+\\frac{1}{2}×2x+\\frac{1}{2}×\\sqrt{5}x=\\frac{1}{2}×(1+2)×2$，\n解得：$x=\\sqrt{5}-1$，\n∴$BP=\\sqrt{5}-1$，\n∴$\\frac{BP}{BF}=\\frac{\\sqrt{5}-1}{2}$，\n∴四边形BFQP是黄金矩形．\n【点评】本题考查的是矩形的判定与性质，正方形的判定与性质，勾股定理的应用，二次根式的运算，理解黄金矩形的定义是关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q023_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "黄金矩形的定义",
+          "勾股定理",
+          "正方形的性质",
+          "矩形的性质"
+        ],
+        "reasoning": "题（1）和（2）涉及黄金矩形的定义及性质，题（3）涉及勾股定理和正方形的性质",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"黄金矩形的定义\", \"勾股定理\", \"正方形的性质\", \"矩形的性质\"],\n  \"reasoning\": \"题（1）和（2）涉及黄金矩形的定义及性质，题（3）涉及勾股定理和正方形的性质\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "某玩转数学小组发现隧道前通常设有涉水线和限高架等安全警示，为探究其内在的数学原理，该小组考察了如图1所示的双向通行隧道．以下为该小组研究报告的部分记录，请认真阅读，解决问题．\n发现问题确定目标 | 涉水线设置 | 限高架设置\n数学抽象绘制图形 | [图1] 隧道及斜坡的侧面示意图可近似如图2所示． | [图1] 图3为隧道横截面示意图，由抛物线的一部分ACB和矩形ADEB的三边构成．\n信息收集资料整理 | 当隧道内积水的水深为0.27米时（即积水达到涉水线处），车辆应避免通行． | 车辆进入隧道，应在行驶车道内通行（禁止压线），且必须保证车辆顶部与隧道顶部ACB在竖直方向的空隙不小于0.3米．\n实地考察数据采集 | 斜坡的坡角α为10°，并查得sin10°≈0.174，cos10°≈0.985，tan10°≈0.176． | 隧道的最高点C到地面DE距离为5.4米，两侧墙面高AD＝BE＝3米，地面跨度DE＝10米．车辆行驶方向的右侧车道线（宽度忽略不计）与墙面的距离为1米．\n问题解决：\n（1）如图2，求涉水线离坡底的距离MN（精确到0.01米）；\n（2）在图3中建立适当的平面直角坐标系，求抛物线ACB的解析式；\n（3）限高架上标有警示语“车辆限高h米”（即最大安全限高），求h的值（精确到0.1米）．\n[图1]",
+      "stem_markdown": "某玩转数学小组发现隧道前通常设有涉水线和限高架等安全警示，为探究其内在的数学原理，该小组考察了如图1所示的双向通行隧道．以下为该小组研究报告的部分记录，请认真阅读，解决问题．\n| 发现问题确定目标 | 涉水线设置 | 限高架设置 |\n| --- | --- | --- |\n| 数学抽象绘制图形 | ![2025年广东省广州市中考数学试卷_q024_img01](assets/2025年广东省广州市中考数学试卷_q024_img01.png) 隧道及斜坡的侧面示意图可近似如图2所示． | ![2025年广东省广州市中考数学试卷_q024_img02](assets/2025年广东省广州市中考数学试卷_q024_img02.png) 图3为隧道横截面示意图，由抛物线的一部分ACB和矩形ADEB的三边构成． |\n| 信息收集资料整理 | 当隧道内积水的水深为0.27米时（即积水达到涉水线处），车辆应避免通行． | 车辆进入隧道，应在行驶车道内通行（禁止压线），且必须保证车辆顶部与隧道顶部ACB在竖直方向的空隙不小于0.3米． |\n| 实地考察数据采集 | 斜坡的坡角α为10°，并查得sin10°≈0.174，cos10°≈0.985，tan10°≈0.176． | 隧道的最高点C到地面DE距离为5.4米，两侧墙面高AD＝BE＝3米，地面跨度DE＝10米．车辆行驶方向的右侧车道线（宽度忽略不计）与墙面的距离为1米． |\n问题解决：\n（1）如图2，求涉水线离坡底的距离MN（精确到0.01米）；\n（2）在图3中建立适当的平面直角坐标系，求抛物线ACB的解析式；\n（3）限高架上标有警示语“车辆限高h米”（即最大安全限高），求h的值（精确到0.1米）．\n![2025年广东省广州市中考数学试卷_q024_img03](assets/2025年广东省广州市中考数学试卷_q024_img03.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）认真研读题干，过点M作MP⊥l，代入数值得$sin10°=\\frac{MP}{MN}≈0.174$进行计算，即可作答；\n（2）先以点C为坐标原点，建立平面直角坐标系，设抛物线ACB的解析式为y＝$ax^{2}$（a＜0），再把B（5，﹣2.4）代入进行计算，得$y=-\\frac{12}{125}x^{2}$即可作答；\n（3）认真研读题干，得出10÷5﹣1＝4，再算出当x＝4时，y＝﹣1.536，则OG＝1.536，GH＝CH﹣OG＝3.864，即可得出h＝GH﹣0.3＝3.564＝3.5（米），即可作答．\n【解答】解：（1）过点M作MP⊥l，\n[[image:rId60]]\n∵斜坡的坡角α为10°，隧道内积水的水深为0.27米，\n∴∠MNP＝10°，MP＝0.27，\n∵MP⊥l，sin10°≈0.174，\n在Rt△MNP中，$sin10°=\\frac{MP}{MN}≈0.174$，$\\frac{0.27}{MN}≈0.174$，\n∴$MN=\\frac{0.27}{0.174}=1.55$（米）；\n（2）以点C为坐标原点，建立平面直角坐标系，\n[[image:rId61]]\n设抛物线ACB的解析式为y＝$ax^{2}$（a＜0），\n∵隧道的最高点C到地面DE距离为5.4米，两侧墙面高AD＝BE＝3米，地面跨度DE＝10米，\n∴B（5，﹣2.4），\n把B（5，﹣2.4）代入y＝$ax^{2}$，\n得﹣2.4＝25a，\n∴a$=-\\frac{12}{125}$，\n∴y$=-\\frac{12}{125}x^{2}$；\n（3）车辆行驶方向的右侧车道线（宽度忽略不计）与墙面的距离为1米，必须保证车辆顶部与隧道顶部ACB在竖直方向的空隙不小于0.3米，\n∴10÷2﹣1＝4，\n∴当x＝4时，$y=-\\frac{12}{125}×4^{2}=-1.536$，\n则OG＝1.536，\n∴GH＝CH﹣OG＝5.4﹣1.536＝3.864，\n限高架上标有警示语“车辆限高h米”（即最大安全限高），\n∴h＝GH﹣0.3＝3.864﹣0.3＝3.564 （米），\n∵涉及安全问题，\n∴h＝3.564≈3.5（米）．\n【点评】本题考查了解直角三角形的相关应用，二次函数的应用，求二次函数的解析式，正确掌握相关性质内容是解题的关键．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q024_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q024_img02",
+          "path": "assets/2025年广东省广州市中考数学试卷_q024_img02.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q024_img03",
+          "path": "assets/2025年广东省广州市中考数学试卷_q024_img03.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角函数",
+          "二次函数",
+          "直角三角形"
+        ],
+        "reasoning": "第（1）问使用了三角函数计算涉水线离坡底的距离，第（2）问建立了坐标系求抛物线方程，第（3）问涉及直角三角形的性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角函数\", \"二次函数\", \"直角三角形\"],\n  \"reasoning\": \"第（1）问使用了三角函数计算涉水线离坡底的距离，第（2）问建立了坐标系求抛物线方程，第（3）问涉及直角三角形的性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年广东省广州市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "如图1，AC＝4，O为AC中点，点B在AC上方，连接AB，BC．\n（1）尺规作图：作点B关于点O的对称点D（保留作图痕迹，不写作法），连接AD、DC，并证明四边形ABCD为平行四边形；\n（2）如图2，延长AC至点F，使得CF＝AC，当点B在直线AC的上方运动，直线AC的上方有异于点B的动点E，连接EA，EB，EC，EF，若∠AEC＝45°，且△ABC∽△FCE．\n①求证：△ABC∽△CBE；\n②CB的长是否存在最大值？若存在，求出该最大值；若不存在，请说明理由．\n[图1]\n2025年广东省广州市中考数学试卷",
+      "stem_markdown": "如图1，AC＝4，O为AC中点，点B在AC上方，连接AB，BC．\n（1）尺规作图：作点B关于点O的对称点D（保留作图痕迹，不写作法），连接AD、DC，并证明四边形ABCD为平行四边形；\n（2）如图2，延长AC至点F，使得CF＝AC，当点B在直线AC的上方运动，直线AC的上方有异于点B的动点E，连接EA，EB，EC，EF，若∠AEC＝45°，且△ABC∽△FCE．\n①求证：△ABC∽△CBE；\n②CB的长是否存在最大值？若存在，求出该最大值；若不存在，请说明理由．\n![2025年广东省广州市中考数学试卷_q025_img01](assets/2025年广东省广州市中考数学试卷_q025_img01.png)\n2025年广东省广州市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）连接BO并延长，在BO的延长线上截取OD＝OB，连接AD，CD，进而根据对角线互相平分的四边形是平行四边形，即可得证；\n（2）①根据△ABC∽△FCE得出∠BCE＝∠F＝∠BAC，$\\frac{AB}{FC}=\\frac{BC}{CE}$，根据已知CF＝AC，可得△ABC∽△CBE；\n②根据∠AEC＝45°，AC＝4，得出E在△AEC的外接圆上运动，设△AEC的外接圆为⊙O，设EF与⊙O交于点G，连接AG，证明△BAC∽△GFA，得出$BC=\\frac{1}{2}AG$，当AG为⊙O的直径时，AG取得最大值为$4\\sqrt{2}$，进而即可求解．\n【解答】（1）解：如图，连接BO并延长，在BO的延长线上截取OD＝OB，点D即为所作，\n[[image:rId63]]\n∵O为AC中点，\n∴AO＝OC，\n根据作图可得BO＝OD，\n∴四边形ABCD为平行四边形，\n（2）①∵△ABC∽△FCE，\n∴∠F＝∠BAC，∠ACB＝∠FEC，\n∵∠ACE＝∠F+∠CEF＝∠ECB+∠ACB，\n∴∠BCE＝∠F＝∠BAC，\n∵△ABC∽△FCE，\n∴$\\frac{AB}{FC}=\\frac{BC}{CE}$且CF＝AC，\n∴$\\frac{AB}{AC}=\\frac{BC}{CE}$，\n∴△ABC∽△CBE；\n②∵∠AEC＝45°，AC＝4，\n∴E在△AEC的外接圆上运动，\n设△AEC的外接圆为⊙O，如图，设EF与⊙O交于点G，连接AG，OA，OC，\n[[image:rId64]]\n∴∠AOC＝2∠AEC＝90°，\n∴$OA=OC=\\frac{\\sqrt{2}}{2}AC=2\\sqrt{2}$，\n∵$CG=CG$，\n∴∠GAF＝∠CEF，\n∵∠CEF＝∠ACB，\n∴∠GAF＝∠BCA，\n又∵∠F＝∠BAC，\n∴△BAC∽△GFA，\n又∵CF＝AC，则AF＝2AC，\n∴$\\frac{BC}{AG}=\\frac{AC}{AF}=\\frac{1}{2}$，\n若$BC=\\frac{1}{2}AG$，\n∴当AG为⊙O的直径时，AG取得最大值为$4\\sqrt{2}$，\n∴BC的最大值为$2\\sqrt{2}$．\n【点评】本题考查了平行四边形的性质与判定，相似三角形的性质与判定，圆周角定理，熟练掌握以上知识是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:32:03；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId66]] ____ [[image:rId67]] ____ [[image:rId68]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年广东省广州市中考数学试卷_q025_img01",
+          "path": "assets/2025年广东省广州市中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质与判定",
+          "平行四边形的性质与判定",
+          "圆周角定理"
+        ],
+        "reasoning": "（1）证明四边形ABCD为平行四边形利用了对角线互相平分的性质；（2）证明△ABC∽△CBE利用了相似三角形的对应边成比例和对应角相等；（2）证明△BAC∽△GFA利用了圆周角定理。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质与判定\", \"平行四边形的性质与判定\", \"圆周角定理\"],\n  \"reasoning\": \"（1）证明四边形ABCD为平行四边形利用了对角线互相平分的性质；（2）证明△ABC∽△CBE利用了相似三角形的对应边成比例和对应角相等；（2）证明△BAC∽△GFA利用了圆周角定理。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T04:09:03",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 25,
+      "ok": 25,
+      "fallback": 0
+    }
+  }
+}

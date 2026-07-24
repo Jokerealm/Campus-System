@@ -1,0 +1,1136 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年湖北省武汉市中考数学试卷",
+  "source": {
+    "name": "2025年湖北省武汉市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年湖北省武汉市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "现实世界中，对称现象无处不在，中国的方块字中有些也具有对称性．下列美术字是轴对称图形的是（ ）",
+      "stem_markdown": "现实世界中，对称现象无处不在，中国的方块字中有些也具有对称性．下列美术字是轴对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年湖北省武汉市中考数学试卷_q001_img01](assets/2025年湖北省武汉市中考数学试卷_q001_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年湖北省武汉市中考数学试卷_q001_img02](assets/2025年湖北省武汉市中考数学试卷_q001_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年湖北省武汉市中考数学试卷_q001_img03](assets/2025年湖北省武汉市中考数学试卷_q001_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年湖北省武汉市中考数学试卷_q001_img04](assets/2025年湖北省武汉市中考数学试卷_q001_img04.png)"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据如果一个图形沿一条直线折叠，直线两旁的部分能够互相重合，这个图形叫做轴对称图形，这条直线叫做对称轴进行分析即可．\n【解答】解：选项A、B、C的美术字都不能找到这样的一条直线，使图形沿一条直线折叠，直线两旁的部分能够互相重合，所以不是轴对称图形；\n选项D的美术字能找到这样的一条直线，使图形沿一条直线折叠，直线两旁的部分能够互相重合，所以是轴对称图形；\n故选：D．\n【点评】本题考查了轴对称图形的概念，轴对称图形的关键是寻找对称轴，图形两部分折叠后可重合．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q001_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q001_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q001_img02",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q001_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q001_img03",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q001_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q001_img04",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q001_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "轴对称图形",
+          "对称轴"
+        ],
+        "reasoning": "选项D能找到使图形沿一条直线折叠后两旁部分能够重合的直线",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"轴对称图形\", \"对称轴\"],\n  \"reasoning\": \"选项D能找到使图形沿一条直线折叠后两旁部分能够重合的直线\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "掷两个质地均匀的小正方体，小正方体的六个面上分别标有1到6的数字．下列事件是必然事件的是（ ）",
+      "stem_markdown": "掷两个质地均匀的小正方体，小正方体的六个面上分别标有1到6的数字．下列事件是必然事件的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "向上两面的数字和为5"
+        },
+        {
+          "label": "B",
+          "text": "向上两面的数字和大于1"
+        },
+        {
+          "label": "C",
+          "text": "向上两面的数字和大于12"
+        },
+        {
+          "label": "D",
+          "text": "向上两面的数字和为偶数"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】事先能肯定它一定会发生的事件称为必然事件，事先能肯定它一定不会发生的事件称为不可能事件，必然事件和不可能事件都是确定的；在一定条件下，可能发生也可能不发生的事件，称为随机事件；据此进行判断即可．\n【解答】解：掷两个质地均匀的小正方体，小正方体的六个面上分别标有1到6的数字，\n向上两面的数字和为5是随机事件，则A不符合题意，\n向上两面的数字和大于1是必然事件，则B符合题意，\n向上两面的数字和大于12是不可能事件，则C不符合题意，\n向上两面的数字和为偶数是随机事件，则D不符合题意，\n故选：B．\n【点评】本题考查随机事件，熟练掌握相关定义是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率论中的随机事件",
+          "必然事件",
+          "不可能事件"
+        ],
+        "reasoning": "题目要求判断哪个事件是必然事件，涉及随机事件的概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率论中的随机事件\", \"必然事件\", \"不可能事件\"],\n  \"reasoning\": \"题目要求判断哪个事件是必然事件，涉及随机事件的概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "如图是由五个相同的小正方体组成的几何体，它的俯视图是（ ）\n[图1]",
+      "stem_markdown": "如图是由五个相同的小正方体组成的几何体，它的俯视图是（ ）\n![2025年湖北省武汉市中考数学试卷_q003_img01](assets/2025年湖北省武汉市中考数学试卷_q003_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年湖北省武汉市中考数学试卷_q003_img02](assets/2025年湖北省武汉市中考数学试卷_q003_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年湖北省武汉市中考数学试卷_q003_img03](assets/2025年湖北省武汉市中考数学试卷_q003_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年湖北省武汉市中考数学试卷_q003_img04](assets/2025年湖北省武汉市中考数学试卷_q003_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年湖北省武汉市中考数学试卷_q003_img05](assets/2025年湖北省武汉市中考数学试卷_q003_img05.png)"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】找到从上面看所得到的图形即可，注意所有的看到的棱都应表现在俯视图中．\n【解答】解：从上面看易得底层是两个正方形，上层是两个正方形，类似于应该“田”字．\n故选：D．\n【点评】本题考查了三视图的知识，俯视图是从物体的上面看得到的视图．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q003_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q003_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q003_img02",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q003_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q003_img03",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q003_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q003_img04",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q003_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q003_img05",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q003_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三视图",
+          "俯视图",
+          "观察与想象能力"
+        ],
+        "reasoning": "题中要求根据几何体画出俯视图，涉及观察和想象能力，同时需要理解三视图的概念。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三视图\", \"俯视图\", \"观察与想象能力\"],\n  \"reasoning\": \"题中要求根据几何体画出俯视图，涉及观察和想象能力，同时需要理解三视图的概念。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "2025年“五一”期间，全国旅游市场火爆．据文化和旅游部数据中心统计，国内旅游消费超过1800亿元（1亿＝10⁸），同比增长8%．将数据1800亿用科学记数法表示是（ ）",
+      "stem_markdown": "2025年“五一”期间，全国旅游市场火爆．据文化和旅游部数据中心统计，国内旅游消费超过1800亿元（1亿＝10^{8}），同比增长8%．将数据1800亿用科学记数法表示是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.18×10^{12}"
+        },
+        {
+          "label": "B",
+          "text": "1.8×10^{11}"
+        },
+        {
+          "label": "C",
+          "text": "18×10^{10}"
+        },
+        {
+          "label": "D",
+          "text": "1.8×10^{12}"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：1800亿＝180000000000＝1.8×10^{11}．\n故选：B．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "数值转换"
+        ],
+        "reasoning": "题目要求将1800亿用科学记数法表示，考察了科学记数法的表示方法和数值转换能力。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"数值转换\"],\n  \"reasoning\": \"题目要求将1800亿用科学记数法表示，考察了科学记数法的表示方法和数值转换能力。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "下列计算正确的是（ ）",
+      "stem_markdown": "下列计算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a^{2}+a^{3}＝a^{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$a^{2}•a^{3}＝a^{6}$"
+        },
+        {
+          "label": "C",
+          "text": "（﹣$a^{3}$）^{2}＝$a^{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$a^{8}÷a^{2}＝a^{4}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】利用同底数幂乘法及除法，合并同类项，幂的乘方法则逐项判断即可．\n【解答】解：$a^{2}$与$a^{3}$不是同类项，无法合并，则A不符合题意，\n$a^{2}•a^{3}＝a^{5}$，则B不符合题意，\n（﹣$a^{3}$）^{2}＝$a^{6}$，则C符合题意，\n$a^{8}÷a^{2}＝a^{6}$，则D不符合题意，\n故选：C．\n【点评】本题考查同底数幂乘法及除法，合并同类项，幂的乘方，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同底数幂乘法",
+          "幂的乘方",
+          "合并同类项"
+        ],
+        "reasoning": "选项C中的计算涉及幂的乘方，选项D中的计算涉及同底数幂的除法。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同底数幂乘法\", \"幂的乘方\", \"合并同类项\"],\n  \"reasoning\": \"选项C中的计算涉及幂的乘方，选项D中的计算涉及同底数幂的除法。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "“漏壶”是中国古代一种全天候计时仪器，在它内部盛一定量的水，水从壶下的小孔漏出，壶内壁有刻度，人们根据壶中水面的位置计算时间．壶中水面高度y（单位：cm）随漏水时间t（单位：h）的变化规律如图所示（不考虑水量变化对压力的影响）．水面高度从48cm变化到42cm所用的时间是（ ）\n[图1]",
+      "stem_markdown": "“漏壶”是中国古代一种全天候计时仪器，在它内部盛一定量的水，水从壶下的小孔漏出，壶内壁有刻度，人们根据壶中水面的位置计算时间．壶中水面高度y（单位：cm）随漏水时间t（单位：h）的变化规律如图所示（不考虑水量变化对压力的影响）．水面高度从48cm变化到42cm所用的时间是（ ）\n![2025年湖北省武汉市中考数学试卷_q006_img01](assets/2025年湖北省武汉市中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "3h"
+        },
+        {
+          "label": "B",
+          "text": "4h"
+        },
+        {
+          "label": "C",
+          "text": "6h"
+        },
+        {
+          "label": "D",
+          "text": "12h"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据题意求出“漏壶”的漏水速度，即可求出水面高度从48cm变化到42cm所用的时间．\n【解答】解：“漏壶”的漏水速度为：$\\frac{48}{24}=$2（cm/h），\n∴水面高度从48cm变化到42cm所用的时间是$\\frac{48-42}{2}=$3（h），\n故选：A．\n【点评】本题考查函数图象，解答本题的关键是明确题意，利用数形结合的思想解答．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q006_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "函数图像的应用",
+          "线性函数"
+        ],
+        "reasoning": "根据图象求出漏水速度并计算时间",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"函数图像的应用\", \"线性函数\"],\n  \"reasoning\": \"根据图象求出漏水速度并计算时间\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "某商场开展购物抽奖促销活动，抽奖盒中装有三个小球，它们分别标有10元、20元、30元，一次性随机摸出两个小球，摸出的两球上金额的和为50元的概率是（ ）",
+      "stem_markdown": "某商场开展购物抽奖促销活动，抽奖盒中装有三个小球，它们分别标有10元、20元、30元，一次性随机摸出两个小球，摸出的两球上金额的和为50元的概率是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】用树状图表示从标有10元、20元、30元的三个小球中，随机摸出两个小球，所有等可能出现的结果，再根据概率的定义进行计算即可．\n【解答】解：从标有10元、20元、30元的三个小球中，随机摸出两个小球，所有等可能出现的结果如下：\n[[image:rId42]]\n共有6种等可能出现的结果，其中两球上金额的和为50元的有2种，\n所以两球上金额的和为50元的概率是$\\frac{2}{6}=\\frac{1}{3}$．\n故选：C．\n【点评】本题考查列表法和树状图法，列举出从标有10元、20元、30元的三个小球中，随机摸出两个小球，所有等可能出现的结果是正确解答的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "组合计数",
+          "概率计算"
+        ],
+        "reasoning": "题中计算摸出两球金额和为50元的概率，涉及组合计数和概率计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"组合计数\", \"概率计算\"],\n  \"reasoning\": \"题中计算摸出两球金额和为50元的概率，涉及组合计数和概率计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，在△ABC中，AB＝AC，D是边AB上的点，将△BCD沿直线CD折叠，点B的对应点E恰好落在边AC上．若∠A＝34°，则∠ADE的大小是（ ）\n[图1]",
+      "stem_markdown": "如图，在△ABC中，AB＝AC，D是边AB上的点，将△BCD沿直线CD折叠，点B的对应点E恰好落在边AC上．若∠A＝34°，则∠ADE的大小是（ ）\n![2025年湖北省武汉市中考数学试卷_q008_img01](assets/2025年湖北省武汉市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "35°"
+        },
+        {
+          "label": "B",
+          "text": "37°"
+        },
+        {
+          "label": "C",
+          "text": "39°"
+        },
+        {
+          "label": "D",
+          "text": "41°"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】由AB＝AC，得∠B＝∠ACB，而∠A＝34°，则2∠ACB+34°＝180°，求得∠B＝∠ACB＝73°，由折叠得∠CED＝∠B＝73°，则∠BDE＝360°﹣∠B﹣∠ACB﹣∠CED＝141°，所以∠ADE＝180°﹣∠BDE＝39°，于是得到问题的答案．\n【解答】解：∵AB＝AC，\n∴∠B＝∠ACB，\n∴∠B+∠ACB+∠A＝180°，且∠A＝34°，\n∴2∠ACB+34°＝180°，\n∴∠B＝∠ACB＝73°，\n∵将△BCD沿直线CD折叠，点B的对应点E恰好落在边AC上，\n∴∠CED＝∠B＝73°，\n∴∠BDE＝360°﹣∠B﹣∠ACB﹣∠CED＝360°﹣3×73°＝141°，\n∴∠ADE＝180°﹣∠BDE＝180°﹣141°＝39°，\n故选：C．\n【点评】此题重点考查等腰三角形的性质、翻折变换的性质、三角形内角和定理、四边形的内角和等于360°等知识，求得∠B＝∠ACB＝73°是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q008_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "翻折变换的性质",
+          "三角形内角和定理",
+          "四边形的内角和等于360°"
+        ],
+        "reasoning": "由AB＝AC得∠B＝∠ACB，结合∠A＝34°求得∠B＝∠ACB＝73°；折叠变换后∠CED＝∠B＝73°，进而求得∠ADE的度数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"翻折变换的性质\", \"三角形内角和定理\", \"四边形的内角和等于360°\"],\n  \"reasoning\": \"由AB＝AC得∠B＝∠ACB，结合∠A＝34°求得∠B＝∠ACB＝73°；折叠变换后∠CED＝∠B＝73°，进而求得∠ADE的度数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，四边形ABCD内接于⊙O，AB=2CD．若AB＝6，CD=\\sqrt{13}，则⊙O的半径是（ ）\n[图1]",
+      "stem_markdown": "如图，四边形ABCD内接于⊙O，$AB=$2$CD$．若AB＝6，CD$=\\sqrt{13}$，则⊙O的半径是（ ）\n![2025年湖北省武汉市中考数学试卷_q009_img01](assets/2025年湖北省武汉市中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{13}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据垂径定理，圆心角、弦、弧之间的关系，勾股定理进行计算即可．\n【解答】解：如图，过点O作OE⊥AB，垂足为F，交⊙O于点E，连接OA，AE，则$AE=BE$，AF＝BF$=\\frac{1}{2}$AB＝3，\n∵$AB=$2$CD$，\n∴$AE=CD$，\n∴AE＝CD$=\\sqrt{13}$，\n在Rt△AEF中，AE$=\\sqrt{13}$，AF＝3，\n∴EF$=\\sqrt{AE^{2}-AF^{2}}=$2，\n设半径为R，\n在Rt△AOF中，OA＝R，OF＝R﹣2，AF＝3，由勾股定理得，\n$OA^{2}＝OF^{2}+AF^{2}$，\n即$R^{2}$＝（R﹣2）^{2}+3^{2}，\n解得R$=\\frac{13}{4}$．\n故选：A．\n[[image:rId45]]\n【点评】本题考查垂径定理，圆心角、弦、弧之间的关系，勾股定理，掌握垂径定理，圆心角、弦、弧之间的关系，勾股定理是正确解答的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q009_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "垂径定理",
+          "圆心角、弦、弧之间的关系",
+          "勾股定理"
+        ],
+        "reasoning": "题中利用垂径定理和勾股定理求解半径",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"垂径定理\", \"圆心角、弦、弧之间的关系\", \"勾股定理\"],\n  \"reasoning\": \"题中利用垂径定理和勾股定理求解半径\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图1，在△ABC中，D是边AC上的定点．点P从点A出发，依次沿AB，BC两边匀速运动，运动到点C时停止．设点P运动的路程为x，DP的长为y，y关于x的函数图象如图2所示，其中M，N分别是两段曲线的最低点．点N的纵坐标是（ ）\n[图1]",
+      "stem_markdown": "如图1，在△ABC中，D是边AC上的定点．点P从点A出发，依次沿AB，BC两边匀速运动，运动到点C时停止．设点P运动的路程为x，DP的长为y，y关于x的函数图象如图2所示，其中M，N分别是两段曲线的最低点．点N的纵坐标是（ ）\n![2025年湖北省武汉市中考数学试卷_q010_img01](assets/2025年湖北省武汉市中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{116}{17}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{120}{17}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{112}{15}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{116}{15}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】由图2可知AD、CD、BD的长度及点D到AB的距离，点N的纵坐标表示点D到BC的距离，再根据勾股定理及其逆定理、三角形面积公式求出点D到BC的距离即可．\n【解答】解：根据图2，AD＝20，CD＝8，BD＝15，点D到AB的距离DE＝12，点N的纵坐标表示点D到BC的距离DF．如图：\n[[image:rId47]]\n在Rt△ADE中利用勾股定理，得AE$=\\sqrt{AD^{2}-DE^{2}}=\\sqrt{20^{2}-12^{2}}=$16，\n在Rt△BDE中利用勾股定理，得BE$=\\sqrt{BD^{2}-DE^{2}}=\\sqrt{15^{2}-12^{2}}=$9，\n则AB＝AE+BE＝16+9＝25，\n∵$AD^{2}+BD^{2}$＝20^{2}+15^{2}＝625，$AB^{2}$＝25^{2}＝625，\n∴$AD^{2}+BD^{2}＝AB^{2}$，\n∴∠ADB＝90°，\n∴∠BDC＝180°﹣∠ADB＝90°，\n在Rt△BCD中利用勾股定理，得BC$=\\sqrt{BD^{2}+CD^{2}}=\\sqrt{15^{2}+8^{2}}=$17，\n则$\\frac{1}{2}$BD•CD$=\\frac{1}{2}$BC•DF，\n解得DF$=\\frac{BD⋅CD}{BC}=\\frac{15×8}{17}=$$\\frac{120}{17}$，\n∴点N的纵坐标是$\\frac{120}{17}$．\n故选：B．\n【点评】本题考查动点问题的函数图象，根据图2得到AD、CD、BD的长度及点D到AB的距离，点N的纵坐标表示点D到BC的距离，掌握勾股定理及其逆定理、三角形面积计算公式是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q010_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "三角形面积公式",
+          "相似三角形"
+        ],
+        "reasoning": "根据图2得到点D到BC的距离DF，利用勾股定理和三角形面积公式求DF",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"三角形面积公式\", \"相似三角形\"],\n  \"reasoning\": \"根据图2得到点D到BC的距离DF，利用勾股定理和三角形面积公式求DF\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "在标准大气压下，四种物质的凝固点如表所示，其中凝固点最低的物质是 ____ ．\n物质 | 铁 | 酒精 | 液态氧 | 水\n凝固点（单位：℃） | 1535 | ﹣117 | ﹣218 | 0",
+      "stem_markdown": "在标准大气压下，四种物质的凝固点如表所示，其中凝固点最低的物质是 ____ ．\n| 物质 | 铁 | 酒精 | 液态氧 | 水 |\n| --- | --- | --- | --- | --- |\n| 凝固点（单位：℃） | 1535 | ﹣117 | ﹣218 | 0 |",
+      "options": [],
+      "answer": "液态氧．",
+      "solution": "【分析】根据正数和负数的实际意义得出最小的数即可．\n【解答】解：由题意可得最小的数为﹣218，\n则凝固点最低的物质为液态氧，\n故答案为：液态氧．\n【点评】本题考查正数和负数，理解其实际意义是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "负数的实际意义",
+          "比较有理数大小"
+        ],
+        "reasoning": "题中需要比较四种物质的凝固点高低，涉及负数的大小比较。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"负数的实际意义\", \"比较有理数大小\"],\n  \"reasoning\": \"题中需要比较四种物质的凝固点高低，涉及负数的大小比较。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "在平面直角坐标系中，某反比例函数y=\\frac{k}{x}的图象分别位于第一、第三象限．写出一个满足条件的k的值是 ____ ．",
+      "stem_markdown": "在平面直角坐标系中，某反比例函数y$=\\frac{k}{x}$的图象分别位于第一、第三象限．写出一个满足条件的k的值是 ____ ．",
+      "options": [],
+      "answer": "1（答案不唯一）．",
+      "solution": "【分析】根据反比例函数图象分布确定k的取值范围，在k的取值范围内选取一个数即可．\n【解答】解：∵反比例函数y$=\\frac{k}{x}$的图象分别位于第一、第三象限，\n∴k＞0，\n不妨令k＝1．\n故答案为：1（答案不唯一）．\n【点评】本题考查了反比例函数的图象与性质，熟练掌握反比例函数的性质是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的图象与性质",
+          "象限内反比例函数系数的符号"
+        ],
+        "reasoning": "反比例函数图象分别位于第一、第三象限时k>0",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的图象与性质\", \"象限内反比例函数系数的符号\"],\n  \"reasoning\": \"反比例函数图象分别位于第一、第三象限时k>0\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "方程\\frac{1}{x-1}=\\frac{4}{x^{2}-1}的解是 ____ ．",
+      "stem_markdown": "方程$\\frac{1}{x-1}=\\frac{4}{x^{2}-1}$的解是 ____ ．",
+      "options": [],
+      "answer": "x＝3．",
+      "solution": "【分析】将原方程去分母后化为整式方程，解得x的值后进行检验即可．\n【解答】解：原方程去分母得：x+1＝4，\n解得：x＝3，\n检验：当x＝3时，（x+1）（x﹣1）≠0，\n故原方程的解为x＝3，\n故答案为：x＝3．\n【点评】本题考查解分式方程，熟练掌握解方程的方法是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程",
+          "去分母",
+          "整式方程求解",
+          "检验解的正确性"
+        ],
+        "reasoning": "去分母后得到整式方程 x+1=4 考察了去分母和整式方程的求解方法",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程\", \"去分母\", \"整式方程求解\", \"检验解的正确性\"],\n  \"reasoning\": \"去分母后得到整式方程 x+1=4 考察了去分母和整式方程的求解方法\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "某科技小组用无人机测量一池塘水面两端A，B的距离，具体过程如下：如图，将无人机垂直上升至距水面120m的P处，测得A处的俯角为45°，B处的俯角为22°，则A，B之间的距离是 ____ m．（tan22°取0.4）\n[图1]",
+      "stem_markdown": "某科技小组用无人机测量一池塘水面两端A，B的距离，具体过程如下：如图，将无人机垂直上升至距水面120m的P处，测得A处的俯角为45°，B处的俯角为22°，则A，B之间的距离是 ____ m．（tan22°取0.4）\n![2025年湖北省武汉市中考数学试卷_q014_img01](assets/2025年湖北省武汉市中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "180．",
+      "solution": "【分析】根据题意可得：PD∥CB，从而可得∠PAC＝∠DPA＝45°，∠DPB＝∠PBC＝22°，然后分别在Rt△PAC和Rt△PBC中，利用锐角三角函数的定义求出AC和BC的长，从而进行计算即可解答．\n【解答】解：如图：\n[[image:rId49]]\n由题意得：PD∥CB，\n∴∠PAC＝∠DPA＝45°，∠DPB＝∠PBC＝22°，\n在Rt△PAC中，PC＝120m，\n∴AC$=\\frac{PC}{tan45°}=$120（m），\n在Rt△PBC中，∠PBC＝22°，\n∴BC$=\\frac{PC}{tan22°}≈\\frac{120}{0.4}=$300（m），\n∴AB＝BC﹣AC＝300﹣120＝180（m），\n∴A，B之间的距离约是180m，\n故答案为：180．\n【点评】本题考查了解直角三角形的应用﹣仰角俯角问题，根据题目的已知条件并结合图形进行分析添加适当的辅助线是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q014_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "相似三角形",
+          "直角三角形"
+        ],
+        "reasoning": "题中通过俯角关系构造直角三角形，并利用正切函数求解边长。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"相似三角形\", \"直角三角形\"],\n  \"reasoning\": \"题中通过俯角关系构造直角三角形，并利用正切函数求解边长。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，在△ABC中，AB＝AC＝10，BC＝2\\sqrt{10}，点D在边AC上，CD＝3．若点E在边AB上，满足CE＝BD，则AE的长是 ____ ．\n[图1]",
+      "stem_markdown": "如图，在△ABC中，AB＝AC＝10，BC＝2$\\sqrt{10}$，点D在边AC上，CD＝3．若点E在边AB上，满足CE＝BD，则AE的长是 ____ ．\n![2025年湖北省武汉市中考数学试卷_q015_img01](assets/2025年湖北省武汉市中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "7或9．",
+      "solution": "【分析】过A作AM⊥BC于M，过C作CH⊥AB于H，由等腰三角形的性质得到BM$=\\frac{1}{2}$BC$=\\sqrt{10}$，由勾股定理求出AM＝3$\\sqrt{10}$，由三角形的面积公式求出CH＝6由勾股定理求出BH＝2，如果E在H的上面，求出AE＝AB﹣BE＝10﹣3＝7；如果E在H的下面，求出AE′＝AH+E′H＝8+1＝9，于是得到答案．\n【解答】解：过A作AM⊥BC于M，过C作CH⊥AB于H，\n∵AB＝AC＝10，\n∴BM$=\\frac{1}{2}$BC$=\\frac{1}{2}×$2$\\sqrt{10}=\\sqrt{10}$，\n∴AM$=\\sqrt{AB^{2}-BM^{2}}=$3$\\sqrt{10}$，\n∵△ABC的面积$=\\frac{1}{2}$AB•CH$=\\frac{1}{2}$BC•AM，\n∴10×CH＝2$\\sqrt{10}×$3$\\sqrt{10}$，\n∴CH＝6，\n∴BH$=\\sqrt{BC^{2}-CH^{2}}=$2，\n如果E在H的上面，\n当BE＝CD＝3时，CE＝BD，\n∴AE＝AB﹣BE＝10﹣3＝7；\n如果E在H的下面，\n∵CE′＝CE，CH⊥EE′，\n∴HE′＝HE，\n∵EH＝BE﹣BH＝3﹣2＝1，\n∴AE′＝AH+E′H＝8+1＝9，\n综上所述：AE的长是7或9．\n故答案为：7或9．\n[[image:rId51]]\n【点评】本题考查等腰三角形的性质，勾股定理，三角形的面积，关键是要分两种情况讨论．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q015_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "勾股定理",
+          "三角形的面积公式"
+        ],
+        "reasoning": "题中通过等腰三角形性质和勾股定理解三角形，涉及面积计算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"勾股定理\", \"三角形的面积公式\"],\n  \"reasoning\": \"题中通过等腰三角形性质和勾股定理解三角形，涉及面积计算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "已知二次函数y＝ax²+（a﹣2）x﹣2（a为常数，且a≠0）．下列五个结论：\n①该函数图象经过点（﹣1，0）；\n②若a＝﹣1，则当x＞﹣1时，y随x的增大而减小；\n③该函数图象与x轴有两个不同的公共点；\n④若a＞2，则关于x的方程ax²+（a﹣2）x﹣2＝0有一个根大于0且小于1；\n⑤若a＞2，则关于x的方程|ax²+（a﹣2）x﹣2|＝2的正数根只有一个．\n其中正确的是 ____ （填写序号）．",
+      "stem_markdown": "已知二次函数y＝$ax^{2}$+（a﹣2）x﹣2（a为常数，且a≠0）．下列五个结论：\n①该函数图象经过点（﹣1，0）；\n②若a＝﹣1，则当x＞﹣1时，y随x的增大而减小；\n③该函数图象与x轴有两个不同的公共点；\n④若a＞2，则关于x的方程$ax^{2}$+（a﹣2）x﹣2＝0有一个根大于0且小于1；\n⑤若a＞2，则关于x的方程|$ax^{2}$+（a﹣2）x﹣2|＝2的正数根只有一个．\n其中正确的是 ____ （填写序号）．",
+      "options": [],
+      "answer": "①②④⑤．",
+      "solution": "【分析】把x＝﹣1代入二次函数y＝$ax^{2}$+（a﹣2）x﹣2中，得y＝0，即可判断①；\n当a＝﹣1时，该二次函数开口向下，求出对称轴为直线x$=-\\frac{3}{2}$，则可根据增减性判断②；利用判别式的值可直接判断③；\n由①可知关于x的方程$ax^{2}$+（a﹣2）x﹣2＝0有一个根为﹣1，设另一个根为$x_{2}$，由韦达定理可知$x_{2}=\\frac{2}{a}$，当a＞2时，有$0＜\\frac{2}{a}＜1$，进而可判断④；\n⑤当a＞2时，对称轴为直线x$=\\frac{1}{a}-\\frac{1}{2}＜$0，则关于x的方程$ax^{2}$+（a﹣2）x﹣2＝﹣2有两个非正解，将y＝$ax^{2}$+（a﹣2）x﹣2在x轴下方的图象沿x轴翻折可得到函数y＝|$ax^{2}$+（a﹣2）x﹣2|的图象，令y＝2，则直线y＝2与y＝|$ax^{2}$+（a﹣2）x﹣2|共有4个不同交点，其中只有一个最右侧交点横坐标为正，其余都为负，即关于x的方程|$ax^{2}$+（a﹣2）x﹣2|＝2的正数根只有一个，即判断⑤．\n【解答】解：把x＝﹣1代入二次函数y＝$ax^{2}$+（a﹣2）x﹣2中，得y＝a+2﹣a﹣2＝0，\n故该函数图象经过点（﹣1，0），故①正确；\n当a＝﹣1时，该二次函数开口向下，\n对称轴为直线x$=-\\frac{b}{2a}=-\\frac{a-2}{2a}=-\\frac{3}{2}$，\n故当x$＞-\\frac{3}{2}$时，y随x的增大而减小，\n因此当x＞﹣1时，y随x的增大而减小，故②正确；\n∵Δ＝$b^{2}$﹣4ac＝（a﹣2）^{2}+8a＝（a+2）^{2}≥0，\n∴该函数图象与x轴有两个不同公共点或只有一个公共点，故③错误；\n由①可知关于x的方程$ax^{2}$+（a﹣2）x﹣2＝0有一个根为﹣1，\n设另一个根为$x_{2}$，由韦达定理可知$-1⋅x_{2}=-\\frac{2}{a}$，\n∴$x_{2}=\\frac{2}{a}$，\n当a＞2时，有$0＜\\frac{2}{a}＜1$，\n即关于x的方程$ax^{2}$+（a﹣2）x﹣2＝0有一个根大于0且小于1，故④正确；\n当a＞2时，对称轴为直线x$=\\frac{2-a}{2a}=\\frac{1}{a}-\\frac{1}{2}＜$0，\n则关于x的方程$ax^{2}$+（a﹣2）x﹣2＝﹣2有两个非正解，\n将y＝$ax^{2}$+（a﹣2）x﹣2在x轴下方的图象沿x轴翻折可得到函数y＝|$ax^{2}$+（a﹣2）x﹣2|的图象，\n[[image:rId52]]\n令y＝2，则直线y＝2与y＝|$ax^{2}$+（a﹣2）x﹣2|共有4个不同交点，\n其中只有一个最右侧交点横坐标为正，其余都为负，\n即关于x的方程|$ax^{2}$+（a﹣2）x﹣2|＝2的正数根只有一个，故⑤正确．\n故答案为：①②④⑤．\n【点评】本题考查了二次函数的图象、增减性质、对称性质、根的判别式、韦达定理、二次函数图象的轴对称变换、二次函数与一元二次方程的联系，熟练掌握以上内容并能数形结合分析题意是解题关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数图像与性质",
+          "一元二次方程根的判别式",
+          "韦达定理",
+          "函数增减性"
+        ],
+        "reasoning": "题目涉及二次函数的图像、根的判别式、韦达定理和增减性等知识点。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数图像与性质\", \"一元二次方程根的判别式\", \"韦达定理\", \"函数增减性\"],\n  \"reasoning\": \"题目涉及二次函数的图像、根的判别式、韦达定理和增减性等知识点。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "解不等式组\\begin{cases} 3x-5≤1 & ① \\\\ 2x+1＞x & ② \\end{cases}．",
+      "stem_markdown": "解不等式组$\\begin{cases} 3x-5≤1 & ① \\\\ 2x+1＞x & ② \\end{cases}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】解各不等式得到对应的解集后求得它们的公共部分即可．\n【解答】解：解不等式①得：x≤2，\n解不等式②得：x＞﹣1，\n故原不等式组的解集为﹣1＜x≤2．\n【点评】本题考查解一元一次不等式组，熟练掌握解不等式组的方法是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组",
+          "解一元一次不等式"
+        ],
+        "reasoning": "通过解两个一元一次不等式得到各自的解集并求交集",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组\", \"解一元一次不等式\"],\n  \"reasoning\": \"通过解两个一元一次不等式得到各自的解集并求交集\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "如图，四边形ABCD的对角线交于点O，AD∥BC．若______，则AD＝CB．\n从①OA＝OC，②∠ABC＝∠CDA，③AB＝CD这三个选项中选择一个作为条件，使结论成立，并说明理由．\n[图1]",
+      "stem_markdown": "如图，四边形ABCD的对角线交于点O，AD∥BC．若______，则AD＝CB．\n从①OA＝OC，②∠ABC＝∠CDA，③AB＝CD这三个选项中选择一个作为条件，使结论成立，并说明理由．\n![2025年湖北省武汉市中考数学试卷_q018_img01](assets/2025年湖北省武汉市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】由AD∥BC，得∠ODA＝∠OBC，∠ACB＝∠CAD，若选择①OA＝OC，可根据“AAS”证明△AOD≌△COB，得AD＝CB；若选择②∠ABC＝∠CDA，可证明△ABC≌△CDA，得AD＝CB．\n【解答】解：选择①OA＝OC，\n理由：∵AD∥BC，\n∴∠ODA＝∠OBC，\n在△AOD和△COB中，\n$\\begin{cases} ∠AOD=∠COB \\\\ ∠ODA=∠OBC \\\\ OA=OC \\end{cases}$，\n∴△AOD≌△COB（AAS），\n∴AD＝CB．\n注：答案不唯一．\n【点评】此题重点考查平行线的性质、全等三角形的判定与性质等知识，适当选择全等三角形的判定定理证明△AOD≌△COB（或△ABC≌△CDA）是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q018_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行线的性质",
+          "全等三角形的判定（AAS）"
+        ],
+        "reasoning": "选择①OA＝OC时，根据AAS证明△AOD≌△COB",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行线的性质\", \"全等三角形的判定（AAS）\"],\n  \"reasoning\": \"选择①OA＝OC时，根据AAS证明△AOD≌△COB\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "某校开展“中国诗词”竞赛，学生成绩为正整数，满分为5分．为了解本次竞赛的情况，从该校随机抽取m名学生的成绩作为样本，将收集的数据整理并绘制成如下两幅不完整的统计图．\n[图1]\n根据以上信息，解答下列问题：\n（1）m的值是 ____ ，扇形统计图中“5分”对应的扇形的圆心角大小是 ____ ．\n（2）该校共有1000名学生参加竞赛，估计成绩超过3分的学生人数．\n（3）从样本的众数、中位数中选择一个统计量，写出它的值并说明它的实际意义．",
+      "stem_markdown": "某校开展“中国诗词”竞赛，学生成绩为正整数，满分为5分．为了解本次竞赛的情况，从该校随机抽取m名学生的成绩作为样本，将收集的数据整理并绘制成如下两幅不完整的统计图．\n![2025年湖北省武汉市中考数学试卷_q019_img01](assets/2025年湖北省武汉市中考数学试卷_q019_img01.png)\n根据以上信息，解答下列问题：\n（1）m的值是 ____ ，扇形统计图中“5分”对应的扇形的圆心角大小是 ____ ．\n（2）该校共有1000名学生参加竞赛，估计成绩超过3分的学生人数．\n（3）从样本的众数、中位数中选择一个统计量，写出它的值并说明它的实际意义．",
+      "options": [],
+      "answer": "100，72°",
+      "solution": "【分析】（1）用“3分”的人数以及它所占百分比可得m的值；用360°乘“5分”所占百分比可得扇形统计图中“5分”对应的扇形的圆心角大小；\n（2）利用样本估计总体即可；\n（3）利用中位数、众数的定义即可求出答案．\n【解答】解：（1）m＝36÷36%＝100，\n“5分”的人数为：100﹣2﹣10﹣36﹣32＝20，\n扇形统计图中“5分”对应的扇形的圆心角大小是：360°$×\\frac{20}{100}=$72°，\n故答案为：100，72°；\n（2）1000$×\\frac{32+20}{100}=$520（人），\n答：估计成绩超过3分的学生人数为520人；\n（3）把100名学生的成绩从小到大排列，排在中间的两个数是4，故中位数为$\\frac{4+4}{2}=$4，样本的众数中位数为4分，说明大部分学生成绩达到或超过4分．（答案不唯一）．\n【点评】本题考查了条形统计图、扇形统计图、用样本估计总体以及中位数、众数等统计基础知识，明确相关统计量表示的意义及相关计算方法是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q019_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率分布直方图",
+          "百分比计算",
+          "样本估计总体",
+          "中位数"
+        ],
+        "reasoning": "第（1）问用“3分”的人数及百分比计算m值；用360°乘“5分”所占百分比计算圆心角大小；第（2）问利用样本估计总体；第（3）问利用中位数的实际意义。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率分布直方图\", \"百分比计算\", \"样本估计总体\", \"中位数\"],\n  \"reasoning\": \"第（1）问用“3分”的人数及百分比计算m值；用360°乘“5分”所占百分比计算圆心角大小；第（2）问利用样本估计总体；第（3）问利用中位数的实际意义。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "如图，点A，B，C，D在⊙O上，BD是直径，∠BAC＝45°，过点C作CE∥BD交AB的延长线于点E．\n（1）求证：CE是⊙O的切线．\n（2）若BD＝4，tan∠ABD＝2，求图中阴影部分的面积．\n[图1]",
+      "stem_markdown": "如图，点A，B，C，D在⊙O上，BD是直径，∠BAC＝45°，过点C作CE∥BD交AB的延长线于点E．\n（1）求证：CE是⊙O的切线．\n（2）若BD＝4，tan∠ABD＝2，求图中阴影部分的面积．\n![2025年湖北省武汉市中考数学试卷_q020_img01](assets/2025年湖北省武汉市中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）连接OC，由∠BAC＝45°，得∠BOC＝2∠BAC＝90°，因为CE∥BD，所以∠OCE＝180°﹣∠BOC＝90°，即可证明CE是⊙O的切线；\n（2）作BF⊥CE于点F，由BD是⊙O的直径，且BD＝4，求得OC＝OB＝2，可证明四边形BOCF是正方形，则BF＝OB＝2，因为∠E＝∠ABD，所以$\\frac{BF}{EF}=$tanE＝tan∠ABD＝2，则EF$=\\frac{1}{2}$BF＝1，即可由$S_{阴影}＝S_{△}_{BEF}+S_{正方形}_{BOCF}﹣S_{扇形}_{BOC}$求得$S_{阴影}$＝5﹣π．\n【解答】（1）证明：连接OC，\n∵∠BAC＝45°，\n∴∠BOC＝2∠BAC＝90°，\n∵CE∥BD，\n∴∠OCE＝180°﹣∠BOC＝90°，\n∵OC是⊙O的半径，且CE⊥OC，\n∴CE是⊙O的切线．\n（2）解：作BF⊥CE于点F，则∠BFE＝∠BFC＝90°，\n∵∠BFC＝∠OCF＝∠BOC＝90°，\n∴四边形BOCF是矩形，\n∵BD是⊙O的直径，且BD＝4，\n∴OC＝OB$=\\frac{1}{2}$AB＝2，\n∴四边形BOCF是正方形，\n∴BF＝OB＝2，\n∵∠E＝∠ABD，tan∠ABD＝2，\n∴$\\frac{BF}{EF}=$tanE＝tan∠ABD＝2，\n∴EF$=\\frac{1}{2}$BF＝1，\n∴$S_{阴影}＝S_{△}_{BEF}+S_{正方形}_{BOCF}﹣S_{扇形}_{BOC}=\\frac{1}{2}×$1×2+2^{2}$-\\frac{90π×2^{2}}{360}=$5﹣π，\n∴阴影部分的面积为5﹣π．\n[[image:rId56]]\n【点评】此题重点考查平行线的性质、圆周角定理、切线的判定、正方形的判定与性质、解直角三角形、扇形的面积公式等知识，正确地添加辅助线是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q020_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆周角定理",
+          "切线的判定",
+          "正方形的判定与性质",
+          "扇形面积公式"
+        ],
+        "reasoning": "（1）利用∠BAC=45°得出∠BOC=90°，结合CE∥BD得出∠OCE=90°，证明CE是⊙O的切线；（2）通过作BF⊥CE得出四边形BOCF为正方形，利用正方形性质和扇形面积公式计算阴影部分面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆周角定理\", \"切线的判定\", \"正方形的判定与性质\", \"扇形面积公式\"],\n  \"reasoning\": \"（1）利用∠BAC=45°得出∠BOC=90°，结合CE∥BD得出∠OCE=90°，证明CE是⊙O的切线；（2）通过作BF⊥CE得出四边形BOCF为正方形，利用正方形性质和扇形面积公式计算阴影部分面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图是由小正方形组成的3×4网格，每个小正方形的顶点叫作格点，矩形ABCD的四个顶点都是格点．仅用无刻度直尺在给定网格中完成如下两个问题，每个问题的画线不得超过五条．\n[图1]\n（1）如图1，E是格点，先将点E绕点A逆时针旋转90°，画对应点F，再画直线FG交AB于点G，使直线FG平分矩形ABCD的面积．\n（2）如图2，先画点C关于直线BD的对称点M，再画射线MN交BD于点N，使MN∥AD．",
+      "stem_markdown": "如图是由小正方形组成的3×4网格，每个小正方形的顶点叫作格点，矩形ABCD的四个顶点都是格点．仅用无刻度直尺在给定网格中完成如下两个问题，每个问题的画线不得超过五条．\n![2025年湖北省武汉市中考数学试卷_q021_img01](assets/2025年湖北省武汉市中考数学试卷_q021_img01.png)\n（1）如图1，E是格点，先将点E绕点A逆时针旋转90°，画对应点F，再画直线FG交AB于点G，使直线FG平分矩形ABCD的面积．\n（2）如图2，先画点C关于直线BD的对称点M，再画射线MN交BD于点N，使MN∥AD．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用旋转变换的性质作出点E的对应点F即可，连接AC交网格线于点O，作直线FO交AB于点G即可；\n（2）取格点J，K，连接AK，CJ交于点M，连接KJ交网格线于点P，取格点W，连接PW，延长PW交BD于点N，作直线MN即可．\n【解答】解：（1）如图1中，点F，直线FG即为所求；\n[[image:rId58]]\n（2）如图，点M，直线MN即为所求．\n【点评】本题考查作图﹣旋转变换，轴对称变换，平行线的判定，解题的关键是理解题意，灵活运用所学知识解决问题．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q021_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "旋转",
+          "面积平分",
+          "垂线段最短"
+        ],
+        "reasoning": "（1）旋转90°和平分面积需要理解旋转的性质和面积的概念。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"旋转\", \"面积平分\", \"垂线段最短\"],\n  \"reasoning\": \"（1）旋转90°和平分面积需要理解旋转的性质和面积的概念。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "某校数学小组开展以“羽毛球飞行路线”为主题的综合实践活动．研究背景 羽毛球飞行路线所在的平面与球网垂直．\n收集数据 某次羽毛球飞行的高度y（单位：m）与距发球点的水平距离x（单位：m）的对应值如表（不考虑空气阻力）．\n水平距离x/m | 0 | 2 | 3 | 5 | 6 | …\n高度y/m | 1.1 | 2.3 | 2.6 | 2.6 | 2.3 | …\n探索发现 数学小组借助计算机画图软件，建立平面直角坐标系、描点、连线（如图），发现羽毛球飞行路线是抛物线y＝ax²+bx+1.1的一部分．\n建立模型 求y与x的函数解析式（不要求写自变量取值范围）．\n（1）羽毛球在此次飞行过程中，飞行的高度能否达到2.8m？请说明理由．\n（2）保持羽毛球飞行路线对应的抛物线的形状不变，改变发球方式，使其解析式变为y＝ax²+kx+1.1，发球点与球网的水平距离是5m．若羽毛球飞过球网正上方时，飞行的高度超过2.1m，且球的落地点与球网的水平距离小于6m．求k的取值范围．\n[图1]",
+      "stem_markdown": "某校数学小组开展以“羽毛球飞行路线”为主题的综合实践活动．研究背景 羽毛球飞行路线所在的平面与球网垂直．\n收集数据 某次羽毛球飞行的高度y（单位：m）与距发球点的水平距离x（单位：m）的对应值如表（不考虑空气阻力）．\n| 水平距离x/m | 0 | 2 | 3 | 5 | 6 | … |\n| --- | --- | --- | --- | --- | --- | --- |\n| 高度y/m | 1.1 | 2.3 | 2.6 | 2.6 | 2.3 | … |\n探索发现 数学小组借助计算机画图软件，建立平面直角坐标系、描点、连线（如图），发现羽毛球飞行路线是抛物线y＝$ax^{2}$+bx+1.1的一部分．\n建立模型 求y与x的函数解析式（不要求写自变量取值范围）．\n（1）羽毛球在此次飞行过程中，飞行的高度能否达到2.8m？请说明理由．\n（2）保持羽毛球飞行路线对应的抛物线的形状不变，改变发球方式，使其解析式变为y＝$ax^{2}$+kx+1.1，发球点与球网的水平距离是5m．若羽毛球飞过球网正上方时，飞行的高度超过2.1m，且球的落地点与球网的水平距离小于6m．求k的取值范围．\n![2025年湖北省武汉市中考数学试卷_q022_img01](assets/2025年湖北省武汉市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）把（2，2.3），（3，2.6）代入y＝$ax^{2}$+bx+1.1，用待定系数法求出函数解析式，再根据函数的性质求出最大值与2.8比较即可；\n（2）根据题意知，当x＝5时，y＞2.1，当x＝11时，y＜0，解不等式组求出k的取值范围．\n【解答】解：（1）把（2，2.3），（3，2.6）代入y＝$ax^{2}$+bx+1.1得：\n$\\begin{cases} 4a+2b+1.1=2.3 \\\\ 9a+3b+1.1=2.6 \\end{cases}$，\n解得$\\begin{cases} a=-0.1 \\\\ b=0.8 \\end{cases}$，\n∴y＝﹣0.$1x^{2}$+0.8x+1.1＝﹣0.1（x﹣4）^{2}+2.7，\n∵﹣0.1＜0，\n∴当x＝4时，y有最大值，最大值为2.7，\n∵2.8＞2.7，\n∴羽毛球在此次飞行过程中，飞行的高度不能达到2.8m；\n（2）∵保持羽毛球飞行路线对应的抛物线的形状不变，\n∴a＝﹣0.1，\n∴解析式为y＝﹣0.$1x^{2}$+kx+1.1，\n当x＝5时，y＝﹣0.1×5^{2}+5k+1.1＞2.1，\n解得k＞0.7；\n∵球的落地点与球网的水平距离小于6，\n∴当x＝11时，y＝﹣0.1×11^{2}+11k+1.1＜0，\n解得k＜1，\n∴k的取值范围为0.7＜k＜1．\n【点评】本题主要考查二次函数的应用，掌握二次函数的性质是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q022_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数",
+          "抛物线性质",
+          "一元一次不等式组"
+        ],
+        "reasoning": "第（1）问利用给定点求二次函数解析式并判断最大值；第（2）问通过一元一次不等式组确定k的取值范围。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数\", \"抛物线性质\", \"一元一次不等式组\"],\n  \"reasoning\": \"第（1）问利用给定点求二次函数解析式并判断最大值；第（2）问通过一元一次不等式组确定k的取值范围。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "如图，四边形ABCD是正方形，点E在边CD上，点F在边BC的延长线上，DE＝CF，射线AE交对角线BD于点G，交线段DF于点H．\n（1）求证：DH＝GH．（温馨提示：若思考有困难，可尝试证明△ADE≌△DCF）\n（2）求证：AG•EH＝EG•GH．\n（3）若\\frac{GE}{EH}=n，直接写出\\frac{DH}{DF}的值（用含n的式子表示）．\n[图1]",
+      "stem_markdown": "如图，四边形ABCD是正方形，点E在边CD上，点F在边BC的延长线上，DE＝CF，射线AE交对角线BD于点G，交线段DF于点H．\n（1）求证：DH＝GH．（温馨提示：若思考有困难，可尝试证明△ADE≌△DCF）\n（2）求证：AG•EH＝EG•GH．\n（3）若$\\frac{GE}{EH}=$n，直接写出$\\frac{DH}{DF}$的值（用含n的式子表示）．\n![2025年湖北省武汉市中考数学试卷_q023_img01](assets/2025年湖北省武汉市中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）可证得△ADE≌△DCF，从而∠DAE＝∠CDF，进而证得∠HDG＝∠DGH，从而DH＝GH；\n（2）作HW⊥DF，交DC的延长线于W，设CF和WH交于点O，根据△ADE≌△DCF，GH＝DH，从而的粗∠AED＝∠F，可证得∠W＝∠F，∠W＝∠HEW，进而得出HW＝EH，可证得△ABG∽△EDG，进而证得$\\frac{AG}{EG}=\\frac{AB}{DE}=\\frac{AD}{DE}=$tan∠AED，$\\frac{GH}{EH}=\\frac{DH}{HW}=$tanW，从而得出$\\frac{AG}{EG}=\\frac{GH}{EH}$，进一步得出结果；\n（3）由（1）知△ADE≌△DCF，DH＝GH，从而得出DF＝AE，由（2）知，AG•EH＝EG•GH，从而得出$\\frac{GE}{EH}=\\frac{AG}{GH}=$n，根据比例的性质得出$\\frac{GE}{GE+EH}=\\frac{AG}{AG+GH}=\\frac{n}{n+1}$，从而得出$\\frac{GE}{GH}=\\frac{AG}{AH}=\\frac{n}{n+1}$，设GE＝na，DH＝GH＝（n+1）a，AG＝nb，AH＝（n+1）b，则EH＝GH﹣GE＝a，AE＝AG+GE＝na+nb，可计算得出AH﹣AG＝GH＝（n+1）b﹣bn＝b，从而b＝（n+1）a，进一步得出结果．\n【解答】（1）证明：∵四边形ABCD是正方形，\n∴AD＝CD，∠ADC＝∠BCD＝∠DCF＝90°，∠ADB＝∠BDC＝45°，\n∵DE＝CF，\n∴△ADE≌△DCF（SAS），\n∴∠DAE＝∠CDF，\n∵∠HDG＝∠CDF+∠BDC＝∠CDF+45°，\n∠DGH＝∠DAE+∠ADB＝∠CDF+45°，\n∴∠HDG＝∠DGH，\n∴DH＝GH；\n（2）证明：如图，\n[[image:rId61]]\n作HW⊥DF，交DC的延长线于W，设CF和WH交于点O，\n由（1）知，\n△ADE≌△DCF，GH＝DH，\n∴∠AED＝∠F，\n∵∠WHF＝∠OCW＝90°，∠FOH＝∠COW，\n∴∠W＝∠F，\n∵∠HEW＝∠AED，\n∴∠W＝∠HEW，\n∴HW＝EH，\n∵四边形ABCD是正方形，\n∴AB∥CD，AB＝AD，\n∴△ABG∽△EDG，\n∴$\\frac{AG}{EG}=\\frac{AB}{DE}=\\frac{AD}{DE}=$tan∠AED，\n∵$\\frac{GH}{EH}=\\frac{DH}{HW}=$tanW，\n∴$\\frac{AG}{EG}=\\frac{GH}{EH}$，\n∴AG•EH＝EG•GH；\n（3）解：由（1）知，\n△ADE≌△DCF，DH＝GH，\n∴DF＝AE，∠CDF＝∠DAE，\n由（2）知，\nAG•EH＝EG•GH，\n∴$\\frac{GE}{EH}=\\frac{AG}{GH}=$n，\n∴$\\frac{GE}{GE+EH}=\\frac{AG}{AG+GH}=\\frac{n}{n+1}$，\n∴$\\frac{GE}{GH}=\\frac{AG}{AH}=\\frac{n}{n+1}$，\n设GE＝na，DH＝GH＝（n+1）a，AG＝nb，AH＝（n+1）b，\n∴EH＝GH﹣GE＝a，AE＝AG+GE＝na+nb，\n∵AH﹣AG＝GH＝（n+1）b﹣bn＝b，\n∴b＝（n+1）a，\n∴$\\frac{DH}{DF}=\\frac{GH}{AE}=\\frac{(n+1)a}{na+nb}=$$\\frac{(n+1)a}{na+n(n+1)a}=\\frac{n+1}{n^{2}+2n}$．\n【点评】本题考查了正方形的性质，全等三角形的判定和性质，相似三角形的判定和性质，锐角三角函数的定义，比例的性质等知识，解决问题的关键是弄清数量之间的关系．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q023_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定和性质",
+          "相似三角形的判定和性质",
+          "锐角三角函数的定义",
+          "比例的性质"
+        ],
+        "reasoning": "题目涉及全等三角形、相似三角形和比例的性质证明",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定和性质\", \"相似三角形的判定和性质\", \"锐角三角函数的定义\", \"比例的性质\"],\n  \"reasoning\": \"题目涉及全等三角形、相似三角形和比例的性质证明\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖北省武汉市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "抛物线y=\\frac{1}{4}x^{2}-3与直线y＝x交于A，B两点（A在B的左边）．\n（1）求A，B两点的坐标．\n（2）如图1，若P是直线AB下方抛物线上的点，过点P作x轴的平行线交抛物线于点M，过点P作y轴的平行线交线段AB于点N，满足PM＝PN，求点P的横坐标．\n（3）如图2，经过原点O的直线CD交抛物线于C，D两点（点C在第二象限），连接AC，BD分别交x轴于E，F两点．若S△DOF=\\frac{3}{4}S_{△COE}，求直线CD的解析式．\n[图1]\n2025年湖北省武汉市中考数学试卷",
+      "stem_markdown": "抛物线y$=\\frac{1}{4}x^{2}-$3与直线y＝x交于A，B两点（A在B的左边）．\n（1）求A，B两点的坐标．\n（2）如图1，若P是直线AB下方抛物线上的点，过点P作x轴的平行线交抛物线于点M，过点P作y轴的平行线交线段AB于点N，满足PM＝PN，求点P的横坐标．\n（3）如图2，经过原点O的直线CD交抛物线于C，D两点（点C在第二象限），连接AC，BD分别交x轴于E，F两点．若$S_{△}_{DOF}=\\frac{3}{4}S_{△COE}$，求直线CD的解析式．\n![2025年湖北省武汉市中考数学试卷_q024_img01](assets/2025年湖北省武汉市中考数学试卷_q024_img01.png)\n2025年湖北省武汉市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）当x$=\\frac{1}{4}x^{2}-$3时，求解方程，即可得到A、B点坐标；\n（2）设P（t，$\\frac{1}{4}t^{2}-$3），则M（﹣t，$\\frac{1}{4}t^{2}-$3），N（t，t），由PM＝PN，可得|2t|＝t$-\\frac{1}{4}t^{2}+$3，即可求出P点横坐标为2或6﹣4$\\sqrt{3}$（舍）；\n（3）设C（c，$\\frac{1}{4}c^{2}-$3），D（d，$\\frac{1}{4}d^{2}-$3），直线CD的解析式为y＝（$\\frac{1}{4}$c$+\\frac{1}{4}$d）x$-\\frac{1}{4}$cd﹣3，由题可知cd＝﹣12，同理直线AC的解析式为y＝（$\\frac{1}{4}$c$-\\frac{1}{2}$）x$+\\frac{1}{2}$c﹣3，直线BD的解析式为y＝（$\\frac{1}{4}$d$+\\frac{3}{2}$）x$-\\frac{3}{2}$d﹣3，分别求出E（$\\frac{12-2c}{c-2}$，0），F（$\\frac{12-2c}{c-2}$，0），则OF＝OE，再由$S_{△}_{DOF}=\\frac{3}{4}S_{△COE}$，可得c，d的关系，可求C点坐标，即可求直线CD的解析式．\n【解答】解：（1）当x$=\\frac{1}{4}x^{2}-$3时，解得x＝﹣2或x＝6，\n∴A（﹣2，﹣2），B（6，6）；\n（2）设P（t，$\\frac{1}{4}t^{2}-$3），则M（﹣t，$\\frac{1}{4}t^{2}-$3），N（t，t），\n∴PM＝|2t|，PN＝t$-\\frac{1}{4}t^{2}+$3，\n∵PM＝PN，\n∴|2t|＝t$-\\frac{1}{4}t^{2}+$3，\n解得t＝2或t＝6﹣4$\\sqrt{3}$，\n∴P点横坐标为2或6﹣4$\\sqrt{3}$；\n（3）设C（c，$\\frac{1}{4}c^{2}-$3），D（d，$\\frac{1}{4}d^{2}-$3），\n直线CD的解析式为y＝（$\\frac{1}{4}$c$+\\frac{1}{4}$d）x$-\\frac{1}{4}$cd﹣3，\n∵CD经过原点，\n∴$-\\frac{1}{4}$cd﹣3＝0，\n解得cd＝﹣12，\n同理直线AC的解析式为y＝（$\\frac{1}{4}$c$-\\frac{1}{2}$）x$+\\frac{1}{2}$c﹣3，直线BD的解析式为y＝（$\\frac{1}{4}$d$+\\frac{3}{2}$）x$-\\frac{3}{2}$d﹣3，\n∴F（$\\frac{6d+12}{d+6}$，0），E（$\\frac{12-2c}{c-2}$，0），\n∵cd＝﹣12，\n∴F（$\\frac{2c-12}{c-2}$，0），\n∴OF＝OE，\n∵$S_{△}_{DOF}=\\frac{3}{4}S_{△COE}$，\n∴$\\frac{1}{2}×$OF×|$y_{d}$|$=\\frac{3}{4}×\\frac{1}{2}×$OE×$|y_{c}|$，\n∴$|\\frac{\\frac{1}{4}d^{2}-3}{\\frac{1}{4}c^{2}-3}|=\\frac{3}{4}$，\n解得：c＝﹣4，d＝3，\n∴C（﹣4，1），\n∴直线CD的解析式为y$=-\\frac{1}{4}$x．\n【点评】本题考查二次函数的图象及性质，熟练掌握二次函数的图象及性质，待定系数法求函数解析式是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:29:44；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId64]] ____ [[image:rId65]] ____ [[image:rId66]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年湖北省武汉市中考数学试卷_q024_img01",
+          "path": "assets/2025年湖北省武汉市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程的应用",
+          "平行线的性质",
+          "相似三角形的性质",
+          "二次函数图像与性质"
+        ],
+        "reasoning": "题目涉及一元二次方程求解、平行线和相似三角形的性质以及二次函数图像与性质的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程的应用\", \"平行线的性质\", \"相似三角形的性质\", \"二次函数图像与性质\"],\n  \"reasoning\": \"题目涉及一元二次方程求解、平行线和相似三角形的性质以及二次函数图像与性质的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:33:34",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 24,
+      "ok": 24,
+      "fallback": 0
+    }
+  }
+}

@@ -1,0 +1,1152 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年湖南省中考数学试卷",
+  "source": {
+    "name": "2025年湖南省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年湖南省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年湖南省中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列四个数中，最大的数是（ ）",
+      "stem_markdown": "下列四个数中，最大的数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.5"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "﹣1"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】先估算无理数$\\sqrt{2}$的大小，然后根据正数大于0，0大于负数，对选项中的四个数的大小进行比较即可．\n【解答】解：∵$1＜\\sqrt{2}＜2$，\n∴$3.5＞\\sqrt{2}＞0＞-1$，\n∴选项中的四个数中最大的数是3.5，\n故选：A．\n【点评】本题主要考查了实数的大小比较，解题关键是熟练掌握实数的性质：正数大于0，0大于负数．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "无理数的估计",
+          "实数大小比较"
+        ],
+        "reasoning": "通过比较$\\sqrt{2}$的大小来确定最大值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"无理数的估计\", \"实数大小比较\"],\n  \"reasoning\": \"通过比较$\\sqrt{2}$的大小来确定最大值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "武术是我国传统的体育项目．下列武术动作图形中，是轴对称图形的是（ ）",
+      "stem_markdown": "武术是我国传统的体育项目．下列武术动作图形中，是轴对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年湖南省中考数学试卷_q002_img01](assets/2025年湖南省中考数学试卷_q002_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年湖南省中考数学试卷_q002_img02](assets/2025年湖南省中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年湖南省中考数学试卷_q002_img03](assets/2025年湖南省中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年湖南省中考数学试卷_q002_img04](assets/2025年湖南省中考数学试卷_q002_img04.png)"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据轴对称图形的定义进行逐一判断即可：如果一个平面图形沿一条直线折叠，直线两旁的部分能够互相重合，这个图形就叫做轴对称图形，这条直线就叫做对称轴．\n【解答】解：A．不是轴对称图形，故此选项不合题意；\nB．不是轴对称图形，故此选项不合题意；\nC．是轴对称图形，故此选项符合题意；\nD．不是轴对称图形，故此选项不合题意；\n故选：C．\n【点评】本题主要考查了轴对称图形的识别，解题的关键在于能够熟练掌握轴对称图形的定义．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q002_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q002_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年湖南省中考数学试卷_q002_img02",
+          "path": "assets/2025年湖南省中考数学试卷_q002_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年湖南省中考数学试卷_q002_img03",
+          "path": "assets/2025年湖南省中考数学试卷_q002_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年湖南省中考数学试卷_q002_img04",
+          "path": "assets/2025年湖南省中考数学试卷_q002_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "轴对称图形的定义",
+          "对称轴的概念"
+        ],
+        "reasoning": "选项C图形沿某直线折叠后两部分能够完全重合",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"轴对称图形的定义\", \"对称轴的概念\"],\n  \"reasoning\": \"选项C图形沿某直线折叠后两部分能够完全重合\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "某校开展了五类社团活动：舞蹈、篮球、口风琴、摄影、戏剧，现从中随机抽取一类社团活动进行展示，则抽中戏剧类社团活动的概率是（ ）",
+      "stem_markdown": "某校开展了五类社团活动：舞蹈、篮球、口风琴、摄影、戏剧，现从中随机抽取一类社团活动进行展示，则抽中戏剧类社团活动的概率是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{5}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】由题意知，共有5种等可能的结果，其中抽中戏剧类社团活动的结果有1种，利用概率公式可得答案．\n【解答】解：由题意知，共有5种等可能的结果，其中抽中戏剧类社团活动的结果有1种，\n∴抽中戏剧类社团活动的概率为$\\frac{1}{5}$．\n故选：D．\n【点评】本题考查概率公式，熟练掌握概率公式是解答本题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率公式",
+          "基本事件"
+        ],
+        "reasoning": "计算抽中戏剧类社团活动的概率需要考虑总事件数和满足条件的事件数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率公式\", \"基本事件\"],\n  \"reasoning\": \"计算抽中戏剧类社团活动的概率需要考虑总事件数和满足条件的事件数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "计算a³•a⁴的结果是（ ）",
+      "stem_markdown": "计算$a^{3}•a^{4}$的结果是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2a^{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$a^{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$2a^{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$a^{12}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据同底数幂的乘法运算法则计算即可．\n【解答】解：$a^{3}•a^{4}＝a^{3}^{+}^{4}＝a^{7}$．\n故选：B．\n【点评】本题考查同底数幂的乘法，掌握其运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同底数幂的乘法"
+        ],
+        "reasoning": "题目计算a³•a⁴的结果，直接应用了同底数幂乘法法则",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同底数幂的乘法\"],\n  \"reasoning\": \"题目计算a³•a⁴的结果，直接应用了同底数幂乘法法则\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "将分式方程\\frac{1}{x}=\\frac{2}{x+1}去分母后得到的整式方程为（ ）",
+      "stem_markdown": "将分式方程$\\frac{1}{x}=\\frac{2}{x+1}$去分母后得到的整式方程为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x+1＝2x"
+        },
+        {
+          "label": "B",
+          "text": "x+2＝1"
+        },
+        {
+          "label": "C",
+          "text": "1＝2x"
+        },
+        {
+          "label": "D",
+          "text": "x＝2（x+1）"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】两边同乘x（x+1）去分母即可．\n【解答】解：原方程两边同乘x（x+1）得：x+1＝2x，\n故选：A．\n【点评】本题考查解分式方程，熟练掌握解方程的方法是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程去分母",
+          "等式的性质"
+        ],
+        "reasoning": "去分母后得到的整式方程形式",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程去分母\", \"等式的性质\"],\n  \"reasoning\": \"去分母后得到的整式方程形式\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "在平面直角坐标系中，将点P（﹣3，2）向右平移3个单位长度到P₁处，则点P₁的坐标为（ ）",
+      "stem_markdown": "在平面直角坐标系中，将点P（﹣3，2）向右平移3个单位长度到$P_{1}$处，则点$P_{1}$的坐标为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "（﹣6，2）"
+        },
+        {
+          "label": "B",
+          "text": "（0，2）"
+        },
+        {
+          "label": "C",
+          "text": "（﹣3，5）"
+        },
+        {
+          "label": "D",
+          "text": "（﹣3，﹣1）"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据平移时点的坐标变化规律进行计算即可．\n【解答】解：由题知，\n将点P（﹣3，2）向右平移3个单位长度得到点$P_{1}$坐标为（0，2）．\n故选：B．\n【点评】本题主要考查了坐标与图形变化﹣平移，熟知平移时点的坐标变化规律是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "坐标变换",
+          "平移变换"
+        ],
+        "reasoning": "平移后横坐标增加3，纵坐标不变",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"坐标变换\", \"平移变换\"],\n  \"reasoning\": \"平移后横坐标增加3，纵坐标不变\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "下列调查中，适合采用全面调查的是（ ）",
+      "stem_markdown": "下列调查中，适合采用全面调查的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "了解某班同学的跳远成绩"
+        },
+        {
+          "label": "B",
+          "text": "了解夏季冷饮市场上冰激凌的质量情况"
+        },
+        {
+          "label": "C",
+          "text": "了解全国中学生的身高状况"
+        },
+        {
+          "label": "D",
+          "text": "了解某批次汽车的抗撞击能力"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】由普查得到的调查结果比较准确，但所费人力、物力和时间较多，而抽样调查得到的调查结果比较近似．再根据问卷调查方法即可求解．\n【解答】解：A．了解某班同学的跳远成绩，适合采用普查，故本选项符合题意；\nB．了解夏季冷饮市场上冰激凌的质量情况，适合采用抽样调查，故本选项不符合题意；\nC．了解全国中学生的身高状况，适合采用抽样调查，故本选项不符合题意；\nD．了解某批次汽车的抗撞击能力，适合采用抽样调查，故本选项不符合题意．\n故选：A．\n【点评】本题考查了抽样调查和全面调查的区别，选择普查还是抽样调查要根据所要考查的对象的特征灵活选用，一般来说，对于具有破坏性的调查、无法进行普查、普查的意义或价值不大，应选择抽样调查，对于精确度要求高的调查，事关重大的调查往往选用普查．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "样本调查",
+          "全面调查"
+        ],
+        "reasoning": "选项A涉及对全班同学跳远成绩的调查，适合全面调查。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"样本调查\", \"全面调查\"],\n  \"reasoning\": \"选项A涉及对全班同学跳远成绩的调查，适合全面调查。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，在四边形ABCD中，对角线AC与BD互相垂直平分，AB＝3，则四边形ABCD的周长为（ ）\n[图1]",
+      "stem_markdown": "如图，在四边形ABCD中，对角线AC与BD互相垂直平分，AB＝3，则四边形ABCD的周长为（ ）\n![2025年湖南省中考数学试卷_q008_img01](assets/2025年湖南省中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据菱形的判定定理得到四边形ABCD为菱形，再根据菱形的性质计算即可．\n【解答】解：∵对角线AC与BD互相垂直平分，\n∴四边形ABCD为菱形，\n∵AB＝3，\n∴四边形ABCD的周长为：3×4＝12，\n故选：C．\n【点评】本题考查的是菱形的判定和性质，掌握菱形的判定定理是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q008_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "菱形的性质",
+          "菱形的判定定理",
+          "垂直平分线的性质"
+        ],
+        "reasoning": "题中条件‘对角线AC与BD互相垂直平分’直接指向菱形的判定定理",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"菱形的性质\", \"菱形的判定定理\", \"垂直平分线的性质\"],\n  \"reasoning\": \"题中条件‘对角线AC与BD互相垂直平分’直接指向菱形的判定定理\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "对于反比例函数y=\\frac{2}{x}，下列结论正确的是（ ）",
+      "stem_markdown": "对于反比例函数$y=\\frac{2}{x}$，下列结论正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "点（2，2）在该函数的图象上"
+        },
+        {
+          "label": "B",
+          "text": "该函数的图象分别位于第二、第四象限"
+        },
+        {
+          "label": "C",
+          "text": "当x＜0时，y随x的增大而增大"
+        },
+        {
+          "label": "D",
+          "text": "当x＞0时，y随x的增大而减小"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据反比例函数的性质，k＝2＞0，函数位于第一、三象限，在每一象限y随x的增大而减小．\n【解答】解：A、把点（2，2）代入反比例函数y$=\\frac{2}{x}$，1＝2不成立，故不符合题意；\nB、k＝2＞0，函数图象分别位于第一、三象限，故不符合题意；\nC、当x＜0时，y随x的增大而减小，故不符合题意；\nD、当x＞0时，y随x的增大而减小，故符合题意．\n故选：D．\n【点评】此题主要考查了反比例函数的图象和性质以及反比例函数图象上点的坐标特征，正确掌握反比例函数的性质是解题关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的图象和性质",
+          "反比例函数图象上的点的坐标特征",
+          "反比例函数的单调性"
+        ],
+        "reasoning": "选项D考察了当x>0时y随x增大而减小的性质",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的图象和性质\", \"反比例函数图象上的点的坐标特征\", \"反比例函数的单调性\"],\n  \"reasoning\": \"选项D考察了当x>0时y随x增大而减小的性质\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，北京市某处A位于北纬40°（即∠AOC＝40°），东经116°，三沙市海域某处B位于北纬15°（即∠BOC＝15°），东经116°．设地球的半径约为R千米，则在东经116°所在经线圈上的点A和点B之间的劣弧长约为（ ）\n[图1]",
+      "stem_markdown": "如图，北京市某处A位于北纬40°（即∠AOC＝40°），东经116°，三沙市海域某处B位于北纬15°（即∠BOC＝15°），东经116°．设地球的半径约为R千米，则在东经116°所在经线圈上的点A和点B之间的劣弧长约为（ ）\n![2025年湖南省中考数学试卷_q010_img01](assets/2025年湖南省中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{72}πR$（千米）"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{12}πR$（千米）"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{36}πR$（千米）"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{9}πR$（千米）"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据弧长公式计算即可．\n【解答】解：∵∠AOC＝40°，∠BOC＝15°，\n∴∠AOB＝∠AOC﹣∠BOC＝40°﹣15°＝25°，\n∴$AB=\\frac{25}{360}×$2πR$=\\frac{5}{36}$πR（千米）．\n∴点A和点B之间的劣弧长约为$\\frac{5}{36}$πR千米．\n故选：C．\n【点评】本题考查弧长的计算，掌握弧长计算公式是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q010_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "弧长公式",
+          "角度制换算"
+        ],
+        "reasoning": "题目中计算了两点间劣弧的长度，涉及角度换算和弧长公式应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"弧长公式\", \"角度制换算\"],\n  \"reasoning\": \"题目中计算了两点间劣弧的长度，涉及角度换算和弧长公式应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "如图，一条排水管连续两次转弯后又回到与原来相同的方向，若第一次转弯时∠CAB＝145°，则∠ABD＝ ____ ．\n[图1]",
+      "stem_markdown": "如图，一条排水管连续两次转弯后又回到与原来相同的方向，若第一次转弯时∠CAB＝145°，则∠ABD＝ ____ ．\n![2025年湖南省中考数学试卷_q011_img01](assets/2025年湖南省中考数学试卷_q011_img01.png)",
+      "options": [],
+      "answer": "145°．",
+      "solution": "【分析】直接根据平行线的性质即可得出结论．\n【解答】解：根据题意知，AC∥BD，∠CAB＝145°，\n∴∠ABD＝∠CAB＝145°．\n故答案为：145°．\n【点评】本题考查的是平行线的性质，关键明白：两直线平行，内错角相等．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q011_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q011_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "内错角相等",
+          "平行线性质"
+        ],
+        "reasoning": "根据题意 AC ∥ BD，∠CAB = 145°，求∠ABD",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"内错角相等\", \"平行线性质\"],\n  \"reasoning\": \"根据题意 AC ∥ BD，∠CAB = 145°，求∠ABD\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "化简\\sqrt{12}= ____ ．",
+      "stem_markdown": "化简$\\sqrt{12}=$ ____ ．",
+      "options": [],
+      "answer": "$2\\sqrt{3}$．",
+      "solution": "【分析】把12写成3×4，再逆用二次根式的乘法法则进行化简即可．\n【解答】解：$\\sqrt{12}=\\sqrt{3×4}=\\sqrt{4}×\\sqrt{3}=2\\sqrt{3}$，\n故答案为：$2\\sqrt{3}$．\n【点评】本题主要考查了二次根式的化简，解题关键是熟练掌握如何化简二次根式．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式的乘法法则",
+          "分解因式"
+        ],
+        "reasoning": "题目要求化简 \\(\\sqrt{12}\\)，通过分解因式将 12 写成 \\(3 \times 4\\) 形式，再应用二次根式的乘法法则。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式的乘法法则\", \"分解因式\"],\n  \"reasoning\": \"题目要求化简 \\(\\sqrt{12}\\)，通过分解因式将 12 写成 \\(3 \\times 4\\) 形式，再应用二次根式的乘法法则。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "因式分解：a²+13a＝ ____ ．",
+      "stem_markdown": "因式分解：$a^{2}$+13a＝ ____ ．",
+      "options": [],
+      "answer": "a（a+13）．",
+      "solution": "解：$a^{2}$+13a＝ a（a+13） ．\n【分析】提取公因式a，进行分解因式即可．\n【解答】解：$a^{2}$+13a＝a（a+13），\n故答案为：a（a+13）．\n【点评】本题主要考查了分解因式，解题关键是熟练掌握几种常见的分解因式的方法．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式法"
+        ],
+        "reasoning": "提取公因式a进行因式分解",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式法\"],\n  \"reasoning\": \"提取公因式a进行因式分解\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "约分：\\frac{x^{3}y}{xy}= ____ ．",
+      "stem_markdown": "约分：$\\frac{x^{3}y}{xy}=$ ____ ．",
+      "options": [],
+      "answer": "$x^{2}$．",
+      "solution": "【分析】根据分式约分的方法计算即可．\n【解答】解：$\\frac{x^{3}y}{xy}=\\frac{xy⋅x^{2}}{xy}=$$x^{2}$，\n故答案为：$x^{2}$．\n【点评】本题考查了约分，熟练掌握约分的方法是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "幂的乘法法则",
+          "分式的约分"
+        ],
+        "reasoning": "约分过程中使用了幂的乘法法则和分式的约分方法",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"幂的乘法法则\", \"分式的约分\"],\n  \"reasoning\": \"约分过程中使用了幂的乘法法则和分式的约分方法\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "甲、乙两人在一次100米赛跑比赛中，路程s（米）与时间t（秒）的函数关系如图所示，填 ____ （“甲”或“乙”先到终点）．\n[图1]",
+      "stem_markdown": "甲、乙两人在一次100米赛跑比赛中，路程s（米）与时间t（秒）的函数关系如图所示，填 ____ （“甲”或“乙”先到终点）．\n![2025年湖南省中考数学试卷_q015_img01](assets/2025年湖南省中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "甲．",
+      "solution": "【分析】这次赛跑中先到达终点的是用时较少的，据此可得答案．\n【解答】解：由图象可知，甲用了12秒，乙用了14秒，所以甲先到终点．\n故答案为：甲．\n【点评】本题主要考查了图象的读图分析能力，要能根据图象的性质和图象上的数据并结合实际意义得到正确的结论．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q015_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "行程问题",
+          "函数图像分析"
+        ],
+        "reasoning": "图象显示甲用时少于乙，先到达终点。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"行程问题\", \"函数图像分析\"],\n  \"reasoning\": \"图象显示甲用时少于乙，先到达终点。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "如图，在△ABC中，BC＝6，点E是AC的中点，分别以点A，B为圆心，以大于\\frac{1}{2}AB的长为半径画弧，两弧相交于点M，N，直线MN交AB于点D，连接DE，则DE的长是 ____ ．\n[图1]",
+      "stem_markdown": "如图，在△ABC中，BC＝6，点E是AC的中点，分别以点A，B为圆心，以大于$\\frac{1}{2}AB$的长为半径画弧，两弧相交于点M，N，直线MN交AB于点D，连接DE，则DE的长是 ____ ．\n![2025年湖南省中考数学试卷_q016_img01](assets/2025年湖南省中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "3．",
+      "solution": "【分析】由作图过程可知，直线MN为线段AB的垂直平分线，可得点D为AB的中点，进而可得DE为△ABC的中位线，则DE$=\\frac{1}{2}BC=$3．\n【解答】解：由作图过程可知，直线MN为线段AB的垂直平分线，\n∴点D为AB的中点．\n∵点E是AC的中点，\n∴DE为△ABC的中位线，\n∴DE$=\\frac{1}{2}BC=$3．\n故答案为：3．\n【点评】本题考查作图—基本作图、线段垂直平分线的性质、三角形中位线定理，熟练掌握线段垂直平分线的性质、三角形中位线定理是解答本题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q016_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中位线定理",
+          "线段垂直平分线的性质"
+        ],
+        "reasoning": "作图过程中的垂直平分线性质和中点条件",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中位线定理\", \"线段垂直平分线的性质\"],\n  \"reasoning\": \"作图过程中的垂直平分线性质和中点条件\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "blank",
+      "stem_text": "如图，图1为传统建筑中的一种窗格，图2为其窗框的示意图，多边形ABCDEFGH为正八边形，连接AC，BD，AC与BD交于点M，∠AMB＝ ____ ．\n[图1]",
+      "stem_markdown": "如图，图1为传统建筑中的一种窗格，图2为其窗框的示意图，多边形ABCDEFGH为正八边形，连接AC，BD，AC与BD交于点M，∠AMB＝ ____ ．\n![2025年湖南省中考数学试卷_q017_img01](assets/2025年湖南省中考数学试卷_q017_img01.png)",
+      "options": [],
+      "answer": "45°．",
+      "solution": "【分析】根据正八边形的性质，圆周角定理以及三角形内角和定理进行计算即可．\n【解答】解：如图，设正八边形的外接圆的圆心为O，\n∵八边形ABCDEFGH是正八边形，\n∴∠AOB＝∠COD$=\\frac{360°}{8}=$45°，\n∴∠AMB＝∠ACB+∠CBD\n$=\\frac{1}{2}$∠AOB$+\\frac{1}{2}$∠COD\n＝45°．\n故答案为：45°．\n[[image:rId35]]\n【点评】本题考查正多边形和圆，掌握正八边形的性质，圆周角定理以及三角形内角和定理是正确解答的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q017_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正多边形的性质",
+          "圆周角定理",
+          "三角形内角和定理"
+        ],
+        "reasoning": "题中利用正八边形的每个内角为45°，结合圆周角定理和三角形内角和定理求解角度。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正多边形的性质\", \"圆周角定理\", \"三角形内角和定理\"],\n  \"reasoning\": \"题中利用正八边形的每个内角为45°，结合圆周角定理和三角形内角和定理求解角度。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "blank",
+      "stem_text": "已知，a，b，c是△ABC的三条边长，记t=(\\frac{a}{c})^{k}+(\\frac{b}{c})^{k}，其中k为整数．\n（1）若三角形为等边三角形，则t＝ ____ ；\n（2）下列结论正确的是 ____ ．（写出所有正确的结论）\n①若k＝2，t＝1，则△ABC为直角三角形；\n②若k=1，a=\\frac{1}{2}b+2，c=1，则5＜t＜11；\n③若k=1，t≤\\frac{5}{3}，a，b，c为三个连续整数，且a＜b＜c，则满足条件的△ABC的个数为7．",
+      "stem_markdown": "已知，a，b，c是△ABC的三条边长，记$t=(\\frac{a}{c})^{k}+(\\frac{b}{c})^{k}$，其中k为整数．\n（1）若三角形为等边三角形，则t＝ ____ ；\n（2）下列结论正确的是 ____ ．（写出所有正确的结论）\n①若k＝2，t＝1，则△ABC为直角三角形；\n②若$k=1，a=\\frac{1}{2}b+2，c=1$，则5＜t＜11；\n③若$k=1，t≤\\frac{5}{3}$，a，b，c为三个连续整数，且a＜b＜c，则满足条件的△ABC的个数为7．",
+      "options": [],
+      "answer": "2",
+      "solution": "【分析】（1）由定义直接判断求解即可；\n（2）依据每一选项逐一代入求解判断即可．\n【解答】解：（1）由题可知t＝1^{k}+1^{k}＝1+1＝2，\n故答案为：2；\n（2）①当k＝2，t＝1时，\n则$1=(\\frac{a}{c})^{2}+(\\frac{b}{c})^{2}=\\frac{a^{2}+b^{2}}{c^{2}}$，即$a^{2}+b^{2}＝c^{2}$，\n∴三角形为直角三角形，\n故①正确，符合题意；\n②当k＝1，$a=\\frac{1}{2}b+2$，c＝1时，\n则$t=\\frac{a}{c}+\\frac{b}{c}=a+b=\\frac{1}{2}b+2+b=\\frac{3}{2}b+2$，\n1°当a＞b时，a﹣b＜c，即$\\frac{1}{2}b+2-b＜1$，\n解得：b＞2；\n2°当a＜b时，b﹣a＜c，即$b-\\frac{1}{2}b-2＜1$，\n解得：b＜6．\n综上，2＜b＜6．\n当b＝2时，$t=\\frac{3}{2}×2+2=5$，\n当b＝6时，$t=\\frac{3}{2}×6+2=11$；\n∴5＜t＜11，\n故②正确，符合题意；\n③$t=\\frac{a}{c}+\\frac{b}{c}=\\frac{a+b}{c}≤\\frac{5}{3}$，\n∴$a+b≤\\frac{5}{3}c$，\n又a+b＞c，\n∴$c＜a+b≤\\frac{5}{3}c$，\n不妨设a＝n，则b＝n+1，c＝n+2，\n∴$n+2＜2n+1≤\\frac{5}{3}(n+2)$，\n解得：1＜n≤7，\n∴n可取2，3，4，5，6，7，\n对应的t值分别为：$\\frac{5}{4}，\\frac{7}{5}，\\frac{3}{2}，\\frac{11}{7}，\\frac{13}{8}，\\frac{5}{3}$，共6个，\n故③错误，不符合题意．\n故答案为：①②．\n【点评】本题主要考查了新定义题型，涉及勾股定理逆定理、三角形三边关系、等边三角形的性质等内容，熟练掌握相关知识是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的性质",
+          "勾股定理逆定理",
+          "不等式的基本性质"
+        ],
+        "reasoning": "第（1）问利用等边三角形性质直接计算；第（2）问①利用勾股定理逆定理判断；②利用不等式基本性质判断范围；③利用不等式基本性质和三角形三边关系判断个数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的性质\", \"勾股定理逆定理\", \"不等式的基本性质\"],\n  \"reasoning\": \"第（1）问利用等边三角形性质直接计算；第（2）问①利用勾股定理逆定理判断；②利用不等式基本性质判断范围；③利用不等式基本性质和三角形三边关系判断个数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "计算：（﹣2025）⁰+|﹣1|﹣tan45°．",
+      "stem_markdown": "计算：（﹣2025）^{0}+|﹣1|﹣tan45°．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】利用零指数幂，特殊锐角三角函数值，绝对值的性质计算后再算加减即可．\n【解答】解：原式＝1+1﹣1\n＝2﹣1\n＝1．\n【点评】本题考查实数的运算，零指数幂，特殊锐角三角函数值，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "零指数幂",
+          "特殊锐角三角函数值",
+          "绝对值"
+        ],
+        "reasoning": "题目中使用了（﹣2025）⁰、|﹣1|和tan45°的相关性质进行计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"零指数幂\", \"特殊锐角三角函数值\", \"绝对值\"],\n  \"reasoning\": \"题目中使用了（﹣2025）⁰、|﹣1|和tan45°的相关性质进行计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "先化简，再求值：（x+2）（x﹣2）+x（1﹣x），其中x＝6．",
+      "stem_markdown": "先化简，再求值：（x+2）（x﹣2）+x（1﹣x），其中x＝6．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先利用平方差公式，单项式乘多项式的法则进行计算，然后把x的值代入化简后的式子进行计算，即可解答．\n【解答】解：（x+2）（x﹣2）+x（1﹣x）\n＝$x^{2}$﹣4+x﹣$x^{2}$\n＝x﹣4，\n当x＝6时，原式＝6﹣4＝2．\n【点评】本题考查了整式的混合运算﹣化简求值，平方差公式，准确熟练地进行计算是解题的关键．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平方差公式",
+          "单项式乘多项式法则"
+        ],
+        "reasoning": "题目中使用了平方差公式和单项式乘多项式法则进行化简",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平方差公式\", \"单项式乘多项式法则\"],\n  \"reasoning\": \"题目中使用了平方差公式和单项式乘多项式法则进行化简\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，△ABC的顶点A，C在⊙O上，圆心O在边AB上，∠ACB＝120°，BC与⊙O相切于点C，连接OC．\n（1）求∠ACO的度数；\n（2）求证：AC＝BC．\n[图1]",
+      "stem_markdown": "如图，△ABC的顶点A，C在⊙O上，圆心O在边AB上，∠ACB＝120°，BC与⊙O相切于点C，连接OC．\n（1）求∠ACO的度数；\n（2）求证：AC＝BC．\n![2025年湖南省中考数学试卷_q021_img01](assets/2025年湖南省中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据切线的性质得到OC⊥CB，根据题意计算即可；\n（2）根据等腰三角形的性质求出∠A，根据三角形内角和定理求出∠B，根据等腰三角形的判定证明．\n【解答】（1）解：∵BC与⊙O相切于点C，\n∴OC⊥CB，\n∴∠OCB＝90°，\n∴∠ACO＝∠ACB﹣∠OCB＝120°﹣90°＝30°；\n（2）证明：∵OA＝OC，\n∴∠A＝∠ACO＝30°，\n∴∠B＝180°﹣∠A﹣∠ACB＝180°﹣120°﹣30°＝30°，\n∴∠A＝∠B，\n∴AC＝BC．\n【点评】本题考查的是切线的性质、等腰三角形的判定和性质，熟记圆的切线垂直于经过切点的半径是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q021_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线的性质",
+          "等腰三角形的性质",
+          "三角形内角和定理"
+        ],
+        "reasoning": "（1）切线OC⊥CB，（2）OA=OC得∠A=∠ACO=30°",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线的性质\", \"等腰三角形的性质\", \"三角形内角和定理\"],\n  \"reasoning\": \"（1）切线OC⊥CB，（2）OA=OC得∠A=∠ACO=30°\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "同学们准备在劳动课上制作艾草香包，需购买A，B两种香料．已知A种材料的单价比B种材料的单价多3元，且购买4件A种材料与购买6件B种材料的费用相等．\n（1）求A种材料和B种材料的单价；\n（2）若需购买A种材料和B种材料共50件，且总费用不超过360元，则最多能购买A种材料多少件？",
+      "stem_markdown": "同学们准备在劳动课上制作艾草香包，需购买A，B两种香料．已知A种材料的单价比B种材料的单价多3元，且购买4件A种材料与购买6件B种材料的费用相等．\n（1）求A种材料和B种材料的单价；\n（2）若需购买A种材料和B种材料共50件，且总费用不超过360元，则最多能购买A种材料多少件？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设A种材料的单价为x元，则B种材料的单价为（x﹣3）元，根据购买4件A种材料与购买6件B种材料的费用相等，列出一元一次方程，解方程即可；\n（2）设能购买A种材料m件，则能购买B种材料（50﹣m）件，根据总费用不超过360元，列出一元一次不等式，解不等式即可．\n【解答】解：（1）设A种材料的单价为x元，则B种材料的单价为（x﹣3）元，\n由题意得：4x＝6（x﹣3），\n解得：x＝9，\n∴x﹣3＝6，\n答：A种材料的单价为9元，B种材料的单价为6元；\n（2）设能购买A种材料m件，则能购买B种材料（50﹣m）件，\n由题意得：9m+6（50﹣m）≤360，\n解得：m≤20，\n答：最多能购买A种材料20件．\n【点评】本题考查了一元一次不等式的应用、一元一次方程的应用，解题的关键是：（1）找准等量关系，正确列出一元一次方程；（2）找出数量关系，正确列出一元一次不等式．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "一元一次不等式",
+          "代数表达式"
+        ],
+        "reasoning": "题目通过等量关系列出一元一次方程求解A种材料单价，并通过不等关系列出一元一次不等式求解最大购买量。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"一元一次不等式\", \"代数表达式\"],\n  \"reasoning\": \"题目通过等量关系列出一元一次方程求解A种材料单价，并通过不等关系列出一元一次不等式求解最大购买量。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "为了解某校七、八年级学生在某段时间内参加公益活动次数（单位：次）的情况，从这两个年级中各随机抽取20名学生进行调查．已知这两个年级的学生人数均为200人．\n对抽取的七年级学生在此段时间内参加公益活动次数的统计结果如下：\n平均数 | 方差\n6.2 | 1.46\n同时对抽取的八年级学生的调查数据进行如下统计分析．\n【收集数据】从八年级抽取的学生在此段时间内参加公益活动次数如下：\n9 8 6 10 8 8 7 3 6 7\n7 5 8 4 8 5 7 6 8 6\n【整理数据】结果如表：\n次数x分组 | 画记 | 频数\n2＜x≤4 | T | 2\n4＜x≤6 | 正一 | 6\n6＜x≤8 | 正正 | 10\n8＜x≤10\n【分析数据】数据的平均数是6.8，方差是2.76．\n【解决问题】答下列问题：\n（1）请补全频数分布表和频数分布直方图；\n（2）请估计该校八年级学生在此段时间内参加公益活动次数超过6次的人数；\n（3）请从平均数、方差两个量中任选一个，比较该校七、八年级学生在此段时间内参加公益活动次数的情况．\n[图1]",
+      "stem_markdown": "为了解某校七、八年级学生在某段时间内参加公益活动次数（单位：次）的情况，从这两个年级中各随机抽取20名学生进行调查．已知这两个年级的学生人数均为200人．\n对抽取的七年级学生在此段时间内参加公益活动次数的统计结果如下：\n| 平均数 | 方差 |\n| --- | --- |\n| 6.2 | 1.46 |\n同时对抽取的八年级学生的调查数据进行如下统计分析．\n【收集数据】从八年级抽取的学生在此段时间内参加公益活动次数如下：\n9 8 6 10 8 8 7 3 6 7\n7 5 8 4 8 5 7 6 8 6\n【整理数据】结果如表：\n| 次数x分组 | 画记 | 频数 |\n| --- | --- | --- |\n| 2＜x≤4 | T | 2 |\n| 4＜x≤6 | 正一 | 6 |\n| 6＜x≤8 | 正正 | 10 |\n| 8＜x≤10 |  |  |\n【分析数据】数据的平均数是6.8，方差是2.76．\n【解决问题】答下列问题：\n（1）请补全频数分布表和频数分布直方图；\n（2）请估计该校八年级学生在此段时间内参加公益活动次数超过6次的人数；\n（3）请从平均数、方差两个量中任选一个，比较该校七、八年级学生在此段时间内参加公益活动次数的情况．\n![2025年湖南省中考数学试卷_q023_img01](assets/2025年湖南省中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用频数之和为20可得“8＜x≤10”的频数为2，进而补全频数分布表和频数分布直方图；\n（2）利用样本估计总体即可；\n（3）根据平均数和方差的意义解答即可．\n【解答】解：（1）由题意得：“8＜x≤10”的频数为：20﹣2﹣6﹣10＝2，\n补全频数分布表和频数分布直方图如下：\n结果如表：\n| 次数x分组 | 画记 | 频数 |\n| --- | --- | --- |\n| 2＜x≤4 | T | 2 |\n| 4＜x≤6 | 正一 | 6 |\n| 6＜x≤8 | 正正 | 10 |\n| 8＜x≤10 | T | 2 |\n[[image:rId38]]\n（2）200$×\\frac{10+2}{20}=$120（人），\n答：估计该校八年级学生在此段时间内参加公益活动次数超过6次的人数为120人；\n（3）从平均数来看，八年级生参加公益活动次数的平均数比七年级大，所以八年级生参加公益活动比七年级积极．（答案不唯一）．\n【点评】本题考查了频数（率）分布直方图，用样本估计总体，加权平均数，中位数，众数和方差，理解相关统计量的意义是解题的关键．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q023_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平均数",
+          "方差",
+          "频数分布"
+        ],
+        "reasoning": "第（1）问需要补全频数分布表和直方图，涉及平均数和方差的概念。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平均数\", \"方差\", \"频数分布\"],\n  \"reasoning\": \"第（1）问需要补全频数分布表和直方图，涉及平均数和方差的概念。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，某处有一个晾衣装置，固定立柱AB和CD分别垂直地面水平线l于点B，D，AB＝19分米，CD＞AB．在点A，C之间的晾衣绳上有固定挂钩E，AE＝13分米，一件连衣裙MN挂在点E处（点M与点E重合），且直线MN⊥l．\n（1）如图1，当该连衣裙下端点N刚好接触到地面水平线l时，点E到直线AB的距离EG等于12分米，求该连衣裙MN的长度；\n（2）如图2，为避免该连衣裙接触到地面，在另一端固定挂钩F处再挂一条长裤（点F在点E的右侧），若∠BAE＝76.1°，求此时该连衣裙下端N点到地面水平线l的距离约为多少分米？\n（结果保留整数，参考数据：sin76.1°≈0.97，cos76.1°≈0.24，tan76.1°≈4.04）\n[图1]",
+      "stem_markdown": "如图，某处有一个晾衣装置，固定立柱AB和CD分别垂直地面水平线l于点B，D，AB＝19分米，CD＞AB．在点A，C之间的晾衣绳上有固定挂钩E，AE＝13分米，一件连衣裙MN挂在点E处（点M与点E重合），且直线MN⊥l．\n（1）如图1，当该连衣裙下端点N刚好接触到地面水平线l时，点E到直线AB的距离EG等于12分米，求该连衣裙MN的长度；\n（2）如图2，为避免该连衣裙接触到地面，在另一端固定挂钩F处再挂一条长裤（点F在点E的右侧），若∠BAE＝76.1°，求此时该连衣裙下端N点到地面水平线l的距离约为多少分米？\n（结果保留整数，参考数据：sin76.1°≈0.97，cos76.1°≈0.24，tan76.1°≈4.04）\n![2025年湖南省中考数学试卷_q024_img01](assets/2025年湖南省中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据题意，结合图形，在Rt△AGM中利用勾股定理求出AG的长，得到AB长，即可得到结果；\n（2）结合图形，在Rt△AGM中利用三角函数求出AK，可求出BK，即可得到结果．\n【解答】解：（1）∵由题可知：在Rt△AGM中，AM＝（13分）米，MG＝（12分）米，AG⊥GM，\n∴$AG=\\sqrt{13^{2}-12^{2}}=5$（分米），\n∵AB＝（19分）米，\n∴BG＝AB﹣AG＝19﹣5＝14（分米），\n∴MN＝BG＝14（分米），\n∴该连衣裙MN的长度为（14分）米；\n（2）如图2，过E作EK⊥AB于K，\n[[image:rId40]]\n∵在Rt△AKE中，AE＝（13分）米，∠BAE＝76.1°，AK⊥KE，\n∴AK＝AE•cos76.1°＝13×0.24＝3.12（分米），\n∵AB＝（19分）米，\n∴BK＝AB﹣AK＝19﹣3.12＝15.88（分米），\n∴BK﹣MN＝15.88﹣14＝1.88≈2（分米），\n∴该连衣裙下端N点到地面水平线l的距离约为（2分）米．\n【点评】本题考查了解直角三角形的应用，熟练掌握解直角三角形是解题的关键．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q024_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "三角函数",
+          "直角三角形"
+        ],
+        "reasoning": "题目涉及直角三角形的勾股定理和三角函数的应用。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"三角函数\", \"直角三角形\"],\n  \"reasoning\": \"题目涉及直角三角形的勾股定理和三角函数的应用。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "【问题背景】\n如图1，在平行四边形纸片ABCD中，过点B作直线l⊥CD于点E，沿直线l将纸片剪开，得到△B₁C₁E₁和四边形ABED，如图2所示．\n【动手操作】\n现将三角形纸片B₁C₁E₁和四边形纸片ABED进行如下操作（以下操作均能实现）\n①将三角形纸片B₁C₁E₁置于四边形纸片ABED内部，使得点B₁与点B重合，点E₁在线段AB上，延长BC₁交线段AD于点F，如图3所示；\n②连接CC₁，过点C作直线CN⊥CD交射线E₁E于点N，如图4所示；\n③在边AB上取一点G，分别连接BD，DG，FG，如图5所示．\n【问题解决】\n请解决下列问题：\n（1）如图3，填空：∠A+∠ABF＝ ____ °；\n（2）如图4，求证：△CNM≌△C₁E₁M；\n（3）如图5，若AB=2AD=2\\sqrt{7}AF，∠AGD＝60°，求证：FG∥BD．\n[图1]",
+      "stem_markdown": "【问题背景】\n如图1，在平行四边形纸片ABCD中，过点B作直线l⊥CD于点E，沿直线l将纸片剪开，得到△$B_{1}C_{1}$$E_{1}$和四边形ABED，如图2所示．\n【动手操作】\n现将三角形纸片$B_{1}C_{1}$$E_{1}$和四边形纸片ABED进行如下操作（以下操作均能实现）\n①将三角形纸片$B_{1}C_{1}$$E_{1}$置于四边形纸片ABED内部，使得点$B_{1}$与点B重合，点$E_{1}$在线段AB上，延长$BC_{1}$交线段AD于点F，如图3所示；\n②连接$CC_{1}$，过点C作直线CN⊥CD交射线$E_{1}$E于点N，如图4所示；\n③在边AB上取一点G，分别连接BD，DG，FG，如图5所示．\n【问题解决】\n请解决下列问题：\n（1）如图3，填空：∠A+∠ABF＝ ____ °；\n（2）如图4，求证：△CNM≌△$C_{1}E_{1}$M；\n（3）如图5，若$AB=2AD=2\\sqrt{7}AF$，∠AGD＝60°，求证：FG∥BD．\n![2025年湖南省中考数学试卷_q025_img01](assets/2025年湖南省中考数学试卷_q025_img01.png)",
+      "options": [],
+      "answer": "90",
+      "solution": "【分析】（1）由题易得∠ABF＝∠CBE，∠A＝C，据此即可得解；\n（2）证△$EBE_{1}$为等腰直角三角形，得到∠$BE_{1}$E＝∠$BEE_{1}$＝45°，进而得到∠CEN＝∠CNE＝∠$C_{1}E_{1}$M＝45°，进而容易得证；\n（3）设AF＝1，则AD$=\\sqrt{7}$，AB＝2$\\sqrt{7}$，利用cosA$=\\frac{AF}{AB}=\\frac{AP}{AD}$，可得AP长，进而求出DP和PG，再证△AFG∽△ADB，即可得证．\n【解答】（1）解：由题可知∠ABF＝∠CBE，\n∵BE⊥CD，\n∴∠CEB＝90°，\n∴∠CBE+∠C＝90°，\n在平行四边形ABCD中，∠A＝∠C，\n∴∠A+∠ABF＝90°，\n故答案为：90；\n（2）证明：∵CN⊥CD，\n∴∠NCD＝90°，\n由题可知∠$BE_{1}C_{1}$＝∠CEB＝90°，BE＝$B_{1}E_{1}$，CE＝$C_{1}E_{1}$，\n∵AB∥CD，\n∴∠$EBE_{1}$＝∠CEB＝90°，\n∴△$EBE_{1}$为等腰直角三角形，\n∴∠$BE_{1}$E＝∠$BEE_{1}$＝45°，\n∴∠CEN＝∠CNE＝∠$C_{1}E_{1}$M＝45°，\n∴CN＝CE＝$C_{1}E_{1}$，\n在△CNM和△$C_{1}E_{1}$M；\n$\\begin{cases} ∠CMN=∠C_{1}ME_{1} \\\\ ∠CNE=∠C_{1}E_{1}M \\\\ CN=C_{1}E_{1} \\end{cases}$，\n∴△CNM≌△$C_{1}E_{1}$M（AAS）；\n（3）证明：如图，过点D作DP⊥AB垂足为点P，\n[[image:rId42]]\n由题$AB=2AD=2\\sqrt{7}AF$，\n设AF＝1，\n∴$AD=\\sqrt{7}$，AB$=2\\sqrt{7}$，\n∴$cosA=\\frac{AF}{AB}=\\frac{1}{2\\sqrt{7}}=\\frac{\\sqrt{7}}{14}$，\n在Rt△ADP中，$AP=AD⋅cosA=\\sqrt{7}⋅\\frac{\\sqrt{7}}{14}=\\frac{1}{2}$，\n∴DP$=\\sqrt{AD^{2}-AP^{2}}=\\frac{3\\sqrt{3}}{2}$，\n∵∠AGD＝60°，\n∴在Rt△GDP中，PG$=\\frac{DP}{tan∠DGP}=\\frac{\\frac{3}{2}\\sqrt{3}}{\\sqrt{3}}=\\frac{3}{2}$，\n∴AG＝AP+PG＝2，\n∴$\\frac{AF}{AG}=\\frac{AD}{AB}=\\frac{1}{2}$，即$\\frac{AF}{AD}=\\frac{AG}{AB}$，\n∵∠A＝∠A，\n∴△AFG∽△ADB，\n∴∠AFG＝∠ADB，\n∴FG∥BD．\n【点评】本题主要考查了平行四边形的性质、全等三角形的判定和性质、勾股定理、解直角三角形、相似三角形的判定和性质等内容，熟练掌握相关知识是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q025_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行四边形的性质",
+          "全等三角形的判定",
+          "相似三角形的判定",
+          "勾股定理"
+        ],
+        "reasoning": "题目涉及平行四边形的性质、全等三角形和相似三角形的判定以及勾股定理的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行四边形的性质\", \"全等三角形的判定\", \"相似三角形的判定\", \"勾股定理\"],\n  \"reasoning\": \"题目涉及平行四边形的性质、全等三角形和相似三角形的判定以及勾股定理的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年湖南省中考数学试卷_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "如图，已知二次函数y＝ax（x﹣4）（a≠0）的图象过点A（2，2），连接OA，点P（x₁，y₁），Q（x₂，y₂），R（x₃，y₃）是此二次函数图象上的三个动点，且0＜x₃＜x₁＜x₂＜2，过点P作PB∥y轴交线段OA于点B．\n（1）求此二次函数的表达式；\n（2）如图1，点C、D在线段OA上，且直线QC、RD都平行于y轴，请你从下列两个命题中选择一个进行解答：\n①当PB＞QC时，求证：x₁+x₂＞2；\n②当PB＞RD时，求证：x₁+x₃＜2；\n（3）如图，若x_{2}=\\frac{3}{2}x_{1}，x_{3}=\\frac{1}{2}x_{1}，延长PB交x轴于点T，射线QT、TR分别与y轴交于点Q₁，R₁，连接AP，分别在射线AT、x轴上取点M、N（点N在点T的右侧），且∠AMN＝∠PAO，MN=2\\sqrt{2}．记t＝R₁Q₁﹣ON，试探究：当x₁为何值时，t有最大值？并求出t的最大值．\n[图1]\n2025年湖南省中考数学试卷",
+      "stem_markdown": "如图，已知二次函数y＝ax（x﹣4）（a≠0）的图象过点A（2，2），连接OA，点P（$x_{1}$，$y_{1}$），Q（$x_{2}$，$y_{2}$），R（$x_{3}$，$y_{3}$）是此二次函数图象上的三个动点，且0＜$x_{3}$＜$x_{1}$＜$x_{2}$＜2，过点P作PB∥y轴交线段OA于点B．\n（1）求此二次函数的表达式；\n（2）如图1，点C、D在线段OA上，且直线QC、RD都平行于y轴，请你从下列两个命题中选择一个进行解答：\n①当PB＞QC时，求证：$x_{1}+x_{2}$＞2；\n②当PB＞RD时，求证：$x_{1}+x_{3}$＜2；\n（3）如图，若$x_{2}=\\frac{3}{2}x_{1}，x_{3}=\\frac{1}{2}x_{1}$，延长PB交x轴于点T，射线QT、TR分别与y轴交于点$Q_{1}$，$R_{1}$，连接AP，分别在射线AT、x轴上取点M、N（点N在点T的右侧），且∠AMN＝∠PAO，$MN=2\\sqrt{2}$．记t＝$R_{1}Q_{1}$﹣ON，试探究：当$x_{1}$为何值时，t有最大值？并求出t的最大值．\n![2025年湖南省中考数学试卷_q026_img01](assets/2025年湖南省中考数学试卷_q026_img01.png)\n2025年湖南省中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）把点A（2，2）代入二次函数y＝ax（x﹣4）中，可得a$=-\\frac{1}{2}$，进而可得二次函数的表达式；\n（2）先求出直线OA的表达式为y＝x，选择①：由题意可知P（$x_{1}$，$-\\frac{1}{2}x_{1}^{2}+$$2x_{1}$），B（$x_{1}$，$x_{1}$），Q（$x_{2}$，$-\\frac{1}{2}x_{2}^{2}+$$2x_{2}$），C（$x_{2}$，$x_{2}$），故PB$=-\\frac{1}{2}x_{1}^{2}+$$x_{1}$，QC$=-\\frac{1}{2}x_{2}^{2}+$$x_{2}$，根据PB＞QC，可得不等式$-\\frac{1}{2}x_{1}^{2}+$$x_{1}＞-\\frac{1}{2}$$x_{2}^{2}+x_{2}^{2}$，整理变形后可得$x_{1}+x_{2}$＞2；选择②：同理得R（$x_{3}$，$-\\frac{1}{2}x_{3}^{2}+$$2x_{3}$），D（$x_{3}$，$x_{3}$），故RD$=-\\frac{1}{2}x_{3}^{2}+$$x_{3}$，由PB＞RD，可得不等式$-\\frac{1}{2}x_{1}^{2}+$$x_{1}＞-\\frac{1}{2}$$x_{3}^{2}+x_{3}$，整理变形后可得$x_{1}+x_{3}$＜2；\n（3）由待定系数法可求得直线AP的表达式为y＝（1$-\\frac{1}{2}x_{1}$）x+$x_{1}$，设直线AP交y轴于点G，如图2所示，先证明△GOA≌△TOA（SAS），进而可得∠AMN＝∠TAO，再证明△TOA≌△TNM（AAS），可得TN＝TO＝$x_{1}$，ON＝$2x_{1}$，作QH⊥x轴于点H，则tan∠QTH$=\\frac{QH}{TH}=-\\frac{9}{4}x_{1}+6$，又tan∠QTH＝tan∠$Q_{1}$TO，即$\\frac{OQ_{1}}{OT}=-\\frac{9}{4}x_{1}+6$，故$OQ_{1}=-\\frac{9}{4}x_{1}^{2}+6x_{1}$．由待定系数法可得直线RT的表达式为y＝（$\\frac{1}{4}x_{1}-2$）x$-\\frac{1}{4}x_{1}^{2}+2x_{1}$，即$OR_{1}=-\\frac{1}{4}x_{1}^{2}+2x_{1}$，故$R_{1}Q_{1}＝OQ_{1}+OR_{1}$$=-\\frac{5}{2}x_{1}^{2}+8x_{1}$，t＝$R_{1}Q_{1}$﹣ON$=-\\frac{5}{2}x_{1}^{2}+8x_{1}-2x_{1}$$=-\\frac{5}{2}x_{1}^{2}+6x_{1}=-\\frac{5}{2}(x_{1}-\\frac{6}{5})^{2}+\\frac{18}{5}$，当$x_{1}=\\frac{6}{5}$时，t的最大值为$\\frac{18}{5}$．\n【解答】解：（1）把点A（2，2）代入二次函数y＝ax（x﹣4）（a≠0）中，\n得﹣4a＝2，故a$=-\\frac{1}{2}$，\n故此二次函数的表达式为y$=-\\frac{1}{2}x^{2}+2x$．\n（2）证明：选择①：由A（2，2）可知直线OA的表达式为y＝x，\n由题意可知P（$x_{1}$，$-\\frac{1}{2}x_{1}^{2}+$$2x_{1}$），B（$x_{1}$，$x_{1}$），Q（$x_{2}$，$-\\frac{1}{2}x_{2}^{2}+$$2x_{2}$），C（$x_{2}$，$x_{2}$），\n故PB$=-\\frac{1}{2}x_{1}^{2}+$$2x_{1}﹣x_{1}=-\\frac{1}{2}$$x_{1}^{2}+x_{1}$，QC$=-\\frac{1}{2}x_{2}^{2}+$$x_{2}$，\n∵PB＞QC，即$-\\frac{1}{2}x_{1}^{2}+$$x_{1}＞-\\frac{1}{2}$$x_{2}^{2}+x_{2}$，\n整理可得$\\frac{1}{2}$（$x_{2}﹣x_{1}$）（$x_{2}+x_{1}$）＞$x_{2}﹣x_{1}$，由于$x_{2}﹣x_{1}$＞0，\n故$\\frac{1}{2}$（$x_{2}+x_{1}$）＞1，\n即$x_{1}+x_{2}$＞2；\n选择②：同理得R（$x_{3}$，$-\\frac{1}{2}x_{3}^{2}+$$2x_{3}$），D（$x_{3}$，$x_{3}$），\n故RD$=-\\frac{1}{2}x_{3}^{2}+$$x_{3}$，\n∵PB＞RD，即$-\\frac{1}{2}x_{1}^{2}+$$x_{1}＞-\\frac{1}{2}$$x_{3}^{2}+x_{3}$，\n整理可得$\\frac{1}{2}$（$x_{3}﹣x_{1}$）（$x_{3}+x_{1}$）＞$x_{3}﹣x_{1}$，由于$x_{3}﹣x_{1}$＜0，\n故$\\frac{1}{2}$（$x_{3}+x_{1}$）＜1，\n即$x_{1}+x_{3}$＜2；\n（3）由待定系数法可求得直线AP的表达式为y＝（1$-\\frac{1}{2}x_{1}$）x+$x_{1}$，\n设直线AP交y轴于点G，如图2所示，\n[[image:rId44]]\n则OG＝$x_{1}$＝OT，\n∵∠GOA＝∠TOA＝45°，\n在△GOA和△TOA中，\n$\\begin{cases} OG=OT \\\\ ∠GOA=∠TOA \\\\ OA=OA \\end{cases}$，\n∴△GOA≌△TOA（SAS），\n∴∠PAO＝∠TAO，\n∵∠AMN＝∠PAO，\n∴∠AMN＝∠TAO，\n∵AO$=\\sqrt{2^{2}+2^{2}}=$2$\\sqrt{2}=$MN，\n在△TOA和△TNM中，\n$\\begin{cases} ∠TMN=∠TAO \\\\ ∠OTA=∠NTM \\\\ AO=MN \\end{cases}$，\n∴△TOA≌△TNM（AAS），\n∴TN＝TO＝$x_{1}$，ON＝$2x_{1}$，\n作QH⊥x轴于点H，\n则tan∠QTH$=\\frac{QH}{TH}=\\frac{-\\frac{1}{2}x_{2}^{2}+2x_{2}}{x_{2}-x_{1}}=$$-\\frac{9}{4}x_{1}+6$，\n又∵tan∠QTH＝tan∠$Q_{1}$TO，\n即$\\frac{OQ_{1}}{OT}=-\\frac{9}{4}x_{1}+6$，\n∴$OQ_{1}$＝（$-\\frac{9}{4}x_{1}+6$）$x_{1}=-\\frac{9}{4}x_{1}^{2}+6x_{1}$．\n∵T（$x_{1}$，0），R（$\\frac{1}{2}x_{1}$，$-\\frac{1}{8}x_{1}^{2}+x_{1}$），\n∴由待定系数法可得直线RT的表达式为y＝（$\\frac{1}{4}x_{1}-2$）x$-\\frac{1}{4}x_{1}^{2}+2x_{1}$，\n即$OR_{1}=-\\frac{1}{4}x_{1}^{2}+2x_{1}$，\n∴$R_{1}Q_{1}＝OQ_{1}+OR_{1}$$=-\\frac{5}{2}x_{1}^{2}+8x_{1}$，\n∴t＝$R_{1}Q_{1}$﹣ON$=-\\frac{5}{2}x_{1}^{2}+8x_{1}-2x_{1}$$=-\\frac{5}{2}x_{1}^{2}+6x_{1}=-\\frac{5}{2}(x_{1}-\\frac{6}{5})^{2}+\\frac{18}{5}$，\n故当$x_{1}=\\frac{6}{5}$时，t的最大值为$\\frac{18}{5}$．\n即当x$=\\frac{6}{5}$时，t的最大值为$\\frac{18}{5}$．\n【点评】本题考查了二次函数的性质，一次函数的性质，待定系数法求函数解析式，因式分解，不等式，全等三角形的判定与性质，解直角三角形，计算量稍大，熟练掌握以上知识并灵活运用是解题关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:35:49；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId46]] ____ [[image:rId47]] ____ [[image:rId48]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年湖南省中考数学试卷_q026_img01",
+          "path": "assets/2025年湖南省中考数学试卷_q026_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的表达式求解",
+          "一次函数的性质",
+          "全等三角形的判定与性质",
+          "待定系数法"
+        ],
+        "reasoning": "题目（2）中通过求解PB和QC的长度关系来证明x₁+x₂＞2，涉及二次函数和一次函数的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的表达式求解\", \"一次函数的性质\", \"全等三角形的判定与性质\", \"待定系数法\"],\n  \"reasoning\": \"题目（2）中通过求解PB和QC的长度关系来证明x₁+x₂＞2，涉及二次函数和一次函数的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:35:57",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 26,
+      "ok": 26,
+      "fallback": 0
+    }
+  }
+}
