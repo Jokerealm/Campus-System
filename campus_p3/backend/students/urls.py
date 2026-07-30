@@ -2,7 +2,10 @@ from django.urls import path
 
 from .views import (
     ExplanationNextView,
+    PersonalReportView,
+    PracticeAnswerHistoryView,
     PracticeAnswerView,
+    PracticeProgressView,
     PracticeRecommendationView,
     WrongQuestionConfirmView,
     WrongQuestionDetailView,
@@ -41,6 +44,21 @@ urlpatterns = [
         "practice/recommendations",
         PracticeRecommendationView.as_view(),
         name="practice-recommendations",
+    ),
+    path(
+        "practice/progress",
+        PracticeProgressView.as_view(),
+        name="practice-progress",
+    ),
+    path(
+        "reports/personal",
+        PersonalReportView.as_view(),
+        name="personal-report",
+    ),
+    path(
+        "practice/answers/history",
+        PracticeAnswerHistoryView.as_view(),
+        name="practice-answer-history",
     ),
     path(
         "practice/answers",

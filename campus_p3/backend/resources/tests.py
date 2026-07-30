@@ -11,6 +11,18 @@ from rest_framework.test import APIClient
 from .models import GeneratedQuestion, KnowledgePoint, PracticePack, QuestionBankItem
 
 
+FIXTURE_DIR = Path(__file__).resolve().parent / "fixtures"
+
+
+def _fixture_knowledge_point_count():
+    return len(json.loads((FIXTURE_DIR / "knowledge_points_2026_1.json").read_text(encoding="utf-8")))
+
+
+def _fixture_question_count():
+    groups = json.loads((FIXTURE_DIR / "question_bank_2026_1.json").read_text(encoding="utf-8"))
+    return sum(len(group.get("items", [])) for group in groups)
+
+
 class ResourceIdentityApiTests(TestCase):
     def test_resource_api_rejects_missing_identity(self):
         response = APIClient().get("/api/resource/v1/knowledge-points")
@@ -134,21 +146,139 @@ class KnowledgePointApiTests(TestCase):
         self.assertIn("enabled", response.json()["data"])
 
 
+class ResourceStatsApiTests(TestCase):
+    def setUp(self):
+        self.client = APIClient(HTTP_X_SERVICE_ID="p2-service")
+        self.linear_function = KnowledgePoint.objects.create(
+            knowledge_point_id="kp_math_8_function_linear",
+            code="MATH.8.FUNC.001",
+            name="一次函数图像与性质",
+            subject="math",
+            stage="junior_middle_school",
+            grade_range=["8"],
+            path=["数与代数", "函数", "一次函数图像与性质"],
+        )
+        self.disabled_point = KnowledgePoint.objects.create(
+            knowledge_point_id="kp_math_disabled",
+            code="MATH.DISABLED.001",
+            name="停用知识点",
+            subject="math",
+            stage="junior_middle_school",
+            grade_range=["9"],
+            path=["停用知识点"],
+            enabled=False,
+        )
+        legacy_point = KnowledgePoint.objects.create(
+            knowledge_point_id="kp_math_legacy",
+            code="MATH.LEGACY.001",
+            name="旧版知识点",
+            subject="math",
+            stage="junior_middle_school",
+            grade_range=["8"],
+            path=["旧版知识点"],
+            version="2025.1",
+        )
+        approved_question = QuestionBankItem.objects.create(
+            bank_question_id="bank_stats_001",
+            source=QuestionBankItem.Source.MIDDLE_EXAM_REAL,
+            content_html="<p>统计题 1</p>",
+            answer_html="<p>A</p>",
+            analysis_html="<p>解析</p>",
+            question_type="single_choice",
+            difficulty=0.4,
+            audit_status=QuestionBankItem.AuditStatus.APPROVED,
+        )
+        approved_question.knowledge_points.set([self.linear_function])
+        draft_question = QuestionBankItem.objects.create(
+            bank_question_id="bank_stats_002",
+            source=QuestionBankItem.Source.EXTERNAL_IMPORT,
+            content_html="<p>统计题 2</p>",
+            answer_html="<p>B</p>",
+            analysis_html="<p>解析</p>",
+            question_type="fill_blank",
+            difficulty=0.5,
+            audit_status=QuestionBankItem.AuditStatus.DRAFT,
+        )
+        draft_question.knowledge_points.set([self.linear_function])
+        legacy_question = QuestionBankItem.objects.create(
+            bank_question_id="bank_stats_legacy",
+            source=QuestionBankItem.Source.EXTERNAL_IMPORT,
+            content_html="<p>旧版题</p>",
+            answer_html="<p>C</p>",
+            analysis_html="<p>解析</p>",
+            question_type="single_choice",
+            difficulty=0.5,
+            audit_status=QuestionBankItem.AuditStatus.APPROVED,
+            knowledge_point_version="2025.1",
+        )
+        legacy_question.knowledge_points.set([legacy_point])
+        generated_question = GeneratedQuestion.objects.create(
+            generated_question_id="gen_stats_001",
+            content_html="<p>生成题</p>",
+            answer_html="<p>A</p>",
+            analysis_html="<p>解析</p>",
+            question_type="single_choice",
+            difficulty=0.5,
+            audit_status=GeneratedQuestion.AuditStatus.PENDING_REVIEW,
+        )
+        generated_question.knowledge_points.set([self.linear_function])
+        practice_pack = PracticePack.objects.create(
+            practice_pack_id="pack_stats_001",
+            title="统计训练包",
+            target=PracticePack.Target.CLASS,
+            target_ref_id="class_001",
+            created_by="teacher_001",
+        )
+        practice_pack.knowledge_points.set([self.linear_function])
+        practice_pack.questions.set([approved_question])
+
+    def test_stats_returns_versioned_catalog_counts(self):
+        response = self.client.get("/api/resource/v1/stats")
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()["data"]
+        self.assertEqual(payload["version"], KnowledgePoint.DEFAULT_VERSION)
+        self.assertEqual(payload["knowledge_point_count"], 2)
+        self.assertEqual(payload["enabled_knowledge_point_count"], 1)
+        self.assertEqual(payload["question_count"], 2)
+        self.assertEqual(payload["approved_question_count"], 1)
+        self.assertEqual(payload["practice_pack_count"], 1)
+        self.assertEqual(payload["generated_question_count"], 1)
+        self.assertEqual(payload["question_source_counts"]["middle_exam_real"], 1)
+        self.assertEqual(payload["question_source_counts"]["external_import"], 1)
+        self.assertEqual(payload["question_audit_counts"]["approved"], 1)
+        self.assertEqual(payload["question_audit_counts"]["draft"], 1)
+        self.assertEqual(payload["generated_audit_counts"]["pending_review"], 1)
+
+    def test_stats_filters_requested_version(self):
+        response = self.client.get("/api/resource/v1/stats", {"version": "2025.1"})
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()["data"]
+        self.assertEqual(payload["version"], "2025.1")
+        self.assertEqual(payload["knowledge_point_count"], 1)
+        self.assertEqual(payload["question_count"], 1)
+        self.assertEqual(payload["approved_question_count"], 1)
+        self.assertEqual(payload["practice_pack_count"], 0)
+
+
 class LoadKnowledgePointsCommandTests(TestCase):
     def test_load_knowledge_points_is_idempotent(self):
+        expected_count = _fixture_knowledge_point_count()
         first_stdout = StringIO()
         call_command("load_knowledge_points", stdout=first_stdout)
 
-        self.assertEqual(KnowledgePoint.objects.count(), 10)
-        self.assertIn("10 created", first_stdout.getvalue())
+        self.assertEqual(KnowledgePoint.objects.count(), expected_count)
+        self.assertIn(f"{expected_count} created", first_stdout.getvalue())
 
         second_stdout = StringIO()
         call_command("load_knowledge_points", stdout=second_stdout)
 
-        self.assertEqual(KnowledgePoint.objects.count(), 10)
-        self.assertIn("10 updated", second_stdout.getvalue())
+        self.assertEqual(KnowledgePoint.objects.count(), expected_count)
+        self.assertIn(f"{expected_count} updated", second_stdout.getvalue())
 
     def test_load_knowledge_points_keeps_versions_separate(self):
+        expected_count = _fixture_knowledge_point_count()
         call_command("load_knowledge_points", stdout=StringIO())
 
         with TemporaryDirectory() as temp_dir:
@@ -176,7 +306,7 @@ class LoadKnowledgePointsCommandTests(TestCase):
 
             call_command("load_knowledge_points", source=str(source), stdout=StringIO())
 
-        self.assertEqual(KnowledgePoint.objects.count(), 11)
+        self.assertEqual(KnowledgePoint.objects.count(), expected_count + 1)
         old_point = KnowledgePoint.objects.get(
             knowledge_point_id="kp_math_8_function_linear",
             version="2026.1",
@@ -1075,18 +1205,19 @@ class PracticePackApiTests(TestCase):
 class LoadQuestionBankCommandTests(TestCase):
     def test_load_question_bank_is_idempotent(self):
         call_command("load_knowledge_points", stdout=StringIO())
+        expected_count = _fixture_question_count()
 
         first_stdout = StringIO()
         call_command("load_question_bank", stdout=first_stdout)
 
-        self.assertEqual(QuestionBankItem.objects.count(), 5)
-        self.assertIn("5 created", first_stdout.getvalue())
+        self.assertEqual(QuestionBankItem.objects.count(), expected_count)
+        self.assertIn(f"{expected_count} created", first_stdout.getvalue())
 
         second_stdout = StringIO()
         call_command("load_question_bank", stdout=second_stdout)
 
-        self.assertEqual(QuestionBankItem.objects.count(), 5)
-        self.assertIn("5 updated", second_stdout.getvalue())
+        self.assertEqual(QuestionBankItem.objects.count(), expected_count)
+        self.assertIn(f"{expected_count} updated", second_stdout.getvalue())
 
     def test_load_question_bank_rejects_unknown_knowledge_point(self):
         with TemporaryDirectory() as temp_dir:
@@ -1114,3 +1245,82 @@ class LoadQuestionBankCommandTests(TestCase):
 
             with self.assertRaisesMessage(CommandError, "unknown knowledge point ids"):
                 call_command("load_question_bank", source=str(source), stdout=StringIO())
+
+
+class ImportP1PapersToBankCommandTests(TestCase):
+    def test_import_p1_papers_to_bank_creates_questions_and_is_idempotent(self):
+        with TemporaryDirectory() as temp_dir:
+            paper_dir = Path(temp_dir) / "mini_paper"
+            paper_dir.mkdir()
+            paper_json = paper_dir / "paper.json"
+            paper_json.write_text(
+                json.dumps(
+                    {
+                        "schema_version": "paper.v0.1",
+                        "paper_id": "mini_paper",
+                        "source": {
+                            "name": "Mini paper",
+                            "provider": "test",
+                            "original_file": "mini.docx",
+                        },
+                        "subject": "math",
+                        "stage": "junior_high",
+                        "grade": "9",
+                        "questions": [
+                            {
+                                "question_id": "mini_q001",
+                                "question_no": "1",
+                                "question_type": "single_choice",
+                                "stem_text": "已知一次函数 y=2x+1，求 x=3 时 y 的值。",
+                                "stem_markdown": "",
+                                "options": [
+                                    {"label": "A", "text": "5"},
+                                    {"label": "B", "text": "7"},
+                                    {"label": "C", "text": "9"},
+                                    {"label": "D", "text": "11"},
+                                ],
+                                "answer": "B",
+                                "solution": "代入 x=3 得 y=7。",
+                                "images": [],
+                                "knowledge_candidates": [],
+                                "difficulty": 2,
+                                "parse_confidence": 0.98,
+                                "needs_review": False,
+                                "qwen_analysis": {
+                                    "knowledge_points": ["一次函数", "待定系数法"],
+                                    "confidence": 0.95,
+                                },
+                            }
+                        ],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            first_stdout = StringIO()
+            call_command(
+                "import_p1_papers_to_bank",
+                source=str(temp_dir),
+                min_specific_frequency=1,
+                stdout=first_stdout,
+            )
+
+            self.assertEqual(QuestionBankItem.objects.count(), 1)
+            question = QuestionBankItem.objects.get()
+            self.assertEqual(question.source, QuestionBankItem.Source.MIDDLE_EXAM_REAL)
+            point_ids = set(question.knowledge_points.values_list("knowledge_point_id", flat=True))
+            self.assertIn("kp_math_8_function_linear", point_ids)
+            self.assertTrue(any(item.startswith("kp_math_jh_auto_") for item in point_ids))
+            self.assertIn("1 created", first_stdout.getvalue())
+
+            second_stdout = StringIO()
+            call_command(
+                "import_p1_papers_to_bank",
+                source=str(temp_dir),
+                min_specific_frequency=1,
+                stdout=second_stdout,
+            )
+
+            self.assertEqual(QuestionBankItem.objects.count(), 1)
+            self.assertIn("1 updated", second_stdout.getvalue())

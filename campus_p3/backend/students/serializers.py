@@ -91,6 +91,24 @@ class PracticeRecommendationQuerySerializer(serializers.Serializer):
     limit = serializers.IntegerField(required=False, min_value=1, max_value=50, default=5)
 
 
+class PracticeProgressQuerySerializer(serializers.Serializer):
+    student_id = serializers.CharField(allow_blank=False, max_length=64)
+    recent_limit = serializers.IntegerField(required=False, min_value=1, max_value=50, default=8)
+
+
+class PracticeHistoryQuerySerializer(serializers.Serializer):
+    student_id = serializers.CharField(allow_blank=False, max_length=64)
+    limit = serializers.IntegerField(required=False, min_value=1, max_value=100, default=20)
+    offset = serializers.IntegerField(required=False, min_value=0, default=0)
+    knowledge_point_id = serializers.CharField(required=False, allow_blank=True, max_length=64)
+    is_correct = serializers.BooleanField(required=False, allow_null=True, default=None)
+
+
+class PersonalReportQuerySerializer(serializers.Serializer):
+    student_id = serializers.CharField(allow_blank=False, max_length=64)
+    recent_limit = serializers.IntegerField(required=False, min_value=1, max_value=50, default=8)
+
+
 class PracticeAnswerRequestSerializer(serializers.Serializer):
     student_id = serializers.CharField(allow_blank=False, max_length=64)
     bank_question_id = serializers.CharField(allow_blank=False, max_length=64)

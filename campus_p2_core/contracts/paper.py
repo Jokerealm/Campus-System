@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 
 
 QuestionType = Literal["single_choice", "multiple_choice", "blank", "solution"]
+Stage = Literal["junior_high", "senior_high"]
 
 
 class PaperSource(BaseModel):
@@ -41,6 +42,7 @@ class NormalizedQuestion(BaseModel):
     options: list[OptionItem] = Field(default_factory=list)
     answer: str = ""
     solution: str = ""
+    full_score: float | None = None
     images: list[ImageRef] = Field(default_factory=list)
     knowledge_candidates: list[KnowledgeCandidate] = Field(default_factory=list)
     difficulty: int = Field(default=3, ge=1, le=5)
@@ -56,7 +58,7 @@ class NormalizedPaper(BaseModel):
     paper_id: str
     source: PaperSource
     subject: Literal["math"] = "math"
-    stage: Literal["senior_high"] = "senior_high"
+    stage: Stage = "senior_high"
     grade: str
     questions: list[NormalizedQuestion]
 

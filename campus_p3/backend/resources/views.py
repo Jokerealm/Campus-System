@@ -1,5 +1,5 @@
 from django.db import transaction
-from django.db.models import Case, IntegerField, When
+from django.db.models import Case, Count, IntegerField, When
 from django.utils import timezone
 from drf_spectacular.utils import (
     OpenApiExample,
@@ -37,6 +37,15 @@ from .services import (
     get_knowledge_points_by_public_ids,
     serialize_question_bank_item,
 )
+
+
+def _count_by_field(queryset, field_name):
+    return {
+        item[field_name]: item["count"]
+        for item in queryset.values(field_name)
+        .annotate(count=Count("id"))
+        .order_by(field_name)
+    }
 
 
 class ResourceAPIView(APIView):
@@ -112,6 +121,61 @@ class KnowledgePointListView(ResourceAPIView):
 
         items = KnowledgePointSerializer(queryset, many=True).data
         return api_response(request, data={"version": version, "items": items})
+
+
+class ResourceStatsView(ResourceAPIView):
+    @extend_schema(
+        parameters=[
+            OpenApiParameter("version", OpenApiTypes.STR, OpenApiParameter.QUERY),
+        ],
+        responses=inline_serializer(
+            name="ResourceStatsResponse",
+            fields={
+                "request_id": serializers.CharField(allow_null=True),
+                "code": serializers.CharField(),
+                "message": serializers.CharField(),
+                "data": inline_serializer(
+                    name="ResourceStatsData",
+                    fields={
+                        "version": serializers.CharField(),
+                        "knowledge_point_count": serializers.IntegerField(),
+                        "enabled_knowledge_point_count": serializers.IntegerField(),
+                        "question_count": serializers.IntegerField(),
+                        "approved_question_count": serializers.IntegerField(),
+                        "practice_pack_count": serializers.IntegerField(),
+                        "generated_question_count": serializers.IntegerField(),
+                        "question_source_counts": serializers.DictField(),
+                        "question_audit_counts": serializers.DictField(),
+                        "generated_audit_counts": serializers.DictField(),
+                    },
+                ),
+            },
+        ),
+    )
+    def get(self, request):
+        version = request.query_params.get("version", KnowledgePoint.DEFAULT_VERSION)
+        knowledge_points = KnowledgePoint.objects.filter(version=version)
+        questions = QuestionBankItem.objects.filter(knowledge_point_version=version)
+        generated_questions = GeneratedQuestion.objects.filter(knowledge_point_version=version)
+        practice_packs = PracticePack.objects.filter(knowledge_point_version=version)
+
+        return api_response(
+            request,
+            data={
+                "version": version,
+                "knowledge_point_count": knowledge_points.count(),
+                "enabled_knowledge_point_count": knowledge_points.filter(enabled=True).count(),
+                "question_count": questions.count(),
+                "approved_question_count": questions.filter(
+                    audit_status=QuestionBankItem.AuditStatus.APPROVED,
+                ).count(),
+                "practice_pack_count": practice_packs.count(),
+                "generated_question_count": generated_questions.count(),
+                "question_source_counts": _count_by_field(questions, "source"),
+                "question_audit_counts": _count_by_field(questions, "audit_status"),
+                "generated_audit_counts": _count_by_field(generated_questions, "audit_status"),
+            },
+        )
 
 
 class QuestionImportView(ResourceAPIView):

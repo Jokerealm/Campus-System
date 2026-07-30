@@ -1,0 +1,31 @@
+{
+  "tenants": [
+    {
+      "tenant_id": "demo_school",
+      "name": "Demo School"
+    }
+  ],
+  "users": [
+    {
+      "actor_id": "teacher_demo",
+      "role": "teacher",
+      "tenant_id": "demo_school",
+      "display_name": "Demo Teacher",
+      "active": true
+    },
+    {
+      "actor_id": "student_demo",
+      "role": "student",
+      "tenant_id": "demo_school",
+      "display_name": "Demo Student",
+      "active": true
+    },
+    {
+      "actor_id": "p2-service",
+      "role": "service",
+      "tenant_id": "demo_school",
+      "display_name": "P2 Service",
+      "active": true
+    }
+  ]
+}

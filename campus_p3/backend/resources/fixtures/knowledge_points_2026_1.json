@@ -6,8 +6,14 @@
     "parent_id": null,
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["7", "8", "9"],
-    "path": ["数与代数"],
+    "grade_range": [
+      "7",
+      "8",
+      "9"
+    ],
+    "path": [
+      "数与代数"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 10
@@ -19,8 +25,14 @@
     "parent_id": "kp_math_junior_number_algebra",
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["7", "8"],
-    "path": ["数与代数", "方程与不等式"],
+    "grade_range": [
+      "7",
+      "8"
+    ],
+    "path": [
+      "数与代数",
+      "方程与不等式"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 20
@@ -32,8 +44,14 @@
     "parent_id": "kp_math_junior_equation",
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["7"],
-    "path": ["数与代数", "方程与不等式", "一元一次方程"],
+    "grade_range": [
+      "7"
+    ],
+    "path": [
+      "数与代数",
+      "方程与不等式",
+      "一元一次方程"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 30
@@ -45,8 +63,13 @@
     "parent_id": "kp_math_junior_number_algebra",
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["8"],
-    "path": ["数与代数", "函数"],
+    "grade_range": [
+      "8"
+    ],
+    "path": [
+      "数与代数",
+      "函数"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 40
@@ -58,8 +81,14 @@
     "parent_id": "kp_math_8_function",
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["8"],
-    "path": ["数与代数", "函数", "一次函数图像与性质"],
+    "grade_range": [
+      "8"
+    ],
+    "path": [
+      "数与代数",
+      "函数",
+      "一次函数图像与性质"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 50
@@ -71,8 +100,14 @@
     "parent_id": "kp_math_8_function",
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["8"],
-    "path": ["数与代数", "函数", "一次函数实际应用"],
+    "grade_range": [
+      "8"
+    ],
+    "path": [
+      "数与代数",
+      "函数",
+      "一次函数实际应用"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 60
@@ -84,8 +119,14 @@
     "parent_id": null,
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["7", "8", "9"],
-    "path": ["图形与几何"],
+    "grade_range": [
+      "7",
+      "8",
+      "9"
+    ],
+    "path": [
+      "图形与几何"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 70
@@ -97,8 +138,14 @@
     "parent_id": "kp_math_junior_geometry",
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["8"],
-    "path": ["图形与几何", "三角形", "三角形全等"],
+    "grade_range": [
+      "8"
+    ],
+    "path": [
+      "图形与几何",
+      "三角形",
+      "三角形全等"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 80
@@ -110,8 +157,14 @@
     "parent_id": "kp_math_junior_geometry",
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["8"],
-    "path": ["图形与几何", "三角形", "三角形三边关系"],
+    "grade_range": [
+      "8"
+    ],
+    "path": [
+      "图形与几何",
+      "三角形",
+      "三角形三边关系"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 85
@@ -123,10 +176,491 @@
     "parent_id": "kp_math_junior_geometry",
     "subject": "math",
     "stage": "junior_middle_school",
-    "grade_range": ["9"],
-    "path": ["图形与几何", "圆", "圆的基本性质"],
+    "grade_range": [
+      "9"
+    ],
+    "path": [
+      "图形与几何",
+      "圆",
+      "圆的基本性质"
+    ],
     "version": "2026.1",
     "enabled": true,
     "sort_order": 90
+  },
+  {
+    "knowledge_point_id": "kp_math_senior_foundation_logic",
+    "code": "MATH.SH.FOUND",
+    "name": "集合与逻辑",
+    "parent_id": null,
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "集合与逻辑"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 100
+  },
+  {
+    "knowledge_point_id": "kp_math_senior_function",
+    "code": "MATH.SH.FUNC",
+    "name": "函数",
+    "parent_id": null,
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "函数"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 110
+  },
+  {
+    "knowledge_point_id": "kp_math_senior_geometry",
+    "code": "MATH.SH.GEO",
+    "name": "几何与向量",
+    "parent_id": null,
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "几何与向量"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 120
+  },
+  {
+    "knowledge_point_id": "kp_math_senior_statistics",
+    "code": "MATH.SH.STAT",
+    "name": "概率统计",
+    "parent_id": null,
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "概率统计"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 130
+  },
+  {
+    "knowledge_point_id": "kp_math_senior_algebra",
+    "code": "MATH.SH.ALG",
+    "name": "数列与代数",
+    "parent_id": null,
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "数列与代数"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 140
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_found_set_001",
+    "code": "KP-FOUND-SET-001",
+    "name": "集合的表示与运算",
+    "parent_id": "kp_math_senior_foundation_logic",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "集合与逻辑",
+      "集合的表示与运算"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 160
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_found_set_002",
+    "code": "KP-FOUND-SET-002",
+    "name": "充分条件与必要条件",
+    "parent_id": "kp_math_senior_foundation_logic",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "集合与逻辑",
+      "充分条件与必要条件"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 170
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_func_basic_001",
+    "code": "KP-FUNC-BASIC-001",
+    "name": "函数的定义域与值域",
+    "parent_id": "kp_math_senior_function",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "函数",
+      "函数的定义域与值域"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 180
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_func_basic_002",
+    "code": "KP-FUNC-BASIC-002",
+    "name": "函数单调性",
+    "parent_id": "kp_math_senior_function",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "函数",
+      "函数单调性"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 190
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_func_trig_002",
+    "code": "KP-FUNC-TRIG-002",
+    "name": "三角函数图像与性质",
+    "parent_id": "kp_math_senior_function",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "函数",
+      "三角函数图像与性质"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 200
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_func_trig_003",
+    "code": "KP-FUNC-TRIG-003",
+    "name": "三角恒等变换",
+    "parent_id": "kp_math_senior_function",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "函数",
+      "三角恒等变换"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 210
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_geo_vector_002",
+    "code": "KP-GEO-VECTOR-002",
+    "name": "平面向量数量积",
+    "parent_id": "kp_math_senior_geometry",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "几何与向量",
+      "平面向量数量积"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 220
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_stat_basic_002",
+    "code": "KP-STAT-BASIC-002",
+    "name": "样本数字特征",
+    "parent_id": "kp_math_senior_statistics",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "概率统计",
+      "样本数字特征"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 230
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_stat_rv_001",
+    "code": "KP-STAT-RV-001",
+    "name": "离散型随机变量分布列",
+    "parent_id": "kp_math_senior_statistics",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "概率统计",
+      "离散型随机变量分布列"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 240
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_geo_analytic_003",
+    "code": "KP-GEO-ANALYTIC-003",
+    "name": "椭圆",
+    "parent_id": "kp_math_senior_geometry",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "几何与向量",
+      "椭圆"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 250
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_geo_analytic_004",
+    "code": "KP-GEO-ANALYTIC-004",
+    "name": "双曲线",
+    "parent_id": "kp_math_senior_geometry",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "几何与向量",
+      "双曲线"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 260
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_geo_solid_002",
+    "code": "KP-GEO-SOLID-002",
+    "name": "线面平行与垂直",
+    "parent_id": "kp_math_senior_geometry",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "几何与向量",
+      "线面平行与垂直"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 270
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_geo_spacev_002",
+    "code": "KP-GEO-SPACEV-002",
+    "name": "空间角与距离",
+    "parent_id": "kp_math_senior_geometry",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "几何与向量",
+      "空间角与距离"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 280
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_alg_sequence_003",
+    "code": "KP-ALG-SEQUENCE-003",
+    "name": "数列递推与通项求法",
+    "parent_id": "kp_math_senior_algebra",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "数列与代数",
+      "数列递推与通项求法"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 290
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_alg_sequence_004",
+    "code": "KP-ALG-SEQUENCE-004",
+    "name": "数列求和方法",
+    "parent_id": "kp_math_senior_algebra",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "数列与代数",
+      "数列求和方法"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 300
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_stat_rv_002",
+    "code": "KP-STAT-RV-002",
+    "name": "数学期望与方差",
+    "parent_id": "kp_math_senior_statistics",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "概率统计",
+      "数学期望与方差"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 310
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_geo_analytic_006",
+    "code": "KP-GEO-ANALYTIC-006",
+    "name": "圆锥曲线中的弦与最值",
+    "parent_id": "kp_math_senior_geometry",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "几何与向量",
+      "圆锥曲线中的弦与最值"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 320
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_func_deriv_002",
+    "code": "KP-FUNC-DERIV-002",
+    "name": "利用导数研究单调性与极值",
+    "parent_id": "kp_math_senior_function",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "函数",
+      "利用导数研究单调性与极值"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 330
+  },
+  {
+    "knowledge_point_id": "kp_hs_kp_func_deriv_003",
+    "code": "KP-FUNC-DERIV-003",
+    "name": "导数中的参数与恒成立问题",
+    "parent_id": "kp_math_senior_function",
+    "subject": "math",
+    "stage": "senior_high",
+    "grade_range": [
+      "10",
+      "11",
+      "12"
+    ],
+    "path": [
+      "函数",
+      "导数中的参数与恒成立问题"
+    ],
+    "version": "2026.1",
+    "enabled": true,
+    "sort_order": 340
   }
 ]

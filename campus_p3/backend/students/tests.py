@@ -7,7 +7,7 @@ from unittest.mock import MagicMock, patch
 from urllib.parse import urlsplit
 
 from django.core.files.uploadedfile import SimpleUploadedFile
-from django.db import close_old_connections
+from django.db import close_old_connections, connection
 from django.test import TestCase, TransactionTestCase, override_settings
 from django.utils import timezone
 from rest_framework.test import APIClient
@@ -618,6 +618,167 @@ class StudentApiTests(TestCase):
             first.json()["data"]["updated_mastery"],
         )
 
+    def test_practice_progress_returns_mastery_and_recent_answers(self):
+        first_answer = self.client.post(
+            "/api/student/v1/practice/answers",
+            {
+                "student_id": self.student_id,
+                "bank_question_id": self.triangle_question.bank_question_id,
+                "answer_text": "B",
+                "is_correct": True,
+                "used_seconds": 30,
+            },
+            format="json",
+            **self.student_headers,
+        )
+        self.assertEqual(first_answer.status_code, 200)
+        second_answer = self.client.post(
+            "/api/student/v1/practice/answers",
+            {
+                "student_id": self.student_id,
+                "bank_question_id": self.unrelated_question.bank_question_id,
+                "answer_text": "A",
+                "is_correct": False,
+                "used_seconds": 18,
+            },
+            format="json",
+            **self.student_headers,
+        )
+        self.assertEqual(second_answer.status_code, 200)
+
+        response = self.client.get(
+            "/api/student/v1/practice/progress",
+            {"student_id": self.student_id, "recent_limit": 1},
+            **self.student_headers,
+        )
+
+        self.assertEqual(response.status_code, 200)
+        data = response.json()["data"]
+        self.assertEqual(data["student_id"], self.student_id)
+        self.assertEqual(data["answer_count"], 2)
+        self.assertEqual(data["correct_count"], 1)
+        self.assertEqual(data["accuracy_rate"], 0.5)
+        self.assertEqual(data["mastery_count"], 2)
+        self.assertEqual(len(data["mastery"]), 2)
+        self.assertEqual(len(data["recent_answers"]), 1)
+        self.assertIn(
+            data["recent_answers"][0]["bank_question_id"],
+            {
+                self.triangle_question.bank_question_id,
+                self.unrelated_question.bank_question_id,
+            },
+        )
+
+    def test_practice_answer_history_filters_and_paginates(self):
+        first_answer = self.client.post(
+            "/api/student/v1/practice/answers",
+            {
+                "student_id": self.student_id,
+                "bank_question_id": self.triangle_question.bank_question_id,
+                "answer_text": "B",
+                "is_correct": True,
+                "used_seconds": 30,
+            },
+            format="json",
+            **self.student_headers,
+        )
+        self.assertEqual(first_answer.status_code, 200)
+        second_answer = self.client.post(
+            "/api/student/v1/practice/answers",
+            {
+                "student_id": self.student_id,
+                "bank_question_id": self.unrelated_question.bank_question_id,
+                "answer_text": "A",
+                "is_correct": False,
+                "used_seconds": 18,
+            },
+            format="json",
+            **self.student_headers,
+        )
+        self.assertEqual(second_answer.status_code, 200)
+        self.assertEqual(PracticeAnswer.objects.count(), 2)
+
+        first_page = self.client.get(
+            "/api/student/v1/practice/answers/history",
+            {"student_id": self.student_id, "limit": 1, "offset": 0},
+            **self.student_headers,
+        )
+        self.assertEqual(first_page.status_code, 200)
+        page_data = first_page.json()["data"]
+        self.assertEqual(page_data["total_count"], 2)
+        self.assertEqual(len(page_data["items"]), 1)
+        self.assertIn("content_preview", page_data["items"][0])
+        self.assertNotIn("answer_html", page_data["items"][0])
+        self.assertNotIn("analysis_html", page_data["items"][0])
+
+        wrong_only = self.client.get(
+            "/api/student/v1/practice/answers/history",
+            {"student_id": self.student_id, "is_correct": "false"},
+            **self.student_headers,
+        )
+        self.assertEqual(wrong_only.status_code, 200)
+        self.assertEqual(wrong_only.json()["data"]["total_count"], 1)
+        self.assertFalse(wrong_only.json()["data"]["items"][0]["is_correct"])
+
+        triangle_only = self.client.get(
+            "/api/student/v1/practice/answers/history",
+            {
+                "student_id": self.student_id,
+                "knowledge_point_id": self.triangle_sides.knowledge_point_id,
+            },
+            **self.student_headers,
+        )
+        self.assertEqual(triangle_only.status_code, 200)
+        self.assertEqual(triangle_only.json()["data"]["total_count"], 1)
+        self.assertEqual(
+            triangle_only.json()["data"]["items"][0]["bank_question_id"],
+            self.triangle_question.bank_question_id,
+        )
+
+    def test_personal_report_summarizes_learning_profile(self):
+        self._create_confirmed_wrong_question()
+        self.client.post(
+            "/api/student/v1/practice/answers",
+            {
+                "student_id": self.student_id,
+                "bank_question_id": self.triangle_question.bank_question_id,
+                "answer_text": "B",
+                "is_correct": True,
+                "used_seconds": 30,
+            },
+            format="json",
+            **self.student_headers,
+        )
+        self.client.post(
+            "/api/student/v1/practice/answers",
+            {
+                "student_id": self.student_id,
+                "bank_question_id": self.unrelated_question.bank_question_id,
+                "answer_text": "A",
+                "is_correct": False,
+                "used_seconds": 18,
+            },
+            format="json",
+            **self.student_headers,
+        )
+
+        response = self.client.get(
+            "/api/student/v1/reports/personal",
+            {"student_id": self.student_id, "recent_limit": 2},
+            **self.student_headers,
+        )
+
+        self.assertEqual(response.status_code, 200)
+        data = response.json()["data"]
+        self.assertEqual(data["student_id"], self.student_id)
+        self.assertEqual(data["summary"]["answer_count"], 2)
+        self.assertEqual(data["summary"]["correct_count"], 1)
+        self.assertEqual(data["summary"]["wrong_question_count"], 1)
+        self.assertEqual(len(data["mastery"]["weak"]), 2)
+        self.assertEqual(len(data["recent_answers"]), 2)
+        self.assertEqual(len(data["recent_wrong_questions"]), 1)
+        self.assertTrue(data["next_actions"])
+
     def test_mastery_is_clamped_and_can_mark_wrong_question_mastered(self):
         wrong_question = self._create_confirmed_wrong_question(
             status=WrongQuestion.Status.LEARNING
@@ -765,6 +926,8 @@ class PracticeAnswerConcurrencyTests(TransactionTestCase):
         self.question.knowledge_points.add(self.knowledge_point)
 
     def test_concurrent_idempotent_answers_create_and_score_once(self):
+        if connection.vendor == "sqlite":
+            self.skipTest("SQLite test database uses table locks for concurrent writes.")
         barrier = threading.Barrier(2)
 
         def submit():

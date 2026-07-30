@@ -8,6 +8,7 @@ from .views import (
     PracticePackCreateView,
     QuestionImportView,
     QuestionSearchView,
+    ResourceStatsView,
 )
 
 urlpatterns = [
@@ -26,4 +27,5 @@ urlpatterns = [
     path("practice-packs", PracticePackCreateView.as_view(), name="practice-pack-create"),
     path("questions/import", QuestionImportView.as_view(), name="question-import"),
     path("questions/search", QuestionSearchView.as_view(), name="question-search"),
+    path("stats", ResourceStatsView.as_view(), name="resource-stats"),
 ]

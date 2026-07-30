@@ -8,7 +8,9 @@
         "content_html": "<p>已知一次函数 y=2x+1，求当 x=3 时 y 的值。</p>",
         "answer_html": "<p>y=7。</p>",
         "analysis_html": "<p>将 x=3 代入 y=2x+1，得 y=2×3+1=7。</p>",
-        "knowledge_point_ids": ["kp_math_8_function_linear"],
+        "knowledge_point_ids": [
+          "kp_math_8_function_linear"
+        ],
         "question_type": "填空题",
         "difficulty": 0.35,
         "images": [],
@@ -19,7 +21,9 @@
         "content_html": "<p>解方程：3x-5=10。</p>",
         "answer_html": "<p>x=5。</p>",
         "analysis_html": "<p>移项得 3x=15，所以 x=5。</p>",
-        "knowledge_point_ids": ["kp_math_7_linear_equation"],
+        "knowledge_point_ids": [
+          "kp_math_7_linear_equation"
+        ],
         "question_type": "解答题",
         "difficulty": 0.4,
         "images": [],
@@ -56,7 +60,9 @@
         "content_html": "<p>已知 AB=DE，AC=DF，∠A=∠D，判断 △ABC 与 △DEF 是否全等，并说明理由。</p>",
         "answer_html": "<p>全等，依据 SAS。</p>",
         "analysis_html": "<p>两边及其夹角分别相等，所以两个三角形全等。</p>",
-        "knowledge_point_ids": ["kp_math_8_triangle"],
+        "knowledge_point_ids": [
+          "kp_math_8_triangle"
+        ],
         "question_type": "解答题",
         "difficulty": 0.58,
         "images": [],
@@ -73,8 +79,263 @@
         "content_html": "<p>在 △ABC 中，AB=7，AC=5，则中线 AD 长度的范围是（ ）。</p><p>A. 1&lt;AD&lt;6　B. 5&lt;AD&lt;7　C. 2&lt;AD&lt;12　D. 2&lt;AD&lt;5</p>",
         "answer_html": "<p>A. 1&lt;AD&lt;6。</p>",
         "analysis_html": "<p>延长 AD 到 E，使 DE=AD。由中线性质可得 BE=AC=5。在 △ABE 中，|7-5|&lt;AE&lt;7+5，即 2&lt;2AD&lt;12，所以 1&lt;AD&lt;6。</p>",
-        "knowledge_point_ids": ["kp_math_8_triangle_side_relation"],
+        "knowledge_point_ids": [
+          "kp_math_8_triangle_side_relation"
+        ],
         "question_type": "选择题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      }
+    ]
+  },
+  {
+    "source": "school_bank",
+    "knowledge_point_version": "2026.1",
+    "items": [
+      {
+        "bank_question_id": "bq_hs_kp_found_set_001",
+        "content_html": "<p>已知集合 A={x | 1&lt;x&lt;5}，B={2,3,5,6}，求 A∩B。</p>",
+        "answer_html": "<p>A∩B={2,3}。</p>",
+        "analysis_html": "<p>集合 A 中元素满足 1&lt;x&lt;5，集合 B 中同时满足条件的元素是 2 和 3。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_found_set_001"
+        ],
+        "question_type": "填空题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_found_set_002",
+        "content_html": "<p>设 p：x&gt;2，q：x&gt;0。判断 p 是 q 的什么条件。</p>",
+        "answer_html": "<p>p 是 q 的充分不必要条件。</p>",
+        "analysis_html": "<p>由 x&gt;2 可推出 x&gt;0，但 x&gt;0 不能推出 x&gt;2，所以 p 是 q 的充分不必要条件。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_found_set_002"
+        ],
+        "question_type": "单选题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_func_basic_001",
+        "content_html": "<p>函数 f(x)=log<sub>2</sub>(x-1)+√(4-x) 的定义域为（ ）。</p>",
+        "answer_html": "<p>(1,4]。</p>",
+        "analysis_html": "<p>对数部分要求 x-1&gt;0，根式部分要求 4-x≥0，合并得 1&lt;x≤4。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_func_basic_001"
+        ],
+        "question_type": "单选题",
+        "difficulty": 0.65,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_func_basic_002",
+        "content_html": "<p>判断函数 f(x)=x<sup>3</sup>-3x 在 (-∞,-1)，(-1,1)，(1,+∞) 上的单调性。</p>",
+        "answer_html": "<p>在 (-∞,-1) 和 (1,+∞) 上递增，在 (-1,1) 上递减。</p>",
+        "analysis_html": "<p>f'(x)=3x<sup>2</sup>-3=3(x-1)(x+1)，根据导数符号即可判断单调区间。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_func_basic_002"
+        ],
+        "question_type": "解答题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_func_trig_002",
+        "content_html": "<p>函数 y=2sin(2x-π/3)+1 的最小正周期是（ ）。</p>",
+        "answer_html": "<p>π。</p>",
+        "analysis_html": "<p>sin(ωx+φ) 的周期为 2π/|ω|，此处 ω=2，所以最小正周期为 π。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_func_trig_002"
+        ],
+        "question_type": "单选题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_func_trig_003",
+        "content_html": "<p>化简 sin(x+π)+cos(π/2+x)。</p>",
+        "answer_html": "<p>-2sin x。</p>",
+        "analysis_html": "<p>sin(x+π)=-sin x，cos(π/2+x)=-sin x，所以原式为 -2sin x。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_func_trig_003"
+        ],
+        "question_type": "填空题",
+        "difficulty": 0.65,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_geo_vector_002",
+        "content_html": "<p>已知向量 a=(1,2)，b=(2,-1)。求 a·b；若 c=(m,1) 与 a 垂直，求 m。</p>",
+        "answer_html": "<p>a·b=0，m=-2。</p>",
+        "analysis_html": "<p>a·b=1×2+2×(-1)=0。由 a·c=m+2=0，得 m=-2。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_geo_vector_002"
+        ],
+        "question_type": "解答题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_stat_basic_002",
+        "content_html": "<p>一组数据 2，3，3，6，8 的平均数和中位数分别是多少？</p>",
+        "answer_html": "<p>平均数为 4.4，中位数为 3。</p>",
+        "analysis_html": "<p>平均数为 (2+3+3+6+8)/5=4.4；数据已按从小到大排列，中间数为 3。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_stat_basic_002"
+        ],
+        "question_type": "填空题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_stat_rv_001",
+        "content_html": "<p>随机变量 X 的取值为 0，1，2，对应概率为 p，2p，1/2。求 p 和 P(X≥1)。</p>",
+        "answer_html": "<p>p=1/6，P(X≥1)=5/6。</p>",
+        "analysis_html": "<p>由概率和为 1 得 p+2p+1/2=1，所以 p=1/6；P(X≥1)=2p+1/2=5/6。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_stat_rv_001"
+        ],
+        "question_type": "解答题",
+        "difficulty": 0.65,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_geo_analytic_003",
+        "content_html": "<p>椭圆 x<sup>2</sup>/25 + y<sup>2</sup>/9 = 1 的离心率为（ ）。</p>",
+        "answer_html": "<p>4/5。</p>",
+        "analysis_html": "<p>a=5，b=3，c=√(a<sup>2</sup>-b<sup>2</sup>)=4，所以离心率 e=c/a=4/5。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_geo_analytic_003"
+        ],
+        "question_type": "单选题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_geo_analytic_004",
+        "content_html": "<p>双曲线 x<sup>2</sup>/9 - y<sup>2</sup>/4 = 1 的渐近线方程为（ ）。</p>",
+        "answer_html": "<p>y=±(2/3)x。</p>",
+        "analysis_html": "<p>标准双曲线 x<sup>2</sup>/a<sup>2</sup>-y<sup>2</sup>/b<sup>2</sup>=1 的渐近线为 y=±(b/a)x，此处 a=3，b=2。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_geo_analytic_004"
+        ],
+        "question_type": "单选题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_geo_solid_002",
+        "content_html": "<p>在正方体 ABCD-A<sub>1</sub>B<sub>1</sub>C<sub>1</sub>D<sub>1</sub> 中，证明 A<sub>1</sub>A⊥平面 ABCD。</p>",
+        "answer_html": "<p>因为 A<sub>1</sub>A 同时垂直于 AB 和 AD，且 AB、AD 是平面 ABCD 内相交直线，所以 A<sub>1</sub>A⊥平面 ABCD。</p>",
+        "analysis_html": "<p>线面垂直判定定理：一条直线垂直于平面内两条相交直线，则该直线垂直于这个平面。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_geo_solid_002"
+        ],
+        "question_type": "证明题",
+        "difficulty": 0.65,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_geo_spacev_002",
+        "content_html": "<p>棱长为 1 的正方体 ABCD-A<sub>1</sub>B<sub>1</sub>C<sub>1</sub>D<sub>1</sub> 中，求直线 AC<sub>1</sub> 与平面 ABCD 所成角的正切值。</p>",
+        "answer_html": "<p>√2/2。</p>",
+        "analysis_html": "<p>AC<sub>1</sub> 在平面 ABCD 上的射影为 AC，tan θ=A A<sub>1</sub>/AC=1/√2=√2/2。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_geo_spacev_002"
+        ],
+        "question_type": "解答题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_alg_sequence_003",
+        "content_html": "<p>已知数列 a<sub>1</sub>=1，a<sub>n+1</sub>=a<sub>n</sub>+2n+1，求 a<sub>n</sub>。</p>",
+        "answer_html": "<p>a<sub>n</sub>=n<sup>2</sup>。</p>",
+        "analysis_html": "<p>a<sub>n</sub>=1+Σ<sub>k=1</sub><sup>n-1</sup>(2k+1)=1+(n-1)n+(n-1)=n<sup>2</sup>。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_alg_sequence_003"
+        ],
+        "question_type": "解答题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_alg_sequence_004",
+        "content_html": "<p>求和 S<sub>n</sub>=2+4+8+…+2<sup>n</sup>。</p>",
+        "answer_html": "<p>S<sub>n</sub>=2<sup>n+1</sup>-2。</p>",
+        "analysis_html": "<p>这是首项为 2、公比为 2 的等比数列，S<sub>n</sub>=2(1-2<sup>n</sup>)/(1-2)=2<sup>n+1</sup>-2。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_alg_sequence_004"
+        ],
+        "question_type": "填空题",
+        "difficulty": 0.65,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_stat_rv_002",
+        "content_html": "<p>随机变量 X 的取值为 0，1，2，概率分别为 1/4，1/2，1/4。求 E(X) 与 D(X)。</p>",
+        "answer_html": "<p>E(X)=1，D(X)=1/2。</p>",
+        "analysis_html": "<p>E(X)=0×1/4+1×1/2+2×1/4=1；E(X<sup>2</sup>)=0+1/2+4×1/4=3/2，所以 D(X)=3/2-1<sup>2</sup>=1/2。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_stat_rv_002"
+        ],
+        "question_type": "解答题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_geo_analytic_006",
+        "content_html": "<p>直线 x=1 与椭圆 x<sup>2</sup>/4+y<sup>2</sup>=1 交于 A、B 两点，求弦长 AB。</p>",
+        "answer_html": "<p>AB=√3。</p>",
+        "analysis_html": "<p>令 x=1，得 1/4+y<sup>2</sup>=1，所以 y=±√3/2，弦长为 √3。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_geo_analytic_006"
+        ],
+        "question_type": "填空题",
+        "difficulty": 0.55,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_func_deriv_002",
+        "content_html": "<p>已知 f(x)=x<sup>3</sup>-3x，求 f(x) 的极大值与极小值。</p>",
+        "answer_html": "<p>极大值为 2，极小值为 -2。</p>",
+        "analysis_html": "<p>f'(x)=3(x-1)(x+1)。函数在 x=-1 处由增到减，极大值 f(-1)=2；在 x=1 处由减到增，极小值 f(1)=-2。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_func_deriv_002"
+        ],
+        "question_type": "解答题",
+        "difficulty": 0.65,
+        "images": [],
+        "audit_status": "approved"
+      },
+      {
+        "bank_question_id": "bq_hs_kp_func_deriv_003",
+        "content_html": "<p>若函数 f(x)=x<sup>2</sup>-2ax+1 对任意实数 x 恒有 f(x)≥0，求实数 a 的取值范围。</p>",
+        "answer_html": "<p>-1≤a≤1。</p>",
+        "analysis_html": "<p>二次函数开口向上，对任意 x 非负需最小值 1-a<sup>2</sup>≥0，故 -1≤a≤1。</p>",
+        "knowledge_point_ids": [
+          "kp_hs_kp_func_deriv_003"
+        ],
+        "question_type": "解答题",
         "difficulty": 0.55,
         "images": [],
         "audit_status": "approved"

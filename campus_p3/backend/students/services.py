@@ -1,8 +1,11 @@
 import hashlib
 import json
+import time
 import uuid
 
-from django.db import IntegrityError, transaction
+from django.db.models import Count
+from django.db import IntegrityError, OperationalError, close_old_connections, transaction
+from django.utils import timezone
 from rest_framework.exceptions import NotFound
 
 from core.exceptions import ConflictError
@@ -15,6 +18,7 @@ MASTERY_INITIAL = 0.5
 MASTERY_CORRECT_DELTA = 0.05
 MASTERY_INCORRECT_DELTA = -0.08
 MASTERY_THRESHOLD = 0.8
+SQLITE_LOCK_RETRY_COUNT = 30
 
 
 def generate_wrong_question_id():
@@ -203,8 +207,268 @@ def recommend_questions(*, tenant_id, student_id, limit):
     return items
 
 
-@transaction.atomic
+def build_personal_report(*, tenant_id, student_id, recent_limit):
+    answers = PracticeAnswer.objects.filter(
+        tenant_id=tenant_id,
+        student_id=student_id,
+    )
+    answer_count = answers.count()
+    correct_count = answers.filter(is_correct=True).count()
+    accuracy_rate = round(correct_count / answer_count, 4) if answer_count else 0.0
+
+    mastery_rows = list(
+        StudentMastery.objects.filter(
+            tenant_id=tenant_id,
+            student_id=student_id,
+        )
+        .select_related("knowledge_point")
+        .order_by("mastery_rate", "knowledge_point__sort_order", "knowledge_point__code")
+    )
+    average_mastery = (
+        round(sum(row.mastery_rate for row in mastery_rows) / len(mastery_rows), 4)
+        if mastery_rows
+        else 0.0
+    )
+    weak_rows = mastery_rows[:5]
+    strong_rows = sorted(mastery_rows, key=lambda row: row.mastery_rate, reverse=True)[:3]
+
+    wrong_queryset = WrongQuestion.objects.filter(
+        tenant_id=tenant_id,
+        student_id=student_id,
+    )
+    status_counts = {
+        item["status"]: item["count"]
+        for item in wrong_queryset.values("status").annotate(count=Count("id"))
+    }
+    active_statuses = [
+        WrongQuestion.Status.UPLOADED,
+        WrongQuestion.Status.RECOGNIZING,
+        WrongQuestion.Status.RECOGNIZED,
+        WrongQuestion.Status.CONFIRMED,
+        WrongQuestion.Status.LEARNING,
+    ]
+    active_wrong_count = sum(status_counts.get(status, 0) for status in active_statuses)
+    mastered_wrong_count = status_counts.get(WrongQuestion.Status.MASTERED, 0)
+
+    recent_answers = (
+        answers.select_related("question")
+        .prefetch_related("question__knowledge_points")
+        .order_by("-created_at", "answer_record_id")[:recent_limit]
+    )
+    recent_wrong_questions = (
+        wrong_queryset.prefetch_related("confirmed_knowledge_points")
+        .order_by("-updated_at", "wrong_question_id")[:recent_limit]
+    )
+    recommended_items = recommend_questions(
+        tenant_id=tenant_id,
+        student_id=student_id,
+        limit=min(3, recent_limit),
+    )
+
+    return {
+        "student_id": student_id,
+        "generated_at": timezone.now(),
+        "summary": {
+            "answer_count": answer_count,
+            "correct_count": correct_count,
+            "accuracy_rate": accuracy_rate,
+            "wrong_question_count": wrong_queryset.count(),
+            "active_wrong_question_count": active_wrong_count,
+            "mastered_wrong_question_count": mastered_wrong_count,
+            "mastery_count": len(mastery_rows),
+            "average_mastery_rate": average_mastery,
+            "report_level": _report_level(
+                accuracy_rate=accuracy_rate,
+                average_mastery=average_mastery,
+                active_wrong_count=active_wrong_count,
+                answer_count=answer_count,
+            ),
+        },
+        "mastery": {
+            "weak": [_serialize_mastery_row(row) for row in weak_rows],
+            "strong": [_serialize_mastery_row(row) for row in strong_rows],
+        },
+        "wrong_question_status": status_counts,
+        "recent_wrong_questions": [
+            {
+                "wrong_question_id": item.wrong_question_id,
+                "status": item.status,
+                "question_type": item.question.get("question_type", ""),
+                "stem_preview": _html_preview(
+                    item.question.get("stem_text") or item.question.get("stem_html", "")
+                ),
+                "confirmed_knowledge_point_ids": [
+                    point.knowledge_point_id
+                    for point in item.confirmed_knowledge_points.all()
+                ],
+                "updated_at": item.updated_at,
+            }
+            for item in recent_wrong_questions
+        ],
+        "recent_answers": [
+            {
+                "answer_record_id": answer.answer_record_id,
+                "bank_question_id": answer.question.bank_question_id,
+                "question_type": answer.question.question_type,
+                "is_correct": answer.is_correct,
+                "used_seconds": answer.used_seconds,
+                "knowledge_point_ids": [
+                    point.knowledge_point_id
+                    for point in answer.question.knowledge_points.all()
+                ],
+                "created_at": answer.created_at,
+            }
+            for answer in recent_answers
+        ],
+        "recommended_question_ids": [
+            item["bank_question_id"] for item in recommended_items
+        ],
+        "next_actions": _student_next_actions(
+            answer_count=answer_count,
+            accuracy_rate=accuracy_rate,
+            weak_rows=weak_rows,
+            active_wrong_count=active_wrong_count,
+            recommended_items=recommended_items,
+        ),
+    }
+
+
+def _serialize_mastery_row(row):
+    return {
+        "knowledge_point_id": row.knowledge_point.knowledge_point_id,
+        "knowledge_point_code": row.knowledge_point.code,
+        "knowledge_point_name": row.knowledge_point.name,
+        "knowledge_point_version": row.knowledge_point_version,
+        "mastery_rate": row.mastery_rate,
+        "updated_at": row.updated_at,
+    }
+
+
+def _report_level(*, accuracy_rate, average_mastery, active_wrong_count, answer_count):
+    if answer_count == 0:
+        return "new"
+    if accuracy_rate < 0.55 or average_mastery < 0.45 or active_wrong_count >= 3:
+        return "needs_attention"
+    if accuracy_rate >= 0.8 and average_mastery >= 0.65 and active_wrong_count <= 1:
+        return "solid"
+    return "progressing"
+
+
+def _student_next_actions(
+    *,
+    answer_count,
+    accuracy_rate,
+    weak_rows,
+    active_wrong_count,
+    recommended_items,
+):
+    actions = []
+    if active_wrong_count:
+        actions.append(
+            {
+                "action_type": "continue_wrong_questions",
+                "title": "continue_wrong_questions",
+                "detail": "review confirmed wrong questions before starting new practice",
+                "priority": "high" if active_wrong_count >= 3 else "medium",
+                "knowledge_point_ids": [],
+            }
+        )
+    if weak_rows:
+        actions.append(
+            {
+                "action_type": "practice_weak_mastery",
+                "title": "practice_weak_mastery",
+                "detail": "start from the lowest mastery knowledge points",
+                "priority": "high",
+                "knowledge_point_ids": [
+                    row.knowledge_point.knowledge_point_id for row in weak_rows[:3]
+                ],
+            }
+        )
+    if answer_count == 0:
+        actions.append(
+            {
+                "action_type": "start_first_practice",
+                "title": "start_first_practice",
+                "detail": "finish one recommended question to create a mastery baseline",
+                "priority": "high",
+                "knowledge_point_ids": [],
+            }
+        )
+    elif accuracy_rate < 0.7:
+        actions.append(
+            {
+                "action_type": "slow_review",
+                "title": "slow_review",
+                "detail": "review explanations after each answer before increasing difficulty",
+                "priority": "medium",
+                "knowledge_point_ids": [],
+            }
+        )
+    elif recommended_items:
+        actions.append(
+            {
+                "action_type": "continue_recommendations",
+                "title": "continue_recommendations",
+                "detail": "continue with the next recommended question set",
+                "priority": "medium",
+                "knowledge_point_ids": recommended_items[0].get("knowledge_point_ids", []),
+            }
+        )
+    return actions[:4]
+
+
+def _html_preview(value, limit=96):
+    text = str(value or "")
+    for old, new in (
+        ("<br>", " "),
+        ("<br/>", " "),
+        ("<br />", " "),
+        ("</p>", " "),
+        ("</div>", " "),
+    ):
+        text = text.replace(old, new)
+    while "<" in text and ">" in text:
+        start = text.find("<")
+        end = text.find(">", start)
+        if end < start:
+            break
+        text = text[:start] + " " + text[end + 1 :]
+    text = " ".join(text.split())
+    return text[:limit]
+
+
 def record_practice_answer(
+    *,
+    tenant_id,
+    student_id,
+    question,
+    answer_text,
+    is_correct,
+    used_seconds,
+    idempotency_key="",
+):
+    for attempt in range(SQLITE_LOCK_RETRY_COUNT):
+        try:
+            return _record_practice_answer_once(
+                tenant_id=tenant_id,
+                student_id=student_id,
+                question=question,
+                answer_text=answer_text,
+                is_correct=is_correct,
+                used_seconds=used_seconds,
+                idempotency_key=idempotency_key,
+            )
+        except OperationalError as exc:
+            if "locked" not in str(exc).lower() or attempt == SQLITE_LOCK_RETRY_COUNT - 1:
+                raise
+            close_old_connections()
+            time.sleep(min(0.05 * (attempt + 1), 0.5))
+    raise RuntimeError("unreachable practice answer retry state")
+
+
+@transaction.atomic
+def _record_practice_answer_once(
     *,
     tenant_id,
     student_id,

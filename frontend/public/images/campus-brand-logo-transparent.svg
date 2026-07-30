@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 112" role="img" aria-labelledby="title desc">
+  <title id="title">Campus 智能讲评</title>
+  <desc id="desc">Transparent Campus brand mark with book, check bubble, and product name.</desc>
+  <defs>
+    <linearGradient id="bookGrad" x1="42" y1="88" x2="162" y2="26" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0071E3"/>
+      <stop offset="1" stop-color="#19C2AE"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="206" y1="28" x2="520" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B4EDB"/>
+      <stop offset="0.58" stop-color="#0071E3"/>
+      <stop offset="1" stop-color="#18AFA4"/>
+    </linearGradient>
+    <filter id="softGlow" x="-25%" y="-35%" width="150%" height="170%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.02 0 0 0 0 0.43 0 0 0 0 0.92 0 0 0 0.28 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" filter="url(#softGlow)">
+    <path d="M34 34c25-8 51-4 77 11v45c-26-15-52-19-77-11V34Z" stroke="url(#bookGrad)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M111 45c26-15 52-19 77-11v45c-25-8-51-4-77 11V45Z" stroke="url(#bookGrad)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M111 45v48" stroke="#0B4EDB" stroke-width="5" stroke-linecap="round"/>
+    <path d="M74 28 62 21l49-15 49 15-49 15-27-8v18" stroke="#0B4EDB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M166 46c14-8 25-4 31 8" stroke="#19C2AE" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="203" cy="58" r="8" fill="#19C2AE"/>
+    <circle cx="196" cy="39" r="6" fill="#19C2AE"/>
+    <circle cx="196" cy="77" r="6" fill="#19C2AE"/>
+  </g>
+  <g>
+    <path d="M97 39c28 0 50 17 50 38s-22 38-50 38c-8 0-16-2-23-5L50 116l10-20c-8-7-13-16-13-26 0-21 22-31 50-31Z" fill="#fff" stroke="#0B4EDB" stroke-width="6" stroke-linejoin="round"/>
+    <path d="m74 72 17 17 35-40" fill="none" stroke="#13A8B0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="224" y="68" fill="url(#textGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', Arial, sans-serif" font-size="44" font-weight="780" letter-spacing="0">Campus 智能讲评</text>
+  <text x="227" y="94" fill="#667085" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', Arial, sans-serif" font-size="17" font-weight="560" letter-spacing="0">Word 试卷到课堂讲评报告</text>
+</svg>

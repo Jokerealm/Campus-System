@@ -7,6 +7,7 @@ from urllib.parse import quote
 from django.conf import settings
 from django.core import signing
 from django.db import IntegrityError, transaction
+from django.db.models import F
 from django.http import FileResponse, Http404
 from django.utils import timezone
 from drf_spectacular.utils import (
@@ -31,16 +32,20 @@ from core.responses import api_response
 from resources.models import QuestionBankItem
 from resources.services import get_knowledge_points_by_public_ids
 
-from .models import ExplanationInteraction, WrongQuestion
+from .models import ExplanationInteraction, PracticeAnswer, StudentMastery, WrongQuestion
 from .p1_client import get_p1_client
 from .serializers import (
     ExplanationNextSerializer,
+    PersonalReportQuerySerializer,
     PracticeAnswerRequestSerializer,
+    PracticeHistoryQuerySerializer,
+    PracticeProgressQuerySerializer,
     PracticeRecommendationQuerySerializer,
     WrongQuestionConfirmSerializer,
     WrongQuestionUploadSerializer,
 )
 from .services import (
+    build_personal_report,
     generate_interaction_id,
     generate_wrong_question_id,
     get_owned_wrong_question,
@@ -51,6 +56,26 @@ from .services import (
 
 
 WRONG_QUESTION_FILE_TOKEN_SALT = "students.wrong-question-file.v1"
+
+
+def _html_preview(value, limit=120):
+    text = str(value or "")
+    for old, new in (
+        ("<br>", " "),
+        ("<br/>", " "),
+        ("<br />", " "),
+        ("</p>", " "),
+        ("</div>", " "),
+    ):
+        text = text.replace(old, new)
+    while "<" in text and ">" in text:
+        start = text.find("<")
+        end = text.find(">", start)
+        if end < start:
+            break
+        text = text[:start] + " " + text[end + 1 :]
+    text = " ".join(text.split())
+    return text[:limit]
 
 
 class StudentAPIView(APIView):
@@ -694,6 +719,215 @@ class PracticeRecommendationView(StudentAPIView):
             limit=filters["limit"],
         )
         return api_response(request, data={"items": items})
+
+
+class PracticeProgressView(StudentAPIView):
+    @extend_schema(
+        parameters=[
+            OpenApiParameter("student_id", OpenApiTypes.STR, OpenApiParameter.QUERY),
+            OpenApiParameter("recent_limit", OpenApiTypes.INT, OpenApiParameter.QUERY),
+        ],
+        responses=inline_serializer(
+            name="PracticeProgressResponse",
+            fields={
+                "request_id": serializers.CharField(),
+                "code": serializers.CharField(),
+                "message": serializers.CharField(),
+                "data": inline_serializer(
+                    name="PracticeProgressData",
+                    fields={
+                        "student_id": serializers.CharField(),
+                        "answer_count": serializers.IntegerField(),
+                        "correct_count": serializers.IntegerField(),
+                        "accuracy_rate": serializers.FloatField(),
+                        "mastery_count": serializers.IntegerField(),
+                        "mastery": serializers.ListField(child=serializers.DictField()),
+                        "recent_answers": serializers.ListField(child=serializers.DictField()),
+                    },
+                ),
+            },
+        ),
+    )
+    def get(self, request):
+        query_serializer = PracticeProgressQuerySerializer(data=request.query_params)
+        query_serializer.is_valid(raise_exception=True)
+        filters = query_serializer.validated_data
+        self.validate_student_id(request, filters["student_id"])
+
+        answers = PracticeAnswer.objects.filter(
+            tenant_id=request.user.tenant_id,
+            student_id=request.user.identifier,
+        )
+        answer_count = answers.count()
+        correct_count = answers.filter(is_correct=True).count()
+        recent_answers = (
+            answers.select_related("question")
+            .prefetch_related("question__knowledge_points")
+            .order_by("-created_at", "answer_record_id")[: filters["recent_limit"]]
+        )
+        mastery_rows = (
+            StudentMastery.objects.filter(
+                tenant_id=request.user.tenant_id,
+                student_id=request.user.identifier,
+            )
+            .select_related("knowledge_point")
+            .order_by("mastery_rate", "knowledge_point__sort_order", "knowledge_point__code")
+        )
+
+        return api_response(
+            request,
+            data={
+                "student_id": request.user.identifier,
+                "answer_count": answer_count,
+                "correct_count": correct_count,
+                "accuracy_rate": round(correct_count / answer_count, 4) if answer_count else 0.0,
+                "mastery_count": mastery_rows.count(),
+                "mastery": [
+                    {
+                        "knowledge_point_id": row.knowledge_point.knowledge_point_id,
+                        "knowledge_point_code": row.knowledge_point.code,
+                        "knowledge_point_name": row.knowledge_point.name,
+                        "knowledge_point_version": row.knowledge_point_version,
+                        "mastery_rate": row.mastery_rate,
+                        "updated_at": row.updated_at,
+                    }
+                    for row in mastery_rows
+                ],
+                "recent_answers": [
+                    {
+                        "answer_record_id": answer.answer_record_id,
+                        "bank_question_id": answer.question.bank_question_id,
+                        "question_type": answer.question.question_type,
+                        "answer_text": answer.answer_text,
+                        "is_correct": answer.is_correct,
+                        "used_seconds": answer.used_seconds,
+                        "knowledge_point_ids": [
+                            point.knowledge_point_id
+                            for point in answer.question.knowledge_points.all()
+                        ],
+                        "mastery_snapshot": answer.mastery_snapshot,
+                        "created_at": answer.created_at,
+                    }
+                    for answer in recent_answers
+                ],
+            },
+        )
+
+
+class PersonalReportView(StudentAPIView):
+    @extend_schema(
+        parameters=[
+            OpenApiParameter("student_id", OpenApiTypes.STR, OpenApiParameter.QUERY),
+            OpenApiParameter("recent_limit", OpenApiTypes.INT, OpenApiParameter.QUERY),
+        ],
+        responses=inline_serializer(
+            name="PersonalReportResponse",
+            fields={
+                "request_id": serializers.CharField(),
+                "code": serializers.CharField(),
+                "message": serializers.CharField(),
+                "data": serializers.DictField(),
+            },
+        ),
+    )
+    def get(self, request):
+        query_serializer = PersonalReportQuerySerializer(data=request.query_params)
+        query_serializer.is_valid(raise_exception=True)
+        filters = query_serializer.validated_data
+        self.validate_student_id(request, filters["student_id"])
+        return api_response(
+            request,
+            data=build_personal_report(
+                tenant_id=request.user.tenant_id,
+                student_id=request.user.identifier,
+                recent_limit=filters["recent_limit"],
+            ),
+        )
+
+
+class PracticeAnswerHistoryView(StudentAPIView):
+    @extend_schema(
+        parameters=[
+            OpenApiParameter("student_id", OpenApiTypes.STR, OpenApiParameter.QUERY),
+            OpenApiParameter("limit", OpenApiTypes.INT, OpenApiParameter.QUERY),
+            OpenApiParameter("offset", OpenApiTypes.INT, OpenApiParameter.QUERY),
+            OpenApiParameter("knowledge_point_id", OpenApiTypes.STR, OpenApiParameter.QUERY),
+            OpenApiParameter("is_correct", OpenApiTypes.BOOL, OpenApiParameter.QUERY),
+        ],
+        responses=inline_serializer(
+            name="PracticeAnswerHistoryResponse",
+            fields={
+                "request_id": serializers.CharField(),
+                "code": serializers.CharField(),
+                "message": serializers.CharField(),
+                "data": inline_serializer(
+                    name="PracticeAnswerHistoryData",
+                    fields={
+                        "student_id": serializers.CharField(),
+                        "total_count": serializers.IntegerField(),
+                        "limit": serializers.IntegerField(),
+                        "offset": serializers.IntegerField(),
+                        "items": serializers.ListField(child=serializers.DictField()),
+                    },
+                ),
+            },
+        ),
+    )
+    def get(self, request):
+        query_serializer = PracticeHistoryQuerySerializer(data=request.query_params)
+        query_serializer.is_valid(raise_exception=True)
+        filters = query_serializer.validated_data
+        self.validate_student_id(request, filters["student_id"])
+
+        answers = PracticeAnswer.objects.filter(
+            tenant_id=request.user.tenant_id,
+            student_id=request.user.identifier,
+        )
+        knowledge_point_id = filters.get("knowledge_point_id", "").strip()
+        if knowledge_point_id:
+            answers = answers.filter(
+                question__knowledge_points__knowledge_point_id=knowledge_point_id,
+                question__knowledge_points__version=F("knowledge_point_version"),
+            )
+        if filters.get("is_correct") is not None:
+            answers = answers.filter(is_correct=filters["is_correct"])
+
+        answers = answers.select_related("question").prefetch_related(
+            "question__knowledge_points"
+        )
+        total_count = answers.distinct().count()
+        offset = filters["offset"]
+        limit = filters["limit"]
+        rows = answers.distinct().order_by("-created_at", "answer_record_id")[
+            offset : offset + limit
+        ]
+        return api_response(
+            request,
+            data={
+                "student_id": request.user.identifier,
+                "total_count": total_count,
+                "limit": limit,
+                "offset": offset,
+                "items": [self._serialize_answer(answer) for answer in rows],
+            },
+        )
+
+    @staticmethod
+    def _serialize_answer(answer):
+        return {
+            "answer_record_id": answer.answer_record_id,
+            "bank_question_id": answer.question.bank_question_id,
+            "question_type": answer.question.question_type,
+            "content_preview": _html_preview(answer.question.content_html),
+            "answer_text": answer.answer_text,
+            "is_correct": answer.is_correct,
+            "used_seconds": answer.used_seconds,
+            "knowledge_point_ids": [
+                point.knowledge_point_id for point in answer.question.knowledge_points.all()
+            ],
+            "mastery_snapshot": answer.mastery_snapshot,
+            "created_at": answer.created_at,
+        }
 
 
 class PracticeAnswerView(StudentAPIView):
