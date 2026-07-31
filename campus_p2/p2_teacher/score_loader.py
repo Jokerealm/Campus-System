@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 from io import StringIO
 from pathlib import Path
@@ -6,7 +6,7 @@ import csv
 
 from openpyxl import load_workbook
 
-from campus_p2_core.contracts.p2 import ScoreRecord
+from campus_p2.contracts.p2 import ScoreRecord
 
 
 HEADER_ALIASES = {

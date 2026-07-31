@@ -1,9 +1,9 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import json
 from pathlib import Path
 
-from campus_p2_core.contracts.paper import NormalizedPaper
+from campus_p2.contracts.paper import NormalizedPaper
 
 
 def load_normalized_paper(path: str | Path) -> NormalizedPaper:

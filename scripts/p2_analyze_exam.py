@@ -8,7 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from campus_p2_core.p2_teacher.service import P2TeacherService
+from campus_p2.p2_teacher.service import P2TeacherService
 
 
 def main() -> None:

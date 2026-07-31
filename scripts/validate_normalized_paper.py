@@ -8,7 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from campus_p2_core.p1_input.normalized_paper import validate_normalized_paper
+from campus_p2.p1_input.normalized_paper import validate_normalized_paper
 
 
 def main() -> None:

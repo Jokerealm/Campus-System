@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from campus_p2_core.contracts.p2 import P2ExamAnalysis
+from campus_p2.contracts.p2 import P2ExamAnalysis
 
 
 class P2SQLiteStore:

@@ -1,8 +1,8 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 from pathlib import Path
 
-from campus_p2_core.contracts.p2 import (
+from campus_p2.contracts.p2 import (
     KnowledgeDiagnostic,
     P2ExamAnalysis,
     P3SearchRequest,
@@ -10,9 +10,9 @@ from campus_p2_core.contracts.p2 import (
     ScoreRecord,
     TeachingReport,
 )
-from campus_p2_core.contracts.paper import KnowledgeCandidate, NormalizedPaper, NormalizedQuestion
-from campus_p2_core.p1_input.normalized_paper import load_normalized_paper
-from campus_p2_core.p2_teacher.score_loader import load_score_records
+from campus_p2.contracts.paper import KnowledgeCandidate, NormalizedPaper, NormalizedQuestion
+from campus_p2.p1_input.normalized_paper import load_normalized_paper
+from campus_p2.p2_teacher.score_loader import load_score_records
 
 
 FALLBACK_KNOWLEDGE_RULES: list[tuple[tuple[str, ...], tuple[str, str]]] = [

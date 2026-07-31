@@ -18,8 +18,8 @@ from docx.shared import Inches
 from fastapi.testclient import TestClient
 
 from app.main import app
-from campus_p2_core.p1_input.normalized_paper import validate_normalized_paper
-from campus_p2_core.p2_teacher.service import P2TeacherService
+from campus_p2.p1_input.normalized_paper import validate_normalized_paper
+from campus_p2.p2_teacher.service import P2TeacherService
 
 
 def main() -> None:

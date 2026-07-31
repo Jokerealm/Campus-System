@@ -9,7 +9,7 @@ from typing import Any
 
 import httpx
 
-from campus_p2_core.p2_teacher.analyzer import FALLBACK_KNOWLEDGE_RULES
+from campus_p2.p2_teacher.analyzer import FALLBACK_KNOWLEDGE_RULES
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -327,7 +327,7 @@ def _batch_llm_candidates(
     llm_model: str,
     timeout_seconds: float,
 ) -> dict[str, list[dict[str, Any]]]:
-    batch_size = _safe_int(os.getenv("CAMPUS_LLM_TAG_BATCH_SIZE", "1"), default=1, minimum=1, maximum=16)
+    batch_size = _safe_int(os.getenv("CAMPUS_LLM_TAG_BATCH_SIZE", "6"), default=6, minimum=1, maximum=16)
     if batch_size <= 1:
         return _parallel_single_question_llm_candidates(
             questions,
@@ -340,6 +340,7 @@ def _batch_llm_candidates(
             timeout_seconds=timeout_seconds,
         )
 
+    resolved_model = _resolve_llm_model(llm_base_url, llm_api_key, llm_model, timeout_seconds)
     if len(questions) > batch_size:
         merged: dict[str, list[dict[str, Any]]] = {}
         failures: list[str] = []
@@ -354,7 +355,7 @@ def _batch_llm_candidates(
                         candidate_limit,
                         llm_base_url=llm_base_url,
                         llm_api_key=llm_api_key,
-                        llm_model=llm_model,
+                        llm_model=resolved_model,
                         timeout_seconds=timeout_seconds,
                     )
                 )
@@ -366,7 +367,7 @@ def _batch_llm_candidates(
                     candidate_limit,
                     llm_base_url=llm_base_url,
                     llm_api_key=llm_api_key,
-                    llm_model=llm_model,
+                    llm_model=resolved_model,
                     timeout_seconds=timeout_seconds,
                 )
                 if fallback:
@@ -407,7 +408,6 @@ def _batch_llm_candidates(
     if not question_payloads:
         return {}
 
-    resolved_model = _resolve_llm_model(llm_base_url, llm_api_key, llm_model, timeout_seconds)
     prompt = {
         "task": "为整套初中/高中数学试卷逐题标注知识点。只能从每题给定候选中选择，不要编造 ID。",
         "candidate_limit": candidate_limit,
@@ -441,7 +441,7 @@ def _batch_llm_candidates(
                 {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)},
             ],
             "temperature": 0.05,
-            "max_tokens": min(max(1200, 220 * len(question_payloads)), 6000),
+            "max_tokens": min(max(900, 180 * len(question_payloads)), 5200),
             "response_format": {"type": "json_object"},
         },
         timeout=max(timeout_seconds, 45),

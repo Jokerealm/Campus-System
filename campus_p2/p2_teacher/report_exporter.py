@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import html
 import re
@@ -10,7 +10,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
-from campus_p2_core.contracts.p2 import KnowledgeDiagnostic, P2ExamAnalysis, QuestionAnalysis
+from campus_p2.contracts.p2 import KnowledgeDiagnostic, P2ExamAnalysis, QuestionAnalysis
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]

@@ -13,12 +13,12 @@
 
 | systemdesign 第一版要求 | 当前证据 | 状态 |
 | --- | --- | --- |
-| Excel 阅卷统计解析 | `campus_p2_core/p2_teacher/score_loader.py` 支持 XLSX/CSV；`scripts/p2_smoke_test.py` 已通过 | 可演示 |
+| Excel 阅卷统计解析 | `campus_p2/p2_teacher/score_loader.py` 支持 XLSX/CSV；`scripts/p2_smoke_test.py` 已通过 | 可演示 |
 | Word 试卷题目拆分 | `campus_p1/word_cutter_system` 已有 Word 切题脚本和样例输出；`/api/ai/v1/parse/paper` 已统一暴露 Word `.docx` 本地演示接口 | 可演示 |
 | 教师校正和知识点确认 | `frontend/src/main.tsx` 提供逐题题号、题干、题型、满分、知识点编辑；P2 标准接口支持 PUT 更新并写入 SQLite | 可演示 |
-| 班级考试诊断 | `campus_p2_core/p2_teacher/analyzer.py` 输出逐题、知识点诊断和 `knowledge_tag_coverage` 覆盖率；前端概况卡和标准诊断 summary 均展示该指标 | 可演示 |
-| Word 讲评教案生成 | `campus_p2_core/p2_teacher/report_exporter.py` 可导出 DOCX；标准 `/lesson-plans` 返回下载 URL；报告已展示课堂目标、讲评安排、知识点覆盖率、优先讲评题和推荐练习，并隐藏题库内部编号 | 可演示，学校模板待接入 |
-| 按薄弱知识点检索题库推荐题 | 新增 `campus_p2_core/p2_teacher/p3_adapter.py`，支持 P3 HTTP 和 fixture fallback；前端新增“推荐练习”和“生成训练包” | 可演示 |
+| 班级考试诊断 | `campus_p2/p2_teacher/analyzer.py` 输出逐题、知识点诊断和 `knowledge_tag_coverage` 覆盖率；前端概况卡和标准诊断 summary 均展示该指标 | 可演示 |
+| Word 讲评教案生成 | `campus_p2/p2_teacher/report_exporter.py` 可导出 DOCX；标准 `/lesson-plans` 返回下载 URL；报告已展示课堂目标、讲评安排、知识点覆盖率、优先讲评题和推荐练习，并隐藏题库内部编号 | 可演示，学校模板待接入 |
+| 按薄弱知识点检索题库推荐题 | 新增 `campus_p2/p2_teacher/p3_adapter.py`，支持 P3 HTTP 和 fixture fallback；前端新增“推荐练习”和“生成训练包” | 可演示 |
 | 管理后台服务状态 | 新增 `/api/demo/readiness`，聚合输入处理、教师端本地考试库、题库规模、模型配置状态、安全审计状态、上传限制和文件访问边界；客户可见考试/教案/训练包与系统测试数据分开统计；默认教师页隐藏工程化状态，管理后台单独展示 | 可试运行 |
 
 ## P1 AI 能力服务

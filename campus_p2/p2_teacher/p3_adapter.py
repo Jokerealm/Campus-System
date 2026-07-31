@@ -7,7 +7,7 @@ from uuid import uuid4
 
 import httpx
 
-from campus_p2_core.contracts.p2 import (
+from campus_p2.contracts.p2 import (
     P2ExamAnalysis,
     PracticePackResult,
     PracticeRecommendationGroup,

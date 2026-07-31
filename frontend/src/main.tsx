@@ -1141,7 +1141,7 @@ function ProductNav({
   ];
   const calibrationLabel =
     calibration?.status === "running"
-      ? `矫正中 ${formatDuration(calibration.elapsedSeconds)}`
+      ? `正在由大模型矫正中 ${formatDuration(calibration.elapsedSeconds)}`
       : calibration?.status === "succeeded"
         ? `矫正完成 ${formatDuration(calibration.elapsedSeconds)}`
         : calibration?.status === "failed"
@@ -2019,9 +2019,9 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
     setCalibrationStartedAt(calibrationStart);
     setCalibrationEndedAt(null);
     setCalibrationStatus("running");
-    setCalibrationMessage("正在用大模型校准知识点");
+    setCalibrationMessage("正在逐题矫正整套试卷的知识点");
     try {
-      setWorkflowMessage("正在启动智能知识点校准");
+      setWorkflowMessage("正在启动全卷智能矫正");
       const started = await apiEnvelopeRequest<AiKnowledgeTagJob>(`/exams/${activeExamId}/knowledge-tags/ai`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -2034,15 +2034,15 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
         latest = await apiEnvelopeRequest<AiKnowledgeTagJob>(
           `/exams/${activeExamId}/knowledge-tags/ai/${started.job_id}`,
         );
-        setCalibrationMessage(latest.message || "正在智能校准知识点");
-        setWorkflowMessage(latest.message || "正在智能校准知识点");
+        setCalibrationMessage(latest.message || "正在智能矫正");
+        setWorkflowMessage(latest.message || "正在智能矫正");
       }
       if (latest.status === "failed") {
-        throw new Error(latest.error || latest.message || "智能校准失败");
+        throw new Error(latest.error || latest.message || "智能矫正失败");
       }
       if (latest.status !== "succeeded") {
-        setWorkflowMessage("智能校准仍在后台运行，可稍后刷新分析结果。");
-        setCalibrationMessage("智能校准仍在后台运行");
+        setWorkflowMessage("智能矫正仍在后台运行，可稍后刷新分析结果。");
+        setCalibrationMessage("智能矫正仍在后台运行");
         return;
       }
 
@@ -2063,7 +2063,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
       setCalibrationStatus("succeeded");
       setCalibrationEndedAt(Date.now());
       setCalibrationMessage(`已更新 ${latest.updated_count} / ${latest.total_count} 道题`);
-      setWorkflowMessage(`智能校准完成，已更新 ${latest.updated_count} / ${latest.total_count} 道题。`);
+      setWorkflowMessage(`智能矫正完成，已更新 ${latest.updated_count} / ${latest.total_count} 道题。`);
       await loadExamList();
       await loadReadiness();
       if (adminMode) await loadAuditLogs();
@@ -2071,8 +2071,8 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
       setWorkflowMessage("");
       setCalibrationStatus("failed");
       setCalibrationEndedAt(Date.now());
-      setCalibrationMessage(err instanceof Error ? err.message : "智能校准失败");
-      setError(err instanceof Error ? err.message : "智能校准失败");
+      setCalibrationMessage(err instanceof Error ? err.message : "智能矫正失败");
+      setError(err instanceof Error ? err.message : "智能矫正失败");
     } finally {
       setKnowledgeTagging(false);
     }
@@ -2760,6 +2760,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
     : (analysis?.knowledge_diagnostics ?? []).filter(
         (item) => !visibleKnowledgeDiagnostics.some((visible) => visible.code === item.code),
       );
+  const calibrationTargetCount = analysis?.question_analysis.length ?? 0;
   const readinessFacts = readiness?.facts;
   const calibrationElapsedSeconds = calibrationStartedAt
     ? Math.round(((calibrationStatus === "running" ? clockNow : calibrationEndedAt || clockNow) - calibrationStartedAt) / 1000)
@@ -3374,7 +3375,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
             </div>
             <div className="summary-actions">
               <button
-                className="primary"
+                className="primary calibration-summary-button"
                 type="button"
                 onClick={(event) => {
                   event.preventDefault();
@@ -3383,12 +3384,33 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                 }}
                 disabled={!analysis || !activeExamId || knowledgeTagging}
               >
-                {knowledgeTagging ? "正在矫正" : "智能矫正"}
+                {knowledgeTagging ? "矫正中" : "智能矫正"}
               </button>
               <span className="collapse-chip" aria-hidden="true" />
             </div>
           </summary>
           <div className="collapsible-content">
+            {!adminMode ? (
+              <div className={`calibration-guide ${calibrationStatus}`}>
+                <span className="calibration-guide-orb" aria-hidden="true" />
+                <div>
+                  <strong>{knowledgeTagging ? "正在矫正整套试卷" : "建议矫正整套试卷"}</strong>
+                  <span>
+                    {knowledgeTagging
+                      ? `${calibrationMessage || "模型正在比对题干语义与知识点库"} · ${formatDuration(calibrationElapsedSeconds)}`
+                      : `系统会逐题矫正 ${calibrationTargetCount || "全部"} 道题的知识点，完成后推荐练习会同步刷新。`}
+                  </span>
+                </div>
+                <button
+                  className="primary"
+                  type="button"
+                  onClick={() => void runAiKnowledgeCalibration()}
+                  disabled={!analysis || !activeExamId || knowledgeTagging}
+                >
+                  {knowledgeTagging ? "正在处理" : "开始智能矫正"}
+                </button>
+              </div>
+            ) : null}
             <div className="knowledge-card-grid">
               {visibleKnowledgeDiagnostics.map((item) => (
                 <article key={item.code} className="knowledge-card">

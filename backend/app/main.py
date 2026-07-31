@@ -28,18 +28,18 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from campus_p2_core.contracts.p2 import KnowledgeDiagnostic, P2ExamAnalysis, P3SearchRequest, QuestionAnalysis
-from campus_p2_core.p1_input.word_cutter import cut_docx_to_paper
-from campus_p2_core.p2_teacher.analyzer import analyze_exam
-from campus_p2_core.p2_teacher.p3_adapter import (
+from campus_p2.contracts.p2 import KnowledgeDiagnostic, P2ExamAnalysis, P3SearchRequest, QuestionAnalysis
+from campus_p2.p1_input.word_cutter import cut_docx_to_paper
+from campus_p2.p2_teacher.analyzer import analyze_exam
+from campus_p2.p2_teacher.p3_adapter import (
     attach_practice_recommendations,
     create_practice_pack,
     list_generated_questions,
     review_generated_question,
     save_generated_questions,
 )
-from campus_p2_core.p2_teacher.report_exporter import analysis_to_markdown, export_analysis_docx
-from campus_p2_core.p2_teacher.score_loader import load_score_records
+from campus_p2.p2_teacher.report_exporter import analysis_to_markdown, export_analysis_docx
+from campus_p2.p2_teacher.score_loader import load_score_records
 from app.knowledge_tagger import tag_knowledge_questions
 from app.p1_demo_ai import (
     create_wrong_question_recognition,
@@ -1293,24 +1293,26 @@ def start_ai_knowledge_tags(
     if exam.get("analysis") is None:
         raise HTTPException(status_code=409, detail={"message": "请先完成考试解析"})
     if not os.getenv("CAMPUS_LLM_API_KEY", "").strip() or not os.getenv("CAMPUS_LLM_BASE_URL", "").strip():
-        raise HTTPException(status_code=409, detail={"message": "大模型接口尚未配置，无法智能校准知识点"})
+        raise HTTPException(status_code=409, detail={"message": "大模型接口尚未配置，无法智能矫正知识点"})
 
+    scope = payload.scope or "all"
+    target_questions = _ai_knowledge_scope_questions(exam["analysis"], scope)
     job_id = f"ai_kp_{uuid4().hex[:10]}"
     AI_KNOWLEDGE_TAG_JOBS[job_id] = {
         "job_id": job_id,
         "exam_id": exam_id,
         "status": "queued",
-        "scope": payload.scope or "all",
-        "message": "智能校准已开始",
+        "scope": scope,
+        "message": f"智能矫正已开始，预计处理 {len(target_questions)} 道题",
         "updated_count": 0,
-        "total_count": len(exam["analysis"].question_analysis),
+        "total_count": len(target_questions),
         "created_at": STORE.now(),
         "updated_at": STORE.now(),
         "completed_at": None,
         "error": None,
     }
     STORE.record_event("ai_knowledge_tag_started", "exam", exam_id, {"job_id": job_id, **_actor_payload(actor)})
-    background_tasks.add_task(_run_ai_knowledge_tag_job, job_id, exam_id, payload.scope or "all")
+    background_tasks.add_task(_run_ai_knowledge_tag_job, job_id, exam_id, scope)
     return ok(AI_KNOWLEDGE_TAG_JOBS[job_id])
 
 
@@ -1323,7 +1325,7 @@ def get_ai_knowledge_tag_job(
     _exam_or_404(exam_id, actor)
     job = AI_KNOWLEDGE_TAG_JOBS.get(job_id)
     if job is None or job.get("exam_id") != exam_id:
-        raise HTTPException(status_code=404, detail={"message": "智能校准任务不存在"})
+        raise HTTPException(status_code=404, detail={"message": "智能矫正任务不存在"})
     return ok(job)
 
 
@@ -2877,7 +2879,7 @@ def _run_ai_knowledge_tag_job(job_id: str, exam_id: str, scope: str = "all") -> 
     job = AI_KNOWLEDGE_TAG_JOBS.get(job_id)
     if not job:
         return
-    job.update({"status": "running", "message": "正在用大模型校准知识点", "updated_at": STORE.now()})
+    job.update({"status": "running", "message": "正在调用模型逐题矫正", "updated_at": STORE.now()})
     try:
         exam = EXAMS.get(exam_id)
         if exam is None or exam.get("analysis") is None:
@@ -2885,7 +2887,15 @@ def _run_ai_knowledge_tag_job(job_id: str, exam_id: str, scope: str = "all") -> 
         analysis = _refresh_analysis_from_structure(exam) if exam.get("structure") else exam["analysis"].model_copy(deep=True)
         existing_recommendations = analysis.practice_recommendations
         _apply_fast_knowledge_tags(analysis)
-        updated_count = _apply_model_knowledge_tags(analysis)
+        target_questions = _ai_knowledge_scope_questions(analysis, scope)
+        job.update(
+            {
+                "message": f"正在智能矫正 {len(target_questions)} 道题",
+                "total_count": len(target_questions),
+                "updated_at": STORE.now(),
+            }
+        )
+        updated_count = _apply_model_knowledge_tags(analysis, target_questions=target_questions)
         _refresh_analysis_computed_fields(analysis)
         analysis = attach_practice_recommendations(
             analysis,
@@ -2907,9 +2917,9 @@ def _run_ai_knowledge_tag_job(job_id: str, exam_id: str, scope: str = "all") -> 
         job.update(
             {
                 "status": "succeeded",
-                "message": f"智能校准完成，更新 {updated_count} 道题",
+                "message": f"智能矫正完成，更新 {updated_count} / {len(target_questions)} 道题",
                 "updated_count": updated_count,
-                "total_count": len(analysis.question_analysis),
+                "total_count": len(target_questions),
                 "updated_at": STORE.now(),
                 "completed_at": STORE.now(),
                 "error": None,
@@ -2919,7 +2929,7 @@ def _run_ai_knowledge_tag_job(job_id: str, exam_id: str, scope: str = "all") -> 
         job.update(
             {
                 "status": "failed",
-                "message": "智能校准失败",
+                "message": "智能矫正失败",
                 "updated_at": STORE.now(),
                 "completed_at": STORE.now(),
                 "error": str(exc),
@@ -2952,15 +2962,37 @@ def _apply_fast_knowledge_tags(analysis: P2ExamAnalysis) -> None:
     _apply_knowledge_tagging_result(analysis, result, only_empty=True)
 
 
-def _apply_model_knowledge_tags(analysis: P2ExamAnalysis) -> int:
+def _ai_knowledge_scope_questions(analysis: P2ExamAnalysis, scope: str) -> list[QuestionAnalysis]:
+    questions = list(analysis.question_analysis)
+    normalized_scope = (scope or "all").strip().lower()
+    if normalized_scope == "all":
+        return questions
+
+    if normalized_scope in {"unconfirmed", "pending"}:
+        pending = [item for item in questions if item.teacher_review_status != "confirmed"]
+        return pending or questions
+
+    needs_review = [
+        item
+        for item in questions
+        if item.teacher_review_status != "confirmed"
+        or not item.confirmed_knowledge_points
+        or any(float(kp.get("confidence") or 0) < 0.74 for kp in item.confirmed_knowledge_points)
+        or any(str(kp.get("source") or "").startswith("heuristic") for kp in item.confirmed_knowledge_points)
+    ]
+    return needs_review or questions
+
+
+def _apply_model_knowledge_tags(analysis: P2ExamAnalysis, target_questions: list[QuestionAnalysis] | None = None) -> int:
     llm_api_key = os.getenv("CAMPUS_LLM_API_KEY", "").strip()
     llm_base_url = os.getenv("CAMPUS_LLM_BASE_URL", "").strip()
-    if not llm_api_key or not llm_base_url or not analysis.question_analysis:
+    questions = target_questions if target_questions is not None else analysis.question_analysis
+    if not llm_api_key or not llm_base_url or not questions:
         return 0
 
     try:
         result = tag_knowledge_questions(
-            _knowledge_tagging_payload(analysis),
+            _knowledge_tagging_payload(analysis, questions=questions),
             p3_base_url=os.getenv("CAMPUS_P3_BASE_URL", ""),
             service_id=os.getenv("CAMPUS_P3_SERVICE_ID", "p2-service"),
             auth_token=os.getenv("CAMPUS_P3_AUTH_TOKEN", ""),
@@ -2975,7 +3007,8 @@ def _apply_model_knowledge_tags(analysis: P2ExamAnalysis) -> int:
     return _apply_knowledge_tagging_result(analysis, result, only_empty=False, required_source="llm")
 
 
-def _knowledge_tagging_payload(analysis: P2ExamAnalysis) -> dict:
+def _knowledge_tagging_payload(analysis: P2ExamAnalysis, questions: list[QuestionAnalysis] | None = None) -> dict:
+    selected_questions = questions if questions is not None else analysis.question_analysis
     return {
         "subject": "math",
         "grade": "",
@@ -2990,7 +3023,7 @@ def _knowledge_tagging_payload(analysis: P2ExamAnalysis) -> dict:
                 "options": item.options,
                 "images": item.images,
             }
-            for item in analysis.question_analysis
+            for item in selected_questions
         ],
     }
 

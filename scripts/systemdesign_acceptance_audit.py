@@ -227,7 +227,7 @@ def audit_fastapi_routes(checks: list[dict]) -> None:
 
 
 def audit_contract_fields(checks: list[dict]) -> None:
-    from campus_p2_core.contracts.p2 import P2ExamAnalysis, QuestionAnalysis
+    from campus_p2.contracts.p2 import P2ExamAnalysis, QuestionAnalysis
 
     model_fields = {
         "QuestionAnalysis": set(QuestionAnalysis.model_fields),

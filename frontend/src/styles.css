@@ -519,6 +519,7 @@ section {
   margin: 0 0 26px;
   border-top: 1px solid var(--line);
   padding-top: 17px;
+  scroll-margin-top: 96px;
 }
 
 .section-heading {
@@ -2750,6 +2751,108 @@ section {
   padding: 14px;
 }
 
+.calibration-summary-button {
+  position: relative;
+  overflow: hidden;
+  border-color: #0071e3;
+  background:
+    linear-gradient(120deg, #0071e3 0%, #0a84ff 48%, #17b8a6 100%);
+  box-shadow: 0 12px 26px rgba(0, 113, 227, 0.2);
+}
+
+.calibration-summary-button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.28), transparent);
+  transform: translateX(-120%);
+  transition: transform 420ms ease;
+}
+
+.calibration-summary-button:hover::after {
+  transform: translateX(120%);
+}
+
+.calibration-guide {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 16px;
+  border: 1px solid rgba(0, 113, 227, 0.16);
+  border-radius: 8px;
+  padding: 14px 16px;
+  background:
+    linear-gradient(135deg, rgba(0, 113, 227, 0.08), rgba(23, 184, 166, 0.08)),
+    #fff;
+  box-shadow: 0 16px 42px rgba(0, 113, 227, 0.08);
+}
+
+.calibration-guide-orb {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 38% 34%, #fff 0 18%, transparent 19%),
+    linear-gradient(135deg, #0071e3, #17b8a6);
+  box-shadow: 0 12px 28px rgba(0, 113, 227, 0.22);
+}
+
+.calibration-guide-orb::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.84);
+}
+
+.calibration-guide strong,
+.calibration-guide span {
+  display: block;
+}
+
+.calibration-guide strong {
+  color: #111827;
+  font-size: 1.02rem;
+}
+
+.calibration-guide span {
+  margin-top: 3px;
+  color: #526070;
+}
+
+.calibration-guide.running .calibration-guide-orb {
+  animation: calibration-pulse 1.4s ease-in-out infinite;
+}
+
+.calibration-guide.succeeded {
+  border-color: rgba(23, 184, 166, 0.22);
+  background:
+    linear-gradient(135deg, rgba(23, 184, 166, 0.1), rgba(0, 113, 227, 0.05)),
+    #fff;
+}
+
+.calibration-guide.failed {
+  border-color: rgba(180, 35, 24, 0.22);
+  background:
+    linear-gradient(135deg, rgba(180, 35, 24, 0.08), rgba(245, 158, 11, 0.06)),
+    #fff;
+}
+
+@keyframes calibration-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 12px 28px rgba(0, 113, 227, 0.2);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 16px 36px rgba(23, 184, 166, 0.24);
+  }
+}
+
 .section-note {
   margin: -4px 0 12px;
   color: var(--muted);
@@ -3954,11 +4057,16 @@ body {
   width: min(1180px, calc(100% - 40px));
 }
 
+#main-body.customer-page {
+  padding-top: 88px;
+}
+
 .customer-page .cursor-aura {
   z-index: 9999;
-  width: 200px;
-  height: 200px;
+  width: 156px;
+  height: 156px;
   mix-blend-mode: normal;
+  transition: opacity 180ms ease;
 }
 
 .customer-page .cursor-aura::before {
@@ -4011,15 +4119,20 @@ body {
 }
 
 .customer-page .product-nav {
-  grid-template-columns: 38px minmax(0, 1fr) minmax(300px, auto);
+  position: fixed;
+  left: 50%;
+  width: min(1180px, calc(100% - 40px));
+  grid-template-columns: 38px minmax(0, 1fr) minmax(430px, auto);
   gap: 12px;
   top: 12px;
-  margin-bottom: 22px;
+  z-index: 1000;
+  margin-bottom: 0;
   border-color: rgba(231, 235, 242, 0.88);
   border-radius: 8px;
   padding: 8px 10px;
   background: rgba(255, 255, 255, 0.86);
   box-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+  transform: translateX(-50%);
 }
 
 .customer-page .product-mark {
@@ -4067,16 +4180,27 @@ body {
 
 .customer-page .calibration-chip {
   display: inline-flex;
-  min-width: 96px;
+  min-width: 178px;
+  align-items: center;
   justify-content: center;
+  gap: 8px;
   border: 1px solid #dbe3ee;
   border-radius: 999px;
   padding: 8px 12px;
   background: rgba(255, 255, 255, 0.82);
   color: #475467;
-  font-size: 0.84rem;
+  font-size: 0.8rem;
   font-weight: 760;
   white-space: nowrap;
+}
+
+.customer-page .calibration-chip::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #98a2b3;
+  box-shadow: 0 0 0 0 rgba(152, 162, 179, 0.2);
 }
 
 .customer-page .calibration-chip.running {
@@ -4085,16 +4209,55 @@ body {
   color: #005bbb;
 }
 
+.customer-page .calibration-chip.running::before {
+  background: #0071e3;
+  animation: nav-breath-blue 1.25s ease-in-out infinite;
+}
+
 .customer-page .calibration-chip.succeeded {
   border-color: rgba(23, 184, 166, 0.28);
   background: rgba(23, 184, 166, 0.09);
   color: #087f73;
 }
 
+.customer-page .calibration-chip.succeeded::before {
+  background: #17b8a6;
+  animation: nav-breath-green 1.8s ease-in-out infinite;
+}
+
 .customer-page .calibration-chip.failed {
   border-color: rgba(217, 45, 32, 0.24);
   background: rgba(217, 45, 32, 0.08);
   color: #b42318;
+}
+
+.customer-page .calibration-chip.failed::before {
+  background: #d92d20;
+  box-shadow: 0 0 0 4px rgba(217, 45, 32, 0.1);
+}
+
+@keyframes nav-breath-blue {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 113, 227, 0.34), 0 0 10px rgba(0, 113, 227, 0.18);
+    transform: scale(0.95);
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgba(0, 113, 227, 0), 0 0 16px rgba(0, 113, 227, 0.34);
+    transform: scale(1.12);
+  }
+}
+
+@keyframes nav-breath-green {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(23, 184, 166, 0.26), 0 0 9px rgba(23, 184, 166, 0.16);
+    transform: scale(0.96);
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgba(23, 184, 166, 0), 0 0 15px rgba(23, 184, 166, 0.28);
+    transform: scale(1.1);
+  }
 }
 
 .customer-page .campus-logo-badge {
@@ -4337,6 +4500,14 @@ body {
 }
 
 @media (max-width: 920px) {
+  #main-body.customer-page {
+    padding-top: 178px;
+  }
+
+  .customer-page section {
+    scroll-margin-top: 190px;
+  }
+
   .customer-page .product-nav {
     grid-template-columns: 1fr;
   }
@@ -4370,5 +4541,13 @@ body {
       "status"
       "delivery"
       "recent";
+  }
+
+  .calibration-guide {
+    grid-template-columns: 42px minmax(0, 1fr);
+  }
+
+  .calibration-guide button {
+    grid-column: 1 / -1;
   }
 }

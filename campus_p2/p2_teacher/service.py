@@ -1,12 +1,12 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
 import re
 
-from campus_p2_core.contracts.p2 import P2ExamAnalysis
-from campus_p2_core.p2_teacher.analyzer import analyze_exam
-from campus_p2_core.p2_teacher.report_exporter import export_analysis_docx, export_analysis_markdown
+from campus_p2.contracts.p2 import P2ExamAnalysis
+from campus_p2.p2_teacher.analyzer import analyze_exam
+from campus_p2.p2_teacher.report_exporter import export_analysis_docx, export_analysis_markdown
 
 
 @dataclass(slots=True)
