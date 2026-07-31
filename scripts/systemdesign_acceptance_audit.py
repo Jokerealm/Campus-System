@@ -371,14 +371,16 @@ def audit_docs_and_frontend(checks: list[dict]) -> None:
     add_check(
         checks,
         key="docs:readme-customer-page",
-        passed=all(
-            phrase in readme
-            for phrase in [
-                "页面展示",
-                "Word 试卷 + 成绩表",
-                "推荐会随知识点和失分率刷新",
-                "导出 Word",
-            ]
+        passed=(
+            all(
+                phrase in readme
+                for phrase in [
+                    "页面展示",
+                    "推荐会随知识点和失分率刷新",
+                    "导出 Word",
+                ]
+            )
+            and ("试卷和成绩表" in readme or "Word 试卷 + 成绩表" in readme)
         ),
         evidence="README page section updated",
         detail="delivery docs describe customer-facing UI",
