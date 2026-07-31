@@ -18,6 +18,13 @@ const CLIENT_CONTEXT = {
 type Severity = "critical" | "weak" | "watch" | "stable";
 type QuestionFilter = Severity | "priority" | "all";
 type Stage = "senior_high" | "junior_high";
+type TeacherNavSection = "workspace" | "review" | "questions" | "knowledge" | "practice" | "report";
+
+type CalibrationNavState = {
+  status: "idle" | "running" | "succeeded" | "failed";
+  elapsedSeconds: number;
+  message?: string;
+};
 
 type KnowledgePointRef = {
   code: string;
@@ -899,6 +906,19 @@ function pct(value: number) {
   return `${Math.round(value * 1000) / 10}%`;
 }
 
+function formatDuration(seconds: number) {
+  const safe = Math.max(0, Math.floor(seconds));
+  const minutes = Math.floor(safe / 60);
+  const rest = safe % 60;
+  return `${minutes}:${String(rest).padStart(2, "0")}`;
+}
+
+function difficultyLabel(value: number) {
+  if (value < 0.42) return "基础";
+  if (value < 0.68) return "巩固";
+  return "提升";
+}
+
 function studentReportLevelText(level: string) {
   const text: Record<string, string> = {
     new: "新建画像",
@@ -1052,10 +1072,14 @@ function ProductNav({
   mode,
   readiness,
   studentId,
+  activeSection = "workspace",
+  calibration,
 }: {
   mode: "teacher" | "student" | "admin";
   readiness?: DemoReadiness | null;
   studentId?: string;
+  activeSection?: TeacherNavSection;
+  calibration?: CalibrationNavState;
 }) {
   const [session, setSession] = React.useState<AuthSession | null>(null);
   const [sessionError, setSessionError] = React.useState("");
@@ -1107,38 +1131,52 @@ function ProductNav({
     };
   }, [mode, studentId]);
 
+  const teacherTabs: Array<{ key: TeacherNavSection; href: string; label: string }> = [
+    { key: "workspace", href: "#workspace", label: "导入" },
+    { key: "review", href: "#review", label: "核对" },
+    { key: "questions", href: "#questions", label: "诊断" },
+    { key: "knowledge", href: "#knowledge", label: "知识点" },
+    { key: "practice", href: "#practice", label: "推荐" },
+    { key: "report", href: "#report", label: "报告" },
+  ];
+  const calibrationLabel =
+    calibration?.status === "running"
+      ? `矫正中 ${formatDuration(calibration.elapsedSeconds)}`
+      : calibration?.status === "succeeded"
+        ? `矫正完成 ${formatDuration(calibration.elapsedSeconds)}`
+        : calibration?.status === "failed"
+          ? "矫正异常"
+          : "智能矫正";
+
   return (
     <div className={teacherMode ? "product-nav customer-nav" : "product-nav"} aria-label={teacherMode ? "教师端导航" : "系统导航"}>
-      <a className="product-mark" href={appUrl("teacher")}>
-        <span className="product-mark-dot" aria-hidden="true" />
-        <span>
-          <strong>{teacherMode ? "Campus智能讲评" : "校园智能学情系统"}</strong>
-          <em>{teacherMode ? "教师讲评工作台" : "考试分析与精准练习"}</em>
-        </span>
-      </a>
+      {teacherMode ? (
+        <a className="product-mark icon-only" href="#workspace" aria-label="回到导入">
+          <span className="product-mark-dot" aria-hidden="true" />
+        </a>
+      ) : (
+        <a className="product-mark" href={appUrl("teacher")}>
+          <span className="product-mark-dot" aria-hidden="true" />
+          <span>
+            <strong>校园智能学情系统</strong>
+            <em>考试分析与精准练习</em>
+          </span>
+        </a>
+      )}
       <nav className="product-tabs" aria-label={teacherMode ? "教师工作台" : "角色与工作区"}>
         {teacherMode ? (
           <>
-            <a className="active" aria-current="page" href="#workspace">
-              <span className="nav-dot" aria-hidden="true" />
-              导入
-            </a>
-            <a href="#review">
-              <span className="nav-dot" aria-hidden="true" />
-              核对
-            </a>
-            <a href="#questions">
-              <span className="nav-dot" aria-hidden="true" />
-              诊断
-            </a>
-            <a href="#practice">
-              <span className="nav-dot" aria-hidden="true" />
-              推荐
-            </a>
-            <a href="#report">
-              <span className="nav-dot" aria-hidden="true" />
-              报告
-            </a>
+            {teacherTabs.map((item) => (
+              <a
+                key={item.key}
+                className={activeSection === item.key ? "active" : ""}
+                aria-current={activeSection === item.key ? "page" : undefined}
+                href={item.href}
+              >
+                <span className="nav-dot" aria-hidden="true" />
+                {item.label}
+              </a>
+            ))}
           </>
         ) : (
           <a href={appUrl("teacher", "#workspace")}>
@@ -1160,9 +1198,17 @@ function ProductNav({
         ) : null}
       </nav>
       {teacherMode ? (
-        <a className="campus-logo-badge" href="#workspace" aria-label="Campus 智能讲评">
-          <img src="/images/campus-brand-logo-clean.png" alt="Campus 智能讲评" />
-        </a>
+        <div className="nav-right">
+          <span
+            className={`calibration-chip ${calibration?.status || "idle"}`}
+            title={calibration?.message || "可对知识点进行智能矫正"}
+          >
+            {calibrationLabel}
+          </span>
+          <a className="campus-logo-badge" href="#workspace" aria-label="Campus 智能讲评">
+            <img src="/images/campus-brand-logo-clean.png" alt="Campus 智能讲评" />
+          </a>
+        </div>
       ) : (
         <div className={sessionError ? "product-status error" : "product-status"} title={statusTitle}>
           <span className="status-dot" aria-hidden="true" />
@@ -1356,6 +1402,14 @@ function draftFromQuestion(question: QuestionAnalysis): QuestionDraft {
 
 function recommendationKey(group: PracticeRecommendationGroup, item: QuestionRecommendation) {
   return `${group.knowledge_point_code || group.knowledge_point_id}:${item.bank_question_id}`;
+}
+
+function recommendationMatchLabel(group: PracticeRecommendationGroup, item: QuestionRecommendation) {
+  const ids = item.knowledge_point_ids || [];
+  if (group.knowledge_point_id && ids.includes(group.knowledge_point_id)) return "精准匹配";
+  if (group.knowledge_point_code && ids.includes(group.knowledge_point_code)) return "精准匹配";
+  if (item.match_score >= 0.7) return "相近题";
+  return "待核验";
 }
 
 function draftFromRecommendation(item: QuestionRecommendation): RecommendationDraft {
@@ -1784,7 +1838,14 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
   const [questionFilter, setQuestionFilter] = React.useState<QuestionFilter>("priority");
   const [selectedQuestionNo, setSelectedQuestionNo] = React.useState("");
   const [questionDraft, setQuestionDraft] = React.useState<QuestionDraft | null>(null);
-  const [questionRawEditing, setQuestionRawEditing] = React.useState(false);
+  const [stemRawEditing, setStemRawEditing] = React.useState(false);
+  const [optionRawEditing, setOptionRawEditing] = React.useState(false);
+  const [activeSection, setActiveSection] = React.useState<TeacherNavSection>("workspace");
+  const [calibrationStartedAt, setCalibrationStartedAt] = React.useState<number | null>(null);
+  const [calibrationEndedAt, setCalibrationEndedAt] = React.useState<number | null>(null);
+  const [calibrationStatus, setCalibrationStatus] = React.useState<CalibrationNavState["status"]>("idle");
+  const [calibrationMessage, setCalibrationMessage] = React.useState("");
+  const [clockNow, setClockNow] = React.useState(Date.now());
   const [editingRecommendationKey, setEditingRecommendationKey] = React.useState("");
   const [recommendationDraft, setRecommendationDraft] = React.useState<RecommendationDraft | null>(null);
   const [studentFlow, setStudentFlow] = React.useState<StudentFlowState | null>(null);
@@ -1813,7 +1874,8 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
     if (!analysis?.question_analysis.length) {
       setSelectedQuestionNo("");
       setQuestionDraft(null);
-      setQuestionRawEditing(false);
+      setStemRawEditing(false);
+      setOptionRawEditing(false);
       return;
     }
     const orderedQuestions = sortQuestionsForTeacher(analysis.question_analysis);
@@ -1822,6 +1884,34 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
     if (current.question_no !== selectedQuestionNo) setSelectedQuestionNo(current.question_no);
     setQuestionDraft(draftFromQuestion(current));
   }, [analysis, selectedQuestionNo]);
+
+  React.useEffect(() => {
+    if (adminMode) return;
+    const sectionIds: TeacherNavSection[] = ["workspace", "review", "questions", "knowledge", "practice", "report"];
+    function updateActiveSection() {
+      const viewportAnchor = 140;
+      let current: TeacherNavSection = "workspace";
+      for (const sectionId of sectionIds) {
+        const element = document.getElementById(sectionId);
+        if (!element) continue;
+        if (element.getBoundingClientRect().top <= viewportAnchor) current = sectionId;
+      }
+      setActiveSection(current);
+    }
+    updateActiveSection();
+    window.addEventListener("scroll", updateActiveSection, { passive: true });
+    window.addEventListener("resize", updateActiveSection);
+    return () => {
+      window.removeEventListener("scroll", updateActiveSection);
+      window.removeEventListener("resize", updateActiveSection);
+    };
+  }, [adminMode, analysis]);
+
+  React.useEffect(() => {
+    if (calibrationStatus !== "running") return;
+    const timer = window.setInterval(() => setClockNow(Date.now()), 1000);
+    return () => window.clearInterval(timer);
+  }, [calibrationStatus]);
 
   async function loadDemo() {
     setBusy(true);
@@ -1924,6 +2014,12 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
     }
     setKnowledgeTagging(true);
     setError("");
+    const calibrationStart = Date.now();
+    setClockNow(calibrationStart);
+    setCalibrationStartedAt(calibrationStart);
+    setCalibrationEndedAt(null);
+    setCalibrationStatus("running");
+    setCalibrationMessage("正在用大模型校准知识点");
     try {
       setWorkflowMessage("正在启动智能知识点校准");
       const started = await apiEnvelopeRequest<AiKnowledgeTagJob>(`/exams/${activeExamId}/knowledge-tags/ai`, {
@@ -1938,6 +2034,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
         latest = await apiEnvelopeRequest<AiKnowledgeTagJob>(
           `/exams/${activeExamId}/knowledge-tags/ai/${started.job_id}`,
         );
+        setCalibrationMessage(latest.message || "正在智能校准知识点");
         setWorkflowMessage(latest.message || "正在智能校准知识点");
       }
       if (latest.status === "failed") {
@@ -1945,6 +2042,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
       }
       if (latest.status !== "succeeded") {
         setWorkflowMessage("智能校准仍在后台运行，可稍后刷新分析结果。");
+        setCalibrationMessage("智能校准仍在后台运行");
         return;
       }
 
@@ -1957,16 +2055,23 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
       if (refreshedQuestion) {
         setSelectedQuestionNo(refreshedQuestion.question_no);
         setQuestionDraft(draftFromQuestion(refreshedQuestion));
-        setQuestionRawEditing(false);
+        setStemRawEditing(false);
+        setOptionRawEditing(false);
       }
       setEditingRecommendationKey("");
       setRecommendationDraft(null);
+      setCalibrationStatus("succeeded");
+      setCalibrationEndedAt(Date.now());
+      setCalibrationMessage(`已更新 ${latest.updated_count} / ${latest.total_count} 道题`);
       setWorkflowMessage(`智能校准完成，已更新 ${latest.updated_count} / ${latest.total_count} 道题。`);
       await loadExamList();
       await loadReadiness();
       if (adminMode) await loadAuditLogs();
     } catch (err) {
       setWorkflowMessage("");
+      setCalibrationStatus("failed");
+      setCalibrationEndedAt(Date.now());
+      setCalibrationMessage(err instanceof Error ? err.message : "智能校准失败");
       setError(err instanceof Error ? err.message : "智能校准失败");
     } finally {
       setKnowledgeTagging(false);
@@ -2018,7 +2123,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
     setRecommendationDraft(null);
   }
 
-  function saveRecommendationEdit(group: PracticeRecommendationGroup, item: QuestionRecommendation) {
+  async function saveRecommendationEdit(group: PracticeRecommendationGroup, item: QuestionRecommendation) {
     if (!analysis || !recommendationDraft) return;
     const difficulty = Number(recommendationDraft.difficulty);
     if (!Number.isFinite(difficulty) || difficulty < 0 || difficulty > 1) {
@@ -2026,18 +2131,45 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
       return;
     }
     const key = recommendationKey(group, item);
+    const updatedItem = {
+      content_html: editableTextToHtml(recommendationDraft.content_text),
+      answer_html: editableTextToHtml(recommendationDraft.answer_text),
+      analysis_html: editableTextToHtml(recommendationDraft.analysis_text),
+      recommend_reason: recommendationDraft.recommend_reason.trim(),
+      question_type: recommendationDraft.question_type.trim() || item.question_type,
+      difficulty: Math.round(difficulty * 1000) / 1000,
+    };
+    if (activeExamId) {
+      setError("");
+      setWorkflowMessage("正在保存推荐题");
+      try {
+        const saved = await apiEnvelopeRequest<{ analysis: P2ExamAnalysis }>(
+          `/exams/${activeExamId}/practice-recommendations/${encodeURIComponent(group.knowledge_point_code || group.knowledge_point_id || group.knowledge_point_name)}/items/${encodeURIComponent(item.bank_question_id)}`,
+          {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(updatedItem),
+          },
+        );
+        setAnalysis(rebuildAnalysis(saved.analysis));
+        setEditingRecommendationKey("");
+        setRecommendationDraft(null);
+        setWorkflowMessage("推荐题已保存，导出报告与练习包会同步使用。");
+        await loadExamList();
+        return;
+      } catch (err) {
+        setWorkflowMessage("");
+        setError(err instanceof Error ? err.message : "推荐题保存失败");
+        return;
+      }
+    }
     const nextPracticeRecommendations = (analysis.practice_recommendations ?? []).map((currentGroup) => ({
       ...currentGroup,
       items: currentGroup.items.map((currentItem) => {
         if (recommendationKey(currentGroup, currentItem) !== key) return currentItem;
         return {
           ...currentItem,
-          content_html: editableTextToHtml(recommendationDraft.content_text),
-          answer_html: editableTextToHtml(recommendationDraft.answer_text),
-          analysis_html: editableTextToHtml(recommendationDraft.analysis_text),
-          recommend_reason: recommendationDraft.recommend_reason.trim(),
-          question_type: recommendationDraft.question_type.trim() || currentItem.question_type,
-          difficulty: Math.round(difficulty * 1000) / 1000,
+          ...updatedItem,
         };
       }),
     }));
@@ -2393,17 +2525,22 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
     }
   }
 
-  function selectQuestion(questionNo: string) {
+  function selectQuestion(questionNo: string, scrollToReview = false) {
     const question = analysis?.question_analysis.find((item) => item.question_no === questionNo);
     setSelectedQuestionNo(questionNo);
-    setQuestionRawEditing(false);
+    setStemRawEditing(false);
+    setOptionRawEditing(false);
     if (question) setQuestionDraft(draftFromQuestion(question));
+    if (scrollToReview) {
+      window.setTimeout(() => document.getElementById("review")?.scrollIntoView({ behavior: "smooth", block: "start" }), 0);
+    }
   }
 
   function resetQuestionDraft() {
     const question = analysis?.question_analysis.find((item) => item.question_no === selectedQuestionNo);
     if (question) setQuestionDraft(draftFromQuestion(question));
-    setQuestionRawEditing(false);
+    setStemRawEditing(false);
+    setOptionRawEditing(false);
   }
 
   async function saveQuestionReview() {
@@ -2460,7 +2597,8 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
         setAnalysis(next);
         setSelectedQuestionNo(refreshedQuestion?.question_no || savedQuestionNo);
         if (refreshedQuestion) setQuestionDraft(draftFromQuestion(refreshedQuestion));
-        setQuestionRawEditing(false);
+        setStemRawEditing(false);
+        setOptionRawEditing(false);
         setEditingRecommendationKey("");
         setRecommendationDraft(null);
         setWorkflowMessage("教师确认已保存，推荐题已同步更新。");
@@ -2498,7 +2636,8 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
     setError("");
     setAnalysis(next);
     setSelectedQuestionNo(savedQuestionNo);
-    setQuestionRawEditing(false);
+    setStemRawEditing(false);
+    setOptionRawEditing(false);
   }
 
   async function confirmAllQuestions() {
@@ -2581,7 +2720,8 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
         sortQuestionsForTeacher(next.question_analysis)[0];
       setSelectedQuestionNo(nextSelected?.question_no || "");
       if (nextSelected) setQuestionDraft(draftFromQuestion(nextSelected));
-      setQuestionRawEditing(false);
+      setStemRawEditing(false);
+      setOptionRawEditing(false);
       setEditingRecommendationKey("");
       setRecommendationDraft(null);
       setWorkflowMessage("全部题目已确认，推荐题已同步更新，可导出讲评报告。");
@@ -2610,7 +2750,25 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
       : sortQuestionsForTeacher(
           analysis?.question_analysis.filter((item) => questionFilter === "all" || item.severity === questionFilter) ?? [],
         );
+  const teacherKnowledgeDiagnostics = analysis?.knowledge_diagnostics ?? [];
+  const teacherWeakKnowledgeDiagnostics = teacherKnowledgeDiagnostics.filter((item) => item.severity !== "stable");
+  const visibleKnowledgeDiagnostics = adminMode
+    ? teacherKnowledgeDiagnostics
+    : (teacherWeakKnowledgeDiagnostics.length ? teacherWeakKnowledgeDiagnostics : teacherKnowledgeDiagnostics).slice(0, 9);
+  const extraKnowledgeDiagnostics = adminMode
+    ? []
+    : (analysis?.knowledge_diagnostics ?? []).filter(
+        (item) => !visibleKnowledgeDiagnostics.some((visible) => visible.code === item.code),
+      );
   const readinessFacts = readiness?.facts;
+  const calibrationElapsedSeconds = calibrationStartedAt
+    ? Math.round(((calibrationStatus === "running" ? clockNow : calibrationEndedAt || clockNow) - calibrationStartedAt) / 1000)
+    : 0;
+  const calibrationNavState: CalibrationNavState = {
+    status: calibrationStatus,
+    elapsedSeconds: calibrationElapsedSeconds,
+    message: calibrationMessage,
+  };
   const workflowSteps = adminMode
     ? [
         {
@@ -2660,7 +2818,12 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
   return (
     <main id="main-body" className={adminMode ? "admin-page" : "customer-page"}>
       {!adminMode ? <FluidCursor /> : null}
-      <ProductNav mode={adminMode ? "admin" : "teacher"} readiness={readiness} />
+      <ProductNav
+        mode={adminMode ? "admin" : "teacher"}
+        readiness={readiness}
+        activeSection={activeSection}
+        calibration={calibrationNavState}
+      />
       <header className={adminMode ? "site-header admin-header" : "teacher-hero"}>
         <div className="hero-copy">
           <p className="eyebrow">{adminMode ? "运营与维护" : "Campus智能讲评"}</p>
@@ -2866,44 +3029,45 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
               </div>
             )}
 
-            {adminMode && examItems.length ? (
-              <div className="recent-exams">
-                <div className="recent-exams-head">
-                  <span>最近考试</span>
-                  <button className="text-button" onClick={() => void loadExamList()}>
-                    刷新
-                  </button>
-                </div>
-                <div className="recent-exam-list">
-                  {examItems.slice(0, 3).map((item) => (
-                    <article
-                      key={item.exam_id}
-                      className={activeExamId === item.exam_id ? "recent-exam active" : "recent-exam"}
-                    >
-                      <div className="recent-exam-main">
-                        <div>
-                          <strong>{item.name || item.exam_id}</strong>
-                          <span>{examStatusText(item.status)}</span>
-                        </div>
-                        <button
-                          className="text-button"
-                          onClick={() => void openExam(item)}
-                          disabled={busy || !item.question_count}
-                        >
-                          打开
-                        </button>
-                      </div>
-                      <p>
-                        {item.question_count || 0} 题 · {fileTypesText(item.file_types) || "未上传"} · 教案{" "}
-                        {item.lesson_plan_count} · 练习包 {item.practice_pack_count || 0}
-                      </p>
-                      {item.latest_lesson_plan?.file_name && <em>{item.latest_lesson_plan.file_name}</em>}
-                    </article>
-                  ))}
-                </div>
-              </div>
-            ) : null}
           </aside>
+
+          {examItems.length ? (
+            <div className="recent-exams workspace-recent">
+              <div className="recent-exams-head">
+                <span>{adminMode ? "最近考试" : "继续最近分析"}</span>
+                <button className="text-button" onClick={() => void loadExamList()}>
+                  刷新
+                </button>
+              </div>
+              <div className="recent-exam-list">
+                {examItems.slice(0, 3).map((item) => (
+                  <article
+                    key={item.exam_id}
+                    className={activeExamId === item.exam_id ? "recent-exam active" : "recent-exam"}
+                  >
+                    <div className="recent-exam-main">
+                      <div>
+                        <strong>{item.name || item.exam_id}</strong>
+                        <span>{examStatusText(item.status)}</span>
+                      </div>
+                      <button
+                        className="text-button"
+                        onClick={() => void openExam(item)}
+                        disabled={busy || !item.question_count}
+                      >
+                        打开
+                      </button>
+                    </div>
+                    <p>
+                      {item.question_count || 0} 题 · {fileTypesText(item.file_types) || "未上传"} · 教案{" "}
+                      {item.lesson_plan_count} · 练习包 {item.practice_pack_count || 0}
+                    </p>
+                    {item.latest_lesson_plan?.file_name && <em>{item.latest_lesson_plan.file_name}</em>}
+                  </article>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </div>
       </section>
 
@@ -3029,11 +3193,11 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                 <div className="stem-editor-shell">
                   <div className="stem-editor-head">
                     <span>题干</span>
-                    <button type="button" className="text-button" onClick={() => setQuestionRawEditing((value) => !value)}>
-                      {questionRawEditing ? "查看排版" : "编辑原文"}
+                    <button type="button" className="text-button" onClick={() => setStemRawEditing((value) => !value)}>
+                      {stemRawEditing ? "查看排版" : "编辑原文"}
                     </button>
                   </div>
-                  {questionRawEditing ? (
+                  {stemRawEditing ? (
                     <textarea
                       className="stem-raw-textarea"
                       value={questionDraft.stem_text}
@@ -3045,7 +3209,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                     <QuestionStemRenderer
                       text={questionDraft.stem_text}
                       images={stemImages(parseQuestionImages(questionDraft.image_text))}
-                      onClick={() => setQuestionRawEditing(true)}
+                      onClick={() => setStemRawEditing(true)}
                     />
                   )}
                 </div>
@@ -3055,11 +3219,11 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                   <div className="stem-editor-shell option-editor-shell">
                     <div className="stem-editor-head">
                       <span>选项</span>
-                      <button type="button" className="text-button" onClick={() => setQuestionRawEditing((value) => !value)}>
-                        {questionRawEditing ? "查看排版" : "编辑原文"}
+                      <button type="button" className="text-button" onClick={() => setOptionRawEditing((value) => !value)}>
+                        {optionRawEditing ? "查看排版" : "编辑原文"}
                       </button>
                     </div>
-                    {questionRawEditing ? (
+                    {optionRawEditing ? (
                       <textarea
                         className="stem-raw-textarea option-raw-textarea"
                         value={questionDraft.option_text}
@@ -3074,40 +3238,40 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                       <QuestionOptionsRenderer
                         options={parseQuestionOptions(questionDraft.option_text)}
                         images={parseQuestionImages(questionDraft.image_text)}
-                        onClick={() => setQuestionRawEditing(true)}
+                        onClick={() => setOptionRawEditing(true)}
                       />
                     )}
                   </div>
                 ) : null}
 
-                {adminMode ? (
-                  <details className="image-editor-details">
-                    <summary>题图管理</summary>
-                    {(selectedQuestion.images?.length || parseQuestionImages(questionDraft.image_text).length) ? (
-                      <div className="question-image-gallery" aria-label="题图预览">
-                        {parseQuestionImages(questionDraft.image_text).map((image) => (
-                          <figure key={`${image.image_id}-${image.path}`}>
-                            <img src={questionImageUrl(image.path)} alt={image.image_id || "题图"} />
-                            <figcaption>{image.role || "题图"}</figcaption>
-                          </figure>
-                        ))}
-                      </div>
-                    ) : null}
-                    <label className="stacked-field">
-                      <span>题图</span>
-                      <textarea
-                        className="image-textarea"
-                        value={questionDraft.image_text}
-                        placeholder="每行一个题图：图片ID | 图片路径 | 用途"
-                        onChange={(event) =>
-                          setQuestionDraft((current) =>
-                            current ? { ...current, image_text: event.target.value } : current,
-                          )
-                        }
-                      />
-                    </label>
-                  </details>
-                ) : null}
+                <details className="image-editor-details">
+                  <summary>题图确认</summary>
+                  {(selectedQuestion.images?.length || parseQuestionImages(questionDraft.image_text).length) ? (
+                    <div className="question-image-gallery" aria-label="题图预览">
+                      {parseQuestionImages(questionDraft.image_text).map((image) => (
+                        <figure key={`${image.image_id}-${image.path}`}>
+                          <img src={questionImageUrl(image.path)} alt={image.image_id || "题图"} />
+                          <figcaption>{image.role || "题图"}</figcaption>
+                        </figure>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="section-note">当前题目没有识别到题图。</p>
+                  )}
+                  <label className="stacked-field">
+                    <span>题图归属</span>
+                    <textarea
+                      className="image-textarea"
+                      value={questionDraft.image_text}
+                      placeholder="每行一个题图：图片ID | 图片路径 | 用途，例如 stem / option:A"
+                      onChange={(event) =>
+                        setQuestionDraft((current) =>
+                          current ? { ...current, image_text: event.target.value } : current,
+                        )
+                      }
+                    />
+                  </label>
+                </details>
 
                 <label className="stacked-field">
                   <span>知识点</span>
@@ -3132,27 +3296,6 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
               <p className="summary">载入考试后可逐题确认题干、题型、满分和知识点。</p>
             )}
           </div>
-        </div>
-      </section>
-
-      <section className="priority-section">
-        <div className="section-heading">
-          <p className="eyebrow">讲评重点</p>
-          <h2>优先讲评</h2>
-        </div>
-        <div className="priority-list">
-          {priorityQuestions.map((item) => (
-            <article key={item.question_no} className="priority-item">
-              <div>
-                <span className={`severity ${item.severity}`}>{severityText[item.severity]}</span>
-                <h3>第 {item.question_no} 题</h3>
-              </div>
-              <p>
-                得分率 {pct(item.score_rate)}，均分 {formatScore(item.avg_score)} / {formatScore(item.full_score)}
-              </p>
-              <p>{knowledgeNames(item.confirmed_knowledge_points)}</p>
-            </article>
-          ))}
         </div>
       </section>
 
@@ -3210,7 +3353,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                     <span>得分率 {pct(item.score_rate)} · 失分率 {pct(item.loss_rate)}</span>
                     <span>知识点：{knowledgeNames(item.confirmed_knowledge_points)}</span>
                   </div>
-                  <button className="text-button" onClick={() => selectQuestion(item.question_no)}>
+                  <button className="text-button" onClick={() => selectQuestion(item.question_no, true)}>
                     编辑确认
                   </button>
                 </article>
@@ -3240,14 +3383,14 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                 }}
                 disabled={!analysis || !activeExamId || knowledgeTagging}
               >
-                {knowledgeTagging ? "正在校准" : "智能校准"}
+                {knowledgeTagging ? "正在矫正" : "智能矫正"}
               </button>
               <span className="collapse-chip" aria-hidden="true" />
             </div>
           </summary>
           <div className="collapsible-content">
             <div className="knowledge-card-grid">
-              {analysis?.knowledge_diagnostics.map((item) => (
+              {visibleKnowledgeDiagnostics.map((item) => (
                 <article key={item.code} className="knowledge-card">
                   <div className="knowledge-card-head">
                     <div>
@@ -3267,6 +3410,31 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                 </article>
               ))}
             </div>
+            {extraKnowledgeDiagnostics.length ? (
+              <details className="secondary-details">
+                <summary>查看其余 {extraKnowledgeDiagnostics.length} 个知识点</summary>
+                <div className="knowledge-card-grid compact-knowledge-grid">
+                  {extraKnowledgeDiagnostics.map((item) => (
+                    <article key={item.code} className="knowledge-card">
+                      <div className="knowledge-card-head">
+                        <div>
+                          <strong>{item.name}</strong>
+                          <span>相关题号 {item.related_question_nos.join(", ") || "暂无题号"}</span>
+                        </div>
+                        <span className={`severity ${item.severity}`}>{severityText[item.severity]}</span>
+                      </div>
+                      <div className="score-bar" aria-label={`得分率 ${pct(item.score_rate)}，失分率 ${pct(item.loss_rate)}`}>
+                        <span style={{ width: `${Math.max(3, Math.min(100, item.score_rate * 100))}%` }} />
+                      </div>
+                      <div className="knowledge-card-foot">
+                        <strong>得分率 {pct(item.score_rate)}</strong>
+                        <span>失分率 {pct(item.loss_rate)}</span>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </details>
+            ) : null}
           </div>
         </details>
       </section>
@@ -3327,9 +3495,12 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                   return (
                     <details key={item.bank_question_id} className="recommendation-card">
                       <summary>
-                        <span>{item.question_type || "题目"}</span>
+                        <span>{questionTypeText(item.question_type) || "练习题"}</span>
                         <strong>{htmlPreview(item.content_html) || item.bank_question_id}</strong>
-                        <em>难度 {Math.round(item.difficulty * 100) / 100}</em>
+                        <span className={`match-chip ${recommendationMatchLabel(group, item) === "精准匹配" ? "exact" : "soft"}`}>
+                          {recommendationMatchLabel(group, item)}
+                        </span>
+                        <em>{difficultyLabel(item.difficulty)}</em>
                       </summary>
                       <div className="recommendation-binding">
                         <span>绑定知识点：{group.knowledge_point_name}</span>
@@ -3408,7 +3579,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                             />
                           </label>
                           <div className="actions recommendation-edit-actions">
-                            <button className="primary" type="button" onClick={() => saveRecommendationEdit(group, item)}>
+                            <button className="primary" type="button" onClick={() => void saveRecommendationEdit(group, item)}>
                               保存推荐题
                             </button>
                             <button type="button" onClick={cancelRecommendationEdit}>

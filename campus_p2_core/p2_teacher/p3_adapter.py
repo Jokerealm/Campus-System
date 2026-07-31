@@ -441,8 +441,6 @@ def _search_fixture_questions(
             for item in approved
             if knowledge_point_code and knowledge_point_code in item.get("knowledge_point_ids", [])
         ]
-    if not matches:
-        matches = approved
     return sorted(matches, key=lambda item: (item.get("difficulty", 0.5), item.get("bank_question_id", "")))[:limit]
 
 

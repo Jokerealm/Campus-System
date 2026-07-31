@@ -425,6 +425,15 @@ class CreatePracticePackRequest(BaseModel):
     created_by: str = ""
 
 
+class UpdatePracticeRecommendationRequest(BaseModel):
+    content_html: str | None = None
+    answer_html: str | None = None
+    analysis_html: str | None = None
+    recommend_reason: str | None = None
+    question_type: str | None = None
+    difficulty: float | None = Field(default=None, ge=0, le=1)
+
+
 class GeneratedQuestionCandidateRequest(BaseModel):
     generated_question_id: str = ""
     content_html: str
@@ -1421,6 +1430,65 @@ def list_exam_practice_packs(exam_id: str, actor: ActorContext = Depends(actor_c
     return ok({"items": items})
 
 
+@app.put("/exams/{exam_id}/practice-recommendations/{knowledge_point_key}/items/{bank_question_id}")
+def update_exam_practice_recommendation(
+    exam_id: str,
+    knowledge_point_key: str,
+    bank_question_id: str,
+    payload: UpdatePracticeRecommendationRequest,
+    actor: ActorContext = Depends(actor_context),
+) -> dict:
+    exam = _exam_or_404(exam_id, actor)
+    if exam.get("analysis") is None:
+        raise HTTPException(status_code=409, detail={"message": "请先完成考试诊断"})
+
+    analysis = _refresh_analysis_from_structure(exam) if exam.get("structure") else exam["analysis"].model_copy(deep=True)
+    if not analysis.practice_recommendations:
+        analysis = _enrich_analysis(analysis)
+
+    updated = False
+    for group in analysis.practice_recommendations:
+        group_keys = {
+            group.knowledge_point_code,
+            group.knowledge_point_id,
+            group.knowledge_point_name,
+        }
+        if knowledge_point_key not in group_keys:
+            continue
+        for item in group.items:
+            if item.bank_question_id != bank_question_id:
+                continue
+            if payload.content_html is not None:
+                item.content_html = payload.content_html
+            if payload.answer_html is not None:
+                item.answer_html = payload.answer_html
+            if payload.analysis_html is not None:
+                item.analysis_html = payload.analysis_html
+            if payload.recommend_reason is not None:
+                item.recommend_reason = payload.recommend_reason
+            if payload.question_type is not None:
+                item.question_type = payload.question_type
+            if payload.difficulty is not None:
+                item.difficulty = payload.difficulty
+            updated = True
+            break
+        if updated:
+            break
+
+    if not updated:
+        raise HTTPException(status_code=404, detail={"message": "推荐题不存在"})
+
+    exam["analysis"] = analysis
+    STORE.save_exam(exam)
+    STORE.record_event(
+        "practice_recommendation_updated",
+        "practice_recommendation",
+        bank_question_id,
+        {"exam_id": exam_id, "knowledge_point_key": knowledge_point_key, **_actor_payload(actor)},
+    )
+    return ok({"analysis": analysis})
+
+
 @app.get("/ai-generated-questions")
 def list_ai_generated_questions(
     status: str = "pending_review",
@@ -2411,6 +2479,7 @@ def _sync_analysis_question(exam: dict, exam_question_id: str, update: dict, mar
 
 def _refresh_analysis_from_structure(exam: dict) -> P2ExamAnalysis:
     analysis: P2ExamAnalysis = exam["analysis"].model_copy(deep=True)
+    existing_recommendations = analysis.practice_recommendations
     shadow_exam = {**exam, "analysis": analysis}
     for question in (exam.get("structure") or {}).get("questions", []):
         _sync_analysis_question(
@@ -2495,13 +2564,42 @@ def _refresh_analysis_from_structure(exam: dict) -> P2ExamAnalysis:
     analysis.teaching_report.priority_question_nos = [item.question_no for item in priority]
     analysis.teaching_report.weak_knowledge_points = weak_names
     analysis.teaching_report.markdown = _teaching_report_summary_markdown(analysis, avg_rate, priority, weak_diagnostics)
-    return attach_practice_recommendations(
+    refreshed = attach_practice_recommendations(
         analysis,
         p3_base_url=os.getenv("CAMPUS_P3_BASE_URL", ""),
         service_id=os.getenv("CAMPUS_P3_SERVICE_ID", "p2-service"),
         auth_token=os.getenv("CAMPUS_P3_AUTH_TOKEN", ""),
         timeout_seconds=float(os.getenv("CAMPUS_P3_TIMEOUT_SECONDS", "5")),
     )
+    return _merge_practice_recommendation_edits(refreshed, existing_recommendations)
+
+
+def _merge_practice_recommendation_edits(
+    refreshed: P2ExamAnalysis,
+    existing_groups: list[Any],
+) -> P2ExamAnalysis:
+    if not existing_groups:
+        return refreshed
+
+    existing_by_key: dict[tuple[str, str], Any] = {}
+    for group in existing_groups:
+        group_code = getattr(group, "knowledge_point_code", "") or getattr(group, "knowledge_point_id", "")
+        for item in getattr(group, "items", []) or []:
+            existing_by_key[(group_code, getattr(item, "bank_question_id", ""))] = item
+
+    for group in refreshed.practice_recommendations:
+        group_code = group.knowledge_point_code or group.knowledge_point_id
+        for item in group.items:
+            previous = existing_by_key.get((group_code, item.bank_question_id))
+            if not previous:
+                continue
+            item.content_html = previous.content_html
+            item.answer_html = previous.answer_html
+            item.analysis_html = previous.analysis_html
+            item.recommend_reason = previous.recommend_reason
+            item.question_type = previous.question_type
+            item.difficulty = previous.difficulty
+    return refreshed
 
 
 def _teaching_report_summary_markdown(
@@ -2758,19 +2856,21 @@ def knowledge_names(points: list[dict]) -> str:
 
 
 def _enrich_analysis(analysis: P2ExamAnalysis, *, use_model_tags: bool | None = None) -> P2ExamAnalysis:
+    existing_recommendations = analysis.practice_recommendations
     _apply_fast_knowledge_tags(analysis)
     if use_model_tags is None:
         use_model_tags = os.getenv("CAMPUS_LLM_SYNC_TAGGING", "0").strip().lower() in {"1", "true", "yes", "on"}
     if use_model_tags:
         _apply_model_knowledge_tags(analysis)
     _refresh_analysis_computed_fields(analysis)
-    return attach_practice_recommendations(
+    enriched = attach_practice_recommendations(
         analysis,
         p3_base_url=os.getenv("CAMPUS_P3_BASE_URL", ""),
         service_id=os.getenv("CAMPUS_P3_SERVICE_ID", "p2-service"),
         auth_token=os.getenv("CAMPUS_P3_AUTH_TOKEN", ""),
         timeout_seconds=float(os.getenv("CAMPUS_P3_TIMEOUT_SECONDS", "5")),
     )
+    return _merge_practice_recommendation_edits(enriched, existing_recommendations)
 
 
 def _run_ai_knowledge_tag_job(job_id: str, exam_id: str, scope: str = "all") -> None:
@@ -2783,6 +2883,7 @@ def _run_ai_knowledge_tag_job(job_id: str, exam_id: str, scope: str = "all") -> 
         if exam is None or exam.get("analysis") is None:
             raise ValueError("考试分析不存在")
         analysis = _refresh_analysis_from_structure(exam) if exam.get("structure") else exam["analysis"].model_copy(deep=True)
+        existing_recommendations = analysis.practice_recommendations
         _apply_fast_knowledge_tags(analysis)
         updated_count = _apply_model_knowledge_tags(analysis)
         _refresh_analysis_computed_fields(analysis)
@@ -2793,6 +2894,7 @@ def _run_ai_knowledge_tag_job(job_id: str, exam_id: str, scope: str = "all") -> 
             auth_token=os.getenv("CAMPUS_P3_AUTH_TOKEN", ""),
             timeout_seconds=float(os.getenv("CAMPUS_P3_TIMEOUT_SECONDS", "5")),
         )
+        analysis = _merge_practice_recommendation_edits(analysis, existing_recommendations)
         exam["analysis"] = analysis
         exam["structure"] = _analysis_to_structure(exam_id, analysis)
         STORE.save_exam(exam)
