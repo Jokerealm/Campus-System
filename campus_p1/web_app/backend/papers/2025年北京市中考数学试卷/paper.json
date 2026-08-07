@@ -1,0 +1,1206 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年北京市中考数学试卷",
+  "source": {
+    "name": "2025年北京市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年北京市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年北京市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列图形中，既是轴对称图形又是中心对称图形的是（ ）",
+      "stem_markdown": "下列图形中，既是轴对称图形又是中心对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年北京市中考数学试卷_q001_img01](assets/2025年北京市中考数学试卷_q001_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年北京市中考数学试卷_q001_img02](assets/2025年北京市中考数学试卷_q001_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年北京市中考数学试卷_q001_img03](assets/2025年北京市中考数学试卷_q001_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年北京市中考数学试卷_q001_img04](assets/2025年北京市中考数学试卷_q001_img04.png)"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】把一个图形绕某一点旋转180°，如果旋转后的图形能够与原来的图形重合，那么这个图形就叫做中心对称图形；如果一个图形沿一条直线折叠，直线两旁的部分能够互相重合，这个图形叫做轴对称图形，由此即可判断．\n【解答】解：A、B中的图形是轴对称图形，不是中心对称图形，故A、B不符合题意；\nC、图形是中心对称图形，不轴对称图形，故C不符合题意；\nD、图形既是轴对称图形又是中心对称图形，故D符合题意．\n故选：D．\n【点评】本题考查中心对称图形，轴对称图形，关键是掌握中心对称图形和轴对称图形的定义．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q001_img01",
+          "path": "assets/2025年北京市中考数学试卷_q001_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年北京市中考数学试卷_q001_img02",
+          "path": "assets/2025年北京市中考数学试卷_q001_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年北京市中考数学试卷_q001_img03",
+          "path": "assets/2025年北京市中考数学试卷_q001_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年北京市中考数学试卷_q001_img04",
+          "path": "assets/2025年北京市中考数学试卷_q001_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中心对称图形",
+          "轴对称图形"
+        ],
+        "reasoning": "设问要求判断既是轴对称又是中心对称的图形，选项D满足条件。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中心对称图形\", \"轴对称图形\"],\n  \"reasoning\": \"设问要求判断既是轴对称又是中心对称的图形，选项D满足条件。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "实数a，b在数轴上的对应点的位置如图所示，下列结论中正确的是（ ）\n[图1]",
+      "stem_markdown": "实数a，b在数轴上的对应点的位置如图所示，下列结论中正确的是（ ）\n![2025年北京市中考数学试卷_q002_img01](assets/2025年北京市中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "a＞﹣1"
+        },
+        {
+          "label": "B",
+          "text": "a+b＝0"
+        },
+        {
+          "label": "C",
+          "text": "a﹣b＞0"
+        },
+        {
+          "label": "D",
+          "text": "a|＞|b"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】观察数轴可知：﹣2＜a＜﹣1，0＜b＜1，|a|＞|b|，然后根据有理数的加减法则判断B，C选项的掌握，从而解答即可．\n【解答】解：观察数轴可知：﹣2＜a＜﹣1，0＜b＜1，|a|＞|b|，\n∴a+b＜0，a﹣b＜0，\n∴A、B、C选项的结论错误，D选项的结论正确，\n故选：D．\n【点评】本题主要考查了实数与数轴，解题关键是熟练掌握数轴上左边的数总比右边的数小和有理数的加减法则．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q002_img01",
+          "path": "assets/2025年北京市中考数学试卷_q002_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值",
+          "有理数的加法",
+          "有理数的减法"
+        ],
+        "reasoning": "数轴上位置判断及绝对值大小比较",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\", \"有理数的加法\", \"有理数的减法\"],\n  \"reasoning\": \"数轴上位置判断及绝对值大小比较\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "若一个六边形的每个内角都是x°，则x的值为（ ）",
+      "stem_markdown": "若一个六边形的每个内角都是x°，则x的值为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "90"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "150"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】利用多边形内角和公式及正多边形的性质求解即可．\n【解答】解：∵一个六边形的每个内角都是x°，\n∴这个六边形为正六边形，\n∴每个内角的度数为：（6﹣2）×180°÷6＝120°，\n故选：C．\n【点评】本题考查了多边形内角和公式，即（n﹣2）×180°，其中n为边数，掌握此性质是解题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正多边形的性质",
+          "多边形内角和公式"
+        ],
+        "reasoning": "题中提到每个内角都是x°，且六边形为正六边形，利用正多边形性质得出每个内角度数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正多边形的性质\", \"多边形内角和公式\"],\n  \"reasoning\": \"题中提到每个内角都是x°，且六边形为正六边形，利用正多边形性质得出每个内角度数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "一个不透明的袋子中仅有3个红球、2个黄球和1个白球，这些球除颜色外无其他差别．从袋子中随机摸出一个球，摸出的球是白球的概率是（ ）",
+      "stem_markdown": "一个不透明的袋子中仅有3个红球、2个黄球和1个白球，这些球除颜色外无其他差别．从袋子中随机摸出一个球，摸出的球是白球的概率是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{6}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】由题意知，共有6种等可能的结果，其中摸出的球是白球的结果有1种，利用概率公式可得答案．\n【解答】解：由题意知，共有6种等可能的结果，其中摸出的球是白球的结果有1种，\n∴摸出的球是白球的概率为$\\frac{1}{6}$．\n故选：A．\n【点评】本题考查概率公式，熟练掌握概率公式是解答本题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率计算",
+          "基本事件总数",
+          "特定事件数量"
+        ],
+        "reasoning": "设问要求摸出白球的概率，涉及基本事件总数和特定事件数量。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率计算\", \"基本事件总数\", \"特定事件数量\"],\n  \"reasoning\": \"设问要求摸出白球的概率，涉及基本事件总数和特定事件数量。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "若关于x的一元二次方程ax²+2x+1＝0有两个相等的实数根，则实数a的值为（ ）",
+      "stem_markdown": "若关于x的一元二次方程$ax^{2}$+2x+1＝0有两个相等的实数根，则实数a的值为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣4"
+        },
+        {
+          "label": "B",
+          "text": "﹣1"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】先计算根的判别式，再根据方程解的情况得关于a的方程，求解即可．\n【解答】解：∵关于x的一元二次方程$ax^{2}$+2x+1＝0有两个相等的实数根，\n∴Δ＝0且a≠0．\n∴2^{2}﹣4a＝0且a≠0．\n∴a＝1．\n故选：C．\n【点评】本题考查了一元二次方程根的判别式，掌握一元二次方程根的判别式和方程解的关系是解决本题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "根的判别式",
+          "一元二次方程的解"
+        ],
+        "reasoning": "题目要求一元二次方程有两个相等的实数根，通过判别式Δ=0得出结论。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"根的判别式\", \"一元二次方程的解\"],\n  \"reasoning\": \"题目要求一元二次方程有两个相等的实数根，通过判别式Δ=0得出结论。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "2025年5月29日，行星探测工程天问二号探测器在西昌卫星发射中心成功发射，开启对近地小行星2016H03的探测与采样返回之旅．已知该小行星与地球的最近距离约为月球远地点距离的45倍，月球远地点距离约为4×10⁵km，则该小行星与地球的最近距离约为（ ）",
+      "stem_markdown": "2025年5月29日，行星探测工程天问二号探测器在西昌卫星发射中心成功发射，开启对近地小行星2016H03的探测与采样返回之旅．已知该小行星与地球的最近距离约为月球远地点距离的45倍，月球远地点距离约为4×10^{5}km，则该小行星与地球的最近距离约为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.8×10^{5}km"
+        },
+        {
+          "label": "B",
+          "text": "1.8×10^{6}km"
+        },
+        {
+          "label": "C",
+          "text": "1.8×10^{7}km"
+        },
+        {
+          "label": "D",
+          "text": "1.8×10^{10}km"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：45×4×10^{5}km＝18000000km＝1.8×10^{7}km，\n故选：C．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "近似计算"
+        ],
+        "reasoning": "计算小行星与地球最近距离时使用科学记数法和近似计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"近似计算\"],\n  \"reasoning\": \"计算小行星与地球最近距离时使用科学记数法和近似计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "如图，∠MON＝100°，点A在射线OM上，以点O为圆心，OA长为半径画弧，交射线ON于点B．若分别以点A，B为圆心，AB长为半径画弧，两弧在∠MON内部交于点C，连接AC，则∠OAC的大小为（ ）\n[图1]",
+      "stem_markdown": "如图，∠MON＝100°，点A在射线OM上，以点O为圆心，OA长为半径画弧，交射线ON于点B．若分别以点A，B为圆心，AB长为半径画弧，两弧在∠MON内部交于点C，连接AC，则∠OAC的大小为（ ）\n![2025年北京市中考数学试卷_q007_img01](assets/2025年北京市中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "80°"
+        },
+        {
+          "label": "B",
+          "text": "100°"
+        },
+        {
+          "label": "C",
+          "text": "110°"
+        },
+        {
+          "label": "D",
+          "text": "120°"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】连接AB，AC，BC，由作图可得OA＝OB，AC＝BC＝AB，则△ABC为等边三角形，可得∠ACB＝60°．证明△OAC≌△OBC，可得∠ACO＝∠BCO$=\\frac{1}{2}∠ACB=30°$，$∠AOC=∠BOC=\\frac{1}{2}∠AOB=$50°，则可得∠OAC＝180°﹣∠AOC﹣∠ACO＝100°．\n【解答】解：连接AB，AC，BC，\n[[image:rId32]]\n由作图可得，OA＝OB，AC＝BC＝AB，\n∴△ABC为等边三角形，\n∴∠ACB＝60°．\n∵OC＝OC，\n∴△OAC≌△OBC（SSS），\n∴∠ACO＝∠BCO$=\\frac{1}{2}∠ACB=30°$，$∠AOC=∠BOC=\\frac{1}{2}∠AOB=$50°，\n∴∠OAC＝180°﹣∠AOC﹣∠ACO＝180°﹣30°﹣50°＝100°．\n故选：B．\n【点评】本题考查作图—基本作图、全等三角形的判定与性质、等边三角形的判定与性质，解题的关键是理解题意，灵活运用所学知识解决问题．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q007_img01",
+          "path": "assets/2025年北京市中考数学试卷_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的性质",
+          "全等三角形的判定与性质",
+          "角平分线的性质"
+        ],
+        "reasoning": "作图得到等边三角形和全等三角形，利用角平分线性质求解",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的性质\", \"全等三角形的判定与性质\", \"角平分线的性质\"],\n  \"reasoning\": \"作图得到等边三角形和全等三角形，利用角平分线性质求解\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，在平面直角坐标系xOy中，A，B分别是横、纵轴正半轴上的动点，四边形OACB是矩形，函数y=\\frac{1}{x}（x＞0）的图象与边AC交于点M，与边BC交于点N（M，N不重合）．给出下面四个结论：\n①△COM与△CON的面积一定相等；\n②△MON与△MCN的面积可能相等；\n③△MON一定是锐角三角形；\n④△MON可能是等边三角形．\n上述结论中，所有正确结论的序号是（ ）\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系xOy中，A，B分别是横、纵轴正半轴上的动点，四边形OACB是矩形，函数y$=\\frac{1}{x}$（x＞0）的图象与边AC交于点M，与边BC交于点N（M，N不重合）．给出下面四个结论：\n①△COM与△CON的面积一定相等；\n②△MON与△MCN的面积可能相等；\n③△MON一定是锐角三角形；\n④△MON可能是等边三角形．\n上述结论中，所有正确结论的序号是（ ）\n![2025年北京市中考数学试卷_q008_img01](assets/2025年北京市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "①③"
+        },
+        {
+          "label": "B",
+          "text": "①④"
+        },
+        {
+          "label": "C",
+          "text": "②③"
+        },
+        {
+          "label": "D",
+          "text": "②④"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】设点M坐标为$(a，\\frac{1}{a})$，点N坐标为$(b，\\frac{1}{b})$，则$OB=AC=\\frac{1}{b}$，OA＝BC＝a，BN＝b，$AM=\\frac{1}{a}$，CN＝a﹣b，$CM=\\frac{1}{b}-\\frac{1}{a}$，可用a，b表示出$S_{△COM}=\\frac{a}{2b}-\\frac{1}{2}$，$S_{△CON}=\\frac{a}{2b}-\\frac{1}{2}$，即可判断①；用a，b表示出$S_{△MCN}=\\frac{(a-b)^{2}}{2ab}$，$S_{△MON}=\\frac{a^{2}-b^{2}}{2ab}$，可知当△MON 与△MCN 的面积相等时，M，N重合，与题意不符，可判断②；根据等边三角形和反比例函数的对称性即可判断④，根据M，N是反比例函数图象上的动点，可得∠OMN或∠ONM为钝角，即可判断③，即可求解．\n【解答】解：设点M坐标为$(a，\\frac{1}{a})$，点N坐标为$(b，\\frac{1}{b})$，\n则A（a，0），$B(0，\\frac{1}{b})$，$C(a，\\frac{1}{b})$，\n∴$OB=AC=\\frac{1}{b}$，OA＝BC＝a，BN＝b，$AM=\\frac{1}{a}$，CN＝a﹣b，$CM=\\frac{1}{b}-\\frac{1}{a}$，\n∴$S_{△COM}=\\frac{1}{2}CM×OA=\\frac{1}{2}×(\\frac{1}{b}-\\frac{1}{a})×a=\\frac{a}{2b}-\\frac{1}{2}$，\n$S_{△CON}=\\frac{1}{2}CN×OB=\\frac{1}{2}×(a-b)×\\frac{1}{b}=\\frac{a}{2b}-\\frac{1}{2}$，\n∴$S_{△}_{COM}＝S_{△}_{CON}$，故结论①正确；\n$S_{△MCN}=\\frac{1}{2}CN⋅CM=\\frac{1}{2}×(a-b)(\\frac{1}{b}-\\frac{1}{a})=\\frac{(a-b)^{2}}{2ab}$，\n$S_{△MON}=S_{矩形OACB}-S_{△OBN}-S_{△OAM}-S_{△MCN}=a×\\frac{1}{b}-\\frac{1}{2}×b×\\frac{1}{b}-\\frac{1}{2}×a×\\frac{1}{a}-\\frac{(a-b)^{2}}{2ab}=\\frac{a^{2}-b^{2}}{2ab}$，\n当△MON与△MCN的面积相等时，$\\frac{(a-b)^{2}}{2ab}=\\frac{a^{2}-b^{2}}{2ab}$，即a＝b，\n当a＝b时，M，N重合，与题意不符，故结论②错误；\n∵等边三角形和反比例函数都是轴对称图形，当∠NOM＝60°且对称轴都为直线y＝x，△MON可能是等边三角形，故④正确，\n如图：\n[[image:rId34]]\n当M，N在y＝x的同侧时，△MON可能是钝角三角形，故③错误；\n[[image:rId35]]\n综上，①④正确、②③错误．\n故选：B．\n【点评】本题考查了反比例函数与几何综合，反比例函数的图形和性质，矩形的性质，图形结合是解题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q008_img01",
+          "path": "assets/2025年北京市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数",
+          "相似三角形",
+          "面积计算",
+          "几何图形性质"
+        ],
+        "reasoning": "题中涉及反比例函数图像与矩形面积计算，考察相似三角形的面积关系及等边三角形的性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数\", \"相似三角形\", \"面积计算\", \"几何图形性质\"],\n  \"reasoning\": \"题中涉及反比例函数图像与矩形面积计算，考察相似三角形的面积关系及等边三角形的性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "若\\sqrt{3x-3}在实数范围内有意义，则实数x的取值范围是 ____ ．",
+      "stem_markdown": "若$\\sqrt{3x-3}$在实数范围内有意义，则实数x的取值范围是 ____ ．",
+      "options": [],
+      "answer": "x≥1．",
+      "solution": "【分析】根据二次根式有意义的条件可得3x﹣3≥0，解不等式即可．\n【解答】解：若$\\sqrt{3x-3}$在实数范围内有意义，\n则3x﹣3≥0，\n解得：x≥1，\n故答案为：x≥1．\n【点评】本题考查二次根式有意义的条件，熟练掌握其有意义的条件是解题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式",
+          "二次根式的定义"
+        ],
+        "reasoning": "不等式3x-3≥0求解",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式\", \"二次根式的定义\"],\n  \"reasoning\": \"不等式3x-3≥0求解\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "分解因式：7m²﹣28＝ ____ ．",
+      "stem_markdown": "分解因式：$7m^{2}$﹣28＝ ____ ．",
+      "options": [],
+      "answer": "7（m+2）（m﹣2）．",
+      "solution": "【分析】提公因式后利用平方差公式因式分解即可．\n【解答】解：原式＝7（$m^{2}$﹣4）\n＝7（m+2）（m﹣2），\n故答案为：7（m+2）（m﹣2）．\n【点评】本题考查因式分解，熟练掌握分解因式的方法是解题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式",
+          "平方差公式"
+        ],
+        "reasoning": "题目要求分解因式，首先提取公因式7，然后应用平方差公式 $a^2 - b^2 = (a+b)(a-b)$。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式\", \"平方差公式\"],\n  \"reasoning\": \"题目要求分解因式，首先提取公因式7，然后应用平方差公式 $a^2 - b^2 = (a+b)(a-b)$。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "方程\\frac{2}{x-6}+\\frac{1}{x}=0的解为 ____ ．",
+      "stem_markdown": "方程$\\frac{2}{x-6}+\\frac{1}{x}=$0的解为 ____ ．",
+      "options": [],
+      "answer": "x＝2．",
+      "solution": "【分析】分式方程去分母转化为整式方程，求出整式方程的解得到x的值，经检验即可得到分式方程的解．\n【解答】解：方程两边乘最简公分母x（x﹣6）得，\n2x+x﹣6＝0，\n解得x＝2，\n经检验x＝2是原方程的解，\n故答案为：x＝2．\n【点评】此题考查了解分式方程，解分式方程的基本思想是“转化思想”，把分式方程转化为整式方程求解．解分式方程一定注意要验根．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程",
+          "去分母",
+          "解整式方程",
+          "检验解是否满足原方程"
+        ],
+        "reasoning": "去分母后得到整式方程并求解，检验解是否使原方程成立。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程\", \"去分母\", \"解整式方程\", \"检验解是否满足原方程\"],\n  \"reasoning\": \"去分母后得到整式方程并求解，检验解是否使原方程成立。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "某地区七年级共有2000名男生．为了解这些男生的体重指数（BMI）分布情况，从中随机抽取了100名男生，测得他们的BMI数据（单位：kg/m²），并根据七年级男生体质健康标准整理如表：\n等级 | 低体重 | 正常 | 超重 | 肥胖\nBMI | ≤15.4 | 15.5～22.1 | 22.2～24.9 | ≥25.0\n人数 | 6 | 75 | 15 | 4\n根据以上信息，估计该地区七年级2000名男生中BMI等级为正常的人数是 ____ ．",
+      "stem_markdown": "某地区七年级共有2000名男生．为了解这些男生的体重指数（BMI）分布情况，从中随机抽取了100名男生，测得他们的BMI数据（单位：kg/$m^{2}$），并根据七年级男生体质健康标准整理如表：\n| 等级 | 低体重 | 正常 | 超重 | 肥胖 |\n| --- | --- | --- | --- | --- |\n| BMI | ≤15.4 | 15.5～22.1 | 22.2～24.9 | ≥25.0 |\n| 人数 | 6 | 75 | 15 | 4 |\n根据以上信息，估计该地区七年级2000名男生中BMI等级为正常的人数是 ____ ．",
+      "options": [],
+      "answer": "1500．",
+      "solution": "【分析】用2000乘以样本中BMI等级为正常的人数所占的比例即可得解．\n【解答】解：由题意可得：该地区七年级2000名男生中BMI等级为正常的人数是$2000×\\frac{75}{100}=1500人$，\n故答案为：1500．\n【点评】本题考查了由样本估计总体，熟练掌握以上知识点并灵活运用解此题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率分布统计",
+          "比例计算"
+        ],
+        "reasoning": "根据样本中BMI等级为正常的人数占总人数的比例来估计总体人数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率分布统计\", \"比例计算\"],\n  \"reasoning\": \"根据样本中BMI等级为正常的人数占总人数的比例来估计总体人数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "能说明命题“若a²＞4b²，则a＞2b”是假命题的一组实数a，b的值为a＝ ____ ，b＝ ____ ．",
+      "stem_markdown": "能说明命题“若$a^{2}$＞$4b^{2}$，则a＞2b”是假命题的一组实数a，b的值为a＝ ____ ，b＝ ____ ．",
+      "options": [],
+      "answer": "﹣3，1（答案不唯一）．",
+      "solution": "【分析】根据举反例的方法找到a，b满足$a^{2}$＞$4b^{2}$，但是不满足a＞2b即可．\n【解答】解：当a＝﹣3，b＝1时，$a^{2}$＞$4b^{2}$，但是a＜2b，\n故答案为：﹣3，1（答案不唯一）．\n【点评】本题主要考查了命题与定理的知识，掌握判断一个命题是假命题的时候可以举出反例是解题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式性质",
+          "反例证明"
+        ],
+        "reasoning": "通过举反例说明原命题错误，需要满足不等式的条件和反例验证",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式性质\", \"反例证明\"],\n  \"reasoning\": \"通过举反例说明原命题错误，需要满足不等式的条件和反例验证\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，⊙O是地球的示意图，其中AB表示赤道，CD，EF分别表示北回归线和南回归线，∠DOB＝∠FOB＝23.5°．夏至日正午时，太阳光线GD所在直线经过地心O，此时点F处的太阳高度角∠IFH（即平行于GD的光线HF与⊙O的切线FI所成的锐角）的大小为 ____ °．\n[图1]",
+      "stem_markdown": "如图，⊙O是地球的示意图，其中AB表示赤道，CD，EF分别表示北回归线和南回归线，∠DOB＝∠FOB＝23.5°．夏至日正午时，太阳光线GD所在直线经过地心O，此时点F处的太阳高度角∠IFH（即平行于GD的光线HF与⊙O的切线FI所成的锐角）的大小为 ____ °．\n![2025年北京市中考数学试卷_q014_img01](assets/2025年北京市中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "43．",
+      "solution": "【分析】根据平行线的性质求出∠OFH，根据切线的性质得到∠OFI＝90°，进而求出∠IFH．\n【解答】解：∵∠DOB＝∠FOB＝23.5°，\n∴∠DOF＝∠DOB+∠FOB＝47°，\n∵GD∥HF，\n∴∠OFH＝180°﹣∠DOF＝180°﹣47°＝133°，\n∵FI是⊙O的切线，\n∴OF⊥FI，\n∴∠OFI＝90°，\n∴∠IFH＝133°﹣90°＝43°，\n故答案为：43．\n【点评】本题考查的是切线的性质，熟记圆的切线垂直于经过切点的半径是解题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q014_img01",
+          "path": "assets/2025年北京市中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆的切线性质",
+          "平行线的性质",
+          "三角形内角和定理"
+        ],
+        "reasoning": "题中利用圆的切线性质得出OF⊥FI，再结合平行线的性质和三角形内角和定理计算∠IFH的度数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆的切线性质\", \"平行线的性质\", \"三角形内角和定理\"],\n  \"reasoning\": \"题中利用圆的切线性质得出OF⊥FI，再结合平行线的性质和三角形内角和定理计算∠IFH的度数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，在正方形ABCD中，点E在边CD上，CF⊥BE，垂足为F．若AB＝1，∠EBC＝30°，则△ABF的面积为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在正方形ABCD中，点E在边CD上，CF⊥BE，垂足为F．若AB＝1，∠EBC＝30°，则△ABF的面积为 ____ ．\n![2025年北京市中考数学试卷_q015_img01](assets/2025年北京市中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "$\\frac{3}{8}$．",
+      "solution": "【分析】过点F分别作FM⊥BC，FN⊥AB，垂足为M，N，连接AM，则∠FMC＝90°，先根据平行线间的距离处处相等得出FN＝BM，继而得出$S_{△}_{ABF}＝S_{△}_{ABM}$，通过解直角三角形得出$BM=BC-CM=\\frac{3}{4}$，即可求解．\n【解答】解：过点F分别作FM⊥BC，FN⊥AB，垂足为M，N，连接AM，则∠FMC＝90°，\n[[image:rId38]]\n∵四边形ABCD为正方形，\n∴∠ABC＝90°，\n∴∠ABC＝∠FMC，\n∴AB∥FM，\n∴FN＝BM，\n∵$S_{△ABF}=\\frac{1}{2}AB⋅FN$，$S_{△ABM}=\\frac{1}{2}AB⋅BM$，\n∴$S_{△}_{ABF}＝S_{△}_{ABM}$，\n∵CF⊥BE，垂足为F，AB＝1＝BC，∠EBC＝30°，\n∴∠BFC＝90°，$CF=\\frac{1}{2}BC=\\frac{1}{2}$，\n∴∠CFM＝90°﹣∠BCF＝30°，\n∴$CM=\\frac{1}{2}CF=\\frac{1}{4}$，\n∴$BM=BC-CM=\\frac{3}{4}$，\n∴$S_{△ABF}=S_{△ABM}=\\frac{1}{2}×1×\\frac{3}{4}=\\frac{3}{8}$，\n故答案为：$\\frac{3}{8}$．\n【点评】本题考查了正方形的性质，平行线的性质，解直角三角形，直角三角形的性质，熟练掌握知识点是解题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q015_img01",
+          "path": "assets/2025年北京市中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正方形的性质",
+          "平行线的性质",
+          "直角三角形的性质"
+        ],
+        "reasoning": "通过正方形性质得出AB∥FM，继而得出FN＝BM，利用面积相等得出结论。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正方形的性质\", \"平行线的性质\", \"直角三角形的性质\"],\n  \"reasoning\": \"通过正方形性质得出AB∥FM，继而得出FN＝BM，利用面积相等得出结论。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "某企业研发并生产了一种新设备，计划分配给A，B，C，D四家经销商销售．当一家经销商将分配到的n台设备全部售出后，企业从该经销商处获得的利润（单位：万元）与n的对应关系如下：\nn＝1 | n＝2 | n＝3 | n＝4 | n＝5 | n＝6 | …\nA | 40 | 60 | / | / | / | / | /\nB | 30 | 55 | 75 | 90 | 100 | 105 | /\nC | 20 | 40 | 60 | 70 | 80 | 90 | …\nD | 14 | 38 | 62 | 86 | 110 | 134 | …\n（1）如果企业将5台设备分配给这四家经销商销售，且每家经销商至少分配到1台设备，为使5台设备都售出后企业获得的总利润最大，应向经销商 ____ 分配2台设备（填“A”“B”“C”或“D”）；\n（2）如果企业将6台设备分配给这四家经销商中的一家或多家销售，那么6台设备都售出后，企业可获得的总利润的最大值为 ____ 万元．",
+      "stem_markdown": "某企业研发并生产了一种新设备，计划分配给A，B，C，D四家经销商销售．当一家经销商将分配到的n台设备全部售出后，企业从该经销商处获得的利润（单位：万元）与n的对应关系如下：\n| n＝1 | n＝2 | n＝3 | n＝4 | n＝5 | n＝6 | … |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| A | 40 | 60 | / | / | / | / | / |\n| B | 30 | 55 | 75 | 90 | 100 | 105 | / |\n| C | 20 | 40 | 60 | 70 | 80 | 90 | … |\n| D | 14 | 38 | 62 | 86 | 110 | 134 | … |\n（1）如果企业将5台设备分配给这四家经销商销售，且每家经销商至少分配到1台设备，为使5台设备都售出后企业获得的总利润最大，应向经销商 ____ 分配2台设备（填“A”“B”“C”或“D”）；\n（2）如果企业将6台设备分配给这四家经销商中的一家或多家销售，那么6台设备都售出后，企业可获得的总利润的最大值为 ____ 万元．",
+      "options": [],
+      "answer": "B",
+      "solution": "【分析】（1）分别计算各经销商销售完第2台比第1台的利润的增长量，比较即可得答案；\n（2）分别求出一家分配时、四家分配时、三家分配时、两家分配时的最大利润，比较即可得答案．\n【解答】解：（1）当n＝2时，\nA经销商的利润为60，比n＝1时增加60﹣40＝20（万元），\nB经销商的利润为55，比n＝1时增加55﹣30＝25（万元），\nC经销商的利润为40，比n＝1时增加40﹣20＝20（万元），\nD经销商的利润为38，比n＝1时增加38﹣14＝24（万元），\n∵25＞24＞20，\n∴应向经销商B分配2台设备，\n故答案为：B；\n（2）当给这四家经销商中的一家分配时，最大利润为D经销商的134万元，\n当分配给多家销售时：\n当分配四家时，最大利润为40+55+20+38＝153（万元），\n当分配给三家时，最大利润为40+55+62＝157（万元），\n当分配给两家时，最大利润为60+90＝150（万元）或40+110＝150（万元），\n综上所述：企业可获得的总利润的最大值为157万元．\n故答案为：157．\n【点评】本题考查列举等可能的结果，根据表格列举出增长量的变化是解题关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数",
+          "利润最大化问题",
+          "不完全归纳法"
+        ],
+        "reasoning": "通过计算不同经销商销售第二台设备后的利润增长量来确定最佳分配方案",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数\", \"利润最大化问题\", \"不完全归纳法\"],\n  \"reasoning\": \"通过计算不同经销商销售第二台设备后的利润增长量来确定最佳分配方案\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "计算：|﹣3|+\\sqrt{27}+((\\frac{1}{2}))^{-1}-2sin30°．",
+      "stem_markdown": "计算：|﹣3|$+\\sqrt{27}+((\\frac{1}{2}))^{-1}-$2sin30°．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】利用绝对值及算术平方根的性质，负整数指数幂，特殊锐角三角函数值计算后再算加减即可．\n【解答】解：原式＝3+3$\\sqrt{3}+$2﹣2$×\\frac{1}{2}$\n＝3+3$\\sqrt{3}+$2﹣1\n＝4+3$\\sqrt{3}$．\n【点评】本题考查实数的运算，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值",
+          "算术平方根",
+          "负整数指数幂",
+          "特殊锐角三角函数值"
+        ],
+        "reasoning": "题目涉及绝对值、算术平方根、负整数指数幂和特殊锐角三角函数值的计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\", \"算术平方根\", \"负整数指数幂\", \"特殊锐角三角函数值\"],\n  \"reasoning\": \"题目涉及绝对值、算术平方根、负整数指数幂和特殊锐角三角函数值的计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "解不等式组：\\begin{cases} 2(x+1)＞x-1 \\\\ \\frac{x+5}{2}＞3x \\end{cases}．",
+      "stem_markdown": "解不等式组：$\\begin{cases} 2(x+1)＞x-1 \\\\ \\frac{x+5}{2}＞3x \\end{cases}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先解出每个不等式的解集，即可得到不等式组的解集．\n【解答】解：$\\begin{cases} 2(x+1)＞x-1 & ① \\\\ \\frac{x+5}{2}＞3x & ② \\end{cases}$，\n解不等式①，得：x＞﹣3，\n解不等式②，得：x＜1，\n∴原不等式组的解集为﹣3＜x＜1．\n【点评】本题考查解一元一次不等式组，解答本题的关键是明确解一元一次不等式（组）的方法．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组",
+          "解一元一次不等式",
+          "不等式的性质"
+        ],
+        "reasoning": "通过解两个一元一次不等式得到各自的解集，再确定它们的交集作为原不等式组的解集。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组\", \"解一元一次不等式\", \"不等式的性质\"],\n  \"reasoning\": \"通过解两个一元一次不等式得到各自的解集，再确定它们的交集作为原不等式组的解集。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "已知a+b﹣3＝0，求代数式\\frac{4(a-b)+8b}{a^{2}+2ab+b^{2}}的值．",
+      "stem_markdown": "已知a+b﹣3＝0，求代数式$\\frac{4(a-b)+8b}{a^{2}+2ab+b^{2}}$的值．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】由已知条件易得a+b＝3，将原式变形后代入数值计算即可．\n【解答】解：∵a+b﹣3＝0，\n∴a+b＝3，\n∴原式$=\\frac{4a-4b+8b}{(a+b)^{2}}$\n$=\\frac{4(a+b)}{(a+b)^{2}}$\n$=\\frac{4}{a+b}$\n$=\\frac{4}{3}$．\n【点评】本题考查分式的值，将原式进行正确地变形是解题的关键．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "代数恒等变形",
+          "分式化简",
+          "代数式求值"
+        ],
+        "reasoning": "原式通过代数恒等变形简化为便于计算的形式",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"代数恒等变形\", \"分式化简\", \"代数式求值\"],\n  \"reasoning\": \"原式通过代数恒等变形简化为便于计算的形式\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "如图，在△ABC中，D，E分别为AB，AC的中点，DF⊥BC，垂足为F，点G在DE的延长线上，DG＝FC．\n（1）求证：四边形DFCG是矩形；\n（2）若∠B＝45°，DF＝3，DG＝5，求BC和AC的长．\n[图1]",
+      "stem_markdown": "如图，在△ABC中，D，E分别为AB，AC的中点，DF⊥BC，垂足为F，点G在DE的延长线上，DG＝FC．\n（1）求证：四边形DFCG是矩形；\n（2）若∠B＝45°，DF＝3，DG＝5，求BC和AC的长．\n![2025年北京市中考数学试卷_q020_img01](assets/2025年北京市中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）证明DE是△ABC的中位线，得DE∥BC，再证明四边形DFCG是平行四边形，然后由矩形的判定即可得出结论；\n（2）证明△BDF是等腰直角三角形，得BF＝DF＝3，则BC＝BF+FC＝8，再由三角形中位线定理求出DE＝4，然后由矩形的性质得CG＝DF＝3，∠G＝90°，则EG＝DG﹣DE＝1，进而由勾股定理求出CE的长，即可得出结论．\n【解答】（1）证明：∵D，E分别为AB，AC的中点，\n∴DE是△ABC的中位线，\n∴DE∥BC，\n∵DG＝FC，\n∴四边形DFCG是平行四边形，\n又∵DF⊥BC，\n∴∠DFC＝90°，\n∴平行四边形DFCG是矩形；\n（2）解：∵DF⊥BC，\n∴∠DFB＝90°，\n∵∠B＝45°，\n∴△BDF是等腰直角三角形，\n∴BF＝DF＝3，\n∵DG＝FC＝5，\n∴BC＝BF+FC＝3+5＝8，\n由（1）可知，DE是△ABC的中位线，四边形DFCG是矩形，\n∴DE$=\\frac{1}{2}$BC＝4，CG＝DF＝3，∠G＝90°，\n∴EG＝DG﹣DE＝5﹣4＝1，\n∴CE$=\\sqrt{CG^{2}+EG^{2}}=\\sqrt{3^{2}+1^{2}}=$$\\sqrt{10}$，\n∵E为AC的中点，\n∴AC＝2CE＝2$\\sqrt{10}$．\n【点评】本题考查了矩形的判定与性质、三角形中位线定理、平行四边形的判定与性质、勾股定理、等腰直角三角形的判定与性质等知识，熟练掌握矩形的判定与性质是解题的关键．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q020_img01",
+          "path": "assets/2025年北京市中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形中位线定理",
+          "平行四边形的性质",
+          "矩形的判定",
+          "勾股定理"
+        ],
+        "reasoning": "（1）利用三角形中位线定理证明DE∥BC，结合DG=FC证明四边形DFCG是平行四边形，再由DF⊥BC证明为矩形；（2）通过等腰直角三角形的性质求BC，利用三角形中位线定理求DE，结合矩形性质及勾股定理求CE，进而求AC．",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形中位线定理\", \"平行四边形的性质\", \"矩形的判定\", \"勾股定理\"],\n  \"reasoning\": \"（1）利用三角形中位线定理证明DE∥BC，结合DG=FC证明四边形DFCG是平行四边形，再由DF⊥BC证明为矩形；（2）通过等腰直角三角形的性质求BC，利用三角形中位线定理求DE，结合矩形性质及勾股定理求CE，进而求AC．\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "在平面直角坐标系xOy中，函数y＝kx+b（k≠0）的图象经过点（1，3）和（2，5）．\n（1）求k，b的值；\n（2）当x＜1时，对于x的每一个值，函数y＝mx（m≠0）的值既小于函数y＝kx+b的值，也小于函数y＝x+k的值，直接写出m的取值范围．",
+      "stem_markdown": "在平面直角坐标系xOy中，函数y＝kx+b（k≠0）的图象经过点（1，3）和（2，5）．\n（1）求k，b的值；\n（2）当x＜1时，对于x的每一个值，函数y＝mx（m≠0）的值既小于函数y＝kx+b的值，也小于函数y＝x+k的值，直接写出m的取值范围．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）直接利用待定系数法求解即可；\n（2）由（1）可得函数y＝kx+b（k≠0）的解析式为y＝2x+1，函数y＝x+k的解析式为y＝x+2，当mx＜2x+1时，则（m﹣2）x＜1，当mx＜x+2时，则（m﹣1）x＜2，根据当x＜1时，两个不等式都成立可得m≥2；当m＝2，x＜1时，2x＜2x+1和x＜2恒成立；当m＞2时，则$x＜\\frac{1}{m-2}$且$x＜\\frac{2}{m-1}$，再分当$\\frac{1}{m-2}≥\\frac{2}{m-1}$时，则$\\frac{2}{m-1}≥1$，当$\\frac{1}{m-2}＜\\frac{2}{m-1}$时，则$\\frac{1}{m-2}≥1$，两种情况分别解不等式即可得到答案．\n【解答】解：（1）∵在平面直角坐标系xOy中，函数y＝kx+b（k≠0）的图象经过点（1，3）和（2，5），\n∴$\\begin{cases} k+b=3 \\\\ 2k+b=5 \\end{cases}$，\n解得$\\begin{cases} k=2 \\\\ b=1 \\end{cases}$；\n（2）由（1）可得函数y＝kx+b（k≠0）的解析式为y＝2x+1，函数y＝x+k的解析式为y＝x+2，\n当mx＜2x+1时，则（m﹣2）x＜1，\n当mx＜x+2时，则（m﹣1）x＜2，\n∵当x＜1时，对于x的每一个值，函数y＝mx（m≠0）的值既小于函数y＝kx+b的值，也小于函数y＝x+k的值，\n∴m﹣2≥0，且m﹣1≥0，\n∴m≥2，\n当m＝2，x＜1时，2x＜2x+1和x＜2恒成立，故m＝2符合题意；\n当m＞2时，则$x＜\\frac{1}{m-2}且x＜\\frac{2}{m-1}$，\n当$\\frac{1}{m-2}≥\\frac{2}{m-1}$时，则$\\frac{2}{m-1}≥1$．\n解不等式$\\frac{1}{m-2}≥\\frac{2}{m-1}$得m≤3，解不等式m≤3，\n∴2＜m≤3；\n当$\\frac{1}{m-2}＜\\frac{2}{m-1}$时，则$\\frac{1}{m-2}≥1$，\n解不等式$\\frac{1}{m-2}＜\\frac{2}{m-1}$得m＞3，解不等式$\\frac{1}{m-2}≥1$得m≤3，此时不符合题意；\n综上所述，2≤m≤3．\n【点评】本题主要考查了待定系数法求一次函数解析式，一次函数与不等式之间的关系，熟知一次函数的相关知识是解题的关键．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "一次函数解析式",
+          "一元一次不等式组"
+        ],
+        "reasoning": "通过待定系数法求出一次函数的解析式，并利用一元一次不等式组确定m的取值范围。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"一次函数解析式\", \"一元一次不等式组\"],\n  \"reasoning\": \"通过待定系数法求出一次函数的解析式，并利用一元一次不等式组确定m的取值范围。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "北京风筝制作技艺是国家级非物质文化遗产．为制作一只京燕风筝，小明准备了五根直竹条（如图1）；一根门条、两根等长的膀条和两根等长的尾条．他将门条和膀条分别烤弯后与尾条一起扎成风筝的骨架（如图2），其头部高、胸腹高与尾部高的比是1：1：2．已知单根膀条长是胸腹高的5倍，门条比单根膀条短10cm，图1中BC的长是门条长的\\frac{5}{9}，AB．CD的长均等于胸腹高．求这只风筝的骨架的总高．\n[图1]",
+      "stem_markdown": "北京风筝制作技艺是国家级非物质文化遗产．为制作一只京燕风筝，小明准备了五根直竹条（如图1）；一根门条、两根等长的膀条和两根等长的尾条．他将门条和膀条分别烤弯后与尾条一起扎成风筝的骨架（如图2），其头部高、胸腹高与尾部高的比是1：1：2．已知单根膀条长是胸腹高的5倍，门条比单根膀条短10cm，图1中BC的长是门条长的$\\frac{5}{9}$，AB．CD的长均等于胸腹高．求这只风筝的骨架的总高．\n![2025年北京市中考数学试卷_q022_img01](assets/2025年北京市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】设胸腹高为xcm，则单根膀条长为5xcm，门条AD的长度为 （5x﹣10）cm，$BC=\\frac{5}{9}(5x-10)cm$，AB＝CD＝xcm，头部高为xcm，尾部高为2xcm，这只风筝的骨架的总高为4xcm；由AD＝AB+BC+CD列方程求出 x＝20，进而求出风筝的骨架的总高即可．\n【解答】解：设胸腹高为xcm，则单根膀条长为5xcm，门条AD的长度为（5x﹣10）cm，$BC=\\frac{5}{9}(5x-10)cm$，AB＝CD＝x，头部高为x，尾部高为2xcm，这只风筝的骨架的总高为4xcm，\n由AD＝AB+BC+CD，\n可得$5x-10=x+\\frac{5}{9}(5x-10)+x$，\n解得：x＝20；\n所以这只风筝的骨架的总高4x＝80cm，\n答：这只风筝的骨架的总高80cm．\n【点评】本题主要考查了一元一次方程的应用，弄清量之间的关系、列出一元一次方程是解题的关键．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q022_img01",
+          "path": "assets/2025年北京市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "比例关系",
+          "线段长度计算"
+        ],
+        "reasoning": "根据门条、膀条和尾条的关系及总高比例列出方程求解",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"比例关系\", \"线段长度计算\"],\n  \"reasoning\": \"根据门条、膀条和尾条的关系及总高比例列出方程求解\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "校田径队教练选出甲、乙、丙、丁四名运动员参加100米比赛．对这四名运动员最近10次100米跑测试成绩（单位：s）的数据进行整理、描述和分析．下面给出了部分信息．\na．甲、乙两名运动员10次测试成绩的折线图：\n[图1]\nb．丙运动员10次测试成绩：\n12.4 12.4 12.5 12.7 12.8 12.8 12.8 12.8 12.9 12.9\nc．四名运动员10次测试成绩的平均数、中位数、方差\n甲 | 乙 | 丙 | 丁\n平均数 | 12.5 | 12.5 | p | 12.5\n中位数 | m | 12.5 | 12.8 | 12.45\n方差 | 0.056 | n | 0.034 | 0.056\n（1）表中m的值为 ____ ；\n（2）表中n ____ 0.056（填“＞”“＝”或“＜”）；\n（3）根据这10次测试成绩，教练按如下方式评估这四名运动员的实力强弱：首先比较平均数，平均数较小者实力更强；若平均数相等，则比较方差，方差较小者实力更强；若平均数、方差分别相等，则测试成绩小于平均数的次数较多者实力更强．评估结果：这四名运动员按实力由强到弱依次为 ____ ．",
+      "stem_markdown": "校田径队教练选出甲、乙、丙、丁四名运动员参加100米比赛．对这四名运动员最近10次100米跑测试成绩（单位：s）的数据进行整理、描述和分析．下面给出了部分信息．\na．甲、乙两名运动员10次测试成绩的折线图：\n![2025年北京市中考数学试卷_q023_img01](assets/2025年北京市中考数学试卷_q023_img01.png)\nb．丙运动员10次测试成绩：\n12.4 12.4 12.5 12.7 12.8 12.8 12.8 12.8 12.9 12.9\nc．四名运动员10次测试成绩的平均数、中位数、方差\n| 甲 | 乙 | 丙 | 丁 |  |\n| --- | --- | --- | --- | --- |\n| 平均数 | 12.5 | 12.5 | p | 12.5 |\n| 中位数 | m | 12.5 | 12.8 | 12.45 |\n| 方差 | 0.056 | n | 0.034 | 0.056 |\n（1）表中m的值为 ____ ；\n（2）表中n ____ 0.056（填“＞”“＝”或“＜”）；\n（3）根据这10次测试成绩，教练按如下方式评估这四名运动员的实力强弱：首先比较平均数，平均数较小者实力更强；若平均数相等，则比较方差，方差较小者实力更强；若平均数、方差分别相等，则测试成绩小于平均数的次数较多者实力更强．评估结果：这四名运动员按实力由强到弱依次为 ____ ．",
+      "options": [],
+      "answer": "12.5",
+      "solution": "【分析】（1）根据中位数定义即可求解m；\n（2）根据方差计算公式求解，再比较即可；\n（3）根据中位数、方差、平均数，结合题意分析即可．\n【解答】解：（1）甲的10次测试成绩排列为：12.1，12.1，12.5，12.5，12.5，12.5，12.5，12.7，12.7，12.9，\n∴中位数$m=\\frac{12.5+12.5}{2}=12.5$，\n故答案为：12.5；\n（2）乙的方差为：$\\frac{1}{10}$[（12.6﹣12.5）^{2}×2+（12.3﹣12.5）^{2}+（12.5﹣12.5）^{2}×3+（12.7﹣12.5）^{2}×2+（12.4﹣12.5）^{2}+（12.2﹣12.5）^{2}]＝0.024，\n∴n＜0.056，\n故答案为：＜；\n（3）丙的平均数$p=\\frac{12.4+12.4+12.5+12.7+12.8+12.8+12.8+12.8+12.9+12.9}{10}=12.7$，\n∴丙的平均数最大，则实力最弱，\n∵方差0.024＜0.034＜0.056，\n∴乙实力最强，\n∵丁的测试成绩中位数为12.45，\n∴第5，6次成绩和为24.9，\n∴前5次测试成绩小于平均数，甲测试成绩小于平均数12.5的次数有2次，\n∴丁比甲强，\n∴这四名运动员按实力由强到弱依次为：乙、丁、甲、丙，\n故答案为：乙、丁、甲、丙．\n【点评】本题考查了折线统计图，计算方差，中位数，平均数等知识点，正确理解题意是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q023_img01",
+          "path": "assets/2025年北京市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平均数",
+          "中位数",
+          "方差"
+        ],
+        "reasoning": "题中涉及甲、乙、丙、丁四名运动员的平均数、中位数、方差的计算与比较。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平均数\", \"中位数\", \"方差\"],\n  \"reasoning\": \"题中涉及甲、乙、丙、丁四名运动员的平均数、中位数、方差的计算与比较。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，过点P作⊙O的两条切线，切点分别为A，B，连接OA，OB，OP，取OP的中点C，连接AC并延长，交⊙O于点D，连接BD．\n（1）求证：∠ADB＝∠AOP；\n（2）延长OP交DB的延长线于点E．若AP＝10，tan∠AOP=\\frac{1}{2}，求DE的长．\n[图1]",
+      "stem_markdown": "如图，过点P作⊙O的两条切线，切点分别为A，B，连接OA，OB，OP，取OP的中点C，连接AC并延长，交⊙O于点D，连接BD．\n（1）求证：∠ADB＝∠AOP；\n（2）延长OP交DB的延长线于点E．若AP＝10，tan∠AOP$=\\frac{1}{2}$，求DE的长．\n![2025年北京市中考数学试卷_q024_img01](assets/2025年北京市中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用切线长定理得OP平分∠AOB，利用圆周角定理得$∠ADB=\\frac{1}{2}∠AOB$，等量代换即可证明；\n（2）延长AO交⊙O于点F，连接DF，利用条件求出线段长，再利用角度转换证明三角形相似，最后根据相似求得DE长．\n【解答】（1）证明：∵AP，BP分别切⊙O于A点，B点，\n∴OP平分∠AOB，\n∴$∠AOP=\\frac{1}{2}∠AOB$，\n又∵$AB=AB$，\n∴$∠ADB=\\frac{1}{2}∠AOB$，\n∴∠ADB＝∠AOP；\n（2）解：延长AO交⊙O于点F，连接DF，则∠ADF＝90°，\n[[image:rId43]]\n∵AP，BP分别切⊙O于A点，B点，\n∴PA⊥OA，\n∵C为OP的中点，\n∴PC＝OC，\n∴$AC=OC=\\frac{1}{2}OP$，\n又∵AP＝10，$tan∠AOP=\\frac{1}{2}$，\n∴$AO=\\frac{AP}{tan∠AOP}=20$，$OP=\\sqrt{AO^{2}+AP^{2}}=\\sqrt{20^{2}+10^{2}}=10\\sqrt{5}$，$AC=OC=\\frac{1}{2}OP=5\\sqrt{5}$，AF＝2AO＝40，\n∵AC＝OC，\n∴∠CAO＝∠AOC，\n又∵∠PAO＝∠ADF＝90°，\n∴△AOP∽△DAF，\n∴$\\frac{PO}{AO}=\\frac{FA}{DA}$，\n∴$DA=\\frac{20}{10\\sqrt{5}}×40=16\\sqrt{5}$，$CD=DA-AC=11\\sqrt{5}$，\n∵∠AOP＝∠ADB，∠ACO＝∠ECD，\n∴△ACO∽△ECD，\n∴$\\frac{AO}{ED}=\\frac{CO}{CD}$，\n∴$DE=\\frac{11\\sqrt{5}}{5\\sqrt{5}}×20=44$．\n【点评】本题主要考查切线长定理，圆周角定理及推论，勾股定理，三角函数，相似三角形的判定与性质等知识点，熟记切线长定理，圆周角定理，并且 能根据题意作出合适的辅助线是解题的关键．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q024_img01",
+          "path": "assets/2025年北京市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线长定理",
+          "圆周角定理",
+          "相似三角形的判定与性质"
+        ],
+        "reasoning": "（1）利用切线长定理得OP平分∠AOB；（2）利用相似三角形的判定与性质求DE的长。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线长定理\", \"圆周角定理\", \"相似三角形的判定与性质\"],\n  \"reasoning\": \"（1）利用切线长定理得OP平分∠AOB；（2）利用相似三角形的判定与性质求DE的长。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "工厂对新员工进行某种工艺品制作的培训．在完成理论学习后，新员工接下来先使用智能辅助训练系统进行一次为期T日（T可取0，1，2或3）的模拟练习，然后开始试制．记一名新员工在试制阶段的第x日单日制成的合格品的个数为y，根据以往的培训经验，对于给定的T，可以认为y是x的函数．当T＝0和T＝3时，部分数据如下：\nx | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9\nT＝0时y的值 | 0 | 7 | 8 | 10 | 12 | 16 | 20 | 23 | 25 | 26\nT＝3时y的值 | 0 | 26 | 37 | 43 | m | 48 | 50 | 51 | 52 | 53\nT＝3时，从试制阶段的第2日起，一名新员工每一日比前一日多制成的合格品的个数逐渐减少或保持不变．\n对于给定的T，在平面直角坐标系xOy中描出该T值下各数对（x，y）所对应的点，并根据变化趋势用平滑曲线连接，得到曲线∁T．当T＝1和T＝2时，曲线C₁，C₂如图所示．\n（1）观察曲线C₁，当整数x的值为 ____ 时，y的值首次超过35；\n（2）写出表中m的值，并在给出的平面直角坐标系中画出T＝3时的曲线C₃；\n（3）新员工小云和小腾刚刚完成理论学习，接下来进行模拟练习和试制．\n①若新员工单日制成不少于45个合格品即可获得“优秀学员”证书，根据上述函数关系，小云最早在完成理论学习后的第 ____ 日可获得“优秀学员”证书；\n②若工厂希望小腾在完成理论学习后的4日内制成的合格品的总数最多，根据上述函数关系，在这4日中应安排小腾先进行 ____ 日的模拟练习．\n[图1]",
+      "stem_markdown": "工厂对新员工进行某种工艺品制作的培训．在完成理论学习后，新员工接下来先使用智能辅助训练系统进行一次为期T日（T可取0，1，2或3）的模拟练习，然后开始试制．记一名新员工在试制阶段的第x日单日制成的合格品的个数为y，根据以往的培训经验，对于给定的T，可以认为y是x的函数．当T＝0和T＝3时，部分数据如下：\n| x | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| T＝0时y的值 | 0 | 7 | 8 | 10 | 12 | 16 | 20 | 23 | 25 | 26 |\n| T＝3时y的值 | 0 | 26 | 37 | 43 | m | 48 | 50 | 51 | 52 | 53 |\nT＝3时，从试制阶段的第2日起，一名新员工每一日比前一日多制成的合格品的个数逐渐减少或保持不变．\n对于给定的T，在平面直角坐标系xOy中描出该T值下各数对（x，y）所对应的点，并根据变化趋势用平滑曲线连接，得到曲线∁_{T}．当T＝1和T＝2时，曲线$C_{1}$，$C_{2}$如图所示．\n（1）观察曲线$C_{1}$，当整数x的值为 ____ 时，y的值首次超过35；\n（2）写出表中m的值，并在给出的平面直角坐标系中画出T＝3时的曲线$C_{3}$；\n（3）新员工小云和小腾刚刚完成理论学习，接下来进行模拟练习和试制．\n①若新员工单日制成不少于45个合格品即可获得“优秀学员”证书，根据上述函数关系，小云最早在完成理论学习后的第 ____ 日可获得“优秀学员”证书；\n②若工厂希望小腾在完成理论学习后的4日内制成的合格品的总数最多，根据上述函数关系，在这4日中应安排小腾先进行 ____ 日的模拟练习．\n![2025年北京市中考数学试卷_q025_img01](assets/2025年北京市中考数学试卷_q025_img01.png)",
+      "options": [],
+      "answer": "6",
+      "solution": "【分析】（1）找$C_{1}$图象上y的值首次超过35时的x值；\n（2）根据第2日起，一名新员工每一日比前一日多制成的合格品的个数逐渐减少或保持不变，第5日比第3日多试制5个合格产品，可知第4日比第3日多3个合格产品，即得；运用表格数据在平面直角坐标系描点画出函数图象；\n（3）①根据单日制成不少于45个合格品的只有$C_{2}$与$C_{3}$，$C_{3}$：T＝3x＝4时，y＝46，得T+x＝7；$C_{2}$：T＝2，当x＝6时，y＝45，得T+x＝8，比较即得小云最早在完成理论学习后的第7日可获得“优秀学员”证书；\n②分模拟练习T＝0日，T＝1日，T＝2日，T＝3日，求出对应的4日内的试制日数，试制的合格产品数，比较即得应安排小腾先进行的模拟练习日数．\n【解答】解：（1）由曲线$C_{1}$看出，当整数x的值为6时，y的值首次超过35，\n故答案为：6；\n（2）∵T＝3日的模拟练习时，从试制阶段的第2日起，一名新员工每一日比前一日多制成的合格品的个数逐渐减少或保持不变，在试制阶段的第3日单日制成的合格品43个，第5日单日制成的合格品48个，\n∴相差48﹣43＝5（个），\n把5分成两个接近的数，5＝3+2，\n∴第4日增加3个，第5日增加2个，\n∴m＝43+3＝46，\n画出T＝3时的曲线$C_{3}$：\n[[image:rId45]]\n（3）①单日制成不少于45个合格品的只有$C_{2}$与$C_{3}$，\n$C_{3}$：T＝3日的模拟练习，然后试制阶段第x＝4日制成的合格品达到y＝46个，\n∴T+x＝7；\n$C_{2}$：T＝2日的模拟练习，然后试制阶段第x＝6日制成的合格品达到y＝45个，\n∴T+x＝8，\n∵7＜8，\n故小云最早在完成理论学习后的第7日可获得“优秀学员”证书；\n故答案为：7；\n②如图，\n[[image:rId46]]\n当模拟练习T＝0日时，\n4日内的试制时间x＝4﹣0＝4日，\n4日的合格产品分别是7，8，10，12，\n∴合格产品共有7+8+10+12＝37；\n当模拟练习T＝1日时，\n4日内的试制时间x＝4﹣1＝3日，\n3日的合格产品分别是12，19，26，\n∴合格产品共有12+19+26＝57；\n当模拟练习T＝2日时，\n4日内的试制时间x＝4﹣2＝2日，\n2日的合格产品分别是20，30，\n∴合格产品共有20+30＝50；\n当模拟练习T＝3日时，\n4日内的试制时间x＝4﹣3＝1日，\n1日的合格产品是26；\n∵26＜37＜50＜57，\n∴希望小腾在完成理论学习后的4日内制成的合格品的总数最多，根据上述函数关系，在这4日中应安排小腾先进行1日的模拟练习．\n故答案为：1．\n【点评】本题考查了表格法与图象法表示函数．熟练掌握函数表示的表格法与图象法，根据表格信息画函数图象，函数的图象和性质，函数的增减性质，求函数值或自变量的值，是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q025_img01",
+          "path": "assets/2025年北京市中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "函数关系",
+          "线性递增",
+          "表格数据",
+          "图像分析"
+        ],
+        "reasoning": "解析（1）考察曲线C₁上y首次超过35时的x值",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"函数关系\", \"线性递增\", \"表格数据\", \"图像分析\"],\n  \"reasoning\": \"解析（1）考察曲线C₁上y首次超过35时的x值\",\n  \"confidence\": 0.90\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "在平面直角坐标系xOy中，抛物线y＝ax²+bx+c（a≠0）经过点O和点A（3，3a）．\n（1）求c的值，并用含a的式子表示b；\n（2）过点P（t，0）作x轴的垂线，交抛物线于点M，交直线y＝ax于点N．\n①若a＝1，t＝4，求MN的长；\n②已知在点P从点O运动到点B（2a，0）的过程中，MN的长随OP的长的增大而增大，求a的取值范围．",
+      "stem_markdown": "在平面直角坐标系xOy中，抛物线y＝$ax^{2}$+bx+c（a≠0）经过点O和点A（3，3a）．\n（1）求c的值，并用含a的式子表示b；\n（2）过点P（t，0）作x轴的垂线，交抛物线于点M，交直线y＝ax于点N．\n①若a＝1，t＝4，求MN的长；\n②已知在点P从点O运动到点B（2a，0）的过程中，MN的长随OP的长的增大而增大，求a的取值范围．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）分别将O（0，0），O（0，0）代入抛物线解析式，即可获得答案；\n（2）①结合题意，分别确定点M、N的坐标，即可获得答案；\n②首先确定MN＝|$at^{2}$﹣3at|，再分a＞0和a＜0两种情况分析求解即可．\n【解答】解：（1）将点O（0，0）代入，抛物线y＝$ax^{2}$+bx+c，\n可得c＝0，\n∴该抛物线解析式为y＝$ax^{2}$+bx，\n将点A（3，3a）代入，抛物线y＝$ax^{2}$+bx，\n可得3a＝9a+3b，解得b＝﹣2a；\n（2）①若 a＝1，则该抛物线及直线解析分别为y＝$x^{2}$﹣2x，y＝x，\n当t＝4时，可有点P（4，0），如图，\n[[image:rId47]]\n∵PM⊥x轴，\n∴$x_{M}＝x_{N}$＝4，\n将x＝4代入y＝$x^{2}$﹣2x，可得y＝4^{2}﹣2×4＝8，即M（4，8），\n将x＝4代入y＝x，可得y＝4，即N（4，4），\n∴MN＝8﹣4＝4；\n②当点P从点O运动到点B（2a，0）的过程中，\n∵PM⊥x轴，P（t，0），\n∴$x_{M}＝x_{N}$＝t，\n将x＝t代入y＝$ax^{2}$﹣2ax，可得y＝$at^{2}$﹣2at，即M（t，$at^{2}$﹣2at），\n将x＝t代入y＝ax，可得y＝at，即N（t，at），\n∴MN＝|$at^{2}$﹣2at﹣at|＝|$at^{2}$﹣3at|，\n令MN＝0，即$at^{2}$﹣3at＝0，解得t＝0或t＝3，\n若a＞0，可有2a＞0，即点P在y轴右侧，如图，\n[[image:rId48]]\n当0＜t≤3时，可有MN＝﹣$at^{2}$+3at，其图象开口向下，对称轴为直线$t=\\frac{3}{2}$，\n若MN的长随OP的长的增大而增大，即MN的长随t的增大而增大，则$2a≤\\frac{3}{2}$，\n解得$a≤\\frac{3}{4}$，\n当t＞3时，可有MN＝$at^{2}$﹣3at其图象开口向上，对称轴为直线$t=\\frac{3}{2}$，不符合题意；\n若a＜0，可有2a＜0，即点P在y轴左侧，如图，\n[[image:rId49]]\n当t＜0时，可有MN＝﹣$at^{2}$+3at，其图象开口向上，对称轴为直线$t=\\frac{3}{2}$，\n若MN的长随OP的长增大而增大，即MN的长随t的增大而增大，\n则$2a≤\\frac{3}{2}$，解得$a≤\\frac{3}{4}$，\n∴a＜0，\n综上所述，a的取值范围为a$≤\\frac{3}{4}$且a≠0．\n【点评】本题主要考查了待定系数法求二次函数解析式、二次函数的图象与性质、二次函数与一次函数综合应用等知识，解题关键是运用数形结合和分类讨论的思想分析问题．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "二次函数图像与性质",
+          "一次函数图像与性质"
+        ],
+        "reasoning": "第（1）问通过待定系数法求解c和b；第（2）问①中通过二次函数图像性质求MN长度；第（2）问②中通过一次函数图像性质判断MN长度变化。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"二次函数图像与性质\", \"一次函数图像与性质\"],\n  \"reasoning\": \"第（1）问通过待定系数法求解c和b；第（2）问①中通过二次函数图像性质求MN长度；第（2）问②中通过一次函数图像性质判断MN长度变化。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q027",
+      "question_no": "27",
+      "question_type": "solution",
+      "stem_text": "在△ABC中，∠ACB＝90°，∠ABC＝α，点D在射线BC上，连接AD，将线段AD绕点A逆时针旋转180°﹣2α得到线段AE（点E不在直线AB上），过点E作EF∥AB，交直线BC于点F．\n（1）如图1，α＝45°，点D与点C重合，求证：BF＝AC；\n（2）如图2，点D，F都在BC的延长线上，用等式表示DF与BC的数量关系，并证明．\n[图1]",
+      "stem_markdown": "在△ABC中，∠ACB＝90°，∠ABC＝α，点D在射线BC上，连接AD，将线段AD绕点A逆时针旋转180°﹣2α得到线段AE（点E不在直线AB上），过点E作EF∥AB，交直线BC于点F．\n（1）如图1，α＝45°，点D与点C重合，求证：BF＝AC；\n（2）如图2，点D，F都在BC的延长线上，用等式表示DF与BC的数量关系，并证明．\n![2025年北京市中考数学试卷_q027_img01](assets/2025年北京市中考数学试卷_q027_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据α＝45°，得出∠BAC＝∠ABC＝45°，根据旋转可得AE＝AD＝AC，∠EAB＝90°﹣∠BAC＝45°，进而证明四边形ABFE是平行四边形，得出BF＝AE，BF＝AC；即可得证；\n（2）在DB上取一点G，使得AG＝AB，证明△DAG≌△EAB（SAS），得出DG＝BE，∠AGD＝∠ABE＝180°﹣∠AGC＝180°﹣α，进而根据三角形内角和定理得出∠FBE＝180°﹣2α，根据平行线的性质得出∠BFE＝∠ABF＝α，进而得出∠BEF＝α，根据等角对等边可得BE＝BF，则DG＝BF，根据三线合一可得GC＝BC，进而根据DF＝BD﹣BF＝BD﹣DG＝BG＝2BC，即可得证．\n【解答】证明：（1）∵∠ACB＝90°，∠ABC＝45°，\n∴∠BAC＝∠ABC＝45°，\n∵线段AD绕点A逆时针旋转180°﹣2×45°＝90°得到线段AE，点D与点C重合，\n∴AE＝AD＝AC，∠EAB＝90°﹣∠BAC＝45°，\n∴∠EAB＝∠ABC，\n∴BC∥AE，\n∵EF∥AB，\n∴四边形ABFE是平行四边形，\n∴BF＝AE，\n∴BF＝AC；\n（2）DF＝2BC，证明：\n如图，在DC上取一点G，使得CG＝CB，\n[[image:rId51]]\n∵∠ACB＝90°，\n∴∠ACG＝∠ACB＝90°，\n在Rt△ACG和Rt△ACB中，\n$\\begin{cases} AC=AC \\\\ ∠ACG=ACB \\\\ CG=CB \\end{cases}$，\n∴Rt△ACG≌Rt△ACB（SAS），\n∴AG＝AB，\n∴∠AGB＝∠ABG＝α，\n∴∠BAG＝180°﹣2α，\n∵将线段AD绕点A逆时针旋转180°﹣2α得到线段AE，\n∴DA＝EA，\n∴∠DAE＝∠GAB＝180°﹣2α，\n∴∠DAG＝∠EAB，\n∴△DAG≌△EAB（SAS），\n∴DG＝BE，∠AGD＝∠ABE＝180°﹣∠AGC＝180°﹣α，\n又∵∠ABC＝α，\n∵∠FBE＝∠ABE﹣∠ABC＝180°﹣α﹣α＝180°﹣2α，\n∵EF∥AB，\n∴∠BFE＝∠ABF＝α，\n∴∠BEF＝180°﹣∠FBE﹣∠BFE＝α，\n∴BE＝BF，\n∴DG＝BF，\n∴DF＝BD﹣BF＝BD﹣DG＝BG＝2BC．\n【点评】本题考查了旋转的性质，全等三角形的性质与判定，等腰三角形的性质，三角形内角和定理的应用，平行四边形的性质与判定，熟练掌握旋转的性质是解题的关键．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q027_img01",
+          "path": "assets/2025年北京市中考数学试卷_q027_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "旋转的性质",
+          "全等三角形的性质与判定",
+          "平行四边形的性质与判定",
+          "三角形内角和定理"
+        ],
+        "reasoning": "题目涉及旋转、全等三角形证明及平行四边形性质，同时利用三角形内角和定理。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"旋转的性质\", \"全等三角形的性质与判定\", \"平行四边形的性质与判定\", \"三角形内角和定理\"],\n  \"reasoning\": \"题目涉及旋转、全等三角形证明及平行四边形性质，同时利用三角形内角和定理。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年北京市中考数学试卷_q028",
+      "question_no": "28",
+      "question_type": "solution",
+      "stem_text": "在平面直角坐标系xOy中，对于点A和⊙C给出如下定义：若⊙C上存在两个不同的点M，N，对于⊙C上任意满足AP＝AQ的两个不同的点P，Q，都有∠PAQ≤∠MAN，则称点A是⊙C的关联点，称∠MAN的大小为点A与⊙C的关联角度．（本定义中的角均指锐角、直角、钝角或平角）\n（1）如图，⊙O的半径为1．\n①在点A₁（\\frac{1}{2}，0），A₂（\\frac{4}{3}，0），A₃（2，0）中，点 ____ 是⊙O的关联点且其与⊙O的关联角度小于90°，该点与⊙O的关联角度为 ____ °；\n②点B（1，m）在第一象限，若对于任意长度小于1的线段BD，BD上所有的点都是⊙O的关联点，则m的最小值为 ____ ；\n（2）已知点E（1，3），F（4，3），T（t，0），⊙T经过原点，线段EF上所有的点都是⊙T的关联点，记这些点与⊙T的关联角度的最大值为α．若90°≤α≤180°，直接写出t的取值范围．\n[图1]\n2025年北京市中考数学试卷",
+      "stem_markdown": "在平面直角坐标系xOy中，对于点A和⊙C给出如下定义：若⊙C上存在两个不同的点M，N，对于⊙C上任意满足AP＝AQ的两个不同的点P，Q，都有∠PAQ≤∠MAN，则称点A是⊙C的关联点，称∠MAN的大小为点A与⊙C的关联角度．（本定义中的角均指锐角、直角、钝角或平角）\n（1）如图，⊙O的半径为1．\n①在点$A_{1}$（$\\frac{1}{2}$，0），$A_{2}$（$\\frac{4}{3}$，0），$A_{3}$（2，0）中，点 ____ 是⊙O的关联点且其与⊙O的关联角度小于90°，该点与⊙O的关联角度为 ____ °；\n②点B（1，m）在第一象限，若对于任意长度小于1的线段BD，BD上所有的点都是⊙O的关联点，则m的最小值为 ____ ；\n（2）已知点E（1，3），F（4，3），T（t，0），⊙T经过原点，线段EF上所有的点都是⊙T的关联点，记这些点与⊙T的关联角度的最大值为α．若90°≤α≤180°，直接写出t的取值范围．\n![2025年北京市中考数学试卷_q028_img01](assets/2025年北京市中考数学试卷_q028_img01.png)\n2025年北京市中考数学试卷",
+      "options": [],
+      "answer": "$A_{3}$，60",
+      "solution": "【分析】（1）①根据新定义可得$A_{3}$的是⊙O的关联点且其与⊙O的关联角度小于90°，进而根据切线的性质，解Rt△$MA_{3}$O，即可求得∠$MA_{3}$O＝30°，即可求解；\n②根据定义可得B为⊙O外一点，由BD＜1，⊙O的半径为1，得出BO≥2，进而当OB＝2时，勾股定理求得m的值，即可求解；\n（2）由（1）可得，当A在圆的外部时，且AM，AN为圆的切线时，∠MAN最大，且A距离圆心越近，根据90°≤α≤180°，得出$r＜TA≤\\sqrt{2}r$，根据已知可得，EF上距离T最近的点在$t≤TA≤\\sqrt{2}t$的圆环内，根据EF是固定线段，让⊙T移动，分四种情况讨论，求得t的临界值，即可求解．\n【解答】解：（1）①根据定义可得：当A在⊙O上时，不存在都有∠PAQ≤∠MAN；\n当A在⊙O内部时，过A的直线MN使得⊙O的关联角度为180°；\n当A在⊙O的外部时，且AM，AN为⊙O的切线时，∠MAN最大；\n如图，$A_{3}$是⊙O的关联点且其与⊙O的关联角度小于90°，$A_{1}$与⊙O的关联角度为180°，$A_{2}$与⊙O的关联角度大于90°，\n[[image:rId53]]\n∵$A_{3}$（2，0），⊙O的半径为1，\n∴OM＝1，$OA_{3}$＝2，且$MA_{3}$是⊙O的切线，\n∴$sin∠MA_{3}O=\\frac{OM}{OA_{3}}=\\frac{1}{2}$，\n∴∠$MA_{3}$O＝30°，\n∴∠$MA_{3}$N＝60°，即与⊙O的关联角度为60°，\n故答案为：$A_{3}$，60；\n②根据定义可得B为⊙O外一点，\n∵BD＜1，⊙O的半径为1，\n∴BO≥2，\n当OB＝2时，如图，取点G（1，0），则∠OGB＝90°，\n[[image:rId54]]\n∴$m≥BG=\\sqrt{OB^{2}-OG^{2}}=\\sqrt{2^{2}-1^{2}}=\\sqrt{3}$，\n∴m的最小值为$\\sqrt{3}$，\n故答案为：$\\sqrt{3}$；\n（2）由（1）可得，当A在圆的外部时，且AM，AN为圆的切线时，∠MAN最大，且A距离圆心越近，\n∵90°≤α≤180°，\n∴当∠MAN＝90°时，由∠TMA＝∠TNA＝90°，如图，\n[[image:rId55]]\n∴四边形TMAN是矩形，\n∵TM＝TA，\n∴四边形TMAN是正方形，\n∴$TA=\\sqrt{2}TM=\\sqrt{2}r$，\n当∠MAN≥90°时，$r＜TA≤\\sqrt{2}r$，\n∵点E（1，3），F（4，3），T（t，0），⊙T经过原点，线段EF上所有的点都是⊙T的关联点，则r＝|t|，\n∴EF上距离T最近的点在$t＜TA≤\\sqrt{2}t$的圆环内，\n①EF和$\\sqrt{2}t$的圆相切，如图，\n[[image:rId56]]\n∴$TA=3=\\sqrt{2}t$，\n解得：$t=\\frac{3\\sqrt{2}}{2}$；\n②EF和半径为t的圆相切时，如图，\n[[image:rId57]]\n∴t＝3 （不包含临界值），\n∴$\\frac{3\\sqrt{2}}{2}≤t＜3$；\n③当E在半径为t的圆，如图，\n[[image:rId58]]\n∴$t^{2}$＝（t﹣1）^{2}+3^{2}，\n解得：t＝5 （不包含临界值），\n∴t＞5时，E，F都在⊙T内部，此时α＝180°；\n④当E在半径为$\\sqrt{2}t$的圆，如图，\n[[image:rId59]]\n设⊙T的半径为r，则t＝﹣r，\n∴$3^{2}+(r+1)^{2}=(\\sqrt{2}r)^{2}$，\n解得：$r=1+\\sqrt{11}$，\n∴$t≤-1-\\sqrt{11}$时，此时90°≤α≤180°；\n综上所述，$\\frac{3\\sqrt{2}}{2}≤t＜3$或t＞5或$t≤-1-\\sqrt{11}$．\n【点评】本题考查了新定义，直线与圆的位置关系，点与圆的位置关系，理解新定义是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:32:57；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId61]] ____ [[image:rId62]] ____ [[image:rId63]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年北京市中考数学试卷_q028_img01",
+          "path": "assets/2025年北京市中考数学试卷_q028_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线的性质",
+          "锐角三角函数",
+          "圆与直线的位置关系",
+          "新定义"
+        ],
+        "reasoning": "题目通过切线性质和锐角三角函数计算关联角度，利用圆与直线的位置关系确定点的位置，结合新定义判断关联点。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线的性质\", \"锐角三角函数\", \"圆与直线的位置关系\", \"新定义\"],\n  \"reasoning\": \"题目通过切线性质和锐角三角函数计算关联角度，利用圆与直线的位置关系确定点的位置，结合新定义判断关联点。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T13:59:03",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 28,
+      "ok": 28,
+      "fallback": 0
+    }
+  }
+}

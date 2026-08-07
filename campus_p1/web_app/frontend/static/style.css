@@ -1,0 +1,506 @@
+/* AI 切题识别系统 - demo 样式 */
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #f5f6f8;
+  color: #2c3e50;
+}
+
+[contenteditable] { outline: none; }
+[contenteditable]:focus { background: #fffbe6; border-radius: 4px; }
+
+/* -------- 顶部任务栏 -------- */
+.topbar {
+  height: 56px;
+  background: linear-gradient(90deg, #1a3a8a 0%, #2c5fc7 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+}
+.topbar-left { display: flex; align-items: center; gap: 12px; }
+.logo { font-size: 24px; }
+.title { font-size: 18px; font-weight: 600; letter-spacing: 1px; }
+.topbar-right { font-size: 13px; }
+.health-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  font-family: ui-monospace, monospace;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.health-badge.ok { background: rgba(40, 200, 80, 0.35); }
+.health-badge.fail { background: rgba(220, 50, 50, 0.35); }
+.health-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #b0b8c2;
+}
+.health-dot.ok { background: #28c850; box-shadow: 0 0 4px rgba(40, 200, 80, 0.8); }
+.health-dot.fail { background: #ff5252; }
+
+/* -------- 主布局 -------- */
+.main {
+  display: flex;
+  height: calc(100vh - 56px);
+}
+
+/* -------- 左侧栏 -------- */
+.sidebar {
+  width: 280px;
+  background: white;
+  border-right: 1px solid #e3e6eb;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-header {
+  padding: 14px 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #e3e6eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #5a6878;
+}
+.btn-icon {
+  background: transparent;
+  border: 1px solid #ccd2db;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: #5a6878;
+}
+.btn-icon:hover { background: #f0f2f5; }
+
+.paper-list { flex: 1; overflow-y: auto; }
+.paper-empty { padding: 24px 16px; color: #99a3b0; font-size: 13px; text-align: center; }
+.paper-item {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f2f5;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.15s;
+}
+.paper-item:hover { background: #f7f9fc; }
+.paper-item.active { background: #e8f0fe; border-left: 3px solid #2c5fc7; }
+.paper-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.paper-meta { font-size: 12px; color: #8693a3; }
+.btn-del {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #b0b8c2;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.paper-item:hover .btn-del { opacity: 1; }
+.btn-del:hover { color: #e74c3c; }
+
+/* -------- 中间区域 -------- */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+/* -------- 空状态 -------- */
+.empty-state {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 48px 32px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border: 2px dashed transparent;
+  transition: border 0.2s, background 0.2s;
+}
+.empty-state.dragging {
+  border-color: #2c5fc7;
+  background: #f0f6ff;
+}
+.empty-icon { font-size: 64px; margin-bottom: 12px; }
+.empty-state h2 { margin: 8px 0; font-size: 22px; }
+.empty-state p { color: #7c8896; margin: 8px 0 24px; font-size: 14px; }
+.empty-tip { color: #99a3b0 !important; font-size: 12px !important; margin-top: 24px !important; }
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 22px;
+  background: #2c5fc7;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  transition: background 0.15s;
+}
+.btn-primary:hover { background: #1e4ba8; }
+.btn-primary:disabled { background: #b0b8c2; cursor: not-allowed; }
+.btn-primary.big { padding: 12px 32px; font-size: 16px; margin-top: 16px; }
+
+.uploaded-list {
+  margin-top: 32px;
+  text-align: left;
+  padding-top: 24px;
+  border-top: 1px solid #f0f2f5;
+}
+.uploaded-list h3 { font-size: 14px; margin: 0 0 12px; color: #5a6878; }
+.uploaded-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: #f7f9fc;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+.uploaded-name { color: #2c3e50; }
+.uploaded-size { color: #99a3b0; font-family: ui-monospace, monospace; }
+
+/* -------- 进度条 -------- */
+.processing {
+  max-width: 720px;
+  margin: 60px auto;
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+.processing h2 { margin: 0 0 20px; }
+.progress-bar {
+  height: 8px;
+  background: #eef0f3;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #2c5fc7 0%, #4d8aff 100%);
+  transition: width 0.3s ease;
+}
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #5a6878;
+}
+.progress-num { font-weight: 600; color: #2c5fc7; }
+.progress-log {
+  margin-top: 24px;
+  max-height: 360px;
+  overflow-y: auto;
+  border: 1px solid #f0f2f5;
+  border-radius: 6px;
+  padding: 12px;
+  background: #fafbfc;
+}
+.progress-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  font-size: 13px;
+  font-family: ui-monospace, "SF Mono", monospace;
+}
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #b0b8c2;
+}
+.dot.s-ok { background: #28c850; }
+.dot.s-fb { background: #f0a020; }
+.dot.s-start { background: #2c5fc7; }
+.dot.s-err { background: #e74c3c; }
+.msg { color: #5a6878; }
+
+/* -------- 试卷详情 -------- */
+.paper-detail { max-width: 960px; margin: 0 auto; }
+.paper-detail-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.paper-detail-titleline {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.paper-detail-header h2 { margin: 0; font-size: 22px; }
+.paper-stats { color: #7c8896; font-size: 13px; }
+.paper-detail-actions { margin-left: auto; }
+
+.questions { display: flex; flex-direction: column; gap: 16px; }
+.q-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px 24px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+.q-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.q-no { font-weight: 600; color: #2c5fc7; font-size: 15px; }
+.q-type {
+  padding: 2px 8px;
+  background: #e8f0fe;
+  color: #2c5fc7;
+  border-radius: 10px;
+  font-size: 11px;
+}
+.q-score { color: #8693a3; font-size: 12px; }
+.q-warn { color: #f0a020; font-size: 12px; }
+.q-conf { margin-left: auto; color: #99a3b0; font-size: 12px; }
+
+.edit-label {
+  font-size: 11px;
+  color: #99a3b0;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.md-view {
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 6px 8px;
+  border-radius: 4px;
+  min-height: 24px;
+  word-wrap: break-word;
+}
+.md-view img { max-width: 100%; height: auto; display: inline-block; vertical-align: middle; }
+.md-view code { background: #f0f2f5; padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+
+.q-stem .md-view { font-weight: 500; }
+.q-options { margin-top: 12px; }
+.opt-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+  align-items: flex-start;
+}
+.opt-label {
+  font-weight: 600;
+  color: #2c5fc7;
+  min-width: 22px;
+}
+.opt-text { flex: 1; }
+.q-answer, .q-solution { margin-top: 12px; }
+
+/* -------- 知识点 -------- */
+.q-kp {
+  margin-top: 16px;
+  padding: 14px;
+  background: #f7f9fc;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  position: relative;
+}
+.q-kp.missing { color: #e74c3c; }
+.kp-block { font-size: 13px; }
+.kp-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.kp-list li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: white;
+  border: 1px solid #d0d8e2;
+  border-radius: 12px;
+  font-size: 12px;
+}
+.btn-mini {
+  background: transparent;
+  border: none;
+  color: #b0b8c2;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  line-height: 1;
+}
+.btn-mini:hover { color: #e74c3c; }
+.kp-add input {
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px dashed #d0d8e2;
+  border-radius: 4px;
+  font-size: 12px;
+  background: white;
+}
+.kp-add input:focus { border-style: solid; border-color: #2c5fc7; }
+
+.reasoning { background: white; }
+
+.conf-block {
+  grid-column: 1 / 3;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.conf-block input[type=range] { flex: 1; }
+.conf-num { font-weight: 600; color: #2c5fc7; min-width: 36px; }
+.conf-stars { color: #f0a020; letter-spacing: 2px; }
+
+.raw-detail {
+  grid-column: 1 / 3;
+  font-size: 12px;
+}
+.raw-detail summary { color: #8693a3; cursor: pointer; user-select: none; }
+.raw-detail pre {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  max-height: 200px;
+  white-space: pre-wrap;
+  font-size: 11px;
+}
+
+.save-hint {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 11px;
+  color: #f0a020;
+}
+
+/* -------- 顶部 Tab -------- */
+.tabs { display: flex; gap: 8px; margin-left: 24px; }
+.tab {
+  background: transparent;
+  border: 0;
+  color: rgba(255,255,255,0.75);
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.tab:hover { background: rgba(255,255,255,0.12); color: #fff; }
+.tab.active { background: rgba(255,255,255,0.22); color: #fff; font-weight: 600; }
+
+/* -------- 教学反馈 Tab -------- */
+/* 报告侧栏项：与 .paper-item 完全同款（共用 paper-list 容器） */
+.report-item .report-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.report-item .report-meta { font-size: 12px; color: #8693a3; }
+
+/* 配置卡片：嵌在 view-fb-detail 顶部 */
+.fb-config-card {
+  background: #fff;
+  border: 1px solid #e3e6ec;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+  margin-bottom: 20px;
+  max-width: 720px;
+}
+.fb-config-card .form-row { margin-bottom: 16px; display: flex; flex-direction: column; gap: 6px; }
+.fb-config-card .form-row label { font-weight: 600; font-size: 13px; color: #374151; }
+.fb-config-card input, .fb-config-card select {
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  background: #fff;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.fb-config-card input:focus, .fb-config-card select:focus {
+  outline: none;
+  border-color: #2c5fc7;
+  box-shadow: 0 0 0 3px rgba(44, 95, 199, 0.12);
+}
+.fb-config-card input[type="file"] { padding: 6px; border: 1px dashed #d1d5db; background: #fafbfc; }
+.fb-config-card .muted { color: #6b7280; font-size: 13px; line-height: 1.6; }
+.fb-config-card .muted.small { font-size: 12px; color: #9ca3af; }
+.fb-config-card button.btn-primary.big { width: 100%; margin-top: 4px; }
+.fb-error { background: #fdecea; color: #b71c1c; padding: 8px 12px; border-radius: 4px; font-size: 13px; }
+.fb-toolbar {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  align-items: center;
+}
+.btn-mini {
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.btn-mini:hover { background: #e5e7eb; }
+.md-render {
+  flex: 1;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "SF Mono", "Cascadia Code", Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #1f2937;
+  padding: 18px 20px;
+  background: #ffffff;
+  border: 1px solid #e3e6ec;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+  margin: 0;
+}
+.fb-progress {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 16px;
+}

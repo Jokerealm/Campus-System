@@ -1,0 +1,1160 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年陕西省中考数学试卷（副卷）",
+  "source": {
+    "name": "2025年陕西省中考数学试卷（副卷）",
+    "provider": "word_cutter",
+    "original_file": "2025年陕西省中考数学试卷（副卷）.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "﹣8的绝对值是（ ）",
+      "stem_markdown": "﹣8的绝对值是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "﹣8"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{8}$"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{8}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】负有理数的绝对值是它的相反数，由此即可得到答案．\n【解答】解：﹣8的绝对值是8．\n故选：A．\n【点评】本题考查绝对值的概念，关键是掌握绝对值的意义．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值"
+        ],
+        "reasoning": "题中考察了负有理数的绝对值是它的相反数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\"],\n  \"reasoning\": \"题中考察了负有理数的绝对值是它的相反数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "将下列平面图形绕轴旋转一周，可以得到如图所示的立体图形的是（ ）\n[图1]",
+      "stem_markdown": "将下列平面图形绕轴旋转一周，可以得到如图所示的立体图形的是（ ）\n![2025年陕西省中考数学试卷（副卷）_q002_img01](assets/2025年陕西省中考数学试卷（副卷）_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年陕西省中考数学试卷（副卷）_q002_img02](assets/2025年陕西省中考数学试卷（副卷）_q002_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年陕西省中考数学试卷（副卷）_q002_img03](assets/2025年陕西省中考数学试卷（副卷）_q002_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年陕西省中考数学试卷（副卷）_q002_img04](assets/2025年陕西省中考数学试卷（副卷）_q002_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年陕西省中考数学试卷（副卷）_q002_img05](assets/2025年陕西省中考数学试卷（副卷）_q002_img05.png)"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据面动成体，逐一判断即可解答．\n【解答】解：A、绕轴旋转一周可得到圆柱，故A不符合题意；\nB、绕轴旋转一周可得到圆台，故B不符合题意；\nC、绕轴旋转一周可得到图中所示的立体图形，故C符合题意；\nD．绕轴旋转一周可得到球体，故D不符合题意；\n故选：C．\n【点评】本题考查了点、线、面、体，熟练掌握面动成体是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q002_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q002_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q002_img02",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q002_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q002_img03",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q002_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q002_img04",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q002_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q002_img05",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q002_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆柱的形成",
+          "圆台的形成",
+          "球的形成"
+        ],
+        "reasoning": "选项C绕轴旋转一周形成的图形与题图一致",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆柱的形成\", \"圆台的形成\", \"球的形成\"],\n  \"reasoning\": \"选项C绕轴旋转一周形成的图形与题图一致\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "如图，点O在直线AB上，OC⊥OD．若∠1＝40°，则∠2的度数为（ ）\n[图1]",
+      "stem_markdown": "如图，点O在直线AB上，OC⊥OD．若∠1＝40°，则∠2的度数为（ ）\n![2025年陕西省中考数学试卷（副卷）_q003_img01](assets/2025年陕西省中考数学试卷（副卷）_q003_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "120°"
+        },
+        {
+          "label": "B",
+          "text": "130°"
+        },
+        {
+          "label": "C",
+          "text": "140°"
+        },
+        {
+          "label": "D",
+          "text": "150°"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】求出∠AOD＝50°，再根据平角的定义求解．\n【解答】解：∵OC⊥OD，\n∴∠COD＝90°，\n∴∠AOD＝90°﹣∠1＝50°，\n∴∠2＝180°﹣AOD＝130°．\n故选：B．\n【点评】本题考查垂线，解题的关键是掌握相关知识解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q003_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q003_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "垂直的定义",
+          "角度和计算",
+          "平角的性质"
+        ],
+        "reasoning": "题中条件OC⊥OD，要求∠2的度数，利用平角定义和已知角度计算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"垂直的定义\", \"角度和计算\", \"平角的性质\"],\n  \"reasoning\": \"题中条件OC⊥OD，要求∠2的度数，利用平角定义和已知角度计算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "计算a²•a³÷a的结果为（ ）",
+      "stem_markdown": "计算$a^{2}•a^{3}$÷a的结果为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a^{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$a^{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$a^{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$a^{4}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据同底数幂的除法法则：底数不变，指数相减；同底数幂的乘法法则：同底数幂相乘，底数不变，指数相加进行计算即可．\n【解答】解：原式＝$a^{3}^{+}^{2﹣1}＝a^{4}$，\n故选：D．\n【点评】此题主要考查了同底数幂的乘除法，关键是掌握计算法则．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同底数幂的乘法",
+          "同底数幂的除法"
+        ],
+        "reasoning": "计算过程中使用了同底数幂的乘法和除法法则",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同底数幂的乘法\", \"同底数幂的除法\"],\n  \"reasoning\": \"计算过程中使用了同底数幂的乘法和除法法则\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "如图，在△ABC中，点D在边BC上，∠ADB＝2∠C．若AB＝5，BC＝6，则△ABD的周长为（ ）\n[图1]",
+      "stem_markdown": "如图，在△ABC中，点D在边BC上，∠ADB＝2∠C．若AB＝5，BC＝6，则△ABD的周长为（ ）\n![2025年陕西省中考数学试卷（副卷）_q005_img01](assets/2025年陕西省中考数学试卷（副卷）_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据三角形的外角性质得出角的关系，进而得到边的关系，最后计算△ABD的周长．\n【解答】解：∵∠ADB是△ABD的外角，\n∴∠ADB＝∠C+∠DAC，\n又∵∠ADB＝2∠C，\n∴∠C＝∠DAC，\n∴△ACD是等腰三角形，\n∴AD＝DC，\n因为△ABD的周长＝AB+BD+AD＝AB+BD+DC＝AB+BC，\n∵AB＝5，BC＝6，\n∴△ABD的周长＝5+6＝11．\n故选：C．\n【点评】本题考查了等腰三角形的性质，掌握角和边的关系是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q005_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "三角形外角性质",
+          "角度关系"
+        ],
+        "reasoning": "题中利用三角形外角等于不相邻两内角和得出∠C=∠DAC，从而判断△ACD为等腰三角形，得出AD=DC。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"三角形外角性质\", \"角度关系\"],\n  \"reasoning\": \"题中利用三角形外角等于不相邻两内角和得出∠C=∠DAC，从而判断△ACD为等腰三角形，得出AD=DC。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "在平面直角坐标系中，点A（3，y₁），B（4，y₂）均在直线y＝kx（k≠0）上，若y₁＜y₂，则该直线经过的点的坐标还可以是（ ）",
+      "stem_markdown": "在平面直角坐标系中，点A（3，$y_{1}$），B（4，$y_{2}$）均在直线y＝kx（k≠0）上，若$y_{1}$＜$y_{2}$，则该直线经过的点的坐标还可以是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "（1，0）"
+        },
+        {
+          "label": "B",
+          "text": "（﹣1，﹣3）"
+        },
+        {
+          "label": "C",
+          "text": "（1，﹣2）"
+        },
+        {
+          "label": "D",
+          "text": "（﹣1，2）"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】由点A，B的坐标及$y_{1}$＜$y_{2}$，可得出y随x的增大而增大，进而可得出k＞0，利用一次函数的性质，可得出直线y＝kx（k≠0）经过第一、三象限，再对照四个选项中点的坐标，即可确定结论．\n【解答】解：∵点A（3，$y_{1}$），B（4，$y_{2}$）均在直线y＝kx（k≠0）上，且$y_{1}$＜$y_{2}$，\n∴y随x的增大而增大，\n∴k＞0，\n∴直线y＝kx（k≠0）经过第一、三象限，\n∴该直线经过的点的坐标还可以是（﹣1，﹣3）．\n故选：B．\n【点评】本题考查了一次函数的性质，牢记“k＞0，y随x的增大而增大；k＜0，y随x的增大而减小”是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数的性质",
+          "正比例函数的图像和性质"
+        ],
+        "reasoning": "根据y₁＜y₂判断出k＞0，直线经过第一、三象限",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数的性质\", \"正比例函数的图像和性质\"],\n  \"reasoning\": \"根据y₁＜y₂判断出k＞0，直线经过第一、三象限\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "如图，在矩形ABCD中，AB＝3，BC＝2，延长CB至点E，延长AD至点F，连接AE，CF．若四边形AECF为菱形，则这个菱形的面积为（ ）\n[图1]",
+      "stem_markdown": "如图，在矩形ABCD中，AB＝3，BC＝2，延长CB至点E，延长AD至点F，连接AE，CF．若四边形AECF为菱形，则这个菱形的面积为（ ）\n![2025年陕西省中考数学试卷（副卷）_q007_img01](assets/2025年陕西省中考数学试卷（副卷）_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{39}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{39}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{21}{2}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据菱形的性质得出AE＝EC，进而利用矩形的性质得出∠ABE＝90°，利用勾股定理解答即可．\n【解答】解：∵四边形AECF是菱形，\n∴AE＝EC，\n设AE＝x，则EB＝EC﹣BC＝x﹣2，\n∵四边形ABCD是矩形，\n∴∠ABC＝90°，\n∴∠ABE＝90°，\n在Rt△ABE中，$AE^{2}＝AB^{2}+BE^{2}$，\n即$x^{2}$＝3^{2}+（x﹣2）^{2}，\n解得：x$=\\frac{13}{4}$，\n∴菱形AECF的面积$=3×\\frac{13}{4}=\\frac{39}{4}$，\n故选：C．\n【点评】此题考查菱形的性质，关键是根据菱形的性质得出AE＝EC解答．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q007_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "菱形的性质",
+          "矩形的性质"
+        ],
+        "reasoning": "菱形性质结合勾股定理解题",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"菱形的性质\", \"矩形的性质\"],\n  \"reasoning\": \"菱形性质结合勾股定理解题\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "已知二次函数y＝ax²+bx﹣3（a≠0），当x＞0时，y的值随x值的增大而减小，则下列结论正确的是（ ）",
+      "stem_markdown": "已知二次函数y＝$ax^{2}$+bx﹣3（a≠0），当x＞0时，y的值随x值的增大而减小，则下列结论正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "ab＜0"
+        },
+        {
+          "label": "B",
+          "text": "该函数图象的顶点位于第四象限"
+        },
+        {
+          "label": "C",
+          "text": "方程$ax^{2}$+bx+1＝0没有实数根"
+        },
+        {
+          "label": "D",
+          "text": "该函数的最大值不小于﹣3"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】利用二次函数的开口方向，对称轴，顶点坐标以及判别式等知识，对每一项逐一分析判断即可．\n【解答】解：∵二次函数y＝$ax^{2}$+bx﹣3（a≠0），当x＞0时，y的值随x值的增大而减小，\n∴图象开口向下，对称轴不在y轴的右侧，\n∴$-\\frac{b}{2a}≤$0，a＜0，\n∴b≤0，\n∴ab≥0，故A选项错误，不合题意；\n∵对称轴不在y轴的右侧，\n∴该函数图象的顶点不在y轴的右侧，故选项B错误，不合题意；\n∵b≤0，a＜0，\n∴$b^{2}$﹣4a＞0，\n∴方程$ax^{2}$+bx+1＝0中，Δ＝$b^{2}$﹣4a＞0，\n∴方程$ax^{2}$+bx+1＝0有两个不相等的实数根，故选项C错误，不合题意；\n∵抛物线开口向下，交y轴于点（0，﹣3），\n∴函数的最大值y≥﹣3，选项D正确，符合题意．\n故选：D．\n【点评】本题考查了二次函数图象与系数的关系，二次函数的最值，根的判别式，抛物线与x轴的交点，掌握二次函数的性质是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的开口方向",
+          "二次函数的对称轴",
+          "判别式",
+          "二次函数的最大值"
+        ],
+        "reasoning": "题中条件‘当x＞0时，y的值随x值的增大而减小’表明抛物线开口向下且对称轴在y轴左侧，从而判断ab≥0，Δ＞0，最大值y≥﹣3。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的开口方向\", \"二次函数的对称轴\", \"判别式\", \"二次函数的最大值\"],\n  \"reasoning\": \"题中条件‘当x＞0时，y的值随x值的增大而减小’表明抛物线开口向下且对称轴在y轴左侧，从而判断ab≥0，Δ＞0，最大值y≥﹣3。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "分解因式：a²﹣1＝ ____ ．",
+      "stem_markdown": "分解因式：$a^{2}$﹣1＝ ____ ．",
+      "options": [],
+      "answer": "（a+1）（a﹣1）．",
+      "solution": "【分析】符合平方差公式的特征，直接运用平方差公式分解因式．平方差公式：$a^{2}﹣b^{2}$＝（a+b）（a﹣b）．\n【解答】解：$a^{2}$﹣1＝（a+1）（a﹣1）．\n故答案为：（a+1）（a﹣1）．\n【点评】本题主要考查平方差公式分解因式，熟记公式是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平方差公式"
+        ],
+        "reasoning": "题目要求分解因式 a²﹣1，符合平方差公式 $a^{2}﹣b^{2}$＝（a+b）（a﹣b) 的特征。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平方差公式\"],\n  \"reasoning\": \"题目要求分解因式 a²﹣1，符合平方差公式 $a^{2}﹣b^{2}$＝（a+b）（a﹣b) 的特征。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "如图，将正五边形绕着它的中心O旋转n°（0＜n＜360）后，能够与原来的图形完全重合，则n的值可以是 ____ （写出一个符合题意的数即可）．\n[图1]",
+      "stem_markdown": "如图，将正五边形绕着它的中心O旋转n°（0＜n＜360）后，能够与原来的图形完全重合，则n的值可以是 ____ （写出一个符合题意的数即可）．\n![2025年陕西省中考数学试卷（副卷）_q010_img01](assets/2025年陕西省中考数学试卷（副卷）_q010_img01.png)",
+      "options": [],
+      "answer": "72（答案不唯一）．",
+      "solution": "【分析】正五边形可以被平分成五部分，因而每部分被分成的圆心角是72°，并且圆具有旋转不变性，因而旋转72度的整数倍，就可以与自身重合．\n【解答】解：该图形被平分成五部分，360°÷5＝72°，\n∴旋转72度的整数倍，就可以与自身重合，\n故答案为：72（答案不唯一）．\n【点评】本题考查了正多边形与圆，旋转对称图形，正确记忆相关知识点是解题关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q010_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "角度制",
+          "正多边形",
+          "旋转对称图形"
+        ],
+        "reasoning": "题中通过正五边形被平分成五部分，每部分的角度是72°，考察了角度制和正多边形的知识。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"角度制\", \"正多边形\", \"旋转对称图形\"],\n  \"reasoning\": \"题中通过正五边形被平分成五部分，每部分的角度是72°，考察了角度制和正多边形的知识。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "科技馆开展“太空遨游”和“深海探秘”两项科技体验活动，某校组织200名学生参加，每名学生只参加其中的一项．经统计，参加“太空遨游”的人数比参加“深海探秘”的人数的2倍还多20人，则参加“深海探秘”的人数为 ____ ．",
+      "stem_markdown": "科技馆开展“太空遨游”和“深海探秘”两项科技体验活动，某校组织200名学生参加，每名学生只参加其中的一项．经统计，参加“太空遨游”的人数比参加“深海探秘”的人数的2倍还多20人，则参加“深海探秘”的人数为 ____ ．",
+      "options": [],
+      "answer": "60．",
+      "solution": "【分析】根据参加两种活动人数间的关系，设参加“深海探秘”的人数为x人，那么参加“太空遨游”的人数为2x+20人，结合参加两种活动的共200人，即可列出关于x的一元一次方程，此题得解．\n【解答】解：设参加“深海探秘”的人数为x人，\n那么参加“太空遨游”的人数为（2x+20）人，\nx+（2x+20）＝200，\n解得x＝60，\n故答案为：60．\n【点评】本题考查了由实际问题抽象出一元一次方程，找准等量关系，正确列出一元一次方程是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "代数表达式",
+          "线性方程组"
+        ],
+        "reasoning": "设未知数并建立方程描述人数关系",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"代数表达式\", \"线性方程组\"],\n  \"reasoning\": \"设未知数并建立方程描述人数关系\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "如图，点A，B，C，D在⊙O上，若∠1+∠2＝100°，则∠B的度数为 ____ ．\n[图1]",
+      "stem_markdown": "如图，点A，B，C，D在⊙O上，若∠1+∠2＝100°，则∠B的度数为 ____ ．\n![2025年陕西省中考数学试卷（副卷）_q012_img01](assets/2025年陕西省中考数学试卷（副卷）_q012_img01.png)",
+      "options": [],
+      "answer": "80°．",
+      "solution": "【分析】根据圆内接四边形的性质得到∠B+∠D＝180°，根据圆周角定理得到∠B$=\\frac{1}{2}$∠AOC，再根据四边形内角和是360°列式计算即可．\n【解答】解：∵四边形ABCD为⊙O内接四边形，\n∴∠B+∠D＝180°，\n由圆周角定理得：∠B$=\\frac{1}{2}$∠AOC，\n∵∠1+∠2＝100°，\n∴∠AOC+∠D＝360°﹣100°＝260°，\n∴2∠B+180°﹣∠B＝260°，\n∴∠B＝80°，\n故答案为：80°．\n【点评】本题考查的是圆内接四边形的性质、圆周角定理，掌握圆内接四边形的对角互补是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q012_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆内接四边形的性质",
+          "圆周角定理"
+        ],
+        "reasoning": "题中利用圆内接四边形的对角互补和圆周角定理求解∠B的度数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆内接四边形的性质\", \"圆周角定理\"],\n  \"reasoning\": \"题中利用圆内接四边形的对角互补和圆周角定理求解∠B的度数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "一个反比例函数的图象经过A（m，﹣4），B（3，n）两点，若m＜﹣3，则n的取值范围是 ____ ．",
+      "stem_markdown": "一个反比例函数的图象经过A（m，﹣4），B（3，n）两点，若m＜﹣3，则n的取值范围是 ____ ．",
+      "options": [],
+      "answer": "n＞4．",
+      "solution": "【分析】设反比例函数解析式为y$=\\frac{k}{x}$（k≠0），再把A（m，﹣4），B（3，n）两点代入即可得出结论．\n【解答】解：设反比例函数解析式为y$=\\frac{k}{x}$（k≠0），\n∵反比例函数的图象经过A（m，﹣4），B（3，n）两点，\n∴k＝﹣4m，k＝3n，\n∴﹣4m＝3n，\n∴m$=\\frac{3n}{-4}$\n∵m＜﹣3\n∴$\\frac{3n}{-4}＜-$3，\n∴n＞4．\n故答案为：n＞4．\n【点评】此题主要考查了待定系数法求反比例函数的解析式，解决问题的关键是掌握函数图象上的点的坐标必须满足函数解析式．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的性质",
+          "待定系数法求函数解析式",
+          "不等式的性质"
+        ],
+        "reasoning": "题中通过A、B两点确定反比例函数解析式，并利用m的范围求解n的取值范围，涉及反比例函数性质和不等式的应用。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的性质\", \"待定系数法求函数解析式\", \"不等式的性质\"],\n  \"reasoning\": \"题中通过A、B两点确定反比例函数解析式，并利用m的范围求解n的取值范围，涉及反比例函数性质和不等式的应用。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，在▱ABCD中，AB＝4，BC＝6，∠B＝60°，点E，N，F，M分别在边AB，BC，CD，DA上，且EF，MN将▱ABCD分成面积相等的四部分．若BE＝1，则MN的长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在▱ABCD中，AB＝4，BC＝6，∠B＝60°，点E，N，F，M分别在边AB，BC，CD，DA上，且EF，MN将▱ABCD分成面积相等的四部分．若BE＝1，则MN的长为 ____ ．\n![2025年陕西省中考数学试卷（副卷）_q014_img01](assets/2025年陕西省中考数学试卷（副卷）_q014_img01.png)",
+      "options": [],
+      "answer": "$\\sqrt{13}$．",
+      "solution": "【分析】首先通过构造垂线AH⊥BC得到直角三角形ABH，利用∠B＝60°的锐角三角函数求得AH，接着计算得到平行四边形总面积，得每部分面积为$3\\sqrt{3}$，然后借对称性证△DFM≌△BEN，得DF＝1、DM＝BN．由平行四边形的对称性与面积平衡再设BN＝x，用△BEN与△AEM的面积列方程，解得BN＝4.5，推得AM＝1.5、CF＝3．最后过M作MP⊥BC构直角三角形，用勾股定理得$MN=\\sqrt{13}$．\n【解答】解：过A作AH⊥BC于点H，\n∵∠B＝60°，\n∴在Rt△ABH中，$AH=AB⋅sin60°=4×\\frac{\\sqrt{3}}{2}=2\\sqrt{3}$，\n∴$S_{▱ABCD}=AH×BC=2\\sqrt{3}×6=12\\sqrt{3}$，\n∵EF，MN将▱ABCD分成面积相等的四部分，\n∴每部分面积为$\\frac{12\\sqrt{3}}{4}=3\\sqrt{3}$，交点即为平行四边形的中心O，\n在▱ABCD中，AB＝4，BC＝6，∠B＝60°，AD∥BC，\n∴AD＝BC＝6，AB＝CD＝4，∠B＝∠D＝60°，∠ABD＝∠DBC，\n连接BD，\n∴BD经过中心点O，\n∴OB＝OD，\n∵∠DOF＝∠EOB，\n∴△DOF≌△EOB（AAS）．\n同理得：△DOM≌△BON（AAS），\n∴BN＝DM，DF＝BE＝1．\n设BN＝x，\n过E作EQ⊥BC于点Q，\n在Rt△EBQ中，$EQ=EB⋅sin60°=1×\\frac{\\sqrt{3}}{2}=\\frac{\\sqrt{3}}{2}$，\n∴$S_{△BEN}=\\frac{1}{2}×BN×EQ=\\frac{1}{2}×x×\\frac{\\sqrt{3}}{2}=$$\\frac{\\sqrt{3}}{4}x$，\n过E作EG⊥AM于MA延长线上点G，\n又∵∠A＝120°，\n∴∠GAE＝180°﹣120°＝60°，且AE＝AB﹣BE＝4﹣1＝3．\n在Rt△EGA中，$EG=AE⋅sin60°=3×\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{2}$，\n∴$S_{△}_{AEM}=\\frac{1}{2}AM⋅EG=$$\\frac{1}{2}×(6-x)×\\frac{3\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{4}(6-x)$，\n又∵平行四边形的对称性与面积平衡可得，$S_{△}_{BEN}＝S_{△}_{AEM}$，\n∴$\\frac{\\sqrt{3}}{4}x=\\frac{3\\sqrt{3}}{4}(6-x)$，\n解得x＝4.5，\n∴AM＝6﹣x＝6﹣4.5＝1.5．\n过M作MP⊥BC交BC于P，过A作AH⊥BC于点H，\n则$MP=AH=AB×sin60°=2\\sqrt{3}$，\n∴HP＝AM＝1.5，$BH=AB⋅cos60°=4×\\frac{1}{2}=2$．\n∴PN＝BN﹣BH﹣HP＝4.5﹣2﹣1.5＝1．\n在Rt△MPN中，由勾股定理：$MN=\\sqrt{1^{2}+(2\\sqrt{3})^{2}}=\\sqrt{13}$；\n故答案为：$\\sqrt{13}$．\n[[image:rId41]]\n【点评】本题主要考查平行四边形性质、全等三角形、面积公式及勾股定理，用面积分割与对称性思想．关键是借对称性证全等、用面积求线段，再构直角三角形计算；易错点是漏用对称性或误判直角边．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q014_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形",
+          "勾股定理",
+          "平行四边形性质",
+          "面积公式"
+        ],
+        "reasoning": "题中通过构造全等三角形和面积相等来求解MN长度，涉及相似三角形和面积公式。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形\", \"勾股定理\", \"平行四边形性质\", \"面积公式\"],\n  \"reasoning\": \"题中通过构造全等三角形和面积相等来求解MN长度，涉及相似三角形和面积公式。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q015",
+      "question_no": "15",
+      "question_type": "solution",
+      "stem_text": "计算：﹣4×3+((-\\sqrt{5}))^{2}+((\\frac{1}{2}))^{-1}．",
+      "stem_markdown": "计算：﹣4×3$+((-\\sqrt{5}))^{2}+((\\frac{1}{2}))^{-1}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先根据二次根式的性质和负整数指数幂的性质计算乘方，再算乘法，最后算加减即可．\n【解答】解：原式＝﹣4×3+5+2\n＝﹣12+5+2\n＝﹣5．\n【点评】本题主要考查了实数的运算，解题关键是熟练掌握二次根式的性质和负整数指数幂的性质．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式的性质",
+          "负整数指数幂",
+          "实数的运算"
+        ],
+        "reasoning": "计算过程中涉及二次根式的平方和负指数幂的求值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式的性质\", \"负整数指数幂\", \"实数的运算\"],\n  \"reasoning\": \"计算过程中涉及二次根式的平方和负指数幂的求值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q016",
+      "question_no": "16",
+      "question_type": "solution",
+      "stem_text": "解不等式3（2x﹣1）≤4x+1，把它的解集表示在如图所示的数轴上．\n[图1]",
+      "stem_markdown": "解不等式3（2x﹣1）≤4x+1，把它的解集表示在如图所示的数轴上．\n![2025年陕西省中考数学试卷（副卷）_q016_img01](assets/2025年陕西省中考数学试卷（副卷）_q016_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】根据解一元一次不等式基本步骤：去分母、去括号、移项、合并同类项、系数化为1可得．\n【解答】解：3（2x﹣1）≤4x+1，\n去括号，得6x﹣3≤4x+1，\n移项，合并同类项，得2x≤4，\n系数化为1，x≤2，\n原不等式的解集在数轴上表示如图：\n[[image:rId43]]．\n【点评】本题主要考查解一元一次不等式的基本能力，严格遵循解不等式的基本步骤是关键，尤其需要注意不等式两边都乘以或除以同一个负数不等号方向要改变．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q016_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式",
+          "去括号",
+          "移项",
+          "系数化为1"
+        ],
+        "reasoning": "题中通过解不等式3（2x﹣1）≤4x+1，考察了一元一次不等式的解法步骤。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式\", \"去括号\", \"移项\", \"系数化为1\"],\n  \"reasoning\": \"题中通过解不等式3（2x﹣1）≤4x+1，考察了一元一次不等式的解法步骤。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "解方程：\\frac{x}{2x-6}-\\frac{1}{x-3}=1．",
+      "stem_markdown": "解方程：$\\frac{x}{2x-6}-\\frac{1}{x-3}=1$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先把分式方程转变为整式方程，解整式方程求出x的值，然后检验即可．\n【解答】解：$\\frac{x}{2x-6}-\\frac{1}{x-3}=1$，\n方程两边同时乘2（x﹣3），得x﹣2＝2x﹣6，\n解得：x＝4，\n检验，把x＝4代入2（x﹣3）≠0，\n∴分式方程的解为x＝4．\n【点评】本题考查了解分式方程，掌握解分式方程的方法是解题的关键．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程的解法",
+          "去分母",
+          "方程检验"
+        ],
+        "reasoning": "方程两边同时乘2(x﹣3)去分母，解得x=4，检验x=4时2(x﹣3)不为0",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程的解法\", \"去分母\", \"方程检验\"],\n  \"reasoning\": \"方程两边同时乘2(x﹣3)去分母，解得x=4，检验x=4时2(x﹣3)不为0\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "如图，在△ABC中，∠A＝90°．请利用尺规作图法求作一点P，使得PA＝PB且PC∥AB．（保留作图痕迹，不写作法）\n[图1]",
+      "stem_markdown": "如图，在△ABC中，∠A＝90°．请利用尺规作图法求作一点P，使得PA＝PB且PC∥AB．（保留作图痕迹，不写作法）\n![2025年陕西省中考数学试卷（副卷）_q018_img01](assets/2025年陕西省中考数学试卷（副卷）_q018_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】结合平行线的性质和线段垂直平分线的性质，先作线段AB的垂直平分线l，再在BC的上方作∠DCB＝∠B，交直线l于点P，则点P即为所求．\n【解答】解：如图，先作线段AB的垂直平分线l，再在BC的上方作∠DCB＝∠B，交直线l于点P，\n则点P即为所求．\n[[image:rId45]]\n【点评】本题考查作图—复杂作图、平行线的性质、线段垂直平分线的性质，熟练掌握平行线的性质和线段垂直平分线的性质是解答本题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q018_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "垂线段最短",
+          "线段垂直平分线性质",
+          "平行线的性质"
+        ],
+        "reasoning": "作线段AB的垂直平分线及构造等腰三角形利用平行线性质",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"垂线段最短\", \"线段垂直平分线性质\", \"平行线的性质\"],\n  \"reasoning\": \"作线段AB的垂直平分线及构造等腰三角形利用平行线性质\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "如图，在正方形ABCD中，点E，F分别在边BC，CD上，且∠BAE＝∠DAF．求证：CE＝CF．\n[图1]",
+      "stem_markdown": "如图，在正方形ABCD中，点E，F分别在边BC，CD上，且∠BAE＝∠DAF．求证：CE＝CF．\n![2025年陕西省中考数学试卷（副卷）_q019_img01](assets/2025年陕西省中考数学试卷（副卷）_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】根据正方形的性质得出AD＝AB，进而利用全等三角形的判定与性质解答即可．\n【解答】证明：∵四边形ABCD是正方形，\n∴AB＝BC＝DC＝AD，∠B＝∠D，\n在△ABE与△ADF中，\n$\\begin{cases} ∠D=∠B \\\\ AD=AB \\\\ ∠DAF=∠BAE \\end{cases}$，\n∴△ABE≌△ADF（ASA），\n∴BE＝DF，\n∴BC﹣BE＝DC﹣DF，\n即CE＝CF．\n【点评】此题考查正方形的性质，全等三角形的判定与性质，关键是根据正方形的性质得出AD＝AB解答．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q019_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正方形的性质",
+          "全等三角形的判定(ASA)",
+          "等量代换"
+        ],
+        "reasoning": "题中利用正方形性质得出AD=AB，再结合∠D=∠B和∠DAF=∠BAE证明△ABE≌△ADF",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正方形的性质\", \"全等三角形的判定(ASA)\", \"等量代换\"],\n  \"reasoning\": \"题中利用正方形性质得出AD=AB，再结合∠D=∠B和∠DAF=∠BAE证明△ABE≌△ADF\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "某校召开趣味运动会，经过预赛的激烈角逐，甲、乙、丙、丁四支队伍获得“迎面接力跑”决赛资格，为确定决赛时的赛道（从内到外的道次依次为1，2，3，4），裁判组决定采用下面的方式：在一个不透明的盒子里放入四个小球，分别标有数字1，2，3，4，这四个小球除所标数字外都相同，每支队伍从盒中随机摸出一个小球，摸出的小球上所标的数字作为该队的道次．\n（1）将盒中四个小球摇匀，若从中随机摸出一个小球，摸出标有数字1的小球的概率为 ____ ；\n（2）将盒中四个小球摇匀，甲队先从盒中随机摸出一个小球，不放回，摇匀，乙队再从盒中随机摸出一个小球．请利用画树状图或列表的方法，求甲、乙两队在决赛时赛道相邻的概率．",
+      "stem_markdown": "某校召开趣味运动会，经过预赛的激烈角逐，甲、乙、丙、丁四支队伍获得“迎面接力跑”决赛资格，为确定决赛时的赛道（从内到外的道次依次为1，2，3，4），裁判组决定采用下面的方式：在一个不透明的盒子里放入四个小球，分别标有数字1，2，3，4，这四个小球除所标数字外都相同，每支队伍从盒中随机摸出一个小球，摸出的小球上所标的数字作为该队的道次．\n（1）将盒中四个小球摇匀，若从中随机摸出一个小球，摸出标有数字1的小球的概率为 ____ ；\n（2）将盒中四个小球摇匀，甲队先从盒中随机摸出一个小球，不放回，摇匀，乙队再从盒中随机摸出一个小球．请利用画树状图或列表的方法，求甲、乙两队在决赛时赛道相邻的概率．",
+      "options": [],
+      "answer": "$\\frac{1}{4}$．",
+      "solution": "【分析】（1）由题意知，共有4种等可能的结果，其中摸出标有数字1的小球的结果有1种，利用概率公式可得答案．\n（2）列表可得出所有等可能的结果数以及甲、乙两队在决赛时赛道相邻的结果数，再利用概率公式可得出答案．\n【解答】解：（1）由题意知，共有4种等可能的结果，其中摸出标有数字1的小球的结果有1种，\n∴从中随机摸出一个小球，摸出标有数字1的小球的概率为$\\frac{1}{4}$．\n故答案为：$\\frac{1}{4}$．\n（2）列表如下：\n| 1 | 2 | 3 | 4 |\n| --- | --- | --- | --- |\n| 1 | （1，2） | （1，3） | （1，4） |\n| 2 | （2，1） | （2，3） | （2，4） |\n| 3 | （3，1） | （3，2） | （3，4） |\n| 4 | （4，1） | （4，2） | （4，3） |\n共有12种等可能的结果，其中甲、乙两队在决赛时赛道相邻的结果有：（1，2），（2，1），（2，3），（3，2），（3，4），（4，3），共6种，\n∴甲、乙两队在决赛时赛道相邻的概率为$\\frac{6}{12}=\\frac{1}{2}$．\n【点评】本题考查列表法与树状图法、概率公式，熟练掌握列表法与树状图法以及概率公式是解答本题的关键．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率计算",
+          "树状图法",
+          "排列组合"
+        ],
+        "reasoning": "（1）计算摸出标有数字1的小球的概率；（2）利用树状图法求甲、乙两队赛道相邻的概率。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率计算\", \"树状图法\", \"排列组合\"],\n  \"reasoning\": \"（1）计算摸出标有数字1的小球的概率；（2）利用树状图法求甲、乙两队赛道相邻的概率。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "小伟和小华想用所学数学知识测量小河的宽．测量示意图如图所示，他们在河边的山坡BM上的点C处安装测角仪CD，测得河对岸点A的俯角α为8.5°，CD与BM的夹角β为78.5°，又测得点C与河岸点B之间的距离CB为10m．已知CD＝1.6m，点A，B，C，D，M，N在同一平面上，点A，B，N在同一水平直线上，且CD⊥AB．求河宽AB．（参考数据：sin8.5°≈0.15，cos8.5°≈0.99，tan8.5°≈0.15，sin78.5°≈0.98，cos78.5°≈0.20，tan78.5°≈4.92）\n[图1]",
+      "stem_markdown": "小伟和小华想用所学数学知识测量小河的宽．测量示意图如图所示，他们在河边的山坡BM上的点C处安装测角仪CD，测得河对岸点A的俯角α为8.5°，CD与BM的夹角β为78.5°，又测得点C与河岸点B之间的距离CB为10m．已知CD＝1.6m，点A，B，C，D，M，N在同一平面上，点A，B，N在同一水平直线上，且CD⊥AB．求河宽AB．（参考数据：sin8.5°≈0.15，cos8.5°≈0.99，tan8.5°≈0.15，sin78.5°≈0.98，cos78.5°≈0.20，tan78.5°≈4.92）\n![2025年陕西省中考数学试卷（副卷）_q021_img01](assets/2025年陕西省中考数学试卷（副卷）_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】延长DC交AN于点H，在Rt△BCH和Rt△DAH中，利用直角三角形的边角间关系求出BH、CH、AH，最后利用线段的和差关系得结论．\n【解答】解：延长DC交AN于点H，则DH⊥AN．\n[[image:rId48]]\n在Rt△BCH中，∠BCH＝∠β＝78.5°，\n∵cos∠BCH$=\\frac{CH}{BC}$，sin∠BCH$=\\frac{BH}{BC}$，\n∴CH＝CB•cos78.5°\n≈10×0.20\n＝2（m），\nBH＝CB•sin78.5°\n≈10×0.98\n＝9.8（m）．\n∴DH＝CD+CH＝3.6（m）．\n∵DE∥AN，\n∴∠DAN＝∠EDA＝α＝8.5°．\n在Rt△DAH中，\n∵tan∠DAN$=\\frac{DH}{AH}$，\n∴$AH=\\frac{DH}{tan8.5°}≈24$（m）．\n∴AB＝AH﹣BH＝24﹣9.8＝14.2（m），\n答：河宽AB约为14.2m．\n【点评】本题考查了解直角三角形，掌握直角三角形的边角间关系、线段的和差关系等知识点是解决本题的关键．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q021_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "余弦函数",
+          "正弦函数"
+        ],
+        "reasoning": "计算河宽时使用了正切、余弦和正弦函数关系",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"余弦函数\", \"正弦函数\"],\n  \"reasoning\": \"计算河宽时使用了正切、余弦和正弦函数关系\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "在探究小球速度随时间变化规律的实验中，小球由静止开始沿斜面向下滚动，到达斜面底端后，在水平面上继续滚动直至停止，如图①所示．小球滚动过程中的速度y（m/s）与时间x（s）之间的关系如图②所示．\n（1）求AB所在直线的函数表达式；\n（2）求该小球滚动过程中从斜面底端至停止所用的时长．\n[图1]",
+      "stem_markdown": "在探究小球速度随时间变化规律的实验中，小球由静止开始沿斜面向下滚动，到达斜面底端后，在水平面上继续滚动直至停止，如图①所示．小球滚动过程中的速度y（m/s）与时间x（s）之间的关系如图②所示．\n（1）求AB所在直线的函数表达式；\n（2）求该小球滚动过程中从斜面底端至停止所用的时长．\n![2025年陕西省中考数学试卷（副卷）_q022_img01](assets/2025年陕西省中考数学试卷（副卷）_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）求出直线OA的解析式，进而求出点A的坐标，根据待定系数法即可求出答案；\n（2）求出直线AB与x轴的交点，即小球滚动的时间，减去小球静止开始沿斜面向下滚动的时间，即可得到答案．\n【解答】解：（1）设OA所在直线的函数表达式为y＝kx（k≠0），\n∴2＝k，\n∴小球滚动过程中的速度y（m/s）与时间x（s）之间的关系为y＝2x，\n∴A点坐标为（2，4）．\n设AB所在直线的函数表达式为y＝mx+b（m≠0），\n得$\\begin{cases} 4=2m+b \\\\ 2=3.5m+b \\end{cases}$，\n解得$\\begin{cases} m=-\\frac{4}{3} \\\\ b=\\frac{20}{3} \\end{cases}$\n∴y$=-\\frac{4}{3}$x$+\\frac{20}{3}$；\n（2）当y＝0时，\n$-\\frac{4}{3}$x$+\\frac{20}{3}=$0，\n解得x＝5，\n∴5﹣2＝3，\n∴该小球在滚动过程中从斜面底端至停止所用的时长为3s．\n【点评】本题主要考查了一次函数的应用，根据待定系数法求出一次函数解析式是解决问题的关键．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q022_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数的应用",
+          "待定系数法",
+          "方程思想"
+        ],
+        "reasoning": "（1）通过待定系数法求直线方程；（2）通过解方程确定时间",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数的应用\", \"待定系数法\", \"方程思想\"],\n  \"reasoning\": \"（1）通过待定系数法求直线方程；（2）通过解方程确定时间\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "为了增强学生的环保意识，普及环保知识，某校在“世界环境日”当天采取自愿报名的方式组织了环保知识竞赛．竞赛结束后，从七、八年级参赛学生的成绩（单位：分，满分100分）中各随机抽取了10名学生的成绩，并进行整理，绘制了如下统计图表：\n[图1]\n平均数 | 中位数 | 方差\n七年级 | a | 95 | S_{1}^{2}\n八年级 | 92.5 | b | S_{2}^{2}\n根据以上信息，解答下列问题：\n（1）表格中的a＝ ____ ，b＝ ____ ，S_{1}^{2} ____ ，S_{2}^{2}（填“＞”“＜”或“＝”）；\n（2）根据以上数据，你认为该校七、八年级哪个年级的学生环保知识掌握较好？请说明理由；\n（3）该校七年级200名学生和八年级160名学生参加了本次环保知识竞赛，得分90分及以上为“优秀”等级，请估计七、八年级参赛学生中达到“优秀”等级的总人数．",
+      "stem_markdown": "为了增强学生的环保意识，普及环保知识，某校在“世界环境日”当天采取自愿报名的方式组织了环保知识竞赛．竞赛结束后，从七、八年级参赛学生的成绩（单位：分，满分100分）中各随机抽取了10名学生的成绩，并进行整理，绘制了如下统计图表：\n![2025年陕西省中考数学试卷（副卷）_q023_img01](assets/2025年陕西省中考数学试卷（副卷）_q023_img01.png)\n| 平均数 | 中位数 | 方差 |  |\n| --- | --- | --- | --- |\n| 七年级 | a | 95 | $S_{1}^{2}$ |\n| 八年级 | 92.5 | b | $S_{2}^{2}$ |\n根据以上信息，解答下列问题：\n（1）表格中的a＝ ____ ，b＝ ____ ，$S_{1}^{2}$ ____ ，$S_{2}^{2}$（填“＞”“＜”或“＝”）；\n（2）根据以上数据，你认为该校七、八年级哪个年级的学生环保知识掌握较好？请说明理由；\n（3）该校七年级200名学生和八年级160名学生参加了本次环保知识竞赛，得分90分及以上为“优秀”等级，请估计七、八年级参赛学生中达到“优秀”等级的总人数．",
+      "options": [],
+      "answer": "93.2",
+      "solution": "【分析】（1）根据平均数、中位数、方差的定义即可得解；\n（2）根据中位数、平均数、方差等方面分析即可；\n（3）由用样本估计总体，分别计算出七年级和八年级优秀的人数，进而得解．\n【解答】解：（1）a$=\\frac{95+96+98+88+95+87+90+95+90+98}{10}=$93.2，\nb$=\\frac{96+97}{2}=$96.5，\n由统计图可发现八年级学生成绩波动性大，\n所以$s^{2}_{1}$＜$s^{2}_{2}$；\n故答案为：93.2；96.5；＜；\n（2）我认为该校七年级学生环保知识掌握较好，因为七年级这10名学生成绩的平均数较高，且方差较小；（答案不唯一，言之有理即可）；\n（3）$200×\\frac{8}{10}+160×\\frac{6}{10}=256$，\n∴估计七、八年级参赛学生中达到“优秀”等级的总人数为256人．\n【点评】本题主要考查了平均数、中位数、方差、用样本估计总体等内容，熟练掌握相关知识是解题的关键．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q023_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "算术平均数",
+          "中位数",
+          "方差"
+        ],
+        "reasoning": "表格中计算平均数、中位数和方差",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"算术平均数\", \"中位数\", \"方差\"],\n  \"reasoning\": \"表格中计算平均数、中位数和方差\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，在△ABC中，AB＝BC，以BC为直径作⊙O，分别交AC，AB于点D，E，连接DO并延长，交⊙O于点F，过点F作⊙O的切线，交CB的延长线于点G．\n（1）求证：DF∥AB；\n（2）若cos∠FOG=\\frac{2}{3}，BG＝2，求AC的长．\n[图1]",
+      "stem_markdown": "如图，在△ABC中，AB＝BC，以BC为直径作⊙O，分别交AC，AB于点D，E，连接DO并延长，交⊙O于点F，过点F作⊙O的切线，交CB的延长线于点G．\n（1）求证：DF∥AB；\n（2）若cos∠FOG$=\\frac{2}{3}$，BG＝2，求AC的长．\n![2025年陕西省中考数学试卷（副卷）_q024_img01](assets/2025年陕西省中考数学试卷（副卷）_q024_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由等腰三角形的性质得出∠A＝∠ACB．∠ACB＝∠ODC，则可得出结论；\n（2）连接CE，设⊙O的半径为r．在Rt△OFG中，$cos∠FOG=\\frac{r}{r+2}=\\frac{2}{3}$，解得r＝4．由勾股定理得出答案．\n【解答】（1）证明：∵AB＝BC，\n∴∠A＝∠ACB．\n∵OC＝OD，\n∴∠ACB＝∠ODC，\n∴∠A＝∠ODC，\n∴DF∥AB；\n（2）解：如图，连接CE，设⊙O的半径为r．\n[[image:rId52]]\n∵FG切⊙O于点F，\n∴∠OFG＝90°．\n在Rt△OFG中，$cos∠FOG=\\frac{r}{r+2}=\\frac{2}{3}$，\n解得r＝4．\n∵DF∥AB，\n∴∠FOG＝∠ABC．\n∵BC为⊙O的直径，\n∴∠CEB＝90°．\n∴$BE=BC⋅cos∠ABC=\\frac{16}{3}$，CE$=\\frac{8}{3}\\sqrt{5}$，\n∵AB＝BC＝8，\n∴$AE=AB-BE=\\frac{8}{3}$．\n在Rt△CEA中，AC$=\\sqrt{AE^{2}+CE^{2}}=\\frac{8}{3}\\sqrt{6}$．\n【点评】本题考查了切线的性质，勾股定理，等腰三角形的性质，锐角三角函数，熟练掌握以上知识是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q024_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "圆的切线性质",
+          "相似三角形的判定与性质",
+          "勾股定理"
+        ],
+        "reasoning": "（1）利用等腰三角形性质得出∠A=∠ACB，结合OC=OD得出∠ACB=∠ODC，进而证明DF∥AB；（2）通过cos∠FOG的值求出⊙O的半径r，利用勾股定理求解AC的长。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"圆的切线性质\", \"相似三角形的判定与性质\", \"勾股定理\"],\n  \"reasoning\": \"（1）利用等腰三角形性质得出∠A=∠ACB，结合OC=OD得出∠ACB=∠ODC，进而证明DF∥AB；（2）通过cos∠FOG的值求出⊙O的半径r，利用勾股定理求解AC的长。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "某景区有一座美丽的彩虹桥，它的部分截面示意图如图所示，桥L，钢缆L₁，L₂均呈抛物线型，线段BC为桥面，线段OA为立柱，OA⊥BC，OA＝2m，L₁，L₂关于OA所在直线对称．L₁的最低点到BC的距离为\\frac{1}{2}m，到OA的距离为2m．以O为原点，以BC所在直线为x轴，以OA所在直线为y轴，建立平面直角坐标系．\n（1）求L₁所在抛物线的函数表达式；\n（2）现要悬挂两条灯带M₁N₁，M₂N₂来增加夜景效果，M₁N₁，M₂N₂均与BC垂直，点M₁，M₂分别在L₁，L₂上，点N₁，N₂在L上，点M₁，M₂到OA的距离均为3m．已知L所在抛物线的函数表达式为y=-\\frac{1}{16}x^{2}，求这两条灯带的总长．\n[图1]",
+      "stem_markdown": "某景区有一座美丽的彩虹桥，它的部分截面示意图如图所示，桥L，钢缆$L_{1}$，$L_{2}$均呈抛物线型，线段BC为桥面，线段OA为立柱，OA⊥BC，OA＝2m，$L_{1}$，$L_{2}$关于OA所在直线对称．$L_{1}$的最低点到BC的距离为$\\frac{1}{2}$m，到OA的距离为2m．以O为原点，以BC所在直线为x轴，以OA所在直线为y轴，建立平面直角坐标系．\n（1）求$L_{1}$所在抛物线的函数表达式；\n（2）现要悬挂两条灯带$M_{1}N_{1}$，$M_{2}N_{2}$来增加夜景效果，$M_{1}N_{1}$，$M_{2}N_{2}$均与BC垂直，点$M_{1}$，$M_{2}$分别在$L_{1}$，$L_{2}$上，点$N_{1}$，$N_{2}$在L上，点$M_{1}$，$M_{2}$到OA的距离均为3m．已知L所在抛物线的函数表达式为y$=-\\frac{1}{16}x^{2}$，求这两条灯带的总长．\n![2025年陕西省中考数学试卷（副卷）_q025_img01](assets/2025年陕西省中考数学试卷（副卷）_q025_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设其表达式为$y=a((x-2))^{2}+\\frac{1}{2}$，根据题意列方程即可得到结论；\n（2）把x＝3代入$y=a((x-2))^{2}+\\frac{1}{2}$得，$y=\\frac{3}{8}×((3-2))^{2}+\\frac{1}{2}=\\frac{7}{8}$，于是得到结论．\n【解答】解：（1）由题意知，$L_{1}$所在抛物线的顶点为$(2，\\frac{1}{2})$，且过A（0，2），\n∴设其表达式为$y=a((x-2))^{2}+\\frac{1}{2}$，\n∴$2=a((0-2))^{2}+\\frac{1}{2}$，\n解得$a=\\frac{3}{8}$，\n∴$L_{1}$所在抛物线的函数表达式为$y=\\frac{3}{8}((x-2))^{2}+\\frac{1}{2}$；\n（2）∵点$M_{1}$，$M_{2}$到OA的距离均为3m，\n把x＝3代入$y=a((x-2))^{2}+\\frac{1}{2}$得y$=\\frac{7}{8}$，\n∴$y=-\\frac{1}{16}×3^{2}=-\\frac{9}{16}$，\n∴$M_{2}N_{2}＝M_{1}$$N_{1}=\\frac{23}{16}$（m），\n∴这两条灯带的总长为$\\frac{23}{8}m$．\n【点评】本题考查了二次函数的应用，正确地理解题意是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q025_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的应用",
+          "抛物线的性质",
+          "坐标系的应用"
+        ],
+        "reasoning": "题中涉及二次函数表达式的确定及应用，以及抛物线的对称性和顶点坐标的计算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的应用\", \"抛物线的性质\", \"坐标系的应用\"],\n  \"reasoning\": \"题中涉及二次函数表达式的确定及应用，以及抛物线的对称性和顶点坐标的计算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年陕西省中考数学试卷（副卷）_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "问题探究\n（1）在△ABC中，∠BAC＝90°，BC＝8，AD为BC边上的中线，则AD的长为 ____ ；\n（2）如图①，在△ABC中，∠BAC＝90°，AC＝4，AB＝6，P为边BC上一点，PM⊥AC，PN⊥AB，垂足分别为M，N，连接MN，求MN的最小值；\n问题解决\n（3）如图②，四边形ABCD是一个游乐场的平面示意图，出入口在点B处．已知∠DAB＝∠ADC＝90°，AB＝800m，AD＝CD＝600m．为了进一步提升游乐场的服务功能，管理部门规划修建由MN，NP，PQ，QM四条直步道连接而成的观景环道及服务中心O，其中，点M在边CD上，点N在边AD上，点P，Q在边AB上，点O为MN的中点．\n按照设计要求，MN的长为400m，PQ的长为80m，在点B与点O之间距离最短的情况下，使所修建的观景环道最短．请你帮助管理部门计算，当BO最小时NP+MQ的最小值及此时BQ的长．（步道宽度及出入口，服务中心的大小均忽略不计）\n[图1]\n2025年陕西省中考数学试卷（副卷）",
+      "stem_markdown": "问题探究\n（1）在△ABC中，∠BAC＝90°，BC＝8，AD为BC边上的中线，则AD的长为 ____ ；\n（2）如图①，在△ABC中，∠BAC＝90°，AC＝4，AB＝6，P为边BC上一点，PM⊥AC，PN⊥AB，垂足分别为M，N，连接MN，求MN的最小值；\n问题解决\n（3）如图②，四边形ABCD是一个游乐场的平面示意图，出入口在点B处．已知∠DAB＝∠ADC＝90°，AB＝800m，AD＝CD＝600m．为了进一步提升游乐场的服务功能，管理部门规划修建由MN，NP，PQ，QM四条直步道连接而成的观景环道及服务中心O，其中，点M在边CD上，点N在边AD上，点P，Q在边AB上，点O为MN的中点．\n按照设计要求，MN的长为400m，PQ的长为80m，在点B与点O之间距离最短的情况下，使所修建的观景环道最短．请你帮助管理部门计算，当BO最小时NP+MQ的最小值及此时BQ的长．（步道宽度及出入口，服务中心的大小均忽略不计）\n![2025年陕西省中考数学试卷（副卷）_q026_img01](assets/2025年陕西省中考数学试卷（副卷）_q026_img01.png)\n2025年陕西省中考数学试卷（副卷）",
+      "options": [],
+      "answer": "4",
+      "solution": "【分析】（1）通过作DE⊥AB，利用中线性质得D为BC中点，再证△BED∽△BAC推出E为AB中点，最后证Rt△BED≌Rt△AED求解；\n（2）由PM⊥AC、PN⊥AB和∠BAC＝90°得四边形ANPM为矩形，故MN＝AP，再求AP的最小值即A到BC的距离得到MN最小值；\n（3）利用三角不等式得D、O、B共线时BO最小，通过作对称点、构造矩形和相似三角形，结合勾股定理与相似比求出NP+MQ的最小值及此时BQ的长．\n【解答】解：（1）如图，过点D作DE⊥AB，交AB于点E，\n[[image:rId55]]，\n∵AD为BC边上的中线，\n∴点D为BC中点，即CD＝BD$=\\frac{1}{2}$AB＝4，\n∵DE⊥AB，\n∴∠BED＝∠AED＝90°，\n在△BED和△BAC中，\n∵∠B＝∠B，∠BED＝∠BAC＝90°，\n∴△BED～△BAC，\n∴$\\frac{BD}{BC}=\\frac{BE}{BA}=\\frac{1}{2}$，即点E为AB的中点，\n∴AE＝BE，\n在Rt△BED和Rt△AED中，\n∵AE＝BE，∠BED＝∠AED＝90°，DE＝DE，\n∴Rt△BED≌Rt△AED，\n∴AD＝BD＝4，\n故答案为：4；\n（2）∵PM⊥AC，PN⊥AB，∠BAC＝90°，\n[[image:rId56]]，\n∴四边形ANPM为矩形，\n连接AP，则MN＝AP，\n过点A作AP′⊥BC于点P′，\n∴AP≥AP′．\n在Rt△ABC中，\n∵$S_{△}_{ABC}=\\frac{1}{2}$AB×AC$=\\frac{1}{2}$AP'×BC，\n∵$BC=2\\sqrt{13}$，AB＝6，BC＝4，\n∴$AP′=\\frac{AB×BC}{BC}=\\frac{12\\sqrt{13}}{13}$，\nMN的最小值为$\\frac{12\\sqrt{13}}{13}$；\n（3）连接BO，DO，DB，\n则DO＝200，DB＝1000，\n[[image:rId57]]，\n∵BO≥DB﹣DO，\n∴当D，O，B三点共线时BO最小，\n在DB上顺次截取$DO_{1}＝O_{1}$E＝200，作$EN_{1}$⊥AD，$EM_{1}$⊥CD，\n则四边形$N_{1}EM_{1}$D为矩形，\n在△$DN_{1}$E∽△DAB中，\n∵∠ADB＝∠$N_{1}$DE，∠$DN_{1}$E＝∠DAB，\n∴△$DN_{1}$E∽△DAB，\n∴$\\frac{DN_{1}}{600}=\\frac{N_{1}E}{800}=\\frac{400}{1000}$，\n解得：$DN_{1}$＝240，\n$DM_{1}＝N_{1}$E＝320＜600，\n作点$N_{1}$关于AB的对称点$N_{2}$，作$N_{2}N_{3}$⫫PQ，连接$M_{1}N_{3}$，\n[[image:rId58]]，\n∴$N_{1}$P+$M_{1}$Q＝$N_{2}$P+$M_{1}$Q＝$N_{3}$Q+$M_{1}$Q≥$M_{1}N_{3}$，\n∴$M_{1}N_{3}$与AB的交点$Q_{1}$即为所确定的位置．\n作$M_{1}$F⊥$N_{2}N_{3}$，$M_{1}$F交AB于点G，得矩形$N_{2}FM_{1}$D．\n在Rt△$M_{1}N_{3}$F中，\n$N_{3}$F＝$DM_{1}﹣N_{2}N_{3}$＝320﹣80＝240，\n$M_{1}$F＝DA+$AN_{2}$＝600+（600﹣240）＝960，\n∴$M_{1}N_{3}=240\\sqrt{17}$，\n在△$M_{1}Q_{1}$G和△$M_{1}N_{3}$F中，\n∵∠$Q_{1}M_{1}$G＝∠$N_{3}M_{1}$F，∠$M_{1}GQ_{1}$＝∠$M_{1}FN_{3}$＝90°，\n∴△$M_{1}Q_{1}$G∽△$M_{1}N_{3}$F\n∴$\\frac{Q_{1}G}{240}=\\frac{600}{960}$，\n∴$Q_{1}$G＝150，\n∴$BQ_{1}$＝AB﹣AG+$Q_{1}$G＝800﹣320+150＝630，\n∴当BO最小时，NP+MQ的最小值为$240\\sqrt{17}m$，此时BQ的长为630m．\n【点评】本题考查四边形综合应用（相似，全等，矩形等），属于难题．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:19:41；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId60]] ____ [[image:rId61]] ____ [[image:rId62]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年陕西省中考数学试卷（副卷）_q026_img01",
+          "path": "assets/2025年陕西省中考数学试卷（副卷）_q026_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形的性质",
+          "相似三角形的判定与性质",
+          "勾股定理",
+          "矩形的性质"
+        ],
+        "reasoning": "第（3）问中，利用D、O、B三点共线时BO最小，涉及相似三角形和勾股定理的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形的性质\", \"相似三角形的判定与性质\", \"勾股定理\", \"矩形的性质\"],\n  \"reasoning\": \"第（3）问中，利用D、O、B三点共线时BO最小，涉及相似三角形和勾股定理的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:03:35",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 26,
+      "ok": 26,
+      "fallback": 0
+    }
+  }
+}

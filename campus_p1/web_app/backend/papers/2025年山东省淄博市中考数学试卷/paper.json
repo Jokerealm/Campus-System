@@ -1,0 +1,1107 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年山东省淄博市中考数学试卷",
+  "source": {
+    "name": "2025年山东省淄博市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年山东省淄博市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列四个实数中，比﹣2大的无理数是（ ）",
+      "stem_markdown": "下列四个实数中，比﹣2大的无理数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "﹣1"
+        },
+        {
+          "label": "C",
+          "text": "$-\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$-\\sqrt{5}$"
+        }
+      ],
+      "answer": "C．",
+      "solution": "【分析】先比较大小，然后找出比﹣2大的无理数解答即可．\n【解答】解：0，﹣1是有理数，故选项A、B不符合题意；\n∵$-\\sqrt{2}＞-2＞-\\sqrt{5}$，\n$-\\sqrt{2}$是无理数，\n故答案为：C．\n【点评】本题考查了无理数的定义，实数的大小比较，解题的关键是掌握无限不循环小数是无理数以及实数大小比较方法．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "无理数的定义",
+          "实数大小比较"
+        ],
+        "reasoning": "选项C中的$-\\sqrt{2}$比﹣2大且是无理数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"无理数的定义\", \"实数大小比较\"],\n  \"reasoning\": \"选项C中的$-\\sqrt{2}$比﹣2大且是无理数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "如图是一个由大小相同的5个小正方体搭成的几何体，则该几何体的主视图是（ ）\n[图1]",
+      "stem_markdown": "如图是一个由大小相同的5个小正方体搭成的几何体，则该几何体的主视图是（ ）\n![2025年山东省淄博市中考数学试卷_q002_img01](assets/2025年山东省淄博市中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年山东省淄博市中考数学试卷_q002_img02](assets/2025年山东省淄博市中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年山东省淄博市中考数学试卷_q002_img03](assets/2025年山东省淄博市中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年山东省淄博市中考数学试卷_q002_img04](assets/2025年山东省淄博市中考数学试卷_q002_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年山东省淄博市中考数学试卷_q002_img05](assets/2025年山东省淄博市中考数学试卷_q002_img05.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】找到从正面看所得到的图形即可，注意所有的看到的棱都应表现在主视图中．\n【解答】解：从正面看，可得选项A的图形．\n故选：A．\n【点评】本题考查了简单组合体三视图的知识，主视图是从物体的正面看得到的视图．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q002_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q002_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q002_img02",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q002_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q002_img03",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q002_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q002_img04",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q002_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q002_img05",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q002_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "视图与投影",
+          "主视图"
+        ],
+        "reasoning": "题中要求找到从正面看所得到的图形，即主视图。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"视图与投影\", \"主视图\"],\n  \"reasoning\": \"题中要求找到从正面看所得到的图形，即主视图。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "党的二十大以来，我国的绿色能源产业得到飞速发展．根据国家能源局报道，2025年一季度全国可再生能源发电量达到8160亿千瓦时．将8160亿用科学记数法表示为（ ）",
+      "stem_markdown": "党的二十大以来，我国的绿色能源产业得到飞速发展．根据国家能源局报道，2025年一季度全国可再生能源发电量达到8160亿千瓦时．将8160亿用科学记数法表示为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "8.16×10^{11}"
+        },
+        {
+          "label": "B",
+          "text": "81.6×10^{11}"
+        },
+        {
+          "label": "C",
+          "text": "0.816×10^{11}"
+        },
+        {
+          "label": "D",
+          "text": "8.16×10^{12}"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：8160亿＝816000000000＝8.16×10^{11}．\n故选：A．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "小数点移动"
+        ],
+        "reasoning": "将8160亿转换为科学记数法时，需要确定a的值和n的值。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"小数点移动\"],\n  \"reasoning\": \"将8160亿转换为科学记数法时，需要确定a的值和n的值。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "某班主任为了解本班学生开学以来在周六、周日两天的运动锻炼情况，随机调查了10名学生在这两天的平均运动时间，收集的数据（单位：h）如下：5，7，3，6，8，6，4，7，5，6．则这组数据的众数和中位数分别是（ ）",
+      "stem_markdown": "某班主任为了解本班学生开学以来在周六、周日两天的运动锻炼情况，随机调查了10名学生在这两天的平均运动时间，收集的数据（单位：h）如下：5，7，3，6，8，6，4，7，5，6．则这组数据的众数和中位数分别是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "5，6"
+        },
+        {
+          "label": "B",
+          "text": "5，7"
+        },
+        {
+          "label": "C",
+          "text": "6，6"
+        },
+        {
+          "label": "D",
+          "text": "6，7"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据中位数、众数的意义和计算方法进行计算即可．\n【解答】解：把这组数据从小到大排列，处于中间的两个数据为6，6，故中位数为$\\frac{6+6}{2}=6$；\n在这组数据中出现次数最多的是6，则众数为6，\n故选：C．\n【点评】本题考查中位数和众数，掌握中位数和众数的定义是解答本题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "众数",
+          "中位数"
+        ],
+        "reasoning": "计算中位数和众数时需要排序并统计出现次数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"众数\", \"中位数\"],\n  \"reasoning\": \"计算中位数和众数时需要排序并统计出现次数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "已知：如图，AB∥CD，∠1＝36°，∠2＝60°，则∠3的度数是（ ）\n[图1]",
+      "stem_markdown": "已知：如图，AB∥CD，∠1＝36°，∠2＝60°，则∠3的度数是（ ）\n![2025年山东省淄博市中考数学试卷_q005_img01](assets/2025年山东省淄博市中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "36°"
+        },
+        {
+          "label": "B",
+          "text": "34°"
+        },
+        {
+          "label": "C",
+          "text": "26°"
+        },
+        {
+          "label": "D",
+          "text": "24°"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】由AB∥CD，根据三角形外角的性质和平行线的性质可得∠3+∠1＝∠ECB＝∠2＝60°，即可得∠3＝24°．\n【解答】解：由AB∥CD，∠1＝36°，∠2＝60°，\n得∠3+∠1＝∠ECB＝∠2＝60°，\n得∠3＝24°．\n故选：D．\n[[image:rId40]]\n【点评】本题考查三角形外角的性质和平行线的性质，关键是正确计算．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q005_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形外角的性质",
+          "平行线的性质"
+        ],
+        "reasoning": "根据AB∥CD和三角形外角的性质和平行线的性质得出∠3+∠1=∠ECB=∠2",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形外角的性质\", \"平行线的性质\"],\n  \"reasoning\": \"根据AB∥CD和三角形外角的性质和平行线的性质得出∠3+∠1=∠ECB=∠2\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "李白是我国唐代著名诗人，“李白斗酒诗百篇”，“诗”与“酒”都与李白有着不解之缘．后人有《李白醉酒》的数学诗（如图）来描述李白饮酒作诗的豪放情景（①处的大意为：先遇店后见花，如此三次）．则诗中李白的壶中原来有酒（ ）\n李白醉酒 李白街上走，揭壶去买酒． 遇店加一倍，见花喝一斗． 三遇店和花①，喝光壶中酒． 试问壶中原有酒几斗？",
+      "stem_markdown": "李白是我国唐代著名诗人，“李白斗酒诗百篇”，“诗”与“酒”都与李白有着不解之缘．后人有《李白醉酒》的数学诗（如图）来描述李白饮酒作诗的豪放情景（①处的大意为：先遇店后见花，如此三次）．则诗中李白的壶中原来有酒（ ）\n李白醉酒 李白街上走，揭壶去买酒． 遇店加一倍，见花喝一斗． 三遇店和花^{①}，喝光壶中酒． 试问壶中原有酒几斗？",
+      "options": [
+        {
+          "label": "A",
+          "text": "1斗"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{8}$斗"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$斗"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{8}$斗"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】设诗中李白的壶中原来有酒x斗，根据题意分别表示出三次加酒喝喝酒的代数式，进而列得方程，解方程即可．\n【解答】解：设诗中李白的壶中原来有酒x斗，\n则第一次遇店加酒后壶中有酒2x斗，第一次见花喝酒后壶中剩余的酒为（2x﹣1）斗，\n第二次遇店加酒后壶中有酒2（2x﹣1）斗，第二次见花喝酒后壶中剩余的酒为[2（2x﹣1）﹣1]斗，\n第三次遇店加酒后壶中有酒2[2（2x﹣1）﹣1]斗，第三次见花喝酒后壶中剩余的酒为{2[2（2x﹣1）﹣1]﹣1}斗，\n则2[2（2x﹣1）﹣1]﹣1＝0，\n那么2（2x﹣1）﹣1$=\\frac{1}{2}$，\n因此2x﹣1$=\\frac{3}{4}$，\n解得：x$=\\frac{7}{8}$，\n即诗中李白的壶中原来有酒$\\frac{7}{8}$斗，\n故选：B．\n【点评】本题考查一元一次方程的应用，理解题意并列得正确的方程是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "代数表达式",
+          "方程求解"
+        ],
+        "reasoning": "设壶中原有酒x斗，通过代数表达式描述加酒和喝酒的过程，列出方程求解。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"代数表达式\", \"方程求解\"],\n  \"reasoning\": \"设壶中原有酒x斗，通过代数表达式描述加酒和喝酒的过程，列出方程求解。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "若分式\\frac{1}{x+1}÷\\frac{x-3}{x-2}有意义，则x的取值范围是（ ）",
+      "stem_markdown": "若分式$\\frac{1}{x+1}÷\\frac{x-3}{x-2}$有意义，则x的取值范围是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x≠﹣1且x≠2"
+        },
+        {
+          "label": "B",
+          "text": "x≠﹣1且x≠3"
+        },
+        {
+          "label": "C",
+          "text": "x≠2且x≠3"
+        },
+        {
+          "label": "D",
+          "text": "x≠﹣1且x≠2且x≠3"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据分式有意义的条件和除法法则求解即可．\n【解答】解：根据已知得，x+1≠0且x﹣3≠0且x﹣2≠0，\n所以x≠﹣1且x≠2且x≠3．\n故选：D．\n【点评】本题考查分式有意义的条件，掌握分母不为零的条件是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式的定义",
+          "分式有意义的条件",
+          "除法法则"
+        ],
+        "reasoning": "题中条件x+1≠0且x﹣3≠0且x﹣2≠0，考察了分式有意义的条件和除法法则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式的定义\", \"分式有意义的条件\", \"除法法则\"],\n  \"reasoning\": \"题中条件x+1≠0且x﹣3≠0且x﹣2≠0，考察了分式有意义的条件和除法法则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，在Rt△ABC中，∠C＝90°，D为斜边AB上一点，以DB为直径的圆与AC相切于点E．若AD＝5，AE＝10，则BC的长是（ ）\n[图1]",
+      "stem_markdown": "如图，在Rt△ABC中，∠C＝90°，D为斜边AB上一点，以DB为直径的圆与AC相切于点E．若AD＝5，AE＝10，则BC的长是（ ）\n![2025年山东省淄博市中考数学试卷_q008_img01](assets/2025年山东省淄博市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】设圆心为O，连接OE，设⊙O的半径为r，得AO＝5+r，AB＝5+2r，然后利用勾股定理求出r，根据sin∠A$=\\frac{OE}{AO}=\\frac{BC}{AB}$，代入值即可求出BC．\n【解答】解：如图，设圆心为O，连接OE，\n[[image:rId42]]\n∵AC是⊙O的切线，\n∴OE⊥AC，\n设⊙O的半径为r，\n∴OE＝OD＝r，\n∴AO＝AD+OD＝5+r，AB＝AD+BD＝5+2r，\n在Rt△AEO中，根据勾股定理得：$AO^{2}＝AE^{2}+OE^{2}$，\n∴（5+r）^{2}＝10^{2}+$r^{2}$，\n∴r＝7.5，\n∴AO＝5+r＝12.5，AB＝5+2r＝20，\n∵sin∠A$=\\frac{OE}{AO}=\\frac{BC}{AB}$，\n∴$\\frac{7.5}{12.5}=\\frac{BC}{20}$，\n∴BC＝12．\n故选：B．\n【点评】本题主要考查了切线的性质，勾股定理，锐角三角函数等知识，根据勾股定理求出半径是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q008_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形",
+          "勾股定理",
+          "锐角三角函数"
+        ],
+        "reasoning": "利用勾股定理求半径，再利用锐角三角函数求BC的长",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形\", \"勾股定理\", \"锐角三角函数\"],\n  \"reasoning\": \"利用勾股定理求半径，再利用锐角三角函数求BC的长\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，P是以正方形ABCD的顶点A为圆心，AB为半径的弧BD上的点，连接AP，CP，将线段CP绕点P顺时针旋转90°后得到线段PQ，连接AQ．若AB＝1，则△APQ的最大面积是（ ）\n[图1]",
+      "stem_markdown": "如图，P是以正方形ABCD的顶点A为圆心，AB为半径的弧BD上的点，连接AP，CP，将线段CP绕点P顺时针旋转90°后得到线段PQ，连接AQ．若AB＝1，则△APQ的最大面积是（ ）\n![2025年山东省淄博市中考数学试卷_q009_img01](assets/2025年山东省淄博市中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2-\\sqrt{3}}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\sqrt{2}-1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\sqrt{2}+1}{4}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】过点Q作QE⊥AP于点E，过点C作CF⊥AP交延长线于点F，连接AC交弧于点$P_{1}$，则可得到△QPE≌△PCF，即可得到EQ＝PF，根据垂线段最短和三角形三边关系得到AP+PF≤AP+PC，AP+PC≥AC，即可得到点P在$P_{1}$时，EQ的值最大为$CP_{1}$长，利用勾股定理和三角形的面积公式计算解答即可．\n【解答】解：如图，过点Q作QE⊥AP于点E，过点C作CF⊥AP交延长线于点F，连接AC交弧于点$P_{1}$，\n[[image:rId44]]\n则∠QEP＝∠CFP＝90°，\n又∵∠QPC＝90°，\n∴∠EQP+∠EPQ＝∠FPC+∠EPQ＝90°，\n∴∠EQP＝∠FPC，\n由旋转得PC＝PQ，\n∴△QPE≌△PCF（AAS），\n∴EQ＝PF，\n∵PF≤PC，\n∴EQ≤PC，\n∴AP+PF≤AP+PC，AP+PC≥AC，\n即当点P在$P_{1}$时，EQ的值最大为$CP_{1}$长，\n∵四边形ABCD是正方形，\n∴AD＝$AP_{1}$＝CD＝AB＝1，\n∴$AC=\\sqrt{AD^{2}+DC^{2}}=\\sqrt{2}$，\n∴EQ的值最大为$CP_{1}=\\sqrt{2}-1$，\n∴△APQ的最大面积是$\\frac{1}{2}×1×(\\sqrt{2}-1)=\\frac{\\sqrt{2}-1}{2}$，\n故选：C．\n【点评】本题考查正方形的性质，旋转的性质，全等三角形的判定和性质，勾股定理，掌握以上知识点是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q009_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形",
+          "勾股定理",
+          "旋转的性质"
+        ],
+        "reasoning": "通过旋转性质和相似三角形得出EQ最大值，利用勾股定理求面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形\", \"勾股定理\", \"旋转的性质\"],\n  \"reasoning\": \"通过旋转性质和相似三角形得出EQ最大值，利用勾股定理求面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，D为矩形OABC（边OA，OC分别在x，y轴的正半轴上）对角线OB上的点，且OD=\\frac{1}{2}BD．经过点D的反比例函数y=\\frac{k}{x}的图象分别与AB，BC相交于点E，F，连接OE，OF，EF．若△OBF的面积是24，则△OEF的面积为（ ）\n[图1]",
+      "stem_markdown": "如图，D为矩形OABC（边OA，OC分别在x，y轴的正半轴上）对角线OB上的点，且OD$=\\frac{1}{2}$BD．经过点D的反比例函数y$=\\frac{k}{x}$的图象分别与AB，BC相交于点E，F，连接OE，OF，EF．若△OBF的面积是24，则△OEF的面积为（ ）\n![2025年山东省淄博市中考数学试卷_q010_img01](assets/2025年山东省淄博市中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "26"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{79}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{80}{3}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】设出点A和点C的坐标，进一步表示出点B的坐标，再结合OD$=\\frac{1}{2}$BD表示出点D的坐标，最后利用△OBF的面积是24及整体思想进行计算即可．\n【解答】解：由题知，\n令点A坐标为（a，0），点C坐标为（0，b），\n则点B坐标为（a，b）．\n因为OD$=\\frac{1}{2}$BD，\n所以点D坐标可表示为（$\\frac{1}{3}a，\\frac{1}{3}b$）．\n因为点D在反比例函数的图象上，\n所以k$=\\frac{1}{3}a⋅\\frac{1}{3}b=\\frac{1}{9}ab$，\n则反比例函数解析式为y$=\\frac{ab}{9x}$．\n又因为点E，F在反比例函数的图象上，\n所以点F坐标为（$\\frac{1}{9}a，b$），点E的坐标为（a，$\\frac{1}{9}b$），\n所以BF＝a$-\\frac{1}{9}a=\\frac{8}{9}a$，BE＝b$-\\frac{1}{9}b=\\frac{8}{9}b$，\n所以$S_{△OBF}=\\frac{1}{2}×\\frac{8}{9}a×b=24$，\n解得ab＝54，\n所以$S_{△}_{OEF}＝S_{矩形}_{OABC}﹣S_{△}_{OCF}﹣S_{△}_{OEA}﹣S_{△}_{BEF}$\n＝ab$-\\frac{1}{2}×\\frac{1}{9}ab-\\frac{1}{2}×\\frac{1}{9}ab-\\frac{1}{2}×\\frac{8}{9}a×\\frac{8}{9}b$\n$=\\frac{40}{81}ab$\n$=\\frac{80}{3}$．\n故选：D．\n【点评】本题主要考查了反比例函数系数k的几何意义、反比例函数的性质、反比例函数图象上点的坐标特征及矩形的性质，熟知反比例函数的图象与性质是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q010_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的性质",
+          "矩形的性质",
+          "三角形面积计算"
+        ],
+        "reasoning": "△OBF面积计算涉及反比例函数系数k的几何意义及三角形面积公式",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的性质\", \"矩形的性质\", \"三角形面积计算\"],\n  \"reasoning\": \"△OBF面积计算涉及反比例函数系数k的几何意义及三角形面积公式\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "因式分解：2x²﹣18＝ ____ ．",
+      "stem_markdown": "因式分解：$2x^{2}$﹣18＝ ____ ．",
+      "options": [],
+      "answer": "2（x+3）（x﹣3）．",
+      "solution": "解：$2x^{2}$﹣18＝ 2（x+3）（x﹣3） ．\n【分析】先提公因式，再运用平方差公式分解．\n【解答】解：$2x^{2}$﹣18＝2（$x^{2}$﹣9）＝2（x+3）（x﹣3），\n故答案为：2（x+3）（x﹣3）．\n【点评】本题考查了用提公因式法和公式法进行因式分解，一个多项式有公因式首先提取公因式，然后再用其他方法进行因式分解，同时因式分解要彻底，直到不能分解为止．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式",
+          "平方差公式"
+        ],
+        "reasoning": "题目要求将 $2x^2 - 18$ 因式分解，首先提取公因式 2，然后应用平方差公式。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式\", \"平方差公式\"],\n  \"reasoning\": \"题目要求将 $2x^2 - 18$ 因式分解，首先提取公因式 2，然后应用平方差公式。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "如图，∠AOC＝∠BOD＝90°，∠COD＝44°，则∠AOB＝ ____ ．\n[图1]",
+      "stem_markdown": "如图，∠AOC＝∠BOD＝90°，∠COD＝44°，则∠AOB＝ ____ ．\n![2025年山东省淄博市中考数学试卷_q012_img01](assets/2025年山东省淄博市中考数学试卷_q012_img01.png)",
+      "options": [],
+      "answer": "136°．",
+      "solution": "【分析】根据角度之间的和差计算可得出结论．\n【解答】解：∵∠AOC＝90°，∠COD＝44°，\n∴∠AOD＝∠AOC﹣∠COD＝90°﹣44°＝46°，\n∵∠BOD＝90°，\n∴∠AOB＝∠AOD+∠BOD＝46°+90°＝136°．\n故答案为：136°．\n【点评】本题主要考查余角和补角，角的和差计算，属于基础题，根据图形得出角度之间的和差关系是解题关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q012_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "余角性质",
+          "补角性质"
+        ],
+        "reasoning": "题中利用∠AOC和∠COD的和求∠AOD，再利用∠BOD和∠AOD的和求∠AOB",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"余角性质\", \"补角性质\"],\n  \"reasoning\": \"题中利用∠AOC和∠COD的和求∠AOD，再利用∠BOD和∠AOD的和求∠AOB\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "爱好阅读的小胡购买了一本有关数学之美的课外书．下面是他的三个同学猜测该书价格的对话：\n[图1]\n小胡在听到他们的对话后说：“你们三个都猜错了．”则这本书的价格x（元）所在的范围是 ____ ．",
+      "stem_markdown": "爱好阅读的小胡购买了一本有关数学之美的课外书．下面是他的三个同学猜测该书价格的对话：\n![2025年山东省淄博市中考数学试卷_q013_img01](assets/2025年山东省淄博市中考数学试卷_q013_img01.png)\n小胡在听到他们的对话后说：“你们三个都猜错了．”则这本书的价格x（元）所在的范围是 ____ ．",
+      "options": [],
+      "answer": "50＜x＜60．",
+      "solution": "【分析】根据题意，列出不等式组，解答即可得到结果．\n【解答】解：∵小胡说：“你们三个都猜错了”，\n∴$\\begin{cases} x＞45 \\\\ x＞50 \\\\ x＜60 \\end{cases}$，\n∴50＜x＜60．\n故答案为：50＜x＜60．\n【点评】本题考查了由实际问题抽象出一元一次不等式组，找出正确理解题意是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q013_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q013_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组",
+          "逻辑推理"
+        ],
+        "reasoning": "小胡说三个同学都猜错了，因此每个同学的猜测都与实际价格相反。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组\", \"逻辑推理\"],\n  \"reasoning\": \"小胡说三个同学都猜错了，因此每个同学的猜测都与实际价格相反。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "已知矩形ABCD，AB＝4，BC＝6，P是边CD的中点，E是边AD上的动点，线段EF分别与BC，AP相交于点F，Q．若∠FQP＝45°，则EF的长为 ____ ．\n[图1]",
+      "stem_markdown": "已知矩形ABCD，AB＝4，BC＝6，P是边CD的中点，E是边AD上的动点，线段EF分别与BC，AP相交于点F，Q．若∠FQP＝45°，则EF的长为 ____ ．\n![2025年山东省淄博市中考数学试卷_q014_img01](assets/2025年山东省淄博市中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "2$\\sqrt{5}$．",
+      "solution": "【分析】在BC上找到一点M，使BM＝2，连接AM、PM，则MC＝BC﹣BM＝6﹣2＝4，易证△ABM≌△MCP（SAS），继而得到△AMP是等腰直角三角形，再利用平行四边形判定得到EF＝AM，由勾股定理求出AM就可得到EF的长．\n【解答】解：在BC上找到一点M，使BM＝2，连接AM、PM，则MC＝BC﹣BM＝6﹣2＝4，\n[[image:rId49]]\n在△ABM和△MCP中，\n$\\begin{cases} AB=MC=4 \\\\ ∠B=∠C=90° \\\\ BM=PC=2 \\end{cases}$，\n∴△ABM≌△MCP（SAS），\n∴∠BAM＝∠CMP，AM＝MP，\n∴∠AMP＝90°，\n∴△AMP是等腰直角三角形，\n∴∠MAP＝45°，\n∵∠FQP＝45°，\n∴∠MAP＝FQP，\n∴AM∥EF，\n又∵AE∥MF，\n∴四边形AEFM是平行四边形，\n∴EF＝AM，\n在Rt△ABM中，由勾股定理可得：AM$=\\sqrt{AB^{2}+BM^{2}}=\\sqrt{4^{2}+2^{2}}=$2$\\sqrt{5}$．\n故答案为：2$\\sqrt{5}$．\n【点评】本题考查了矩形的性质、平行四边形的性质，正确作出辅助线是解答本题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q014_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形",
+          "等腰直角三角形",
+          "平行四边形的性质",
+          "勾股定理"
+        ],
+        "reasoning": "题中通过作辅助线构造相似三角形和等腰直角三角形，利用平行四边形的性质得出EF＝AM。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形\", \"等腰直角三角形\", \"平行四边形的性质\", \"勾股定理\"],\n  \"reasoning\": \"题中通过作辅助线构造相似三角形和等腰直角三角形，利用平行四边形的性质得出EF＝AM。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "画1条直线，最多把1张圆形纸片分割成2块区域；\n画2条直线，最多把1张圆形纸片分割成4块区域；\n画3条直线，最多把1张圆形纸片分割成7块区域；\n…\n如果要将一张圆形纸片分割成的区域不少于5000块，则至少要画的直线条数是 ____ ．",
+      "stem_markdown": "画1条直线，最多把1张圆形纸片分割成2块区域；\n画2条直线，最多把1张圆形纸片分割成4块区域；\n画3条直线，最多把1张圆形纸片分割成7块区域；\n…\n如果要将一张圆形纸片分割成的区域不少于5000块，则至少要画的直线条数是 ____ ．",
+      "options": [],
+      "answer": "100．",
+      "solution": "【分析】根据题意，依次求出直线把圆形纸片分成的最多区域块数，发现规律即可解决问题．\n【解答】解：由题知，\n画1条直线，最多把1张圆形纸片分割成的区域数为：2＝1+1；\n画2条直线，最多把1张圆形纸片分割成的区域数为：4＝1+1+2；\n画3条直线，最多把1张圆形纸片分割成的区域数为：7＝1+1+2+3；\n…，\n所以画n条直线，最多把1张圆形纸片分割成的区域数为：1+1+2+3+…+n$=\\frac{n(n+1)}{2}+1$．\n当n＝99时，\n$\\frac{n(n+1)}{2}+1=\\frac{99×100}{2}+1=$4951，\n当n＝100时，\n$\\frac{n(n+1)}{2}+1=\\frac{100×101}{2}+1=5051$，\n所以要将一张圆形纸片分割成的区域不少于5000块，则至少要画的直线条数为100条．\n故答案为：100．\n【点评】本题主要考查了图形变化的规律，能根据题意得出画n条直线，最多把1张圆形纸片分割成的区域数为（$\\frac{n(n+1)}{2}+1$）块是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等差数列求和公式",
+          "归纳推理",
+          "函数与图像"
+        ],
+        "reasoning": "通过观察直线数量与区域数量的关系，利用等差数列求和公式推导出区域数量的表达式，并通过计算确定最少直线数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等差数列求和公式\", \"归纳推理\", \"函数与图像\"],\n  \"reasoning\": \"通过观察直线数量与区域数量的关系，利用等差数列求和公式推导出区域数量的表达式，并通过计算确定最少直线数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "solution",
+      "stem_text": "解方程组：\\begin{cases} x-\\frac{y}{2}=2 \\\\ 2x+3y=12 \\end{cases}．",
+      "stem_markdown": "解方程组：$\\begin{cases} x-\\frac{y}{2}=2 \\\\ 2x+3y=12 \\end{cases}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】方程组利用代入消元法求出解即可．\n【解答】解：$\\begin{cases} x-\\frac{y}{2}=2① \\\\ 2x+3y=12② \\end{cases}$，\n由①得：x＝2$+\\frac{y}{2}$③，\n把③代入②得：4+y+3y＝12，\n∴y＝2，\n把y＝2代入③得：x＝2+1＝3，\n∴原方程组的解为$\\begin{cases} x=3 \\\\ y=2 \\end{cases}$．\n【点评】本题主要考查了二元一次方程组的解法，熟练掌握加减消元法和代入消元法是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "代入消元法",
+          "二元一次方程组"
+        ],
+        "reasoning": "题中通过代入消元法解二元一次方程组",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"代入消元法\", \"二元一次方程组\"],\n  \"reasoning\": \"题中通过代入消元法解二元一次方程组\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "已知：如图：在△ABC中，D，F分别为边AB、BC的中点，∠AED＝∠DFB．\n求证：（1）△AED≌△DFB；\n（2）∠C＝∠EDF．\n[图1]",
+      "stem_markdown": "已知：如图：在△ABC中，D，F分别为边AB、BC的中点，∠AED＝∠DFB．\n求证：（1）△AED≌△DFB；\n（2）∠C＝∠EDF．\n![2025年山东省淄博市中考数学试卷_q017_img01](assets/2025年山东省淄博市中考数学试卷_q017_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据三角形中位线定理得DF∥AC，AD＝BD，然后利用AAS即可证明△AED≌△DFB；\n（2）由（1）△AED≌△DFB，得∠ADE＝∠B，然后利用平行线的性质即可证明∠C＝∠EDF．\n【解答】证明：（1）∵点D、F分别为AB、BC的中点，\n∴DF∥AC，AD＝BD，\n∴∠A＝∠FDB，\n在△AED和△DFB中，\n$\\begin{cases} ∠AED=∠DFB \\\\ ∠A=∠FDB \\\\ AD=BD \\end{cases}$，\n∴△AED≌△DFB（AAS）；\n（2）由（1）知：△AED≌△DFB，\n∴∠ADE＝∠B，\n∴DE∥BC，\n∴∠EDF＝∠DFB，\n∵DF∥AC，\n∴∠C＝∠DFB，\n∴∠EDF＝∠C．\n【点评】本题考查了平行四边形的判定与性质，全等三角形的判定与性质，三角形中位线定理，掌握特殊几何图形的性质是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q017_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形中位线定理",
+          "全等三角形的判定（AAS）",
+          "平行线的性质"
+        ],
+        "reasoning": "（1）利用三角形中位线定理得出DF∥AC，AD＝BD；（2）由（1）证出△AED≌△DFB；（3）利用平行线的性质得出∠C＝∠EDF．",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形中位线定理\", \"全等三角形的判定（AAS）\", \"平行线的性质\"],\n  \"reasoning\": \"（1）利用三角形中位线定理得出DF∥AC，AD＝BD；（2）由（1）证出△AED≌△DFB；（3）利用平行线的性质得出∠C＝∠EDF．\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "某校十分重视学生的美育实践活动教学，每年都组织部分师生分批次前往距离学校240km的某景区美术实践基地写生．现知共有200名师生参加了最近一次活动．\n（1）一部分师生乘大巴车先行，出发36min后，其他人员乘中巴车前往，结果他们同时到达景区大门．已知中巴车速度是大巴车的1.25倍，求大巴车的速度；\n（2）该景区对学生（或儿童）实行门票优惠，学生每人10元，成人每人30元．如果购买门票的费用共计2200元，那么参加本次活动的学生人数是多少？",
+      "stem_markdown": "某校十分重视学生的美育实践活动教学，每年都组织部分师生分批次前往距离学校240km的某景区美术实践基地写生．现知共有200名师生参加了最近一次活动．\n（1）一部分师生乘大巴车先行，出发36min后，其他人员乘中巴车前往，结果他们同时到达景区大门．已知中巴车速度是大巴车的1.25倍，求大巴车的速度；\n（2）该景区对学生（或儿童）实行门票优惠，学生每人10元，成人每人30元．如果购买门票的费用共计2200元，那么参加本次活动的学生人数是多少？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设大巴车的速度为xkm/h，则中巴车速度是1.25x km/h，根据题意列方程解答解即可；\n（2）设参加本次活动的学生人数是y人，则教师人数为（200﹣y）人，根据题意列方程解答解即可．\n【解答】解：（1）设大巴车的速度为xkm/h，则中巴车速度是1.25x km/h，根据题意得：\n$\\frac{240}{x}-\\frac{36}{60}=\\frac{240}{1.25x}$，\n解得x＝80，\n经检验，x＝80是原方程的根且符合题意，\n答：大巴车的速度为80km/h；\n（2）设参加本次活动的学生人数是y人，则教师人数为（200﹣y）人，根据题意得：\n10y+30（200﹣y）＝2200，\n解得y＝190，\n答：参加本次活动的学生人数是190人．\n【点评】本题主要考查分式方程的应用以及一元一次方程的应用，解题的关键是理解题意，找到题目中蕴含的相等关系，并依据相等关系列出方程．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "行程问题中的速度、时间、距离关系",
+          "分式方程的应用",
+          "一元一次方程的应用"
+        ],
+        "reasoning": "第（1）问中通过行程问题中的速度、时间和距离的关系列方程；第（2）问中通过分式方程和一元一次方程解决实际问题。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"行程问题中的速度、时间、距离关系\", \"分式方程的应用\", \"一元一次方程的应用\"],\n  \"reasoning\": \"第（1）问中通过行程问题中的速度、时间和距离的关系列方程；第（2）问中通过分式方程和一元一次方程解决实际问题。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "粮食安全，事关国计民生，增强学生粮食安全意识，培养学生节粮爱粮的良好生活习惯，已成为学校教育的一个重要共识．为此，某学校开设了相关校本课程，并在期末进行了结业测试．现从中随机抽取了部分学生的结业成绩（满分：100分，所有成绩均不低于75分），整理并绘制了如下尚不完整的统计图表．\n组别 | 成绩/分 | 额数（人数）\n1 | 75≤x＜80 | 10\n2 | 80≤x＜85 | a\n3 | 85≤x＜90 | 35\n4 | 90≤x＜95 | 25\n5 | 95≤x≤100 | b\n根据以上信息．解答下列问题：\n（1）请直接写出统计表中的a＝ ____ ，b＝ ____ ，第4组人数在结业成绩扇形统计图中所对应的圆心角是 ____ 度；\n（2）请补全上面的结业成绩频数分布直方图；\n（3）现从第5组中选拔演讲能力出众的2名男生和3名女生组成“粮食安全”宣讲团．并从中随机抽取2人进社区宣讲，求所抽取的2人恰好是1名男生和1名女生的概率．\n[图1]",
+      "stem_markdown": "粮食安全，事关国计民生，增强学生粮食安全意识，培养学生节粮爱粮的良好生活习惯，已成为学校教育的一个重要共识．为此，某学校开设了相关校本课程，并在期末进行了结业测试．现从中随机抽取了部分学生的结业成绩（满分：100分，所有成绩均不低于75分），整理并绘制了如下尚不完整的统计图表．\n| 组别 | 成绩/分 | 额数（人数） |\n| --- | --- | --- |\n| 1 | 75≤x＜80 | 10 |\n| 2 | 80≤x＜85 | a |\n| 3 | 85≤x＜90 | 35 |\n| 4 | 90≤x＜95 | 25 |\n| 5 | 95≤x≤100 | b |\n根据以上信息．解答下列问题：\n（1）请直接写出统计表中的a＝ ____ ，b＝ ____ ，第4组人数在结业成绩扇形统计图中所对应的圆心角是 ____ 度；\n（2）请补全上面的结业成绩频数分布直方图；\n（3）现从第5组中选拔演讲能力出众的2名男生和3名女生组成“粮食安全”宣讲团．并从中随机抽取2人进社区宣讲，求所抽取的2人恰好是1名男生和1名女生的概率．\n![2025年山东省淄博市中考数学试卷_q019_img01](assets/2025年山东省淄博市中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "20",
+      "solution": "【分析】（1）依据题意，根据所给统计图表信息及扇形统计图可以列式计算得解；\n（2）依据题意，结合（1）所求a，b即可画图得解；\n（3）依据题意，通过列表法即可计算得解．\n【解答】解：（1）由题意，∵第3组人数为35，占比35%，\n∴总人数为35÷35%＝100（人）．\n又∵第5组的圆心角为36°，\n∴第5组占比为36°÷360°＝10%．\n∴b＝10%×100＝10．\n∴a＝100﹣10﹣35﹣25﹣10＝20．\n∵第4组人数为25，\n∴第4组对应的圆心角$=\\frac{25}{100}×100%×360°=$90°．\n故答案为：20；10；90．\n（2）由题意，结合（1），a＝20，b＝10，即可作图．\n[[image:rId52]]\n（3）列表如下：\n| 男1 | 男2 | 女1 | 女2 | 女3 |\n| --- | --- | --- | --- | --- |\n| 男1 | （男1，男2） | （男1，女1） | （男1，女2） | （男1，女3） |\n| 男2 | （男2，男1） | （男2，女1） | （男2，女2） | （男2，女3） |\n| 女1 | （女1，男1） | （女1，男2） | （女1，女2） | （女1，女3） |\n| 女2 | （女2，男1） | （女2，男2） | （女2，女1） | （女2，女3） |\n| 女3 | （女3，男1） | （女3，男2） | （女3，女1） | （女3，女2） |\n由列表可知：恰好抽到1名男生和1名女生的概率为$\\frac{12}{20}=\\frac{3}{5}$．\n【点评】本题主要考查了列表法与树状图法、条形统计图、扇形统计图，能够理解条形统计图和扇形统计图，熟练掌握列表法与树状图法是解答本题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q019_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率与概率的关系",
+          "统计图表的应用",
+          "概率计算"
+        ],
+        "reasoning": "第（3）问需要计算概率，涉及统计图表和概率计算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率与概率的关系\", \"统计图表的应用\", \"概率计算\"],\n  \"reasoning\": \"第（3）问需要计算概率，涉及统计图表和概率计算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "如图，反比例函数y=\\frac{-6}{x}（x＜0）和y=\\frac{12}{x}（x＞0）的图象分别与直线y＝kx+b依次相交于A（m，1），B，C（3，n）三点．\n（1）求出直线AC对应的函数表达式；\n（2）分别以点A，C为圆心，以大于\\frac{1}{2}AC的长度为半径作弧，两弧相交于点E和点F，直线EF交y轴于点D，连接AD、CD．试判断△ACD的形状，并说明理由；\n（3）请直接写出关于x的不等式kx+b＜\\frac{-6}{x}的解集．\n[图1]",
+      "stem_markdown": "如图，反比例函数y$=\\frac{-6}{x}$（x＜0）和y$=\\frac{12}{x}$（x＞0）的图象分别与直线y＝kx+b依次相交于A（m，1），B，C（3，n）三点．\n（1）求出直线AC对应的函数表达式；\n（2）分别以点A，C为圆心，以大于$\\frac{1}{2}$AC的长度为半径作弧，两弧相交于点E和点F，直线EF交y轴于点D，连接AD、CD．试判断△ACD的形状，并说明理由；\n（3）请直接写出关于x的不等式kx+b$＜\\frac{-6}{x}$的解集．\n![2025年山东省淄博市中考数学试卷_q020_img01](assets/2025年山东省淄博市中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先求出点A和C的坐标，然后利用待定系数法求一次函数的解析式即可；\n（2）设点D的坐标为（0，d），根据作图得到DA＝DC，据此列方程求出c的值，再利用勾股定理的逆定理判断三角形的形状即可；\n（3）先求出点B的横坐标，然后借助图象得到反比例函数在一次函数图象上方的自变量的取值范围即可解答．\n【解答】解：（1）把A（m，1）代入$y=\\frac{-6}{x}(x＜0)$得m＝﹣6，\n∴点A的坐标为（﹣6，1），\n把C（3，n）代入$y=\\frac{12}{x}(x＞0)$，\n得n＝4，\n∴点C的坐标为（3，4），\n把点（﹣6，1）和（3，4）代入y＝kx+b，\n得$\\begin{cases} -6k+b=1 \\\\ 3k+b=4 \\end{cases}$，\n解得$\\begin{cases} k=\\frac{1}{3} \\\\ b=3 \\end{cases}$，\n∴直线AC对应的函数表达式$y=\\frac{1}{3}x+3$；\n（2）由作图可得DA＝DC，即$DA^{2}＝DC^{2}$，\n设点D的坐标为（0，d），\n则6^{2}+（1﹣d）^{2}＝3^{2}+（4﹣d）^{2}，\n解得d＝﹣2，\n∴$DA^{2}＝DC^{2}$＝6^{2}+（1+2）^{2}＝45，$AC^{2}$＝（3+6）^{2}+（4﹣1）^{2}＝90，\n∴$DA^{2}+DC^{2}＝AC^{2}$，\n∴△DAC是等腰直角三角形；\n（3）令$\\frac{1}{3}$x+3$=-\\frac{6}{x}$，\n解得$x_{1}$＝﹣6，$x_{2}$＝﹣3，\n由图象可得关于x的不等式$kx+b＜\\frac{-6}{x}$的解集为x＜﹣6或﹣3＜x＜0．\n【点评】本题考查反比例函数的综合应用，主要考查反比例函数与一次函数的交点问题，勾股定理的逆定理，待定系数法求解析式，掌握以上知识点是解题的关键．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q020_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数",
+          "一次函数",
+          "待定系数法",
+          "勾股定理的逆定理"
+        ],
+        "reasoning": "通过反比例函数和一次函数的交点确定直线AC的方程，利用勾股定理的逆定理判断三角形形状。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数\", \"一次函数\", \"待定系数法\", \"勾股定理的逆定理\"],\n  \"reasoning\": \"通过反比例函数和一次函数的交点确定直线AC的方程，利用勾股定理的逆定理判断三角形形状。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，某学校教学楼AB和市创业大厦CD之间矗立着一座小山．为了测得大厦的高度，小伟首先登至小山的最高处E，测得B，D处的俯角分别为68.5°，27.7°；然后操控无人机铅直起飞至比E处高20m的F处，再次测得这两处的俯角分别为70.8°．33.3°．已知点A，B，C，D，E，F均在同一平面内，AC为水平地面，AB＝12m．请求出大厦CD的高度（结果精确到0.1m，参考数据见下表）．\n科学计算器按键顺序 | 计算结果（已取近似值）\n[图1] | 0.94\n[图1] | 2.87\n[图1] | 0.37\n[图1] | 2.54\n[图1] | 0.66\n[图1] | 0.53\n[图1]",
+      "stem_markdown": "如图，某学校教学楼AB和市创业大厦CD之间矗立着一座小山．为了测得大厦的高度，小伟首先登至小山的最高处E，测得B，D处的俯角分别为68.5°，27.7°；然后操控无人机铅直起飞至比E处高20m的F处，再次测得这两处的俯角分别为70.8°．33.3°．已知点A，B，C，D，E，F均在同一平面内，AC为水平地面，AB＝12m．请求出大厦CD的高度（结果精确到0.1m，参考数据见下表）．\n| 科学计算器按键顺序 | 计算结果（已取近似值） |\n| --- | --- |\n| ![2025年山东省淄博市中考数学试卷_q021_img01](assets/2025年山东省淄博市中考数学试卷_q021_img01.png) | 0.94 |\n| ![2025年山东省淄博市中考数学试卷_q021_img02](assets/2025年山东省淄博市中考数学试卷_q021_img02.png) | 2.87 |\n| ![2025年山东省淄博市中考数学试卷_q021_img03](assets/2025年山东省淄博市中考数学试卷_q021_img03.png) | 0.37 |\n| ![2025年山东省淄博市中考数学试卷_q021_img04](assets/2025年山东省淄博市中考数学试卷_q021_img04.png) | 2.54 |\n| ![2025年山东省淄博市中考数学试卷_q021_img05](assets/2025年山东省淄博市中考数学试卷_q021_img05.png) | 0.66 |\n| ![2025年山东省淄博市中考数学试卷_q021_img06](assets/2025年山东省淄博市中考数学试卷_q021_img06.png) | 0.53 |\n![2025年山东省淄博市中考数学试卷_q021_img07](assets/2025年山东省淄博市中考数学试卷_q021_img07.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】根据题意，结合图形，在Rt△EGB中表示出GE，在Rt△FHB中表示出HF，由GE＝HF，构成方程，求出BG，得到AH的长，同理，在Rt△EMD中表示出EM，在Rt△NFD中表示出FN，由ME＝FN，利用方程，求出MD长，根据AH＝CN，求出CD长即可．\n【解答】解：如图，延长AB交过E，F的水平线于G，H点，延长CD交过E，F的水平线于M，N点，\n[[image:rId61]]\n∵在Rt△EGB中，设GB＝xm，tan∠GEB$=\\frac{GB}{GE}$，\n∴GE$=\\frac{GB}{tan68.5°}≈\\frac{x}{2.54}$，\n∵在Rt△FHB中，tan∠HFB$=\\frac{HB}{HF}$，\n∴HF$=\\frac{HB}{tan70.8°}≈\\frac{x+20}{2.87}$，\n∵GE＝HF，\n∴$\\frac{x}{2.54}=\\frac{x+20}{2.87}$，\n解得x≈153.9（m），\n∴GB＝153.9m，\n∴AH＝AB+GB+GH＝12+153.9+20＝185.9（m），\n∵在Rt△EMD中，设MD＝ym，tan∠MED$=\\frac{MD}{ME}$，\n∴ME$=\\frac{MD}{tan27.7°}≈\\frac{y}{0.53}$，\n∵在Rt△NFD中，tan∠NFD$=\\frac{DN}{FN}$，\n∴FN$=\\frac{DN}{tan33.3°}≈\\frac{y+20}{0.66}$，\n∵ME＝FN，\n∴$\\frac{y}{0.53}=\\frac{y+20}{0.66}$，\n解得y≈81.5（m），\n∴MD＝81.5（m），\n∴CN＝CD+MD+MN＝CD+81.5+20，\n即CN＝CD+101.5，\n∵AH＝CN，\n∴CD+101.5＝185.9，\n∴CD＝84.4（m），\n答：大厦CD的高度约为84.4米．\n【点评】本题考查了解直角三角形的应用，熟练掌握解直角三角形是解题的关键．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q021_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q021_img02",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q021_img02.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q021_img03",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q021_img03.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q021_img04",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q021_img04.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q021_img05",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q021_img05.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q021_img06",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q021_img06.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q021_img07",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q021_img07.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "相似三角形",
+          "方程求解"
+        ],
+        "reasoning": "题中通过正切函数计算高度差，利用相似三角形对应边成比例求解未知量。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"相似三角形\", \"方程求解\"],\n  \"reasoning\": \"题中通过正切函数计算高度差，利用相似三角形对应边成比例求解未知量。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，一条抛物线y＝ax²+bx+\\frac{5}{2}与x轴相交于A（﹣1，0），B（5，0）两点．与y轴相交于点C．\n（1）求抛物线对应的函数表达式；\n（2）问在抛物线上是否存在点P，使得∠ABC=\\frac{1}{2}∠PAB？若存在，求出点P的坐标；若不存在，说明理由；\n（3）将射线CB绕点C逆时针旋转一定角度，使其恰好经过抛物线的顶点D，再将抛物线沿直线CD平移，得到一条新的抛物线（其顶点为M），设这两条抛物线的交点为Q．\n①求旋转角度的正切值；\n②当∠CQM＝90°时，求原抛物线平移的距离．\n[图1]",
+      "stem_markdown": "如图，一条抛物线y＝$ax^{2}$+bx$+\\frac{5}{2}$与x轴相交于A（﹣1，0），B（5，0）两点．与y轴相交于点C．\n（1）求抛物线对应的函数表达式；\n（2）问在抛物线上是否存在点P，使得∠ABC$=\\frac{1}{2}$∠PAB？若存在，求出点P的坐标；若不存在，说明理由；\n（3）将射线CB绕点C逆时针旋转一定角度，使其恰好经过抛物线的顶点D，再将抛物线沿直线CD平移，得到一条新的抛物线（其顶点为M），设这两条抛物线的交点为Q．\n①求旋转角度的正切值；\n②当∠CQM＝90°时，求原抛物线平移的距离．\n![2025年山东省淄博市中考数学试卷_q022_img01](assets/2025年山东省淄博市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据待定系数法求解即可；\n（2）求出C点坐标，作BC的中垂线交x轴于点E，连接CE，则：CE＝BE，得到∠AEC＝∠ABC+∠BCE＝2∠ABC，设OE＝m，则：CE＝BE＝5﹣m，勾股定理求出m的值，进而得到E点坐标，求出直线CE的解析式，作AP∥CE，得到∠PAB＝∠CEA＝2∠ABC，求出直线AP的解析式，联立直线和抛物线的解析式求出P点坐标，再根据对称性，求出满足题意的另一个点P的坐标即可；\n（3）①求出直线CD的解析式，根据题意，得到旋转角为∠BCD，作BE∥CD，交y轴于点E，作CF⊥BE于点F，则∠CBF＝∠BCD，求出直线BE的解析式，进而求出点E的坐标，等积法求出CF的长，勾股定理求出BF的长，再利用正切的定义进行求解即可；\n②设抛物线沿着水平方向和竖直方向均移动t个单位，根据平移规则求出新的抛物线的解析式，求出M点的坐标，联立两个抛物线的解析式求出Q点坐标，作QK⊥y轴，ML⊥QK交KQ的延长线于点L，证明△CQK∽△QML，列出比例式求出t的值，进而求出平移距离即可．\n【解答】解：（1）抛物线$y=ax^{2}+bx+\\frac{5}{2}$与x轴相交于A（﹣1，0），B（5，0）两点，\n将两点坐标代入抛物线，得$\\begin{cases} a×(-1)^{2}+b×(-1)+\\frac{5}{2}=0 \\\\ a×5^{2}+b×5+\\frac{5}{2}=0 \\end{cases}$，\n解得$\\begin{cases} a=-\\frac{1}{2} \\\\ b=2 \\end{cases}$，\n∴抛物线的表达式$y=-\\frac{1}{2}x^{2}+2x+\\frac{5}{2}$；\n（2）$y=-\\frac{1}{2}x^{2}+2x+\\frac{5}{2}$，\n∴当x＝0时，$y=\\frac{5}{2}$，\n∴$C(0，\\frac{5}{2})$，\n作BC的中垂线交x轴于点E，连接CE，则CE＝BE，\n[[image:rId63]]\n∴∠ECB＝∠ABC，\n∴∠AEC＝∠ABC+∠BCE＝2∠ABC，\n∵B（5，0），$C(0，\\frac{5}{2})$，\n∴OB＝5，$OC=\\frac{5}{2}$，\n设OE＝m，则CE＝BE＝5﹣m，\n在Rt△COE中，由勾股定理，得$m^{2}+(\\frac{5}{2})^{2}=(5-m)^{2}$，\n解得$m=\\frac{15}{8}$，\n∴$E(\\frac{15}{8}，0)$，\n设直线CE的解析式为$y=kx+\\frac{5}{2}$，\n把$E(\\frac{15}{8}，0)$代入，得$0=\\frac{15}{8}k+\\frac{5}{2}$，\n解得$k=-\\frac{4}{3}$，\n∴$y=-\\frac{4}{3}x+\\frac{5}{2}$，\n过点A作AP∥CE，交y轴于点F，交抛物线于点P，则∠PAB＝∠CEA＝2∠ABC，\n设直线AP的解析式为$y=-\\frac{4}{3}x+n$，\n把A（﹣1，0）代入，得$0=-\\frac{4}{3}×(-1)+n$，\n解得$n=-\\frac{4}{3}y=-\\frac{4}{3}x-\\frac{4}{3}$，\n联立$\\begin{cases} y=-\\frac{4}{3}x-\\frac{4}{3} \\\\ y=-\\frac{1}{2}x^{2}+2x+\\frac{5}{2} \\end{cases}$，\n解得$\\begin{cases} x=\\frac{23}{3} \\\\ y=-\\frac{104}{9} \\end{cases}$或$\\begin{cases} x=-1 \\\\ y=0 \\end{cases}$，\n∴$P(\\frac{23}{3}，-\\frac{104}{9})$；\n∵$y=-\\frac{4}{3}x-\\frac{4}{3}$，\n∴当x＝0时，$y=-\\frac{4}{3}$，\n∴$F(0，-\\frac{4}{3})$，\n作点F关于x轴的对称点G，连接AG，则，$G(0，\\frac{4}{3})$∠GAB＝∠BAF＝2∠ABC，\n∴直线AG与抛物线的交点也满足题意，\n同法可得：直线AG的解析式为$y=\\frac{4}{3}x+\\frac{4}{3}$，\n联立$\\begin{cases} y=\\frac{4}{3}x+\\frac{4}{3} \\\\ y=-\\frac{1}{2}x^{2}+2x+\\frac{5}{2} \\end{cases}$，\n解得$\\begin{cases} x=\\frac{7}{3} \\\\ y=\\frac{40}{9} \\end{cases}$或$\\begin{cases} x=-1 \\\\ y=0 \\end{cases}$，\n∴$P(\\frac{7}{3}，\\frac{40}{9})$；\n综上：$P(\\frac{23}{3}，-\\frac{104}{9})$或$P(\\frac{7}{3}，\\frac{40}{9})$；\n（3）①∵$y=-\\frac{1}{2}x^{2}+2x+\\frac{5}{2}=-\\frac{1}{2}(x-2)^{2}+\\frac{9}{2}$，\n∴$D(2，\\frac{9}{2})C(0，\\frac{5}{2})$，\n同法可得直线CD的解析式为$y=x+\\frac{5}{2}$，\n由题意，∠BCD即为旋转角，作BE∥CD，交y轴于点E，作CF⊥BE于点F，则∠CBF＝∠BCD，\n[[image:rId64]]\n∴tan∠CBF＝tan∠BCD，\n同法可得直线BE的解析式为y＝x﹣5，\n∴当x＝0时，y＝﹣5，\n∴E（0，﹣5），\n∴OE＝OB＝5，$CE=5+\\frac{5}{2}=\\frac{15}{2}$，\n∴$BE=5\\sqrt{2}$，\n∵$S_{△BCE}=\\frac{1}{2}BE⋅CF=\\frac{1}{2}CE⋅OB$，\n∴$5\\sqrt{2}CF=5×\\frac{15}{2}$，\n∴$CF=\\frac{15\\sqrt{2}}{4}BC=\\sqrt{5^{2}+(\\frac{5}{2})^{2}}=\\frac{5\\sqrt{5}}{2}$，\n∴$BF=\\sqrt{BC^{2}-CF^{2}}=\\frac{5\\sqrt{2}}{4}$，\n∴$tan∠BCD=tan∠CBF=\\frac{CF}{BF}=3$；\n②将抛物线沿直线CD平移，等同于将抛物线沿直线BE平移，\n∵OB＝OE，\n∴抛物线在水平方向和竖直方向上的移动距离相等，\n设将抛物线向右和向上分别平移t（t＞0）个单位，得到新的抛物线，\n则新抛物线的解析式为y$=-\\frac{1}{2}$（x﹣2﹣t）^{2}$+\\frac{9}{2}+$t，\n∴$M(2+t，\\frac{9}{2}+t)$，\n联立$\\begin{cases} y=-\\frac{1}{2}(x-2-t)^{2}+\\frac{9}{2}+t \\\\ y=-\\frac{1}{2}(x-2)^{2}+\\frac{9}{2} \\end{cases}$，\n解得：$\\begin{cases} x=\\frac{t+2}{2} \\\\ y=-\\frac{t^{2}}{8}+\\frac{t}{2}+4 \\end{cases}$，\n∴$Q(\\frac{t+2}{2}，-\\frac{t^{2}}{8}+\\frac{t}{2}+4)$，\n作QK⊥y轴，ML⊥QK交KQ的延长线于点L，\n[[image:rId65]]\n∴∠CKQ＝∠MLQ＝90°＝∠CQM，\n$CK=\\frac{5}{2}+\\frac{t^{2}}{8}-\\frac{t}{2}-4=\\frac{t^{2}}{8}-\\frac{t}{2}-\\frac{3}{2}$，$QK=\\frac{t+2}{2}$，$QL=2+t-\\frac{t+2}{2}=1+\\frac{t}{2}$，$ML=\\frac{9}{2}+t+\\frac{t^{2}}{8}-\\frac{t}{2}-4=\\frac{t^{2}}{8}+\\frac{t}{2}+\\frac{1}{2}$，\n∴∠CQK＝∠QML＝90°﹣∠MQL，\n∴△CQK∽△QML，\n∴$\\frac{CK}{QL}=\\frac{QK}{ML}$，\n∴$(\\frac{t^{2}}{8}-\\frac{t}{2}-\\frac{3}{2})⋅(\\frac{t^{2}}{8}+\\frac{t}{2}+\\frac{1}{2})=(\\frac{t+2}{2})^{2}$，\n解得$t=2+4\\sqrt{2}$或t＝﹣2（舍去）或$t=2-4\\sqrt{2}$（舍去）；\n∴抛物线在水平方向和竖直方向的平移距离均为$2+4\\sqrt{2}$，\n∴抛物线的平移距离为$\\sqrt{2}(2+4\\sqrt{2})=2\\sqrt{2}+8$，\n当抛物线沿直线CD向下移动时，同理可得抛物线的平移距离为$\\sqrt{2}$（4$\\sqrt{2}-$2）＝8﹣2$\\sqrt{2}$；\n综上：抛物线的平移距离为$2\\sqrt{2}+8$或8﹣2$\\sqrt{2}$．\n【点评】本题考查二次函数的综合应用，解直角三角形，旋转的性质，相似三角形的判定和性质，二次函数图象的平移等知识点，综合性强，难度大，属于中考压轴题，熟练掌握相关知识点，合理添加辅助线，利用数形结合和分类讨论的思想进行求解，是解题的关键．",
+      "full_score": 13,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q022_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的性质",
+          "相似三角形的判定和性质",
+          "旋转的性质",
+          "解直角三角形"
+        ],
+        "reasoning": "第（3）小问①需要求解旋转角度的正切值，涉及解直角三角形。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的性质\", \"相似三角形的判定和性质\", \"旋转的性质\", \"解直角三角形\"],\n  \"reasoning\": \"第（3）小问①需要求解旋转角度的正切值，涉及解直角三角形。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省淄博市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "【问题情境】\n小明在学习了正方形的相关知识之后，在一张边长为4的ABCD正方形纸片上进行了关于折叠的研究性学习．【探究感悟】\n如图①，小明在边AB上取点E（E不与A，B重合），连接DE，将△ADE沿DE翻折，使得点A的对应点A₁恰好落到对角线BD上，则此时线段BE的长是 ____ ；\n【深入探究】\n小明继续将△ADE沿DE翻折，发现：A₁，B，C三点能构成等腰三角形．请求出此时线段BE的长；\n【拓展延伸】\n如图②，小明又在边CD上取点F（F不与C，D重合），并将四边形ADFE沿EF翻折，使得点A的对应点A₁恰好落在边BC上，记A₁D₁（D₁为D的对应点）与CD的交点为G，连接AD₁，小明再次发现：线段EF与A₁D的长度之和存在最小值，请求出此时线段CG的长．\n[图1]\n2025年山东省淄博市中考数学试卷",
+      "stem_markdown": "【问题情境】\n小明在学习了正方形的相关知识之后，在一张边长为4的ABCD正方形纸片上进行了关于折叠的研究性学习．【探究感悟】\n如图①，小明在边AB上取点E（E不与A，B重合），连接DE，将△ADE沿DE翻折，使得点A的对应点$A_{1}$恰好落到对角线BD上，则此时线段BE的长是 ____ ；\n【深入探究】\n小明继续将△ADE沿DE翻折，发现：$A_{1}$，B，C三点能构成等腰三角形．请求出此时线段BE的长；\n【拓展延伸】\n如图②，小明又在边CD上取点F（F不与C，D重合），并将四边形ADFE沿EF翻折，使得点A的对应点$A_{1}$恰好落在边BC上，记$A_{1}D_{1}$（$D_{1}$为D的对应点）与CD的交点为G，连接$AD_{1}$，小明再次发现：线段EF与$A_{1}$D的长度之和存在最小值，请求出此时线段CG的长．\n![2025年山东省淄博市中考数学试卷_q023_img01](assets/2025年山东省淄博市中考数学试卷_q023_img01.png)\n2025年山东省淄博市中考数学试卷",
+      "options": [],
+      "answer": "8﹣4$\\sqrt{2}$",
+      "solution": "【分析】【探究感悟】根据正方形的性质，折叠的性质，推出Δ$A_{1}$EB为等腰直角三角形，进而求出BE的长即可；\n【深入探究】分$A_{1}$C＝BC和$A_{1}$C＝$A_{1}$B两种情况进行讨论求解即可；\n【拓展延伸】连接$AA_{1}$，$A_{1}$D作FK⊥AB，易得四边形ADFK为矩形，根据折叠性质得到$A_{1}$D＝$AD_{1}$，证明△EFK≌△$A_{1}$AB得到EF＝$AA_{1}$，进而得到EF+$A_{1}$D＝$AA_{1}+A_{1}$D，作点A关于BC的对称点A'，连接$A_{1}$A'，连接A'D交BC于点M，则A'B＝AB＝CD，$A_{1}$A'＝$AA_{1}$得到EF+$A_{1}$D＝$AA_{1}+A_{1}$D＝A'$A_{1}+A_{1}$D≥A'D，得到当点$A_{1}$在A'D上时，即点$A_{1}$与点M重合时，EF+$A_{1}$D＝A'D值最小，证明△$CDA_{1}$≌△$BAA_{1}$得到$CA_{1}＝BA_{1}$，进而得到$A_{1}$为BC的中点，设AE＝$A_{1}$E＝x，则BE＝AB﹣AE＝4﹣x，在Rt△$A_{1}$BE中，由勾股定理，得：$x^{2}$＝2^{2}+（4﹣x）^{2}，求出AE的长，进而求出BE的长，证明△$EBA_{1}$∽△$A_{1}$CG，进行求解即可．\n【解答】解：【探究感悟】∵正方形ABCD，边长为4，\n∴AD＝AB＝BC＝CD＝4，∠DAB＝∠ABC＝∠DCB＝∠ADC＝90°，∠DBA＝45°，\n∴$BD=4\\sqrt{2}$，\n由折叠可知∠$DA_{1}$E＝∠A＝90°，$A_{1}$D＝AD＝4，\n∴∠$BA_{1}$E＝90°，$BA_{1}=BD-A_{1}D=4\\sqrt{2}-4$，\n∵∠DBA＝45°，\n∴△$A_{1}$EB为等腰直角三角形，\n∴$BE=\\sqrt{2}A_{1}B=\\sqrt{2}×(4\\sqrt{2}-4)=8-4\\sqrt{2}$；\n故答案为：8﹣4$\\sqrt{2}$；\n【深入探究】①当$A_{1}$C＝BC时，如图，作$A_{1}$F⊥CD于点F，延长$FA_{1}$交AB于点G，\n[[image:rId67]]\n则四边形ADFG为矩形，\n∴DF＝AG，FG＝AD＝4，\n∵BC＝CD，\n∴$A_{1}$C＝CD，\n又∵折叠，\n∴AD＝$A_{1}$D，∠$DA_{1}$E＝∠A＝90°，\n∴$A_{1}$C＝CD＝$A_{1}$D，\n∴△$A_{1}$CD为等边三角形，\n∴∠$DA_{1}$C＝60°，\n∵$A_{1}$F⊥CD，\n∴$∠DA_{1}F=\\frac{1}{2}∠DA_{1}C=$30°，$DF=CF=\\frac{1}{2}CD=2$，\n∴$A_{1}F=\\sqrt{3}DF=2\\sqrt{3}$，∠$GA_{1}$E＝180°﹣∠$DA_{1}$E﹣∠$DA_{1}$F＝60°，\n∴$A_{1}G=FG-A_{1}F=4-2\\sqrt{3}$，\n在Rt△$A_{1}$GE中，EG$=A_{1}G⋅tan60°=(4-2\\sqrt{3})⋅\\sqrt{3}=4\\sqrt{3}-6$，\n∵AG＝DF＝2，\n∴BG＝AB﹣AG＝2，\n∴BE＝BG+EG$=4\\sqrt{3}-6+2=4\\sqrt{3}-4$；\n②当$A_{1}$C＝$A_{1}$B时，如图：作$A_{1}$F⊥CD于点F，延长$FA_{1}$交AB于点G，作$A_{1}$H⊥BC于点H，\n[[image:rId68]]\n则$CH=BH=\\frac{1}{2}BC=2$，四边形$CFA_{1}$H为矩形，四边形BGFC为矩形，\n∴AF＝CH＝2，BG＝CF，FG＝BC＝4，\n∴$A_{1}$G＝FG﹣$A_{1}$F＝2，\n在Rt△$A_{1}$FD中，$sin∠A_{1}DF=\\frac{A_{1}F}{A_{1}D}=\\frac{2}{4}=\\frac{1}{2}$，\n∴∠$A_{1}$DF＝30°，\n∴∠$FA_{1}$D＝60°，$DF=\\sqrt{3}A_{1}F=2\\sqrt{3}$，\n∴$BG=CF=CD-DF=4-2\\sqrt{3}$，∠$EA_{1}$G＝180°﹣∠$DA_{1}$F﹣∠$DA_{1}$E＝30°，\n在Rt△$A_{1}$GE中，EG$=A_{1}G⋅tan30°=\\frac{2\\sqrt{3}}{3}$，\n∴BE＝BG+EG＝4$-2\\sqrt{3}+\\frac{2\\sqrt{3}}{3}=4-\\frac{4\\sqrt{3}}{3}$，\n综上：$BE=4\\sqrt{3}-4或4-\\frac{4\\sqrt{3}}{3}$；\n【拓展延伸】连接$AA_{1}$，$A_{1}$D，$A_{1}$D交$AD_{1}$于点O，作FK⊥AB，则四边形ADFK为矩形，\n[[image:rId69]]\n∴FK＝AD＝AB，∠FEK+∠KFE＝90°，\n由折叠可知AE＝$A_{1}$E，$A_{1}D_{1}$＝AD，$AA_{1}$⊥FE，∠$GA_{1}$E＝∠DAB＝90°，OA＝$OA_{1}$，OD＝$OD_{1}$，\n∴∠$A_{1}$AB+∠FEA＝90°，$A_{1}$D＝$AD_{1}$，\n∴∠$BAA_{1}$＝∠KFE，\n又∵∠FKE＝∠ABC＝90°，FK＝AB，\n∴△EFK≌△$A_{1}$AB（AAS），\n∴EF＝$AA_{1}$，\n∴EF+$A_{1}$D＝$AA_{1}+A_{1}$D，\n作点A关于BC的对称点A'，连接$A_{1}$A'，连接A'D交BC于点M，\n则A'B＝AB＝CD，$A_{1}$A'＝$AA_{1}$，\n∴EF+$A_{1}$D＝$AA_{1}+A_{1}$D＝A'$A_{1}+A_{1}$D≥A'D，\n∴当点$A_{1}$在A'D上时，即点$A_{1}$与点M重合时，EF+$A_{1}$D＝A'D值最小；\n如图：\n[[image:rId70]]\n∵∠$DCA_{1}$＝∠A'$BA_{1}$＝90°，∠$CA_{1}$D＝∠$BA_{1}$A'，A'B＝CD，\n∴△$CDA_{1}$≌△$BAA_{1}$（ASA），\n∴$CA_{1}＝BA_{1}$，\n∴$A_{1}$为BC的中点，\n∴$CA_{1}=BA_{1}=\\frac{1}{2}BC=2$，\n设AE＝$A_{1}$E＝x，\n则BE＝AB﹣AE＝4﹣x，\n在Rt△$A_{1}$BE中，由勾股定理，得：$x^{2}$＝2^{2}+（4﹣x）^{2}，\n解得$x=\\frac{5}{2}$，\n∴$AE=\\frac{5}{2}$，\n∴BE＝AB﹣AE$=\\frac{3}{2}$，\n∴∠ABC＝∠C＝90°＝∠$GA_{1}$E，\n∴∠$BEA_{1}$＝∠$CA_{1}$G＝90°﹣∠$BA_{1}$E，\n∴△$EBA_{1}$∽△$A_{1}$CG，\n∴$\\frac{CG}{A_{1}B}=\\frac{A_{1}C}{BE}$，即$\\frac{CG}{2}=\\frac{2}{\\frac{3}{2}}$，\n∴$CG=\\frac{8}{3}$．\n【点评】本题考查正方形的性质，折叠的性质，等腰三角形的判定和性质，等边三角形的判定和性质，相似三角形的判定和性质，勾股定理，解直角三角形，利用轴对称解决线段和最短问题等知识点，综合性强，难度大，属于中考压轴题，熟练掌握相关知识点，合理添加辅助线，确定动点位置，是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:21:49；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId72]] ____ [[image:rId73]] ____ [[image:rId74]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 13,
+      "images": [
+        {
+          "image_id": "2025年山东省淄博市中考数学试卷_q023_img01",
+          "path": "assets/2025年山东省淄博市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰直角三角形的性质",
+          "勾股定理",
+          "相似三角形的判定和性质",
+          "轴对称图形的性质"
+        ],
+        "reasoning": "探究感悟部分涉及等腰直角三角形的性质和勾股定理的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰直角三角形的性质\", \"勾股定理\", \"相似三角形的判定和性质\", \"轴对称图形的性质\"],\n  \"reasoning\": \"探究感悟部分涉及等腰直角三角形的性质和勾股定理的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:01:48",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 23,
+      "ok": 23,
+      "fallback": 0
+    }
+  }
+}

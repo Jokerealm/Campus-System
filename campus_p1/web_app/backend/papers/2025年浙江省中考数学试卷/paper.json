@@ -1,0 +1,1102 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年浙江省中考数学试卷",
+  "source": {
+    "name": "2025年浙江省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年浙江省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年浙江省中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "\\frac{3}{4}的相反数是（ ）",
+      "stem_markdown": "$\\frac{3}{4}$的相反数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-\\frac{3}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$-\\frac{4}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{3}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据符号不同，绝对值相同的两个数互为相反数即可求得答案．\n【解答】解：$\\frac{3}{4}$的相反数是$-\\frac{3}{4}$．\n故选：A．\n【点评】本题考查了相反数的概念，掌握只有符号不同的两个数叫做互为相反数是解答此题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相反数的概念"
+        ],
+        "reasoning": "题中要求找出 \\(\frac{3}{4}\\) 的相反数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相反数的概念\"],\n  \"reasoning\": \"题中要求找出 \\(\\frac{3}{4}\\) 的相反数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "如图所示，直线a，b被直线c所截．若a∥b，∠1＝91°，则（ ）\n[图1]",
+      "stem_markdown": "如图所示，直线a，b被直线c所截．若a∥b，∠1＝91°，则（ ）\n![2025年浙江省中考数学试卷_q002_img01](assets/2025年浙江省中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "∠2＝91°"
+        },
+        {
+          "label": "B",
+          "text": "∠3＝91°"
+        },
+        {
+          "label": "C",
+          "text": "∠4＝91°"
+        },
+        {
+          "label": "D",
+          "text": "∠5＝91°"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据两直线平行，内错角相等；对顶角相等；邻补角互补即可求解．\n【解答】解：∵a∥b，\n∴∠3＝∠1＝91°，\n由邻补角互补得∠4＝180°﹣∠3＝89°，\n由对顶角相等得∠5＝∠4＝89°，\n由邻补角互补得∠2＝180°﹣∠1＝89°，\n故正确的是B选项．\n故选：B．\n【点评】本题主要考查了平行线的性质，熟记两直线平行，内错角相等是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q002_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q002_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "两直线平行，内错角相等",
+          "对顶角相等",
+          "邻补角互补"
+        ],
+        "reasoning": "根据两直线平行，内错角∠3等于∠1=91°；邻补角互补得出∠4=89°；对顶角∠5等于∠4=89°。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"两直线平行，内错角相等\", \"对顶角相等\", \"邻补角互补\"],\n  \"reasoning\": \"根据两直线平行，内错角∠3等于∠1=91°；邻补角互补得出∠4=89°；对顶角∠5等于∠4=89°。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "国家税务总局发布的数据显示，2024年，现行支持科技创新和制造业发展的主要政策减税降费及退税达26293亿元，助力我国新质生产力加速培育、制造业高质量发展．将数2629300000000用科学记数法表示为（ ）",
+      "stem_markdown": "国家税务总局发布的数据显示，2024年，现行支持科技创新和制造业发展的主要政策减税降费及退税达26293亿元，助力我国新质生产力加速培育、制造业高质量发展．将数2629300000000用科学记数法表示为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "26.293×10^{11}"
+        },
+        {
+          "label": "B",
+          "text": "2.6293×10^{12}"
+        },
+        {
+          "label": "C",
+          "text": "0.26293×10^{13}"
+        },
+        {
+          "label": "D",
+          "text": "2.6293×10^{13}"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：2629300000000＝2.6293×10^{12}．\n故选：B．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "小数点移动与指数关系"
+        ],
+        "reasoning": "将大数用科学记数法表示时，需确定a的范围和n的值。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"小数点移动与指数关系\"],\n  \"reasoning\": \"将大数用科学记数法表示时，需确定a的范围和n的值。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "底面是正六边形的直棱柱如图所示，其俯视图是（ ）\n[图1]",
+      "stem_markdown": "底面是正六边形的直棱柱如图所示，其俯视图是（ ）\n![2025年浙江省中考数学试卷_q004_img01](assets/2025年浙江省中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年浙江省中考数学试卷_q004_img02](assets/2025年浙江省中考数学试卷_q004_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年浙江省中考数学试卷_q004_img03](assets/2025年浙江省中考数学试卷_q004_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年浙江省中考数学试卷_q004_img04](assets/2025年浙江省中考数学试卷_q004_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年浙江省中考数学试卷_q004_img05](assets/2025年浙江省中考数学试卷_q004_img05.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据简单几何体的三视图进行判断即可．\n【解答】解：从上面看这个几何体，看到的图形是一个正六边形，因此选项A中的图形符合题意，\n故选：A．\n【点评】本题考查简单几何体的三视图，理解视图的意义是正确判断的前提．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q004_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q004_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年浙江省中考数学试卷_q004_img02",
+          "path": "assets/2025年浙江省中考数学试卷_q004_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年浙江省中考数学试卷_q004_img03",
+          "path": "assets/2025年浙江省中考数学试卷_q004_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年浙江省中考数学试卷_q004_img04",
+          "path": "assets/2025年浙江省中考数学试卷_q004_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年浙江省中考数学试卷_q004_img05",
+          "path": "assets/2025年浙江省中考数学试卷_q004_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正六边形",
+          "三视图",
+          "俯视图"
+        ],
+        "reasoning": "题目要求从上面看直棱柱，看到的图形是一个正六边形。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正六边形\", \"三视图\", \"俯视图\"],\n  \"reasoning\": \"题目要求从上面看直棱柱，看到的图形是一个正六边形。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "已知反比例函数y=-\\frac{7}{x}．下列选项正确的是（ ）",
+      "stem_markdown": "已知反比例函数y$=-\\frac{7}{x}$．下列选项正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "函数图象在第一、三象限"
+        },
+        {
+          "label": "B",
+          "text": "y随x的增大而减小"
+        },
+        {
+          "label": "C",
+          "text": "函数图象在第二、四象限"
+        },
+        {
+          "label": "D",
+          "text": "y随x的增大而增大"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据反比例函数图象和性质判断即可．\n【解答】解：∵反比例函数y$=\\frac{-7}{x}$，k＝﹣7＜0，\n∴函数图象在第二、四象限，在每一象限内y随x的增大而增大，\n故选项C符合题意．\n故选：C．\n【点评】本题考查了反比例函数的性质，熟悉反比例函数的图象是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数",
+          "反比例函数图像",
+          "反比例函数性质"
+        ],
+        "reasoning": "选项C涉及反比例函数图象在第二、四象限及y随x增大而减小",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数\", \"反比例函数图像\", \"反比例函数性质\"],\n  \"reasoning\": \"选项C涉及反比例函数图象在第二、四象限及y随x增大而减小\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，五边形ABCDE，A′B′C′D′E′是以坐标原点O为位似中心的位似图形，已知点A，A′的坐标分别为（2，0），（3，0）．若DE的长为3，则D′E′的长为（ ）\n[图1]",
+      "stem_markdown": "如图，五边形ABCDE，A′B′C′D′E′是以坐标原点O为位似中心的位似图形，已知点A，A′的坐标分别为（2，0），（3，0）．若DE的长为3，则D′E′的长为（ ）\n![2025年浙江省中考数学试卷_q006_img01](assets/2025年浙江省中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据位似图形的性质得到$\\frac{OA}{OA′}=\\frac{OE}{OE′}=\\frac{OD}{OD′}=\\frac{2}{3}$，证明△DOE∽△D'OE'，即可求解．\n【解答】解：∵五边形ABCDE，A'B'C'D'E'是以坐标原点O为位似中心的位似图形，点A，A'的坐标分别为（2，0），（3，0），\n∴$\\frac{OA}{OA′}=\\frac{OE}{OE′}=\\frac{OD}{OD′}=\\frac{2}{3}$，\n∵∠DOE＝∠DOE，\n∴△DOE∽△D'OE'，\n∴$\\frac{DE}{D′E′}=\\frac{OE}{OE′}=\\frac{2}{3}$，\n∵DE＝3，\n∴$D′E′=\\frac{9}{2}$，\n故选：C．\n【点评】本题考查了位似图形的性质，相似三角形的判定与性质，熟练掌握位似图形的性质，相似三角形的判定与性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q006_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "位似图形的性质",
+          "相似三角形的判定与性质"
+        ],
+        "reasoning": "根据位似图形的性质和相似三角形的判定得到 DE 和 D'E' 的比例关系",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"位似图形的性质\", \"相似三角形的判定与性质\"],\n  \"reasoning\": \"根据位似图形的性质和相似三角形的判定得到 DE 和 D'E' 的比例关系\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "手工社团的同学制作两种手工艺品A和B，需要用到彩色纸和细木条，单个手工艺品材料用量如表．\n材料类别 | 彩色纸（张） | 细木条（捆）\n手工艺品A | 5 | 3\n手工艺品B | 2 | 1\n如果一共用了17张彩色纸和10捆细木条，问他们制作的两种手工艺品各有多少个？设手工艺品A有x个，手工艺品B有y个，则x和y满足的方程组是（ ）",
+      "stem_markdown": "手工社团的同学制作两种手工艺品A和B，需要用到彩色纸和细木条，单个手工艺品材料用量如表．\n| 材料类别 | 彩色纸（张） | 细木条（捆） |\n| --- | --- | --- |\n| 手工艺品A | 5 | 3 |\n| 手工艺品B | 2 | 1 |\n如果一共用了17张彩色纸和10捆细木条，问他们制作的两种手工艺品各有多少个？设手工艺品A有x个，手工艺品B有y个，则x和y满足的方程组是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\begin{cases} 5x+3y=17 \\\\ 2x+y=10 \\end{cases}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\begin{cases} 5x+3y=10 \\\\ 2x+y=17 \\end{cases}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\begin{cases} 5x+2y=17 \\\\ 3x+y=10 \\end{cases}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\begin{cases} 5x+2y=10 \\\\ 3x+y=17 \\end{cases}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据“一共用了17张彩色纸和10捆细木条，”，即可列出关于x，y的二元一次方程组，此题得解．\n【解答】解：根据题意可列方程组$\\begin{cases} 5x+2y=17 \\\\ 3x+y=10 \\end{cases}$．\n故选：C．\n【点评】本题考查了由实际问题抽象出二元一次方程组，找准等量关系，正确列出二元一次方程组是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "代数方程组",
+          "实际问题与方程组",
+          "线性方程组"
+        ],
+        "reasoning": "题目通过实际情境设置，要求根据给定的材料用量建立方程组来解决实际问题。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"代数方程组\", \"实际问题与方程组\", \"线性方程组\"],\n  \"reasoning\": \"题目通过实际情境设置，要求根据给定的材料用量建立方程组来解决实际问题。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "某书店某一天图书的销售情况如图所示．\n[图1]\n根据以上信息，下列选项错误的是（ ）",
+      "stem_markdown": "某书店某一天图书的销售情况如图所示．\n![2025年浙江省中考数学试卷_q008_img01](assets/2025年浙江省中考数学试卷_q008_img01.png)\n根据以上信息，下列选项错误的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "科技类图书销售了60册"
+        },
+        {
+          "label": "B",
+          "text": "文艺类图书销售了120册"
+        },
+        {
+          "label": "C",
+          "text": "文艺类图书销售占比30%"
+        },
+        {
+          "label": "D",
+          "text": "其他类图书销售占比18%"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】先由教育类书籍数量及其所占百分比求出总册数，再乘科技类对应百分比求得其人数即可判断A选项；根据四个类别数量之和等于总册数可求得文艺类数量，即可判断B选项；用文艺类、其他类人数除以总数量，从而判断C、D选项．\n【解答】解：A．总数量＝150÷37.5%＝400（册），则科技类图书销售了400×15%＝60（册），此选项正确，不符合题意；\nB．文艺类图书销售了400﹣（150+60+70）＝120（册），此选项正确，不符合题意；\nC．文艺类图书销售占比$\\frac{120}{400}×$100%＝30%，此选项正确，不符合题意；\nD．其他类图书销售占比$\\frac{70}{400}×$100%＝17.5%，此选项错误，符合题意；\n故选：D．\n【点评】本题主要考查扇形统计图，扇形统计图是用整个圆表示总数用圆内各个扇形的大小表示各部分数量占总数的百分数．通过扇形统计图可以很清楚地表示出各部分数量同总数之间的关系．用整个圆的面积表示总数（单位1），用圆的扇形面积表示各部分占总数的百分数．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q008_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "百分比计算",
+          "扇形统计图",
+          "数据解读"
+        ],
+        "reasoning": "选项D中的其他类图书销售占比计算错误",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"百分比计算\", \"扇形统计图\", \"数据解读\"],\n  \"reasoning\": \"选项D中的其他类图书销售占比计算错误\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，在Rt△ABC中，∠A＝35°，CD是斜边AB上的中线，以点C为圆心，CD长为半径作弧，与AB的另一个交点为点E．若AB＝2，则DE的长为（ ）\n[图1]",
+      "stem_markdown": "如图，在Rt△ABC中，∠A＝35°，CD是斜边AB上的中线，以点C为圆心，CD长为半径作弧，与AB的另一个交点为点E．若AB＝2，则$DE$的长为（ ）\n![2025年浙江省中考数学试卷_q009_img01](assets/2025年浙江省中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{9}$π"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{9}$π"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{11}{36}$π"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{18}$π"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】由直角三角形斜边中线的性质推出CD＝AD，得到∠ACD＝∠A＝35°，由三角形的外角性质求出∠CDE＝70°，由等腰三角形的性质推出∠CED＝∠CDE＝70°，由三角形内角和定理求出∠DCE＝40°，求出CD$=\\frac{1}{2}×$2＝1，由弧长公式即可求出$DE$的长．\n【解答】解：∵∠ACB＝90°，D是AB的中点，\n∴CD$=\\frac{1}{2}$AB，\n∴CD＝AD，\n∴∠ACD＝∠A＝35°，\n∴∠CDE＝∠A+∠ACD＝70°，\n由题意知：CD＝CE，\n∴∠CED＝∠CDE＝70°，\n∴∠DCE＝180°﹣70°﹣70°＝40°，\n∵AB＝2，\n∴CD$=\\frac{1}{2}×$2＝1，\n∴$DE$的长$=\\frac{40π×1}{180}=\\frac{2}{9}$π．\n故选：B．\n[[image:rId35]]\n【点评】本题考查直角三角形斜边的中线，弧长的计算，关键是由直角三角形斜边中线的性质推出CD＝AD，掌握弧长公式．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q009_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形斜边中线性质",
+          "三角形外角性质",
+          "等腰三角形性质",
+          "弧长公式"
+        ],
+        "reasoning": "题中通过直角三角形斜边中线性质得出CD=AD，进而利用三角形外角性质求∠CDE，结合等腰三角形性质求∠CED，最后利用弧长公式计算DE长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形斜边中线性质\", \"三角形外角性质\", \"等腰三角形性质\", \"弧长公式\"],\n  \"reasoning\": \"题中通过直角三角形斜边中线性质得出CD=AD，进而利用三角形外角性质求∠CDE，结合等腰三角形性质求∠CED，最后利用弧长公式计算DE长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "为了实时规划路径，卫星导航系统需要计算运动点与观测点之间距离的平方．如图1，点P是一个固定观测点，运动点Q从A处出发，沿笔直公路AB向目的地B处运动．设AQ为x（单位：km）（0≤x≤n），PQ²为y（单位：km²）．如图2，y关于x的函数图象与y轴交于点C，最低点D（m，81），且经过E（1，225）和F（n，225）两点．下列选项正确的是（ ）\n[图1]",
+      "stem_markdown": "为了实时规划路径，卫星导航系统需要计算运动点与观测点之间距离的平方．如图1，点P是一个固定观测点，运动点Q从A处出发，沿笔直公路AB向目的地B处运动．设AQ为x（单位：km）（0≤x≤n），$PQ^{2}$为y（单位：$km^{2}$）．如图2，y关于x的函数图象与y轴交于点C，最低点D（m，81），且经过E（1，225）和F（n，225）两点．下列选项正确的是（ ）\n![2025年浙江省中考数学试卷_q010_img01](assets/2025年浙江省中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "m＝12"
+        },
+        {
+          "label": "B",
+          "text": "n＝24"
+        },
+        {
+          "label": "C",
+          "text": "点C的纵坐标为240"
+        },
+        {
+          "label": "D",
+          "text": "点（15，85）在该函数图象上"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】依据题意，作PG⊥AB，当x＝1时，动点Q运动到点H的位置，得到$PH^{2}$＝225当点Q运动到点G的时候，$PQ^{2}$最小为81，HG＝m﹣1，勾股定理求出m的值，判断A；当x＝m时，点Q运动到点B，根据三线合一，得到BG＝HG，进而求出n的值，判断B；连接AP，勾股定理求出$AP^{2}$的长，确定C的纵坐标，判断C；依据题意，求出x＝15时，可得点Q的位置，再利用勾股定理求出$PK^{2}$判断D．\n【解答】解：如图，作PG⊥AB于G，当x＝1时，动点Q运动到点H的位置，则由题意和图象可知$PH^{2}$＝225，当点Q运动到点G的时候，$PQ^{2}$最小，即：$PG^{2}$＝81，HG＝m﹣1＝12．\n[[image:rId37]]\n在Rt△PGH中，由勾股定理，得225＝81+（m﹣1）^{2}，\n∴m＝13．\n∴A错误．\n∴AG＝m＝13，HG＝m﹣1＝12．\n当x＝n时，点Q运动到点B，则$PB^{2}$＝225＝$PH^{2}$，\n∴PB＝PH，\n∵PG⊥AB，\n∴BG＝HG＝12，\n∴AB＝13+12＝25，\n∴选项B错误．\n∴当x＝0，即点Q在A点时，\n∴$AP^{2}＝AG^{2}+PG^{2}$＝13^{2}+81＝250．\n∴点C的纵坐标为250．\n∴选项C错误．\n当x＝15时，点Q运动到点K，\n∴AK＝15．\n∴GK＝AK﹣AG＝2．\n∴$PK^{2}＝KG^{2}+PG^{2}$＝4+81＝85．\n∴点（15，85）在该函数图象上．\n∴选项D正确．\n故选：D．\n【点评】本题主要考查了动点的函数图象、勾股定理、垂线段最短、等腰三角形的性质，解题时要熟练掌握并能从函数图象中有效的获取信息，确定点Q的位置是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q010_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "函数图像分析",
+          "等腰三角形性质"
+        ],
+        "reasoning": "题中通过函数图像分析点Q的位置及距离变化，涉及勾股定理求解点Q的坐标。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"函数图像分析\", \"等腰三角形性质\"],\n  \"reasoning\": \"题中通过函数图像分析点Q的位置及距离变化，涉及勾股定理求解点Q的坐标。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "|﹣5|+\\sqrt[3]{-27}= ____ ．",
+      "stem_markdown": "|﹣5|$+\\sqrt[3]{-27}=$ ____ ．",
+      "options": [],
+      "answer": "2．",
+      "solution": "【分析】利用绝对值的性质，立方根的定义计算后再算加法即可．\n【解答】解：原式＝5﹣3＝2，\n故答案为：2．\n【点评】本题考查实数的运算，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值",
+          "立方根"
+        ],
+        "reasoning": "题目中使用了绝对值的性质和立方根的定义进行计算",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\", \"立方根\"],\n  \"reasoning\": \"题目中使用了绝对值的性质和立方根的定义进行计算\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "不等式组\\begin{cases} x≥-2 \\\\ 2x-3＜5 \\end{cases}的解集是 ____ ．",
+      "stem_markdown": "不等式组$\\begin{cases} x≥-2 \\\\ 2x-3＜5 \\end{cases}$的解集是 ____ ．",
+      "options": [],
+      "answer": "﹣2≤x＜4．",
+      "solution": "【分析】根据解一元一次不等式组的步骤，求出不等式组的解集即可．\n【解答】解：解不等式2x﹣3＜5得，x＜4，\n所以不等式组的解集为：﹣2≤x＜4．\n故答案为：﹣2≤x＜4．\n【点评】本题主要考查了解一元一次不等式组，熟知解一元一次不等式组的步骤是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组的解法",
+          "解一元一次不等式"
+        ],
+        "reasoning": "解不等式2x-3<5得出x<4，结合x≥-2确定解集",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组的解法\", \"解一元一次不等式\"],\n  \"reasoning\": \"解不等式2x-3<5得出x<4，结合x≥-2确定解集\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "无人机警戒在高速公路场景中的应用，是我国低空经济高质量发展的重要实践方向．如图，在高速公路上，交警在A处操控无人机巡查，无人机从点A处飞行到点P处悬停，探测到它的正下方公路上点B处有汽车发生故障．测得A处到P处的距离为500m，从点A观测点P的仰角为α，cosα＝0.98，则A处到B处的距离为 ____ m．\n[图1]",
+      "stem_markdown": "无人机警戒在高速公路场景中的应用，是我国低空经济高质量发展的重要实践方向．如图，在高速公路上，交警在A处操控无人机巡查，无人机从点A处飞行到点P处悬停，探测到它的正下方公路上点B处有汽车发生故障．测得A处到P处的距离为500m，从点A观测点P的仰角为α，cosα＝0.98，则A处到B处的距离为 ____ m．\n![2025年浙江省中考数学试卷_q013_img01](assets/2025年浙江省中考数学试卷_q013_img01.png)",
+      "options": [],
+      "answer": "490．",
+      "solution": "【分析】根据三角函数的定义即可得到结论．\n【解答】解：在Rt△ABP中，∵∠B＝90°，AP＝500m，∠A＝α，\n∴AB＝AP•cosα＝500×0.98＝490（m），\n答：A处到B处的距离为490m．\n故答案为：490．\n【点评】本题考查了解直角三角形的应用﹣仰角俯角问题，熟练掌握三角函数的定义是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q013_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q013_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角函数的定义",
+          "直角三角形的性质"
+        ],
+        "reasoning": "题中使用了三角函数的定义计算距离，涉及直角三角形的边角关系。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角函数的定义\", \"直角三角形的性质\"],\n  \"reasoning\": \"题中使用了三角函数的定义计算距离，涉及直角三角形的边角关系。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "现有六张分别标有数字1，2，3，4，5，6的卡片，其中标有数字1，4，5的卡片在甲手中，标有数字2，3，6的卡片在乙手中．两人各随机出一张卡片，甲出的卡片数字比乙大的概率是 ____ ．",
+      "stem_markdown": "现有六张分别标有数字1，2，3，4，5，6的卡片，其中标有数字1，4，5的卡片在甲手中，标有数字2，3，6的卡片在乙手中．两人各随机出一张卡片，甲出的卡片数字比乙大的概率是 ____ ．",
+      "options": [],
+      "answer": "$\\frac{4}{9}$．",
+      "solution": "【分析】列表可得出所有等可能的结果数以及甲出的卡片数字比乙大的结果数，再利用概率公式可得出答案．\n【解答】解：列表如下：\n| 2 | 3 | 6 | |\n| --- | --- | --- | --- |\n| 1 | （1，2） | （1，3） | （1，6） |\n| 4 | （4，2） | （4，3） | （4，6） |\n| 5 | （5，2） | （5，3） | （5，6） |\n共有9种等可能的结果，其中甲出的卡片数字比乙大的结果有：（4，2），（4，3），（5，2），（5，3），共4种，\n∴甲出的卡片数字比乙大的概率为$\\frac{4}{9}$．\n故答案为：$\\frac{4}{9}$．\n【点评】本题考查列表法与树状图法、概率公式，熟练掌握列表法与树状图法以及概率公式是解答本题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "排列组合",
+          "概率计算"
+        ],
+        "reasoning": "列表法计算所有可能结果及符合条件的结果数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"排列组合\", \"概率计算\"],\n  \"reasoning\": \"列表法计算所有可能结果及符合条件的结果数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "【文化欣赏】\n我国南宋时期数学家杨辉于1261年写下《详解九章算法》，书中记载的二项和的乘方（a+b）ⁿ展开式的系数规律如图所示，其中“三乘”对应的展开式：（a+b）⁴＝a⁴+4a³b+6a²b²+4ab³+b⁴．\n【应用体验】\n已知（x+2）⁴＝x⁴+mx³+24x²+32x+16，则m的值为 ____ ．\n[图1]",
+      "stem_markdown": "【文化欣赏】\n我国南宋时期数学家杨辉于1261年写下《详解九章算法》，书中记载的二项和的乘方（a+b）^{n}展开式的系数规律如图所示，其中“三乘”对应的展开式：（a+b）^{4}＝$a^{4}+4a^{3}$b+$6a^{2}b^{2}+4ab^{3}+b^{4}$．\n【应用体验】\n已知（x+2）^{4}＝$x^{4}+mx^{3}+24x^{2}$+32x+16，则m的值为 ____ ．\n![2025年浙江省中考数学试卷_q015_img01](assets/2025年浙江省中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "8．",
+      "solution": "【分析】根据题干中所得系数规律得到关于m的方程，解得m的值即可．\n【解答】解：∵（x+2）^{4}＝$x^{4}+mx^{3}+24x^{2}$+32x+16，\n∴$mx^{3}＝4x^{3}$×2，\n∴m＝8，\n故答案为：8．\n【点评】本题考查数式规律问题，理解题意并得出规律是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q015_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二项式定理",
+          "系数规律",
+          "代数运算"
+        ],
+        "reasoning": "题中给出（x+2）⁴的展开式，并要求求出m的值，涉及二项式定理中的系数规律。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二项式定理\", \"系数规律\", \"代数运算\"],\n  \"reasoning\": \"题中给出（x+2）⁴的展开式，并要求求出m的值，涉及二项式定理中的系数规律。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "如图，矩形ABCD内接于⊙O，E是AD上一点，连接EB，EC分别交AD于点F，G．若AF＝1，EG＝FG＝3，则⊙O的直径为 ____ ．\n[图1]",
+      "stem_markdown": "如图，矩形ABCD内接于⊙O，E是$AD$上一点，连接EB，EC分别交AD于点F，G．若AF＝1，EG＝FG＝3，则⊙O的直径为 ____ ．\n![2025年浙江省中考数学试卷_q016_img01](assets/2025年浙江省中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "2$\\sqrt{14}$．",
+      "solution": "【分析】由矩形的性质得∠D＝∠BAD＝90°，由EG＝FG，得∠BEC＝∠GFE＝∠AFB＝∠BAC，推导出∠ALB＝∠BAD＝90°，则∠GAC＝∠ABE＝90°﹣∠BAC，而∠ABE＝∠ACG，AF＝1，EG＝FG＝3，所以∠GAC＝∠ACG，则CG＝AG＝4，可证明△CDG∽△AEG，得$\\frac{DG}{EG}=\\frac{CG}{AG}=$1，则DG＝EG＝3，求得AD＝7，CD$=\\sqrt{7}$，则⊙O的直径AC$=\\sqrt{AD^{2}+CD^{2}}=$2$\\sqrt{14}$．\n【解答】解：连接AC，\n∵四边形ABCD是矩形，且矩形ABCD内接于⊙O，\n∴∠D＝∠BAD＝90°，\n∴AC是⊙O的直径，\n∵AF＝1，EG＝FG＝3，\n∴∠BEC＝∠GFE＝∠AFB，\n∵∠BEC＝∠BAC，\n∴∠AFB＝∠BAC，\n∴∠ALB＝∠GAC+∠AFB＝∠GAC+∠BAC＝∠BAD＝90°，\n∴∠GAC＝∠ABE＝90°﹣∠BAC，\n∵∠ABE＝∠ACG，\n∴∠GAC＝∠ACG，\n∴CG＝AG＝AF+FG＝1+3＝4，\n∵∠CDG＝∠AEG＝90°，∠CGD＝∠AGE，\n∴△CDG∽△AEG，\n∴$\\frac{DG}{EG}=\\frac{CG}{AG}=$1，\n∴DG＝EG＝3，\n∴AD＝AG+DG＝4+3＝7，CD$=\\sqrt{CG^{2}-DG^{2}}=\\sqrt{4^{2}-3^{2}}=$$\\sqrt{7}$，\n∴AC$=\\sqrt{AD^{2}+CD^{2}}=\\sqrt{7^{2}+(\\sqrt{7})^{2}}=$2$\\sqrt{14}$，\n∴⊙O的直径为2$\\sqrt{14}$，\n故答案为：2$\\sqrt{14}$．\n[[image:rId41]]\n【点评】此题重点考查矩形的性质、等腰三角形的性质、90°的圆周角所对的弦是直径、相似三角形的判定与性质、勾股定理等知识，正确地添加辅助线是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q016_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的判定与性质",
+          "勾股定理",
+          "矩形的性质",
+          "等腰三角形的性质"
+        ],
+        "reasoning": "通过相似三角形△CDG∽△AEG得出DG=EG=3，利用勾股定理求出AD的长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的判定与性质\", \"勾股定理\", \"矩形的性质\", \"等腰三角形的性质\"],\n  \"reasoning\": \"通过相似三角形△CDG∽△AEG得出DG=EG=3，利用勾股定理求出AD的长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "化简求值：x（5﹣x）+x²+3，其中x＝2．",
+      "stem_markdown": "化简求值：x（5﹣x）+$x^{2}$+3，其中x＝2．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】根据单项式乘多项式的运算法则去掉括号，再合并同类项进行化简，最后将数值代入求出结果．\n【解答】解：x（5﹣x）+$x^{2}$+3\n＝5x﹣$x^{2}+x^{2}$+3\n＝5x+3，\n当x＝2时，\n原式＝5×2+3＝13．\n【点评】本题考查了整式的混合运算与化简求值，解题的关键是根据运算法则来计算．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "单项式乘多项式",
+          "合并同类项",
+          "代入求值"
+        ],
+        "reasoning": "题目要求化简表达式并代入x=2求值，涉及多项式乘法和合并同类项。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"单项式乘多项式\", \"合并同类项\", \"代入求值\"],\n  \"reasoning\": \"题目要求化简表达式并代入x=2求值，涉及多项式乘法和合并同类项。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "解分式方程：\\frac{3}{x+1}-\\frac{1}{x-1}=0．",
+      "stem_markdown": "解分式方程：$\\frac{3}{x+1}-\\frac{1}{x-1}=$0．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先把分式方程转变为整式方程，解整式方程求出x的值，然后检验即可．\n【解答】解：$\\frac{3}{x+1}-\\frac{1}{x-1}=0$，\n方程两边同时乘（x+1）（x﹣1），得3（x﹣1）﹣（x+1）＝0，\n去括号，得3x﹣3﹣x﹣1＝0，\n解得：x＝2，\n检验：把x＝2代入（x+1）（x﹣1）≠0，\n∴分式方程的解为x＝2．\n【点评】本题考查了解分式方程，掌握解分式方程的方法是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程",
+          "去分母",
+          "解一元一次方程"
+        ],
+        "reasoning": "方程两边同时乘以（x+1）(x-1)去分母，解整式方程求出x的值。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程\", \"去分母\", \"解一元一次方程\"],\n  \"reasoning\": \"方程两边同时乘以（x+1）(x-1)去分母，解整式方程求出x的值。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "【问题背景】\n如图所示，某兴趣小组需要在正方形纸板ABCD上剪下机翼状纸板（阴影部分），点E在对角线BD上．\n【数学理解】\n（1）该机翼状纸板是由两个全等三角形组成，请写出△ABE≌△CBE的证明过程．\n（2）若裁剪过程中满足DE＝DA，求“机翼角”∠BAE的度数．\n[图1]",
+      "stem_markdown": "【问题背景】\n如图所示，某兴趣小组需要在正方形纸板ABCD上剪下机翼状纸板（阴影部分），点E在对角线BD上．\n【数学理解】\n（1）该机翼状纸板是由两个全等三角形组成，请写出△ABE≌△CBE的证明过程．\n（2）若裁剪过程中满足DE＝DA，求“机翼角”∠BAE的度数．\n![2025年浙江省中考数学试卷_q019_img01](assets/2025年浙江省中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由正方形的性质可得AB＝CB，∠ABD＝∠CBD，据此可利用SAS证明△ABE≌△CBE；\n（2）由正方形的性质可得∠BAD＝90°，∠ADB＝45°，再由等边对等角和三角形内角和定理求出∠DAE的度数即可得到答案．\n【解答】（1）证明：∵四边形ABCD是正方形，\n∴AB＝CB，∠ABD＝∠CBD，\n又∵BE＝BE，\n∴△ABE≌△CBE（SAS）；\n（2）∵四边形ABCD是正方形，\n∴∠BAD＝90°，∠ADB＝45°，\n∵DE＝DA，\n∴∠DAE＝∠DEA，\n∴∠DAE+∠DEA+∠ADE＝180°，\n∴∠DAE＝∠DEA＝67.5°，\n∴∠BAE＝∠BAD﹣∠DAE＝22.5°．\n【点评】本题主要考查了正方形的性质，全等三角形的判定，等边对等角，三角形内角和定理，熟知相关知识是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q019_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定（SAS）",
+          "正方形的性质",
+          "等边对等角",
+          "三角形内角和定理"
+        ],
+        "reasoning": "（1）通过正方形性质得出AB=CB和∠ABD=∠CBD，结合公共边BE证明全等；（2）利用正方形性质得出∠BAD=90°和∠ADB=45°，结合DE=DA得出等边对等角关系求解∠BAE。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定（SAS）\", \"正方形的性质\", \"等边对等角\", \"三角形内角和定理\"],\n  \"reasoning\": \"（1）通过正方形性质得出AB=CB和∠ABD=∠CBD，结合公共边BE证明全等；（2）利用正方形性质得出∠BAD=90°和∠ADB=45°，结合DE=DA得出等边对等角关系求解∠BAE。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "2024年11月9日是浙江省第31个消防日，为增强师生消防安全意识、提高自救防范能力，某县教育与消防部门共同组织消防知识竞赛．全县九年级共120个班，每班选派10名选手参加．随机抽取其中10个班级，统计其获奖人数，结果如表．\n班级 | ① | ② | ③ | ④ | ⑤ | ⑥ | ⑦ | ⑧ | ⑨ | ⑩\n获奖人数 | 7 | 8 | 6 | 8 | 6 | 6 | 9 | 7 | 8 | 5\n（1）若①班获奖选手的成绩分别为（单位：分）：83，91，83，90，83，88，91，求该班获奖选手成绩的众数与中位数．\n（2）根据统计信息，估计全县九年级参赛选手获奖的总人数．",
+      "stem_markdown": "2024年11月9日是浙江省第31个消防日，为增强师生消防安全意识、提高自救防范能力，某县教育与消防部门共同组织消防知识竞赛．全县九年级共120个班，每班选派10名选手参加．随机抽取其中10个班级，统计其获奖人数，结果如表．\n| 班级 | ① | ② | ③ | ④ | ⑤ | ⑥ | ⑦ | ⑧ | ⑨ | ⑩ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 获奖人数 | 7 | 8 | 6 | 8 | 6 | 6 | 9 | 7 | 8 | 5 |\n（1）若①班获奖选手的成绩分别为（单位：分）：83，91，83，90，83，88，91，求该班获奖选手成绩的众数与中位数．\n（2）根据统计信息，估计全县九年级参赛选手获奖的总人数．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据众数、中位数的定义即可求解；\n（2）用样本估计总体即可求解．\n【解答】解：①班获奖选手的成绩从小到大排列为：83，83，83，88，90，91，91，\n排在中间的数是88，故该班获奖选手成绩的中位数为88分；\n83出现的次数最多，故该班获奖选手成绩的众数为83分；\n（2）随机抽取的10个班级获奖人数的平均数为：$\\frac{1}{10}×$（7+8+6+8+6+6+9+7+8+5）＝7（人），\n120×7＝840（人），\n答：估计全县九年级参赛选手获奖的总人数为840人．\n【点评】本题考查众数、中位数的意义和样本估计总体，理解各个概念的内涵和计算方法是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "算术平均数",
+          "中位数",
+          "众数"
+        ],
+        "reasoning": "（1）计算中位数和众数时使用了排序和计数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"算术平均数\", \"中位数\", \"众数\"],\n  \"reasoning\": \"（1）计算中位数和众数时使用了排序和计数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "【阅读理解】\n同学们，我们来学习利用完全平方公式：\n（a±b）²＝a²±2ab+b²\n近似计算算术平方根的方法．\n例如求\\sqrt{67}的近似值．\n因为64＜67＜81，\n所以8＜\\sqrt{67}＜9，\n则\\sqrt{67}可以设成以下两种形式：\n①\\sqrt{67}=8+s，其中0＜s＜1；\n②\\sqrt{67}=9﹣t，其中0＜t＜1．\n小明以①的形式求\\sqrt{67}的近似值的过程如表．\n因为\\sqrt{67}=8+s， 所以67＝（8+s）²， 即67＝64+16s+s²． 因为s²比较小， 将s²忽略不计， 所以67≈64+16s， 即16s≈67﹣64， 得s≈\\frac{67-64}{16}=\\frac{3}{16}， 故\\sqrt{67}≈8+\\frac{3}{16}≈8.19．\n【尝试探究】\n（1）请用②的形式求\\sqrt{67}的近似值（结果保留2位小数）．\n【比较分析】\n（2）你认为用哪一种形式得出的\\sqrt{67}的近似值的精确度更高，请说明理由．",
+      "stem_markdown": "【阅读理解】\n同学们，我们来学习利用完全平方公式：\n（a±b）^{2}＝$a^{2}$±2ab+$b^{2}$\n近似计算算术平方根的方法．\n例如求$\\sqrt{67}$的近似值．\n因为64＜67＜81，\n所以8$＜\\sqrt{67}＜$9，\n则$\\sqrt{67}$可以设成以下两种形式：\n①$\\sqrt{67}=$8+s，其中0＜s＜1；\n②$\\sqrt{67}=$9﹣t，其中0＜t＜1．\n小明以①的形式求$\\sqrt{67}$的近似值的过程如表．\n因为$\\sqrt{67}=$8+s， 所以67＝（8+s）^{2}， 即67＝64+16s+s^{2}． 因为s^{2}比较小， 将s^{2}忽略不计， 所以67≈64+16s， 即16s≈67﹣64， 得s$≈\\frac{67-64}{16}=\\frac{3}{16}$， 故$\\sqrt{67}≈8+\\frac{3}{16}≈$8.19．\n【尝试探究】\n（1）请用②的形式求$\\sqrt{67}$的近似值（结果保留2位小数）．\n【比较分析】\n（2）你认为用哪一种形式得出的$\\sqrt{67}$的近似值的精确度更高，请说明理由．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设$\\sqrt{67}=9-t$，其中0＜t＜1，则仿照题意可得67＝81﹣18t+$t^{2}$，$t^{2}$比较小，将$t^{2}$忽略不计，则67≈81﹣18t，据此可得$t≈\\frac{7}{9}$，则$\\sqrt{67}≈9-\\frac{7}{9}≈8.22$；\n（2）可求出$8.18＜\\sqrt{67}＜8.19＜8.22$，据此可得结论．\n【解答】解：（1）设$\\sqrt{67}=9-t$，其中0＜t＜1，\n∴$(\\sqrt{67})^{2}=(9-t)^{2}$，\n∴67＝81﹣18t+$t^{2}$，\n∵$t^{2}$比较小，将$t^{2}$忽略不计，\n∴67≈81﹣18t，\n∴$t≈\\frac{81-67}{18}=\\frac{7}{9}$，\n∴$\\sqrt{67}≈9-\\frac{7}{9}≈8.22$；\n（2）用①的形式得出的$\\sqrt{67}$的近似值的精确度更高，理由如下：\n∵8.18×8.18＝66.9124，8.19×8.19＝67.0761，$\\sqrt{66.9124}＜\\sqrt{67}＜\\sqrt{67.0761}$，\n∴$8.18＜\\sqrt{67}＜8.19＜8.22$，\n∴用①的形式得出的$\\sqrt{67}$的近似值的精确度更高．\n【点评】本题主要考查了算术平方根的估算，正确理解题意是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "完全平方公式",
+          "算术平方根",
+          "近似计算"
+        ],
+        "reasoning": "题中使用完全平方公式近似计算算术平方根，且比较了两种形式的计算结果。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"完全平方公式\", \"算术平方根\", \"近似计算\"],\n  \"reasoning\": \"题中使用完全平方公式近似计算算术平方根，且比较了两种形式的计算结果。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，在△ABC中，AB＝AC，点O在边AB上，以点O为圆心，OB长为半径的半圆，交BC于点D，与AC相切于点E，连接OD，OE．\n（1）求证：OD⊥OE．\n（2）若AB＝BC，OB=\\sqrt{3}，求四边形ODCE的面积．\n[图1]",
+      "stem_markdown": "如图，在△ABC中，AB＝AC，点O在边AB上，以点O为圆心，OB长为半径的半圆，交BC于点D，与AC相切于点E，连接OD，OE．\n（1）求证：OD⊥OE．\n（2）若AB＝BC，OB$=\\sqrt{3}$，求四边形ODCE的面积．\n![2025年浙江省中考数学试卷_q022_img01](assets/2025年浙江省中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据等腰三角形的性质得到∠B＝∠C，∠B＝∠ODB，得到∠ODB＝∠C，证明OD∥AC，根据切线的性质得到OE⊥AC，根据平行线的性质证明；\n（2）根据等边三角形的性质求出∠A＝60°，解直角三角形求出EC，再根据梯形面积公式计算即可．\n【解答】（1）证明：∵AB＝AC，\n∴∠B＝∠C，\n由作图可知：OB＝OD，\n∴∠B＝∠ODB，\n∴∠ODB＝∠C，\n∴OD∥AC，\n∵以点O为圆心，OB长为半径的半圆与AC相切于点E，\n∴OE⊥AC，\n∴OD⊥OE；\n（2）解：∵AB＝AC，AB＝BC，\n∴△ABC为等边三角形，\n∴∠A＝60°，\n在Rt△AEO中，OE＝OD＝OB$=\\sqrt{3}$，\n则OA$=\\frac{OE}{sinA}=\\frac{\\sqrt{3}}{\\frac{\\sqrt{3}}{2}}=$2，AE$=\\frac{OE}{tanA}=\\frac{\\sqrt{3}}{\\sqrt{3}}=$1，\n∴AB＝2$+\\sqrt{3}$，\n∴EC＝AC﹣AE＝2$+\\sqrt{3}-$1＝1$+\\sqrt{3}$，\n则四边形ODCE的面积为：$\\frac{1}{2}×$（$\\sqrt{3}+\\sqrt{3}+$1）$×\\sqrt{3}=$3$+\\frac{\\sqrt{3}}{2}$．\n【点评】本题考查的是切线的性质、等边三角形的判定和性质，熟记圆的切线垂直于经过切点的半径是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q022_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "切线的性质",
+          "平行线的性质",
+          "等边三角形的性质"
+        ],
+        "reasoning": "（1）利用等腰三角形的性质和切线的性质证明OD⊥OE；（2）利用等边三角形的性质求出角度，进而求出四边形面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"切线的性质\", \"平行线的性质\", \"等边三角形的性质\"],\n  \"reasoning\": \"（1）利用等腰三角形的性质和切线的性质证明OD⊥OE；（2）利用等边三角形的性质求出角度，进而求出四边形面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "已知抛物线y＝x²﹣ax+5（a为常数）经过点（1，0）．\n（1）求a的值．\n（2）过点A（0，t）与x轴平行的直线交抛物线于B，C两点，且点B为线段AC的中点，求t的值．\n（3）设m＜3＜n，抛物线的一段y＝x²﹣ax+5（m≤x≤n）夹在两条均与x轴平行的直线l₁，l₂之间．若直线l₁，l₂之间的距离为16，求n﹣m的最大值．",
+      "stem_markdown": "已知抛物线y＝$x^{2}$﹣ax+5（a为常数）经过点（1，0）．\n（1）求a的值．\n（2）过点A（0，t）与x轴平行的直线交抛物线于B，C两点，且点B为线段AC的中点，求t的值．\n（3）设m＜3＜n，抛物线的一段y＝$x^{2}$﹣ax+5（m≤x≤n）夹在两条均与x轴平行的直线$l_{1}$，$l_{2}$之间．若直线$l_{1}$，$l_{2}$之间的距离为16，求n﹣m的最大值．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）待定系数法求出函数解析式即可；\n（2）先求出对称轴，由题意，可知，B，C关于对称轴对称，B，C的纵坐标均为t，中点得到$x_{C}＝2x_{B}$，对称性得到$\\frac{x_{B}+x_{C}}{2}=\\frac{3}{2}x_{B}=3$，求出$x_{B}$，再代入函数解析式求出t的值即可；\n（3）根据题意，易得要使n﹣m最大，则m，n为一条直线与抛物线的交点，x＝m和 x＝n关于对称轴对称，根据直线$l_{1}$，$l_{2}$之间的距离为16，为定值，得到当一条直线恰好经过抛物线的顶点（3，﹣4），即：y＝﹣4时，n﹣m最大，此时另一条直线的解析式为y＝16﹣4＝12，令$x^{2}$﹣6x+5＝12，求出x的值，进而确定m，n的值，进行求解即可．\n【解答】解：（1）把（1，0）代入y＝$x^{2}$﹣ax+5，\n得：1﹣a+5＝0，\n解得：a＝6；\n（2）由（1）知：y＝$x^{2}$﹣6x+5，\n∴对称轴为直线$x=-\\frac{-6}{2×1}=3$，\n∵点A（0，t）在y轴上，过点A（0，t）与x轴平行的直线交抛物线于B，C两点，\n∴B，C关于对称轴对称，B，C的纵坐标均为t，\n又∵点B为线段AC的中点，\n∴xc＝2xB，\n∴$\\frac{x_{B}+x_{C}}{2}=\\frac{3}{2}x_{B}=3$，\n∴xB＝2，\n∴x＝2代入y＝$x^{2}$﹣6x+5，\n得：y＝2^{2}﹣6×2+5＝﹣3，\n∴t＝﹣3；\n（3）∵y＝$x^{2}$﹣6x+5＝（x﹣3）^{2}﹣4，\n∴抛物线的顶点坐标（3，﹣4），\n当抛物线的一段y＝$x^{2}$﹣ax+5（m＜x＜n）夹在两条均与x轴平行的直线$l_{1}$，$l_{2}$之间时，m，n为直线与抛物线的交点，\n∴要使n﹣m最大，则，m，n为一条直线与抛物线的交点，x＝m和x＝n关于对称轴对称，\n又∵直线$l_{1}$，$l_{2}$之间的距离为16，为定值，\n∴当一条直线恰好经过抛物线的顶点（3，﹣4），即：y＝﹣4时，n﹣m最大，此时另一条直线的解析式为y＝16﹣4＝12，如图：\n[[image:rId44]]\n∴当$x^{2}$﹣6x+5＝12时，\n解得：$x_{1}$＝7，$x_{2}$＝﹣1，\n即n＝7，m＝﹣1，\n∴n﹣m的最大值为：7﹣（﹣1）＝8．\n【点评】本题考查二次函数的综合应用，正确的求出函数解析式，熟练掌握二次函数的图象性质，是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的图像和性质",
+          "待定系数法求函数解析式",
+          "抛物线的对称轴",
+          "一元二次方程根的性质"
+        ],
+        "reasoning": "通过给定点求解二次函数解析式，利用对称性求解t值，结合抛物线的对称轴和距离求n-m最大值。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的图像和性质\", \"待定系数法求函数解析式\", \"抛物线的对称轴\", \"一元二次方程根的性质\"],\n  \"reasoning\": \"通过给定点求解二次函数解析式，利用对称性求解t值，结合抛物线的对称轴和距离求n-m最大值。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年浙江省中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "在菱形ABCD中，AB＝5，AC＝8．\n（1）如图1，求sin∠BAC的值．\n（2）如图2，E是AD延长线上的一点，连接BE，作△FBE与△ABE关于直线BE对称，EF交射线AC于点P，连接BP．\n①当EF⊥AC时，求AE的长．\n②求PA﹣PB的最小值．\n[图1]\n2025年浙江省中考数学试卷",
+      "stem_markdown": "在菱形ABCD中，AB＝5，AC＝8．\n（1）如图1，求sin∠BAC的值．\n（2）如图2，E是AD延长线上的一点，连接BE，作△FBE与△ABE关于直线BE对称，EF交射线AC于点P，连接BP．\n①当EF⊥AC时，求AE的长．\n②求PA﹣PB的最小值．\n![2025年浙江省中考数学试卷_q024_img01](assets/2025年浙江省中考数学试卷_q024_img01.png)\n2025年浙江省中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先根据菱形的性质可得AC⊥BD，$OA=\\frac{1}{2}AC=4$，再根据勾股定理可得OB＝3，然后根据正弦的定义求解即可得；\n（2）①连接BD，设AC，BD交于点O，同理求出OB＝3，则BD＝6；证明EF∥BD，得到∠DBE＝∠FEB，由轴对称的性质可得∠AEB＝∠FEB，则∠DEB＝∠DBE，据此可得DE＝DB＝6，即可得到AE＝AD+DE＝11；\n②由勾股定理得$PB=\\sqrt{OB^{2}+OP^{2}}=\\sqrt{OP^{2}+9}$，根据PA＝OA+OP＝4+OP，可求出$PA-PB=4-\\frac{9}{OP+\\sqrt{OP^{2}+9}}$，根据$\\frac{9}{OP+\\sqrt{OP^{2}+9}}＞0$，可推出当OP有最小值时，$OP+\\sqrt{OP^{2}+9}$有最小值，即此时$\\frac{9}{OP+\\sqrt{OP^{2}+9}}$有最大值，即当OP有最小值时，PA﹣PB有最小值；过点B作BH⊥AD于H，BT⊥FE于T，由等面积法可得$BH=\\frac{24}{5}$，则由轴对称的性质可得$BT=BH=\\frac{24}{5}$，由勾股定理得$OP=\\sqrt{PB^{2}-3^{2}}$，则当PB有最小值时，OP有最小值，由垂线段最短可知$BP≥BT=\\frac{24}{5}$，故当点P与点T重合时，BP有最小值，最小值为$\\frac{24}{5}$，据此求解即可．\n【解答】解：（1）如图，设AC，BD交于点O，\n[[image:rId46]]\n∵在菱形ABCD中，AB＝5，AC＝8，\n∴AC⊥BD，$OA=\\frac{1}{2}AC=4$，\n∴$OB=\\sqrt{AB^{2}-OA^{2}}=3$，\n∴$sin∠BAC=\\frac{OB}{AB}=\\frac{3}{5}$；\n（2）①如图，设AC，BD交于点O，\n[[image:rId47]]\n∵四边形ABCD是菱形，\n∴AC⊥BD，$OA=\\frac{1}{2}AC=4$，BD＝2OB，AD＝AB＝5，\n∴$OB=\\sqrt{AB^{2}-OA^{2}}=\\sqrt{5^{2}-4^{2}}=3$，\n∴BD＝6；\n∵EF⊥AC，AC⊥BD，\n∴EF∥BD，\n∴∠DBE＝∠FEB，\n由轴对称的性质可得∠AEB＝∠FEB，\n∴∠DEB＝∠DBE，\n∴DE＝DB＝6，\n∴AE＝AD+DE＝11；\n②在 Rt△BOP中，由勾股定理得$PB=\\sqrt{OB^{2}+OP^{2}}=\\sqrt{OP^{2}+9}$，\n∵PA＝OA+OP＝4+OP，\n∴PA﹣PB＝4+OP$-\\sqrt{OP^{2}+9}$\n$=4+\\frac{(OP-\\sqrt{OP^{2}+9})(OP+\\sqrt{OP^{2}+9})}{OP+\\sqrt{OP^{2}+9}}$\n$=4+\\frac{OP^{2}-OP^{2}-9}{OP+\\sqrt{OP^{2}+9}}$\n$=4-\\frac{9}{OP+\\sqrt{OP^{2}+9}}$，\n∵$\\frac{9}{OP+\\sqrt{OP^{2}+9}}＞0$，\n∴要使 PA﹣PB的值最小，则$\\frac{9}{OP+\\sqrt{OP^{2}+9}}$要最大，\n∴$OP+\\sqrt{OP^{2}+9}$要有最小值，\n又∵$\\sqrt{OP^{2}+9}$的值随着OP的值增大而增大，\n∴$OP+\\sqrt{OP^{2}+9}$的值随着OP的值增大而增大，\n∴当OP有最小值时，$OP+\\sqrt{OP^{2}+9}$有最小值，即此时$\\frac{9}{OP+\\sqrt{OP^{2}+9}}$有最大值，\n∴当OP有最小值时，PA﹣PB有最小值；\n如图所示，过点B作BH⊥AD于H，BT⊥FE于T，\n[[image:rId48]]\n∵$S_{菱形ABCD}=\\frac{1}{2}AC⋅BD=AD⋅BH$，\n∴$BH=\\frac{\\frac{1}{2}AC⋅BD}{AD}=\\frac{\\frac{1}{2}×6×8}{5}=\\frac{24}{5}$，\n∴由轴对称的性质可得$BT=BH=\\frac{24}{5}$，\n在Rt△POB中，由勾股定理得$OP=\\sqrt{PB^{2}-OB^{2}}=\\sqrt{PB^{2}-3^{2}}$，\n∴当PB有最小值时，OP有最小值，\n由垂线段最短可知$BP≥BT=\\frac{24}{5}$，\n∴当点P与点T重合时，BP有最小值，最小值为$\\frac{24}{5}$，\n∴$OP_{最小值}=\\sqrt{(\\frac{24}{5})^{2}-3^{2}}=\\frac{3\\sqrt{39}}{5}$，\n∴$(PA-PB)_{最小值}=4-\\frac{9}{\\frac{3\\sqrt{39}}{5}+\\frac{24}{5}}=\\frac{3\\sqrt{39}-4}{5}$．\n【点评】本题主要考查了菱形的性质，求角的正弦值，勾股定理，轴对称图形的性质，等角对等边等等，解（2）的关键在于把求出 PA﹣PB的最小值转换成求出OP的最小值，进而转换成求出PB的最小值．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:35:26；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId50]] ____ [[image:rId51]] ____ [[image:rId52]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年浙江省中考数学试卷_q024_img01",
+          "path": "assets/2025年浙江省中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "正弦函数",
+          "轴对称性质",
+          "等腰三角形"
+        ],
+        "reasoning": "第（1）问求 sin∠BAC，利用菱形性质和勾股定理计算；第（2）问①利用轴对称性质和相似三角形判断；②利用轴对称性质、勾股定理和等腰三角形性质求最小值。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"正弦函数\", \"轴对称性质\", \"等腰三角形\"],\n  \"reasoning\": \"第（1）问求 sin∠BAC，利用菱形性质和勾股定理计算；第（2）问①利用轴对称性质和相似三角形判断；②利用轴对称性质、勾股定理和等腰三角形性质求最小值。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:17:12",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 24,
+      "ok": 24,
+      "fallback": 0
+    }
+  }
+}

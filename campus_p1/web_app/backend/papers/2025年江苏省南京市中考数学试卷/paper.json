@@ -1,0 +1,1114 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年江苏省南京市中考数学试卷",
+  "source": {
+    "name": "2025年江苏省南京市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年江苏省南京市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "﹣2的绝对值是（ ）",
+      "stem_markdown": "﹣2的绝对值是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "﹣2"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】利用绝对值的定义解答．\n【解答】解：|﹣2|＝2．\n故选：D．\n【点评】本题考查了绝对值，解题的关键是掌握绝对值的定义．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值"
+        ],
+        "reasoning": "题目要求计算﹣2的绝对值，涉及绝对值的定义",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\"],\n  \"reasoning\": \"题目要求计算﹣2的绝对值，涉及绝对值的定义\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "下列图形中，一定有外接圆的是（ ）",
+      "stem_markdown": "下列图形中，一定有外接圆的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "三角形"
+        },
+        {
+          "label": "B",
+          "text": "四边形"
+        },
+        {
+          "label": "C",
+          "text": "五边形"
+        },
+        {
+          "label": "D",
+          "text": "六边形"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据有四边形外接圆的性质可得：四边形必须对角互补，三角形都有外接圆，即可得出答案．\n【解答】解：根据有四边形外接圆的性质，四边形必须对角互补，\n∴只有矩形、等腰梯形有外接圆，\n∵三角形都有外接圆．\n故选：A．\n【点评】此题主要考查了四边形与三角形有外接圆的性质．注意抓住四边形必须对角互补才有外接圆是解决问题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "外接圆",
+          "三角形",
+          "四边形"
+        ],
+        "reasoning": "题干要求选择一定有外接圆的图形，分析得知只有矩形和等腰梯形有外接圆，而三角形一定有外接圆。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"外接圆\", \"三角形\", \"四边形\"],\n  \"reasoning\": \"题干要求选择一定有外接圆的图形，分析得知只有矩形和等腰梯形有外接圆，而三角形一定有外接圆。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "要使分式\\frac{x+y}{x-y}有意义，字母x，y须满足（ ）",
+      "stem_markdown": "要使分式$\\frac{x+y}{x-y}$有意义，字母x，y须满足（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x≠y"
+        },
+        {
+          "label": "B",
+          "text": "x≠﹣y"
+        },
+        {
+          "label": "C",
+          "text": "x≥y"
+        },
+        {
+          "label": "D",
+          "text": "x≥﹣y"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】分式有意义的条件是分母不等于零，据此即可得出答案．\n【解答】解：要使分式$\\frac{x+y}{x-y}$有意义，\n则x﹣y≠0，\n即x≠y，\n故选：A．\n【点评】本题考查分式有意义的条件，熟练掌握其有意义的条件是解题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式的定义",
+          "分式有意义的条件"
+        ],
+        "reasoning": "题中条件要求分式有意义，即分母不为零，对应选项A x≠y",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式的定义\", \"分式有意义的条件\"],\n  \"reasoning\": \"题中条件要求分式有意义，即分母不为零，对应选项A x≠y\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "10﹣⁶的算术平方根是（ ）",
+      "stem_markdown": "10^{﹣6}的算术平方根是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.0001"
+        },
+        {
+          "label": "B",
+          "text": "0.001"
+        },
+        {
+          "label": "C",
+          "text": "±0.0001"
+        },
+        {
+          "label": "D",
+          "text": "±0.001"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】利用算术平方根的定义解答．\n【解答】解：10^{﹣6}的算术平方根是10^{﹣3}＝0.001，\n故选：B．\n【点评】本题考查了算术平方根，解题的关键是掌握算术平方根的定义．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "算术平方根的定义"
+        ],
+        "reasoning": "题目要求计算10⁻⁶的算术平方根",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"算术平方根的定义\"],\n  \"reasoning\": \"题目要求计算10⁻⁶的算术平方根\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "实数-a，a，\\frac{1}{a}在数轴上对应点的位置如图所示．下列四个点中，表示1的点可能是（ ）\n[图1]",
+      "stem_markdown": "实数$-a，a，\\frac{1}{a}$在数轴上对应点的位置如图所示．下列四个点中，表示1的点可能是（ ）\n![2025年江苏省南京市中考数学试卷_q005_img01](assets/2025年江苏省南京市中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "P"
+        },
+        {
+          "label": "B",
+          "text": "Q"
+        },
+        {
+          "label": "C",
+          "text": "R"
+        },
+        {
+          "label": "D",
+          "text": "S"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】利用实数的性质与数轴知识解答．\n【解答】解：由数轴图可知﹣a＜a$＜\\frac{1}{a}$，\n∴0＜a＜1$＜\\frac{1}{a}$，\n∴表示1的点在表示a的点与表示$\\frac{1}{a}$的点之间，即可能是点R．\n故选：C．\n【点评】本题考查了实数与数轴，解题的关键是掌握实数的性质与数轴知识．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q005_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式性质",
+          "实数与数轴对应关系"
+        ],
+        "reasoning": "数轴上﹣a＜a＜\\frac{1}{a}，确定了a的位置范围",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式性质\", \"实数与数轴对应关系\"],\n  \"reasoning\": \"数轴上﹣a＜a＜\\\\frac{1}{a}，确定了a的位置范围\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，在平面直角坐标系中，已知下列变换：①沿y轴翻折；②沿函数y＝x+2的图象翻折；③绕原点按顺时针方向旋转45°；④绕点（1，﹣1）按顺时针方向旋转90°．其中，能使函数y＝2x+4的图象经过一种变换后过点P（2，2）的个数是（ ）\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，已知下列变换：①沿y轴翻折；②沿函数y＝x+2的图象翻折；③绕原点按顺时针方向旋转45°；④绕点（1，﹣1）按顺时针方向旋转90°．其中，能使函数y＝2x+4的图象经过一种变换后过点P（2，2）的个数是（ ）\n![2025年江苏省南京市中考数学试卷_q006_img01](assets/2025年江苏省南京市中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】逐一分析每种变换后，函数y＝2x+4的图象是否经过点P（2，2）．\n【解答】解：①点P（2，2）关于y轴的对称点为（﹣2，2），把x＝﹣2代入y＝2x+4得，y＝2×（﹣2）+4＝0≠2，\n∴函数y＝2x+4的图象沿y轴翻折后不过点P（2，2）；\n②设点P（2，2）关于直线y＝x+2的对称点Q为（a，b），则点（$\\frac{a+2}{2}$，$\\frac{b+2}{2}$）在直线y＝x+2上，\n∴$\\frac{b+2}{2}=\\frac{a+2}{2}+$2，\n∴b＝a+4，\n∴对称点为（a，a+4），\n∵直线PQ与直线y＝x+2垂直，\n∴设直线PQ为y＝﹣x+t，\n则$\\begin{cases} -2+t=2 \\\\ -a+t=a+4 \\end{cases}$，解得a＝0，\n∴对称点为（0，4），\n当x＝0时，y＝2x+4＝4，\n∴函数y＝2x+4的图象沿函数y＝x+2的图象翻折后过点P（2，2）；\n③点P（2，2）绕原点按逆时针方向旋转45°得到（0，2$\\sqrt{2}$），\n当x＝0时，y＝2x+4＝4$≠2\\sqrt{2}$，\n∴函数y＝2x+4的图象绕原点按顺时针方向旋转45°后不过点P（2，2）；\n④点P（2，2）绕点（1，﹣1）按逆时针方向旋转90°得到（﹣2，0），\n当x＝﹣2时，y＝2x+4＝0，\n∴函数y＝2x+4的图象绕点（1，﹣1）按顺时针方向旋转90°过点P（2，2）；\n故选：B．\n【点评】本题考查了一次函数图象与几何变换，一次函数图象上点的坐标特征，运用逆向思维解答是本题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q006_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数图象的变换",
+          "点关于直线的对称点",
+          "点关于原点的旋转"
+        ],
+        "reasoning": "分析每种变换后函数图象是否经过点P（2，2）",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数图象的变换\", \"点关于直线的对称点\", \"点关于原点的旋转\"],\n  \"reasoning\": \"分析每种变换后函数图象是否经过点P（2，2）\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "blank",
+      "stem_text": "已知一组数据8，10，12，9，11，这组数据的平均数是 ____ ．",
+      "stem_markdown": "已知一组数据8，10，12，9，11，这组数据的平均数是 ____ ．",
+      "options": [],
+      "answer": "10．",
+      "solution": "【分析】只要运用求平均数公式，即可求出．\n【解答】解：（8+10+12+9+11）÷5＝10，\n故答案为：10．\n【点评】本题考查的是平均数的求法，熟记公式是解决本题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "算术平均数的计算方法"
+        ],
+        "reasoning": "题目要求计算给定数据的平均数，涉及平均数的计算公式",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"算术平均数的计算方法\"],\n  \"reasoning\": \"题目要求计算给定数据的平均数，涉及平均数的计算公式\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "blank",
+      "stem_text": "若等腰三角形的周长为12，则它的腰长可以是 ____ （写出一个即可）．",
+      "stem_markdown": "若等腰三角形的周长为12，则它的腰长可以是 ____ （写出一个即可）．",
+      "options": [],
+      "answer": "5（答案不唯一）．",
+      "solution": "【分析】可令等腰三角形的腰长为x，底长为y，结合等腰三角形的性质及三角形三边的关系即可解决问题．\n【解答】解：设腰长为x，底长为y，\n则2x+y＝12，\n所以y＝12﹣2x．\n根据三角形三边的关系可知，\nx+x＞12﹣2x，x﹣x＜12﹣2x，\n所以3＜x＜6，\n故答案为：5（答案不唯一）．\n【点评】本题主要考查了等腰三角形的性质及三角形三边关系，熟知等腰三角形的性质及三角形三边关系是解题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程的应用",
+          "等腰三角形的性质",
+          "三角形三边关系"
+        ],
+        "reasoning": "通过设腰长和底长，利用周长求解腰长时应用了一元一次方程；在求解过程中考虑了三角形两边之和大于第三边的原则。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程的应用\", \"等腰三角形的性质\", \"三角形三边关系\"],\n  \"reasoning\": \"通过设腰长和底长，利用周长求解腰长时应用了一元一次方程；在求解过程中考虑了三角形两边之和大于第三边的原则。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "计算(\\sqrt{3}+\\sqrt{2})(\\sqrt{12}-\\sqrt{8})的结果是 ____ ．",
+      "stem_markdown": "计算$(\\sqrt{3}+\\sqrt{2})(\\sqrt{12}-\\sqrt{8})$的结果是 ____ ．",
+      "options": [],
+      "answer": "2．",
+      "solution": "【分析】先利用乘法法则，再化简二次根式，最后加减．\n【解答】解：$(\\sqrt{3}+\\sqrt{2})(\\sqrt{12}-\\sqrt{8})$\n$=\\sqrt{3}×\\sqrt{12}-$$\\sqrt{3}×\\sqrt{8}+$$\\sqrt{2}×\\sqrt{12}-$$\\sqrt{2}×\\sqrt{8}$\n$=\\sqrt{36}-\\sqrt{24}+$$\\sqrt{24}-\\sqrt{16}$\n＝6﹣4\n＝2．\n故答案为：2．\n【点评】本题考查了二次根式，掌握二次根式的乘法法则是解决本题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式的乘法",
+          "二次根式的化简",
+          "二次根式的加减"
+        ],
+        "reasoning": "题目要求计算二次根式的乘法和加减，涉及二次根式的乘法法则和化简",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式的乘法\", \"二次根式的化简\", \"二次根式的加减\"],\n  \"reasoning\": \"题目要求计算二次根式的乘法和加减，涉及二次根式的乘法法则和化简\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "已知x＝2是方程\\frac{1}{x-a}+\\frac{2a}{a-x}=1的解，则a的值是 ____ ．",
+      "stem_markdown": "已知x＝2是方程$\\frac{1}{x-a}+\\frac{2a}{a-x}=1$的解，则a的值是 ____ ．",
+      "options": [],
+      "answer": "﹣1．",
+      "solution": "【分析】将原方程去分母后把x＝2代入解得a的值即可．\n【解答】解：原方程去分母得：1﹣2a＝x﹣a，\n∵x＝2是该方程的解，\n∴1﹣2a＝2﹣a，\n解得：a＝﹣1，\n故答案为：﹣1．\n【点评】本题考查分式方程的解，熟练掌握其意义是解题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "分式方程",
+          "代入法求解"
+        ],
+        "reasoning": "将x=2代入方程求解a值",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"分式方程\", \"代入法求解\"],\n  \"reasoning\": \"将x=2代入方程求解a值\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "设方程x²+2x﹣9＝0的正根介于整数m与m+1之间，则m＝ ____ ．",
+      "stem_markdown": "设方程$x^{2}$+2x﹣9＝0的正根介于整数m与m+1之间，则m＝ ____ ．",
+      "options": [],
+      "answer": "2．",
+      "solution": "【分析】利用配方法解出x的方程后利用夹逼法求得正根在哪两个连续整数之间即可．\n【解答】解：$x^{2}$+2x﹣9＝0，\n移项得：$x^{2}$+2x＝9，\n配方得：$x^{2}$+2x+1＝9+1，\n即（x+1）^{2}＝10，\n直接开平方得：x+1＝±$\\sqrt{10}$，\n解得：$x_{1}=\\sqrt{10}-$1，$x_{2}=-\\sqrt{10}-$1，\n∵9＜10＜16，\n∴3$＜\\sqrt{10}＜$4，\n∴2$＜\\sqrt{10}-$1＜3，\n则m＝2，\n故答案为：2．\n【点评】本题考查解一元二次方程，估算无理数的大小，熟练掌握解方程的方法是解题的关键．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程的解法",
+          "配方法",
+          "不等式性质"
+        ],
+        "reasoning": "利用配方法解方程并结合不等式性质判断正根所在范围",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程的解法\", \"配方法\", \"不等式性质\"],\n  \"reasoning\": \"利用配方法解方程并结合不等式性质判断正根所在范围\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "一枚圆形古钱币的正中间是一个正方形孔，它的部分尺寸（单位：mm）如图，这枚古钱币的半径为 ____ m．\n[图1]",
+      "stem_markdown": "一枚圆形古钱币的正中间是一个正方形孔，它的部分尺寸（单位：mm）如图，这枚古钱币的半径为 ____ m．\n![2025年江苏省南京市中考数学试卷_q012_img01](assets/2025年江苏省南京市中考数学试卷_q012_img01.png)",
+      "options": [],
+      "answer": "0.013．",
+      "solution": "【分析】如图，设圆心为O，过点O作OC⊥AB于点C，连接OB．利用勾股定理求解．\n【解答】解：如图，设圆心为O，过点O作OC⊥AB于点C，连接OB．\n[[image:rId26]]\n由题意OC＝5，CB＝5+7＝12，\n∴OB$=\\sqrt{OC^{2}+BC^{2}}=\\sqrt{5^{2}+12^{2}}=$13（mm）＝0.013（m）．\n故答案为：0.013．\n【点评】本题考查正多边形与圆，垂径定理，勾股定理，解题的关键是掌握相关知识解决问题．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q012_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "垂径定理"
+        ],
+        "reasoning": "题中通过作垂线构造直角三角形求半径，涉及勾股定理和垂径定理的应用。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"垂径定理\"],\n  \"reasoning\": \"题中通过作垂线构造直角三角形求半径，涉及勾股定理和垂径定理的应用。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "如图，在Rt△ABC中，∠ACB＝90°，CD是边AB上的高，\\frac{AD}{CD}=\\frac{1}{2}，则\\frac{S_{△ACD}}{S_{△ABC}}的值是 ____ ．\n[图1]",
+      "stem_markdown": "如图，在Rt△ABC中，∠ACB＝90°，CD是边AB上的高，$\\frac{AD}{CD}=\\frac{1}{2}$，则$\\frac{S_{△ACD}}{S_{△ABC}}$的值是 ____ ．\n![2025年江苏省南京市中考数学试卷_q013_img01](assets/2025年江苏省南京市中考数学试卷_q013_img01.png)",
+      "options": [],
+      "answer": "$\\frac{1}{5}$．",
+      "solution": "【分析】证明△ACD∽△ABC，根据相似三角形的面积比等于相似比的平方求解．\n【解答】解：∵$\\frac{AD}{CD}=\\frac{1}{2}$，\n∴设AD＝k，CD＝2k，\n∴AC$=\\sqrt{k^{2}+4k^{2}}=\\sqrt{5}k$，\n∴$\\frac{AD}{AC}=\\frac{\\sqrt{5}}{5}$，\n∵∠ACD+∠BCD＝∠B+∠BCD＝90°，\n∴∠ACD＝∠B，\n又∵∠A＝∠A，\n∴△ACD∽△ABC，\n∴$\\frac{S_{△ACD}}{S_{△ABC}}=(\\frac{AD}{AC})^{2}$$=\\frac{1}{5}$．\n故答案为：$\\frac{1}{5}$．\n【点评】本题考查了相似三角形的判定与性质，熟记相似三角形的面积比等于相似比的平方是解题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q013_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q013_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "相似比的平方等于对应面积比",
+          "直角三角形的性质"
+        ],
+        "reasoning": "相似比$\frac{AD}{AC}=\frac{\\sqrt{5}}{5}$和面积比$\frac{S_{△ACD}}{S_{△ABC}}=(\frac{AD}{AC})^{2}$的计算",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"相似比的平方等于对应面积比\", \"直角三角形的性质\"],\n  \"reasoning\": \"相似比$\\frac{AD}{AC}=\\frac{\\sqrt{5}}{5}$和面积比$\\frac{S_{△ACD}}{S_{△ABC}}=(\\frac{AD}{AC})^{2}$的计算\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "已知反比例函数y=\\frac{6}{x}，则当1≤x≤3时，\\frac{y}{x}的最小值是 ____ ．",
+      "stem_markdown": "已知反比例函数$y=\\frac{6}{x}$，则当1≤x≤3时，$\\frac{y}{x}$的最小值是 ____ ．",
+      "options": [],
+      "answer": "$\\frac{2}{3}$．",
+      "solution": "【分析】根据函数的增减性求解即可．\n【解答】解：将反比例函数$y=\\frac{6}{x}$代入$\\frac{y}{x}$中，\n可得：y$=\\frac{6}{x^{2}}$，\n∵1≤x≤3，\n当x增大时，$x^{2}$也随之增大，$\\frac{6}{x^{2}}$则随之减小，\n因此，$\\frac{6}{x^{2}}$在x＝3时取得最小值，代入计算，\n得$\\frac{6}{3^{2}}=\\frac{2}{3}$，\n故答案为：$\\frac{2}{3}$．\n【点评】本题考查反比例函数的性质，解题的关键是熟练运用相关性质．",
+      "full_score": 2,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数",
+          "函数的单调性",
+          "代数变形"
+        ],
+        "reasoning": "代数变形后分析$x^2$随$x$变化的趋势",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数\", \"函数的单调性\", \"代数变形\"],\n  \"reasoning\": \"代数变形后分析$x^2$随$x$变化的趋势\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，点E，F在矩形ABCD内，Rt△ABE≌Rt△CDF．若AB＝25，AD＝30，AE＝15，则EF的长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，点E，F在矩形ABCD内，Rt△ABE≌Rt△CDF．若AB＝25，AD＝30，AE＝15，则EF的长为 ____ ．\n![2025年江苏省南京市中考数学试卷_q015_img01](assets/2025年江苏省南京市中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "$\\sqrt{85}$．",
+      "solution": "【分析】延长AE交DF于点H，利用勾股定理和全等三角形的性质得到AE＝CF＝15，BE＝DF＝20，∠BAE＝∠DCF，利用相似三角形的判定与性质求得AH＝24，DH＝18，再利用勾股定理解答即可．\n【解答】解：延长AE交DF于点H，如图，\n[[image:rId29]]\n在Rt△ABE中，BE$=\\sqrt{AB^{2}-AE^{2}}=\\sqrt{25^{2}-15^{2}}=$20，\n∵Rt△ABE≌Rt△CDF，\n∴AE＝CF＝15，BE＝DF＝20，∠BAE＝∠DCF，\n∵∠BAE+∠DAE＝90°，∠DCF+∠FDC＝90°，\n∴∠DAE＝∠FDC，\n∵∠FDC+∠ADF＝90°，\n∴∠DAE+∠ADF＝90°，\n∴∠AHD＝90°，\n∴∠AHD＝∠DFC＝90°，\n∵∠DAE＝∠FDC，\n∴△AHD∽△DFC，\n∴$\\frac{AD}{DC}=\\frac{AH}{DF}=\\frac{DH}{CF}$，\n∴$\\frac{30}{25}=\\frac{AH}{20}=\\frac{DH}{15}$，\n∴AH＝24，DH＝18，\n∴EH＝AH﹣AE＝9，FH＝DF﹣DH＝2，\n∴EF$=\\sqrt{EH^{2}+FH^{2}}=\\sqrt{9^{2}+2^{2}}=\\sqrt{85}$．\n故答案为：$\\sqrt{85}$．\n【点评】本题主要考查了正方形的性质，全等三角形的性质，直角三角形的性质，勾股定理，相似三角形的判定与性质．熟练掌握上述定理与性质是解题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q015_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "全等三角形",
+          "相似三角形"
+        ],
+        "reasoning": "题中利用全等三角形的性质得出对应边相等，并通过相似三角形的性质求解EF的长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"全等三角形\", \"相似三角形\"],\n  \"reasoning\": \"题中利用全等三角形的性质得出对应边相等，并通过相似三角形的性质求解EF的长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "如图，扇形OAB的圆心角为260°，若点P在该扇形内，则∠APB的度数的范围是 ____ ．\n[图1]",
+      "stem_markdown": "如图，扇形OAB的圆心角为260°，若点P在该扇形内，则∠APB的度数的范围是 ____ ．\n![2025年江苏省南京市中考数学试卷_q016_img01](assets/2025年江苏省南京市中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "50°＜∠APB＜140°．",
+      "solution": "【分析】延长BO交⊙O于点D，设点P在OA上，连接BP，AD，依题意得∠AOB＝100°，则∠AOD＝80°，根据圆周角定理得∠D＝50°，∠B＜40°，由此得∠APB＜140°，∠APB＞∠AOB＞∠D＝50°，则50°＜∠APB＜140°，再根据点P在该扇形内即可得出∠APB的取值范围．\n【解答】解：延长BO交⊙O于点D，设点P在OA上，连接BP，AD，如图1所示：\n[[image:rId31]]\n依题意得：∠AOB＝100°，\n∴∠AOD＝180°﹣∠AOB＝80°，\n根据圆周角定理得：∠D＝50°，∠B＜40°，\n∴∠APB＜∠B+∠AOB，即∠APB＜140°，\n又∵∠APB＞∠AOB＞∠D，\n∴∠APB＞50°，\n∵50°＜∠APB＜140°，\n∵点P在该扇形内，\n∴50°＜∠APB＜140°．\n故答案为：50°＜∠APB＜140°．\n【点评】此题主要考查了圆周角定理，熟练掌握圆周角定理，三角形的外角性质是解决问题的关键．",
+      "full_score": 2,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q016_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆周角定理",
+          "三角形外角性质",
+          "弧与圆心角的关系"
+        ],
+        "reasoning": "题中通过延长BO构造辅助线，利用圆周角定理和三角形外角性质确定∠APB的取值范围。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆周角定理\", \"三角形外角性质\", \"弧与圆心角的关系\"],\n  \"reasoning\": \"题中通过延长BO构造辅助线，利用圆周角定理和三角形外角性质确定∠APB的取值范围。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "解不等式组\\begin{cases} 2x-1＞3 \\\\ x+2＜4x-1 \\end{cases}．",
+      "stem_markdown": "解不等式组$\\begin{cases} 2x-1＞3 \\\\ x+2＜4x-1 \\end{cases}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】分别求出每个不等式的解集，再取它们的公共部分即可得解．\n【解答】解：解不等式2x﹣1＞3得：x＞2，\n解不等式x+2＜4x﹣1得，x＞1．\n∴原不等式组的解集为：x＞2．\n【点评】本题考查的是解一元一次不等式组．熟练掌握该知识点是关键．",
+      "full_score": 7,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组",
+          "解一元一次不等式"
+        ],
+        "reasoning": "通过解两个一元一次不等式得到解集并取公共部分",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组\", \"解一元一次不等式\"],\n  \"reasoning\": \"通过解两个一元一次不等式得到解集并取公共部分\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "尺规作图：如图，点P在直线l外，过点P作与直线l平行的直线．\n[图1]",
+      "stem_markdown": "尺规作图：如图，点P在直线l外，过点P作与直线l平行的直线．\n![2025年江苏省南京市中考数学试卷_q018_img01](assets/2025年江苏省南京市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】利用同位角相等，两直线平行作出图形即可．\n【解答】解：如图，直线PA即为所求．\n[[image:rId33]]\n【点评】本题考查作图﹣复杂作图，平行线的判定，解题的关键是熟练掌握五种基本作图．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q018_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同位角相等，两直线平行",
+          "尺规作图"
+        ],
+        "reasoning": "作图过程中需要利用同位角相等判断两直线平行",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同位角相等，两直线平行\", \"尺规作图\"],\n  \"reasoning\": \"作图过程中需要利用同位角相等判断两直线平行\",\n  \"confidence\": 0.90\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "某商店销售两种饮料，A饮料“满三免一”（即每买3杯只需付2杯的钱），B饮料满5杯按8折销售．小丽买了A，B饮料各1杯，用了20元；小明买了3杯A饮料和5杯B饮料，用了56元．A，B两种饮料每杯分别是多少元？",
+      "stem_markdown": "某商店销售两种饮料，A饮料“满三免一”（即每买3杯只需付2杯的钱），B饮料满5杯按8折销售．小丽买了A，B饮料各1杯，用了20元；小明买了3杯A饮料和5杯B饮料，用了56元．A，B两种饮料每杯分别是多少元？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】设每杯A饮料x元，每杯B饮料y元，根据“小丽买了A，B饮料各1杯，用了20元；小明买了3杯A饮料和5杯B饮料，用了56元”，可列出关于x，y的二元一次方程组，解之即可得出结论．\n【解答】解：设每杯A饮料x元，每杯B饮料y元，\n根据题意得：$\\begin{cases} x+y=20 \\\\ 2x+5×0.8y=56 \\end{cases}$，\n解得：$\\begin{cases} x=12 \\\\ y=8 \\end{cases}$．\n答：每杯A饮料12元，每杯B饮料8元．\n【点评】本题考查了二元一次方程组的应用，找准等量关系，正确列出二元一次方程组是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二元一次方程组",
+          "打折销售",
+          "优惠活动"
+        ],
+        "reasoning": "题中通过打折销售和优惠活动描述了购买饮料的情况，列出方程组求解。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二元一次方程组\", \"打折销售\", \"优惠活动\"],\n  \"reasoning\": \"题中通过打折销售和优惠活动描述了购买饮料的情况，列出方程组求解。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "已知a＜b＜0，试比较\\frac{1}{a^{2}}与\\frac{1}{b^{2}}的大小．",
+      "stem_markdown": "已知a＜b＜0，试比较$\\frac{1}{a^{2}}$与$\\frac{1}{b^{2}}$的大小．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】利用分式的加减运算计算并比较大小．\n【解答】解：∵a＜b＜0，即|a|＞|b|，\n∴$a^{2}$＞$b^{2}$＞0，\n∴$\\frac{1}{a^{2}}=\\frac{b^{2}}{a^{2}b^{2}}$，$\\frac{1}{b^{2}}=\\frac{a^{2}}{a^{2}b^{2}}$，\n∵$a^{2}$＞$b^{2}$＞0，\n∴$\\frac{b^{2}}{a^{2}b^{2}}＜\\frac{a^{2}}{a^{2}b^{2}}$，\n∴$\\frac{1}{a^{2}}＜\\frac{1}{b^{2}}$．\n【点评】本题考查了分式的加减运算，数的大小比较，解题的关键是掌握分式的加减运算法则，数的大小比较方法．",
+      "full_score": 7,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式的基本性质",
+          "分式的加减运算",
+          "绝对值"
+        ],
+        "reasoning": "通过比较a^2和b^2的大小来判断分数的大小，涉及不等式的基本性质和分式的加减运算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式的基本性质\", \"分式的加减运算\", \"绝对值\"],\n  \"reasoning\": \"通过比较a^2和b^2的大小来判断分数的大小，涉及不等式的基本性质和分式的加减运算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "甲袋子中装有2个相同的小球，它们分别写有数字1和3，乙袋子中装有3个相同的小球，它们分别写有数字1，2和4．先从甲袋子中随机取出1个小球，再从乙袋子中随机取出2个小球．\n（1）取出的3个小球上所写数字没有4的概率是 ____ ；\n（2）取出的3个小球上所写数字都不相同的概率是多少？",
+      "stem_markdown": "甲袋子中装有2个相同的小球，它们分别写有数字1和3，乙袋子中装有3个相同的小球，它们分别写有数字1，2和4．先从甲袋子中随机取出1个小球，再从乙袋子中随机取出2个小球．\n（1）取出的3个小球上所写数字没有4的概率是 ____ ；\n（2）取出的3个小球上所写数字都不相同的概率是多少？",
+      "options": [],
+      "answer": "$\\frac{1}{3}$．",
+      "solution": "【分析】（1）画树状图可得出所有等可能的结果数以及取出的3个小球上所写数字没有4的结果数，再利用概率公式可得出答案．\n（2）由树状图可得取出的3个小球上所写数字都不相同的结果数，再利用概率公式可得出答案．\n【解答】解：（1）画树状图如下：\n[[image:rId34]]\n共有6种等可能的结果，其中取出的3个小球上所写数字没有4的结果有2种，\n∴取出的3个小球上所写数字没有4的概率为$\\frac{2}{6}=\\frac{1}{3}$．\n故答案为：$\\frac{1}{3}$．\n（2）由树状图可知，取出的3个小球上所写数字都不相同的结果有4种，\n∴取出的3个小球上所写数字都不相同的概率为$\\frac{4}{6}=\\frac{2}{3}$．\n【点评】本题考查列表法与树状图法、概率公式，熟练掌握列表法与树状图法以及概率公式是解答本题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "组合计数",
+          "概率计算"
+        ],
+        "reasoning": "第（1）问考虑没有4的情况，第（2）问考虑不同数字的情况",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"组合计数\", \"概率计算\"],\n  \"reasoning\": \"第（1）问考虑没有4的情况，第（2）问考虑不同数字的情况\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "某校准备从甲、乙两名学生中选拔一名参加跳远比赛，共进行了3次测试，每次各跳远3次，统计成绩如下表（单位：m）．\n第1次测试 | 第2次测试 | 第3次测试\n甲 | × | 4.82 | 5.36 | 5.56 | 6.15 | × | 5.81 | × | 5.78\n乙 | 4.65 | 5.76 | 5.53 | 5.67 | × | 5.90 | 5.30 | 6.05 | 5.86\n注：×表示犯规．\n将上述成绩分成“犯规”“一般成绩”“优秀成绩”三类，其中，5.75m以下为“一般成绩”，5.75m及以上为“优秀成绩”，并绘制条形统计图．\n（1）补全条形统计图．\n[图1]\n（2）你认为哪名学生参加跳远比赛较为合适？为什么？",
+      "stem_markdown": "某校准备从甲、乙两名学生中选拔一名参加跳远比赛，共进行了3次测试，每次各跳远3次，统计成绩如下表（单位：m）．\n| 第1次测试 | 第2次测试 | 第3次测试 |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 甲 | × | 4.82 | 5.36 | 5.56 | 6.15 | × | 5.81 | × | 5.78 |\n| 乙 | 4.65 | 5.76 | 5.53 | 5.67 | × | 5.90 | 5.30 | 6.05 | 5.86 |\n注：×表示犯规．\n将上述成绩分成“犯规”“一般成绩”“优秀成绩”三类，其中，5.75m以下为“一般成绩”，5.75m及以上为“优秀成绩”，并绘制条形统计图．\n（1）补全条形统计图．\n![2025年江苏省南京市中考数学试卷_q022_img01](assets/2025年江苏省南京市中考数学试卷_q022_img01.png)\n（2）你认为哪名学生参加跳远比赛较为合适？为什么？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据甲一般成绩有3次，即可补全条形统计图；\n（2）根据条形统计图判断即可．\n【解答】解：（1）补全条形统计图如下：\n[[image:rId36]]\n（2）乙参加跳远比赛较为合适，\n理由：根据条形统计图可知，乙的一般成绩和优秀成绩都比甲多，并且犯规的次数也少，所以乙参加跳远比赛较为合适．\n【点评】本题考查的是条形统计图，读懂统计图，从统计图中得到必要的信息是解决问题的关键．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q022_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "数据整理与分类",
+          "条形统计图",
+          "数据分析"
+        ],
+        "reasoning": "通过条形统计图分析成绩分类情况",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"数据整理与分类\", \"条形统计图\", \"数据分析\"],\n  \"reasoning\": \"通过条形统计图分析成绩分类情况\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "如图，O是▱ABCD的对称中心，BC与⊙O相切于点E．\n（1）求证：直线AD是⊙O的切线．\n[图1]\n选择其中一位同学的想法，完成证明．\n（2）当AB与⊙O相切时，▱ABCD是菱形吗？说明理由．\n[图1]",
+      "stem_markdown": "如图，O是▱ABCD的对称中心，BC与⊙O相切于点E．\n（1）求证：直线AD是⊙O的切线．\n![2025年江苏省南京市中考数学试卷_q023_img01](assets/2025年江苏省南京市中考数学试卷_q023_img01.png)\n选择其中一位同学的想法，完成证明．\n（2）当AB与⊙O相切时，▱ABCD是菱形吗？说明理由．\n![2025年江苏省南京市中考数学试卷_q023_img02](assets/2025年江苏省南京市中考数学试卷_q023_img02.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）如图，连接BD，OE，延长EO交AD与F，判定△DOF≌△BOE（AAS），推出OF＝OE，由切线的性质推出OE⊥BC，由平行线的性质推出OF⊥AD，即可证明直线AD是⊙O的切线．\n（2）设AB与⊙O相切于H，连接OH，OE，BD，由角平分线性质定理的逆定理推出∠ABD＝∠CBD，由平行线的性质推出∠CBD＝∠ADB，得到∠ABD＝∠ADB，因此AB＝AD，判定▱ABCD是菱形．\n【解答】（1）证明：如图，连接BD，OE，延长EO交AD与F，\n[[image:rId39]]\n∵O是▱ABCD的中心，\n∴BD过点O，OB＝OD，\n∵AD∥BC，\n∴∠ODF＝∠OBE，∠DFO＝∠BEO，\n∴△DOF≌△BOE（AAS），\n∴OF＝OE，\n∵BC与⊙O相切于点E，\n∴OE⊥BC，\n∴OF⊥AD，\n∴直线AD是⊙O的切线．\n（2）解：如图，▱ABCD是菱形，理由如下：\n[[image:rId40]]\n设AB与⊙O相切于H，连接OH，OE，BD，\n∵点O是▱ABCD的中心，\n∴BD过点O，\n∵BC与⊙O相切于E，\n∴OH⊥AB，OE⊥BC，\n∵OH＝OE，\n∴BD平分∠ABC，\n∴∠ABD＝∠CBD，\n∵四边形ABCD是平行四边形，\n∴AD∥BC，\n∴∠CBD＝∠ADB，\n∴∠ABD＝∠ADB，\n∴AB＝AD，\n∵四边形ABCD是平行四边形，\n∴▱ABCD是菱形．\n【点评】本题考查菱形的判定，切线的判定和性质，平行四边形的性质，中心对称，直线与圆的位置关系，关键是掌握切线的判定方法，菱形的判定方法．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q023_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q023_img02",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q023_img02.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线的判定",
+          "平行四边形的性质",
+          "菱形的判定",
+          "中心对称"
+        ],
+        "reasoning": "（1）证明切线利用了切线的性质和AAS全等；（2）判定菱形利用了角平分线性质定理的逆定理和平行线的性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线的判定\", \"平行四边形的性质\", \"菱形的判定\", \"中心对称\"],\n  \"reasoning\": \"（1）证明切线利用了切线的性质和AAS全等；（2）判定菱形利用了角平分线性质定理的逆定理和平行线的性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，在长方形电子屏ABCD中，AB＝8m，AD＝5m，一条公益广告画面的动态效果设计如下：动点P从点A出发沿边AB，BC以2m/s的速度向点C运动，随着DP的移动，画面逐渐展开．\n（1）写出展开的画面面积S（单位：m²）关于点P的运动时间t（单位：s）的函数表达式；\n（2）当展开的画面面积达到电子屏面积的\\frac{1}{4}时开始播放广告语，播放时间持续3s，求播放结束时展开的画面面积．\n[图1]",
+      "stem_markdown": "如图，在长方形电子屏ABCD中，AB＝8m，AD＝5m，一条公益广告画面的动态效果设计如下：动点P从点A出发沿边AB，BC以2m/s的速度向点C运动，随着DP的移动，画面逐渐展开．\n（1）写出展开的画面面积S（单位：$m^{2}$）关于点P的运动时间t（单位：s）的函数表达式；\n（2）当展开的画面面积达到电子屏面积的$\\frac{1}{4}$时开始播放广告语，播放时间持续3s，求播放结束时展开的画面面积．\n![2025年江苏省南京市中考数学试卷_q024_img01](assets/2025年江苏省南京市中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）当0≤t≤4时，展开的画面面积S就是△APD的面积；当4＜t≤6.5时，S＝矩形ABCD的面积﹣△CPD的面积；\n（2）先根据展开的画面面积达到电子屏面积的$\\frac{1}{4}$时开始播放广告语，计算展开的画面面积＝10，再分别代入（1）中的关系式可得t的值，计算总时间，即可解答．\n【解答】解：（1）如图1，当0≤t≤4时，S＝$S_{△}_{APD}=\\frac{1}{2}$AP×AD$=\\frac{1}{2}×$2t×5＝5t，\n[[image:rId42]]\n如图2，当4＜t≤6.5时，S＝5×8$-\\frac{1}{2}×$8×（13﹣2t）＝8t﹣12；\n[[image:rId43]]\n综上，S（单位：$m^{2}$）关于点P的运动时间t（单位：s）的函数表达式为：S$=\\begin{cases} 5t(0≤t≤4) \\\\ 8t-12(4＜t≤6.5) \\end{cases}$；\n（2）S$=\\frac{1}{4}×5×8=$10，\n当5t＝10时，t＝2，\nS＝8（3+2）﹣12＝28，\n当8t﹣12＝10时，t$=\\frac{11}{4}＜$4（不符合题意），\n答：播放结束时展开的画面面积是$28m^{2}$．\n【点评】本题主要考查一次函数的应用，图形面积，正确理解题意是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q024_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数",
+          "三角形面积公式",
+          "矩形面积公式"
+        ],
+        "reasoning": "第（1）问通过不同时间段内展开画面面积的不同计算方式考察了一次函数和三角形面积公式",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数\", \"三角形面积公式\", \"矩形面积公式\"],\n  \"reasoning\": \"第（1）问通过不同时间段内展开画面面积的不同计算方式考察了一次函数和三角形面积公式\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "如图，码头B位于码头A的南偏东30°方向，A，B之间的距离为40km，灯塔P在AB的中点处．轮船甲从A出发，沿正南方向航行，轮船乙从B出发，沿正东方向航行．当甲航行到C处时，乙航行了相同的距离到达D处，此时，C，P，D三点恰好在一条直线上．求甲航行的距离AC．\n（参考数据：\\sqrt{3}≈1.73）\n[图1]",
+      "stem_markdown": "如图，码头B位于码头A的南偏东30°方向，A，B之间的距离为40km，灯塔P在AB的中点处．轮船甲从A出发，沿正南方向航行，轮船乙从B出发，沿正东方向航行．当甲航行到C处时，乙航行了相同的距离到达D处，此时，C，P，D三点恰好在一条直线上．求甲航行的距离AC．\n（参考数据：$\\sqrt{3}≈1.73$）\n![2025年江苏省南京市中考数学试卷_q025_img01](assets/2025年江苏省南京市中考数学试卷_q025_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】延长AC，DB交点为E，过点P作PF⊥AE于点F，过B作BH⊥BD交CD于点H．设AC＝BD＝xkm，根据题意可得20$\\sqrt{3}-$x＝20+x，解方程得出答案．\n【解答】解：如图，延长AC，DB交点为E，过点P作PF⊥AE于点F，过B作BH⊥BD交CD于点H．\n[[image:rId45]]\n由题意得，∠E＝90°，∠PFA＝90°，∠HBD＝90°，\n∵A，B之间的距离为40km，P在AB的中点处，\n∴AP＝PB＝20km，\n∵Rt△APF中，∠A＝30°，\n∴PF＝10km，AF$=\\sqrt{20^{2}(-10)^{2}}=$10$\\sqrt{3}$（km），\n∵PF∥DE，P为AB中点，\n∴F为AE的中点，即AE＝20$\\sqrt{3}$km，BE＝20km，\n设AC＝BD＝xkm，\n∵AC∥BH，\n∴∠A＝∠PBH，\n在△APC和△BHP中$\\begin{cases} ∠A=∠PBH \\\\ AP=BP \\\\ ∠APC=∠BPH \\end{cases}$，\n∴△APC≌△BPH（ASA），\n∴AC＝BH，\n∴BD＝BH，\n∴∠HDB＝45°，\n∴△CED中，CE＝ED，\n∴20$\\sqrt{3}-$x＝20+x，\n解得x＝10$\\sqrt{3}-$10≈7.3，\n答：甲航行的距离AC约为7.3km．\n【点评】本题考查的是解直角三角形的应用﹣方向角问题，掌握锐角三角函数的定义，理解方向角的概念是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q025_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正弦定理",
+          "余弦定理",
+          "方向角"
+        ],
+        "reasoning": "题中涉及方向角30°和正东、正南方向，以及计算距离时使用了正弦和余弦定理。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正弦定理\", \"余弦定理\", \"方向角\"],\n  \"reasoning\": \"题中涉及方向角30°和正东、正南方向，以及计算距离时使用了正弦和余弦定理。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "（1）将函数y＝﹣x²+2的图象向右平移2个单位长度，平移后的函数图象与y轴交点的纵坐标是 ____ ．\n（2）平移函数y＝﹣x²+2的图象，在这个过程中，它的顶点都在一次函数y＝kx+2的图象上．设平移后的函数图象的顶点P的横坐标为m，与y轴交点的纵坐标为n，n随m的变化而变化．\n①若k＝2，当0≤m≤3时，求n的取值范围．\n②设函数y＝kx+2的图象与x轴、y轴的交点分别为A，B，点P在线段AB上．当k取不同值时，下列关于n的变化趋势的描述：（a）n随m的增大而增大；（b）n随m的增大而减小；（c）n随m的增大先增大后减小；（d）n随m的增大先减小后增大．其中，所有可能出现的序号是 ____ （说明：全部填对的得满分，有填错的不得分）．",
+      "stem_markdown": "（1）将函数y＝﹣$x^{2}$+2的图象向右平移2个单位长度，平移后的函数图象与y轴交点的纵坐标是 ____ ．\n（2）平移函数y＝﹣$x^{2}$+2的图象，在这个过程中，它的顶点都在一次函数y＝kx+2的图象上．设平移后的函数图象的顶点P的横坐标为m，与y轴交点的纵坐标为n，n随m的变化而变化．\n①若k＝2，当0≤m≤3时，求n的取值范围．\n②设函数y＝kx+2的图象与x轴、y轴的交点分别为A，B，点P在线段AB上．当k取不同值时，下列关于n的变化趋势的描述：（a）n随m的增大而增大；（b）n随m的增大而减小；（c）n随m的增大先增大后减小；（d）n随m的增大先减小后增大．其中，所有可能出现的序号是 ____ （说明：全部填对的得满分，有填错的不得分）．",
+      "options": [],
+      "answer": "﹣2",
+      "solution": "【分析】（1）根据“左加右减”的原则写出新直线解析式，由解析式求得平移后的图象与y轴交点的坐标．\n（2）由题意平移后的函数解析式为y＝﹣（x﹣m）^{2}+km+2，则n＝﹣$m^{2}$+km+2，\n①若k＝2，则n＝﹣$m^{2}$+2m+2＝﹣（m﹣1）^{2}+3，利用二次函数的增减性即可求解；\n②求得线段的两个端点，分两种情况讨论，利用二次函数的性质判断即可．\n【解答】解：（1）由“左加右减”的原则可知，将函数y＝﹣$x^{2}$+2的图象向右平移2个单位长度，所得函数的解析式为y＝﹣（x﹣2）^{2}+2，\n令x＝0，则y＝﹣2，即平移后的图象与y轴交点的坐标为（0，﹣2）．\n故答案为：﹣2；\n（2）∵平移函数y＝﹣$x^{2}$+2的图象，在这个过程中，它的顶点都在一次函数y＝kx+2的图象上，设平移后的函数图象的顶点P的横坐标为m\n则平移后的得到为（m，km+2），\n∴平移后的函数解析式为y＝﹣（x﹣m）^{2}+km+2，\n当x＝0时，与y轴交点的纵坐标n＝﹣$m^{2}$+km+2，\n①若k＝2，则n＝﹣$m^{2}$+2m+2＝﹣（m﹣1）^{2}+3，\n∴n是关于m的二次函数，二次函数的开口向下，对称轴为直线m＝1，\n∵m＝3时，n＝﹣（3﹣1）^{2}+3＝﹣1，m＝1时，n＝3，\n∴当0≤m≤3时，n的取值范围是﹣1≤n≤3；\n②∵函数y＝kx+2的图象与x轴、y轴的交点分别为A，B，\n∴A（$-\\frac{2}{k}$，0），B（0，2），\n∴当k＜0时，0≤m$≤-\\frac{2}{k}$，\n∵n＝﹣$m^{2}$+km+2，\n∴对称轴为直线m$=\\frac{k}{2}＜$0，\n∴当m$＞\\frac{k}{2}$时，n随m的增大而减小，\n∵m≥0$＞\\frac{k}{2}$，\n∴n随m的增大而减小，\n当k＞0时，$-\\frac{2}{k}≤$m≤0，\n∵n＝﹣$m^{2}$+km+2，\n∴对称轴为直线m$=\\frac{k}{2}＞$0，\n∵m≤0$＜\\frac{k}{2}$，\n∴n随m的增大而增大，\n故可能的序号是（a）（b）．\n故答案为：（a）（b）．\n【点评】本题考查的是二次函数的图象与几何变换，一次函数性质，二次函数的性质，一次函数图象上点的坐标特征，二次函数图象上点的坐标特征，熟知二次函数的性质是解答此题的关键．",
+      "full_score": 9,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的图象与几何变换",
+          "二次函数的性质",
+          "一次函数的性质",
+          "二次函数图象上点的坐标特征"
+        ],
+        "reasoning": "第（1）题考察了二次函数图象平移后的顶点坐标；第（2）题考察了二次函数的性质和一次函数的性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的图象与几何变换\", \"二次函数的性质\", \"一次函数的性质\", \"二次函数图象上点的坐标特征\"],\n  \"reasoning\": \"第（1）题考察了二次函数图象平移后的顶点坐标；第（2）题考察了二次函数的性质和一次函数的性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年江苏省南京市中考数学试卷_q027",
+      "question_no": "27",
+      "question_type": "solution",
+      "stem_text": "某纸杯的尺寸（单位：cm）如图（1）所示，展开它的侧面得到扇环纸片ABCD（可以看作扇形纸片OAD剪去扇形纸片OBC后剩余的部分）．\n[图1]\n（1）AD的长为 ____ cm，OB＝ ____ cm．\n（2）记a×b表示两边长分别为a，b（a≤b，单位：cm）的矩形纸片的大小．\n①图（2）是可以剪出扇环纸片ABCD的一张矩形纸片，它的一边与AD相切，点B，C在对边上，点A，D分别在另外两边上，直接写出a，b的值．\n②用一张18.2×25.7的矩形纸片可以剪出扇环纸片ABCD吗？说明理由．\n③若一张15×b的矩形纸片可以剪出扇环纸片ABCD，写出求b的范围的思路（无需算出最终结果）．\n2025年江苏省南京市中考数学试卷",
+      "stem_markdown": "某纸杯的尺寸（单位：cm）如图（1）所示，展开它的侧面得到扇环纸片ABCD（可以看作扇形纸片OAD剪去扇形纸片OBC后剩余的部分）．\n![2025年江苏省南京市中考数学试卷_q027_img01](assets/2025年江苏省南京市中考数学试卷_q027_img01.png)\n（1）$AD$的长为 ____ cm，OB＝ ____ cm．\n（2）记a×b表示两边长分别为a，b（a≤b，单位：cm）的矩形纸片的大小．\n①图（2）是可以剪出扇环纸片ABCD的一张矩形纸片，它的一边与$AD$相切，点B，C在对边上，点A，D分别在另外两边上，直接写出a，b的值．\n②用一张18.2×25.7的矩形纸片可以剪出扇环纸片ABCD吗？说明理由．\n③若一张15×b的矩形纸片可以剪出扇环纸片ABCD，写出求b的范围的思路（无需算出最终结果）．\n2025年江苏省南京市中考数学试卷",
+      "options": [],
+      "answer": "9π",
+      "solution": "【分析】（1）设∠AOD＝∠BOC＝n°，OB＝OC＝rcm，则OA＝（OD＝r+9）cm，利用圆的周长公式和弧长公式解答即可；\n（2）①延长AB，CD，延长线交于点O，设矩形的边与$AD$相切于点E，连接OE，交BC于点F，利用圆的切线的性质定理，矩形 大排的与性质，等边三角形的判定与性质，直角三角形 的边角关系定理解答即可；\n②将扇环纸片ABCD按如图所示放置，AB在矩形的边AG上，延长AB，DC，延长线交于点O，过点D作DE⊥AG于点E，过点C作CF⊥AG于点F，利用直角三角形 的边角关系定理求得DE，AF的长度，再利用它们与18.2×25.7的矩形纸片的长与宽作比较即可；\n③设计出能够放置扇环纸片ABCD的最小的15×b的矩形纸片即可．\n【解答】解：（1）由题意得：$AD$的长为9πcm，$BC$的长为6πcm，\n设∠AOD＝∠BOC＝n°，OB＝OC＝rcm，则OA＝（OD＝r+9）cm，\n∴$\\begin{cases} \\frac{nπr}{180}=6π \\\\ \\frac{nπ(r+9)}{180}=9π \\end{cases}$，\n∴$\\begin{cases} n=60 \\\\ r=18 \\end{cases}$，\n∴OB＝18cm．\n故答案为：9π；18；\n（2）①延长AB，CD，延长线交于点O，设矩形的边与$AD$相切于点E，连接OE，交BC于点F，如图，\n[[image:rId47]]\n则OE⊥GN，\n∵四边形GHMN为矩形，\n∴四边形GHFE，MNEF为矩形，\n∴a＝GH＝EF，\n由题意得：OB＝OC＝18cm，OA＝OD＝OE＝18+9＝27cm，∠AOD＝∠BOC＝60°，AB＝CD＝9cm，\n∴△OBC为等边三角形，\n∴BC＝OB＝18cm，OF＝9$\\sqrt{3}$cm，∠OBC＝∠OCB＝60°，\n∴∠ABH＝∠OBC＝60°，∠DCM＝∠OCB＝60°，\n∴BH$=\\frac{1}{2}$AB＝4.5cm，CM$=\\frac{1}{2}$CD＝4.5cm，\n∴a＝EF＝OE﹣OF＝（27﹣9$\\sqrt{3}$）cm，\nb＝GN＝HM＝HB+BC+CM＝4.5+18+4.5＝27（cm）．\n②用一张18.2×25.7的矩形纸片可以剪出扇环纸片ABCD，理由：\n将扇环纸片ABCD按如图所示放置，AB在矩形的边AG上，延长AB，DC，延长线交于点O，过点D作DE⊥AG于点E，过点C作CF⊥AG于点F，\n[[image:rId48]]\n由题意得：∠O＝60°，OB＝OC＝18cm，OA＝OD＝OE＝18+9＝27cm，AB＝CD＝9cm，\n∴DE＝OD$⋅sin60°=\\frac{27\\sqrt{3}}{2}≈$23.38（cm），OF$=\\frac{1}{2}$OC＝9cm，FC＝OC•sin60°＝9$\\sqrt{3}≈$15.59（cm），\n∴AF＝OA﹣OF＝27﹣9＝18（cm），\n∵18＜18.2，23.38＜25.7，\n∴AF＜AG＝18.2cm，DE＜GH＝25.2cm，\n∴用一张18.2×25.7的矩形纸片可以剪出扇环纸片ABCD．\n③设15×b的矩形纸片为矩形MNKS，MS＝NK＝15cm，将扇环纸片ABCD如图放置，使点A在MS边上，点B在KS边上，点D在NK边上，$AD$与边MN相切于点P，\n[[image:rId49]]\n则此时的b值最小，若求b的范围，则此时的MN为b的最小值．\n延长AB，DC，延长线交于点O，连接OP，OP交SK于点H，过点D作DE⊥OP于点E，过点A作AF⊥OP于点F，设OD交SK于点G，\n由题意得：∠AOD＝60°，OB＝OC＝18cm，OP＝OA＝OD＝OE＝18+9＝27（cm），AB＝CD＝9cm，\n∵$AD$与边MN相切于点P，\n∴OP⊥MN，\n∵DE⊥OP，AF⊥OP，四边形MNKS为矩形，\n∴四边形PNDE，四边形AFPM，四边形PNKH为矩形，\n∴PN＝DE，MP＝AF，PH＝NK＝15cm，\n∴b＝MN＝MP+PN＝AF+DE，OH＝OP﹣PH＝12（cm）．\n∴求得AF，DE的值即可求得b的最小值；\n由于OA＝OD＝27cm，解Rt△OAF和Rt△ODE即可求得结论．\n【点评】本题主要考查了圆的有关性质，圆的切线的性质定理，弧长公式，分类讨论的思想方法，矩形的判定与性质，直角三角形的性质，勾股定理，直角三角形的边角关系定理，等边三角形的判定与性质，添加适当的辅助线构造直角三角形是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:13:34；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId51]] ____ [[image:rId52]] ____ [[image:rId53]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 11,
+      "images": [
+        {
+          "image_id": "2025年江苏省南京市中考数学试卷_q027_img01",
+          "path": "assets/2025年江苏省南京市中考数学试卷_q027_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆的周长公式",
+          "弧长公式",
+          "圆的切线性质",
+          "等边三角形的判定"
+        ],
+        "reasoning": "第（1）问使用圆的周长公式计算AD的长度，弧长公式计算OB的长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆的周长公式\", \"弧长公式\", \"圆的切线性质\", \"等边三角形的判定\"],\n  \"reasoning\": \"第（1）问使用圆的周长公式计算AD的长度，弧长公式计算OB的长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:40:48",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 27,
+      "ok": 27,
+      "fallback": 0
+    }
+  }
+}

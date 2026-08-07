@@ -1,0 +1,1107 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年四川省资阳市中考数学试卷",
+  "source": {
+    "name": "2025年四川省资阳市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年四川省资阳市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "-\\frac{1}{4}的相反数是（ ）",
+      "stem_markdown": "$-\\frac{1}{4}$的相反数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣4"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{1}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据符号不同，绝对值相同的两个数互为相反数即可求得答案．\n【解答】解：$-\\frac{1}{4}$的相反数是$\\frac{1}{4}$．\n故选：C．\n【点评】本题考查了相反数的概念，掌握只有符号不同的两个数叫做互为相反数是解答此题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相反数的概念"
+        ],
+        "reasoning": "题目要求找出给定数的相反数，涉及相反数定义",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相反数的概念\"],\n  \"reasoning\": \"题目要求找出给定数的相反数，涉及相反数定义\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "如图是由6个相同的正方体堆成的物体，则该物体的左视图是（ ）\n[图1]",
+      "stem_markdown": "如图是由6个相同的正方体堆成的物体，则该物体的左视图是（ ）\n![2025年四川省资阳市中考数学试卷_q002_img01](assets/2025年四川省资阳市中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年四川省资阳市中考数学试卷_q002_img02](assets/2025年四川省资阳市中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年四川省资阳市中考数学试卷_q002_img03](assets/2025年四川省资阳市中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年四川省资阳市中考数学试卷_q002_img04](assets/2025年四川省资阳市中考数学试卷_q002_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年四川省资阳市中考数学试卷_q002_img05](assets/2025年四川省资阳市中考数学试卷_q002_img05.png)"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】找到从左面看所得到的图形即可，注意所有的看到的棱都应表现在左视图中．\n【解答】解：从左面看，底层是两个小正方形，上层的左边是一个小正方形．\n故选：D．\n【点评】本题考查了三视图的知识，掌握左视图是从物体的左面看得到的视图是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q002_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q002_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q002_img02",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q002_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q002_img03",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q002_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q002_img04",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q002_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q002_img05",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q002_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "左视图",
+          "三视图",
+          "观察与想象能力"
+        ],
+        "reasoning": "题中要求找到物体的左视图，涉及三视图中的左视图概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"左视图\", \"三视图\", \"观察与想象能力\"],\n  \"reasoning\": \"题中要求找到物体的左视图，涉及三视图中的左视图概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "2025年政府工作报告显示，我国2024年新能源汽车年产量突破1300万辆，将数“1300万”用科学记数法表示为（ ）",
+      "stem_markdown": "2025年政府工作报告显示，我国2024年新能源汽车年产量突破1300万辆，将数“1300万”用科学记数法表示为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "13×10^{6}"
+        },
+        {
+          "label": "B",
+          "text": "1.3×10^{7}"
+        },
+        {
+          "label": "C",
+          "text": "1.3×10^{8}"
+        },
+        {
+          "label": "D",
+          "text": "0.13×10^{8}"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值a≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：1300万＝13000000＝1.3×10^{7}．\n故选：B．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "小数点移动与指数关系"
+        ],
+        "reasoning": "题中要求将1300万用科学记数法表示，考察了科学记数法的表示形式及小数点移动与指数的关系。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"小数点移动与指数关系\"],\n  \"reasoning\": \"题中要求将1300万用科学记数法表示，考察了科学记数法的表示形式及小数点移动与指数的关系。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "下列计算正确的是（ ）",
+      "stem_markdown": "下列计算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "a+2a＝$2a^{2}$"
+        },
+        {
+          "label": "B",
+          "text": "3b﹣b＝3"
+        },
+        {
+          "label": "C",
+          "text": "$(b^{3})^{2}＝b^{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$a^{3}•a^{4}＝a^{12}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】利用合并同类项，幂的乘方运算，同底数幂的乘法运算．\n【解答】解：a+2a＝3a，A选项错误，不符合题意；\n3b﹣b＝2b，B选项错误，不符合题意；\n$(b^{3})^{2}＝b^{6}$，C选项正确，符合题意；\n$a^{3}•a^{4}＝a^{7}$，D选项错误，不符合题意．\ng故选：C．\n【点评】本题考查了合并同类项，幂的乘方运算，同底数幂的乘法，解题的关键是掌握合并同类项，幂的乘方运算，同底数幂的乘法的法则．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "合并同类项",
+          "幂的乘方运算",
+          "同底数幂的乘法"
+        ],
+        "reasoning": "选项C计算结果为$b^6$，涉及幂的乘方运算；选项D计算结果为$a^7$，涉及同底数幂的乘法。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"合并同类项\", \"幂的乘方运算\", \"同底数幂的乘法\"],\n  \"reasoning\": \"选项C计算结果为$b^6$，涉及幂的乘方运算；选项D计算结果为$a^7$，涉及同底数幂的乘法。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "某年级7名教师某周使用人工智能（AI）办公的次数分别为：5，2，6，9，5，5，3．这组数据的众数和中位数分别为（ ）",
+      "stem_markdown": "某年级7名教师某周使用人工智能（AI）办公的次数分别为：5，2，6，9，5，5，3．这组数据的众数和中位数分别为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "6，5"
+        },
+        {
+          "label": "B",
+          "text": "5，9"
+        },
+        {
+          "label": "C",
+          "text": "5，6"
+        },
+        {
+          "label": "D",
+          "text": "5，5"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】找中位数要把数据按从小到大的顺序排列，位于最中间的一个数（或两个数的平均数）为中位数；众数是一组数据中出现次数最多的数据，注意众数可以不止一个．\n【解答】解：从小到大排列此数据为：2，3，5，5，5，6，9，出现次数最多的数是5，故众数为5；\n处在中间的数是5，所以中位数为5．\n所以本题这组数据的众数是5，中位数为5．\n故选：D．\n【点评】本题考查了确定一组数据的中位数和众数的能力．一些学生往往对这个概念掌握不清楚，计算方法不明确而误选其它选项．注意找中位数的时候一定要先排好顺序，然后再根据奇数和偶数个来确定中位数，如果数据有奇数个，则正中间的数字即为所求．如果是偶数个则找中间两位数的平均数．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "众数",
+          "中位数",
+          "排序"
+        ],
+        "reasoning": "计算众数和中位数需要对数据进行排序",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"众数\", \"中位数\", \"排序\"],\n  \"reasoning\": \"计算众数和中位数需要对数据进行排序\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "已知数轴上点A所表示的数是\\sqrt{2}，则与点A相距2个单位长度的点表示的数是（ ）",
+      "stem_markdown": "已知数轴上点A所表示的数是$\\sqrt{2}$，则与点A相距2个单位长度的点表示的数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sqrt{2}+2$或$\\sqrt{2}-2$"
+        },
+        {
+          "label": "B",
+          "text": "$2+\\sqrt{2}$或$2-\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{2}+2$"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{2}-2$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】分两种情况，即该点在点A的左侧、右侧两种情况分别进行解答即可．\n【解答】解：当所求的点在点A的右侧时，该点所表示的数为$\\sqrt{2}+$2，\n当所求的点在点A的左侧时，该点所表示的数为$\\sqrt{2}-$2，\n综上所述，所求的点在数轴上所表示的数为$\\sqrt{2}+$2或$\\sqrt{2}-$2，\n故选：A．\n【点评】本题考查实数与数轴，掌握数轴表示数的方法是正确解答的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值",
+          "数轴上的点"
+        ],
+        "reasoning": "题中条件涉及与点A相距2个单位长度，需要考虑数轴上两点间距离的概念。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\", \"数轴上的点\"],\n  \"reasoning\": \"题中条件涉及与点A相距2个单位长度，需要考虑数轴上两点间距离的概念。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "三角形的周长为48cm，则它的三条中位线组成的三角形的周长是（ ）",
+      "stem_markdown": "三角形的周长为48cm，则它的三条中位线组成的三角形的周长是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "12cm"
+        },
+        {
+          "label": "B",
+          "text": "24cm"
+        },
+        {
+          "label": "C",
+          "text": "28cm"
+        },
+        {
+          "label": "D",
+          "text": "30cm"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据中位线定理分别求出三条中位线长，再根据三角形周长公式计算即可．\n【解答】解：∵△ABC的周长为48cm，\n∴AB+BC+AC＝48cm，\n∵DE、DF、EF是△ABC的中位线，\n∴DE$=\\frac{1}{2}$AC，DF$=\\frac{1}{2}$BC，EF$=\\frac{1}{2}$AB，\n∴△DEF的周长＝DE+DF+EF$=\\frac{1}{2}×$（AB+BC+AC）$=\\frac{1}{2}×$48＝24（cm），\n故选：B．\n[[image:rId31]]\n【点评】本题考查的是三角形中位线定理，熟记三角形中位线等于第三边的一半是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中位线定理",
+          "三角形周长公式"
+        ],
+        "reasoning": "题中通过中位线求得新三角形的周长并应用三角形周长公式计算",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中位线定理\", \"三角形周长公式\"],\n  \"reasoning\": \"题中通过中位线求得新三角形的周长并应用三角形周长公式计算\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，在射线BA，BC上，分别截取BM，BN，使BM＝BN；再分别以点M和点N为圆心、大于线段MN一半的长为半径作圆弧，在∠ABC内，两弧交于点D，作射线BD；过点D作DE∥BC交BA于点E．若∠BDE＝30°，则∠AED的度数是（ ）\n[图1]",
+      "stem_markdown": "如图，在射线BA，BC上，分别截取BM，BN，使BM＝BN；再分别以点M和点N为圆心、大于线段MN一半的长为半径作圆弧，在∠ABC内，两弧交于点D，作射线BD；过点D作DE∥BC交BA于点E．若∠BDE＝30°，则∠AED的度数是（ ）\n![2025年四川省资阳市中考数学试卷_q008_img01](assets/2025年四川省资阳市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "30°"
+        },
+        {
+          "label": "B",
+          "text": "45°"
+        },
+        {
+          "label": "C",
+          "text": "60°"
+        },
+        {
+          "label": "D",
+          "text": "75°"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】由作图过程可知，射线BD为∠ABC的平分线，可得∠ABC＝2∠CBD．由平行线的性质得∠AED＝∠ABC，∠CBD＝∠BDE＝30°，则可得∠AED＝∠ABC＝60°．\n【解答】解：由作图过程可知，射线BD为∠ABC的平分线，\n∴∠ABC＝2∠CBD．\n∵DE∥BC，\n∴∠AED＝∠ABC，∠CBD＝∠BDE＝30°，\n∴∠ABC＝60°，\n∴∠AED＝60°．\n故选：C．\n【点评】本题考查作图—基本作图、平行线的性质、角平分线的定义，熟练掌握平行线的性质、角平分线的定义是解答本题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q008_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "角平分线的定义",
+          "平行线的性质",
+          "等腰三角形的性质"
+        ],
+        "reasoning": "作图过程中射线BD为∠ABC的平分线，且DE∥BC，利用角平分线定义和平行线性质得出∠AED=∠ABC，结合∠BDE=30°求解。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"角平分线的定义\", \"平行线的性质\", \"等腰三角形的性质\"],\n  \"reasoning\": \"作图过程中射线BD为∠ABC的平分线，且DE∥BC，利用角平分线定义和平行线性质得出∠AED=∠ABC，结合∠BDE=30°求解。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "《九章算术》是我国古代数学名著，书中有这样一个题目：“今有人持金出五关，前关二而税一，次关三而税一，次关四而税一，次关五而税一，次关六而税一．并五关所税，适重一斤．问本持金几何．”大意是：今有人持金出五关，第1关收税金为所持金的\\frac{1}{2}，第2关收税金为此时所持金的\\frac{1}{3}，第3关收税金为此时所持金的\\frac{1}{4}，第4关收税金为此时所持金的\\frac{1}{5}，第5关收税金为此时所持金的\\frac{1}{6}，五关税金之和恰好重1斤，问原本持金多少？（ ）",
+      "stem_markdown": "《九章算术》是我国古代数学名著，书中有这样一个题目：“今有人持金出五关，前关二而税一，次关三而税一，次关四而税一，次关五而税一，次关六而税一．并五关所税，适重一斤．问本持金几何．”大意是：今有人持金出五关，第1关收税金为所持金的$\\frac{1}{2}$，第2关收税金为此时所持金的$\\frac{1}{3}$，第3关收税金为此时所持金的$\\frac{1}{4}$，第4关收税金为此时所持金的$\\frac{1}{5}$，第5关收税金为此时所持金的$\\frac{1}{6}$，五关税金之和恰好重1斤，问原本持金多少？（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{5}$斤"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{5}$斤"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{8}{5}$斤"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{9}{5}$斤"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】设原本持金为x斤，逐关计算税金并求和，根据已知列方程，然后解方程求得x即可．\n【解答】解：由题意，第1关收税：$\\frac{1}{2}x$，剩余$x-\\frac{1}{2}x=\\frac{1}{2}x$，\n第2关收税：$\\frac{1}{3}×\\frac{1}{2}x=\\frac{1}{6}x$，剩余$\\frac{1}{2}x-\\frac{1}{6}x=\\frac{1}{3}x$，\n第3关收税：$\\frac{1}{4}×\\frac{1}{3}x=\\frac{1}{12}x$，剩余$\\frac{1}{3}x-\\frac{1}{12}x=\\frac{1}{4}x$，\n第4关收税：$\\frac{1}{5}×\\frac{1}{4}x=\\frac{1}{20}x$，剩余$\\frac{1}{4}x-\\frac{1}{20}x=\\frac{1}{5}x$，\n第5关收税：$\\frac{1}{6}×\\frac{1}{5}x=\\frac{1}{30}x$，\n则五关税金之和为$\\frac{1}{2}x+\\frac{1}{6}x+\\frac{1}{12}x+\\frac{1}{20}x+\\frac{1}{30}x=\\frac{5}{6}x$，\n根据题意，总税金为1斤，得$\\frac{5}{6}x=1$，\n解得$x=\\frac{6}{5}$，\n故原本持金为$\\frac{6}{5}$斤，\n故选：A．\n【点评】本题考查一元一次方程的应用，理解题意找准等量关系列出方程是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "比例分配问题",
+          "分数运算",
+          "一元一次方程"
+        ],
+        "reasoning": "题中通过逐关计算税金并求和，最终建立方程求解，涉及比例分配和分数运算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"比例分配问题\", \"分数运算\", \"一元一次方程\"],\n  \"reasoning\": \"题中通过逐关计算税金并求和，最终建立方程求解，涉及比例分配和分数运算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，在四边形ABCD中，AB∥DC，AD⊥DC，AB＝4，AD＝DC＝2，E是线段AD的中点，F是线段AB上的一个动点．现将△AEF沿EF所在直线翻折得到△A′EF（如图的所有点在同一平面内），连接A′B，A′C，则△A′BC面积的最小值为（ ）\n[图1]",
+      "stem_markdown": "如图，在四边形ABCD中，AB∥DC，AD⊥DC，AB＝4，AD＝DC＝2，E是线段AD的中点，F是线段AB上的一个动点．现将△AEF沿EF所在直线翻折得到△A′EF（如图的所有点在同一平面内），连接A′B，A′C，则△A′BC面积的最小值为（ ）\n![2025年四川省资阳市中考数学试卷_q010_img01](assets/2025年四川省资阳市中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2-\\sqrt{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$3-\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{10}-\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$4-\\sqrt{2}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】过点C作CG⊥AB于点G，可得四边形ADCG是矩形，从而得到CG＝AD＝2，AG＝CD＝2，再利用勾股定理求出BC的长，从而得到当点A'到BC的距离最小时，△A'BC面积最小，过点A'作AH⊥BC交BC的延长线于点H，即当A'H最小时，△A'BC面积最小，然后结合可得点A'在以点E为圆心，1长为半径的半圆上运动，当点E，A'，H三点共线时，A'H最小，此时△A'BC面积最小，延长AD，BC 交于点M，过点D作DN⊥CM于点N，则DN∥EH，可得△MND∽△MHE，即可求解．\n【解答】解：如图，过点C作CG⊥AB于点G，\n[[image:rId34]]\n∵AB∥DC，AD⊥DC，AD＝DC＝2，\n∴∠ADC＝∠DAG＝∠AGC＝90°，\n∴四边形ADCG是矩形，\n∴CG＝AD＝2，AG＝CD＝2，\n∵AB＝4，\n∴BG＝AB﹣AG＝4﹣2＝2，\n∴$BC=\\sqrt{CG^{2}+BG^{2}}=\\sqrt{2^{2}+2^{2}}=2\\sqrt{2}$，\n∴当点A'到BC的距离最小时，△A'BC面积最小，\n过点A'作AH⊥BC交BC的延长线于点H，即当A'H最小时，△ABC面积最小，\n∵E是线段AD的中点，AD＝2，\n∴DE＝AE$=\\frac{1}{2}$AD$=\\frac{1}{2}×$2＝1，\n由折叠的性质得：AE＝A'E＝1，\n∴点A在以点E为圆心，1长为半径的半圆上运动，\n∴当点E，A'，H三点共线时，A'H最小，此时△ABC面积最小，\n延长AD，BC交于点M，过点D作DN⊥CM于点N，则DN∥EH，\n∴△MND∽△MHE，\n∵CG＝BG＝2，∠BGC＝90°，\n∴∠ABC＝∠BCG＝45°，\n∵AB∥CD，\n∴∠DCM＝∠ABC＝45°，\n∵∠CDM＝180°﹣∠ADC＝180°﹣90°＝90°，\n∴△CDM是等腰直角三角形，\n∴DM＝CD＝2，$DN=MN=NC=\\frac{1}{2}CM$，\n∴$CM=\\sqrt{DM^{2}+CD^{2}}=\\sqrt{2^{2}+2^{2}}=2\\sqrt{2}$，EM＝DE+DM＝1+2＝3，$DN=\\frac{1}{2}CM=\\frac{1}{2}×2\\sqrt{2}=\\sqrt{2}$，\n∵△MND∽△MHE，\n∴$\\frac{DM}{EM}=\\frac{DN}{EH}$，\n即$\\frac{2}{3}=\\frac{\\sqrt{2}}{EH}$，\n∴EH$=\\frac{3\\sqrt{2}}{2}$，\n∴A'H＝EH﹣A'E$=\\frac{3\\sqrt{2}}{2}-$1，\n∴$S_{△}_{A}_{'}_{BC}=\\frac{1}{2}$A'H•BC$=\\frac{1}{2}×$（$\\frac{3\\sqrt{2}}{2}-$1）×2$\\sqrt{2}=$3$-\\sqrt{2}$，\n∴△A'BC 面积的最小值为3$-\\sqrt{2}$；\n故选：B．\n【点评】本题主要考查了勾股定理，相似三角形的判定和性质，矩形的判定和性质，解题的关键是求出A'的运动轨迹．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q010_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "相似三角形的性质",
+          "矩形的性质"
+        ],
+        "reasoning": "题中通过折叠图形求最小面积，涉及勾股定理、相似三角形和矩形性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"相似三角形的性质\", \"矩形的性质\"],\n  \"reasoning\": \"题中通过折叠图形求最小面积，涉及勾股定理、相似三角形和矩形性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "使代数式\\sqrt{x-1}有意义的实数x的取值范围是 ____ ．",
+      "stem_markdown": "使代数式$\\sqrt{x-1}$有意义的实数x的取值范围是 ____ ．",
+      "options": [],
+      "answer": "x≥1．",
+      "solution": "【分析】根据二次根式中被开方数为非负数，即可确定实数x的取值范围．\n【解答】解：由题意得：x﹣1≥0，\n∴x≥1．\n故答案为：x≥1．\n【点评】本题考查了二次根式有意义的条件，掌握二次根式中被开方数为非负数是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式",
+          "二次根式"
+        ],
+        "reasoning": "题目要求代数式有意义，即被开方数非负",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式\", \"二次根式\"],\n  \"reasoning\": \"题目要求代数式有意义，即被开方数非负\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "一个质地均匀的正方体骰子的六个面上分别标有数字1，2，3，4，5，6．抛掷这枚骰子，则朝上一面所标的数字为奇数的概率为 ____ ．",
+      "stem_markdown": "一个质地均匀的正方体骰子的六个面上分别标有数字1，2，3，4，5，6．抛掷这枚骰子，则朝上一面所标的数字为奇数的概率为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{1}{2}$．",
+      "solution": "【分析】根据概率的求法，找准两点：①全部情况的总数；②符合条件的情况数目；二者的比值就是其发生的概率．\n【解答】解：∵六个面分别标有数字1、2、3、4、5、6，其中奇数有1、3、5共3个，\n∴抛掷这枚骰子，朝上一面所标的数字为奇数的率为$\\frac{3}{6}=\\frac{1}{2}$．\n故答案为：$\\frac{1}{2}$．\n【点评】此题主要考查了概率公式的应用，明确概率的意义是解答的关键，用到的知识点为：概率等于所求情况数与总情况数之比．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "基本事件",
+          "概率计算",
+          "奇数与偶数"
+        ],
+        "reasoning": "设问要求计算朝上一面所标的数字为奇数的概率，涉及奇数和总情况数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"基本事件\", \"概率计算\", \"奇数与偶数\"],\n  \"reasoning\": \"设问要求计算朝上一面所标的数字为奇数的概率，涉及奇数和总情况数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "方程\\frac{3}{x+1}=\\frac{5}{x+3}的解为x＝ ____ ．",
+      "stem_markdown": "方程$\\frac{3}{x+1}=\\frac{5}{x+3}$的解为x＝ ____ ．",
+      "options": [],
+      "answer": "2．",
+      "solution": "【分析】将原方程去分母化为整式方程，解得x的值后进行检验即可．\n【解答】解：原方程去分母得：3x+9＝5x+5，\n解得：x＝2，\n检验：当x＝2时，（x+1）（x+3）≠0，\n故原方程的解为x＝2，\n故答案为：2．\n【点评】本题考查解分式方程，熟练掌握解方程的方法是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程",
+          "去分母法",
+          "解一元一次方程"
+        ],
+        "reasoning": "去分母后得到的一元一次方程解得x=2",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程\", \"去分母法\", \"解一元一次方程\"],\n  \"reasoning\": \"去分母后得到的一元一次方程解得x=2\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，在四边形ABCD中，∠A＝∠B，点E在线段AB上，CE∥DA．若使△BCE成为等边三角形，可增加的一个条件是 ____ ．\n[图1]",
+      "stem_markdown": "如图，在四边形ABCD中，∠A＝∠B，点E在线段AB上，CE∥DA．若使△BCE成为等边三角形，可增加的一个条件是 ____ ．\n![2025年四川省资阳市中考数学试卷_q014_img01](assets/2025年四川省资阳市中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "∠BCE＝∠B（答案不唯一）．",
+      "solution": "【分析】由等边三角形的判定方法，即可得到答案．\n【解答】解：要使△BCE成为等边三角形，可增加的一个条件是∠BCE＝∠B（答案不唯一），理由如下：\n∵CE∥DA，\n∴∠A＝∠BEC，\n∵∠A＝∠B，\n∴∠B＝∠BEC，\n∵∠BCE＝∠B，\n∴∠B＝∠BCE＝∠BEC，\n∴△BCE 成为等边三角形．\n故答案为：∠BCE＝∠B（答案不唯一）．\n【点评】本题考查等边三角形的判定，平行线的性质，关键是掌握等边三角形的判定方法：三条边都相等的三角形是等边三角形，三个角都相等的三角形是等边三角形，有一个角是60°的等腰三角形是等边三角形．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q014_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的判定",
+          "平行线的性质",
+          "三角形内角和"
+        ],
+        "reasoning": "题中条件 CE ∥ DA 和 ∠A = ∠B 考察了平行线的性质，而增加条件 ∠BCE = ∠B 使得 △BCE 成为等边三角形，考察了等边三角形的判定。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的判定\", \"平行线的性质\", \"三角形内角和\"],\n  \"reasoning\": \"题中条件 CE ∥ DA 和 ∠A = ∠B 考察了平行线的性质，而增加条件 ∠BCE = ∠B 使得 △BCE 成为等边三角形，考察了等边三角形的判定。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，在正六边形ABCDEF中，AB＝2，连接AC，AE，以点D为圆心、CD的长为半径作圆弧CE，则图中阴影部分的面积是 ____ ．\n[图1]",
+      "stem_markdown": "如图，在正六边形ABCDEF中，AB＝2，连接AC，AE，以点D为圆心、CD的长为半径作圆弧CE，则图中阴影部分的面积是 ____ ．\n![2025年四川省资阳市中考数学试卷_q015_img01](assets/2025年四川省资阳市中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "4$\\sqrt{3}-\\frac{4π}{3}$．",
+      "solution": "【分析】连接AD，根据正六边形的性质求出CD、∠ACD、∠CDA，根据正切的定义求出AC，根据三角形面积公式、扇形面积公式计算，得到答案．\n【解答】解：如图，连接AD，\n∵六边形ABCDEF为正六边形，\n∴∠B＝∠BCD＝∠CDE＝120°，BC＝CD＝DE＝AB＝2，\n∴∠BCA＝30°，∠CDA＝∠EDA＝60°，\n∴∠ACD＝90°，\n∴AC＝CD•tan∠CDA＝2$\\sqrt{3}$，\n则$S_{阴影部分}＝2S_{△}_{ACD}﹣S_{扇形}_{CDE}$＝2$×\\frac{1}{2}×$2×2$\\sqrt{3}-\\frac{120π×2^{2}}{360}=$4$\\sqrt{3}-\\frac{4π}{3}$，\n故答案为：4$\\sqrt{3}-\\frac{4π}{3}$．\n[[image:rId37]]\n【点评】本题考查的是正多边形和圆、扇形面积计算，掌握正六边形的性质、扇形面积公式是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q015_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正六边形的性质",
+          "正切的定义",
+          "扇形面积公式",
+          "三角形面积公式"
+        ],
+        "reasoning": "阴影部分面积计算涉及正六边形的性质、正切值和扇形面积公式",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正六边形的性质\", \"正切的定义\", \"扇形面积公式\", \"三角形面积公式\"],\n  \"reasoning\": \"阴影部分面积计算涉及正六边形的性质、正切值和扇形面积公式\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "如图，在平面直角坐标系中，O为坐标原点．抛物线y＝ax²+bx+c（a≠0）与y轴相交于点A（0，2），且抛物线的对称轴为直线x＝﹣1．给出以下4个结论：\n①abc＜0；\n②对于任意实数m，am²+bm+c+a的值不小于2；\n③若P是对称轴上的一点，则OP+AP的最小值为2\\sqrt{2}；\n④若点（x₁，y₁），（x₂，y₂）在抛物线上，满足x₁＜x₂且x₁+x₂+2＞0，则一定有y₁＜y₂．\n其中，所有正确结论的序号为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，O为坐标原点．抛物线y＝$ax^{2}$+bx+c（a≠0）与y轴相交于点A（0，2），且抛物线的对称轴为直线x＝﹣1．给出以下4个结论：\n①abc＜0；\n②对于任意实数m，$am^{2}$+bm+c+a的值不小于2；\n③若P是对称轴上的一点，则OP+AP的最小值为$2\\sqrt{2}$；\n④若点（$x_{1}$，$y_{1}$），（$x_{2}$，$y_{2}$）在抛物线上，满足$x_{1}$＜$x_{2}$且$x_{1}+x_{2}$+2＞0，则一定有$y_{1}$＜$y_{2}$．\n其中，所有正确结论的序号为 ____ ．\n![2025年四川省资阳市中考数学试卷_q016_img01](assets/2025年四川省资阳市中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "②③④．",
+      "solution": "【分析】根据开口方向，对称轴，与y轴的交点位置，判断①，最值结合对称轴判断②；作点O关于对称轴的对称点O'，连接O'A，O'A的长即为OP+AP的最小值，勾股定理求出O'A的长，判断③，对称性结合增减性，判断④即可．\n【解答】解：由图象和题意可知：a＞0，$-\\frac{b}{2a}=-1$，\n当x＝0时，y＝c＝2，\n∴b＝2a＞0，\n∴2a﹣b＝0，abc＞0；故①错误，\n当x＝﹣1时，函数取得最小值为：a﹣b+c，\n∴对于任意实数m，am2+bm+c+a≥a﹣b+c+a＝2a﹣b+c＝c＝2，\n∴$am^{2}$+bm+c+a的值不小于2，故②正确；\n作点O关于对称轴的对称点O'，连接O'A，\n[[image:rId39]]\n则：O'（﹣2，0），\n∴当点P在O'A上时，OP+AP的值最小为O'A的长，\n∵A（0，2），\n∴$O′A=\\sqrt{2^{2}+2^{2}}=2\\sqrt{2}$，\n∴OP+AP的最小值为$2\\sqrt{2}$，故③正确；\n∵抛物线的开口向上，\n∴抛物线上的点离对称轴越远，函数值越大，\n∵点（$x_{1}$，$y_{1}$），（$x_{2}$，$y_{2}$）在抛物线上，满足$x_{1}$＜$x_{2}$且$x_{1}+x_{2}$+2＞0，\n∴$\\frac{x_{1}+x_{2}}{2}＞-1$，\n∴点（$x_{2}$，$y_{2}$）离对称轴远，\n∴$y_{1}$＜$y_{2}$，故④正确；\n故答案为：②③④．\n【点评】本题考查二次函数的图象和性质，二次函数的综合应用，从函数图象中获取信息，利用数形结合的思想进行求解是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q016_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数开口方向",
+          "二次函数对称轴",
+          "二次函数顶点坐标",
+          "二次函数最值"
+        ],
+        "reasoning": "题中条件和结论涉及抛物线的开口方向、对称轴、顶点坐标及最值计算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数开口方向\", \"二次函数对称轴\", \"二次函数顶点坐标\", \"二次函数最值\"],\n  \"reasoning\": \"题中条件和结论涉及抛物线的开口方向、对称轴、顶点坐标及最值计算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "先化简，再求值：(\\frac{a^{2}+1}{a}+2)÷\\frac{a^{2}-1}{a}，其中a＝2．",
+      "stem_markdown": "先化简，再求值：$(\\frac{a^{2}+1}{a}+2)÷\\frac{a^{2}-1}{a}$，其中a＝2．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】将括号内的分式通分并计算，然后将除法化为乘法并约分，最后代入数值计算即可．\n【解答】解：原式$=\\frac{a^{2}+1+2a}{a}•\\frac{a}{(a+1)(a-1)}$\n$=\\frac{(a+1)^{2}}{a}•\\frac{a}{(a+1)(a-1)}$\n$=\\frac{a+1}{a-1}$；\n当a＝2时，\n原式$=\\frac{2+1}{2-1}=$3．\n【点评】本题考查分式的化简求值，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 9,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式的通分",
+          "分式的约分",
+          "分式的乘法",
+          "代入求值"
+        ],
+        "reasoning": "原式化简过程中涉及分式的通分、约分和乘法运算，最终代入a=2求值。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式的通分\", \"分式的约分\", \"分式的乘法\", \"代入求值\"],\n  \"reasoning\": \"原式化简过程中涉及分式的通分、约分和乘法运算，最终代入a=2求值。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "为丰富学生课外锻炼活动，某学校增设了A（足球）、B（篮球）、C（体操）、D（田径）四个锻炼项目，每名学生只能选择其中的一项．为了解学生的选择情况，随机抽取部分学生进行调查，并将调查结果绘制成如图所示的两幅不完整的统计图．根据图中所提供的信息，解答下列问题：\n[图1]\n（1）本次调查共抽取了 ____ 名学生，并补全条形统计图；\n（2）在扇形统计图中，求项目C对应的圆心角度数；\n（3）已知选择项目D的学生是2名男生和2名女生．现从这4名学生中随机抽取2名参加比赛，用画树状图或列表法求抽到两名性别相同的学生的概率．",
+      "stem_markdown": "为丰富学生课外锻炼活动，某学校增设了A（足球）、B（篮球）、C（体操）、D（田径）四个锻炼项目，每名学生只能选择其中的一项．为了解学生的选择情况，随机抽取部分学生进行调查，并将调查结果绘制成如图所示的两幅不完整的统计图．根据图中所提供的信息，解答下列问题：\n![2025年四川省资阳市中考数学试卷_q018_img01](assets/2025年四川省资阳市中考数学试卷_q018_img01.png)\n（1）本次调查共抽取了 ____ 名学生，并补全条形统计图；\n（2）在扇形统计图中，求项目C对应的圆心角度数；\n（3）已知选择项目D的学生是2名男生和2名女生．现从这4名学生中随机抽取2名参加比赛，用画树状图或列表法求抽到两名性别相同的学生的概率．",
+      "options": [],
+      "answer": "80．",
+      "solution": "【分析】（1）由扇形统计图可得A的百分比，用条形统计图中A的人数除以扇形统计图中A的百分比可得本次调查共抽取的学生人数；求出选择C项目的人数，补全条形统计图即可．\n（2）用360°乘以C的人数所占的百分比，即可得出答案．\n（3）列表可得出所有等可能的结果数以及抽到两名性别相同的学生的结果数，再利用概率公式可得答案．\n【解答】解：（1）本次调查共抽取了32$÷\\frac{144°}{360°}=$80（名）学生．\n选择C项目的人数为80﹣32﹣28﹣4＝16（人）．\n补全条形统计图如图所示．\n[[image:rId41]]\n故答案为：80．\n（2）项目C对应的圆心角度数为360°$×\\frac{16}{80}=$72°．\n（3）列表如下：\n| 男 | 男 | 女 | 女 |\n| --- | --- | --- | --- |\n| 男 | （男，男） | （男，女） | （男，女） |\n| 男 | （男，男） | （男，女） | （男，女） |\n| 女 | （女，男） | （女，男） | （女，女） |\n| 女 | （女，男） | （女，男） | （女，女） |\n共有12种等可能的结果，其中抽到两名性别相同的学生的结果有4种，\n∴抽到两名性别相同的学生的概率为$\\frac{4}{12}=\\frac{1}{3}$．\n【点评】本题考查列表法与树状图法、扇形统计图、条形统计图，能够读懂统计图，掌握列表法与树状图法是解答本题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q018_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率与概率的关系",
+          "扇形统计图",
+          "条形统计图",
+          "概率计算"
+        ],
+        "reasoning": "第（1）问通过扇形统计图确定A项目的频率，进而求总人数；第（2）问通过扇形统计图确定C项目对应的圆心角度数；第（3）问通过列表法计算抽到两名性别相同学生的概率。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率与概率的关系\", \"扇形统计图\", \"条形统计图\", \"概率计算\"],\n  \"reasoning\": \"第（1）问通过扇形统计图确定A项目的频率，进而求总人数；第（2）问通过扇形统计图确定C项目对应的圆心角度数；第（3）问通过列表法计算抽到两名性别相同学生的概率。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "如图，在平面直角坐标系中，O为坐标原点．一次函数y＝kx﹣2的图象与x轴交于点A（﹣1，0），与反比例函数y=\\frac{m}{x}的图象交于点B（﹣2，a），射线BO与反比例函数的图象交于点C，连接AC．\n（1）求一次函数和反比例函数的表达式；\n（2）求△ABC的面积．\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，O为坐标原点．一次函数y＝kx﹣2的图象与x轴交于点A（﹣1，0），与反比例函数$y=\\frac{m}{x}$的图象交于点B（﹣2，a），射线BO与反比例函数的图象交于点C，连接AC．\n（1）求一次函数和反比例函数的表达式；\n（2）求△ABC的面积．\n![2025年四川省资阳市中考数学试卷_q019_img01](assets/2025年四川省资阳市中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）把点A（﹣1，0）代入一次函数y＝kx﹣2，即可得到k的值，得到一次函数的表达式．把点B（﹣2，a）代入一次函数，得到B（﹣2，2），把点B（﹣2，2）代入反比例函数$y=\\frac{m}{x}$，求出m的值，得到反比例函数的表达式；\n（2）由中心对称得到C（2，﹣2），根据$S_{△}_{ABC}＝2S_{△}_{AOB}$求解即可．\n【解答】解：（1）∵一次函数y＝kx﹣2的图象与x轴交于点A（﹣1，0），\n∴0＝﹣k﹣2，解得k＝﹣2，\n∴一次函数的表达式为y＝﹣2x﹣2．\n∵一次函数y＝﹣2x﹣2过点B（﹣2，a），\n∴a＝﹣2×（﹣2）﹣2，\n∴a＝2，\n∴B（﹣2，2），\n∵反比例函数$y=\\frac{m}{x}$的图象过点B（﹣2，2），\n∴$2=\\frac{m}{-2}$，解得m＝﹣4，\n∴反比例函数的表达式为$y=-\\frac{4}{x}$；\n（2）点B与点C关于原点成中心对称，C（2，﹣2），\n过点B（﹣2，2）作BE⊥x轴于点E，过点C（2，﹣2）作CD⊥x轴于点D，\n[[image:rId43]]\n∴BE＝2，CD＝2，\n∵A（﹣1，0），\n∴AO＝1，\n∴$S_{△}_{ABC}＝2S_{△}_{AOB}=2×\\frac{1}{2}×1×2=$2．\n【点评】本题考查待定系数法求解析式，函数图象的交点，坐标系中三角形的面积．熟练掌握以上知识点是关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q019_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "中心对称",
+          "反比例函数",
+          "三角形面积"
+        ],
+        "reasoning": "第（1）问通过待定系数法确定一次函数和反比例函数的表达式；第（2）问利用中心对称性质确定点C的位置，进而计算三角形面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"中心对称\", \"反比例函数\", \"三角形面积\"],\n  \"reasoning\": \"第（1）问通过待定系数法确定一次函数和反比例函数的表达式；第（2）问利用中心对称性质确定点C的位置，进而计算三角形面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "某社团计划开展手工制作活动，制作需使用A，B两款材料包．购买3份A款材料包和2份B款材料包需84元，购买2份A款材料包和3份B款材料包需86元．\n（1）问购买一份A款材料包和一份B款材料包各需多少元？\n（2）该社团打算购买A，B两款材料包共50份，总费用不超过830元，则至少购买A款材料包多少份？",
+      "stem_markdown": "某社团计划开展手工制作活动，制作需使用A，B两款材料包．购买3份A款材料包和2份B款材料包需84元，购买2份A款材料包和3份B款材料包需86元．\n（1）问购买一份A款材料包和一份B款材料包各需多少元？\n（2）该社团打算购买A，B两款材料包共50份，总费用不超过830元，则至少购买A款材料包多少份？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设购买一份A款材料包需x元，购买一份B款材料包需y元，根据“购买3份A款材料包和2份B款材料包需84元，购买2份A款材料包和3份B款材料包需86元”，可列出关于x，y的二元一次方程组，解之即可得出结论；\n（2）设购买A款材料包m份，则购买B款材料包（50﹣m）份，利用总价＝单价×数量，结合总价不超过830元，可列出关于m的一元一次不等式，解之取其中的最小值，即可得出结论．\n【解答】解：（1）设购买一份A款材料包需x元，购买一份B款材料包需y元，\n根据题意得：$\\begin{cases} 3x+2y=84 \\\\ 2x+3y=86 \\end{cases}$，\n解得：$\\begin{cases} x=16 \\\\ y=18 \\end{cases}$．\n答：购买一份A款材料包需16元，购买一份B款材料包需18元；\n（2）设购买A款材料包m份，则购买B款材料包（50﹣m）份，\n根据题意得：16m+18（50﹣m）≤830，\n解得：m≥35，\n∴m的最小值为35．\n答：至少购买A款材料包35份．\n【点评】本题考查了二元一次方程组的应用以及一元一次不等式的应用，解题的关键是：（1）找准等量关系，正确列出二元一次方程组；（2）根据各数量之间的关系，正确列出一元一次不等式．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "线性方程组",
+          "一元一次不等式",
+          "代数表达"
+        ],
+        "reasoning": "（1）通过两个方程组求解A、B款材料包的价格；（2）利用总价不超过830元建立不等式求解A款材料包的数量",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"线性方程组\", \"一元一次不等式\", \"代数表达\"],\n  \"reasoning\": \"（1）通过两个方程组求解A、B款材料包的价格；（2）利用总价不超过830元建立不等式求解A款材料包的数量\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，已知水平地面AM上方有一个水平的平台BN，该平台上有一个竖直的建筑物CD．在A处测得建筑物顶端C的仰角为30°，在B处测得C的仰角为60°，斜坡AB的坡度i＝1：3，AB=10\\sqrt{10}米，CD⊥BD．（点A，B，C，D在同一竖直平面内）．\n（1）求平台BN的高度；\n（2）求建筑物的高度（即CD的长）．\n[图1]",
+      "stem_markdown": "如图，已知水平地面AM上方有一个水平的平台BN，该平台上有一个竖直的建筑物CD．在A处测得建筑物顶端C的仰角为30°，在B处测得C的仰角为60°，斜坡AB的坡度i＝1：3，$AB=10\\sqrt{10}$米，CD⊥BD．（点A，B，C，D在同一竖直平面内）．\n（1）求平台BN的高度；\n（2）求建筑物的高度（即CD的长）．\n![2025年四川省资阳市中考数学试卷_q021_img01](assets/2025年四川省资阳市中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）过点B作BE⊥AM于E，根据坡度的概念得到AE＝3BE，再根据勾股定理求出BE；\n（2）延长CD交AM于F，设CD＝x米，根据正切的定义用x表示出AF、EF，根据题意列式计算得到答案．\n【解答】解：（1）如图，过点B作BE⊥AM于E，\n∵斜坡AB的坡度为1：3，\n∴$\\frac{BE}{AE}=\\frac{1}{3}$，\n∴AE＝3BE，\n在Rt△ABE中，$AB^{2}＝BE^{2}+AE^{2}$，即（10$\\sqrt{10}$）^{2}＝$BE^{2}$+（3BE）^{2}，\n解得：BE＝10，\n答：平台BN的高度为10米；\n（2）如图，延长CD交AM于F，\n则CF⊥AM，\n∴四边形BEFD为矩形，\n∴DF＝BE＝10米，BD＝EF，\n设CD＝x米，则CF＝（x+10）米，\n在Rt△ACF中，∠CAF＝30°，\n∵tan∠CAF$=\\frac{CF}{AF}$，\n∴$\\frac{\\sqrt{3}}{3}=\\frac{x+10}{AF}$，\n∴AF$=\\sqrt{3}$（x+10）米，\n在Rt△CBD中，∠CBD＝60°，\n则BD$=\\frac{CD}{tan∠CBD}=\\frac{\\sqrt{3}}{3}$x米，\n由（1）可知：AE＝3BE＝30米，\n∴$\\sqrt{3}$（x+10）$-\\frac{\\sqrt{3}}{3}$x＝30，\n解得：x＝15$\\sqrt{3}-$15，\n答：建筑物的高度为（15$\\sqrt{3}-$15）米．\n[[image:rId45]]\n【点评】本题考查的是解直角三角形的应用﹣仰角俯角问题、坡度坡角问题，掌握锐角三角函数的定义、坡度的概念是解题的关键．",
+      "full_score": 11,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q021_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "坡度",
+          "勾股定理",
+          "正切函数",
+          "解直角三角形"
+        ],
+        "reasoning": "题中通过坡度和正切函数计算建筑物高度",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"坡度\", \"勾股定理\", \"正切函数\", \"解直角三角形\"],\n  \"reasoning\": \"题中通过坡度和正切函数计算建筑物高度\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，⊙O是△ABC的外接圆，AB是⊙O的直径，∠BAC的平分线交⊙O于点D，过点D作BC的平行线交AC的延长线于点E．\n（1）求证：DE是⊙O的切线；\n（2）若∠BAC＝60°，CE=\\sqrt{3}，求⊙O的半径．\n[图1]",
+      "stem_markdown": "如图，⊙O是△ABC的外接圆，AB是⊙O的直径，∠BAC的平分线交⊙O于点D，过点D作BC的平行线交AC的延长线于点E．\n（1）求证：DE是⊙O的切线；\n（2）若∠BAC＝60°，$CE=\\sqrt{3}$，求⊙O的半径．\n![2025年四川省资阳市中考数学试卷_q022_img01](assets/2025年四川省资阳市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）连接OD，则OD＝OA，所以∠ODA＝∠BAD，由AD平分∠BAC，得∠CAD＝∠BAD，所以∠ODA＝∠CAD，则OD∥AC，由AB是⊙O的直径，DE∥BC，得∠E＝∠ACB＝90°，求得∠ODE＝90°，即可证明DE是⊙O的切线；\n（2）设OD交BC于点F，可证明四边形CEDF是矩形，由DF＝CE$=\\sqrt{3}$，∠CFD＝90°，由OD∥AC，得∠BOD＝∠BAC＝60°，可证明△DOB是等边三角形，因为BC⊥OD于点F，所以OF＝DF，则OD＝2DF＝2$\\sqrt{3}$，所以⊙O的半径是2$\\sqrt{3}$．\n【解答】（1）证明：连接OD，则OD＝OA，\n∴∠ODA＝∠BAD，\n∵∠BAC的平分线交⊙O于点D，\n∴∠CAD＝∠BAD，\n∴∠ODA＝∠CAD，\n∴OD∥AC，\n∵AB是⊙O的直径，DE∥BC，\n∴∠E＝∠ACB＝90°，\n∴∠ODE＝180°﹣∠E＝90°，\n∵OD是⊙O的半径，且DE⊥OD，\n∴DE是⊙O的切线．\n（2）解：设OD交BC于点F，\n∵∠ACB＝90°，\n∴∠FCE＝90°，\n∵∠FDE＝∠E＝90°，\n∴四边形CEDF是矩形，\n∴DF＝CE$=\\sqrt{3}$，∠CFD＝90°，\n∵OD∥AC，\n∴∠BOD＝∠BAC＝60°，\n∵OD＝OB，\n∴△DOB是等边三角形，\n∵BC⊥OD于点F，\n∴OF＝DF，\n∴OD＝2DF＝2$\\sqrt{3}$，\n∴⊙O的半径是2$\\sqrt{3}$．\n[[image:rId47]]\n【点评】此题重点考查等腰三角形的性质、平行线的判定与性质、直径所对的圆周角是直角、切线的判定、矩形的判定与性质、等边三角形的判定与性质等知识，正确地添加辅助线是解题的关键．",
+      "full_score": 11,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q022_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "平行线的判定与性质",
+          "直径所对的圆周角是直角",
+          "切线的判定"
+        ],
+        "reasoning": "（1）连接OD，利用等腰三角形性质和平行线的判定得出DE是⊙O的切线；（2）通过添加辅助线构造等边三角形，利用等边三角形的性质得出半径。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"平行线的判定与性质\", \"直径所对的圆周角是直角\", \"切线的判定\"],\n  \"reasoning\": \"（1）连接OD，利用等腰三角形性质和平行线的判定得出DE是⊙O的切线；（2）通过添加辅助线构造等边三角形，利用等边三角形的性质得出半径。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "在四边形ABCD中，E是边BC上的一点，O是对角线AC的中点．\n[图1]\n（1）如图1，四边形ABCD是正方形，连接OE，作OF⊥OE交CD于点F，求证：OE＝OF；\n（2）如图2，四边形ABCD是平行四边形，AB⊥AC，AB=\\frac{3\\sqrt{5}}{5}，tan∠ACB=\\frac{1}{2}，BE：EC＝1：2，连接AE，作EF⊥AE交CD于点F，连接OF，求\\frac{OF}{CF}的值；\n（3）如图3，四边形ABCD是菱形，∠B＝60°，BC＝6，连接DE交AC于点G，F是边AB上的一点，∠EDF＝30°，若AF=\\frac{1}{3}AB，求OG的长．",
+      "stem_markdown": "在四边形ABCD中，E是边BC上的一点，O是对角线AC的中点．\n![2025年四川省资阳市中考数学试卷_q023_img01](assets/2025年四川省资阳市中考数学试卷_q023_img01.png)\n（1）如图1，四边形ABCD是正方形，连接OE，作OF⊥OE交CD于点F，求证：OE＝OF；\n（2）如图2，四边形ABCD是平行四边形，AB⊥AC，AB$=\\frac{3\\sqrt{5}}{5}$，tan∠ACB$=\\frac{1}{2}$，BE：EC＝1：2，连接AE，作EF⊥AE交CD于点F，连接OF，求$\\frac{OF}{CF}$的值；\n（3）如图3，四边形ABCD是菱形，∠B＝60°，BC＝6，连接DE交AC于点G，F是边AB上的一点，∠EDF＝30°，若AF$=\\frac{1}{3}$AB，求OG的长．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）连接OD，根据正方形的性质，利用AAS得到△OCE≌△ODE，即可证明结论；\n（2）过点E作 EG⊥BC交AC于点G，利用勾股定理和相似三角形，求出比值即可；\n（3）过点D作DP⊥BA于点P，作DQ⊥BC于点Q，设CE＝x，求出AP＝CQ＝3，$DP=DQ=3\\sqrt{3}$，然后表示$DF^{2}$，$DE^{2}$，在射线CA上截取AM＝AF＝2，在射线AC上截取CN＝CE＝x，根据全等得到DM＝DF，DN＝DE，∠MDN＝90°，然后根据勾股定理求出x值，再根据相似三角形的对应边成比例解答即可．\n【解答】（1）证明：连接OD，\n[[image:rId49]]\n∵ABCD是正方形，OF⊥OE，\n∴OD＝OC，∠COD＝∠EOF＝90°，∠ACD＝∠ACB＝45°，\n∴∠DOF＝∠COE，\n∴△OCE≌△ODF（ASA），\n∴OE＝OF；\n（2）解：过点E作 EG⊥BC交AC于点G．\n[[image:rId50]]\n∵AB⊥AC，$tan∠ACB=\\frac{1}{2}$，\n∴$\\frac{AB}{AC}=\\frac{1}{2}$，\n∵$AB=\\frac{3\\sqrt{5}}{5}$，\n∴$AC=\\frac{6\\sqrt{5}}{5}$，\n∴$BC=\\sqrt{AB^{2}+AC^{2}}=3$，\n∵BE：EC＝1：2，\n∴$CE=\\frac{2}{3}BC=2$．\n在Rt△GEC 中，$tan∠GCE=\\frac{1}{2}$，CE＝2，\n则 GE＝1，$CG=\\sqrt{5}$，\n∴$AG=\\frac{\\sqrt{5}}{5}$，\n∵∠AEF＝∠GEC＝90°，\n∴∠AEG＝∠FEC．\n∵∠AGE＝∠GEC+∠GCE＝∠OCF+∠GCE＝∠FCE，\n∴△AGE∽△FCE，\n∴$\\frac{GA}{CF}=\\frac{GE}{CE}$，即$\\frac{5}{CF}=\\frac{1}{2}$，\n得$CF=\\frac{2\\sqrt{5}}{5}$，\n又∵$OC=\\frac{3\\sqrt{5}}{5}$，\n则$OF=\\sqrt{OC^{2}+CF^{2}}=\\frac{\\sqrt{13}}{\\sqrt{5}}=\\frac{\\sqrt{65}}{5}$，\n∴$\\frac{OF}{CF}=\\frac{\\sqrt{13}}{2}$；\n（3）过点D作DP⊥BA于点P，作DQ⊥BC于点Q，\n[[image:rId51]]\n设CE＝x，\n∵四边形ABCD是菱形，\n∴AD∥BC，DC∥AB，\n∴∠PAD＝∠DCQ＝∠B＝60°，\n∴∠ADP＝∠CDQ＝30°，\n∴AP＝CQ＝3，$DP=DQ=\\sqrt{AD^{2}-AP^{2}}=3\\sqrt{3}$，\n∵$AF=\\frac{1}{3}AB$．\n∴AF＝2，\n∴PF＝PA+AF＝5，\n∴$DF^{2}＝DP^{2}+PF^{2}$＝27+25＝52，$DE^{2}＝DQ^{2}+QE^{2}$＝27+（3+x）^{2}，\n在射线CA上截取AM＝AF＝2，在射线AC上截取CN＝CE＝x，\n∵四边形ABCD是菱形，\n∴BA＝BC，∠BAC＝∠DAC＝∠D＝60°，\n∴∠MAD＝∠FAD＝120°，AC＝AB＝6，\n又∵DA＝DA，\n∴△ADM≌△ADF，\n∴DM＝DF，∠MDA＝∠FDA，\n同理：DN＝DE，∠NDC＝∠EDC，\n∴∠MAF+∠EDN＝2（∠ADF+∠EDC）＝2（∠ADC﹣∠EDF）＝2×（60°﹣30°）＝60°，\n∴∠MDN＝90°，\n∴$DM^{2}+DN^{2}＝MN^{2}$，即$DF^{2}+DE^{2}＝MN^{2}$，\n∴52+27+（3+x）^{2}＝（2+6+x）^{2}，\n解得CE＝2.4，\n又∵CE∥AD，\n∴∠BCA＝∠CAD，∠CEG＝∠ADG，\n∴△CEG∽△ADG，\n∴$\\frac{CG}{AG}=\\frac{CE}{AD}$，\n即$\\frac{CG}{6-CG}=\\frac{2.4}{6}$，\n解得：$CG=\\frac{12}{7}$，\n又∵O是AC的中点，\n∴OC＝3，\n∴$OG=OC-CG=3-\\frac{12}{7}=\\frac{9}{7}$．\n【点评】本题考查四边形的综合，解直角三角形，相似三角形的判定和性质，勾股定理，全等三角形的判定和性质，作辅助线构造全等三角形是解题的关键．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q023_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形",
+          "勾股定理",
+          "全等三角形",
+          "正方形性质"
+        ],
+        "reasoning": "题目涉及相似三角形、勾股定理、全等三角形和正方形性质的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形\", \"勾股定理\", \"全等三角形\", \"正方形性质\"],\n  \"reasoning\": \"题目涉及相似三角形、勾股定理、全等三角形和正方形性质的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省资阳市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，在平面直角坐标系中，抛物线与x轴相交于A，B两点（点A在点B的左边），与y轴相交于点C（0，﹣3），且抛物线的顶点坐标为（1，﹣4）．\n（1）求抛物线的表达式；\n（2）P是抛物线上位于第四象限的一点，点D（0，﹣1），连接BC，DP相交于点E，连接PB．若△CDE与△PBE的面积相等，求点P的坐标；\n（3）M，N是抛物线上的两个动点，分别过点M，N作直线BC的垂线段，垂足分别为G，H．是否存在点M，N，使得以M，N，G，H为顶点的四边形是正方形？若存在，求该正方形的边长；若不存在，说明理由．\n[图1]\n2025年四川省资阳市中考数学试卷",
+      "stem_markdown": "如图，在平面直角坐标系中，抛物线与x轴相交于A，B两点（点A在点B的左边），与y轴相交于点C（0，﹣3），且抛物线的顶点坐标为（1，﹣4）．\n（1）求抛物线的表达式；\n（2）P是抛物线上位于第四象限的一点，点D（0，﹣1），连接BC，DP相交于点E，连接PB．若△CDE与△PBE的面积相等，求点P的坐标；\n（3）M，N是抛物线上的两个动点，分别过点M，N作直线BC的垂线段，垂足分别为G，H．是否存在点M，N，使得以M，N，G，H为顶点的四边形是正方形？若存在，求该正方形的边长；若不存在，说明理由．\n![2025年四川省资阳市中考数学试卷_q024_img01](assets/2025年四川省资阳市中考数学试卷_q024_img01.png)\n2025年四川省资阳市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用待定系数法即可求得答案；\n（2）解法1：设P（t，$t^{2}$﹣2t﹣3），连接OP，利用图形的面积建立方程求解即可；解法2：连接CP，根据面积关系证得CP∥BD，求得直线CP的表达式，联立方程组求解即可；\n（3）分三种情况讨论：①若点M，N分别在直线BC的两侧，②若点M，N在直线BC的下方，③若点M，N在直线BC的上方，分别画出图形，利用正方形性质建立方程求解即可．\n【解答】解：（1）∵抛物线的顶点坐标为（1，﹣4），\n∴设y＝a（x﹣1）^{2}﹣4，\n把C（0，﹣3）代入，得：﹣3＝a﹣4，\n解得：a＝1，\n∴抛物线的表达式为y＝（x﹣1）^{2}﹣4，即y＝$x^{2}$﹣2x﹣3；\n（2）解法1：设P（t，$t^{2}$﹣2t﹣3），连接OP，如图1，\n[[image:rId53]]\n∵$S_{△}_{CDE}＝S_{△}_{PBE}$，\n∴$S_{△}_{CDE}+S_{四边形}_{BODE}＝S_{△}_{PBE}+S_{四边形}_{BODE}$，\n即$S_{△}_{BCO}＝S_{四边形}_{BODP}＝S_{△}_{POB}+S_{△}_{POD}$，\n∴$\\frac{1}{2}×$3×3$=\\frac{1}{2}×$3×（﹣$t^{2}$+2t+3）$+\\frac{1}{2}×$1×t，\n解得：$t_{1}$＝0（舍去），$t_{2}=\\frac{7}{3}$，\n∴P（$\\frac{7}{3}$，$-\\frac{20}{9}$）；\n解法2：如图2，连接CP，\n[[image:rId54]]\n∵$S_{△}_{CDE}＝S_{△}_{PBE}$，\n∴$S_{△}_{CDE}+S_{△}_{BDE}＝S_{△}_{PBE}+S_{△}_{BDE}$，\n即$S_{△}_{BCD}＝S_{△}_{BPD}$，\n∴CP∥BD，\n设直线BD的表达式为y＝kx+b，则$\\begin{cases} 3k+b=0 \\\\ b=-1 \\end{cases}$，\n解得：$\\begin{cases} k=\\frac{1}{3} \\\\ b=-1 \\end{cases}$，\n∴直线BD的表达式为y$=\\frac{1}{3}$x﹣1，\n设直线CP的表达式为y$=\\frac{1}{3}$x+c，把C（0，﹣3）代入得：c＝﹣3，\n∴直线CP的表达式为y$=\\frac{1}{3}$x﹣3，\n联立得$\\begin{cases} y=\\frac{1}{3}x-3 \\\\ y=x^{2}-2x-3 \\end{cases}$，\n解得：$\\begin{cases} x_{1}=0 \\\\ y_{1}=-3 \\end{cases}$（舍去），$\\begin{cases} x_{2}=\\frac{7}{3} \\\\ y_{2}=-\\frac{20}{9} \\end{cases}$，\n∴P（$\\frac{7}{3}$，$-\\frac{20}{9}$）；\n（3）满足条件的点M、N存在．\n理由如下：\n①若点M，N分别在直线BC的两侧，\n不妨令点M在直线BC上方，点N在直线BC下方，如图3，\n[[image:rId55]]\n可知∠MGH＝90°，\n则∠MGN＝∠MGH+∠HGN＞90°，不符合题意．\n②若点M，N在直线BC的下方，\n不妨设点M在点H的下方，如图4，\n[[image:rId56]]\n∵B（3，0），C（0，﹣3），\n∴直线BC的解析式为y＝x﹣3，连接MH，GN，则△MGN是等腰直角三角形，∠HGN＝45°，\n∴GN⊥y轴，MH⊥x轴，\n设点M坐标为（m，$m^{2}$﹣2m﹣3），其中0＜m＜3，\n则点H坐标为（m，m﹣3），\n根据正方形的性质得：点N的坐标为（$\\frac{-m^{2}+5m}{2}$，$\\frac{m^{2}-m-6}{2}$），\n将点N的坐标代入抛物线表达式y＝$x^{2}$﹣2x﹣3＝（x﹣3）（x+1），\n得（$\\frac{-m^{2}+5m}{2}-$3）（$\\frac{-m^{2}+5m}{2}+$1）$=\\frac{m^{2}-m-6}{2}$，\n即（$m^{2}$﹣5m+6）（$m^{2}$﹣5m﹣2）＝2（$m^{2}$﹣m﹣6），\n化简得（m﹣2）（m﹣3）（$m^{2}$﹣5m﹣2）＝2（m﹣3）（m+2），\n∵0＜m＜3，\n∴（m﹣2）（$m^{2}$﹣5m﹣2）＝2（m+2），\n整理得$m^{2}$﹣7m+6＝0，\n解得：$m_{1}$＝1，$m_{2}$＝6（舍去），\n此时，MH＝2，正方形边长为$\\sqrt{2}$．\n③若点M，N在直线BC的上方，\n不妨设点M在点H上方，如图5，\n[[image:rId57]]\n设点M（m，$m^{2}$﹣2m﹣3），其中m＜0或m＞3，\n根据正方形性质，点N坐标为（$\\frac{-m^{2}+5m}{2}$，$\\frac{m^{2}-m-6}{2}$），\n将点N的坐标代入抛物线的表达式y＝$x^{2}$﹣2x﹣3＝（x﹣3）（x+1），\n同理可得：$m_{1}$＝1（舍去），$m_{2}$＝6，\n此时，MH＝18，正方形的边长为9$\\sqrt{2}$．\n综上所述，正方形的边长为$\\sqrt{2}$或9$\\sqrt{2}$．\n【点评】本题是二次函数综合题，考查了待定系数法求函数的解析式，二次函数图象上的点的坐标特点，多边形的面积，正方形性质等知识点，数形结合、分类讨论、熟练掌握相关性质及定理是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:32:31；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId59]] ____ [[image:rId60]] ____ [[image:rId61]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 13,
+      "images": [
+        {
+          "image_id": "2025年四川省资阳市中考数学试卷_q024_img01",
+          "path": "assets/2025年四川省资阳市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "二次函数图像与性质",
+          "相似三角形的性质",
+          "正方形的性质"
+        ],
+        "reasoning": "题目涉及抛物线表达式的确定、面积相等条件下的坐标求解以及正方形性质的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"二次函数图像与性质\", \"相似三角形的性质\", \"正方形的性质\"],\n  \"reasoning\": \"题目涉及抛物线表达式的确定、面积相等条件下的坐标求解以及正方形性质的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:14:02",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 24,
+      "ok": 24,
+      "fallback": 0
+    }
+  }
+}

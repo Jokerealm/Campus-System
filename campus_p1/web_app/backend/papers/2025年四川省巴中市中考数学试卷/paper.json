@@ -1,0 +1,1101 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年四川省巴中市中考数学试卷",
+  "source": {
+    "name": "2025年四川省巴中市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年四川省巴中市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "2025的相反数是（ ）",
+      "stem_markdown": "2025的相反数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣2025"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2025}$"
+        },
+        {
+          "label": "C",
+          "text": "2025"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{2025}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据符号不同，绝对值相同的两个数互为相反数即可求得答案．\n【解答】解：2025的相反数是﹣2025．\n故选：A．\n【点评】本题考查了相反数的概念，掌握只有符号不同的两个数叫做互为相反数是解答此题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相反数的概念"
+        ],
+        "reasoning": "题目要求计算2025的相反数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相反数的概念\"],\n  \"reasoning\": \"题目要求计算2025的相反数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "如图，l₁∥l₂，∠1＝60°，则∠2＝（ ）\n[图1]",
+      "stem_markdown": "如图，$l_{1}$∥$l_{2}$，∠1＝60°，则∠2＝（ ）\n![2025年四川省巴中市中考数学试卷_q002_img01](assets/2025年四川省巴中市中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "30°"
+        },
+        {
+          "label": "B",
+          "text": "40°"
+        },
+        {
+          "label": "C",
+          "text": "50°"
+        },
+        {
+          "label": "D",
+          "text": "60°"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据两直线平行，同位角相等得出∠3＝∠1，进而解答即可．\n【解答】解：∵$l_{1}$∥$l_{2}$，∠1＝60°，\n[[image:rId27]]\n∴∠3＝∠1＝60°，\n∴∠2＝∠3＝60°，\n故选：D．\n【点评】此题考查平行线的性质，关键是根据两直线平行，同位角相等得出∠3＝∠1解答．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q002_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q002_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同位角相等"
+        ],
+        "reasoning": "根据两直线平行，同位角相等得出∠3＝∠1",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同位角相等\"],\n  \"reasoning\": \"根据两直线平行，同位角相等得出∠3＝∠1\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "下列运算正确的是（ ）",
+      "stem_markdown": "下列运算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(a^{2})^{3}＝a^{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$a^{4}•a^{2}＝a^{8}$"
+        },
+        {
+          "label": "C",
+          "text": "2a（a﹣b）＝$2a^{2}$﹣b"
+        },
+        {
+          "label": "D",
+          "text": "（a+b）^{2}＝$a^{2}$+2ab+$b^{2}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】整式的乘除法法则进行逐项分析计算即可．\n【解答】解：A、原式＝$a^{6}$，故本选项不符合题意，\nB、原式＝$a^{6}$，故本选项不符合题意，\nC、原式＝$2a^{2}$﹣2ab，故本选项不符合题意，\nD、原式＝$a^{2}$+2ab+$b^{2}$，故本选项符合题意．\n故选：D．\n【点评】本题主要考查整式的混合运算，解题的关键是掌握整式的运算法则．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "幂的乘方",
+          "同底数幂的乘法",
+          "多项式乘以单项式",
+          "完全平方公式"
+        ],
+        "reasoning": "选项D涉及完全平方公式，其他选项涉及幂的运算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"幂的乘方\", \"同底数幂的乘法\", \"多项式乘以单项式\", \"完全平方公式\"],\n  \"reasoning\": \"选项D涉及完全平方公式，其他选项涉及幂的运算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "下列图形中，既是无盖正方体盒子的表面展开图，又是轴对称图形和中心对称图形的是（ ）",
+      "stem_markdown": "下列图形中，既是无盖正方体盒子的表面展开图，又是轴对称图形和中心对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年四川省巴中市中考数学试卷_q004_img01](assets/2025年四川省巴中市中考数学试卷_q004_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年四川省巴中市中考数学试卷_q004_img02](assets/2025年四川省巴中市中考数学试卷_q004_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年四川省巴中市中考数学试卷_q004_img03](assets/2025年四川省巴中市中考数学试卷_q004_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年四川省巴中市中考数学试卷_q004_img04](assets/2025年四川省巴中市中考数学试卷_q004_img04.png)"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据这个团队展开图，中心对称图形与轴对称图形的概念进行判断即可．\n【解答】解：选项A不是无盖正方体盒子的表面展开图；选项B是轴对称图形，不是中心对称图形；选项D是中心对称图形，不是轴对称图形；选项C符合题意．\n故选：C．\n【点评】本题考查的是中心对称图形与轴对称图形的概念：轴对称图形的关键是寻找对称轴，图形两部分沿对称轴折叠后可重合；中心对称图形是要寻找对称中心，旋转180度后与原图重合．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q004_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q004_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q004_img02",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q004_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q004_img03",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q004_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q004_img04",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q004_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中心对称图形",
+          "轴对称图形",
+          "无盖正方体盒子的表面展开图"
+        ],
+        "reasoning": "题目要求识别既是无盖正方体盒子的表面展开图，又是轴对称图形和中心对称图形的选项。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中心对称图形\", \"轴对称图形\", \"无盖正方体盒子的表面展开图\"],\n  \"reasoning\": \"题目要求识别既是无盖正方体盒子的表面展开图，又是轴对称图形和中心对称图形的选项。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "所有放射性物质都有自己的半衰期．半衰期是放射性物质的质量缩减为原来的一半所用的时间，是一个不变的量．质量为m的放射性物质，经历了3个半衰期后的质量为（ ）m．",
+      "stem_markdown": "所有放射性物质都有自己的半衰期．半衰期是放射性物质的质量缩减为原来的一半所用的时间，是一个不变的量．质量为m的放射性物质，经历了3个半衰期后的质量为（ ）m．",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{8}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据题意列出算式即可．\n【解答】解：$(\\frac{1}{2})^{3}=\\frac{1}{8}$．\n故选：D．\n【点评】本题主要考查有理数的乘方，理解题意是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "指数运算",
+          "半衰期概念"
+        ],
+        "reasoning": "题目涉及计算经过3个半衰期后物质质量的变化，需要使用指数运算来计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"指数运算\", \"半衰期概念\"],\n  \"reasoning\": \"题目涉及计算经过3个半衰期后物质质量的变化，需要使用指数运算来计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，A、B、C是⊙O上的点，BC是圆的直径，在BA延长线上取一点D，使AD＝AC，连接CD．则∠ACD为（ ）\n[图1]",
+      "stem_markdown": "如图，A、B、C是⊙O上的点，BC是圆的直径，在BA延长线上取一点D，使AD＝AC，连接CD．则∠ACD为（ ）\n![2025年四川省巴中市中考数学试卷_q006_img01](assets/2025年四川省巴中市中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "70°"
+        },
+        {
+          "label": "B",
+          "text": "50°"
+        },
+        {
+          "label": "C",
+          "text": "45°"
+        },
+        {
+          "label": "D",
+          "text": "40°"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】由BC是圆的直径得∠BAC＝90°，根据等腰三角形的性质即可求解．\n【解答】解：∵BC是圆的直径，\n∴∠BAC＝90°，\n∴∠DAC＝90°，\n∵AD＝AC，\n∴∠ACD＝∠D＝45°，\n故选：C．\n【点评】本题考查圆周角定理，掌握圆周角定、等腰三角形的性质是解决问题的前提．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q006_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆周角定理",
+          "等腰三角形的性质"
+        ],
+        "reasoning": "题目利用BC是圆的直径得出∠BAC=90°，并结合AD=AC得出∠ACD=∠D=45°。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆周角定理\", \"等腰三角形的性质\"],\n  \"reasoning\": \"题目利用BC是圆的直径得出∠BAC=90°，并结合AD=AC得出∠ACD=∠D=45°。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "《九章算术》中记载：今有共买班，人出半盈四；人出少半，不足三．问人数，琎价各几何？其大意是：今有人合伙买琎石，每人出\\frac{1}{2}钱，会多出4钱，每人出\\frac{1}{3}钱，又差3钱．问人数，琎价各是多少？设人数为x，琎价为y，则可列方程组为（ ）",
+      "stem_markdown": "《九章算术》中记载：今有共买班，人出半盈四；人出少半，不足三．问人数，琎价各几何？其大意是：今有人合伙买琎石，每人出$\\frac{1}{2}$钱，会多出4钱，每人出$\\frac{1}{3}$钱，又差3钱．问人数，琎价各是多少？设人数为x，琎价为y，则可列方程组为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\begin{cases} y=\\frac{1}{2}x-4 \\\\ y=\\frac{1}{3}x+3 \\end{cases}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\begin{cases} y=\\frac{1}{2}x+4 \\\\ y=\\frac{1}{3}x+3 \\end{cases}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\begin{cases} y=\\frac{1}{2}x+4 \\\\ y=\\frac{1}{3}x-3 \\end{cases}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\begin{cases} y=\\frac{1}{2}x-4 \\\\ y=\\frac{1}{3}x-3 \\end{cases}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据“每人出$\\frac{1}{2}$钱，会多出4钱；每人出$\\frac{1}{3}$钱，又差了3钱”，即可列出关于x，y的二元一次方程组，此题得解．\n【解答】解：根据题意可列方程组$\\begin{cases} y=\\frac{1}{2}x-4 \\\\ y=\\frac{1}{3}x+3 \\end{cases}$．\n故选：A．\n【点评】本题考查了由实际问题抽象出二元一次方程组以及数学常识，找准等量关系，正确列出二元一次方程组是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方程组的应用",
+          "线性方程组"
+        ],
+        "reasoning": "题中条件直接给出了方程组的形式，涉及线性方程组的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方程组的应用\", \"线性方程组\"],\n  \"reasoning\": \"题中条件直接给出了方程组的形式，涉及线性方程组的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "有一组数据：1，2，3，3，4，5．在这组数据中加入一个整数a，则下列一定不变的是（ ）",
+      "stem_markdown": "有一组数据：1，2，3，3，4，5．在这组数据中加入一个整数a，则下列一定不变的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "平均数"
+        },
+        {
+          "label": "B",
+          "text": "中位数"
+        },
+        {
+          "label": "C",
+          "text": "众数"
+        },
+        {
+          "label": "D",
+          "text": "方差"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据方差、算术平均数、中位数和众数的定义解答即可．\n【解答】解：一组数据1，2，3，3，4，5的中位数是$\\frac{3+3}{2}=$3，在这组数据中加入一个整数a，a不论大于3、小于3还是等于3，新的一组数据的中位数都是3；而平均数、众数和方差均可能改变．\n故选：B．\n【点评】本题考查了方差、算术平均数、中位数和众数，相对比较简单，解题的关键在于理解这些统计量的意义．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "算术平均数",
+          "中位数",
+          "方差"
+        ],
+        "reasoning": "题中讨论了在一组数据中加入一个整数后，哪些统计量会保持不变。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"算术平均数\", \"中位数\", \"方差\"],\n  \"reasoning\": \"题中讨论了在一组数据中加入一个整数后，哪些统计量会保持不变。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "从地面竖直向上抛出一小球，小球高度h（m）与小球运动时间t（s）之间关系式是h＝30t﹣5t²（0≤t≤6）．有下列结论：\n①小球运动时间是1s时，高度为25m；\n②小球运动中高度可以是50m；\n③当3≤t≤6时，高度h随着时间t的增大而减小．\n其中正确结论的个数是（ ）",
+      "stem_markdown": "从地面竖直向上抛出一小球，小球高度h（m）与小球运动时间t（s）之间关系式是h＝30t﹣$5t^{2}$（0≤t≤6）．有下列结论：\n①小球运动时间是1s时，高度为25m；\n②小球运动中高度可以是50m；\n③当3≤t≤6时，高度h随着时间t的增大而减小．\n其中正确结论的个数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】①当t＝1时，求出h的值即可判断；\n②把函数解析式化为顶点式求出最大值即可判断；\n③根据函数的性质即可判断．\n【解答】解：①当t＝1时，h＝30﹣5＝25（m），故①正确；\n②h＝30t﹣$5t^{2}$＝﹣5（$t^{2}$﹣6t）＝﹣5（t﹣3）^{2}+45，\n∵﹣5＜0，\n∴当t＝3时，h由最大值，最大值为45m，故②错误；\n③由②可知，二次函数的图象开口向下，对称轴为直线t＝3，\n∴当3≤t≤6时，高度h随着时间t的增大而减小，故③正确，\n∴正确的个数有2个，\n故选：C．\n【点评】本题考查了二次函数的应用，熟练掌握二次函数的性质，化成顶点式的方法是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的性质",
+          "二次函数的顶点式",
+          "二次函数的最值"
+        ],
+        "reasoning": "解析②中通过化简h的表达式为顶点式确定最大值，解析③中通过开口方向和对称轴判断单调性。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的性质\", \"二次函数的顶点式\", \"二次函数的最值\"],\n  \"reasoning\": \"解析②中通过化简h的表达式为顶点式确定最大值，解析③中通过开口方向和对称轴判断单调性。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "在Rt△ABC中，∠ACB＝90°，AB=4\\sqrt{2}，D为AB中点，点E在线段CD上，满足CE＝2DE，连接AE并延长交BC于点F，当△ABC面积最大时，线段CF等于（ ）\n[图1]",
+      "stem_markdown": "在Rt△ABC中，∠ACB＝90°，$AB=4\\sqrt{2}$，D为AB中点，点E在线段CD上，满足CE＝2DE，连接AE并延长交BC于点F，当△ABC面积最大时，线段CF等于（ ）\n![2025年四川省巴中市中考数学试卷_q010_img01](assets/2025年四川省巴中市中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "$2\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】延长ED至点G，使ED＝GD，证明△BDG≌△ADE（SAS），进而推出△CFE∽△CBG，即可得到点F是BC的中点，再根据直角三角形的性质可知点C在以点D为圆心，CD为半径的圆上，当CD⊥AB时，CD取到最大值，即此时△ABC面积最大，然后根据弧、弦、圆心角的关系可知BC＝AC，最后利用勾股定理即可解答．\n【解答】解：如图，延长ED至点G，使ED＝GD，\n[[image:rId34]]\n∵D为AB中点，\n∴BD＝AD，\n∵∠BDG＝∠ADE，ED＝GD，\n∴△BDG≌△ADE（SAS），\n∴∠G＝∠AED＝∠FEC，\n∴EF∥BG，\n∴△CFE∽△CBG，\n∴$\\frac{CF}{CB}=\\frac{CE}{CG}$，\n∵CE＝2DE，ED＝GD，\n∴CE＝DE+DG＝EG，\n即$CE=\\frac{1}{2}CG$，\n∴$\\frac{CF}{CB}=\\frac{CE}{CG}=\\frac{\\frac{1}{2}CG}{CG}=\\frac{1}{2}$，\n∴点F是BC的中点，\n∵∠ACB＝90°，D为AB中点，\n∴BD＝AD＝CD，\n∴点C在以点D为圆心，CD为半径的圆上，如图，\n[[image:rId35]]\n当CD⊥AB时，CD取到最大值，即此时△ABC的面积最大，\n∴∠CDB＝∠CDA＝90°，\n∴BC＝AC，\n即△ABC为等腰直角三角形，\n∵$AB=4\\sqrt{2}$，$BC^{2}+AC^{2}＝AB^{2}$，\n∴BC＝AC$=\\frac{\\sqrt{2}}{2}$AB$=\\frac{\\sqrt{2}}{2}×4\\sqrt{2}=$4，\n∴CF$=\\frac{1}{2}$BC＝2，\n故选：B．\n【点评】本题考查了全等三角形的判定和性质，相似三角形的判定和性质，直角三角形的性质，弧、弦、圆心角的关系，勾股定理等知识点，正确作出辅助线是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q010_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "直角三角形的性质",
+          "勾股定理"
+        ],
+        "reasoning": "题中通过相似三角形性质得出CF是BC的一半，利用勾股定理求出BC长度。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"直角三角形的性质\", \"勾股定理\"],\n  \"reasoning\": \"题中通过相似三角形性质得出CF是BC的一半，利用勾股定理求出BC长度。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "\\sqrt{9}= ____ ．",
+      "stem_markdown": "$\\sqrt{9}=$ ____ ．",
+      "options": [],
+      "answer": "3．",
+      "solution": "【分析】根据算术平方根的定义进行解题即可．\n【解答】解：$\\sqrt{9}=$3．\n故答案为：3．\n【点评】本题考查算术平方根，熟练掌握相关的知识点是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "算术平方根"
+        ],
+        "reasoning": "题目要求计算算术平方根，即求9的正平方根。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"算术平方根\"],\n  \"reasoning\": \"题目要求计算算术平方根，即求9的正平方根。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "不等式2x+1＞0的解集是 ____ ．",
+      "stem_markdown": "不等式2x+1＞0的解集是 ____ ．",
+      "options": [],
+      "answer": "x$＞-\\frac{1}{2}$．",
+      "solution": "【分析】根据不等式的基本性质即可求解．\n【解答】解：2x+1＞0，\n移项，得2x＞﹣1，\n化系数为1，得x$＞-\\frac{1}{2}$，\n即不等式2x+1＞0的解集为x$＞-\\frac{1}{2}$．\n故答案为：x$＞-\\frac{1}{2}$．\n【点评】本题考查解一元一次不等式，熟练掌握不等式的性质是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式的解法",
+          "不等式的基本性质"
+        ],
+        "reasoning": "移项和化系数为1的过程考察了不等式的性质",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式的解法\", \"不等式的基本性质\"],\n  \"reasoning\": \"移项和化系数为1的过程考察了不等式的性质\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "正多边形的一个内角是120°，则这个正多边形是正 ____ 边形．",
+      "stem_markdown": "正多边形的一个内角是120°，则这个正多边形是正 ____ 边形．",
+      "options": [],
+      "answer": "六．",
+      "solution": "【分析】一个正多边形的每个内角都相等，根据内角与外角互为邻补角，因而就可以求出外角的度数．根据任何多边形的外角和都是360度，利用360除以外角的度数就可以求出外角和中外角的个数，即多边形的边数．\n【解答】解：外角是180°﹣120°＝60°，\n360°÷60＝6，则这个多边形是六边形．\n故答案为：六．\n【点评】考查了多边形内角与外角，根据外角和的大小与多边形的边数无关，由外角和求正多边形的边数，是常见的题目，需要熟练掌握．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正多边形的内角和公式",
+          "外角和等于360°",
+          "多边形的每个内角相等"
+        ],
+        "reasoning": "通过计算得出每个外角为60°，利用360°除以外角得出边数6。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正多边形的内角和公式\", \"外角和等于360°\", \"多边形的每个内角相等\"],\n  \"reasoning\": \"通过计算得出每个外角为60°，利用360°除以外角得出边数6。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "关于x的一元二次方程x²﹣4x+m＝0有两个相等的实根，则m＝ ____ ．",
+      "stem_markdown": "关于x的一元二次方程$x^{2}$﹣4x+m＝0有两个相等的实根，则m＝ ____ ．",
+      "options": [],
+      "answer": "4．",
+      "solution": "【分析】根据根的判别式的意义得到Δ＝（﹣4）^{2}﹣4×1×m＝0，然后解关于m的方程即可．\n【解答】解：∵$x^{2}$﹣4x+m＝0有两个相等的实数根，\n∴Δ＝（﹣4）^{2}﹣4×1×m＝0，\n解得m＝4．\n故答案为：4．\n【点评】本题考查了一元二次方程$ax^{2}$+bx+c＝0（a≠0）的根的判别式Δ＝$b^{2}$﹣4ac：当Δ＞0，方程有两个不相等的实数根；当Δ＝0，方程有两个相等的实数根；当Δ＜0，方程没有实数根．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "根的判别式",
+          "一元二次方程的根"
+        ],
+        "reasoning": "题中条件Δ＝（﹣4）²﹣4×1×m＝0考察了根的判别式等于0时方程有两个相等的实数根。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"根的判别式\", \"一元二次方程的根\"],\n  \"reasoning\": \"题中条件Δ＝（﹣4）²﹣4×1×m＝0考察了根的判别式等于0时方程有两个相等的实数根。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，四边形ABCD是菱形，对角线AC、BD相交于点O，AO＝4，BO＝3，DH⊥AB于点H，DH的长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，四边形ABCD是菱形，对角线AC、BD相交于点O，AO＝4，BO＝3，DH⊥AB于点H，DH的长为 ____ ．\n![2025年四川省巴中市中考数学试卷_q015_img01](assets/2025年四川省巴中市中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "$\\frac{24}{5}$．",
+      "solution": "【分析】由菱形的性质得AC⊥BD，AO＝CO，BO＝DO，则∠AOB＝90°，因为AO＝4，BO＝3，所以AB$=\\sqrt{AO^{2}+BO^{2}}=$5，AC＝2AO＝8，BD＝2BO＝6，而DH⊥AB于点H，则$S_{菱形}_{ABCD}$＝5DH$=\\frac{1}{2}×$8×6，求得DH$=\\frac{24}{5}$，于是得到问题的答案．\n【解答】解：∵四边形ABCD是菱形，对角线AC、BD相交于点O，\n∴AC⊥BD，AO＝CO，BO＝DO，\n∴∠AOB＝90°，\n∵AO＝4，BO＝3，\n∴AB$=\\sqrt{AO^{2}+BO^{2}}=\\sqrt{4^{2}+3^{2}}=$5，AC＝2AO＝8，BD＝2BO＝6，\n∵DH⊥AB于点H，\n∴$S_{菱形}_{ABCD}$＝AB•DH$=\\frac{1}{2}$AC•BD，\n∴5DH$=\\frac{1}{2}×$8×6，\n解得DH$=\\frac{24}{5}$，\n故答案为：$\\frac{24}{5}$．\n【点评】此题重点考查菱形的性质、勾股定理、根据面积等式求线段的长度等知识与方法，推导出AC⊥BD，并且正确地求出AB的长是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q015_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "菱形的性质",
+          "面积公式"
+        ],
+        "reasoning": "菱形对角线垂直且平分，利用勾股定理求AB，面积公式求DH",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"菱形的性质\", \"面积公式\"],\n  \"reasoning\": \"菱形对角线垂直且平分，利用勾股定理求AB，面积公式求DH\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "solution",
+      "stem_text": "（1）计算下列代数式的值．\n((-2))^{2}-2sin60°+|-\\sqrt{3}|．\n（2）先化简，再求值．\n\\frac{x^{2}-2x+1}{x+1}÷(1-\\frac{2}{x+1})，其中x=\\sqrt{2}+1．",
+      "stem_markdown": "（1）计算下列代数式的值．\n$((-2))^{2}-2sin60°+|-\\sqrt{3}|$．\n（2）先化简，再求值．\n$\\frac{x^{2}-2x+1}{x+1}÷(1-\\frac{2}{x+1})$，其中$x=\\sqrt{2}+1$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先根据乘方的意义、特殊角的三角函数值和绝对值的意义计算，然后合并即可；\n（2）先把括号内通分，再进行同分母的减法运算，接着把除法运算化为乘法运算，则约分得到原式＝x﹣1，然后把x的值代入计算即可．\n【解答】解：（1）原式$=4-2×\\frac{\\sqrt{3}}{2}+\\sqrt{3}$\n$=4-\\sqrt{3}+\\sqrt{3}$\n＝4；\n（2）原式$=\\frac{(x-1)^{2}}{(x+1)}÷\\frac{x+1-2}{x+1}$\n$=\\frac{((x-1))^{2}}{x+1}⋅\\frac{x+1}{x-1}$\n＝x﹣1，\n当$x=\\sqrt{2}+1$时：\n原式$=\\sqrt{2}+1-1=\\sqrt{2}$．\n【点评】本题考查了分式的化简求值：在化简的过程中要注意运算顺序和分式的化简．化简的最后结果分子、分母要进行约分，注意运算的结果要化成最简分式或整式；当未知数的值没有明确给出时，所选取的未知数的值必须使原式中的各分式都有意义，且除数不能为0．也考查了实数的运算．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "乘方运算",
+          "特殊角的三角函数值",
+          "绝对值",
+          "分式的化简"
+        ],
+        "reasoning": "第（1）题涉及乘方、特殊角的三角函数值和绝对值的概念；第（2）题涉及分式的化简和运算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"乘方运算\", \"特殊角的三角函数值\", \"绝对值\", \"分式的化简\"],\n  \"reasoning\": \"第（1）题涉及乘方、特殊角的三角函数值和绝对值的概念；第（2）题涉及分式的化简和运算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "如图，已知∠1＝40°，∠B＝50°，AB⊥AC，AD＝BC．\n（1）求证：AD∥BC；\n（2）求∠D的度数．\n[图1]",
+      "stem_markdown": "如图，已知∠1＝40°，∠B＝50°，AB⊥AC，AD＝BC．\n（1）求证：AD∥BC；\n（2）求∠D的度数．\n![2025年四川省巴中市中考数学试卷_q017_img01](assets/2025年四川省巴中市中考数学试卷_q017_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先求出∠ACB的度数，再结合平行线的判定即可解决问题；\n（2）根据题意，得出四边形ABCD是平行四边形，据此可解决问题．\n【解答】（1）证明：∵AB⊥AC，∠B＝50°，\n∴∠ACB＝90°﹣50°＝40°．\n又∵∠1＝40°，\n∴∠1＝∠ACB，\n∴AD∥BC；\n（2）解：∵AD＝BC，AD∥BC，\n∴四边形ABCD是平行四边形，\n∴∠D＝∠B＝50°．\n【点评】本题主要考查了平行线的判定与性质，熟知平行线的判定与性质是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q017_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "垂直的定义",
+          "三角形内角和定理",
+          "平行线的判定",
+          "平行四边形的性质"
+        ],
+        "reasoning": "第（1）问通过AB⊥AC求出∠ACB，利用同位角相等判断AD∥BC；第（2）问通过AD=BC且AD∥BC判断四边形ABCD为平行四边形，进而求∠D.",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"垂直的定义\", \"三角形内角和定理\", \"平行线的判定\", \"平行四边形的性质\"],\n  \"reasoning\": \"第（1）问通过AB⊥AC求出∠ACB，利用同位角相等判断AD∥BC；第（2）问通过AD=BC且AD∥BC判断四边形ABCD为平行四边形，进而求∠D.\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "为提高学生的科创意识，某校准备开设C语言编程、无人机飞行训练、科创小论文、科幻画创作4门课外活动课程，每个学生有且只能选择一门课程参加．为筹备此项活动课程，学校随机抽取部分学生进行调查，将调查结果绘成如下统计表和扇形统计图．\n意愿参加课程人数统计表\n课程 | C语言编程 | 无人机飞行训练 | 科创小论文 | 科幻画创作\n人数 | 10 | 8 | 15\n（1）抽取的学生共有 ____ 人，其中意愿参加无人机飞行训练的有 ____ 人；\n（2）若该校有800人，估计全校参加科幻画创作的学生有多少人？\n（3）某班有2名男生2名女生参加C语言编程课程，现从这4人中随机抽取2名学生给老师当助手，请用树状图或者列表法说明恰好抽到一名男生一名女生的概率．\n[图1]",
+      "stem_markdown": "为提高学生的科创意识，某校准备开设C语言编程、无人机飞行训练、科创小论文、科幻画创作4门课外活动课程，每个学生有且只能选择一门课程参加．为筹备此项活动课程，学校随机抽取部分学生进行调查，将调查结果绘成如下统计表和扇形统计图．\n意愿参加课程人数统计表\n| 课程 | C语言编程 | 无人机飞行训练 | 科创小论文 | 科幻画创作 |\n| --- | --- | --- | --- | --- |\n| 人数 | 10 | 8 | 15 |  |\n（1）抽取的学生共有 ____ 人，其中意愿参加无人机飞行训练的有 ____ 人；\n（2）若该校有800人，估计全校参加科幻画创作的学生有多少人？\n（3）某班有2名男生2名女生参加C语言编程课程，现从这4人中随机抽取2名学生给老师当助手，请用树状图或者列表法说明恰好抽到一名男生一名女生的概率．\n![2025年四川省巴中市中考数学试卷_q018_img01](assets/2025年四川省巴中市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "50，17",
+      "solution": "【分析】（1）用C语言编程的人数除以C语言编程所占的百分比，即可求得样本容量，进而求出参加无人机飞行训练的人数．\n（2）总人数乘以样本中参加科幻画创作的学生人数所占比例即可．\n（3）用树状图求出从2男2女中随机抽取2名学生参加座谈会的所有可能出现的结果情况，进而求出答案即可．\n【解答】解：（1）抽取的学生共有10÷20%＝50（人），\n意愿参加无人机飞行训练的有50﹣（10+8+15）＝17（人），\n故答案为：50，17；\n（2）估计全校参加科幻画创作的学生有$800×\\frac{15}{50}=240$（人）；\n（3）画树状图如下：\n[[image:rId39]]\n∵所有等可能出现的结果总数为12个，其中抽到一男一女的情况数有8个，\n∴恰好抽到一男一女概率为$\\frac{8}{12}=\\frac{2}{3}$．\n【点评】本题主要考查了读统计表与扇形图的能力和利用图表获取信息的能力，利用统计图获取信息时，认真观察，分析，研究统计图，作出正确的判断是解题的关键，也考查了利用树状图或列表法求概率．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q018_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率分布表",
+          "概率计算",
+          "组合问题"
+        ],
+        "reasoning": "第（1）问通过频率分布表计算样本容量；第（2）问通过样本比例估计总体；第（3）问通过树状图计算组合概率。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率分布表\", \"概率计算\", \"组合问题\"],\n  \"reasoning\": \"第（1）问通过频率分布表计算样本容量；第（2）问通过样本比例估计总体；第（3）问通过树状图计算组合概率。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "如图，计划用长为40m的绳子围一个矩形围栏，其中一边靠墙（墙长25m）．\n（1）矩形围栏的面积为150m²时，三边分别长多少m？\n（2）矩形围栏的面积最大时，三边分别长多少m？\n[图1]",
+      "stem_markdown": "如图，计划用长为40m的绳子围一个矩形围栏，其中一边靠墙（墙长25m）．\n（1）矩形围栏的面积为$150m^{2}$时，三边分别长多少m？\n（2）矩形围栏的面积最大时，三边分别长多少m？\n![2025年四川省巴中市中考数学试卷_q019_img01](assets/2025年四川省巴中市中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设垂直于墙的一边长xm，则平行于墙的边长为（40﹣2x）m，然后利用面积公式列出方程即可；\n（2）由长方形的面积公式建立二次函数，利用二次函数性质求出其解即可．\n【解答】解：（1）设垂直于墙的一边长xm，则平行于墙的边长为（40﹣2x）m，\n根据题意得：x（40﹣2x）＝150，\n解得：$x_{1}$＝5，$x_{2}$＝15时，\n当x＝5时，40﹣2x＝30＞25（不符合题意，舍去），\n当x＝15时，40﹣2x＝10＜25（符合题意），\n∴三边长分别为：15m、10m、15m；\n（2）设矩形围栏的面积为$Sm^{2}$，\n则S＝x（40﹣2x）\n＝﹣2（x﹣10）^{2}+200，\n∵﹣2＜0，\n∴当x＝10时，S有最大值，最大值为200，\n当x＝10时.40﹣2x＝20＜25（符合题意），\n∴三边长分别为：10m、20m、10m．\n【点评】此题考查了二次函数的实际应用问题．解题的关键是根据题意构建二次函数模型，然后根据二次函数的性质求解即可．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q019_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程的应用",
+          "二次函数的应用",
+          "几何图形的面积计算"
+        ],
+        "reasoning": "题目通过绳子长度和墙长条件，设未知数建立方程求解矩形面积",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程的应用\", \"二次函数的应用\", \"几何图形的面积计算\"],\n  \"reasoning\": \"题目通过绳子长度和墙长条件，设未知数建立方程求解矩形面积\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "某学习小组带着测角仪开展“测量高压电塔高度”的实践活动，绘制了如下示意图．在A处测得塔顶D的仰角为30°，向前行40米，在B处测得塔顶D的仰角为75°，A、B与电塔底部C在同一直线上．\n（1）求点B到AD的距离；\n（2）求高压电塔CD的高度（结果保留根号）．\n[图1]",
+      "stem_markdown": "某学习小组带着测角仪开展“测量高压电塔高度”的实践活动，绘制了如下示意图．在A处测得塔顶D的仰角为30°，向前行40米，在B处测得塔顶D的仰角为75°，A、B与电塔底部C在同一直线上．\n（1）求点B到AD的距离；\n（2）求高压电塔CD的高度（结果保留根号）．\n![2025年四川省巴中市中考数学试卷_q020_img01](assets/2025年四川省巴中市中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）过点B作BE⊥AD于点E，根据含30度角的直角三角形即可解决问题；\n（2）根据含30度角的直角三角形求出AE，然后证明DE＝BE＝20m，再利用含30度角的直角三角形即可解决问题．\n【解答】解：（1）过点B作BE⊥AD于点E，\n∵∠A＝30°，\n[[image:rId42]]\n∴$BE=sin30°×AB=\\frac{1}{2}×AB=20m$，\n∴点B到AD的距离为20m；\n（2）由（1）得：BE＝20m，\n∵∠A＝30°，\n∴$AE=cos30°×AB=\\frac{\\sqrt{3}}{2}×40=20\\sqrt{3}(m)$，\n又∵∠DBC＝75°，\n∴∠ADB＝∠DBC﹣∠A＝75°﹣30°＝45°，\n∴∠EDB＝90°﹣45°＝45°，\n∴DE＝BE＝20m，\n∴$AD=AE+DE=(20+20\\sqrt{3})m$，\n∵∠C＝90°，∠A＝30°，\n∴$CD=sin30°×AD=\\frac{1}{2}AD=(10+10\\sqrt{3})m$．\n∴高压电塔CD的高度为（10+10$\\sqrt{3}$）m．\n【点评】本题考查解直角三角形的应用﹣仰角俯角问题，解决本题的关键是掌握仰角俯角定义．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q020_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "含30度角的直角三角形性质",
+          "锐角三角函数（正弦、余弦、正切）",
+          "平行线的性质",
+          "相似三角形的判定与性质"
+        ],
+        "reasoning": "第（1）问通过含30度角的直角三角形求BE；第（2）问通过含30度角的直角三角形求AE，证明DE＝BE，利用相似三角形求AD，最后求CD。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"含30度角的直角三角形性质\", \"锐角三角函数（正弦、余弦、正切）\", \"平行线的性质\", \"相似三角形的判定与性质\"],\n  \"reasoning\": \"第（1）问通过含30度角的直角三角形求BE；第（2）问通过含30度角的直角三角形求AE，证明DE＝BE，利用相似三角形求AD，最后求CD。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，直线y＝kx+b与双曲线y=\\frac{m}{x}(x＜0)交于A（﹣2，6），B（﹣6，a）两点．\n（1）求m和直线的表达式；\n（2）根据函数图象直接写出不等式kx+b＞\\frac{m}{x}的解集；\n（3）求△ABO的面积．\n[图1]",
+      "stem_markdown": "如图，直线y＝kx+b与双曲线$y=\\frac{m}{x}(x＜0)$交于A（﹣2，6），B（﹣6，a）两点．\n（1）求m和直线的表达式；\n（2）根据函数图象直接写出不等式$kx+b＞\\frac{m}{x}$的解集；\n（3）求△ABO的面积．\n![2025年四川省巴中市中考数学试卷_q021_img01](assets/2025年四川省巴中市中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）待定系数法求出两个函数解析式即可；\n（2）根据图象直接写出不等式的解集即可；\n（3）根据直线解析式求出点C坐标，再根据三角形面积公式代入数据计算即可．\n【解答】解：（1）∵点A（﹣2，6）在双曲线$y=\\frac{m}{x}$上，\n∴m＝﹣2×6＝﹣12，\n又∵B（﹣6，a）在双曲线$y=\\frac{m}{x}$上，\n∴﹣6a＝﹣12，\n解得a＝2，\nA、B在直线y＝kx+b上，\n∴代入，得$\\begin{cases} -2k+b=6 \\\\ -6k+b=2 \\end{cases}$，\n解得$\\begin{cases} k=1 \\\\ b=8 \\end{cases}$，\n∴y＝x+8；\n（2）由图可知，\n不等式$kx+b＞\\frac{m}{x}$时，﹣6＜x＜﹣2；\n（3）设直线AB与x轴交于点C，\n[[image:rId44]]\n当y＝0时．x+8＝0，\n∴x＝﹣8，\n∴点C的坐标为（﹣8，0），\n∴$S_{△AOB}=\\frac{1}{2}×|-8|×6-\\frac{1}{2}×|-8|×2$\n＝24﹣8\n＝16，\n故△ABO的面积为16．\n【点评】本题考查了一次函数与反比例函数的交点问题，熟练掌握交点坐标满足两个函数解析式是关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q021_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "反比例函数图像与性质",
+          "一次函数图像与性质",
+          "三角形面积公式"
+        ],
+        "reasoning": "第（1）问通过待定系数法求解直线和双曲线的解析式；第（2）问利用函数图象直接判断不等式的解集；第（3）问通过直线与x轴的交点求三角形面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"反比例函数图像与性质\", \"一次函数图像与性质\", \"三角形面积公式\"],\n  \"reasoning\": \"第（1）问通过待定系数法求解直线和双曲线的解析式；第（2）问利用函数图象直接判断不等式的解集；第（3）问通过直线与x轴的交点求三角形面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，P为⊙O外一点，PA和PB为⊙O的两条切线，A和B为切点，BC为直径．\n（1）求证：①△APO≌△BPO．\n②PO∥AC．\n（2）AC=2，OC=\\sqrt{5}，求OP的长．\n[图1]",
+      "stem_markdown": "如图，P为⊙O外一点，PA和PB为⊙O的两条切线，A和B为切点，BC为直径．\n（1）求证：①△APO≌△BPO．\n②PO∥AC．\n（2）$AC=2，OC=\\sqrt{5}$，求OP的长．\n![2025年四川省巴中市中考数学试卷_q022_img01](assets/2025年四川省巴中市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）①根据切线的性质，即可证明Rt△PAO≌Rt△PBO（HL），\n②根据全等三角形的性质即可得证；\n（2）连接AB，根据圆周角定理证明△ACB∽△AOP，列出比例式求解即可．\n【解答】（1）证明：①∵PA、PB是⊙O切线，\n∴∠PAO＝∠PBO＝90°，\n又∵AO＝BO，PO＝PO，\n∴Rt△PAO≌Rt△PBO（HL）；\n②∵点C在⊙O上，\n∴∠AOB＝2∠C，\n由（1）知Rt△PAO≌Rt△PBO，\n∴$∠AOP=∠BOP=\\frac{1}{2}∠AOB$，\n∴∠BOP＝∠C，\n∴AC∥PO；\n（2）解：如图，连接AB，\n[[image:rId46]]\n∵BC是⊙O的直径，\n∴∠BAC＝90°，\n又∵∠PAO＝90°，∠AOP＝∠C，\n∴∠ACB＝∠APO，\n∴△ACB∽△AOP，\n∴$\\frac{AC}{CB}=\\frac{AO}{OP}$，\n∴$\\frac{2}{2\\sqrt{5}}=\\frac{\\sqrt{5}}{OP}$，\n∴OP＝5．\n【点评】本题考查圆的综合应用，主要考查切线的性质，全等三角形的判定与性质，圆周角定理，平行线的判定，相似三角形的判定与性质，掌握以上知识点是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q022_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "切线的性质",
+          "全等三角形的判定（HL）",
+          "圆周角定理",
+          "相似三角形的判定"
+        ],
+        "reasoning": "题目（1）①利用切线性质和HL证明全等；（1）②利用全等证明平行；（2）利用圆周角定理和相似三角形判定相似；",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"切线的性质\", \"全等三角形的判定（HL）\", \"圆周角定理\", \"相似三角形的判定\"],\n  \"reasoning\": \"题目（1）①利用切线性质和HL证明全等；（1）②利用全等证明平行；（2）利用圆周角定理和相似三角形判定相似；\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "综合与实践\n如图，在平面直角坐标系中，点A的坐标为（0，4），M是x轴上一点，连接AM，作线段AM的垂直平分线l₁，过点M作x轴的垂线l₂，记l₁，l₂的交点为P．\n【操作与发现】\n（1）当M为（0，0）时，点P的坐标为 ____ ；当M为（4，0）时，点P的坐标为 ____ ．\n【猜想与证明】\n（2）在x轴上多次改变点M的位置，得到相应的点P，把这些点连接起来形成图象L，猜想L为我们学过的 ____ 图象．（请填序号：①一次函数②二次函数）\n（3）设点P的坐标是（x，y），根据PA与PM的关系，确定x、y满足的关系式．\n【实践与运用】\n（4）运用所学知识，要使△AMP为钝角三角形，直接写出x的取值范围．\n[图1]",
+      "stem_markdown": "综合与实践\n如图，在平面直角坐标系中，点A的坐标为（0，4），M是x轴上一点，连接AM，作线段AM的垂直平分线$l_{1}$，过点M作x轴的垂线$l_{2}$，记$l_{1}$，$l_{2}$的交点为P．\n【操作与发现】\n（1）当M为（0，0）时，点P的坐标为 ____ ；当M为（4，0）时，点P的坐标为 ____ ．\n【猜想与证明】\n（2）在x轴上多次改变点M的位置，得到相应的点P，把这些点连接起来形成图象L，猜想L为我们学过的 ____ 图象．（请填序号：①一次函数②二次函数）\n（3）设点P的坐标是（x，y），根据PA与PM的关系，确定x、y满足的关系式．\n【实践与运用】\n（4）运用所学知识，要使△AMP为钝角三角形，直接写出x的取值范围．\n![2025年四川省巴中市中考数学试卷_q023_img01](assets/2025年四川省巴中市中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "（0，2），（4，4）",
+      "solution": "【分析】（1）分别求出直线$l_{1}$和直线$l_{2}$，即可得解；\n（2）根据点P位置的分布即可判断；\n（3）利用勾股定理及线段垂直平分线的性质解答即可求解；\n（4）结合图形性质，根据正方形的性质解答即可．\n【解答】解：（1）当M（0，0）时，则直线$l_{1}$：y＝2，直线$l_{2}$：x＝0（y轴），\n∴P（0，2）；\n当M（4，0）时，则直线l：y＝x，直线l：x＝4，\n∴P（4，4）；\n故答案为：（0，2），（4，4）；\n（2）由对称性可知，当M为（﹣4，0）时，点P的坐标为（﹣4，4），\n∴由点P的位置变化可猜想L为我们学过的二次函数，\n故答案为：②；\n（3）由勾股定理可知：$PA^{2}＝x^{2}$+（y﹣4）^{2}，$PM^{2}＝y^{2}$，\n∵PA＝PM，\n∴$x^{2}$+（y﹣4）^{2}＝$y^{2}$，\n∴$y=\\frac{1}{8}x^{2}+2$，\n（4）如图，\n[[image:rId48]]\n当x＝4时，点P（4，4），此时∠APM＝90°，四边形AOMP是正方形，\n当﹣4＜x＜4时，可知∠AM'O＞45°，则∠P'AM'＝∠P'M'A＜45°，\n∴∠AP'M＞90°，即△AMP为钝角三角形，\n又由（1）可知当M为（0，0）时，点P的坐标为（0，2），点A、M、P三点共线构成不了三角形，\n∴x≠0，\n综上，要使△AMP为钝角三角形，x的取值范围为﹣4＜x＜4且x≠0．\n【点评】本题考查了坐标与图形，勾股定理，二次函数的图象，线段垂直平分线的性质，正方形的性质等，理解题意是解题的关键．",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q023_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数",
+          "二次函数",
+          "勾股定理"
+        ],
+        "reasoning": "通过计算点P的坐标，涉及了一次函数和二次函数的图像，以及勾股定理的应用。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数\", \"二次函数\", \"勾股定理\"],\n  \"reasoning\": \"通过计算点P的坐标，涉及了一次函数和二次函数的图像，以及勾股定理的应用。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年四川省巴中市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，在Rt△ABC中，AC＝BC＝4，∠C＝90°，点P是边AB中点，∠MPN＝90°，∠APN＝θ．\n[图1]\n（1）点N在线段AC上，点M在线段CB上．\n①当θ＝45°时，CM的值是 ____ ；\n②当0°＜θ＜90°时，求CM+CN的值；\n（2）点N在射线AC上，点M在射线CB上．当0°＜θ＜135°时，直线MN与射线PC相交于点F，若CM＝2CN，求\\frac{CF}{PF}的值．\n2025年四川省巴中市中考数学试卷",
+      "stem_markdown": "如图，在Rt△ABC中，AC＝BC＝4，∠C＝90°，点P是边AB中点，∠MPN＝90°，∠APN＝θ．\n![2025年四川省巴中市中考数学试卷_q024_img01](assets/2025年四川省巴中市中考数学试卷_q024_img01.png)\n（1）点N在线段AC上，点M在线段CB上．\n①当θ＝45°时，CM的值是 ____ ；\n②当0°＜θ＜90°时，求CM+CN的值；\n（2）点N在射线AC上，点M在射线CB上．当0°＜θ＜135°时，直线MN与射线PC相交于点F，若CM＝2CN，求$\\frac{CF}{PF}$的值．\n2025年四川省巴中市中考数学试卷",
+      "options": [],
+      "answer": "2",
+      "solution": "【分析】（1）①根据三角形中位线定理结合矩形的判定与性质求解；②连结CP，证明△APN≌△PCM（ASA），得出CM＝AN，可推出结果；\n（2）分两种情况，画出如答图所示图形，分别求解．\n【解答】解：（1）①如图，\n[[image:rId50]]\n∵AC＝BC＝4，∠C＝90°，\n∴∠B＝45°，\n又∵θ＝45°，点P是边AB中点，\n∴PN∥BC，\n∴PN$=\\frac{1}{2}BC$，∠PNC＝∠C＝∠NPM＝90°，\n∴四边形PMCN是矩形，\n∴CM＝PN$=\\frac{1}{2}BC=$2，\n故答案为：2；\n②连结CP，\n∵∠ACB＝90°，AC＝BC＝4，\n∴∠A＝45°，\n又∵点P为AB的中点，\n[[image:rId51]]\n∴CP⊥AB＝AP，∠PCM＝∠A＝45°，\n∴θ+∠2＝90°，\n又∵∠1+∠2＝90°，\n∴∠1＝θ，\n∴△APN≌△PCM（ASA），\n∴CM＝AN，\n∴CM+CN＝AN+CN＝AC＝4；\n（2）解：第一种情况如图所示．设CN＝x．则CM＝2x．（0°＜θ＜90°）\n∴2x+x＝4．\n∴x$=\\frac{4}{3}$，\n∴CM＝2x$=\\frac{8}{3}$，\n过点P作PH⊥BC于H交MN于点G，\n[[image:rId52]]\n∴$CH=\\frac{1}{2}BC=2，∠PHB=90°$，\n∴$MH=\\frac{8}{3}-2=\\frac{2}{3}$，\n又∵∠ACB＝90°，\n∴PH∥AC．\n∴$\\frac{GH}{GN}=\\frac{MH}{CM}=\\frac{2}{3}÷\\frac{8}{3}=\\frac{1}{4}$，\n∴$GH=\\frac{1}{3}$，\n∴$PG=PH-GH=2-\\frac{1}{3}=\\frac{5}{3}$，\n又∵PH∥AC，\n∴$\\frac{CF}{PF}=\\frac{CN}{PG}=\\frac{4}{3}÷\\frac{5}{3}=\\frac{4}{5}$；\n第二种情况：如图所示，90°≤θ＜135°．连接PM、PN，\n[[image:rId53]]\n则θ＝90°不成立，\n由（1）可知：△PMB≌△PCN（ASA），\n∴BM＝CN，\n∴CM﹣CN＝CM﹣BM＝BC＝4，\n又∵CM＝2CN，\n∴CN＝4．CM＝8．\n∴MH＝6，CH＝2．CN＝4，\n∴$\\frac{HG}{CN}=\\frac{MH}{MC}=\\frac{6}{8}$\n∴$HG=4×\\frac{6}{8}=3$，\n∴PG＝PH+HG＝2+3＝5，\n又∵PH⊥BC．∠ACB＝90°，\n∴PG∥AC，\n∴$\\frac{CF}{PF}=\\frac{CN}{PG}=\\frac{4}{5}$．\n【点评】本题是三角形综合题，主要考查了全等三角形的判定与性质，平行线分线段成比例，注意分类讨论是解（2）的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:26:39；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId55]] ____ [[image:rId56]] ____ [[image:rId57]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 13,
+      "images": [
+        {
+          "image_id": "2025年四川省巴中市中考数学试卷_q024_img01",
+          "path": "assets/2025年四川省巴中市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形的性质",
+          "三角形中位线定理",
+          "全等三角形的判定与性质",
+          "相似三角形的性质"
+        ],
+        "reasoning": "题目涉及直角三角形的性质、三角形中位线定理和全等三角形的判定与性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形的性质\", \"三角形中位线定理\", \"全等三角形的判定与性质\", \"相似三角形的性质\"],\n  \"reasoning\": \"题目涉及直角三角形的性质、三角形中位线定理和全等三角形的判定与性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:06:39",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 24,
+      "ok": 24,
+      "fallback": 0
+    }
+  }
+}

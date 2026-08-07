@@ -1,0 +1,53 @@
+services:
+  p3-api:
+    build: .
+    command: python backend/manage.py runserver 0.0.0.0:8103
+    ports:
+      - "8103:8103"
+    environment:
+      DJANGO_SECRET_KEY: "${DJANGO_SECRET_KEY:?set DJANGO_SECRET_KEY in .env}"
+      DJANGO_DEBUG: "${DJANGO_DEBUG:-true}"
+      DJANGO_ALLOWED_HOSTS: "${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1,0.0.0.0}"
+      POSTGRES_DB: "p3_resource_student"
+      POSTGRES_USER: "p3"
+      POSTGRES_PASSWORD: "p3_password"
+      POSTGRES_HOST: "postgres"
+      POSTGRES_PORT: "5432"
+      P1_CLIENT_MODE: "${P1_CLIENT_MODE:-mock}"
+      P1_BASE_URL: "${P1_BASE_URL:-http://host.docker.internal:8101/api/ai/v1}"
+      P1_TIMEOUT_SECONDS: "${P1_TIMEOUT_SECONDS:-10}"
+      P1_SERVICE_ID: "${P1_SERVICE_ID:-p3-service}"
+      P1_AUTH_TOKEN: "${P1_AUTH_TOKEN:-}"
+      P1_FILE_BASE_URL: "${P1_FILE_BASE_URL:-}"
+      P1_FILE_URL_TTL_SECONDS: "${P1_FILE_URL_TTL_SECONDS:-3600}"
+      P1_RECOGNITION_START_GRACE_SECONDS: "${P1_RECOGNITION_START_GRACE_SECONDS:-30}"
+      WRONG_QUESTION_MAX_FILE_SIZE: "${WRONG_QUESTION_MAX_FILE_SIZE:-10485760}"
+      WRONG_QUESTION_ALLOWED_CONTENT_TYPES: "${WRONG_QUESTION_ALLOWED_CONTENT_TYPES:-image/jpeg,image/png,image/webp}"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - .:/app
+      - p3_media:/app/backend/media
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: "p3_resource_student"
+      POSTGRES_USER: "p3"
+      POSTGRES_PASSWORD: "p3_password"
+    ports:
+      - "5433:5432"
+    volumes:
+      - p3_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U p3 -d p3_resource_student"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  p3_postgres_data:
+  p3_media:

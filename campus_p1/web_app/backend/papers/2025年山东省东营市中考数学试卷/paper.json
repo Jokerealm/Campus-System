@@ -1,0 +1,1180 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年山东省东营市中考数学试卷",
+  "source": {
+    "name": "2025年山东省东营市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年山东省东营市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "-\\frac{1}{2}的倒数是（ ）",
+      "stem_markdown": "$-\\frac{1}{2}$的倒数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣2"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】乘积是1的两数互为倒数．，由此即可得到答案．\n【解答】解：$-\\frac{1}{2}$的倒数是﹣2．\n故选：A．\n【点评】本题考查倒数的概念，关键是掌握倒数的定义．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "倒数的概念"
+        ],
+        "reasoning": "题目要求找出-\frac{1}{2}的倒数，考察了倒数的概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"倒数的概念\"],\n  \"reasoning\": \"题目要求找出-\\frac{1}{2}的倒数，考察了倒数的概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "下列计算正确的是（ ）",
+      "stem_markdown": "下列计算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣（﹣x+1）＝x+1"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{5}-\\sqrt{3}=\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$x^{6}÷x^{2}＝x^{4}$"
+        },
+        {
+          "label": "D",
+          "text": "（a﹣b）^{2}＝$a^{2}﹣b^{2}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据二次根式的运算法则逐一进行判断．\n【解答】解：﹣（﹣x+1）＝x﹣1，故A选项不符合题意；\n$\\sqrt{5}$、$\\sqrt{3}$不是同类项，故B选项不符合题意；\n$x^{6}÷x^{2}＝x^{4}$，故C选项符合题意；\n（a﹣b）^{2}＝$a^{2}﹣b^{2}$+2ab，故D选项不符合题意，\n故选：C．\n【点评】本题考查了二次根式的运算，解题的关键是掌握二次根式的运算法则．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式的运算法则",
+          "幂的除法法则"
+        ],
+        "reasoning": "选项C中的计算涉及幂的除法法则，选项A涉及二次根式的运算法则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式的运算法则\", \"幂的除法法则\"],\n  \"reasoning\": \"选项C中的计算涉及幂的除法法则，选项A涉及二次根式的运算法则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "2025年亚洲冬季运动会上我国滑雪运动员取得了优异的成绩，图片为滑雪比赛的精彩瞬间，抽象为如图所示的图形，已知滑雪杖AB和滑雪板DE平行，滑雪杖AB与大腿BC的夹角为30°，小腿CE与滑雪板DE的夹角为80°，则大腿与小腿的夹角∠C的度数为（ ）\n[图1]",
+      "stem_markdown": "2025年亚洲冬季运动会上我国滑雪运动员取得了优异的成绩，图片为滑雪比赛的精彩瞬间，抽象为如图所示的图形，已知滑雪杖AB和滑雪板DE平行，滑雪杖AB与大腿BC的夹角为30°，小腿CE与滑雪板DE的夹角为80°，则大腿与小腿的夹角∠C的度数为（ ）\n![2025年山东省东营市中考数学试卷_q003_img01](assets/2025年山东省东营市中考数学试卷_q003_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "80°"
+        },
+        {
+          "label": "B",
+          "text": "90°"
+        },
+        {
+          "label": "C",
+          "text": "100°"
+        },
+        {
+          "label": "D",
+          "text": "110°"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】过C作CM∥AB，得到CM∥DE，推出∠BCM＝∠B＝30°，∠ECM＝∠E＝80°，即可求出∠BCM+∠ECM＝110°．\n【解答】解：过C作CM∥AB，\n∵AB∥DE，\n∴CM∥DE，\n∴∠BCM＝∠B＝30°，∠ECM＝∠E＝80°，\n∴∠BCM+∠ECM＝30°+80°＝110°．\n故选：D．\n[[image:rId35]]\n【点评】本题考查平行线的性质，关键是过C作CM∥AB，由平行线的性质来解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q003_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q003_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行线的性质",
+          "角度和"
+        ],
+        "reasoning": "通过作辅助线构造平行线，利用平行线同位角相等和内错角相等得出角度关系",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行线的性质\", \"角度和\"],\n  \"reasoning\": \"通过作辅助线构造平行线，利用平行线同位角相等和内错角相等得出角度关系\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "中国的航天技术已达到世界先进水平，为世界科技进步贡献了中国智慧．下列中国航天图标中是中心对称图形的是（ ）",
+      "stem_markdown": "中国的航天技术已达到世界先进水平，为世界科技进步贡献了中国智慧．下列中国航天图标中是中心对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年山东省东营市中考数学试卷_q004_img01](assets/2025年山东省东营市中考数学试卷_q004_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年山东省东营市中考数学试卷_q004_img02](assets/2025年山东省东营市中考数学试卷_q004_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年山东省东营市中考数学试卷_q004_img03](assets/2025年山东省东营市中考数学试卷_q004_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年山东省东营市中考数学试卷_q004_img04](assets/2025年山东省东营市中考数学试卷_q004_img04.png)"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据中心对称图形的概念判断．把一个图形绕某一点旋转180°，如果旋转后的图形能够与原来的图形重合，那么这个图形就叫做中心对称图形．\n【解答】解：选项A、B、D的图标都不能找到一个点，使图形绕某一点旋转180°后与原来的图形重合，所以不是中心对称图形．\n选项C的图标能找到一个点，使图形绕某一点旋转180°后与原来的图形重合，所以是中心对称图形．\n故选：C．\n【点评】本题考查的是中心对称图形，中心对称图形是要寻找对称中心，旋转180度后与自身重合．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q004_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q004_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q004_img02",
+          "path": "assets/2025年山东省东营市中考数学试卷_q004_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q004_img03",
+          "path": "assets/2025年山东省东营市中考数学试卷_q004_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q004_img04",
+          "path": "assets/2025年山东省东营市中考数学试卷_q004_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中心对称图形",
+          "旋转对称性"
+        ],
+        "reasoning": "选项C的图标绕某一点旋转180°后能与原图重合",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中心对称图形\", \"旋转对称性\"],\n  \"reasoning\": \"选项C的图标绕某一点旋转180°后能与原图重合\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "盒中有四张卡片，分别印有孤岛槐林、黄河入海口、红色刘集、孙子文化园图案，它们的形状和大小完全相同．两名同学先后从中随机抽取一张卡片（抽完后放回），则他们抽到的卡片图案相同的概率为（ ）\n[图1]",
+      "stem_markdown": "盒中有四张卡片，分别印有孤岛槐林、黄河入海口、红色刘集、孙子文化园图案，它们的形状和大小完全相同．两名同学先后从中随机抽取一张卡片（抽完后放回），则他们抽到的卡片图案相同的概率为（ ）\n![2025年山东省东营市中考数学试卷_q005_img01](assets/2025年山东省东营市中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】列表可得出所有等可能的结果数以及他们抽到的卡片图案相同的结果数，再利用概率公式可得出答案．\n【解答】解：将四张卡片分别记为A，B，C，D，\n列表如下：\n| A | B | C | D | |\n| --- | --- | --- | --- | --- |\n| A | （A，A） | （A，B） | （A，C） | （A，D） |\n| B | （B，A） | （B，B） | （B，C） | （B，D） |\n| C | （C，A） | （C，B） | （C，C） | （C，D） |\n| D | （D，A） | （D，B） | （D，C） | （D，D） |\n共有16种等可能的结果，其中他们抽到的卡片图案相同的结果有4种，\n∴他们抽到的卡片图案相同的概率为$\\frac{4}{16}=\\frac{1}{4}$．\n故选：D．\n【点评】本题考查列表法与树状图法、概率公式，熟练掌握列表法与树状图法以及概率公式是解答本题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q005_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "排列组合",
+          "概率公式"
+        ],
+        "reasoning": "计算抽到图案相同的概率时使用了排列组合的方法列出所有可能结果，并计算符合条件的结果数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"排列组合\", \"概率公式\"],\n  \"reasoning\": \"计算抽到图案相同的概率时使用了排列组合的方法列出所有可能结果，并计算符合条件的结果数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "若x₁，x₂是关于x的一元二次方程x²﹣25x﹣1＝0的两个实数根，则代数式x_{1}^{2}-24x₁+x₂的值为（ ）",
+      "stem_markdown": "若$x_{1}$，$x_{2}$是关于x的一元二次方程$x^{2}$﹣25x﹣1＝0的两个实数根，则代数式$x_{1}^{2}-24x_{1}+x_{2}$的值为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "25"
+        },
+        {
+          "label": "C",
+          "text": "26"
+        },
+        {
+          "label": "D",
+          "text": "﹣1"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】先根据一元二次方程解的定义得到$x_{1}^{2}=25x_{1}$+1，则$x_{1}^{2}-24x_{1}+x_{2}$化为$x_{1}+x_{2}$+1，再利用根与系数的关系得$x_{1}+x_{2}$＝25，然后利用整体代入的方法计算．\n【解答】解：∵$x_{1}$是关于x的一元二次方程$x^{2}$﹣25x﹣1＝0的实数根，\n∴$x_{1}^{2}-25x_{1}$﹣1＝0，\n∴$x_{1}^{2}=25x_{1}$+1，\n∴$x_{1}^{2}-24x_{1}+x_{2}＝25x_{1}$+1﹣$24x_{1}+x_{2}＝x_{1}+x_{2}$+1，\n∵$x_{1}$，$x_{2}$是关于x的一元二次方程$x^{2}$﹣25x﹣1＝0的两个实数根，\n∴$x_{1}+x_{2}$＝25，\n∴$x_{1}^{2}-24x_{1}+x_{2}$＝25+1＝26．\n故选：C．\n【点评】本题考查了根与系数的关系：若$x_{1}$，$x_{2}$是一元二次方程$ax^{2}$+bx+c＝0（a≠0）的两根时，$x_{1}+x_{2}=-\\frac{b}{a}$，$x_{1}x_{2}$$=\\frac{c}{a}$．也考查了一元二次方程的解．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元二次方程的解",
+          "根与系数的关系",
+          "代数式的变形",
+          "整体代入法"
+        ],
+        "reasoning": "题中利用一元二次方程的解定义和根与系数的关系求代数式值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元二次方程的解\", \"根与系数的关系\", \"代数式的变形\", \"整体代入法\"],\n  \"reasoning\": \"题中利用一元二次方程的解定义和根与系数的关系求代数式值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "小华用铁皮制作一个烟囱帽，烟囱帽的三视图如图所示，已知主视图和左视图均为边长是10cm的等边三角形，则所需铁皮面积（接缝面积忽略不计）为（ ）\n[图1]",
+      "stem_markdown": "小华用铁皮制作一个烟囱帽，烟囱帽的三视图如图所示，已知主视图和左视图均为边长是10cm的等边三角形，则所需铁皮面积（接缝面积忽略不计）为（ ）\n![2025年山东省东营市中考数学试卷_q007_img01](assets/2025年山东省东营市中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$50cm^{2}$"
+        },
+        {
+          "label": "B",
+          "text": "50π$cm^{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$100cm^{2}$"
+        },
+        {
+          "label": "D",
+          "text": "100π$cm^{2}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据圆锥的侧面展开图为扇形，根据扇形的面积公式计算即可．\n【解答】解：主视图和左视图均为边长是10cm的等边三角形，故底面半径为$\\frac{10}{2}=$5（cm），\n烟囱帽所需要的铁皮面积＝πrl＝π×5×10＝50π（$cm^{2}$）．\n故选：B．\n【点评】本题考查了由三视图判断几何体以及圆锥的计算：圆锥的侧面展开图为扇形，扇形的弧长等于圆锥底面圆的周长，扇形的半径等于圆锥的母线长．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q007_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆锥的侧面积公式",
+          "等边三角形的性质",
+          "扇形面积公式"
+        ],
+        "reasoning": "烟囱帽的侧面展开图为扇形，利用扇形面积公式计算所需铁皮面积。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆锥的侧面积公式\", \"等边三角形的性质\", \"扇形面积公式\"],\n  \"reasoning\": \"烟囱帽的侧面展开图为扇形，利用扇形面积公式计算所需铁皮面积。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，点O是△ABC边AC的中点，连接BO并延长至点D，使OD＝BO，添加下列选项中的一个条件，不能判定四边形ABCD为矩形的是（ ）\n[图1]",
+      "stem_markdown": "如图，点O是△ABC边AC的中点，连接BO并延长至点D，使OD＝BO，添加下列选项中的一个条件，不能判定四边形ABCD为矩形的是（ ）\n![2025年山东省东营市中考数学试卷_q008_img01](assets/2025年山东省东营市中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "AB＝BC"
+        },
+        {
+          "label": "B",
+          "text": "∠ABC＝90°"
+        },
+        {
+          "label": "C",
+          "text": "∠ABD＝∠ACD"
+        },
+        {
+          "label": "D",
+          "text": "OB＝OC"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】先证明四边形ABCD是平行四边形，得AB∥CD，再由矩形的判定、菱形的判定分别对各个选项进行判断即可．\n【解答】解：∵点O是△ABC边AC的中点，\n∴OA＝OC，\n∵OD＝BO，\n∴四边形ABCD是平行四边形，\n∴AB∥CD，\nA、∵AB＝BC时，\n∴平行四边形ABCD是菱形，故选项A符合题意；\nB、∵∠ABC＝90°，\n∴平行四边形ABCD是矩形，故选项B不符合题意；\nC、∵AB∥CD，\n∴∠ABD＝∠CDO，\n∵∠ABD＝∠ACD，\n∴∠CDO＝∠ACD，\n∴OC＝OD，\n∴OA＝OC＝OB＝OD，\n∴AC＝BD，\n∴平行四边形ABCD是矩形，故选项C不符合题意；\nD、∵OB＝OC，\n∴OA＝OC＝OB＝OD，\n∴AC＝BD，\n∴平行四边形ABCD是矩形，故选项D不符合题意；\n故选：A．\n【点评】本题考查了矩形的判定、平行四边形的判定与性质、菱形的判定以及等腰三角形的判定等知识，熟练掌握矩形的判定方法和平行四边形的判定与性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q008_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中点定理",
+          "平行四边形的判定",
+          "矩形的判定",
+          "等腰三角形的判定"
+        ],
+        "reasoning": "选项A中AB=BC导致四边形ABCD成为菱形，但不是矩形。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中点定理\", \"平行四边形的判定\", \"矩形的判定\", \"等腰三角形的判定\"],\n  \"reasoning\": \"选项A中AB=BC导致四边形ABCD成为菱形，但不是矩形。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，在同一平面内放置的Rt△EFG和矩形ABCD，EG与AB重合，FG＝3cm，AB＝4cm，BC＝5cm，Rt△EFG以1cm/s的速度沿BC方向匀速运动，当点F与点C重合时停止，在运动过程中，Rt△EFG与矩形ABCD重叠部分的面积S（cm²）与运动时间t（s）之间的函数关系图象大致是（ ）\n[图1]",
+      "stem_markdown": "如图，在同一平面内放置的Rt△EFG和矩形ABCD，EG与AB重合，FG＝3cm，AB＝4cm，BC＝5cm，Rt△EFG以1cm/s的速度沿BC方向匀速运动，当点F与点C重合时停止，在运动过程中，Rt△EFG与矩形ABCD重叠部分的面积S（$cm^{2}$）与运动时间t（s）之间的函数关系图象大致是（ ）\n![2025年山东省东营市中考数学试卷_q009_img01](assets/2025年山东省东营市中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年山东省东营市中考数学试卷_q009_img02](assets/2025年山东省东营市中考数学试卷_q009_img02.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年山东省东营市中考数学试卷_q009_img03](assets/2025年山东省东营市中考数学试卷_q009_img03.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年山东省东营市中考数学试卷_q009_img04](assets/2025年山东省东营市中考数学试卷_q009_img04.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年山东省东营市中考数学试卷_q009_img05](assets/2025年山东省东营市中考数学试卷_q009_img05.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】观察四个选项，可以看出四个函数图象在0≤t≤3范围内对应的函数图象各不相同，所以只需得到当0≤t≤3时，S与t之间的函数关系式，即可作出判断．\n【解答】解：当0≤t≤3时，如图1所示，\n[[image:rId48]]\n此时$S=\\frac{1}{2}×3×4-\\frac{1}{2}×(3-t)×\\frac{4}{3}(3-t)=6-\\frac{2}{3}(3-t)^{2}$，\n当3＜t≤5时，如图2所示，\n[[image:rId49]]\n此时$S=\\frac{1}{2}×3×4=6$．\n当5＜t≤8时，如图3所示，\n[[image:rId50]]\n此时$S=\\frac{1}{2}×(8-t)×\\frac{4}{3}(8-t)=\\frac{2}{3}(8-t)^{2}$．\n故选：B．\n【点评】本题考查动点函数图象问题，掌握动点函数图象是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q009_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q009_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q009_img02",
+          "path": "assets/2025年山东省东营市中考数学试卷_q009_img02.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q009_img03",
+          "path": "assets/2025年山东省东营市中考数学试卷_q009_img03.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q009_img04",
+          "path": "assets/2025年山东省东营市中考数学试卷_q009_img04.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q009_img05",
+          "path": "assets/2025年山东省东营市中考数学试卷_q009_img05.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形面积公式",
+          "矩形面积公式",
+          "动点函数图象"
+        ],
+        "reasoning": "通过计算不同时间段内重叠部分的面积，得出S与t的函数关系。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形面积公式\", \"矩形面积公式\", \"动点函数图象\"],\n  \"reasoning\": \"通过计算不同时间段内重叠部分的面积，得出S与t的函数关系。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，已知四边形ABCD是菱形，∠ABC＝60°，对角线AC，BD相交于点O，过点D作DE⊥BC交BC的延长线于点E，F为AD的中点，连接EF交BD于点G，连接OE交CD于点H，连接BH．则下列结论：①四边形ACEF为平行四边形；②\\frac{FG}{EG}=\\frac{1}{3}；③OH²＝CH•DH；④tan∠HBC=\\frac{\\sqrt{3}}{9}．其中正确的有（ ）\n[图1]",
+      "stem_markdown": "如图，已知四边形ABCD是菱形，∠ABC＝60°，对角线AC，BD相交于点O，过点D作DE⊥BC交BC的延长线于点E，F为AD的中点，连接EF交BD于点G，连接OE交CD于点H，连接BH．则下列结论：①四边形ACEF为平行四边形；②$\\frac{FG}{EG}=\\frac{1}{3}$；③$OH^{2}$＝CH•DH；④tan∠HBC$=\\frac{\\sqrt{3}}{9}$．其中正确的有（ ）\n![2025年山东省东营市中考数学试卷_q010_img01](assets/2025年山东省东营市中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "①②③"
+        },
+        {
+          "label": "B",
+          "text": "①③④"
+        },
+        {
+          "label": "C",
+          "text": "②③④"
+        },
+        {
+          "label": "D",
+          "text": "①②③④"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据30°所对的直角边是斜边的一半即可得证①；根据8字型相似得证②；证CH⊥OE即可得证③；过点H作 HQ⊥CE于点Q，设菱形ABCD的边长为4a，则AC＝4a，再分别求出HQ、BQ即可得证④．\n【解答】解：在菱形ABCD中，AB＝CD＝AD，AB∥CD，\n∴∠ABC＝∠DCE＝60°，\n在Rt△DCE中，CE$=\\frac{1}{2}$CD，\n∵F为AD中点，\n∴AF＝DF$=\\frac{1}{2}$AD，\n∴AF＝CE，\n∵AF∥CE，\n∴四边形ACEF为平行四边形，\n故①正确，符合题意；\n∵DF∥BE，\n∴$\\frac{FG}{EG}=\\frac{DF}{BE}=$$\\frac{1}{3}$，\n故②正确，符合题意；\n∵AD＝CD，∠ADC＝60°，\n∴△ACD是等边三角形，\n∴AD＝AC．\n又∵OC$=\\frac{1}{2}AC$，$CE=AF=\\frac{1}{2}AD$，\n∴OC＝CE．\n∵∠OCH＝∠ECH＝60°，\n∴CH⊥OE，\n∴∠OHC＝∠DHO＝90°，\n∴∠COD＝90°，\n∴∠COH＝∠ODH＝90°﹣∠DOH，\n∴△OHC∽△DHO，\n∴$\\frac{OH}{DH}=\\frac{CH}{OH}$，\n∴$OH^{2}$＝CH•DH，\n故③正确，符合题意；\n如图，过点H作 HQ⊥CE于点Q．\n[[image:rId52]]\n设菱形ABCD的边长为4a，则AC＝4a，\n∴OC＝2a，\n∴$CH=\\frac{1}{2}OC=a$，\n∴$HQ=\\frac{\\sqrt{3}}{2}CH=\\frac{\\sqrt{3}}{2}aCQ=\\frac{1}{2}CH=\\frac{a}{2}$，\n∴$BQ=BC+CQ=\\frac{9a}{2}$，\n∴$tan∠HBC=\\frac{HQ}{BQ}=\\frac{\\frac{\\sqrt{3}}{2}a}{\\frac{9a}{2}}=\\frac{\\sqrt{3}}{9}$，\n故④正确，符合题意；\n故选：D．\n【点评】本题主要考查了菱形的性质、平行四边形的判定、相似三角形的判定和性质、等边三角形的判定和性质等内容，熟练掌握相关知识是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q010_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的性质",
+          "相似三角形的判定和性质",
+          "平行四边形的判定",
+          "30°角的直角三角形性质"
+        ],
+        "reasoning": "①利用等边三角形性质证明四边形ACEF为平行四边形；②通过8字型相似证明比例关系；③利用等边三角形和相似三角形证明OH²＝CH•DH；④通过构造辅助线证明tan∠HBC的值。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的性质\", \"相似三角形的判定和性质\", \"平行四边形的判定\", \"30°角的直角三角形性质\"],\n  \"reasoning\": \"①利用等边三角形性质证明四边形ACEF为平行四边形；②通过8字型相似证明比例关系；③利用等边三角形和相似三角形证明OH²＝CH•DH；④通过构造辅助线证明tan∠HBC的值。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "中国空间站在太空中的飞行速度约为每小时27600000米，数据27600000用科学记数法表示为 ____ ．",
+      "stem_markdown": "中国空间站在太空中的飞行速度约为每小时27600000米，数据27600000用科学记数法表示为 ____ ．",
+      "options": [],
+      "answer": "2.76×10^{7}．",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：27600000＝2.76×10^{7}．\n故答案为：2.76×10^{7}．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法"
+        ],
+        "reasoning": "题目要求将27600000用科学记数法表示，这是科学记数法的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\"],\n  \"reasoning\": \"题目要求将27600000用科学记数法表示，这是科学记数法的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "因式分解2x²y﹣4xy²+2y³＝ ____ ．",
+      "stem_markdown": "因式分解$2x^{2}$y﹣$4xy^{2}+2y^{3}$＝ ____ ．",
+      "options": [],
+      "answer": "2y（x﹣y）^{2}．",
+      "solution": "【分析】先提取公因式2y，然后再运用完全平方公式因式分解即可．\n【解答】解：原式＝2y（$x^{2}$﹣2xy+$y^{2}$）＝2y（x﹣y）^{2}．\n故答案为：2y（x﹣y）^{2}．\n【点评】本题主要考查了提公因式法与公式法的综合运用，灵活运用提取公因式法和完全平方公式进行因式分解是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式法",
+          "完全平方公式"
+        ],
+        "reasoning": "因式分解过程中先提取公因式2y，再利用完全平方公式$x^2-2xy+y^2=(x-y)^2$",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式法\", \"完全平方公式\"],\n  \"reasoning\": \"因式分解过程中先提取公因式2y，再利用完全平方公式$x^2-2xy+y^2=(x-y)^2$\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "化简(1+\\frac{m}{m-1})÷\\frac{4m^{2}-1}{m-1}= ____ ．",
+      "stem_markdown": "化简$(1+\\frac{m}{m-1})÷\\frac{4m^{2}-1}{m-1}=$ ____ ．",
+      "options": [],
+      "answer": "$\\frac{1}{2m+1}$．",
+      "solution": "【分析】先利用异分母分式加减法法则计算括号里，再算括号外，即可解答．\n【解答】解：原式$=\\frac{m-1+m}{m-1}•\\frac{m-1}{(2m+1)(2m-1)}$\n$=\\frac{2m-1}{m-1}•\\frac{m-1}{(2m+1)(2m-1)}$\n$=\\frac{1}{2m+1}$，\n故答案为：$\\frac{1}{2m+1}$．\n【点评】本题考查了分式的混合运算，准确熟练地进行计算是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式的加减法",
+          "分式的乘除法",
+          "约分"
+        ],
+        "reasoning": "题目中通过异分母分式加减法和分式的乘除法计算化简表达式",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式的加减法\", \"分式的乘除法\", \"约分\"],\n  \"reasoning\": \"题目中通过异分母分式加减法和分式的乘除法计算化简表达式\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，在平面直角坐标系中，⊙P与x轴交于点M，N，与y轴相切于点Q，点P的坐标为（5，﹣3），则点N的坐标为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，⊙P与x轴交于点M，N，与y轴相切于点Q，点P的坐标为（5，﹣3），则点N的坐标为 ____ ．\n![2025年山东省东营市中考数学试卷_q014_img01](assets/2025年山东省东营市中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "（9，0）．",
+      "solution": "【分析】连接PQ，PN，过点P作PA⊥MN于点A，根据点的坐标结合切线的性质推出OA＝PQ＝PN＝5，据此解答．\n【解答】解：如图，连接PQ，PN，过点P作PA⊥MN于点A，\n[[image:rId54]]\n∵点P的坐标为（5，﹣3），\n∴OA＝5，PA＝3，\n∵⊙P与x轴交于点M，N，与y轴相切于点Q，\n∴OA＝PQ＝PN＝5，\n∴AN$=\\sqrt{PN^{2}-PA^{2}}=\\sqrt{5^{2}-3^{2}}=$4，\n∴ON＝OA+AN＝5+4＝9，\n∴N（9，0），\n故答案为：（9，0）．\n【点评】本题考查了切线的性质，勾股定理，熟记切线的性质，勾股定理是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q014_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "切线的性质",
+          "坐标与图形的关系"
+        ],
+        "reasoning": "点P的坐标和切线性质得出OA=PN=5，利用勾股定理求AN长度",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"切线的性质\", \"坐标与图形的关系\"],\n  \"reasoning\": \"点P的坐标和切线性质得出OA=PN=5，利用勾股定理求AN长度\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "六年级全体数学教师参加“包粽子•迎端午”活动，若每人包6个，则比计划多包9个；若每人包4个，则比计划少包7个，求计划包多少个粽子．设计划包x个粽子，可列方程为 ____ ．",
+      "stem_markdown": "六年级全体数学教师参加“包粽子•迎端午”活动，若每人包6个，则比计划多包9个；若每人包4个，则比计划少包7个，求计划包多少个粽子．设计划包x个粽子，可列方程为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{x+9}{6}=\\frac{x-7}{4}$．",
+      "solution": "【分析】设计划包x个粽子，根据“若每人包6个，则比计划多包9个；若每人包4个，则比计划少包7个”列方程即可得解．\n【解答】解：依题意得$\\frac{x+9}{6}=\\frac{x-7}{4}$．\n故答案为：$\\frac{x+9}{6}=\\frac{x-7}{4}$．\n【点评】本题考查了由实际问题抽象出一元一次方程，找准等量关系，正确列出一元一次方程是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "分配问题"
+        ],
+        "reasoning": "设计划包x个粽子，根据条件列出方程",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"分配问题\"],\n  \"reasoning\": \"设计划包x个粽子，根据条件列出方程\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "如图，一次函数y＝3x+3的图象与坐标轴分别交于点B，C，反比例函数y=\\frac{k}{x}的图象经过点A，△ABC是等腰直角三角形，∠ACB＝90°，AC＝BC，则k的值为 ____ ．\n[图1]",
+      "stem_markdown": "如图，一次函数y＝3x+3的图象与坐标轴分别交于点B，C，反比例函数y$=\\frac{k}{x}$的图象经过点A，△ABC是等腰直角三角形，∠ACB＝90°，AC＝BC，则k的值为 ____ ．\n![2025年山东省东营市中考数学试卷_q016_img01](assets/2025年山东省东营市中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "﹣12．",
+      "solution": "【分析】首先确定一次函数与坐标轴的交点B、C的坐标，再利用等腰直角三角形的性质（∠ACB＝90°，AC＝BC），通过构造全等三角形求出点A的坐标，最后代入反比例函数求k的值即可．\n【解答】解：一次函数y＝3x+3中，\n令x＝0，得y＝3，\n令y＝0，0＝3x+3，解得x＝﹣1，\n∴B点坐标为（﹣1，0），C点坐标为（0，3）；\n过点A作AD⊥y轴于点D，如图所示：\n[[image:rId56]]\n∵∠ACB＝90°，\n∴∠ACD+∠BCO＝90°，\n∵∠BCO+∠CBO＝90°，\n∴∠ACD＝∠CBO，\n在△ACD和△CBO中：\n$\\begin{cases} ∠ADC=∠COB=90° \\\\ ∠ACD=∠CBO \\\\ AC=BC \\end{cases}$，\n∴△ACD≌△CBD（AAS），\n∴AD＝OC＝3，CD＝OB＝1，\n由C（0，3），CD＝1，得OD＝OC+CD＝4，\n∴A点坐标为（﹣3，4），\n将A（﹣3，4）代入反比例函数y$=\\frac{k}{x}$，\n解得k＝﹣12．\n故答案为：﹣12．\n【点评】本题考查了一次函数与坐标轴的交点、等腰直角三角形的性质、全等三角形的判定与性质以及反比例函数的解析式求解．熟练掌握利用等腰直角三角形构造全等三角形求点的坐标，是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q016_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数与坐标轴的交点",
+          "等腰直角三角形的性质",
+          "全等三角形的判定与性质"
+        ],
+        "reasoning": "通过构造全等三角形求点A的坐标，利用等腰直角三角形的性质求解",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数与坐标轴的交点\", \"等腰直角三角形的性质\", \"全等三角形的判定与性质\"],\n  \"reasoning\": \"通过构造全等三角形求点A的坐标，利用等腰直角三角形的性质求解\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "blank",
+      "stem_text": "如图，四边形ABCD是正方形，E为CD上一点，将△ADE绕点A顺时针旋转90°至△ABF，连接EF，AH⊥EF于点H，交BC于点G，若BG＝2，CG＝1，则CE的长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，四边形ABCD是正方形，E为CD上一点，将△ADE绕点A顺时针旋转90°至△ABF，连接EF，AH⊥EF于点H，交BC于点G，若BG＝2，CG＝1，则CE的长为 ____ ．\n![2025年山东省东营市中考数学试卷_q017_img01](assets/2025年山东省东营市中考数学试卷_q017_img01.png)",
+      "options": [],
+      "answer": "2.4．",
+      "solution": "【分析】连接EG，根据AG垂直平分EF，即可得出EG＝FG，设DE＝x，则CE＝CD﹣DE＝3﹣x，BF＝DE＝x，FG＝BF+BG＝x+2＝EG，再根据Rt△CEG中，$CE^{2}+CG^{2}＝EG^{2}$，即可得到DE的长．\n【解答】解：如图，连接EG，\n∵BG＝2，CG＝1，\n∴BC＝BG+CG＝2+1＝3，\n∵四边形ABCD是正方形，\n∴AB＝AD＝CD＝BC＝3，∠BAD＝∠ABC＝∠C＝∠D＝90°，\n由旋转可得，△ADE≌△ABF，\n∴AE＝AF，DE＝BF，\n∵AG⊥EF，\n∴H为EF的中点，\n∴AG垂直平分EF，\n∴EG＝FG，\n设DE＝x，则CE＝CD﹣DE＝3﹣x，BF＝DE＝x，FG＝BF+BG＝x+2，\n∴EG＝x+2，\n在Rt△CEG中，$CE^{2}+CG^{2}＝EG^{2}$，\n∴（3﹣x）^{2}+1^{2}＝（x+2）^{2}，\n解得x＝0.6；\n∴CE＝3﹣x＝3﹣0.6＝2.4；\n故答案为：2.4．\n[[image:rId58]]\n【点评】本题考查了正方形的性质，勾股定理，线段垂直平分线的性质，旋转的性质等，解题时注意：对应点到旋转中心的距离相等；对应点与旋转中心所连线段的夹角等于旋转角；旋转前、后的图形全等．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q017_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "正方形的性质",
+          "线段垂直平分线的性质",
+          "旋转的性质"
+        ],
+        "reasoning": "题中利用旋转前后对应点到旋转中心距离相等及线段垂直平分线性质得出EG=FG，进而利用勾股定理求解CE的长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"正方形的性质\", \"线段垂直平分线的性质\", \"旋转的性质\"],\n  \"reasoning\": \"题中利用旋转前后对应点到旋转中心距离相等及线段垂直平分线性质得出EG=FG，进而利用勾股定理求解CE的长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "blank",
+      "stem_text": "二次函数y＝x²的图象如图所示，点B₀位于坐标原点，点B₁，B₂，⋯，Bn在y轴的正半轴上，点A₁，A₂，⋯，An，点C₁，C₂，⋯，∁n在二次函数的图象上，四边形B₀A₁B₁C₁，四边形B₁A₂B₂C₂，⋯，四边形Bn﹣₁AnBn∁n都是正方形，则正方形Bn﹣₁AnBn∁n的周长为 ____ ．\n[图1]",
+      "stem_markdown": "二次函数y＝$x^{2}$的图象如图所示，点$B_{0}$位于坐标原点，点$B_{1}$，$B_{2}$，⋯，$B_{n}$在y轴的正半轴上，点$A_{1}$，$A_{2}$，⋯，$A_{n}$，点$C_{1}$，$C_{2}$，⋯，∁_{n}在二次函数的图象上，四边形$B_{0}A_{1}$$B_{1}C_{1}$，四边形$B_{1}A_{2}$$B_{2}C_{2}$，⋯，四边形$B_{n}_{﹣1}A_{n}$$B_{n}$∁_{n}都是正方形，则正方形$B_{n}_{﹣1}A_{n}$$B_{n}$∁_{n}的周长为 ____ ．\n![2025年山东省东营市中考数学试卷_q018_img01](assets/2025年山东省东营市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "4$\\sqrt{2}$n．",
+      "solution": "【分析】由于△$B_{0}A_{1}$$B_{1}$，△$B_{1}A_{2}$$B_{2}$，△$B_{2}A_{3}$$B_{3}$，…，都是等腰直角三角形，可先设△$B_{0}A_{1}$$B_{1}$的直角边长，然后表示出$A_{1}$的坐标，代入抛物线的解析式中即可求得△$B_{0}A_{1}$$B_{1}$的直角边长，用同样的方法可求得等腰直角△$B_{1}A_{2}$$B_{2}$的直角边长，然后根据各边长的特点总结出此题的一般化规律，根据正方形的性质易求正方形$B_{n}_{﹣1}A_{n}$$B_{n}$∁_{n}的周长．\n【解答】解：∵四边形$B_{0}A_{1}$$B_{1}C_{1}$是正方形，∠$B_{0}A_{1}$$B_{1}$＝90°，\n∴△$B_{0}A_{1}$$B_{1}$是等腰直角三角形．\n设△$B_{0}A_{1}$$B_{1}$的直角边长为$m_{1}$，则$A_{1}$（$\\frac{\\sqrt{2}}{2}$m，$\\frac{\\sqrt{2}}{2}$m）；\n代入抛物线的解析式中得：（$\\frac{\\sqrt{2}}{2}$m）^{2}$=\\frac{\\sqrt{2}}{2}$m，\n解得$m_{1}$＝0（舍去），$m_{1}=\\sqrt{2}$；\n故△$B_{0}A_{1}$$B_{1}$的直角边长为$\\sqrt{2}$，\n同理可求得等腰直角△$B_{1}A_{2}$$B_{2}$的直角边长为2$\\sqrt{2}$，\n…\n依此类推，等腰直角△$B_{n}_{﹣1}A_{nBn}$的直角边长为$\\sqrt{2}$n，\n故正方形$B_{n}_{﹣1}A_{n}$$B_{n}$∁_{n}的周长为4$\\sqrt{2}$n．\n故答案为：4$\\sqrt{2}$n．\n【点评】本题考查了二次函数综合题．解题时，利用了二次函数图象上点的坐标特征，正方形的性质，等腰直角三角形的判定与性质等知识点．解答此题的难点是推知等腰直角△$B_{n}_{﹣1}A_{nBn}$的直角边长为$\\sqrt{2}$n．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q018_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰直角三角形的性质",
+          "正方形的性质",
+          "二次函数图象上的点的坐标特征"
+        ],
+        "reasoning": "题中通过等腰直角三角形和正方形的性质得出各边长的关系，进而求解正方形的周长。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰直角三角形的性质\", \"正方形的性质\", \"二次函数图象上的点的坐标特征\"],\n  \"reasoning\": \"题中通过等腰直角三角形和正方形的性质得出各边长的关系，进而求解正方形的周长。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "（1）计算：((\\frac{1}{2}))^{-1}-\\sqrt[3]{8}+|1-\\sqrt{3}|+((2-\\sqrt{3}tan60°))^{2025}；\n（2）解不等式组\\begin{cases} x+3＞-2x \\\\ 2x-5≤1 \\end{cases}，并把它的解集表示在数轴上．\n[图1]",
+      "stem_markdown": "（1）计算：$((\\frac{1}{2}))^{-1}-\\sqrt[3]{8}+|1-\\sqrt{3}|+((2-\\sqrt{3}tan60°))^{2025}$；\n（2）解不等式组$\\begin{cases} x+3＞-2x \\\\ 2x-5≤1 \\end{cases}$，并把它的解集表示在数轴上．\n![2025年山东省东营市中考数学试卷_q019_img01](assets/2025年山东省东营市中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）先根据负整数指数幂，开立方、绝对值和特殊角的三角函数值进行计算，再算加减即可；\n（2）先根据不等式的性质求出不等式的解集，再根据找不等式组解集的规律求出不等式组的解集即可．\n【解答】解：（1）原式＝2﹣2$+\\sqrt{3}-1+$（2$-\\sqrt{3}×\\sqrt{3}$）^{2025}\n＝2﹣2$+\\sqrt{3}-$1﹣1\n$=\\sqrt{3}-$2；\n（2）$\\begin{cases} x+3＞-2x① \\\\ 2x-5≤1② \\end{cases}$，\n解不等式①，得x＞﹣1，\n解不等式②，得x≤3，\n所以不等式组的解集是﹣1＜x≤3，\n在数轴上表示不等式组的解集为：\n[[image:rId61]]．\n【点评】本题考查了解一元一次不等式组，在数轴上表示不等式组的解集，实数的混合运算，负整数指数幂，特殊角的三角函数值等知识点，能正确根据实数的运算法则进行计算是解（1）的关键，能熟记找不等式组的解集的规律是解（2）的关键，注意：同大取大，同小取小，大小小大取中间，大大小小解不了．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q019_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "负整数指数幂",
+          "开立方",
+          "绝对值",
+          "特殊角的三角函数值"
+        ],
+        "reasoning": "计算过程中涉及负整数指数幂、开立方、绝对值和特殊角的三角函数值",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"负整数指数幂\", \"开立方\", \"绝对值\", \"特殊角的三角函数值\"],\n  \"reasoning\": \"计算过程中涉及负整数指数幂、开立方、绝对值和特殊角的三角函数值\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "东营市各县区积极创建全国义务教育城乡优质均衡发展县，为了解城乡教育质量发展情况，从农村和城区各抽取1所学校进行艺术抽测．每个学校均随机抽测了10名学生，数据分析如下．\n（一）收集与整理\n农村学校10名学生的艺术成绩（单位：分）：64，74，78，82，84，86，86，92，96，98；\n城区学校10名学生的艺术成绩（单位：分）：62，70，79，83，85，87，87，90，97，100．\n（二）描述与分析\n城乡学生艺术成绩的平均数、中位数、众数和方差如下：\n统计量 | 平均数 | 中位数 | 众数 | 方差\n农村 | 84 | a | 86 | c\n城区 | 84 | 86 | b | 118.6\n根据以上信息，回答下列问题：\n（1）直接写出表格中a，b，c的值，a＝ ____ ，b＝ ____ ，c＝ ____ ；\n（三）迁移与应用\n（2）若从本次艺术成绩在95分以上的4名学生中，任意选择两名学生参加艺术展演，请用列表法或画树状图的方法求出所选两名学生恰好都是城区学生的概率；\n（3）请从以上统计量中，任选一个统计量，对这两所学校的艺术成绩进行对比分析，并对艺术教学提出一条合理化建议．",
+      "stem_markdown": "东营市各县区积极创建全国义务教育城乡优质均衡发展县，为了解城乡教育质量发展情况，从农村和城区各抽取1所学校进行艺术抽测．每个学校均随机抽测了10名学生，数据分析如下．\n（一）收集与整理\n农村学校10名学生的艺术成绩（单位：分）：64，74，78，82，84，86，86，92，96，98；\n城区学校10名学生的艺术成绩（单位：分）：62，70，79，83，85，87，87，90，97，100．\n（二）描述与分析\n城乡学生艺术成绩的平均数、中位数、众数和方差如下：\n| 统计量 | 平均数 | 中位数 | 众数 | 方差 |\n| --- | --- | --- | --- | --- |\n| 农村 | 84 | a | 86 | c |\n| 城区 | 84 | 86 | b | 118.6 |\n根据以上信息，回答下列问题：\n（1）直接写出表格中a，b，c的值，a＝ ____ ，b＝ ____ ，c＝ ____ ；\n（三）迁移与应用\n（2）若从本次艺术成绩在95分以上的4名学生中，任意选择两名学生参加艺术展演，请用列表法或画树状图的方法求出所选两名学生恰好都是城区学生的概率；\n（3）请从以上统计量中，任选一个统计量，对这两所学校的艺术成绩进行对比分析，并对艺术教学提出一条合理化建议．",
+      "options": [],
+      "answer": "85",
+      "solution": "【分析】（1）根据中位数、众数、方差的定义求解即可；\n（2）画树状图即可得解；\n（3）从对平均数、中位数、众数、方差任一统计量进行比较即可；\n【解答】解：（1）a$=\\frac{84+86}{2}=$85；\nb＝87；\nc$=\\frac{(64-84)^{2}+(74-84)^{2}+(78-84)^{2}+(82-84)^{2}+(84-84)^{2}+(86-84)^{2}+(86-84)^{2}+(92-84)^{2}+(96-84)^{2}+(98-84)^{2}}{10}=$95.2．\n故答案为：85；87；95.2；\n（2）农村学校9（5分）以上学生有2人，分别记为$A_{1}$，$A_{2}$，\n城区学校9（5分）以上学生有2人，分别记为$B_{1}$，$B_{2}$，\n画树状图如下：\n[[image:rId62]]，\n由树状图可知，共有12种可能的结果，每种结果出现的可能性相同，其中所选2名学生恰好都是城区学生的结果有2种，\n∴P（所选2名学生恰好都是城区学生）$=\\frac{2}{12}=\\frac{1}{6}$；\n（3）答案不唯一，只要能对平均数、中位数、众数、方差任一统计量进行比较，数据大小比较正确，建议合理即给满分．\n例：从平均数看，城区学校和农村学校的艺术成绩水平相同，建议继续保持城乡优质均衡发展；\n从中位数看，城区学校的艺术成绩的中位数高于农村学校的艺术成绩的中位数，建议加强农村学校艺术教学；\n从众数看，城区学校的艺术成绩的众数高于农村学校的艺术成绩的众数，建议提高农村学校艺术教学水平；\n从方差看，城区学校艺术成绩的方差大于农村学校艺术成绩的方差，城区学校艺术成绩波动较大，建议减小两极分化．\n【点评】本题主要考查了数据分析、概率统计等相关内容，熟练掌握相关知识是解题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平均数",
+          "中位数",
+          "众数"
+        ],
+        "reasoning": "题目涉及计算农村和城区学校艺术成绩的平均数、中位数和众数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平均数\", \"中位数\", \"众数\"],\n  \"reasoning\": \"题目涉及计算农村和城区学校艺术成绩的平均数、中位数和众数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "如图，AB是⊙O的直径，C，D是⊙O上的两点，AD=DC=CB，DF⊥BC于点F，延长FD交BA的延长线于点E，连接BD．\n（1）求证：DF是⊙O的切线；\n（2）若⊙O的半径为1，求图中阴影部分的面积．\n[图1]",
+      "stem_markdown": "如图，AB是⊙O的直径，C，D是⊙O上的两点，$AD=DC=CB$，DF⊥BC于点F，延长FD交BA的延长线于点E，连接BD．\n（1）求证：DF是⊙O的切线；\n（2）若⊙O的半径为1，求图中阴影部分的面积．\n![2025年山东省东营市中考数学试卷_q021_img01](assets/2025年山东省东营市中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）连接OD，根据圆周角定理、等腰三角形的性质得到∠ODB＝∠FBD，得到OD∥BF，证明DF⊥OD，根据切线的判定证明；\n（2）根据三角形面积公式、扇形面积公式计算，得到答案．\n【解答】（1）证明：如图，连接OD，\n∵$AD=CD$，\n∴∠ABD＝∠FBD，\n∵OB＝OD，\n∴∠ABD＝∠ODB，\n∴∠ODB＝∠FBD，\n∴OD∥BF，\n∵DF⊥BC，\n∴DF⊥OD，\n∵OD是⊙O的半径，\n∴DF是⊙O的切线；\n（2）解：∵$AD=CD=$$BC$，\n∴∠DOE＝180°$×\\frac{1}{3}=$60°，\n∴DE＝OD•tan∠DOE$=\\sqrt{3}$，\n∴$S_{阴影部分}＝S_{△}_{EOD}﹣S_{扇形}_{AOD}=\\frac{1}{2}×$$\\sqrt{3}×$1$-\\frac{60π×1^{2}}{360}=\\frac{\\sqrt{3}}{2}-$$\\frac{π}{6}$．\n[[image:rId64]]\n【点评】本题考查的是切线的判定、扇形面积计算，熟记经过半径的外端且垂直于这条半径的直线是圆的切线是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q021_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆周角定理",
+          "等腰三角形的性质",
+          "切线的判定",
+          "扇形面积公式"
+        ],
+        "reasoning": "（1）利用圆周角定理和等腰三角形性质证明OD∥BF，再由DF⊥BC得出DF⊥OD，从而证明DF是⊙O的切线；（2）通过计算扇形面积和三角形面积得出阴影部分面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆周角定理\", \"等腰三角形的性质\", \"切线的判定\", \"扇形面积公式\"],\n  \"reasoning\": \"（1）利用圆周角定理和等腰三角形性质证明OD∥BF，再由DF⊥BC得出DF⊥OD，从而证明DF是⊙O的切线；（2）通过计算扇形面积和三角形面积得出阴影部分面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "五一假期，小良家准备购买一套新楼房，要求楼层是一楼，位置在第二排，冬天采光不受第一排的影响．以下是小良和爸爸看房后完成的调查报告，请你根据报告中的信息，解决两个问题．\n调查目的 | 居民楼一楼采光是否受到影响\n调查数据 | ①五一正午测得楼房影子的长度为4.4m，楼间距为19m，太阳光线与水平线的夹角为70°． ②一楼窗户下端距离地面的高度为1.4m． ③该小区冬至正午的太阳光线与水平线的夹角α为30°，第一排楼房的影子会落在第二排楼房的墙上．\n建立模型 | 小良同学根据调查数据画出了数学图形．如图，AB⊥BC，DE⊥BC，BC＝4.4m，BE＝19m，∠ACB＝70°，∠α＝30°． | [图1]\n测量工具 | 卷尺\n参考数据 | \\sqrt{3}≈1.73，sin70°≈0.94，cos70°≈0.34，tan70°≈2.75\n问题解决 | （1）根据调查数据，请你计算楼房AB的高度（精确到lm）； （2）计算在冬至正午第一排楼房影子落在第二排楼房墙上的高度DE，并判断会不会影响一楼的采光（精确到0.1m）． | [图1]",
+      "stem_markdown": "五一假期，小良家准备购买一套新楼房，要求楼层是一楼，位置在第二排，冬天采光不受第一排的影响．以下是小良和爸爸看房后完成的调查报告，请你根据报告中的信息，解决两个问题．\n| 调查目的 | 居民楼一楼采光是否受到影响 |  |\n| --- | --- | --- |\n| 调查数据 | ①五一正午测得楼房影子的长度为4.4m，楼间距为19m，太阳光线与水平线的夹角为70°． ②一楼窗户下端距离地面的高度为1.4m． ③该小区冬至正午的太阳光线与水平线的夹角α为30°，第一排楼房的影子会落在第二排楼房的墙上． |  |\n| 建立模型 | 小良同学根据调查数据画出了数学图形．如图，AB⊥BC，DE⊥BC，BC＝4.4m，BE＝19m，∠ACB＝70°，∠α＝30°． | ![2025年山东省东营市中考数学试卷_q022_img01](assets/2025年山东省东营市中考数学试卷_q022_img01.png) |\n| 测量工具 | 卷尺 |  |\n| 参考数据 | $\\sqrt{3}≈$1.73，sin70°≈0.94，cos70°≈0.34，tan70°≈2.75 |  |\n| 问题解决 | （1）根据调查数据，请你计算楼房AB的高度（精确到lm）； （2）计算在冬至正午第一排楼房影子落在第二排楼房墙上的高度DE，并判断会不会影响一楼的采光（精确到0.1m）． | ![2025年山东省东营市中考数学试卷_q022_img02](assets/2025年山东省东营市中考数学试卷_q022_img02.png) |",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据正切的定义求出AB；\n（2）过点D作DF⊥AB于F，根据正切的定义求出AF，进而求出BF，判断即可．\n【解答】解：（1）在Rt△ABC中，BC＝4.4m，∠ACB＝70°，\n∵tan∠ACB$=\\frac{AB}{BC}$，\n∴AB＝BC•tan∠ACB＝4.4×2.75≈12（m），\n答：楼房AB的高度约为12m；\n（2）如图，过点D作DF⊥AB于F，\n[[image:rId67]]\n则四边形FBED为矩形，\n∴DF＝BE＝19m，DE＝BF，\n在Rt△AFD中，DF＝19m，∠ADF＝30°，\n∵tan∠ADF$=\\frac{AF}{DF}$，\n∴AF＝DF•tan∠ADF＝19$×\\frac{\\sqrt{3}}{3}≈$10.96（m），\n∴BF＝AB﹣AF＝12﹣10.96≈1.0（m），\n∵1.0＜1.4，\n∴不会影响一楼的采光．\n【点评】本题考查的是解直角三角形的应用，熟记锐角三角函数的定义是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q022_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q022_img02",
+          "path": "assets/2025年山东省东营市中考数学试卷_q022_img02.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "直角三角形",
+          "锐角三角函数",
+          "垂直"
+        ],
+        "reasoning": "问题（1）使用正切函数计算楼房高度；问题（2）通过构造直角三角形并应用锐角三角函数判断影响。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"直角三角形\", \"锐角三角函数\", \"垂直\"],\n  \"reasoning\": \"问题（1）使用正切函数计算楼房高度；问题（2）通过构造直角三角形并应用锐角三角函数判断影响。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "某文创公司设计了一款黄蓝交汇纪念章，成本价为每个50元，以每个不低于成本价且不超过75元的价格销售，售价x（元/个）与每天销售量y（个）的对应值表格如下：\nx（元/个） | … | 52 | 53 | 54 | 55 | …\ny（个） | … | 760 | 740 | 720 | 700 | …\n（1）求出y与x的函数表达式，并写出自变量的取值范围；\n（2）当售价定为多少元时，每天的利润可达到6000元？",
+      "stem_markdown": "某文创公司设计了一款黄蓝交汇纪念章，成本价为每个50元，以每个不低于成本价且不超过75元的价格销售，售价x（元/个）与每天销售量y（个）的对应值表格如下：\n| x（元/个） | … | 52 | 53 | 54 | 55 | … |\n| --- | --- | --- | --- | --- | --- | --- |\n| y（个） | … | 760 | 740 | 720 | 700 | … |\n（1）求出y与x的函数表达式，并写出自变量的取值范围；\n（2）当售价定为多少元时，每天的利润可达到6000元？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设y与x的函数关系式为y＝kx+b（k≠0），利用待定系数法求出y与x的函数关系式，再根据成本价为每个50元，以每个不低于成本价且不超过75元的价格销售，确定x的取值范围即可；\n（2）利用总利润＝每卷的销售利润×日销售量，结合每天的利润可达到6000元，列出一元二次方程，解之取其符合题意的值，即可得出结论．\n【解答】解：（1）由表格数据可知，y与x满足一次函数关系，\n设y与x的函数关系式为：y＝kx+b（k≠0），\n将（52，760），（53，740）代入y＝kx+b得：\n$\\begin{cases} 52k+b=760 \\\\ 53k+b=740 \\end{cases}$，\n解得：$\\begin{cases} k=-20 \\\\ b=1800 \\end{cases}$，\n∵成本价为每个50元，以每个不低于成本价且不超过75元的价格销售，\n∴50≤x≤75，\n∴y与x的函数关系式为：y＝﹣20x+1800（50≤x≤75）；\n（2）根据题意得：（x﹣50）（﹣20x+1800）＝6000，\n整理得：$x^{2}$﹣140x+4800＝0，\n解得：$x_{1}$＝60，$x_{2}$＝80（不符合题意，舍去），\n答：当售价定为60元时，每天的利润可达到6000元．\n【点评】本题考查了一元二次方程的应用、待定系数法以及一次函数的应用，解题的关键是：（1）由待定系数法找出y与x的函数关系式；（2）找准等量关系，正确列出一元二次方程．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数",
+          "一元二次方程",
+          "利润计算"
+        ],
+        "reasoning": "第（1）问通过表格数据确定y与x的一次函数关系，第（2）问通过利润公式列出一元二次方程求解",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数\", \"一元二次方程\", \"利润计算\"],\n  \"reasoning\": \"第（1）问通过表格数据确定y与x的一次函数关系，第（2）问通过利润公式列出一元二次方程求解\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "（1）探索发现\n东营市全面落实国家课程方案．某校开设了纸艺课程，三个项目组在折纸活动中发现：在Rt△ABC中，∠ACB＝90°，∠ABC＝30°，折叠△ABC，使AC边落在AB边上，折痕为AD，则BD，CD与∠BAC的两边AB，AC存在着某种关系．\n如图1，请你帮助项目组判断\\frac{AB}{AC}与\\frac{BD}{CD}的数量关系为 ____ ．\n（2）猜想验证\n项目组猜想：当△ABC为任意三角形时，上述数量关系仍然成立．为了验证这一猜想，项目组按照（1）中的方法折叠，AD为折痕，分别得出了不同的方案，并画出了以下图形．请选择任意一种方案证明．\n（3）拓展应用\n如图5，在△ABC中，AD平分∠BAC交BC于点D，E为BC延长线上一点，AE＝DE．求证：\\frac{BD}{CD}=\\frac{DE}{CE}．\n[图1]",
+      "stem_markdown": "（1）探索发现\n东营市全面落实国家课程方案．某校开设了纸艺课程，三个项目组在折纸活动中发现：在Rt△ABC中，∠ACB＝90°，∠ABC＝30°，折叠△ABC，使AC边落在AB边上，折痕为AD，则BD，CD与∠BAC的两边AB，AC存在着某种关系．\n如图1，请你帮助项目组判断$\\frac{AB}{AC}$与$\\frac{BD}{CD}$的数量关系为 ____ ．\n（2）猜想验证\n项目组猜想：当△ABC为任意三角形时，上述数量关系仍然成立．为了验证这一猜想，项目组按照（1）中的方法折叠，AD为折痕，分别得出了不同的方案，并画出了以下图形．请选择任意一种方案证明．\n（3）拓展应用\n如图5，在△ABC中，AD平分∠BAC交BC于点D，E为BC延长线上一点，AE＝DE．求证：$\\frac{BD}{CD}=\\frac{DE}{CE}$．\n![2025年山东省东营市中考数学试卷_q024_img01](assets/2025年山东省东营市中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "$\\frac{AB}{AC}=\\frac{BD}{CD}$",
+      "solution": "【分析】（1）根据30°的直角三角形的性质即可求解；\n（2）根据各组方案作的辅助线思路补充过程即可；\n（3）易证△EAB∽△ECA，可得$\\frac{BA}{CA}=\\frac{AE}{CE}$，再结合（2）中结论，即可得证．\n【解答】（1）解：由题可知AD平分∠BAC，\n∵∠B＝30°，\n∴∠ABD＝CAD＝30°，\n∴AD＝BD，\n在Rt△ACD中，CD$=\\frac{1}{2}$AD$=\\frac{1}{2}BD$，\n在Rt△ABC中，AC$=\\frac{1}{2}AB$，\n∴$\\frac{AB}{AC}=\\frac{BD}{CD}=$$\\frac{2}{1}$，\n故答案为：$\\frac{AB}{AC}=\\frac{BD}{CD}$；\n（2）解：项目1组方案：如图2，过点D作DE∥AC于点E，\n[[image:rId69]]\n则∠EDA＝∠2，\n由折叠的性质可知∠1＝∠2，\n∴∠EDA＝∠1，\n∴AE＝DE，\n∵DE∥AC，\n∴$\\frac{BD}{CD}=\\frac{BE}{AE}$，△BDE∽△BCA，\n∴$\\frac{BE}{DE}=\\frac{BA}{CA}$，\n∵AE＝DE，\n∴$\\frac{BA}{CA}=\\frac{BD}{CD}$；\n项目2组方案：过C作CE∥AD，交BA延长线于点E，\n[[image:rId70]]\n则∠1＝∠E，∠2＝∠ACE，\n由折叠的性质可知∠1＝∠2，\n∴∠ACE＝∠E，\n∴AC＝AE，\n∵AD∥CE，\n∴$\\frac{BD}{CD}=\\frac{BA}{AE}=\\frac{BA}{CA}$；\n项目3组方案：如图4，过点C作CF⊥AD于点F，过点作BE⊥AD，交AD的延长线于点E，\n[[image:rId71]]\n则BE∥CF，\n∴$\\frac{BD}{CD}=\\frac{BE}{CF}$，\n由折叠的性质可知∠1＝∠2，\n∵∠E＝∠AFC＝90°，\n∴△ABE∽△ACF，\n∴$\\frac{AB}{AC}=\\frac{BE}{CF}$，\n∴$\\frac{BD}{CD}=\\frac{BA}{CA}$；\n（3）证明：∵AD平分∠BAC，\n∴∠1＝∠2，\n∵DE＝AE，\n∴∠DAE＝∠ADE，\n∵∠DAE＝∠2+∠CAE，∠ADE＝∠1+∠B，\n∴∠CAE＝∠B，\n∵∠E＝∠E，\n∴△EAB∽△ECA，\n∴$\\frac{BA}{CA}=\\frac{AE}{CE}$，\n∵AE＝DE，\n∴$\\frac{BA}{CA}=\\frac{DE}{CE}$，\n由（2）知$\\frac{BD}{CD}=\\frac{BA}{CA}$，\n∴$\\frac{BD}{CD}=\\frac{DE}{CE}$．\n【点评】本题主要考查了折叠的性质、平行线的性质、等腰三角形的判定和性质、相似三角形的判定和性质等内容，熟练掌握相关知识是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q024_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "平行线的性质",
+          "等腰三角形的判定"
+        ],
+        "reasoning": "题目涉及相似三角形的性质和等腰三角形的判定，以及平行线的性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"平行线的性质\", \"等腰三角形的判定\"],\n  \"reasoning\": \"题目涉及相似三角形的性质和等腰三角形的判定，以及平行线的性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山东省东营市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "如图，抛物线y＝﹣x²+bx+c交x轴于A，B两点，交y轴于点C，其中A（﹣1，0），C（0，5）．\n（1）求抛物线的表达式；\n（2）点P为对称轴上一点，当△ACP的周长最小时，求点P的坐标；\n（3）点M为对称轴上一点，点N为抛物线上一点，若以A，C，M，N为顶点的四边形是平行四边形，请直接写出点N的坐标．\n[图1]\n2025年山东省东营市中考数学试卷",
+      "stem_markdown": "如图，抛物线y＝﹣$x^{2}$+bx+c交x轴于A，B两点，交y轴于点C，其中A（﹣1，0），C（0，5）．\n（1）求抛物线的表达式；\n（2）点P为对称轴上一点，当△ACP的周长最小时，求点P的坐标；\n（3）点M为对称轴上一点，点N为抛物线上一点，若以A，C，M，N为顶点的四边形是平行四边形，请直接写出点N的坐标．\n![2025年山东省东营市中考数学试卷_q025_img01](assets/2025年山东省东营市中考数学试卷_q025_img01.png)\n2025年山东省东营市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）将点A、C坐标代入即可得解；\n（2）由题易得直线BC与对称轴的交点即为点P，据此求解即可；\n（3）根据平行四边形相对的两个顶点横纵坐标之和相等，建立方程求解即可．\n【解答】解：（1）∵抛物线y＝﹣$x^{2}$+bx+c经过点A（﹣1，0），C（0，5），\n∴$\\begin{cases} 0=-1-b+c \\\\ 5=c， \\end{cases}$解，\n得$\\begin{cases} b=4， \\\\ c=5， \\end{cases}$\n∴抛物线的表达式为y＝﹣$x^{2}$+4x+5；\n（2）∵抛物线的表达式为y＝﹣$x^{2}$+4x+5＝﹣（x﹣2）^{2}+9，\n∴抛物线的对称轴为直线x＝2，点B的坐标为（5，0）．\n如图所示，点A，B关于直线x＝2对称，连接BC交对称轴于点P，点P即为所求，\n[[image:rId73]]\n设直线BC的表达式为y＝mx+n（m≠0），\n则$\\begin{cases} 0=5m+n， \\\\ 5=n， \\end{cases}$\n解得$\\begin{cases} m=-1， \\\\ n=5， \\end{cases}$\n∴直线BC的表达式为y＝﹣x+5，\n当x＝2时，y＝3，\n∴点P的坐标为（2，3）；\n（3）由（2）可知，抛物线的对称轴是直线x＝2．\n设点M（2，m），N（n，﹣$n^{2}$+4n+5），分以下三种情况讨论．\n①当AC为对角线时，\n∵A（﹣1，0），C（0，5），\n∴2+n＝﹣1+0，\n解得n＝﹣3，\n此时﹣$n^{2}$+4n+5＝﹣16，\n∴N（﹣3，﹣16）；\n②当AN为对角线时，﹣1+n＝0+2，\n解得n＝3，\n此时﹣$n^{2}$+4n+5＝8，\n∴N（3，8）；\n③当AM为对角线时，0+n＝﹣1+2，\n解得n＝1，\n此时﹣$n^{2}$+4n+5＝8，\n∴N（1，8）．\n综上所述，点N的坐标为（﹣3，﹣16），（3，8）或（1，8）．\n【点评】本题主要考查了二次函数的解析式、二次函数点的坐标特征、将军饮马模型、平行四边形的性质等内容，熟练掌握相关知识是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:14:14；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId75]] ____ [[image:rId76]] ____ [[image:rId77]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年山东省东营市中考数学试卷_q025_img01",
+          "path": "assets/2025年山东省东营市中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的解析式",
+          "对称轴与顶点坐标",
+          "平行四边形的性质",
+          "一次函数的图像与性质"
+        ],
+        "reasoning": "第（1）问通过给定点A、C的坐标求抛物线表达式，考察二次函数的解析式；第（2）问通过求直线BC与对称轴的交点，考察对称轴与顶点坐标的性质；第（3）问通过平行四边形的性质，考察一次函数的图像与性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的解析式\", \"对称轴与顶点坐标\", \"平行四边形的性质\", \"一次函数的图像与性质\"],\n  \"reasoning\": \"第（1）问通过给定点A、C的坐标求抛物线表达式，考察二次函数的解析式；第（2）问通过求直线BC与对称轴的交点，考察对称轴与顶点坐标的性质；第（3）问通过平行四边形的性质，考察一次函数的图像与性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:58:14",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 25,
+      "ok": 25,
+      "fallback": 0
+    }
+  }
+}

@@ -1,0 +1,956 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年吉林省中考数学试卷",
+  "source": {
+    "name": "2025年吉林省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年吉林省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年吉林省中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "如图，点A表示的数是1．若将点A向左移动3个单位长度得到点A′，则点A′表示的数为（ ）\n[图1]",
+      "stem_markdown": "如图，点A表示的数是1．若将点A向左移动3个单位长度得到点A′，则点A′表示的数为（ ）\n![2025年吉林省中考数学试卷_q001_img01](assets/2025年吉林省中考数学试卷_q001_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣3"
+        },
+        {
+          "label": "B",
+          "text": "﹣2"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据左减右加列式进行计算即可求解．\n【解答】解：点A′表示的数为1﹣3＝﹣2．\n故选：B．\n【点评】此题考查了数轴，本题考查了数轴，熟记数轴上的数的移动，左减右加是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q001_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q001_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "数轴上的数的移动",
+          "左减右加"
+        ],
+        "reasoning": "题中设问要求根据数轴上点A向左移动的距离计算新位置的数，涉及数轴上的数的移动原则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"数轴上的数的移动\", \"左减右加\"],\n  \"reasoning\": \"题中设问要求根据数轴上点A向左移动的距离计算新位置的数，涉及数轴上的数的移动原则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "一个正方体的展开图如图所示，把它折叠成正方体后，有“的”字一面的相对面上的字为（ ）\n[图1]",
+      "stem_markdown": "一个正方体的展开图如图所示，把它折叠成正方体后，有“的”字一面的相对面上的字为（ ）\n![2025年吉林省中考数学试卷_q002_img01](assets/2025年吉林省中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "我"
+        },
+        {
+          "label": "B",
+          "text": "中"
+        },
+        {
+          "label": "C",
+          "text": "国"
+        },
+        {
+          "label": "D",
+          "text": "梦"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据正方体表面展开图的特征进行判断即可．\n【解答】解：根据正方体表面展开图的“相间、Z端是对面”可知，“国”与“的”是对面，\n故选：C．\n【点评】本题考查正方体相对两个面上的文字，掌握正方体表面展开图的特征是正确解答的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q002_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q002_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相对面",
+          "正方体展开图"
+        ],
+        "reasoning": "题中考察了正方体展开图中相对面的对应关系",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相对面\", \"正方体展开图\"],\n  \"reasoning\": \"题中考察了正方体展开图中相对面的对应关系\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "计算（2a²）³的结果为（ ）",
+      "stem_markdown": "计算$(2a^{2})^{3}$的结果为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2a^{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$2a^{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$8a^{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$8a^{6}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据幂的乘方与积的乘方的计算方法进行计算即可．\n【解答】解：$(2a^{2})^{3}$＝2^{3}•$(a^{2})^{3}＝8a^{6}$．\n故选：D．\n【点评】本题考查幂的乘方与积的乘方，掌握幂的乘方与积的乘方的计算方法是正确解答的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "幂的乘方",
+          "积的乘方"
+        ],
+        "reasoning": "题目计算（2a²）³，涉及幂的乘方与积的乘方的计算方法。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"幂的乘方\", \"积的乘方\"],\n  \"reasoning\": \"题目计算（2a²）³，涉及幂的乘方与积的乘方的计算方法。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "不等式x﹣3＞2的解集为（ ）",
+      "stem_markdown": "不等式x﹣3＞2的解集为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x＞5"
+        },
+        {
+          "label": "B",
+          "text": "x＜5"
+        },
+        {
+          "label": "C",
+          "text": "x＞﹣1"
+        },
+        {
+          "label": "D",
+          "text": "x＜﹣1"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】移项、合并同类项即可得出答案．\n【解答】解：∵x﹣3＞2，\n∴移项得：x＞2+3，\n合并同类项得：x＞5，\n故选：A．\n【点评】本题主要考查解一元一次不等式的基本能力，严格遵循解不等式的基本步骤是关键，尤其需要注意不等式两边都乘以或除以同一个负数不等号方向要改变．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式解法",
+          "不等式的移项",
+          "不等式的合并同类项"
+        ],
+        "reasoning": "题中解不等式x﹣3＞2需要移项和合并同类项",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式解法\", \"不等式的移项\", \"不等式的合并同类项\"],\n  \"reasoning\": \"题中解不等式x﹣3＞2需要移项和合并同类项\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "如图，风力发电机的叶片在风的吹动下转动，使风能转化为电能．图中的三个叶片组成的图形绕着它的中心旋转角α后，能够与它本身重合，则角α的大小可以为（ ）\n[图1]",
+      "stem_markdown": "如图，风力发电机的叶片在风的吹动下转动，使风能转化为电能．图中的三个叶片组成的图形绕着它的中心旋转角α后，能够与它本身重合，则角α的大小可以为（ ）\n![2025年吉林省中考数学试卷_q005_img01](assets/2025年吉林省中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "90°"
+        },
+        {
+          "label": "B",
+          "text": "120°"
+        },
+        {
+          "label": "C",
+          "text": "150°"
+        },
+        {
+          "label": "D",
+          "text": "180°"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】先求出正三角形的中心角，再根据旋转变换的性质解答即可．\n【解答】解：360°÷3＝120°，\n图中的三个叶片组成的图形绕着它的中心旋转角α后，能够与它本身重合，则角α的大小可以为120°．\n故选：B．\n【点评】本题考查了旋转对称图形、正多边形的性质，掌握正三角形的中心角是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q005_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "旋转对称图形",
+          "正多边形的性质"
+        ],
+        "reasoning": "题中描述图形绕中心旋转后与自身重合，考察旋转对称图形的性质；正三角形的中心角是关键。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"旋转对称图形\", \"正多边形的性质\"],\n  \"reasoning\": \"题中描述图形绕中心旋转后与自身重合，考察旋转对称图形的性质；正三角形的中心角是关键。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，在△ABC中，∠B＝45°，∠A＞∠ACB＞∠B，尺规作图操作如下：（1）以点B为圆心，适当长为半径画弧，分别交边BA，BC于点M，N；（2）以点C为圆心，BN长为半径画弧，交边CB于点N′；再以点N′为圆心，MN长为半径画弧，与前一条以点C为圆心的弧相交于三角形内部的点M′；（3）过点M′画射线CM′交边AB于点D．下列结论错误的为（ ）\n[图1]",
+      "stem_markdown": "如图，在△ABC中，∠B＝45°，∠A＞∠ACB＞∠B，尺规作图操作如下：（1）以点B为圆心，适当长为半径画弧，分别交边BA，BC于点M，N；（2）以点C为圆心，BN长为半径画弧，交边CB于点N′；再以点N′为圆心，MN长为半径画弧，与前一条以点C为圆心的弧相交于三角形内部的点M′；（3）过点M′画射线CM′交边AB于点D．下列结论错误的为（ ）\n![2025年吉林省中考数学试卷_q006_img01](assets/2025年吉林省中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "∠B＝∠DCB"
+        },
+        {
+          "label": "B",
+          "text": "∠BDC＝90°"
+        },
+        {
+          "label": "C",
+          "text": "DB＝DC"
+        },
+        {
+          "label": "D",
+          "text": "AD+DC＝BC"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】判断出选项A，B，C正确可得结论．\n【解答】解：由作图可知∠B＝∠DCB＝45°，\n∴DB＝DC，∠BDC＝90°，\n故选项A，B，C正确．\n故选：D．\n【点评】本题考查作图﹣基本作图，等腰三角形的判定和性质，等腰直角三角形等知识，解题的关键是理解题意，灵活运用所学知识解决问题．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q006_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的判定",
+          "等腰直角三角形的性质",
+          "直角三角形的性质"
+        ],
+        "reasoning": "作图过程中构造等腰三角形DCB和等腰直角三角形DM'B，利用等腰三角形和直角三角形的性质判断选项",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的判定\", \"等腰直角三角形的性质\", \"直角三角形的性质\"],\n  \"reasoning\": \"作图过程中构造等腰三角形DCB和等腰直角三角形DM'B，利用等腰三角形和直角三角形的性质判断选项\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "blank",
+      "stem_text": "因式分解：a²﹣ab＝ ____ ．",
+      "stem_markdown": "因式分解：$a^{2}$﹣ab＝ ____ ．",
+      "options": [],
+      "answer": "a（a﹣b）．",
+      "solution": "解：$a^{2}$﹣ab＝a（a﹣b） ．\n【分析】直接提公因式a即可．\n【解答】解：原式＝a（a﹣b），\n故答案为：a（a﹣b）．\n【点评】本题考查提公因式法分解因式，掌握提公因式法是正确解答的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "提取公因式法"
+        ],
+        "reasoning": "题目要求因式分解 a²﹣ab，直接提公因式 a 即可。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"提取公因式法\"],\n  \"reasoning\": \"题目要求因式分解 a²﹣ab，直接提公因式 a 即可。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "blank",
+      "stem_text": "计算：\\sqrt{3}+\\sqrt{12}= ____ ．",
+      "stem_markdown": "计算：$\\sqrt{3}+\\sqrt{12}=$ ____ ．",
+      "options": [],
+      "answer": "$3\\sqrt{3}$．",
+      "solution": "【分析】先化简二次根式，再合并同类二次根式即可．\n【解答】解：$\\sqrt{3}+\\sqrt{12}=\\sqrt{3}+2\\sqrt{3}=3\\sqrt{3}$，\n故答案为：$3\\sqrt{3}$．\n【点评】本题考查了二次根式的加减法，熟练掌握运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次根式的化简",
+          "二次根式的加法"
+        ],
+        "reasoning": "题目要求化简二次根式并合并同类项",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次根式的化简\", \"二次根式的加法\"],\n  \"reasoning\": \"题目要求化简二次根式并合并同类项\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "《孙子算经》中记载了这样一道题：今有三人共车，二车空；二人共车，九人步．问车几何？其译文为：有若干人乘车，若每3人同乘一车，最终剩余2辆空车；若每2人同乘一车，最终剩下9人因无车可乘而步行．问有多少辆车？为解决此问题，设共有x辆车，可列方程为 ____ ．",
+      "stem_markdown": "《孙子算经》中记载了这样一道题：今有三人共车，二车空；二人共车，九人步．问车几何？其译文为：有若干人乘车，若每3人同乘一车，最终剩余2辆空车；若每2人同乘一车，最终剩下9人因无车可乘而步行．问有多少辆车？为解决此问题，设共有x辆车，可列方程为 ____ ．",
+      "options": [],
+      "answer": "3（x﹣2）＝2x+9．",
+      "solution": "【分析】根据人数不变，即可得出关于x的一元一次方程，此题得解．\n【解答】解：依题意，得：3（x﹣2）＝2x+9．\n故答案为：3（x﹣2）＝2x+9．\n【点评】本题考查了由实际问题抽象出一元一次方程，找准等量关系，正确列出一元一次方程是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "实际问题与一元一次方程"
+        ],
+        "reasoning": "设车数x，根据每3人一车剩2辆空车和每2人一车剩9人步行建立方程",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"实际问题与一元一次方程\"],\n  \"reasoning\": \"设车数x，根据每3人一车剩2辆空车和每2人一车剩9人步行建立方程\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "如图，正五边形ABCDE的边AB，DC的延长线交于点F，则∠F的大小为 ____ 度．\n[图1]",
+      "stem_markdown": "如图，正五边形ABCDE的边AB，DC的延长线交于点F，则∠F的大小为 ____ 度．\n![2025年吉林省中考数学试卷_q010_img01](assets/2025年吉林省中考数学试卷_q010_img01.png)",
+      "options": [],
+      "answer": "36．",
+      "solution": "【分析】根据正多边形的内角和公式求出∠ABC＝∠BCD$=\\frac{(5-2)×180°}{5}=108°$，然后再根据邻补角性质，可得：∠ABC+∠FBC＝180°，∠BCD+∠BCF＝180°，即可求出∠FBC，∠BCF的度数，在△BCF中，根据三角形的内角和定理即可得出答案．\n【解答】解：∵五边形ABCDE是正五边形，\n∴∠ABC＝∠BCD$=\\frac{(5-2)×180°}{5}=108°$，\n∵∠ABC+∠FBC＝180°，∠BCD+∠BCF＝180°，\n∴∠FBC＝180°﹣∠ABC＝180°﹣108°＝72°，∠BCF＝180°﹣∠BCD＝180°﹣108°＝72°，\n在△BCF中，∠F+∠FBC+∠BCF＝180°，\n∴∠F＝180°﹣∠FBC﹣∠BCF\n＝180°﹣72°﹣72°\n＝108°﹣72°\n＝36°．\n故答案为：36．\n【点评】本题考查了多边形内角与外角，邻补角性质，三角形的内角和定理，掌握正多边形的内角和公式，三角形的内角和定理，邻补角性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q010_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正多边形的内角和公式",
+          "邻补角性质",
+          "三角形的内角和定理"
+        ],
+        "reasoning": "题中通过正五边形的内角计算∠ABC和∠BCD，再利用邻补角性质和三角形内角和定理求解∠F。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正多边形的内角和公式\", \"邻补角性质\", \"三角形的内角和定理\"],\n  \"reasoning\": \"题中通过正五边形的内角计算∠ABC和∠BCD，再利用邻补角性质和三角形内角和定理求解∠F。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "如图，在平面直角坐标系中，过原点O的直线与反比例函数y=\\frac{\\sqrt{3}}{x}的图象交于A，B两点，分别以点A，点B为圆心，画半径为1的⊙A和⊙B．当⊙A，⊙B分别与x轴相切时，切点分别为点C和点D，连接AC，BD，则阴影部分图形的面积和为 ____ ．（结果保留π）\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，过原点O的直线与反比例函数y$=\\frac{\\sqrt{3}}{x}$的图象交于A，B两点，分别以点A，点B为圆心，画半径为1的⊙A和⊙B．当⊙A，⊙B分别与x轴相切时，切点分别为点C和点D，连接AC，BD，则阴影部分图形的面积和为 ____ ．（结果保留π）\n![2025年吉林省中考数学试卷_q011_img01](assets/2025年吉林省中考数学试卷_q011_img01.png)",
+      "options": [],
+      "answer": "$\\frac{π}{3}$．",
+      "solution": "【分析】根据题意得到AC＝BD＝1，则A点的纵坐标为1，代入解析式求得A的坐标，进而求得∠OAC＝60°，利用扇形的面积公式即可求得两个象限中扇形的面积，进一步求得阴影部分图形的面积和．\n【解答】解：当⊙A，⊙B分别与x轴相切时，切点分别为点C和点D，\n∴AC⊥x轴，BD⊥x轴，\n∵半径为1，\n∴AC＝BD＝1，\n∴A点的纵坐标为1，\n把y＝1代入y$=\\frac{\\sqrt{3}}{x}$，求得x$=\\sqrt{3}$，\n∴A（$\\sqrt{3}$，1），\n∴OC$=\\sqrt{3}$，AC＝1，\n∴tan∠OAC$=\\frac{OC}{AC}=\\sqrt{3}$，\n∴∠OAC＝60°，\n∴第一象限中阴影的面积$S_{1}=\\frac{60π×1^{2}}{360}=$$\\frac{π}{6}$，\n同理，第三象限中阴影的面积$S_{2}=\\frac{π}{6}$，\n∴$S_{阴影}=\\frac{π}{3}$．\n故答案为：$\\frac{π}{3}$．\n【点评】本题是反比例函数与一次函数的交点的问题，考查了切线的性质，反比例函数图象上点的坐标特征，解直角三角形，扇形的面积，求得∠OAC＝60°是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q011_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q011_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数",
+          "切线性质",
+          "直角三角形",
+          "扇形面积"
+        ],
+        "reasoning": "题中通过切线性质得出∠OAC=60°，利用扇形面积公式计算阴影部分面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数\", \"切线性质\", \"直角三角形\", \"扇形面积\"],\n  \"reasoning\": \"题中通过切线性质得出∠OAC=60°，利用扇形面积公式计算阴影部分面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "solution",
+      "stem_text": "先化简，再求值：\\frac{a}{a-1}⋅\\frac{a^{2}-1}{a}，其中a＝2025．",
+      "stem_markdown": "先化简，再求值：$\\frac{a}{a-1}⋅\\frac{a^{2}-1}{a}$，其中a＝2025．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先将分子因式分解，再约分即可化简原式，继而将a的值代入计算即可．\n【解答】解：原式$=\\frac{a}{a-1}•\\frac{(a+1)(a-1)}{a}$\n＝a+1，\n当a＝2025时，\n原式＝a+1\n＝2025+1\n＝2026．\n【点评】本题主要考查分式的化简求值，解题的关键是掌握分式的混合运算顺序和运算法则．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "因式分解",
+          "分式的乘法与约分",
+          "代入求值"
+        ],
+        "reasoning": "题目要求先化简表达式再代入值，涉及因式分解、分式的乘法与约分以及代入求值。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"因式分解\", \"分式的乘法与约分\", \"代入求值\"],\n  \"reasoning\": \"题目要求先化简表达式再代入值，涉及因式分解、分式的乘法与约分以及代入求值。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "solution",
+      "stem_text": "在“健康中国2030”与“体重管理年”的行动引领下，某校田径社团开展了“2025健康长跑”活动．由于参加的人数较多，场地空间有限，活动将分A，B，C三组进行，每人只能被随机分配到其中一组，分组工作由计算机软件完成．请用画树状图或列表的方法，求参与者小刚和小利被分配到同一组的概率．",
+      "stem_markdown": "在“健康中国2030”与“体重管理年”的行动引领下，某校田径社团开展了“2025健康长跑”活动．由于参加的人数较多，场地空间有限，活动将分A，B，C三组进行，每人只能被随机分配到其中一组，分组工作由计算机软件完成．请用画树状图或列表的方法，求参与者小刚和小利被分配到同一组的概率．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】画树状图，共有9种等可能的结果，其中小刚和小利被分配到同一组的结果有1种，再由概率公式求解即可．\n【解答】解：画树状图如下：\n[[image:rId31]]\n共有9种等可能的结果，其中小刚和小利被分配到同一组的结果有3种，\n∴小刚和小利被分配到同一组的概率是$\\frac{3}{9}=\\frac{1}{3}$．\n【点评】此题考查了用树状图法求概率．树状图法可以不重复不遗漏的列出所有可能的结果，适合于两步完成的事件；树状图法适合两步或两步以上完成的事件．用到的知识点为：概率＝所求情况数与总情况数之比．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率计算",
+          "树状图法"
+        ],
+        "reasoning": "题中通过树状图法列举所有可能的分组情况并计算概率",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率计算\", \"树状图法\"],\n  \"reasoning\": \"题中通过树状图法列举所有可能的分组情况并计算概率\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "solution",
+      "stem_text": "吉林省长白山盛产人参、为促进我省特色经济的发展，某公司现将人参加工成甲、乙两种盒装的商品出售，甲、乙两种商品的售价分别为每盒25元和20元．某游客购买了甲、乙两种商品共10盒，花费230元．求该游客购买甲种商品和乙种商品的盒数．",
+      "stem_markdown": "吉林省长白山盛产人参、为促进我省特色经济的发展，某公司现将人参加工成甲、乙两种盒装的商品出售，甲、乙两种商品的售价分别为每盒25元和20元．某游客购买了甲、乙两种商品共10盒，花费230元．求该游客购买甲种商品和乙种商品的盒数．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】设游客购买甲种商品x盒，购买乙种商品y盒，根据游客购买了甲、乙两种商品共10盒，花费230元列方程组即可解得答案．\n【解答】解：设游客购买甲种商品x盒，购买乙种商品y盒，\n根据题意得：$\\begin{cases} x+y=10 \\\\ 25x+20y=230 \\end{cases}$，\n解得$\\begin{cases} x=6 \\\\ y=4 \\end{cases}$，\n答：游客购买甲种商品6盒，购买乙种商品4盒．\n【点评】本题考查二元一次方程组的应用，解题的关键是读懂题意，列出方程组．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "代数方程组",
+          "线性方程组的应用"
+        ],
+        "reasoning": "游客购买甲、乙两种商品共10盒，花费230元，通过建立方程组来解决实际问题。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"代数方程组\", \"线性方程组的应用\"],\n  \"reasoning\": \"游客购买甲、乙两种商品共10盒，花费230元，通过建立方程组来解决实际问题。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "solution",
+      "stem_text": "如图，在矩形ABCD中，点E，F在边BC上，连接AE，DF，∠BAE＝∠CDF．\n（1）求证：△ABE≌△DCF．\n（2）当AB＝12，DF＝13时，求BE的长．\n[图1]",
+      "stem_markdown": "如图，在矩形ABCD中，点E，F在边BC上，连接AE，DF，∠BAE＝∠CDF．\n（1）求证：△ABE≌△DCF．\n（2）当AB＝12，DF＝13时，求BE的长．\n![2025年吉林省中考数学试卷_q015_img01](assets/2025年吉林省中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据矩形的性质得AB＝CD，∠B＝∠C＝90°，然后利用ASA即可证明△ABE≌△DCF；\n（2）由（1）△ABE≌△DCF，得AE＝DF＝13，根据勾股定理即可求出BE的长．\n【解答】（1）证明：在矩形ABCD中，AB＝CD，∠B＝∠C＝90°，\n在△ABE和△DCF中，\n$\\begin{cases} ∠BAE=∠CDF \\\\ AB=CD \\\\ ∠B=∠C=90° \\end{cases}$，\n∴△ABE≌△DCF（ASA）；\n（2）解：由（1）知：△ABE≌△DCF，\n∴AE＝DF＝13，\n∵AB＝12，\n∴BE$=\\sqrt{AE^{2}-AB^{2}}=$5．\n【点评】本题考查矩形的性质，全等三角形的判定，勾股定理，掌握矩形的性质是解题的关键．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q015_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定（ASA）",
+          "勾股定理"
+        ],
+        "reasoning": "（1）通过∠BAE=∠CDF、AB=CD、∠B=∠C=90°证明全等；（2）利用全等得出AE=DF，再用勾股定理求BE",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定（ASA）\", \"勾股定理\"],\n  \"reasoning\": \"（1）通过∠BAE=∠CDF、AB=CD、∠B=∠C=90°证明全等；（2）利用全等得出AE=DF，再用勾股定理求BE\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "solution",
+      "stem_text": "图①、图②均是6×6的正方形网格，每个小正方形的顶点称为格点．△ABC内接于⊙O，且点A，B，C，O均在格点上．只用无刻度的直尺，在给定的网格中按要求画图．\n（1）在图①中找一个格点D（点D不与点C重合）；画出∠ADB，使∠ADB＝∠ACB．\n（2）在图②中找一个格点E，画出∠AEC，使∠AEC+∠ABC＝180°．\n[图1]",
+      "stem_markdown": "图①、图②均是6×6的正方形网格，每个小正方形的顶点称为格点．△ABC内接于⊙O，且点A，B，C，O均在格点上．只用无刻度的直尺，在给定的网格中按要求画图．\n（1）在图①中找一个格点D（点D不与点C重合）；画出∠ADB，使∠ADB＝∠ACB．\n（2）在图②中找一个格点E，画出∠AEC，使∠AEC+∠ABC＝180°．\n![2025年吉林省中考数学试卷_q016_img01](assets/2025年吉林省中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用圆周角定理作出图形；\n（2）利用圆内接四边形的性质作出图形．\n【解答】解：（1）如图①中，点D即为所求（答案不唯一）；\n[[image:rId34]]\n（2）如图②中，点E即为所求（答案不唯一）．\n【点评】本题考查作图﹣一一与设计作图，圆周角定理，三角形的外接圆与外心，解题的关键是理解题意，正确作出图形．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q016_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆周角定理",
+          "圆内接四边形的性质"
+        ],
+        "reasoning": "题中要求根据圆周角定理和圆内接四边形的性质作图",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆周角定理\", \"圆内接四边形的性质\"],\n  \"reasoning\": \"题中要求根据圆周角定理和圆内接四边形的性质作图\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "端午节是我国的传统节日．某食品公司为迎接端午节的到来，组织了“浓情端午，粽叶飘香”的包粽子比赛，规定：粽子质量为（150±9）克时，其质量等级为合格；粽子质量为（150±3）克时，其质量等级为优秀．共有甲、乙两个小组参加比赛，他们在相同时间内分别包了220个和200个粽子，质检员小李从甲、乙两个参赛小组所包粽子中各随机抽检10个，分别对它们的质量整理和分析，得到如下信息：\n被抽检粽子的质量（单位：克）分布\n甲组 | 144 | 146 | 147 | 148 | 150 | 152 | 152 | 152 | 154 | 155\n乙组 | 146 | [图1] | 147 | 147 | 150 | 150 | 151 | 153 | 154 | 155\n被抽检粽子质量的平均数和众数（单位：克）统计\n参赛小组 | 平均数 | 众数\n甲组 | 150 | 152\n乙组 | 150 | 147\n根据以上信息，回答下列问题：\n（1）在被抽检粽子的质量分布表中，有一个数据缺失，通过计算说明缺失数据对应的粽子的质量等级是否为优秀？\n（2）此次比赛规定：相同时间内所包粽子中质量等级为优秀的个数较多的小组获得奖励．估计甲、乙两个参赛小组哪组能获得奖励，并说明理由．",
+      "stem_markdown": "端午节是我国的传统节日．某食品公司为迎接端午节的到来，组织了“浓情端午，粽叶飘香”的包粽子比赛，规定：粽子质量为（150±9）克时，其质量等级为合格；粽子质量为（150±3）克时，其质量等级为优秀．共有甲、乙两个小组参加比赛，他们在相同时间内分别包了220个和200个粽子，质检员小李从甲、乙两个参赛小组所包粽子中各随机抽检10个，分别对它们的质量整理和分析，得到如下信息：\n被抽检粽子的质量（单位：克）分布\n| 甲组 | 144 | 146 | 147 | 148 | 150 | 152 | 152 | 152 | 154 | 155 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 乙组 | 146 | ![2025年吉林省中考数学试卷_q017_img01](assets/2025年吉林省中考数学试卷_q017_img01.png) | 147 | 147 | 150 | 150 | 151 | 153 | 154 | 155 |\n被抽检粽子质量的平均数和众数（单位：克）统计\n| 参赛小组 | 平均数 | 众数 |\n| --- | --- | --- |\n| 甲组 | 150 | 152 |\n| 乙组 | 150 | 147 |\n根据以上信息，回答下列问题：\n（1）在被抽检粽子的质量分布表中，有一个数据缺失，通过计算说明缺失数据对应的粽子的质量等级是否为优秀？\n（2）此次比赛规定：相同时间内所包粽子中质量等级为优秀的个数较多的小组获得奖励．估计甲、乙两个参赛小组哪组能获得奖励，并说明理由．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据众数的定义求解即可；\n（2）利用样本估计总体求出甲、乙小组优秀等级的个数即可．\n【解答】解：（1）因为乙组质量的众数为147，\n所以缺失的数据为147，且147＝150﹣3，质量等级为优秀；\n（2）乙参赛小组能获得奖励，理由如下：\n甲组优秀个数约为220$×\\frac{6}{10}=$132（个），\n乙组优秀个数约为200$×\\frac{7}{10}=$140（个），\n所以乙参赛小组能获得奖励．\n【点评】本题主要考查众数、样本估计总体，解题的关键是掌握众数的定义，并利用样本估计总体求出两个小组优秀等级个数．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q017_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "众数",
+          "样本估计总体",
+          "频率"
+        ],
+        "reasoning": "通过众数确定缺失数据的质量等级，利用样本估计总体比较优秀等级的个数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"众数\", \"样本估计总体\", \"频率\"],\n  \"reasoning\": \"通过众数确定缺失数据的质量等级，利用样本估计总体比较优秀等级的个数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "综合与实践：确定建筑物的3D打印模型的高度项目提出：如图是某城市规划展览馆，树人中学的3D打印社团为展示城市文化，准备制作该城市规划展览馆的3D打印模型，需要测量并计算展览馆高度，为制作3D打印模型提供数据．\n项目报告表 ____ 时间：2025年5月29日\n项目分析 | 活动目标 | 测量该城市规划展览馆的实际高度并换算其3D打印模型的高度\n测量工具 | 测角仪、皮尺\n项目⁢实施 | 任务一 测量数据 | [图1]以下是测得的相关数据，并画出了如图所示的测量草图． 1．测出测角仪的高CD＝1.4m． 2．利用测角仪测出展览馆顶端A的仰角∠ACE＝61°． 3．测出测角仪CD底端D处到展览馆AB底端B处之间的距离DB＝42m．\n任务二 计算实际高度 | 根据上述测得的数据，计算该城市规划展览馆AB的高度．（结果精确到1m） （参考数据：sin61°≈0.875，cos61°≈0.485，tan61°≈1.804）\n任务三 换算模型高度 | 将该城市规划展览馆AB的高度按1：400等比例缩小，得到其3D打印模型的高度约为 cm．（结果精确到1cm）\n项目结果 | 为社团制作城市规划展览馆的3D打印模型提供数据\n请结合上表中的测量草图和相关数据，帮助该社团完成任务二和任务三．\n[图1]",
+      "stem_markdown": "综合与实践：确定建筑物的3D打印模型的高度项目提出：如图是某城市规划展览馆，树人中学的3D打印社团为展示城市文化，准备制作该城市规划展览馆的3D打印模型，需要测量并计算展览馆高度，为制作3D打印模型提供数据．\n项目报告表 ____ 时间：2025年5月29日\n| 项目分析 | 活动目标 | 测量该城市规划展览馆的实际高度并换算其3D打印模型的高度 |\n| --- | --- | --- |\n| 测量工具 | 测角仪、皮尺 |  |\n| 项目⁢实施 | 任务一 测量数据 | ![2025年吉林省中考数学试卷_q018_img01](assets/2025年吉林省中考数学试卷_q018_img01.png)以下是测得的相关数据，并画出了如图所示的测量草图． 1．测出测角仪的高CD＝1.4m． 2．利用测角仪测出展览馆顶端A的仰角∠ACE＝61°． 3．测出测角仪CD底端D处到展览馆AB底端B处之间的距离DB＝42m． |\n| 任务二 计算实际高度 | 根据上述测得的数据，计算该城市规划展览馆AB的高度．（结果精确到1m） （参考数据：sin61°≈0.875，cos61°≈0.485，tan61°≈1.804） |  |\n| 任务三 换算模型高度 | 将该城市规划展览馆AB的高度按1：400等比例缩小，得到其3D打印模型的高度约为 cm．（结果精确到1cm） |  |\n| 项目结果 | 为社团制作城市规划展览馆的3D打印模型提供数据 |  |\n请结合上表中的测量草图和相关数据，帮助该社团完成任务二和任务三．\n![2025年吉林省中考数学试卷_q018_img02](assets/2025年吉林省中考数学试卷_q018_img02.png)",
+      "options": [],
+      "answer": "19．",
+      "solution": "【分析】任务一，在Rt△AEC中利用三角函数求出AE长，结合测角仪的高度，得到结果；\n任务二，利用所给的比例对计算出的结果进行换算即可．\n【解答】解：任务二，计算实际高度，\n∵依题意，四边形EBDC为矩形，\n∴CE＝DB＝42m，EB＝CD＝1.4m，\n∵在Rt△AEC中，∠AEC＝90°，∠ACE＝61°，\n∴AE＝CE•tan∠ACE＝42×tan61°≈75.8（m），\n∴AB＝AE+EB＝75.8+1.4＝77（m），\n答：该城市规划展览馆AB的高度约为77m；\n任务三，换算模型高度，\n设3D打即模型的高度为xm，\n∵x：77＝1：400，\n解得x＝0.1925，\n∴3D打即模型的高度为0.1925m，\n∵0.1925m＝19.25cm≈19cm，\n∴3D打即模型的高度约为19cm，\n故答案为：19．\n【点评】本题考查了解直角三角形的应用，熟练掌握解直角三角形是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q018_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q018_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年吉林省中考数学试卷_q018_img02",
+          "path": "assets/2025年吉林省中考数学试卷_q018_img02.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "勾股定理",
+          "相似三角形"
+        ],
+        "reasoning": "任务二使用正切函数计算高度，任务三通过比例换算模型高度",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"勾股定理\", \"相似三角形\"],\n  \"reasoning\": \"任务二使用正切函数计算高度，任务三通过比例换算模型高度\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "如图，在△ABC中，AB＝3\\sqrt{2}，BC＝5，∠BAC＝45°．动点P从点A出发，沿边AC以每秒1个单位长度的速度向终点C匀速运动．当点P出发后，以AP为边作正方形APDE，使点D和点B始终在边AC同侧．设点P的运动时间为x（s）（x＞0），正方形APDE与△ABC重叠部分图形的面积为y（平方单位）．\n（1）AC的长为 ____ ．\n（2）求y关于x的函数解析式，并写出自变量x的取值范围．\n（3）当正方形APDE的对称中心与点B重合时，直接写出y的值．\n[图1]",
+      "stem_markdown": "如图，在△ABC中，AB＝3$\\sqrt{2}$，BC＝5，∠BAC＝45°．动点P从点A出发，沿边AC以每秒1个单位长度的速度向终点C匀速运动．当点P出发后，以AP为边作正方形APDE，使点D和点B始终在边AC同侧．设点P的运动时间为x（s）（x＞0），正方形APDE与△ABC重叠部分图形的面积为y（平方单位）．\n（1）AC的长为 ____ ．\n（2）求y关于x的函数解析式，并写出自变量x的取值范围．\n（3）当正方形APDE的对称中心与点B重合时，直接写出y的值．\n![2025年吉林省中考数学试卷_q019_img01](assets/2025年吉林省中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "7",
+      "solution": "【分析】（1）当B，D重合时，通过勾股定理分别求出AP，CP即可求解；\n（2）将正方形APDE与△ABC重叠部分图形的面积分割成一个三角形的面积和直角梯形的面积之和来求解即可；\n（3）根据正方形APDE的对称中心与点B重合时，得出$AD=2AB=6\\sqrt{2}$再利用勾股定理求解即可．\n【解答】解：（1）当 B，D重合时，如图：\n[[image:rId39]]\n∵∠BAC＝45°，以AP为边作正方形APDE，\n∴△APD是等腰直角三角形，AP＝BP，$AB^{2}=\\sqrt{AP^{2}+DP^{2}}$，即18＝$2AP^{2}$，\n解得：AP＝3 （负的舍去），\n∵BC＝5，∠DPC＝90°，\n∴$PC=\\sqrt{BC^{2}-BP^{2}}=\\sqrt{5^{2}-3^{2}}=4$，\n∴AC＝AP+PC＝3+4＝7，\n故答案为：7；\n（2）当D在线段AB上运动时，y$=\\frac{1}{2}$AP•DP$=\\frac{1}{2}x^{2}$（0＜x≤3），\n当D在线段AB的延长线上运动时，即点P在线段PC上运动，\n如图：AP'＝x，PP'＝x﹣3，CP'＝7﹣x，CP＝4，BP＝3，\n[[image:rId40]]\n∵FP′∥BP，\n∴∠CFP′＝∠CBP，∠CP′F＝∠CPB，\n∴△CFP′∽△CBP，\n∴$\\frac{CP′}{CP}=\\frac{FP′}{BP}$，\n∴$\\frac{7-x}{4}=\\frac{FP′}{3}$，\n解得：$FP′=\\frac{21-3x}{4}$，\n∴y＝$S_{△}_{APD}+S_{梯形}_{PP}_{′}_{FB}=\\frac{1}{2}×$3^{2}$+\\frac{3+\\frac{21-3x}{4}}{2}×$（x﹣3）$=-\\frac{3}{8}$（x﹣7）^{2}+10.5，（3＜x≤7）′\n∴$y=\\begin{cases} \\frac{1}{2}x^{2}，0＜x≤3 \\\\ -\\frac{3}{8}(x-7)^{2}+10.5，3＜x≤7 \\end{cases}$；\n（3）当正方形APDE的对称中心与点B重合时，\n[[image:rId41]]\n∴$AD=2AB=6\\sqrt{2}$，\n∴AP＝DP，$AP^{2}+DP^{2}＝AD^{2}$，\n即$2AP^{2}$＝72，\n解得：AP＝6，\n∴x＝6，\n∴y$=\\frac{81}{8}$．\n【点评】本题考查了二次函数与几何图形问题，正方形的性质、三角形相似、勾股定理等知识，解题的关键是添加辅助线利用数形结合的思想进行求解．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q019_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "相似三角形",
+          "二次函数"
+        ],
+        "reasoning": "第（2）问通过分割图形求面积，涉及二次函数；第（3）问通过正方形对称中心与点B重合求解，涉及相似三角形和勾股定理。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"相似三角形\", \"二次函数\"],\n  \"reasoning\": \"第（2）问通过分割图形求面积，涉及二次函数；第（3）问通过正方形对称中心与点B重合求解，涉及相似三角形和勾股定理。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "【知识链接】\n实验目的：探究浮力的大小与哪些因素有关\n实验过程：如图①，在两个完全相同的溢水杯中，分别盛满甲、乙两种不同密度的液体，将完全相同的两个质地均匀的圆柱体小铝块分别悬挂在弹簧测力计A、B的下方，从离桌面20cm的高度，分别缓慢浸入到甲、乙两种液体中，通过观察弹簧测力计示数的变化，探究浮力大小的变化．（溢水杯的杯底厚度忽略不计）\n实验结论：物体在液体中所受浮力的大小，跟它浸在液体中的体积有关、跟液体的密度有关．物体浸在液体中的体积越大、液体的密度越大，浮力就越大．\n总结公式：当小铝块位于液面上方时，F拉力＝G重力；当小铝块浸入液面后，F拉力＝G重力﹣F浮力．\n【建立模型】在实验探究的过程中，实验小组发现：弹簧测力计A，B各自的示数F拉力（N）与小铝块各自下降的高度x（cm）之间的关系如图②所示．\n【解决问题】\n（1）当小铝块下降10cm时，直接写出弹簧测力计A和弹簧测力计B的示数．\n（2）当6≤x≤10时，求弹簧测力计A的示数F拉力关于x的函数解析式．\n（3）当弹簧测力计A悬挂的小铝块下降8cm时，甲液体中的小铝块受到的浮力为m（N），若使乙液体中的小铝块所受的浮力也为m（N），则乙液体中小铝块浸入的深度为n（cm），直接写出m，n的值．\n[图1]",
+      "stem_markdown": "【知识链接】\n实验目的：探究浮力的大小与哪些因素有关\n实验过程：如图①，在两个完全相同的溢水杯中，分别盛满甲、乙两种不同密度的液体，将完全相同的两个质地均匀的圆柱体小铝块分别悬挂在弹簧测力计A、B的下方，从离桌面20cm的高度，分别缓慢浸入到甲、乙两种液体中，通过观察弹簧测力计示数的变化，探究浮力大小的变化．（溢水杯的杯底厚度忽略不计）\n实验结论：物体在液体中所受浮力的大小，跟它浸在液体中的体积有关、跟液体的密度有关．物体浸在液体中的体积越大、液体的密度越大，浮力就越大．\n总结公式：当小铝块位于液面上方时，$F_{拉力}＝G_{重力}$；当小铝块浸入液面后，$F_{拉力}＝G_{重力}﹣F_{浮力}$．\n【建立模型】在实验探究的过程中，实验小组发现：弹簧测力计A，B各自的示数$F_{拉力}$（N）与小铝块各自下降的高度x（cm）之间的关系如图②所示．\n【解决问题】\n（1）当小铝块下降10cm时，直接写出弹簧测力计A和弹簧测力计B的示数．\n（2）当6≤x≤10时，求弹簧测力计A的示数$F_{拉力}$关于x的函数解析式．\n（3）当弹簧测力计A悬挂的小铝块下降8cm时，甲液体中的小铝块受到的浮力为m（N），若使乙液体中的小铝块所受的浮力也为m（N），则乙液体中小铝块浸入的深度为n（cm），直接写出m，n的值．\n![2025年吉林省中考数学试卷_q020_img01](assets/2025年吉林省中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）观察图象即可；\n（2）利用待定系数法解答即可；\n（3）当x＝8时，求出弹簧测力计A的示数$F_{拉力}$，根据$F_{拉力}＝G_{重力}﹣F_{浮力}$求出m的值；利用待定系数法求出当6≤x≤10时，设弹簧测力计B的示数$F_{拉力}$关于x的函数解析式，求出对应x的值并再减去6cm，即n的值．\n【解答】解：（1）当小铝块下降10cm时，弹簧测力计A的示数为2.8N，弹簧测力计B的示数为2.5N．\n（2）当6≤x≤10时，设弹簧测力计A的示数$F_{拉力}$关于x的函数解析式为$F_{拉力}$＝kx+b（k、b为常数，且k≠0），\n将坐标（6，4）和（10，2.8）分别代入$F_{拉力}$＝kx+b，\n得$\\begin{cases} 6k+b=4 \\\\ 10k+b=2.8 \\end{cases}$，\n解得$\\begin{cases} k=-0.3 \\\\ b=5.8 \\end{cases}$，\n∴当6≤x≤10时，设弹簧测力计A的示数$F_{拉力}$关于x的函数解析式为$F_{拉力}$＝﹣0.3x+5.8（6≤x≤10）．\n（3）根据图象，圆柱体小铝块所受重力为4N，\n当x＝8时，$F_{拉力}$＝﹣0.3×8+5.8＝3.4，\n4﹣3.4＝0.6（N），\n∴m＝0.6，\n当6≤x≤10时，设弹簧测力计B的示数$F_{拉力}$关于x的函数解析式为$F_{拉力}＝k_{1}$x+$b_{1}$（$k_{1}$、$b_{1}$为常数，且$k_{1}$≠0），\n将坐标（6，4）和（10，2.5）分别代入为$F_{拉力}＝k_{1}$x+$b_{1}$，\n得$\\begin{cases} 6k_{1}+b_{1}=4 \\\\ 10k_{1}+b_{1}=2.5 \\end{cases}$，\n解得$\\begin{cases} k_{1}=-0.375 \\\\ b_{1}=6.25 \\end{cases}$，\n∴当6≤x≤10时，设弹簧测力计B的示数$F_{拉力}$关于x的函数解析式为$F_{拉力}$＝﹣0.375x+6.25（6≤x≤10），\n当﹣0.375x+6.25＝3.4时，\n解得x＝7.6，\n7.6﹣6＝1.6（cm），\n∴n＝1.6．\n【点评】本题考查一次函数的应用，掌握待定系数法求一次函数的关系式是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q020_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数",
+          "代数表达式",
+          "物理量关系"
+        ],
+        "reasoning": "题中通过弹簧测力计示数随小铝块下降高度变化的图像，建立了一次函数模型来描述物理现象。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数\", \"代数表达式\", \"物理量关系\"],\n  \"reasoning\": \"题中通过弹簧测力计示数随小铝块下降高度变化的图像，建立了一次函数模型来描述物理现象。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "【问题背景】在学习了平行四边形后，某数学兴趣小组研究了有一个内角为60°的平行四边形的折叠问题．其探究过程如下：\n【探究发现】如图①，在▱ABCD中，∠A＝60°，AB＞AD，E为边AD的中点，点F在边DC上，且DF＝DE，连接EF，将△DEF沿EF翻折得到△GEF，点D的对称点为点G．小组成员发现四边形DEGF是一个特殊的四边形，请判断该四边形的形状，不需要说明理由．\n【探究证明】取图①中的边BC的中点M，点N在边AB上，且BN＝BM，连接MN，将△BMN沿MN翻折得到△HMN，点B的对称点为点H，连接FH，GN，如图②，求证：四边形GFHN是平行四边形．\n【探究提升】在图②中，四边形GFHN能否成为轴对称图形．如果能，直接写出\\frac{AD}{AB}的值；如果不能，说明理由．\n[图1]",
+      "stem_markdown": "【问题背景】在学习了平行四边形后，某数学兴趣小组研究了有一个内角为60°的平行四边形的折叠问题．其探究过程如下：\n【探究发现】如图①，在▱ABCD中，∠A＝60°，AB＞AD，E为边AD的中点，点F在边DC上，且DF＝DE，连接EF，将△DEF沿EF翻折得到△GEF，点D的对称点为点G．小组成员发现四边形DEGF是一个特殊的四边形，请判断该四边形的形状，不需要说明理由．\n【探究证明】取图①中的边BC的中点M，点N在边AB上，且BN＝BM，连接MN，将△BMN沿MN翻折得到△HMN，点B的对称点为点H，连接FH，GN，如图②，求证：四边形GFHN是平行四边形．\n【探究提升】在图②中，四边形GFHN能否成为轴对称图形．如果能，直接写出$\\frac{AD}{AB}$的值；如果不能，说明理由．\n![2025年吉林省中考数学试卷_q021_img01](assets/2025年吉林省中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】【探究发现】由将△DEF沿EF翻折得到△GEF，即知DE＝GE，DF＝GF，而DF＝DE，故GE＝DE＝DF＝GF，从而四边形DEGF是菱形；\n【探究证明】同【探究发现】可知四边形BMHN是菱形，有NH∥BC，而E为边AD的中点，M为边BC的中点，四边形ABCD是平行四边形，即可得DE＝BM，AD∥NH，又DE＝FG，FG∥AD，故FG＝DE＝BM＝HN，FG∥NH，从而四边形GFHN是平行四边形；\n【探究提升】若四边形GFHN为轴对称图形，则四边形GFHN是矩形或菱形，当四边形GFHN是矩形时，过G作GK⊥AB于K，过E作ET⊥AB于T，设AT＝x，则AE＝2x，可得AD＝2AE＝4x，DE＝AE＝2x，求出AB＝AT+TK+KN+BN＝x+2x+3x+2x＝8x，即可得$\\frac{AD}{AB}=\\frac{1}{2}$；当四边形GFHN是菱形时，延长FG交AB于W，设AD＝y，求出AB$=\\frac{3}{2}$y，即可得$\\frac{AD}{AB}=\\frac{2}{3}$．\n【解答】【探究发现】解：四边形DEGF是菱形，理由如下：\n∵将△DEF沿EF翻折得到△GEF，\n∴DE＝GE，DF＝GF，\n∵DF＝DE，\n∴GE＝DE＝DF＝GF，\n∴四边形DEGF是菱形；\n【探究证明】证明：如图：\n[[image:rId44]]\n∵将△BMN沿MN翻折得到△HMN，\n∴BN＝HN，BM＝HM，\n∵BN＝BM，\n∴HN＝BN＝BM＝HM，\n∴四边形BMHN是菱形，\n∴NH∥BC，\n∵E为边AD的中点，M为边BC的中点，\n∴DE$=\\frac{1}{2}$AD，BM$=\\frac{1}{2}$BC，\n∵四边形ABCD是平行四边形，\n∴AD＝BC，AD∥BC，\n∴DE＝BM，AD∥NH，\n∵四边形DEGF是菱形，\n∴DE＝FG，FG∥AD，\n∴FG＝DE＝BM＝HN，FG∥NH，\n∴四边形GFHN是平行四边形；\n【探究提升】解：四边形GFHN能成为轴对称图形，理由如下：\n由【探究证明】知，四边形GFHN是平行四边形，若四边形GFHN为轴对称图形，则四边形GFHN是矩形或菱形，\n当四边形GFHN是矩形时，过G作GK⊥AB于K，过E作ET⊥AB于T，如图：\n[[image:rId45]]\n∵∠A＝60°，\n∴∠AET＝30°，\n∴AT$=\\frac{1}{2}$AE，\n设AT＝x，则AE＝2x，\n∴ET$=\\sqrt{AE^{2}-AT^{2}}=\\sqrt{3}$x＝GK，\n∵E为AD中点，\n∴AD＝2AE＝4x，DE＝AE＝2x，\n∵四边形DEGF是菱形，\n∴EG＝DE＝2x＝TK，\n∵四边形GFHN是矩形，\n∴∠GNH＝90°，\n∴∠GNK＝180°﹣∠GNH﹣∠HNB＝180°﹣90°﹣60°＝30°，\n∴KN$=\\sqrt{3}$GK$=\\sqrt{3}×\\sqrt{3}$x＝3x，\n∵BN＝BM$=\\frac{1}{2}$BC$=\\frac{1}{2}$AD＝2x，\n∴AB＝AT+TK+KN+BN＝x+2x+3x+2x＝8x，\n∴$\\frac{AD}{AB}=\\frac{4x}{8x}=$$\\frac{1}{2}$；\n当四边形GFHN是菱形时，延长FG交AB于W，如图：\n[[image:rId46]]\n设AD＝y，则DE＝DF＝EG＝GF＝BN＝BM＝HM＝NH$=\\frac{1}{2}$y，\n∵四边形GFHN是菱形，\n∴GF＝FH＝NH＝GN$=\\frac{1}{2}$y，\n∵EG∥CD∥AB，GF∥AD，\n∴四边形AEGW是平行四边形，∠GWN＝∠A＝60°，\n∴AW＝EG$=\\frac{1}{2}$y，GW＝AE$=\\frac{1}{2}$y，\n∴GW＝GN，\n∴△GWN是等边三角形，\n∴WN＝GW$=\\frac{1}{2}$y，\n∴AB＝AW+WN+BN$=\\frac{1}{2}$y$+\\frac{1}{2}$y$+\\frac{1}{2}$y$=\\frac{3}{2}$y，\n∴$\\frac{AD}{AB}=\\frac{y}{\\frac{3}{2}y}=$$\\frac{2}{3}$；\n综上所述，四边形GFHN为轴对称图形时，$\\frac{AD}{AB}$的值为$\\frac{1}{2}$或$\\frac{2}{3}$．\n【点评】本题考查四边形综合应用，涉及平行四边形，矩形，菱形等边三角形等知识，解题的关键是掌握菱形，平行四边形的判定定理．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q021_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "菱形的性质",
+          "平行四边形的性质",
+          "轴对称图形",
+          "相似三角形"
+        ],
+        "reasoning": "探究发现中通过折叠得出四边形DEGF为菱形，探究证明中利用菱形性质和平行四边形性质证明四边形GFHN为平行四边形，探究提升中讨论轴对称图形的条件。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"菱形的性质\", \"平行四边形的性质\", \"轴对称图形\", \"相似三角形\"],\n  \"reasoning\": \"探究发现中通过折叠得出四边形DEGF为菱形，探究证明中利用菱形性质和平行四边形性质证明四边形GFHN为平行四边形，探究提升中讨论轴对称图形的条件。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年吉林省中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，在平面直角坐标系中，O为坐标原点，抛物线y＝x²+bx﹣1经过点（2，﹣1）．点P在此抛物线上．其横坐标为m；连接PO并延长至点Q，使OQ＝2PO．当点P不在坐标轴上时，过点P作x轴的垂线，过点Q作y轴的垂线，这两条垂线交于点M．\n（1）求此抛物线对应的函数解析式．\n（2）△PQM被y轴分成的两部分图形的面积比是否保持不变，如果不变，直接写出这个面积比；如果变化，说明理由．\n（3）当△PQM的边MQ经过此抛物线的最低点时，求点Q的坐标．\n（4）当此抛物线在△PQM内部的点的纵坐标y随x的增大而减小时，直接写出m的取值范围．\n[图1]\n2025年吉林省中考数学试卷",
+      "stem_markdown": "如图，在平面直角坐标系中，O为坐标原点，抛物线y＝$x^{2}$+bx﹣1经过点（2，﹣1）．点P在此抛物线上．其横坐标为m；连接PO并延长至点Q，使OQ＝2PO．当点P不在坐标轴上时，过点P作x轴的垂线，过点Q作y轴的垂线，这两条垂线交于点M．\n（1）求此抛物线对应的函数解析式．\n（2）△PQM被y轴分成的两部分图形的面积比是否保持不变，如果不变，直接写出这个面积比；如果变化，说明理由．\n（3）当△PQM的边MQ经过此抛物线的最低点时，求点Q的坐标．\n（4）当此抛物线在△PQM内部的点的纵坐标y随x的增大而减小时，直接写出m的取值范围．\n![2025年吉林省中考数学试卷_q022_img01](assets/2025年吉林省中考数学试卷_q022_img01.png)\n2025年吉林省中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用待定系数法求解即可；\n（2）根据题意，利用相似三角形的性质求出面积之比即可；\n（3）QM经过最低点，即经过顶点，画出示意图，先求出顶点坐标，再利用相似三角形的判定和性质求出m的值，最后分两种情况求出点Q的坐标即可；\n（4）根据题意，分三种情况进行分析，画出图形找出临界点，利用相似三角形的性质列出一元二次方程，然后进行求解即可．\n【解答】解：（1）将（2，﹣1）代入y＝$x^{2}$+bx﹣得，﹣1＝4+2b﹣1，\n解得b＝﹣2，\n∴抛物线的解析式为y＝$x^{2}$﹣2x﹣1；\n（2）如图所示，面积比保持不变为$\\frac{5}{4}$，理由如下：\n[[image:rId48]]\n根据题意可得，∠M＝∠ODQ＝90°，∠Q＝∠Q，\n∴△QOD∽△QPM，\n∴$\\frac{OP}{OQ}=\\frac{1}{2}$，\n∴$\\frac{OQ}{PQ}=\\frac{2}{3}$，\n∴$\\frac{S_{△QOD}}{S_{△QPM}}=(\\frac{2}{3})^{2}=\\frac{4}{9}$，\n则$\\frac{S_{四边形ODMP}}{S_{△QOD}}=\\frac{9-4}{4}=\\frac{5}{4}$或$\\frac{S_{△QOD}}{S_{四边形ODMP}}=\\frac{4}{9-4}=\\frac{4}{5}$\n∴这个面积比为$\\frac{5}{4}或\\frac{4}{5}$；\n（3）如图所示，QM经过最低点，即经过顶点，\n[[image:rId49]]\n该抛物线的顶点横坐标为$-\\frac{-2}{2}=1$，\n纵坐标为$\\frac{4×(-1)-(-2)^{2}}{4}=-2$，\n该抛物线的顶点坐标为（1，﹣2），\n∵∠PNO＝∠ODQ＝90°，∠NPO＝∠DOQ，\n∴△PON∽△OQD，且相似比为$\\frac{OP}{OQ}=\\frac{1}{2}$，\n根据顶点纵坐标可得，OD＝2，\n则$\\frac{PN}{OD}=\\frac{1}{2}$，即$\\frac{m^{2}-2m-1}{2}=\\frac{1}{2}$，\n解得$m=1±\\sqrt{3}$，\n①当$m=1-\\sqrt{3}$时，\n即为如图所示，\n此时$|x_{Q}|=2|x_{P}|=2\\sqrt{3}-2$，\n点Q在第四象限，\n故$Q(2\\sqrt{3}-2，-2)$；\n②如图所示，\n[[image:rId50]]\n当$m=1+\\sqrt{3}$时，此时点P在第一象限，点Q在第三象限，此时$|x_{Q}|=2|x_{P}|=2\\sqrt{3}+2$，\n故$Q(-2\\sqrt{3}-2，-2)$；\n综上，$Q(2\\sqrt{3}-2，-2)$或$Q(-2\\sqrt{3}-2，-2)$；\n（4）①当PQ经过顶点T时，过点T作TE⊥x轴，交x轴于点E，\n[[image:rId51]]\n由∠PNO＝∠TEO＝90°，∠PON＝∠TOE得，△PON∽△TOE，\n∴$\\frac{PN}{ON}=\\frac{TE}{OE}$，即$\\frac{m^{2}-2m-1}{-m}=\\frac{2}{1}$，解得m＝1（舍去），或m＝﹣1，\n∴当点P向左运动时，满足题意，\n∴m≤﹣1；\n②如图所示，当点Q在抛物线上时，过点Q作QE⊥x，交x轴于点E，\n[[image:rId52]]\n同理，△PON∽△QOE，相似比仍为$\\frac{1}{2}$ 此时，Q[﹣2m，﹣2（m2﹣2m﹣1）]，代入抛物线解析式得，﹣2（$m^{2}$﹣2m﹣1）＝（﹣2m）^{2}+4m﹣1，\n解得$m=\\frac{\\sqrt{2}}{2}$（舍去），或$m=-\\frac{\\sqrt{2}}{2}$，\n此时，当P点向下一直移动，直至到x轴时，都符合题意，\n当$x^{2}$﹣2x﹣1＝0时，\n解得$x_{1}=1-\\sqrt{2}$，$x_{2}$＝1$+\\sqrt{2}$，\n∴当$-\\frac{\\sqrt{2}}{2}≤$m＜1$-\\sqrt{2}$时，符合题意；\n③图所示，当点Q在抛物线上时，点Q在第二象限，点P在第四象限，\n[[image:rId53]]\n思路同②，此时Q[﹣2m，﹣2（m2﹣2m﹣1）]，代入抛物线解析式得，﹣2（$m^{2}$﹣2m﹣1）＝（﹣2m）^{2}+4m﹣1，\n解得$m=-\\frac{\\sqrt{2}}{2}$（舍去），或$m=\\frac{\\sqrt{2}}{2}$，\n此时，当P点向右一直移动，直至到x轴时，都符合题意，\n∴当$\\frac{\\sqrt{2}}{2}＜m＜1+\\sqrt{2}$时，符合题意；\n[[image:rId54]]\nm＞0时，同样符合题意，应为$\\frac{\\sqrt{2}}{2}＜$m＜1$+\\sqrt{2}$．\n综上m≤﹣1或$-\\frac{\\sqrt{2}}{2}≤$m＜1$-\\sqrt{2}$或为$\\frac{\\sqrt{2}}{2}＜$m＜1$+\\sqrt{2}$时符合题意．\n【点评】本题主要考查了二次函数的图象和性质，利用待定系数法求函数的解析式，相似三角形的判定和性质，利用一元二次方程解决几何问题，抛物线中动点问题，解题的关键是掌握二次函数的性质，并发展空间想象能力，分情况研究动点问题．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:33:11；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId56]] ____ [[image:rId57]] ____ [[image:rId58]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年吉林省中考数学试卷_q022_img01",
+          "path": "assets/2025年吉林省中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "相似三角形的性质",
+          "二次函数的性质",
+          "一元二次方程"
+        ],
+        "reasoning": "题目通过待定系数法求抛物线解析式，利用相似三角形性质比较面积比，通过一元二次方程确定点Q的位置。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"相似三角形的性质\", \"二次函数的性质\", \"一元二次方程\"],\n  \"reasoning\": \"题目通过待定系数法求抛物线解析式，利用相似三角形性质比较面积比，通过一元二次方程确定点Q的位置。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:36:52",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 22,
+      "ok": 22,
+      "fallback": 0
+    }
+  }
+}

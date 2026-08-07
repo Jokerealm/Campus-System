@@ -1,0 +1,1129 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年重庆市中考数学试卷",
+  "source": {
+    "name": "2025年重庆市中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年重庆市中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年重庆市中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "6的相反数是（ ）",
+      "stem_markdown": "6的相反数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣6"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{6}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】根据符号不同，绝对值相同的两个数互为相反数即可求得答案．\n【解答】解：6的相反数是﹣6．\n故选：A．\n【点评】本题考查了相反数的概念，掌握只有符号不同的两个数叫做互为相反数是解答此题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相反数的概念"
+        ],
+        "reasoning": "题目要求找出6的相反数，考察了相反数的概念。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相反数的概念\"],\n  \"reasoning\": \"题目要求找出6的相反数，考察了相反数的概念。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "下列图案中，是轴对称图形的是（ ）",
+      "stem_markdown": "下列图案中，是轴对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年重庆市中考数学试卷_q002_img01](assets/2025年重庆市中考数学试卷_q002_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年重庆市中考数学试卷_q002_img02](assets/2025年重庆市中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年重庆市中考数学试卷_q002_img03](assets/2025年重庆市中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年重庆市中考数学试卷_q002_img04](assets/2025年重庆市中考数学试卷_q002_img04.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据轴对称图形的定义解答即可．\n【解答】解：在四个选项的图形中，只有选项B的图形能找到一条直线，使图形沿这条直线对折后两边能完全重合，故选项C是轴对称图形，选项A、C、D不是轴对称图形．\n故选：B．\n【点评】本题主要考查了轴对称图形的定义：如果一个图形沿着某一条直线对折，直线两旁的部分能够完全重合，那么这个图形叫做轴对称图形，这条直线叫做对称轴．熟练掌握轴对称图形的定义是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q002_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q002_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年重庆市中考数学试卷_q002_img02",
+          "path": "assets/2025年重庆市中考数学试卷_q002_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年重庆市中考数学试卷_q002_img03",
+          "path": "assets/2025年重庆市中考数学试卷_q002_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年重庆市中考数学试卷_q002_img04",
+          "path": "assets/2025年重庆市中考数学试卷_q002_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "轴对称图形的定义",
+          "对称轴的概念"
+        ],
+        "reasoning": "选项B能找到对称轴，使图形对折后完全重合。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"轴对称图形的定义\", \"对称轴的概念\"],\n  \"reasoning\": \"选项B能找到对称轴，使图形对折后完全重合。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "下列调查中最适合采用全面调查（普查）的是（ ）",
+      "stem_markdown": "下列调查中最适合采用全面调查（普查）的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "调查某种柑橘的甜度情况"
+        },
+        {
+          "label": "B",
+          "text": "调查某品牌新能源汽车的抗撞能力"
+        },
+        {
+          "label": "C",
+          "text": "调查某市垃圾分类的情况"
+        },
+        {
+          "label": "D",
+          "text": "调查全班观看电影《哪吒2》的情况"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据普查得到的调查结果比较准确，但所费人力、物力和时间较多，而抽样调查得到的调查结果比较近似判断即可．\n【解答】解：A．调查某种柑橘的甜度情况，适合抽样调查，故本选项不合题意；\nB．调查某品牌新能源汽车的抗撞能力，适合抽样调查，故本选项不合题意；\nC．调查某市垃圾分类的情况，适合抽样调查，故本选项不合题意；\nD．调查全班观看电影《哪吒2》的情况，适合全面调查，故本选项符合题意；\n故选：D．\n【点评】本题考查的是抽样调查和全面调查的区别，选择普查还是抽样调查要根据所要考查的对象的特征灵活选用，一般来说，对于具有破坏性的调查、无法进行普查、普查的意义或价值不大，应选择抽样调查，对于精确度要求高的调查，事关重大的调查往往选用普查．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全面调查（普查）",
+          "抽样调查"
+        ],
+        "reasoning": "选项D调查全班观看电影《哪吒2》的情况，适合进行全面调查，其他选项适合抽样调查。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全面调查（普查）\", \"抽样调查\"],\n  \"reasoning\": \"选项D调查全班观看电影《哪吒2》的情况，适合进行全面调查，其他选项适合抽样调查。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "如图，点A，B，C在⊙O上，∠AOB＝100°，∠C的度数是（ ）\n[图1]",
+      "stem_markdown": "如图，点A，B，C在⊙O上，∠AOB＝100°，∠C的度数是（ ）\n![2025年重庆市中考数学试卷_q004_img01](assets/2025年重庆市中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "40°"
+        },
+        {
+          "label": "B",
+          "text": "50°"
+        },
+        {
+          "label": "C",
+          "text": "80°"
+        },
+        {
+          "label": "D",
+          "text": "100°"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】直接利用圆周角定理求解．\n【解答】解：∵∠AOB和∠C都对$AB$，\n∴∠C$=\\frac{1}{2}$∠AOB$=\\frac{1}{2}×$100°＝50°．\n故选：B．\n【点评】本题考查了圆周角定理：在同圆或等圆中，同弧或等弧所对的圆周角相等，都等于这条弧所对的圆心角的一半．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q004_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q004_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆周角定理"
+        ],
+        "reasoning": "利用圆周角定理求解∠C的度数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆周角定理\"],\n  \"reasoning\": \"利用圆周角定理求解∠C的度数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "按如图所示的规律拼图案，其中第①个图中有4个圆点，第②个图中有8个圆点，第③个图中有12个圆点，第④个图中有16个圆点，…，按照这一规律，则第⑥个图中圆点的个数是（ ）\n[图1]",
+      "stem_markdown": "按如图所示的规律拼图案，其中第①个图中有4个圆点，第②个图中有8个圆点，第③个图中有12个圆点，第④个图中有16个圆点，…，按照这一规律，则第⑥个图中圆点的个数是（ ）\n![2025年重庆市中考数学试卷_q005_img01](assets/2025年重庆市中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "32"
+        },
+        {
+          "label": "B",
+          "text": "28"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】第①个图案中有4个黑色圆点，第②个图案中有8个黑色圆点，第③个图案中有12个黑色圆点，则可以总结出第n个图形中黑色圆点的个数，代入n＝6计算即可．\n【解答】解：第①个图案中有4个黑色圆点，\n第②个图案中有8个黑色圆点，\n第③个图案中有12个黑色圆点，\n第④个图案中有16个黑色圆点，\n…，\n则第n个图案中有4n个黑色圆点，\n所以第⑥个图中圆点的个数是4×6＝24个，\n故选：C．\n【点评】本题属于规律猜想题型的图形变化类，解题的关键是通过图形的变化得出图形中圆点个数的数字变化规律．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q005_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等差数列",
+          "观察与归纳能力"
+        ],
+        "reasoning": "根据图形中圆点数量的变化找出规律",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等差数列\", \"观察与归纳能力\"],\n  \"reasoning\": \"根据图形中圆点数量的变化找出规律\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "反比例函数y=-\\frac{12}{x}的图象一定经过的点是（ ）",
+      "stem_markdown": "反比例函数y$=-\\frac{12}{x}$的图象一定经过的点是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "（2，6）"
+        },
+        {
+          "label": "B",
+          "text": "（﹣4，﹣3）"
+        },
+        {
+          "label": "C",
+          "text": "（﹣3，﹣4）"
+        },
+        {
+          "label": "D",
+          "text": "（6，﹣2）"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据反比例函数图象上点的坐标特点解答即可．\n【解答】解：A、∵2×6＝12≠﹣12，∴此点不在反比例函数图象上，不符合题意；\nB、∵（﹣4）×（﹣3）＝12≠﹣12，∴此点不在反比例函数图象上，不符合题意；\nC、∵（﹣3）×（﹣4）＝12≠﹣12，∴此点不在反比例函数图象上，不符合题意；\nD、∵6×（﹣2）＝﹣12，∴此点在反比例函数图象上，符合题意，\n故选：D．\n【点评】本题考查的是反比例函数图象上点的坐标特征，熟知反比例函数图象上各点的坐标一定适合此函数的解析式是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的定义",
+          "反比例函数图象上的点的坐标特性"
+        ],
+        "reasoning": "设问要求判断哪个点在反比例函数图象上，考察了反比例函数图象上点的坐标特性。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的定义\", \"反比例函数图象上的点的坐标特性\"],\n  \"reasoning\": \"设问要求判断哪个点在反比例函数图象上，考察了反比例函数图象上点的坐标特性。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "下列四个数中，最大的是（ ）",
+      "stem_markdown": "下列四个数中，最大的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "6.18×10^{8}"
+        },
+        {
+          "label": "B",
+          "text": "6.28×10^{8}"
+        },
+        {
+          "label": "C",
+          "text": "6.18×10^{9}"
+        },
+        {
+          "label": "D",
+          "text": "6.28×10^{9}"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】运用科学记数法知识将各选项数字还原，再进行比较、求解．\n【解答】解：∵6.18×10^{8}＝618000000，\n6.28×10^{8}＝628000000，\n6.18×10^{9}＝6180000000，\n6.28×10^{9}＝6280000000，\n且618000000＜628000000＜618000000＜6280000000，\n∴6.18×10^{8}＜6.28×10^{8}＜6.18×10^{9}＜6.28×10^{9}，\n∴四个数中，最大的是6.28×10^{9}，\n故选：D．\n【点评】此题考查了科学记数法的应用能力，关键是能准确理解并运用以上知识．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "比较大小"
+        ],
+        "reasoning": "选项中的数通过科学记数法表示后需要比较大小",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"比较大小\"],\n  \"reasoning\": \"选项中的数通过科学记数法表示后需要比较大小\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "某景区2022年接待游客25万人，经过两年加大旅游开发力度，该景区2024年接待游客达到36万人，那么该景区这两年接待游客的年平均增长率为（ ）",
+      "stem_markdown": "某景区2022年接待游客25万人，经过两年加大旅游开发力度，该景区2024年接待游客达到36万人，那么该景区这两年接待游客的年平均增长率为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "10%"
+        },
+        {
+          "label": "B",
+          "text": "20%"
+        },
+        {
+          "label": "C",
+          "text": "22%"
+        },
+        {
+          "label": "D",
+          "text": "44%"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】设该景区这两年接待游客的年平均增长率为x，利用该景区2024年接待游客人次数＝该景区2022年接待游客人次数×（1+该景区这两年接待游客的年平均增长率）^{2}，可列出关于x的一元二次方程，解之取其符合题意的值，即可得出结论．\n【解答】解：设该景区这两年接待游客的年平均增长率为x，\n根据题意得：25（1+x）^{2}＝36，\n解得：$x_{1}$＝0.2＝20%，$x_{2}$＝﹣2.2（不符合题意，舍去），\n∴该景区这两年接待游客的年平均增长率为20%．\n故选：B．\n【点评】本题考查了一元二次方程的应用，找准等量关系，正确列出一元二次方程是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "增长率",
+          "一元二次方程"
+        ],
+        "reasoning": "设增长率x，利用游客人数增长公式列方程求解",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"增长率\", \"一元二次方程\"],\n  \"reasoning\": \"设增长率x，利用游客人数增长公式列方程求解\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "如图，正方形ABCD的边长为2，点E是BC边的中点，连接DE，将△DCE沿直线DE翻折到正方形ABCD所在的平面内，得△DFE，延长DF交AB于点G．∠ADG和∠DAG的平分线DH，AH相交于点H，连接GH，则△DGH的面积为（ ）\n[图1]",
+      "stem_markdown": "如图，正方形ABCD的边长为2，点E是BC边的中点，连接DE，将△DCE沿直线DE翻折到正方形ABCD所在的平面内，得△DFE，延长DF交AB于点G．∠ADG和∠DAG的平分线DH，AH相交于点H，连接GH，则△DGH的面积为（ ）\n![2025年重庆市中考数学试卷_q009_img01](assets/2025年重庆市中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5\\sqrt{5}}{8}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5\\sqrt{5}}{4}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】连接GE，证明Rt△EFG≌Rt△EBG（HL），可得GF＝GB，设GB＝GF＝x，则AG＝2﹣x，DG＝2+x，根据勾股定理可得$x=\\frac{1}{2}$，再利用角平分线的性质得到点H到AD，AG，GD的距离相等，利用面积之比即可解答．\n【解答】解：如图，连接GE，\n[[image:rId32]]\n∵四边形ABCD是正方形，\n∴∠B＝∠C＝∠BAC＝∠ADC＝90°，AB＝BC＝CD＝DA＝2，\n∵点E是BC边的中点，\n∴BE＝CE＝1，\n∵将△DCE沿直线DE翻折得△DFE，\n∴∠EFD＝∠C＝90°，CE＝FE＝BE＝1，DC＝DF＝2，\n∴∠GFE＝∠GBE＝90°，\n∵GE＝GE，\n∴Rt△EFG≌Rt△EBG（HL），\n∴GF＝GB，\n设GB＝GF＝x，则AG＝2﹣x，DG＝2+x，\n根据勾股定理可得$AG^{2}+AD^{2}＝DG^{2}$，\n即（2﹣x）^{2}+2^{2}＝（2+x）^{2}，\n解得$x=\\frac{1}{2}$，\n∴$DG=\\frac{5}{2}$，$AG=\\frac{3}{2}$，\n∵∠ADG和∠DAG的平分线DH，AH相交于点H，\n∴点H到AD，AG，GD的距离相等，\n∴$S_{△GDH}=\\frac{GD}{GD+AG+AD}⋅S_{△ADG}=\\frac{\\frac{5}{2}}{\\frac{5}{2}+\\frac{3}{2}+2}×\\frac{1}{2}×\\frac{3}{2}×2=\\frac{5}{8}$，\n故选：A．\n【点评】本题考查了正方形与折叠问题，勾股定理，全等三角形的判定和性质，角平分线的性质，正确作出辅助线，利用勾股定理列方程解得$GB=\\frac{1}{2}$是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q009_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "勾股定理",
+          "全等三角形",
+          "角平分线性质"
+        ],
+        "reasoning": "题中通过折叠构造全等三角形并利用勾股定理求解边长，最后利用角平分线性质求面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"勾股定理\", \"全等三角形\", \"角平分线性质\"],\n  \"reasoning\": \"题中通过折叠构造全等三角形并利用勾股定理求解边长，最后利用角平分线性质求面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "已知整式M：a₀+a₁x+a₂x²+⋯+anxⁿ，其中a₀为自然数，n，a₁，a₂，⋯，an为正整数，且a₀+a₁+⋯+an＝4．下列说法：\n①满足条件的所有整式M中有且仅有1个单项式；\n②当n＝3时，满足条件的所有整式M的和为4x³+4x²+4x+1；\n③满足条件的所有二次三项式中，当x取任意实数时，其值一定为非负数的整式M共有3个．\n其中正确的个数是（ ）",
+      "stem_markdown": "已知整式M：$a_{0}+a_{1}$x+$a_{2}x^{2}$+⋯+$a_{n}x^{n}$，其中$a_{0}$为自然数，n，$a_{1}$，$a_{2}$，⋯，$a_{n}$为正整数，且$a_{0}+a_{1}$+⋯+$a_{n}$＝4．下列说法：\n①满足条件的所有整式M中有且仅有1个单项式；\n②当n＝3时，满足条件的所有整式M的和为$4x^{3}+4x^{2}$+4x+1；\n③满足条件的所有二次三项式中，当x取任意实数时，其值一定为非负数的整式M共有3个．\n其中正确的个数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据题意逐项分析，对$a_{0}$进行分类讨论，即可求解．\n【解答】解：当n＝1时，$a_{0}+a_{1}$＝4，\n当$a_{0}$＝0，$a_{1}$＝4时，整式M为4x，\n当$a_{0}$＞0时，整式M不可能为单项式，\n当n＞1时，\n∵$a_{1}$，$a_{2}$，…，$a_{n}$为正整数，\n∴整式M不可能为单项式，故满足条件的所有整式M中有且仅有1个单项式，①正确；\n当n＝3时，$a_{0}+a_{1}+a_{2}+a_{3}$＝4，\n当$a_{0}$＝0时，$a_{1}+a_{2}+a_{3}$＝4，\n则$a_{1}$，$a_{2}$，$a_{3}$中有一个可能为2，故会有三种情况，对应的整式M为x+$x^{2}+2x^{3}$，x+$2x^{2}+x^{3}$，2x+$x^{2}+x^{3}$，\n当$a_{0}$＝1时，$a_{1}+a_{2}+a_{3}$＝3，\n则$a_{1}＝a_{2}＝a_{3}$＝1，故会有一种情况，对应的整式M为1+x+$x^{2}+x^{3}$，\n当$a_{0}$＞1时，$a_{1}+a_{2}+a_{3}$＜3，与$a_{1}$，$a_{2}$，…，$a_{n}$为正整数矛盾，故不存在，\n∴满足条件的所有整式M的和为$5x^{3}+5x^{2}$+5x+1，故②错误；\n∵多项式为二次三项式，\n∴n＝2，\n∴$a_{0}+a_{1}+a_{2}$＝4，\n因为多项式为三项式，故$a_{0}$≠0，\n当$a_{0}$＝1时，$a_{1}+a_{2}$＝3，\n则有1+x+$2x^{2}$，1+2x+$x^{2}$两种，\n∵1+x+$2x^{2}$＝2（x$+\\frac{1}{4})^{2}+\\frac{7}{8}＞0$，1+2x+$x^{2}$＝（x+1）^{2}＞0，\n∴1+x+$2x^{2}$，1+2x+$x^{2}$两种都满足条件，\n当$a_{0}$＝2时，$a_{1}+a_{2}$＝2，\n则有2+x+$x^{2}$一种，\n∵$2+x+x^{2}=(x+\\frac{1}{2})^{2}+\\frac{7}{4}＞0$，\n∴2+x+$x^{2}$满足条件，\n当$a_{0}$＞2时，$a_{1}+a_{2}$＜2与$a_{1}$，$a_{2}$，…，$a_{n}$为正整数矛盾，故不存在，\n所以其值一定为非负数的整式M共有3个，故③正确，\n其中正确的个数是2个，\n故选：C．\n【点评】本题综合考查了整式与配方法理解题意，分类讨论，找出规律是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "一元二次方程",
+          "多项式"
+        ],
+        "reasoning": "分析多项式的系数和，判断单项式、多项式的种类及和。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"一元二次方程\", \"多项式\"],\n  \"reasoning\": \"分析多项式的系数和，判断单项式、多项式的种类及和。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "不透明袋子中有1个红球、3个白球，这些球除颜色外无其他差别．从袋子中随机摸出1个球，则摸出红球的概率是 ____ ．",
+      "stem_markdown": "不透明袋子中有1个红球、3个白球，这些球除颜色外无其他差别．从袋子中随机摸出1个球，则摸出红球的概率是 ____ ．",
+      "options": [],
+      "answer": "$\\frac{1}{4}$．",
+      "solution": "【分析】从袋子中随机摸出1个球共有4种等可能结果，其中摸出红球的有1种结果，再根据概率公式求解即可．\n【解答】解：从袋子中随机摸出1个球共有4种等可能结果，其中摸出红球的有1种结果，\n所以摸出红球的概率是$\\frac{1}{4}$，\n故答案为：$\\frac{1}{4}$．\n【点评】本题主要考查概率公式，解题的关键是掌握随机事件A的概率P（A）＝事件A可能出现的结果数÷所有可能出现的结果数．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "概率计算",
+          "基本事件总数",
+          "特定事件数"
+        ],
+        "reasoning": "设问要求计算摸出红球的概率，涉及基本事件总数和特定事件数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"概率计算\", \"基本事件总数\", \"特定事件数\"],\n  \"reasoning\": \"设问要求计算摸出红球的概率，涉及基本事件总数和特定事件数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "如图，AB∥CD，直线EF分别与AB，CD交于点E，F．若∠1＝70°，则∠2的度数是 ____ ．\n[图1]",
+      "stem_markdown": "如图，AB∥CD，直线EF分别与AB，CD交于点E，F．若∠1＝70°，则∠2的度数是 ____ ．\n![2025年重庆市中考数学试卷_q012_img01](assets/2025年重庆市中考数学试卷_q012_img01.png)",
+      "options": [],
+      "answer": "70°．",
+      "solution": "【分析】根据平行线的性质得到∠2＝∠1＝70°即可．\n【解答】解：∵AB∥CD，∠1＝70°，\n∴∠2＝∠1＝70°，\n故答案为：70°．\n【点评】本题主要考查平行的性质，熟练掌握平行线的性质是解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q012_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同位角相等，两直线平行",
+          "平行线的性质"
+        ],
+        "reasoning": "∠1和∠2是平行线AB、CD被EF截得的同位角，且∠1=70°",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同位角相等，两直线平行\", \"平行线的性质\"],\n  \"reasoning\": \"∠1和∠2是平行线AB、CD被EF截得的同位角，且∠1=70°\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "若n为正整数，且满足n＜\\sqrt{26}＜n+1，则n＝ ____ ．",
+      "stem_markdown": "若n为正整数，且满足n$＜\\sqrt{26}＜$n+1，则n＝ ____ ．",
+      "options": [],
+      "answer": "5．",
+      "solution": "【分析】利用夹逼法估算无理数的大小即可．\n【解答】解：∵$\\sqrt{25}＜\\sqrt{26}＜\\sqrt{36}$，\n∴$5＜\\sqrt{26}＜6$，\n∵n$＜\\sqrt{26}＜$n+1，\n∴n＝5，\n故答案为：5．\n【点评】本题考查了估算无理数的大小，熟练掌握夹逼法是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式性质",
+          "估算无理数"
+        ],
+        "reasoning": "通过估算无理数大小来确定n的值",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式性质\", \"估算无理数\"],\n  \"reasoning\": \"通过估算无理数大小来确定n的值\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "若实数x，y同时满足x﹣|y|＝2，|x|﹣y＝4，则xy的值为 ____ ．",
+      "stem_markdown": "若实数x，y同时满足x﹣|y|＝2，|x|﹣y＝4，则$x^{y}$的值为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{1}{3}$．",
+      "solution": "【分析】根据绝对值的非负性，得到x＝|y|+2＞0，|x|＝y+4≥0，进而得到y≥﹣4，进而得到关于y的一元一次方程，求出y的值，进而求出x的值，再根据负整数指数幂的法则，进行计算即可．\n【解答】解：∵x﹣|y|＝2，|x|﹣y＝4，\n∴x＝|y|+2＞0，|x|＝y+4≥0，\n∴y≥﹣4，\n∴|x|＝x＝|y|+2＝y+4，\n当y≥0时，方程无解，\n当﹣4≤y＜0时，﹣y+2＝y+4，\n∴y＝﹣1，\n∴x＝|y|+2＝3，\n∴$x^{y}=3^{-1}=\\frac{1}{3}$，\n故答案为：$\\frac{1}{3}$．\n【点评】本题考查绝对值的非负性，解一元一次方程，负整数指数幂，掌握以上性质是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值的非负性",
+          "一元一次方程",
+          "负整数指数幂"
+        ],
+        "reasoning": "通过绝对值的非负性和一元一次方程求解x、y的值，进而利用负整数指数幂计算xy的值。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值的非负性\", \"一元一次方程\", \"负整数指数幂\"],\n  \"reasoning\": \"通过绝对值的非负性和一元一次方程求解x、y的值，进而利用负整数指数幂计算xy的值。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，AB是⊙O的直径，点C在⊙O上，连接AC．以AC为边作菱形ACDE，CD交⊙O于点F，AB⊥CD，垂足为G．连接AD，交⊙O于点H，连接EH．若AG＝12，GF＝5，则DF的长度为 ____ ，EH的长度为 ____ ．\n[图1]",
+      "stem_markdown": "如图，AB是⊙O的直径，点C在⊙O上，连接AC．以AC为边作菱形ACDE，CD交⊙O于点F，AB⊥CD，垂足为G．连接AD，交⊙O于点H，连接EH．若AG＝12，GF＝5，则DF的长度为 ____ ，EH的长度为 ____ ．\n![2025年重庆市中考数学试卷_q015_img01](assets/2025年重庆市中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "3，$\\frac{13}{4}\\sqrt{13}$．",
+      "solution": "【分析】由垂径定理以及勾股定理可得CG＝GF＝5，即CF＝2CG＝10、AC＝13，由菱形的性质可得CD＝AC＝13，进而得到GD＝8、DF＝3、$AD=4\\sqrt{13}$，如图：连接BC，BH，由圆周角定理可得∠ACB＝90°、∠AHB＝90°，再解直角三角形可得$AB=\\frac{169}{12}$，$AH=\\frac{13}{4}\\sqrt{13}$；由菱形的性质以及平行线的性质可得∠DAE＝∠CDA，如图：过H作HF⊥AE于点F，解直角三角形可得$FH=\\frac{39}{4}$，$AF=\\frac{13}{2}$，易得$FE=\\frac{13}{2}$，最后运用勾股定理求解即可．\n【解答】解：∵AB⊥CD，AG＝12，GF＝5，\n∴CG＝GF＝5，即CF＝2CG＝10，\n∴$AC=\\sqrt{AG^{2}+CG^{2}}=\\sqrt{12^{2}+5^{2}}=13$，\n∵四边形ACDE是菱形，\n∵CD＝AC＝13，\n∴GD＝CD﹣GC＝13﹣5＝8，DF＝CD﹣CF＝13﹣10＝3，\n∴$AD=\\sqrt{AG^{2}+GD^{2}}=\\sqrt{12^{2}+8^{2}}=4\\sqrt{13}$，\n如图，连接BC，BH，\n[[image:rId35]]\n∵AB是⊙O的直径，\n∴∠ACB＝90°，∠AHB＝90°，\n∴$cos∠CAB=\\frac{AG}{AC}=\\frac{AC}{AB}$，即$\\frac{12}{13}=\\frac{13}{AB}$，\n解得：$AB=\\frac{169}{12}$，\n∴$cos∠DAB=\\frac{AG}{AD}=\\frac{AH}{AB}$，即$\\frac{12}{4\\sqrt{13}}=\\frac{AH}{\\frac{169}{12}}$，\n解得：$AH=\\frac{13}{4}\\sqrt{13}$，\n∵四边形ACDE是菱形，\n∴CD∥AE，\n∴∠DAE＝∠CDA，\n如图，过H作HM⊥AE于M，\n∴sin∠DAE＝sin∠GDA，cos∠DAE＝cos∠GDA，\n∴$\\frac{MH}{AH}=\\frac{AG}{AD}$，$\\frac{AM}{AH}=\\frac{GD}{AD}$，\n∴$\\frac{MH}{\\frac{13}{4}\\sqrt{13}}=\\frac{12}{4\\sqrt{13}}，\\frac{AM}{\\frac{13}{4}\\sqrt{13}}=\\frac{8}{4\\sqrt{13}}$，\n∴$MH=\\frac{39}{4}$，$AM=\\frac{13}{2}$，\n∴$ME=AE-AM=13-\\frac{13}{2}=\\frac{13}{2}$，\n∴$EH=\\sqrt{EM^{2}+MH^{2}}=\\sqrt{(\\frac{13}{2})^{2}+(\\frac{39}{4})^{2}}=\\frac{13}{4}\\sqrt{13}$，\n故答案为：3，$\\frac{13}{4}\\sqrt{13}$．\n【点评】本题主要考查了垂径定理、圆周角定理、菱形的性质、解直角三角形等知识点，正确作出辅助线、运用解直角三角形解决问题成为解题的关键．",
+      "full_score": 4,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q015_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "垂径定理",
+          "勾股定理",
+          "圆周角定理",
+          "菱形性质"
+        ],
+        "reasoning": "题中条件和设问涉及垂径定理、勾股定理、圆周角定理和菱形性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"垂径定理\", \"勾股定理\", \"圆周角定理\", \"菱形性质\"],\n  \"reasoning\": \"题中条件和设问涉及垂径定理、勾股定理、圆周角定理和菱形性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "我们规定：一个四位数M=\\overline{abcd}，若满足a+b＝c+d＝10，则称这个四位数为“十全数”．例如：四位数1928，因为1+9＝2+8＝10，所以1928是“十全数”．按照这个规定，最小的“十全数”是 ____ ；一个“十全数”M=\\overline{abcd}，将其千位数字与个位数字调换位置，百位数字与十位数字调换位置，得到一个新的数M'=\\overline{dcba}，记F（M）=\\frac{M-M′}{909}，G（M）=\\frac{M+M′}{11}．若\\frac{4F(M)+G(M)+15}{13}与\\frac{\\overline{ab}+\\overline{cd}}{17}均是整数，则满足条件的M的值是 ____ ．",
+      "stem_markdown": "我们规定：一个四位数M$=\\overline{abcd}$，若满足a+b＝c+d＝10，则称这个四位数为“十全数”．例如：四位数1928，因为1+9＝2+8＝10，所以1928是“十全数”．按照这个规定，最小的“十全数”是 ____ ；一个“十全数”M$=\\overline{abcd}$，将其千位数字与个位数字调换位置，百位数字与十位数字调换位置，得到一个新的数M'$=\\overline{dcba}$，记F（M）$=\\frac{M-M′}{909}$，G（M）$=\\frac{M+M′}{11}$．若$\\frac{4F(M)+G(M)+15}{13}$与$\\frac{\\overline{ab}+\\overline{cd}}{17}$均是整数，则满足条件的M的值是 ____ ．",
+      "options": [],
+      "answer": "1919，3782．",
+      "solution": "【分析】根据要求最小的“十全数”，得到a＝1，c＝1，然后求出b＝10﹣1＝9，d＝10﹣1＝9，即可得到最小的“十全数”是1919；根据题意表示出M＝900a+9c+1010，M'＝﹣9a﹣900c+10100，然后表示出$F(M)=\\frac{M-M′}{909}=a+c-10$，$G(M)=\\frac{M+M′}{11}=81a-81c+1010$，然后表示出$\\frac{4F(M)+G(M)+15}{13}=6a-6c+76+\\frac{7a+c-3}{13}$，$\\frac{\\overline{ab}+\\overline{cd}}{17}=a+c+1-\\frac{8a+8c-3}{17}$，然后根据题意得到$\\frac{7a+c-3}{13}$与$\\frac{8a+8c-3}{17}$均是整数，得到7a+c﹣3能被13整除，8a+8c﹣3能被17整除，然后由1≤a≤9，1≤c≤9，求出5≤7a+c﹣3≤69，进而求解即可．\n【解答】解：设四位数M$=\\overline{abcd}$，\n要求最小的“十全数”，\n∴a＝1，c＝1，\n∴b＝10﹣1＝9，d＝10﹣1＝9，\n∴最小的“十全数”是1919；\n∵一个“十全数”M$=\\overline{abcd}$，\n∴a+b＝c+d＝10，\n∴b＝10﹣a，d＝10﹣c，\n∴M$=\\overline{abcd}=$1000a+100（10﹣a）+10c+10﹣c＝900a+9c+1010，\n∴M'$=\\overline{dcba}=$1000（10﹣c）+100c+10（10﹣a）+a＝﹣9a﹣900c+10100，\n∴F（M）$=\\frac{M-M′}{909}=\\frac{900a+9c+1010-(-9a-900c+10100)}{909}=$a+c﹣10，\n∴G（M）$=\\frac{M+M′}{11}=\\frac{900a+9c+1010+(-9a-900c+10100)}{11}=$81a﹣81c+1010，\n∴$\\frac{4F(M)+G(M)+15}{13}$\n$=\\frac{4(a+c-10)+81a-81c+1010+15}{13}$\n$=\\frac{85a-77c+985}{13}$\n$=6a-6c+76+\\frac{7a+c-3}{13}$，\n∴$\\frac{\\overline{ab}+\\overline{cd}}{17}=\\frac{10a+10-a+10c+10-c}{17}=$$\\frac{9a+9c+20}{17}=a+c+1-\\frac{8a+8c-3}{17}$，\n∵$\\frac{4F(M)+G(M)+15}{13}$与$\\frac{\\overline{ab}+\\overline{cd}}{17}$均是整数，\n∴$\\frac{7a+c-3}{13}$与$\\frac{8a+8c-3}{17}$均是整数，\n∴7a+c﹣3能被13整除，8a+8c﹣3能被17整除，\n∵1≤a≤9，1≤c≤9，\n∴7≤7a≤63，﹣2≤c﹣3≤6，\n∴5≤7a+c﹣3≤69，\n∴7a+c﹣3的值可以为13，26，39，52，65，\n∴依次代入可得，当a＝3，c＝8时，$\\frac{7a+c-3}{13}=$2，$\\frac{8a+8c-3}{17}=\\frac{8a+8c-3}{17}=5$均是整数，符合题意，\n∴b＝10﹣a＝7，d＝10﹣c＝2，\n∴满足条件的M的值是3782．\n故答案为：1919，3782．\n【点评】此题考查了整式的加减的应用，读懂并理解题意是解题的关键．",
+      "full_score": 4,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "代数表达式",
+          "整除性",
+          "方程组",
+          "数的性质"
+        ],
+        "reasoning": "通过代数表达式计算M和M'，利用整除性判断条件成立",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"代数表达式\", \"整除性\", \"方程组\", \"数的性质\"],\n  \"reasoning\": \"通过代数表达式计算M和M'，利用整除性判断条件成立\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "求不等式组：\\begin{cases} 2x-2＜x① \\\\ \\frac{x-1}{2}≤\\frac{2x-1}{3}② \\end{cases}的所有整数解．",
+      "stem_markdown": "求不等式组：$\\begin{cases} 2x-2＜x① \\\\ \\frac{x-1}{2}≤\\frac{2x-1}{3}② \\end{cases}$的所有整数解．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】分别求出每一个不等式的解集，由两不等式解集的公共部分可得不等式组的解集，从而得出所有整数解．\n【解答】解：$\\begin{cases} 2x-2＜x① \\\\ \\frac{x-1}{2}≤\\frac{2x-1}{3}② \\end{cases}$，\n解不等式①，得x＜2，\n解不等式②，得x≥﹣1，\n∴原不等式组的解集为﹣1≤x＜2，\n所以不等式组的所有整数解为﹣1，0，1．\n【点评】此题考查了一元一次不等式组的整数解，以及解一元一次不等式组，熟练掌握不等式组的解法是解本题的关键．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组",
+          "解一元一次不等式",
+          "不等式组的解集",
+          "整数解"
+        ],
+        "reasoning": "通过解两个不等式得到各自的解集并求交集，确定不等式组的解集，再找出满足条件的所有整数解。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组\", \"解一元一次不等式\", \"不等式组的解集\", \"整数解\"],\n  \"reasoning\": \"通过解两个不等式得到各自的解集并求交集，确定不等式组的解集，再找出满足条件的所有整数解。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "学习了角平分线和尺规作图后，小红进行了拓展性研究，她发现了角平分线的另一种作法，并与她的同伴进行交流．现在你作为她的同伴，请根据她的想法与思路，完成以下作图和填空：\n第一步：构造角平分线．\n小红在∠AOB的边OA上任取一点E，并过点E作了OA的垂线（如图）．请你利用尺规作图，在OB边上截取OF＝OE，过点F作OB的垂线与小红所作的垂线交于点P，作射线OP，OP即为∠AOB的平分线（不写作法，保留作图痕迹）．\n第二步：利用三角形全等证明她的猜想．\n证明：∵PE⊥OA，PF⊥OB，\n∴∠OEP＝∠OFP＝90°．\n在Rt△OEP和Rt△OFP中，\n\\begin{cases} ①( ) \\\\ ②( ) \\end{cases}\n∴Rt△OEP≌Rt△OFP（HL）．\n∴③ ____\n∴OP平分∠AOB．\n[图1]",
+      "stem_markdown": "学习了角平分线和尺规作图后，小红进行了拓展性研究，她发现了角平分线的另一种作法，并与她的同伴进行交流．现在你作为她的同伴，请根据她的想法与思路，完成以下作图和填空：\n第一步：构造角平分线．\n小红在∠AOB的边OA上任取一点E，并过点E作了OA的垂线（如图）．请你利用尺规作图，在OB边上截取OF＝OE，过点F作OB的垂线与小红所作的垂线交于点P，作射线OP，OP即为∠AOB的平分线（不写作法，保留作图痕迹）．\n第二步：利用三角形全等证明她的猜想．\n证明：∵PE⊥OA，PF⊥OB，\n∴∠OEP＝∠OFP＝90°．\n在Rt△OEP和Rt△OFP中，\n$\\begin{cases} ①( ) \\\\ ②( ) \\end{cases}$\n∴Rt△OEP≌Rt△OFP（HL）．\n∴③ ____\n∴OP平分∠AOB．\n![2025年重庆市中考数学试卷_q018_img01](assets/2025年重庆市中考数学试卷_q018_img01.png)",
+      "options": [],
+      "answer": "OE＝OF，OP＝OP，∠POE＝∠POF，",
+      "solution": "证明：∵PE⊥OA，PF⊥OB，\n∴∠OEP＝∠OFP＝90°．\n在Rt△OEP和Rt△OFP中，\n$\\begin{cases} ①( ) \\\\ ②( ) \\end{cases}$\n∴Rt△OEP≌Rt△OFP（HL）．\n∴③ ∠POE＝∠POF\n∴OP平分∠AOB．\n[[image:rId36]]\n【分析】根据要求作出图形，利用HL证明Rt△OEP≌Rt△OFP（HL）即可．\n【解答】解：图形如图所示：\n[[image:rId37]]\n证明：∵PE⊥OA，PF⊥OB，\n∴∠OEP＝∠OFP＝90°．\n在Rt△OEP和Rt△OFP中，\n$\\begin{cases} OE=OF \\\\ OP=OP \\end{cases}$，\n∴Rt△OEP≌Rt△OFP（HL）．\n∴∠POE＝∠POF，\n∴OP平分∠AOB．\n故答案为：OE＝OF，OP＝OP，∠POE＝∠POF，\n【点评】不能太空舱作图﹣复杂作图，全等三角形的判定和性质，角平分线的定义，解题的关键是掌握相关知识解决问题．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q018_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形全等条件（HL）",
+          "角平分线的定义",
+          "垂直的性质"
+        ],
+        "reasoning": "证明全等时使用了HL定理，涉及角平分线的定义及垂直性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形全等条件（HL）\", \"角平分线的定义\", \"垂直的性质\"],\n  \"reasoning\": \"证明全等时使用了HL定理，涉及角平分线的定义及垂直性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "学校开展了航天知识竞赛活动，从七、八年级学生中各随机抽取20名学生的竞赛成绩（成绩为百分制且为整数）进行整理、描述和分析（成绩均不低于60分，用x表示，共分四组：A.90≤x≤100；B.80≤x＜90；C.70≤x＜80；D.60≤x＜70），下面给出了部分信息：\n七年级20名学生竞赛成绩在B组中的数据是：83，84，84，84，85，87，88．\n八年级20名学生竞赛成绩是：62，63，65，71，72，72，75，78，81，82，84，86，86，86，89，96，97，98，98，99．\n七、八年级所抽取学生竞赛成绩统计表\n年级 | 七年级 | 八年级\n平均数 | 82 | 82\n中位数 | a | 83\n众数 | 84 | b\n根据以上信息，解答下列问题：\n（1）上述图表中a＝ ____ ，b＝ ____ ，m＝ ____ ；\n（2）根据以上数据，你认为该校七、八年级中哪个年级学生航天知识竞赛的成绩较好？请说明理由（写出一条理由即可）；\n（3）该校七年级有学生560人，八年级有学生500人，请估计该校七、八年级参加此次竞赛成绩不低于90分的学生人数共是多少？\n[图1]",
+      "stem_markdown": "学校开展了航天知识竞赛活动，从七、八年级学生中各随机抽取20名学生的竞赛成绩（成绩为百分制且为整数）进行整理、描述和分析（成绩均不低于60分，用x表示，共分四组：A.90≤x≤100；B.80≤x＜90；C.70≤x＜80；D.60≤x＜70），下面给出了部分信息：\n七年级20名学生竞赛成绩在B组中的数据是：83，84，84，84，85，87，88．\n八年级20名学生竞赛成绩是：62，63，65，71，72，72，75，78，81，82，84，86，86，86，89，96，97，98，98，99．\n七、八年级所抽取学生竞赛成绩统计表\n| 年级 | 七年级 | 八年级 |\n| --- | --- | --- |\n| 平均数 | 82 | 82 |\n| 中位数 | a | 83 |\n| 众数 | 84 | b |\n根据以上信息，解答下列问题：\n（1）上述图表中a＝ ____ ，b＝ ____ ，m＝ ____ ；\n（2）根据以上数据，你认为该校七、八年级中哪个年级学生航天知识竞赛的成绩较好？请说明理由（写出一条理由即可）；\n（3）该校七年级有学生560人，八年级有学生500人，请估计该校七、八年级参加此次竞赛成绩不低于90分的学生人数共是多少？\n![2025年重庆市中考数学试卷_q019_img01](assets/2025年重庆市中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "84，86，30",
+      "solution": "【分析】（1）根据中位数和众数的定义求解即可；用“1”分别减去其它部分占比可得m的值；\n（2）根据中位数、平均数的意义求解即可（答案不唯一，合理均可）；\n（3）总人数乘样本中优秀人数所占比例即可．\n【解答】解：（1）七年级C、D组的人数为：20×（10%+25%）＝7，\n把七年级20名学生竞赛成绩从小到大排列，排在中间的两个数分别是84，84，故中位数a$=\\frac{84+84}{2}=$84．，\n八年级20名学生的竞赛成绩的众数b＝86，\nm%＝1﹣（10%+25%$-\\frac{7}{20}$）＝30%，即m＝30，\n故答案为：84，86，30；\n（2）七年级学生的航天知识竞赛成绩较好，理由如下：\n因为两个年级的平均数相同，但七年级学生的中位数大于八年级，所以七年级学生的航天知识竞赛成绩较好；\n（3）560×30%+500$×\\frac{5}{20}=$293（人），\n答：估计该校七、八年级参加此次竞赛成绩不低于9（0分）的学生人数共是293人．\n【点评】本题考查了中位数、众数以及用样本估计总体，掌握基础的统计知识是解本题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q019_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中位数",
+          "众数",
+          "频率"
+        ],
+        "reasoning": "计算七年级中位数时使用了排序和取平均值的方法；确定八年级成绩的众数时直接观察数据；计算m时用到了频率的概念。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中位数\", \"众数\", \"频率\"],\n  \"reasoning\": \"计算七年级中位数时使用了排序和取平均值的方法；确定八年级成绩的众数时直接观察数据；计算m时用到了频率的概念。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "先化简，再求值：（x+1）（3x﹣1）﹣x（3x+1）+\\frac{x^{2}-x}{x^{2}+2x+1}÷（\\frac{1}{x}-\\frac{2}{x+1}），其中x＝|﹣3|+（π﹣4）⁰．",
+      "stem_markdown": "先化简，再求值：（x+1）（3x﹣1）﹣x（3x+1）$+\\frac{x^{2}-x}{x^{2}+2x+1}÷$（$\\frac{1}{x}-\\frac{2}{x+1}$），其中x＝|﹣3|+（π﹣4）^{0}．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先根据整式和分式的混合运算顺序和运算法则化简原式，再利用绝对值的性质、零指数幂的规定求出x的值，代入计算即可．\n【解答】解：原式＝$3x^{2}$﹣x+3x﹣1﹣$3x^{2}$﹣x$+\\frac{x(x-1)}{(x+1)^{2}}÷$[$\\frac{x+1}{x(x+1)}-\\frac{2x}{x(x+1)}$]\n＝x﹣1$+\\frac{x(x-1)}{(x+1)^{2}}÷\\frac{1-x}{x(x+1)}$\n＝x﹣1$-\\frac{x(x-1)}{(x+1)^{2}}•\\frac{x(x+1)}{x-1}$\n＝x﹣1$-\\frac{x^{2}}{x+1}$\n$=\\frac{x^{2}-1}{x+1}-\\frac{x^{2}}{x+1}$\n$=-\\frac{1}{x+1}$，\n当x＝|﹣3|+（π﹣4）^{0}＝3+1＝4时，原式$=-\\frac{1}{5}$．\n【点评】本题主要考查分式和整式的化简求值，解题的关键是熟练掌握整式与分式的混合运算顺序及相关法则．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值",
+          "零指数幂",
+          "多项式乘法",
+          "分式化简"
+        ],
+        "reasoning": "题目中 x 的值需要先计算 |−3|+(π−4)⁰，涉及绝对值和零指数幂。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\", \"零指数幂\", \"多项式乘法\", \"分式化简\"],\n  \"reasoning\": \"题目中 x 的值需要先计算 |−3|+(π−4)⁰，涉及绝对值和零指数幂。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "列方程解下列问题：\n某厂生产甲、乙两种文创产品．每天生产甲种文创产品的数量比每天生产乙种文创产品的数量多50个，3天时间生产的甲种文创产品的数量比4天时间生产的乙种文创产品的数量多100个．\n（1）求该厂每天生产的甲、乙文创产品数量分别是多少个？\n（2）由于市场需求量增加，该厂对生产流程进行了改进．改进后，每天生产乙种文创产品的数量较改进前每天生产的数量增加固定的数量，且每天生产甲种文创产品的数量较改进前每天增加的数量是乙种文创产品每天增加数量的2倍．若生产甲、乙两种文创产品各1400个，乙比甲多用10天，求每天生产的乙种文创产品增加的数量．",
+      "stem_markdown": "列方程解下列问题：\n某厂生产甲、乙两种文创产品．每天生产甲种文创产品的数量比每天生产乙种文创产品的数量多50个，3天时间生产的甲种文创产品的数量比4天时间生产的乙种文创产品的数量多100个．\n（1）求该厂每天生产的甲、乙文创产品数量分别是多少个？\n（2）由于市场需求量增加，该厂对生产流程进行了改进．改进后，每天生产乙种文创产品的数量较改进前每天生产的数量增加固定的数量，且每天生产甲种文创产品的数量较改进前每天增加的数量是乙种文创产品每天增加数量的2倍．若生产甲、乙两种文创产品各1400个，乙比甲多用10天，求每天生产的乙种文创产品增加的数量．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设该厂每天生产甲种文创产品的数量是x个，则每天生产乙种文创产品的数量是（x﹣50）个，根据3天时间生产的甲种文创产品的数量比4天时间生产的乙种文创产品的数量多100个，可列出关于x的一元一次方程，解之可得出x的值（即该厂每天生产甲种文创产品的数量），再将其代入（x﹣50）中，即可求出该厂每天生产乙种文创产品的数量；\n（2）设每天生产的乙种文创产品增加的数量是y个，则每天生产的甲种文创产品增加的数量是2y个，利用工作时间＝工作总量÷工作效率，结合“生产甲、乙两种文创产品各1400个，乙比甲多用10天”，可列出关于y的分式方程，解之经检验后，即可得出结论．\n【解答】解：（1）设该厂每天生产甲种文创产品的数量是x个，则每天生产乙种文创产品的数量是（x﹣50）个，\n根据题意得：3x﹣4（x﹣50）＝100，\n解得：x＝100，\n∴x﹣50＝100﹣50＝50（个）．\n答：该厂每天生产甲种文创产品的数量是100个，每天生产乙种文创产品的数量是50个；\n（2）设每天生产的乙种文创产品增加的数量是y个，则每天生产的甲种文创产品增加的数量是2y个，\n根据题意得：$\\frac{1400}{50+y}-\\frac{1400}{100+2y}=$10，\n解得：y＝20，\n经检验，y＝20是所列方程的解，且符合题意．\n答：每天生产的乙种文创产品增加的数量是20个．\n【点评】本题考查了一元一次方程的应用以及分式方程的应用，解题的关键是：（1）找准等量关系，正确列出一元一次方程；（2）找准等量关系，正确列出分式方程．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "分式方程",
+          "工作效率"
+        ],
+        "reasoning": "题目通过方程计算文创产品的生产数量及改进后的增加数量，涉及一元一次方程和分式方程的应用。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"分式方程\", \"工作效率\"],\n  \"reasoning\": \"题目通过方程计算文创产品的生产数量及改进后的增加数量，涉及一元一次方程和分式方程的应用。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，点O为矩形ABCD的对角线AC的中点，AB＝3，BC＝4．E，F是AC上的点（E，F均不与A，C重合），且AE＝CF，连接BE，DF．用x表示线段AE的长度，点E与点F的距离为y₁．矩形ABCD的面积为S，△ABE的面积为S₁，△CDF的面积为S₂，y₂=\\frac{S}{S_{1}+S_{2}}．\n（1）请直接写出y₁，y₂分别关于x的函数表达式，并写出自变量x的取值范围；\n（2）在给定的平面直角坐标系中画出函数y₁，y₂的图象，并分别写出函数y₁，y₂的一条性质；\n（3）结合函数图象，请直接写出y₁＜y₂时x的取值范围（近似值保留小数点后一位，误差不超过0.2）．\n[图1]",
+      "stem_markdown": "如图，点O为矩形ABCD的对角线AC的中点，AB＝3，BC＝4．E，F是AC上的点（E，F均不与A，C重合），且AE＝CF，连接BE，DF．用x表示线段AE的长度，点E与点F的距离为$y_{1}$．矩形ABCD的面积为S，△ABE的面积为$S_{1}$，△CDF的面积为$S_{2}$，$y_{2}=\\frac{S}{S_{1}+S_{2}}$．\n（1）请直接写出$y_{1}$，$y_{2}$分别关于x的函数表达式，并写出自变量x的取值范围；\n（2）在给定的平面直角坐标系中画出函数$y_{1}$，$y_{2}$的图象，并分别写出函数$y_{1}$，$y_{2}$的一条性质；\n（3）结合函数图象，请直接写出$y_{1}$＜$y_{2}$时x的取值范围（近似值保留小数点后一位，误差不超过0.2）．\n![2025年重庆市中考数学试卷_q022_img01](assets/2025年重庆市中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用矩形性质和勾股定理得出AC$=\\sqrt{AB^{2}+BC^{2}}=$5，AO＝CO＝5，分两部分：①当$0＜x≤\\frac{5}{2}$时；②当$\\frac{5}{2}＜x＜5$时，分别列出$y_{1}$过点B作BM⊥AC于点M，利用等面积法求出BM$=\\frac{AB⋅BC}{AC}=\\frac{12}{5}$，即可表示出△ABE的面积为$S_{1}=\\frac{1}{2}AE⋅BM=\\frac{6}{5}x$，同理可得△CDF的面积为$S_{2}=\\frac{6}{5}x$，再结合矩形ABCD的面积为与$y_{2}=\\frac{S}{S_{1}+S_{2}}$，即可列出$y_{2}$；\n（2）根据函数解析式画图即可，再根据函数图象写出性质；\n（3）根据图象写出$y_{1}$的图象在$y_{2}$下方时对应的自变量x的取值范围即可．\n【解答】解：（1）∵O为矩形ABCD的对角线AC的中点，AB＝3，BC＝4，\n∴∠ABC＝90°，$AC=\\sqrt{AB^{2}+BC^{2}}=5$，\n∴AO＝CO＝2.5，\n当$0＜x≤\\frac{5}{2}$时，AE＝CF＝x，如图，\n[[image:rId40]]\n∴$y_{1}$＝EF＝AC﹣AE﹣CF＝5﹣x﹣x＝5﹣2x，\n$当\\frac{5}{2}＜x＜$5时，AE＝CF＝x，如图，\n[[image:rId41]]\n∴$y_{1}$＝EF＝AE+CF﹣AC＝x+x﹣5＝2x﹣5，\n∴$y_{1}=\\begin{cases} 5-2x(0＜x≤\\frac{5}{2}) \\\\ 2x-5(\\frac{5}{2}＜x＜5) \\end{cases}$，\n如图，过点B作BM⊥AC 于点M，\n[[image:rId42]]\n∵$S_{△ABC}=\\frac{1}{2}AB⋅BC=\\frac{1}{2}AC⋅BM$，\n∴$BM=\\frac{AB⋅BC}{AC}=\\frac{12}{5}$，\n∴△ABE的面积为$S_{1}=\\frac{1}{2}AE⋅BM=\\frac{1}{2}x×\\frac{12}{5}=\\frac{6}{5}x$，\n同理可得△CDF 的面积为$S_{2}=\\frac{6}{5}x$，\n又∵矩形ABCD的面积为S＝3×4＝12，\n∴$y_{2}=\\frac{S}{S_{1}+S_{2}}=\\frac{12}{\\frac{6}{5}x+\\frac{6}{5}x}=\\frac{5}{x}$，\n∴$y_{2}=\\frac{5}{x}(0＜x＜5)$；\n（2）作图如下：\n[[image:rId43]]\n性质：当$0＜x≤\\frac{5}{2}$时，$y_{1}$随x的增大而减小；\n当$\\frac{5}{2}＜x＜5$时，$y_{1}$随x的增大而增大（不唯一）；\n当0＜x＜5时，$y_{2}$随x的增大而减小；\n（3）结合函数图象，可得$y_{1}$＜$y_{2}$时x的取值范围为0＜x＜3.3（或0＜x＜3.1或0＜x＜3.2或0＜x＜3.4或0＜x＜3.5）．\n【点评】本题考查函数解析式，一次函数的图象与性质，反比例函数的图象与性质，反比例函数与不等式，勾股定理，矩形的性质，熟练掌握相关性质，并能正确分段列出动点问题的相关线段是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q022_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的性质",
+          "勾股定理",
+          "反比例函数",
+          "一次函数"
+        ],
+        "reasoning": "题目涉及相似三角形、勾股定理、反比例函数和一次函数的性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的性质\", \"勾股定理\", \"反比例函数\", \"一次函数\"],\n  \"reasoning\": \"题目涉及相似三角形、勾股定理、反比例函数和一次函数的性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "为加强森林防火，某林场采用人工瞭望与无人机巡视两种方式监测森林情况．如图，A，B，C，D在同一平面内．A是瞭望台，某一时刻，观测到甲无人机位于A的正东方向10千米的B处，乙无人机位于A的南偏西30°方向20千米的D处．两无人机同时飞往C处巡视，D位于C的正西方向上，B位于C的北偏西30°方向上．\n（参考数据：\\sqrt{2}≈1.41，\\sqrt{3}≈1.73，\\sqrt{5}≈2.24，\\sqrt{7}≈2.65）\n（1）求BD的长度（结果保留小数点后一位）；\n（2）甲、乙两无人机同时分别从B，D出发沿BC，DC往C处进行巡视，乙无人机速度为甲无人机速度的2倍．当两无人机相距20千米时，它们可以开始相互接收到信号．请问甲无人机飞离B处多少千米时，两无人机可以开始相互接收到信号（结果保留小数点后一位）？\n[图1]",
+      "stem_markdown": "为加强森林防火，某林场采用人工瞭望与无人机巡视两种方式监测森林情况．如图，A，B，C，D在同一平面内．A是瞭望台，某一时刻，观测到甲无人机位于A的正东方向10千米的B处，乙无人机位于A的南偏西30°方向20千米的D处．两无人机同时飞往C处巡视，D位于C的正西方向上，B位于C的北偏西30°方向上．\n（参考数据：$\\sqrt{2}≈$1.41，$\\sqrt{3}≈$1.73，$\\sqrt{5}≈$2.24，$\\sqrt{7}≈$2.65）\n（1）求BD的长度（结果保留小数点后一位）；\n（2）甲、乙两无人机同时分别从B，D出发沿BC，DC往C处进行巡视，乙无人机速度为甲无人机速度的2倍．当两无人机相距20千米时，它们可以开始相互接收到信号．请问甲无人机飞离B处多少千米时，两无人机可以开始相互接收到信号（结果保留小数点后一位）？\n![2025年重庆市中考数学试卷_q023_img01](assets/2025年重庆市中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）过点A作AE⊥CD于E，过点B作BF⊥CD于点F，由题意得，∠DAE＝30°，解Rt△ADE得到$AE=10\\sqrt{3}$千米，DE＝10千米，证明四边形AEFB是矩形，得到EF＝AB＝10千米，$BF=AE=10\\sqrt{3}$千米，得到DF＝DE+EF＝20千米，再利用勾股定理即可求出BD的长；\n（2）当甲无人机运动到M，乙无人机运动到M时，此时满足MN＝20千米，过点M作MT⊥CD于T，由题意得，∠BCF＝90°﹣30°＝60°，解Rt△FBC得到BC＝20千米，CF＝10千米，则CD＝DF+CF＝30千米，设BM＝x千米，则DN＝2x千米，CM＝（20﹣x）千米，解Rt△CMT得到CT＝（10﹣2x）千米，$MT=(10\\sqrt{3}-\\frac{\\sqrt{3}}{2}x)$千米，则$TN=(20-\\frac{3}{2}x)千$米，由勾股定理得$20^{2}=(10\\sqrt{3}-\\frac{\\sqrt{3}}{2}x)^{2}+(20-\\frac{3}{2}x)^{2}$，解方程即可得到答案．\n【解答】解：（1）如图所示，过点A作AE⊥CD于E，过点B作BF⊥CD于点F，\n[[image:rId45]]\n∴∠AED＝∠BFC＝90°，\n由题意得，∠DAE＝30°，\n在Rt△ADE中，$AE=AD⋅cos∠DAE=20⋅cos30°=10\\sqrt{3}$（千米），\nDE＝AD•sin∠DAE＝20•sin30°＝10（千米），\n∵无人机位于A的正东方向10千米的B处，D位于C的正西方向上，\n∴AB∥CD，\n∴AE⊥AB，BF⊥AB，\n∴四边形AEFB是矩形，\n∴EF＝AB＝10千米，$BF=AE=10\\sqrt{3}$千米，\n∴DF＝DE+EF＝20千米，\n∴$BD=\\sqrt{DF^{2}+BF^{2}}=\\sqrt{20^{2}+(10\\sqrt{3})^{2}}=10\\sqrt{7}≈26.5$（千米），\n答：BD的长度约为26.5千米；\n（2）如图所示，当甲无人机运动到M，乙无人机运动到N时，此时满足MN＝20千米，过点M作MT⊥CD于T，\n[[image:rId46]]\n由题意得，∠BCF＝90°﹣30°＝60°，\n在 Rt△FBC中，$BC=\\frac{BF}{sin∠BCF}=\\frac{10\\sqrt{3}}{sin60°}=20$千米，\n$CF=\\frac{BF}{tan∠BCF}=\\frac{10\\sqrt{3}}{tan60°}=10$千米，\n∴CD＝DF+CF＝30千米，\n设 BM＝x千米，则DN＝2x千米，CM＝（20﹣x） 千米，\n在 Rt△CMT 中，$CT=CM⋅cos∠MCT=(20-x)⋅cos60°=(10-\\frac{1}{2}x)$千米，\nMT＝CM•sin∠MCT＝（20﹣x）•sin60°＝（$10\\sqrt{3}-\\frac{\\sqrt{3}}{2}$x）千米，\n∴TN＝CD﹣DN﹣CT＝30﹣2x﹣（10$-\\frac{1}{2}$x）＝（20$-\\frac{3}{2}$x）千米，\n在Rt△MNT中，由勾股定理得$MN^{2}＝MT^{2}+NT^{2}$，\n∴$20^{2}=(10\\sqrt{3}-\\frac{\\sqrt{3}}{2}x)^{2}+(20-\\frac{3}{2}x)^{2}$，\n∴$x=15-5\\sqrt{5}$或$x=15+5\\sqrt{5}$（此时大于BC的长，舍去），\n∴$BM=15-5\\sqrt{5}≈3.8$（千米），\n答：甲无人机飞离B处3.8千米时，两无人机可以开始相互接收到信号．\n【点评】本题主要考查了解直角三角形的实际应用，矩形的性质与判定，正确作出辅助线构造直角三角形是解题的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q023_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形的性质",
+          "相似三角形",
+          "勾股定理",
+          "矩形的性质"
+        ],
+        "reasoning": "题目涉及直角三角形、相似三角形和勾股定理的应用，以及矩形的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形的性质\", \"相似三角形\", \"勾股定理\", \"矩形的性质\"],\n  \"reasoning\": \"题目涉及直角三角形、相似三角形和勾股定理的应用，以及矩形的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，在平面直角坐标系中，抛物线y＝x²+bx+c与x轴交于A，B（6，0）两点，与y轴交于点C，抛物线的对称轴是直线x=\\frac{5}{2}．\n（1）求抛物线的表达式；\n（2）点P是射线BC下方抛物线上的一动点，连接OP与射线BC交于点Q，点D，E为抛物线对称轴上的动点（点E在点D的下方），且DE＝4，连接BD，PE．当\\frac{PQ}{OQ}取得最大值时，求点P的坐标及BD+PE的最小值；\n（3）在（2）中\\frac{PQ}{OQ}取得最大值的条件下，将抛物线y＝x²+bx+c沿射线BC方向平移2\\sqrt{2}个单位长度得到抛物线y′，点M为点P的对应点，点N为抛物线y′上的一动点．若∠NAB＝∠OPM﹣45°，请直接写出所有符合条件的点N的坐标，并写出求解点N的坐标的其中一种情况的过程．\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，抛物线y＝$x^{2}$+bx+c与x轴交于A，B（6，0）两点，与y轴交于点C，抛物线的对称轴是直线x$=\\frac{5}{2}$．\n（1）求抛物线的表达式；\n（2）点P是射线BC下方抛物线上的一动点，连接OP与射线BC交于点Q，点D，E为抛物线对称轴上的动点（点E在点D的下方），且DE＝4，连接BD，PE．当$\\frac{PQ}{OQ}$取得最大值时，求点P的坐标及BD+PE的最小值；\n（3）在（2）中$\\frac{PQ}{OQ}$取得最大值的条件下，将抛物线y＝$x^{2}$+bx+c沿射线BC方向平移2$\\sqrt{2}$个单位长度得到抛物线y′，点M为点P的对应点，点N为抛物线y′上的一动点．若∠NAB＝∠OPM﹣45°，请直接写出所有符合条件的点N的坐标，并写出求解点N的坐标的其中一种情况的过程．\n![2025年重庆市中考数学试卷_q024_img01](assets/2025年重庆市中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用待定系数法求二次函数的解析式；\n（2）先求出直线BC的解析式，然后设点P的坐标为（x，$x^{2}$﹣5x﹣6），过点P作PF∥y轴交BC于点F，交x轴于点H，点F的坐标为（x，x﹣6），求出PF长，再证明△QPF∽△QOC，根据对应边成比例求出$\\frac{PQ}{OQ}$的最大值，把点P向上平移4个单位长度得到点G，点G的坐标为（3，﹣8），连接GD，即可得到BD+PE＝BD+DG，连接AG，则AG是最小值，利用勾股定理即可解答；\n（3）根据平移得到抛物线y′的解析式，然后过点P作PQ⊥y轴于点Q，过点N作NK⊥x轴于点K，连接PM，即可得到∠NAB＝∠OPM﹣45°＝∠OPQ＝∠POB，设点N的坐标为（a，$a^{2}$﹣a﹣14），根据tan∠NAB＝tan∠OPQ，列等式求出a的值即可．\n【解答】解：（1）设抛物线的解析式为$y=(x-\\frac{5}{2})^{2}+k$，\n把（6，0）代入得$\\frac{49}{4}+k=0$，\n解得$k=-\\frac{49}{4}$，\n∴$y=(x-\\frac{5}{2})^{2}-\\frac{49}{4}=x^{2}-5x-6$；\n（2）令x＝0，则y＝﹣6，\n∴点C的坐标为（0，﹣6），\n设直线BC的解析式为y＝mx+n，\n把（6，0）和（0，﹣6）代入得$\\begin{cases} 6m+n=0 \\\\ n=6 \\end{cases}$，\n解得$\\begin{cases} m=1 \\\\ n=-6 \\end{cases}$，\n∴y＝x﹣6，\n设点P的坐标为（x，$x^{2}$﹣5x﹣6），过点P作PH∥y轴交BC于点F，交x轴于点H，如图，\n[[image:rId48]]\n则点F的坐标为（x，x﹣6），\n∴PF＝x﹣6﹣（$x^{2}$﹣5x﹣6）＝﹣$x^{2}$+6x，\n∵PF∥y轴，\n∴∠PFQ＝∠OCQ，∠FPQ＝∠COQ，\n∴△QPF∽△QOC，\n∴$\\frac{QP}{QO}=\\frac{PF}{OC}=\\frac{1}{6}(-x^{2}+6x)=-\\frac{1}{6}(x-3)^{2}+\\frac{3}{2}$，\n∴当x＝3时，$\\frac{QP}{QO}$取得最大值为$\\frac{3}{2}$，这时点P的坐标为（3，﹣12），\n把点P向上平移4个单位长度得到点G，点G的坐标为（3，﹣8），连接GD，\n则四边形DEPG是平行四边形，\n∴DG＝PE，\n即BD+PE＝BD+DG，\n由A，B关于$x=\\frac{5}{2}$对称性可得点A的坐标为（﹣1，0），\n连接AG，则BD+PE＝BD+DG的最小值为AG长，\n即$AG=\\sqrt{AH^{2}+HG^{2}}=\\sqrt{4^{2}+8^{2}}=4\\sqrt{5}$，\n即BD+PE的最小值为$4\\sqrt{5}$；\n（3）∵OB＝OC＝6，\n∴∠OBC＝∠OCB＝45°，\n∵将抛物线y＝$x^{2}$+bx+c沿射线BC方向平移$2\\sqrt{2}$个单位长度，即为向左平移两个单位长度，向下平移两个单位长度得到抛物线y′，\n即$y′=(x-\\frac{5}{2}+2)^{2}-\\frac{49}{4}-2=x^{2}-x-14$，\n过点P作PQ⊥y轴于点Q，过点N作NK⊥x轴于点K，连接PM，\n设点N的坐标为（a，$a^{2}$﹣a﹣14），\n由平移得∠QPM＝45°，\n∴∠NAB＝∠OPM﹣45°＝∠OPQ+∠QPM﹣45°＝∠OPQ＝∠POB，\n如图1，\n[[image:rId49]]\n∵tan∠NAB＝tan∠OPQ，\n即$\\frac{12}{3}=\\frac{-(a^{2}-a-14)}{a-(-1)}$，\n解得a＝﹣5（舍去）或a＝2，\n∴点N的坐标为（2，﹣12）；\n如图2，\n[[image:rId50]]\n∵tan∠NAB＝tan∠OPQ，\n即$\\frac{12}{3}=\\frac{a^{2}-a-14}{a-(-1)}$，\n解得$a=\\frac{5+\\sqrt{97}}{2}$或$a=\\frac{5-\\sqrt{97}}{2}$（舍去），\n∴点N的坐标为$(\\frac{5+\\sqrt{97}}{2}，14+2\\sqrt{97})$；\n综上所述，点N的坐标为（2，﹣12）或$(\\frac{5+\\sqrt{97}}{2}，14+2\\sqrt{97})$．\n【点评】本题是二次函数的综合，主要考查待定系数法，二次函数的线段问题，轴对称的最短路径问题，二次函数的平移，解直角三角形，利用数形结合和分类讨论思想求解是解答的关键．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q024_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "待定系数法",
+          "相似三角形性质",
+          "平移变换",
+          "解直角三角形"
+        ],
+        "reasoning": "第（1）问求抛物线表达式，使用待定系数法；第（2）问求最大值时点P坐标及BD+PE最小值，涉及相似三角形性质和最短路径问题；第（3）问求符合条件的点N坐标，涉及平移变换和平行四边形性质；第（2）问和第（3）问均涉及解直角三角形。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"待定系数法\", \"相似三角形性质\", \"平移变换\", \"解直角三角形\"],\n  \"reasoning\": \"第（1）问求抛物线表达式，使用待定系数法；第（2）问求最大值时点P坐标及BD+PE最小值，涉及相似三角形性质和最短路径问题；第（3）问求符合条件的点N坐标，涉及平移变换和平行四边形性质；第（2）问和第（3）问均涉及解直角三角形。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年重庆市中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "在△ABC中，AB＝AC，点D是BC边上一点（不与端点重合），连接AD．将线段AD绕点A逆时针旋转α得到线段AE，连接DE．\n（1）如图1，α＝∠BAC＝60°，∠CAE＝20°，求∠ADB的度数；\n（2）如图2，α＝∠BAC＝90°，BD＜CD，过点D作DG⊥BC，DG交CA的延长线于G，连接BG．点F是DE的中点，点H是BG的中点，连接FH，CF．用等式表示线段FH与CF的数量关系并证明；\n（3）如图3，∠BAC＝120°，α＝60°，AB＝8，连接BE，CE．点D从点B移动到点C过程中，将BE绕点B逆时针旋转60°得线段BM，连接EM，作MN⊥CA交CA的延长线于点N．当CE取最小值时，在直线AB上取一点P，连接PE，将△APE沿PE所在直线翻折到△ABC所在的平面内，得△QPE，连接BQ，MQ，NQ，当BQ取最大值时，请直接写出△MNQ的面积．\n[图1]\n2025年重庆市中考数学试卷",
+      "stem_markdown": "在△ABC中，AB＝AC，点D是BC边上一点（不与端点重合），连接AD．将线段AD绕点A逆时针旋转α得到线段AE，连接DE．\n（1）如图1，α＝∠BAC＝60°，∠CAE＝20°，求∠ADB的度数；\n（2）如图2，α＝∠BAC＝90°，BD＜CD，过点D作DG⊥BC，DG交CA的延长线于G，连接BG．点F是DE的中点，点H是BG的中点，连接FH，CF．用等式表示线段FH与CF的数量关系并证明；\n（3）如图3，∠BAC＝120°，α＝60°，AB＝8，连接BE，CE．点D从点B移动到点C过程中，将BE绕点B逆时针旋转60°得线段BM，连接EM，作MN⊥CA交CA的延长线于点N．当CE取最小值时，在直线AB上取一点P，连接PE，将△APE沿PE所在直线翻折到△ABC所在的平面内，得△QPE，连接BQ，MQ，NQ，当BQ取最大值时，请直接写出△MNQ的面积．\n![2025年重庆市中考数学试卷_q025_img01](assets/2025年重庆市中考数学试卷_q025_img01.png)\n2025年重庆市中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用AB＝AC，∠BAC＝α＝60°，得出△ABC是等边三角形，得出∠ABC＝∠ACB＝60°，由旋转得∠DAE＝60°，则可求出∠DAC，再利用外角即可求解；\n（2）连接CE，DH，利用α＝∠BAC＝90°，AB＝AC，得∠ABD＝∠ACB＝45°，证明△BAD≌△CAE，得BD＝CE，∠ABD＝∠ACE＝45°，得出∠DCE＝∠ACB+∠ACE＝45°+45°＝90°，再证明DG＝DC，得出△BDG≌△ECD，可得∠BGD＝∠EDC，BG＝DE，再通过点H是BG的中点，和点F是DE的中点，证明$DH=HG=\\frac{1}{2}BG$，DF＝CF$=\\frac{1}{2}$DE，通过证明△HDF是等腰直角三角形，即可得出；\n（3）取BC中点U，AC中点V，连接AU，EV，UV，通过证明△ADU≌△AEV，得出∠AVE＝∠AUD＝90°，由点V为固定点，∠AVE＝90°，得点E在过点V且垂直于AC的直线上运动，由点到直线的最短距离可得，当CE取最小值时，即CE垂直于点E运动轨迹的直线，即点E和点V重合时，CE最小，此时，由翻折可知AE＝QE，则点Q的轨迹为以点E为圆心，AE＝4为半径的圆，由点到圆上一点的最大距离可知当B、E、Q依次共线时，BQ取最大值，此时，连接MA，过点B作BS⊥CN于点S，过点Q作QR⊥CN于点R，证明△MAE≌△BDE，得出MA＝BD＝4$\\sqrt{3}$，∠MAE＝∠BDE，通过证明∠MAN＝30°，得出MN$=\\frac{1}{2}$MA＝2$\\sqrt{3}$，AN$=\\sqrt{3}$MN＝6，再计算出AS$=\\frac{1}{2}$AB＝4，BS$=\\sqrt{3}$AS＝4$\\sqrt{3}$，即可求出SE＝8，则BE$=\\sqrt{BS^{2}+SE^{2}}=$4$\\sqrt{7}$，通过△BES∽△QER，求出ER$=\\frac{8\\sqrt{7}}{7}$，可求出NR＝NA+AE+ER＝10$+\\frac{8\\sqrt{7}}{7}$，则利用$S_{△}_{MNQ}=\\frac{1}{2}MN⋅NR$即可求出．\n【解答】解：（1）∵AB＝AC，∠BAC＝α＝60°，\n∴△ABC是等边三角形，\n∴∠ABC＝∠ACB＝60°，\n由旋转得∠DAE＝60°，\n∴∠DAC＝∠DAE﹣∠CAE＝60°﹣20°＝40°，\n∴∠ADB＝∠DAC+∠ACB＝100°；\n（2）$HF=\\sqrt{2}CF$，证明如下：\n如图，连接CE，DH，\n[[image:rId52]]\n∵α＝∠BAC＝90°，AB＝AC，\n∴∠ABD＝∠ACB＝45°，\n由旋转知AD＝AE，∠DAE＝90°，\n∴∠BAC＝∠DAE＝90°，\n即∠BAD+∠DAC＝∠CAE+∠DAC，\n∴∠BAD＝∠CAE，\n∴△BAD≌△CAE（SAS），\n∴BD＝CE，∠ABD＝∠ACE＝45°，\n∴∠DCE＝∠ACB+∠ACE＝45°+45°＝90°，\n∵DG⊥BC，\n∴∠CDG＝∠BDG＝∠DCE＝90°，\n∵∠ACB＝45°，\n∴∠CGD＝∠ACB＝45°，\n∴DG＝DC，\n∴△BDG≌△ECD（SAS），\n∴∠BGD＝∠EDC，BG＝DE，\n∵点H是BG的中点，∠BDG＝90°，\n∴$DH=HG=\\frac{1}{2}BG$，\n∴∠HDG＝∠HGD，\n∴∠HDG＝∠EDC，\n∴∠HDG+∠GDE＝∠EDC+∠GDE，\n即∠HDF＝∠GDC＝90°，\n∵点F是DE的中点，∠DCE＝90°，\n∴$DF=CF=\\frac{1}{2}DE$，\n∴DH＝DF，\n∴△HDF是等腰直角三角形，\n∴$HF=\\sqrt{2}DF=\\sqrt{2}CF$，\n即$HF=\\sqrt{2}CF$；\n（3）如图，取BC中点U，AC中点V，连接AU，EV，UV，\n[[image:rId53]]\n∵AB＝AC＝8，∠BAC＝120°，\n∴∠ACU＝30°，$∠CAU=\\frac{1}{2}∠BAC=60°$，AU⊥BC，\n∴$AU=\\frac{1}{2}AC=4$，\n∵V是AC中点，\n∴$AV=\\frac{1}{2}AC$，\n∴AU＝AV，\n由旋转知AD＝AE，∠DAE＝60°，\n∴△ADE是等边三角形，∠DAE＝∠CAU＝60°，\n∴∠DAU＝∠EAV，\n∴△ADU≌△AEV（SAS），\n∴∠AVE＝∠AUD＝90°，\n由点V为固定点，∠AVE＝90°，得点E在过点V且垂直于AC的直线上运动，\n由点到直线的最短距离可得，当CE取最小值时，即CE垂直于点E运动轨迹的直线，\n即点E和点V重合时，CE最小，\n此时如图，\n[[image:rId54]]\n由翻折可知AE＝QE，\n∴点Q的轨迹为以点E为圆心，AE＝4为半径的圆，\n由点到圆上一点的最大距离可知当B、E、Q依次共线时，BQ取最大值，\n此时如图，连接MA，过点B作BS⊥CN于点S，过点Q作QR⊥CN于点R，\n[[image:rId55]]\n由旋转知BM＝BE，∠MBE＝60°，\n∴△BEM是等边三角形，\n∴∠BEM＝60°，BE＝EM，\n∵△ADE是等边三角形，\n∴∠AED＝60°，AE＝DE，\n∴∠BEM＝∠AED＝60°，\n∴∠AEM＝∠DEB，\n∴△MAE≌△BDE（SAS），\n∴MA＝BD，∠MAE＝∠BDE，\n∵AB＝AC＝8，∠BAC＝120°，∠DAE＝60°，\n∴∠ABC＝∠ACB＝30°，∠DAE＝∠BAD＝60°，\n∴AD⊥BC，\n∴AD$=\\frac{1}{2}$AB＝4，$BD=\\sqrt{3}AD=4\\sqrt{3}$，\n∴$MA=BD=4\\sqrt{3}$，\n∵E为AC中点，\n∴DE＝CE，\n∴∠EDC＝∠ACB＝30°，\n∴∠MAE＝∠BDE＝180°﹣∠EDC＝150°，\n∴∠MAN＝180°﹣∠MAE＝30°，\n∴$MN=\\frac{1}{2}MA=2\\sqrt{3}$，AN$=\\sqrt{3}$MN＝6，\n∵∠BAS＝180°﹣∠BAC＝60°，\n∴∠ABS＝30°，\n∴AS$=\\frac{1}{2}$AB＝4，$BS=\\sqrt{3}AS=4\\sqrt{3}$，\n∴SE＝AS+AE＝4+4＝8，\n∴$BE=\\sqrt{BS^{2}+SE^{2}}=4\\sqrt{7}$，\n∵BS⊥CN，QR⊥CN．\n∴∠BSE＝∠QRE＝90°，\n又∵∠BES＝∠QER，\n∴△BES∽△QER，\n∴$\\frac{BE}{EQ}=\\frac{SE}{ER}$，\n即$\\frac{4\\sqrt{7}}{4}=\\frac{8}{ER}$，\n解得$ER=\\frac{8\\sqrt{7}}{7}$，\n∴$NR=NA+AE+ER=10+\\frac{8\\sqrt{7}}{7}$，\n∵MN⊥CA，QR⊥CN，\n∴$S_{△MNQ}=\\frac{1}{2}MN⋅NR=\\frac{1}{2}×2\\sqrt{3}×(10+\\frac{8\\sqrt{7}}{7})=10\\sqrt{3}+\\frac{8\\sqrt{21}}{7}$．\n【点评】本题考查几何变换的综合应用，主要考查全等三角形的判定与性质，相似三角形的判定与性质，等腰三角形的判定与性质，等边三角形的判定与性质，直角三角形斜边中线的性质，勾股定理，含30°角的直角三角形的性质，三角形内角和定理和外角性质，熟练掌握这些性质与判定是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/6 15:26:19；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId57]] ____ [[image:rId58]] ____ [[image:rId59]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年重庆市中考数学试卷_q025_img01",
+          "path": "assets/2025年重庆市中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定与性质",
+          "相似三角形的判定与性质",
+          "等腰三角形的判定与性质",
+          "等边三角形的判定与性质"
+        ],
+        "reasoning": "题目涉及多个图形的全等和相似关系，以及等腰和等边三角形的性质。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定与性质\", \"相似三角形的判定与性质\", \"等腰三角形的判定与性质\", \"等边三角形的判定与性质\"],\n  \"reasoning\": \"题目涉及多个图形的全等和相似关系，以及等腰和等边三角形的性质。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:18:02",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 25,
+      "ok": 25,
+      "fallback": 0
+    }
+  }
+}

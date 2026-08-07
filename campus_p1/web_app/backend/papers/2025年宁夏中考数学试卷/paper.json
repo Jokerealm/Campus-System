@@ -1,0 +1,1136 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年宁夏中考数学试卷",
+  "source": {
+    "name": "2025年宁夏中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年宁夏中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年宁夏中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "如图，数轴上点A表示的数可能是（ ）\n[图1]",
+      "stem_markdown": "如图，数轴上点A表示的数可能是（ ）\n![2025年宁夏中考数学试卷_q001_img01](assets/2025年宁夏中考数学试卷_q001_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣1"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据数轴分析即可．\n【解答】解：由数轴得：点A表示的数在﹣1到0之间，\n故B选项符合题意，\n故选：B．\n【点评】本题考查了数轴，掌握数轴的定义是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q001_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q001_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "数轴上的位置关系",
+          "区间表示法"
+        ],
+        "reasoning": "数轴上点A表示的数在﹣1到0之间",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"数轴上的位置关系\", \"区间表示法\"],\n  \"reasoning\": \"数轴上点A表示的数在﹣1到0之间\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "如图，直线l₁，l₂被直线l₃所截，根据“同位角相等，两直线平行”判定l₁∥l₂，需要的条件是（ ）\n[图1]",
+      "stem_markdown": "如图，直线$l_{1}$，$l_{2}$被直线$l_{3}$所截，根据“同位角相等，两直线平行”判定$l_{1}$∥$l_{2}$，需要的条件是（ ）\n![2025年宁夏中考数学试卷_q002_img01](assets/2025年宁夏中考数学试卷_q002_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "∠1＝∠2"
+        },
+        {
+          "label": "B",
+          "text": "∠1＝∠3"
+        },
+        {
+          "label": "C",
+          "text": "∠1＝∠4"
+        },
+        {
+          "label": "D",
+          "text": "∠2＝∠3"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据同位角相等，两直线平行，结合图形，逐一判断各选项，可得到结果．\n【解答】解：∠1＝∠2（对顶角相等），不符合“同位角相等，两直线平行”，故A选项错误，不符合题意；\n∠1≠∠3，故B选项错误，不符合题意；\n∠1＝∠4，符合“同位角相等，两直线平行”，得到$l_{1}$∥$l_{2}$，故C选项正确，符合题意；\n∠2≠∠3，故D选项错误，不符合题意，\n故选：C．\n【点评】本题考查了平行线的判定和性质，熟练掌握平行线的判定方法是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q002_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q002_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同位角相等，两直线平行",
+          "对顶角相等"
+        ],
+        "reasoning": "选项C中的∠1＝∠4涉及同位角相等，判断两直线平行",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同位角相等，两直线平行\", \"对顶角相等\"],\n  \"reasoning\": \"选项C中的∠1＝∠4涉及同位角相等，判断两直线平行\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "下列运算正确的是（ ）",
+      "stem_markdown": "下列运算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a^{2}+a^{2}＝a^{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$a^{2}•a^{3}＝a^{6}$"
+        },
+        {
+          "label": "C",
+          "text": "（a﹣2）^{2}＝$a^{2}$﹣4"
+        },
+        {
+          "label": "D",
+          "text": "（$a^{2}$b）^{2}＝$a^{4}b^{2}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据合并同类项，同底数幂的乘法，完全平方公式以及幂的乘方与积的乘方的计算方法进行计算即可．\n【解答】解：A．$a^{2}+a^{2}＝2a^{2}$，因此选项A不符合题意；\nB．$a^{2}•a^{3}＝a^{5}$，因此选项B不符合题意；\nC．（a﹣2）^{2}＝$a^{2}$﹣4a+4，因此选项C不符合题意；\nD．（$a^{2}$b）^{2}＝$a^{4}b^{2}$，因此选项D符合题意．\n故选：D．\n【点评】本题考查合并同类项，同底数幂的乘法，完全平方公式以及幂的乘方与积的乘方，掌握合并同类项，同底数幂的乘法，完全平方公式以及幂的乘方与积的乘方的计算方法是正确解答的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同底数幂的乘法",
+          "完全平方公式",
+          "幂的乘方"
+        ],
+        "reasoning": "选项B和C涉及的幂的运算规则，选项A涉及合并同类项，选项D涉及幂的乘方。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同底数幂的乘法\", \"完全平方公式\", \"幂的乘方\"],\n  \"reasoning\": \"选项B和C涉及的幂的运算规则，选项A涉及合并同类项，选项D涉及幂的乘方。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "如图，将书本上面的橡皮擦沿箭头方向（垂直于右边缘）平移到书本右边缘．在此过程中，下列叙述正确的是（ ）\n[图1]",
+      "stem_markdown": "如图，将书本上面的橡皮擦沿箭头方向（垂直于右边缘）平移到书本右边缘．在此过程中，下列叙述正确的是（ ）\n![2025年宁夏中考数学试卷_q004_img01](assets/2025年宁夏中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "主视图不变"
+        },
+        {
+          "label": "B",
+          "text": "左视图不变"
+        },
+        {
+          "label": "C",
+          "text": "俯视图不变"
+        },
+        {
+          "label": "D",
+          "text": "三种视图都不变"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】明确平移的性质：平移不改变物体的形状和大小，只改变物体的位置；分析橡皮擦的平移方向为垂直于书本右边缘，即左右方向平移；分别判断主视图（从正面看）、左视图（从左面看）、俯视图（从上面看）在平移过程中的变化，主视图和俯视图会因位置改变而变化，左视图不受左右平移影响．\n【解答】解：选项A：主视图是从正面观察物体所得到的图形．橡皮擦沿垂直于书本右边缘的方向（即左右方向）平移时，其在正面视角中的水平位置发生了改变，导致主视图呈现的图形位置随之变化，因此主视图是会改变的，该选项错误．\n选项B：左视图是从左面观察物体所得到的图形．橡皮擦左右平移时，左视图主要反映的是橡皮擦的侧面高度和宽度，而平移方向（左右方向）不会影响侧面的形状和大小，左视图的形状和大小均未发生变化，因此左视图不变，该选项正确．\n选项C：俯视图是从上面观察物体所得到的图形．橡皮擦左右平移时，其在水平面上的位置发生了改变，俯视图中图形的位置也会随之变化，因此俯视图是会改变的，该选项错误．\n选项D：由上述分析可知，主视图和俯视图会因平移导致的位置变化而改变，只有左视图不变，并非三种视图都不变，该选项错误．\n故选：B．\n【点评】本题考查了平移的性质以及几何体三视图的概念，解题的关键是理解平移过程中几何体的形状和大小不变，分析平移方向对不同视图的影响．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q004_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q004_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平移的性质",
+          "三视图",
+          "主视图",
+          "左视图"
+        ],
+        "reasoning": "分析平移过程中三视图的变化",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平移的性质\", \"三视图\", \"主视图\", \"左视图\"],\n  \"reasoning\": \"分析平移过程中三视图的变化\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "《九章算术》中有一段文字的大意是：有人合伙买羊，若每人出5钱，还差45钱；若每人出7钱，还差3钱．问合伙人数、羊价各是多少？设合伙人数为x人，羊价为y钱，则可列方程组为（ ）",
+      "stem_markdown": "《九章算术》中有一段文字的大意是：有人合伙买羊，若每人出5钱，还差45钱；若每人出7钱，还差3钱．问合伙人数、羊价各是多少？设合伙人数为x人，羊价为y钱，则可列方程组为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\begin{cases} 5x-45=y \\\\ 7x-3=y \\end{cases}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\begin{cases} 5x+45=y \\\\ 7x-3=y \\end{cases}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\begin{cases} 5x+45=y \\\\ 7x+3=y \\end{cases}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\begin{cases} 5x-45=y \\\\ 7x+3=y \\end{cases}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】明确题目中的两个等量关系：每人出5钱时，总钱数加上还差的45钱＝羊价；每人出7钱时，总钱数加上还差的3钱＝羊价．\n【解答】解：设合伙人数为x人，羊价为y钱，\n根据题意，得：$\\begin{cases} 5x+45=y \\\\ 7x+3=y \\end{cases}$，\n故选：C．\n【点评】本题考查了由实际问题抽象出二元一次方程组，读懂题意，找准等量关系是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方程组的应用",
+          "实际问题与方程组的关系"
+        ],
+        "reasoning": "题中描述了两种不同的支付方式和对应的总金额，需要列出相应的方程组。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方程组的应用\", \"实际问题与方程组的关系\"],\n  \"reasoning\": \"题中描述了两种不同的支付方式和对应的总金额，需要列出相应的方程组。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "下列判断正确的是（ ）",
+      "stem_markdown": "下列判断正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "若点P（a，b）关于x轴的对称点在第二象限，则b＜0"
+        },
+        {
+          "label": "B",
+          "text": "夜晚，小明走向一盏路灯，他在地面上的影长由短变长"
+        },
+        {
+          "label": "C",
+          "text": "4的平方根是2"
+        },
+        {
+          "label": "D",
+          "text": "过一点有且只有一条直线与已知直线垂直"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】据关于x轴对称的点的坐标特征和第二象限点的坐标特征对A进行判断；根据中心投影的定义判断B即可；根据平方根的定义判断C即可；根据垂线的性质判断选项D即可．\n【解答】解：若点P（a，b）关于x轴的对称点在第二象限，则b＜0，故选项A符合题意；\n夜晚，小明走向一盏路灯，他在地面上的影长由长变短，故选项B不符合题意；\n4的平方根是±2，故选项C不符合题意；\n在同一平面内，过一点有且只有一条直线与已知直线垂直，故选项D不符合题意．\n故选：A．\n【点评】本题考查了命题与定理：判断一件事情的语句，叫做命题．许多命题都是由题设和结论两部分组成，题设是已知事项，结论是由已知事项推出的事项，一个命题可以写成“如果…那么…”形式．有些命题的正确性是用推理证实的，这样的真命题叫做定理．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "关于x轴对称的点的坐标特征",
+          "第二象限点的坐标特征",
+          "中心投影",
+          "平方根的定义"
+        ],
+        "reasoning": "选项A考察了关于x轴对称的点的坐标特征和第二象限点的坐标特征",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"关于x轴对称的点的坐标特征\", \"第二象限点的坐标特征\", \"中心投影\", \"平方根的定义\"],\n  \"reasoning\": \"选项A考察了关于x轴对称的点的坐标特征和第二象限点的坐标特征\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "函数y=\\frac{k_{1}}{x}(k_{1}≠0)和y=\\frac{k_{2}}{x}(k_{2}≠0)的部分图象如图所示，点A在y=\\frac{k_{1}}{x}的图象上，过点A作AB∥y轴交x轴于点C，交y=\\frac{k_{2}}{x}的图象于点B．若AC＝3BC，则\\frac{k_{1}}{k_{2}}的值为（ ）\n[图1]",
+      "stem_markdown": "函数$y=\\frac{k_{1}}{x}(k_{1}≠0)$和$y=\\frac{k_{2}}{x}(k_{2}≠0)$的部分图象如图所示，点A在$y=\\frac{k_{1}}{x}$的图象上，过点A作AB∥y轴交x轴于点C，交$y=\\frac{k_{2}}{x}$的图象于点B．若AC＝3BC，则$\\frac{k_{1}}{k_{2}}$的值为（ ）\n![2025年宁夏中考数学试卷_q007_img01](assets/2025年宁夏中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣3"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】连接OA、OB，由AC＝3BC、AB∥y轴得到$S_{△}_{OAC}＝3S_{△}_{OBC}$，根据反比例函数系数k的几何意义可得$S_{△}_{OAC}$，继而求出$S_{△}_{OBC}$，再根据反比例函数系数k的几何意义即可求解．\n【解答】解：如图，连接OA、OB，\n[[image:rId30]]\n由条件可知OC⊥AB，\n∴$S_{△}_{OAC}＝3S_{△}_{OBC}$．\n由条件可知$S_{△OAC}=\\frac{k_{1}}{2}$，\n∴$S_{△OBC}=\\frac{k_{1}}{6}$，\n∴$\\frac{1}{2}|k_{2}|=\\frac{k_{1}}{6}$且$k_{2}$＜0，\n∴$-\\frac{k_{2}}{2}=\\frac{k_{1}}{6}$，\n∴$\\frac{k_{1}}{k_{2}}=-\\frac{6}{2}=-3$．\n故选：A．\n【点评】本题考查反比例函数$y=\\frac{k}{x}$（k≠0）系数k的几何意义：从反比例函数$y=\\frac{k}{x}$（k≠0）图象上任意一点向x轴和y轴作垂线，垂线与坐标轴所围成的矩形面积为|k|．熟练掌握该知识点是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q007_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数系数k的几何意义",
+          "相似三角形的面积比"
+        ],
+        "reasoning": "利用AC=3BC得出三角形面积比，进而求出k1/k2",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数系数k的几何意义\", \"相似三角形的面积比\"],\n  \"reasoning\": \"利用AC=3BC得出三角形面积比，进而求出k1/k2\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "老师带领数学小组仅用测角仪和皮尺测量某桥外侧拱顶离水面的高度．如图，拱顶离水面的高度为EF，点A，B是水平地面上两点，且与点E，F均在同一竖直平面内．已知水平地面离水面的高度为2米，测角仪支架高度为1.5米，为达成目的，还需测量的数据是（ ）\n[图1]",
+      "stem_markdown": "老师带领数学小组仅用测角仪和皮尺测量某桥外侧拱顶离水面的高度．如图，拱顶离水面的高度为EF，点A，B是水平地面上两点，且与点E，F均在同一竖直平面内．已知水平地面离水面的高度为2米，测角仪支架高度为1.5米，为达成目的，还需测量的数据是（ ）\n![2025年宁夏中考数学试卷_q008_img01](assets/2025年宁夏中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "CH的长，∠EDH的度数"
+        },
+        {
+          "label": "B",
+          "text": "AB的长，∠ECH的度数"
+        },
+        {
+          "label": "C",
+          "text": "CH的长，∠ECH的度数"
+        },
+        {
+          "label": "D",
+          "text": "AB的长，∠ECH，∠EDH的度数"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】延长DC交EF于点H，根据三角函数的定义得到CH$=\\frac{EH}{tan∠ECH}$，DH$=\\frac{EH}{tan∠EDH}$，由CD＝DH﹣CH，求出EH，即可求出EF，即可得到答案．\n【解答】解：如图，延长DC交EF于点H．\n[[image:rId32]]\n由题意知CD＝AB，FH＝2+1.5＝3.5（米），\n在Rt△ECH中，∠EHC＝90°，tan∠ECH$=\\frac{EH}{CH}$，\n∴CH$=\\frac{EH}{tan∠ECH}$，\n在Rt△AEH中，∠AHE＝90°，tan∠EDH$=\\frac{EH}{DH}$，\n∴DH$=\\frac{EH}{tan∠EDH}$，\n∵CD＝DH﹣CH，\n∴$\\frac{EH}{tan∠EDH}-\\frac{EH}{tan∠ECH}=$AB，\n∴EH$=\\frac{AB⋅tan∠ECH⋅tan∠EDH}{tan∠ECH-tan∠EDH}$，\n∴EF＝EH+FH＝（$\\frac{AB⋅tan∠ECH⋅tan∠EDH}{tan∠ECH-tan∠EDH}+$3.5）（米）．\n故选：D．\n【点评】本题考查了解直角三角形的应用﹣俯角仰角问题，熟练掌握三角函数的定义是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q008_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正切函数",
+          "三角形的边角关系",
+          "勾股定理"
+        ],
+        "reasoning": "题目通过测角仪和皮尺测量拱顶离水面的高度，涉及正切函数和三角形边角关系。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正切函数\", \"三角形的边角关系\", \"勾股定理\"],\n  \"reasoning\": \"题目通过测角仪和皮尺测量拱顶离水面的高度，涉及正切函数和三角形边角关系。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "blank",
+      "stem_text": "计算：\\sqrt[3]{27}= ____ ．",
+      "stem_markdown": "计算：$\\sqrt[3]{27}=$ ____ ．",
+      "options": [],
+      "answer": "3．",
+      "solution": "【分析】如果$x^{3}$＝a，那么x叫做a的立方根．记作：$\\sqrt[3]{a}$，由此即可得到答案．\n【解答】解：$\\sqrt[3]{27}=$3．\n故答案为：3．\n【点评】本题考查立方根，关键是掌握立方根的定义．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "立方根"
+        ],
+        "reasoning": "题目要求计算立方根，即求27的立方根。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"立方根\"],\n  \"reasoning\": \"题目要求计算立方根，即求27的立方根。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "blank",
+      "stem_text": "如图，直线l₁：y＝k₁x+b₁与直线l₂：y＝k₂x+b₂交于点A，则关于x，y的方程组\\begin{cases} y=k_{1}x+b_{1} \\\\ y=k_{2}x+b_{2} \\end{cases}的解是 ____ ．\n[图1]",
+      "stem_markdown": "如图，直线$l_{1}$：y＝$k_{1}$x+$b_{1}$与直线$l_{2}$：y＝$k_{2}$x+$b_{2}$交于点A，则关于x，y的方程组$\\begin{cases} y=k_{1}x+b_{1} \\\\ y=k_{2}x+b_{2} \\end{cases}$的解是 ____ ．\n![2025年宁夏中考数学试卷_q010_img01](assets/2025年宁夏中考数学试卷_q010_img01.png)",
+      "options": [],
+      "answer": "$\\begin{cases} x=4 \\\\ y=6 \\end{cases}$．",
+      "solution": "【分析】依据题意，可得关于x，y的方程组$\\begin{cases} y=k_{1}x+b_{1} \\\\ y=k_{2}x+b_{2} \\end{cases}$的解即为直线y＝$k_{1}$x+$b_{1}$与y＝$k_{2}$x+$b_{2}$的交点A（4，6）的坐标．\n【解答】解：由图象知直线y＝$k_{1}$x+$b_{1}$与y＝$k_{2}$x+$b_{2}$相交于点A（4，6），\n∴关于x，y的方程组$\\begin{cases} y=k_{1}x+b_{1} \\\\ y=k_{2}x+b_{2} \\end{cases}$的解是$\\begin{cases} x=4 \\\\ y=6 \\end{cases}$．\n故答案为：$\\begin{cases} x=4 \\\\ y=6 \\end{cases}$．\n【点评】本题主要考查了对一次函数与二元一次方程组的关系的理解和运用，主要考查学生的观察图形的能力和理解能力．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q010_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数的交点坐标等于对应的二元一次方程组的解",
+          "二元一次方程组的解法"
+        ],
+        "reasoning": "题中条件给出了两条直线的方程，其交点坐标即是方程组的解。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数的交点坐标等于对应的二元一次方程组的解\", \"二元一次方程组的解法\"],\n  \"reasoning\": \"题中条件给出了两条直线的方程，其交点坐标即是方程组的解。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "为提升学生艺术素养，学校在周三同时开展了多种文艺社团活动．现从参加器乐、舞蹈和声乐这三个文艺社团的学生中随机抽取两名，他们恰好参加同一社团的概率为 ____ ．",
+      "stem_markdown": "为提升学生艺术素养，学校在周三同时开展了多种文艺社团活动．现从参加器乐、舞蹈和声乐这三个文艺社团的学生中随机抽取两名，他们恰好参加同一社团的概率为 ____ ．",
+      "options": [],
+      "answer": "$\\frac{1}{3}$．",
+      "solution": "【分析】画树状图，共有9种等可能的结果，随机抽取两名恰好选择同一个社团的有3种情况，再由概率公式求解即可．\n【解答】解：把“器乐文艺社团”、“舞蹈文艺社团”、“声乐文艺社团”分别记为A、B、C，\n画树状图如下：\n[[image:rId34]]\n共有9种等可能的结果，随机抽取两名恰好选择同一个社团的有3种情况，\n∴他们恰好参加同一社团的概率为：$\\frac{3}{9}=\\frac{1}{3}$，\n故答案为：$\\frac{1}{3}$．\n【点评】本题考查了用列表法或画树状图法求概率．列表法或画树状图法可以不重复不遗漏的列出所有可能的结果，列表法适合于两步完成的事件，树状图法适合两步或两步以上完成的事件．用到的知识点为：概率＝所求情况数与总情况数之比．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "组合计数",
+          "概率计算"
+        ],
+        "reasoning": "计算随机抽取两名恰好选择同一个社团的情况数占总情况数的比例",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"组合计数\", \"概率计算\"],\n  \"reasoning\": \"计算随机抽取两名恰好选择同一个社团的情况数占总情况数的比例\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "不等式组\\begin{cases} 1+2x＜5 \\\\ \\frac{x-1}{2}≤2 \\end{cases}的解集是 ____ ．",
+      "stem_markdown": "不等式组$\\begin{cases} 1+2x＜5 \\\\ \\frac{x-1}{2}≤2 \\end{cases}$的解集是 ____ ．",
+      "options": [],
+      "answer": "x＜2．",
+      "solution": "【分析】先解一元一次不等式，再得出解集．\n【解答】解：$\\begin{cases} 1+2x＜5① \\\\ \\frac{x-1}{2}≤2② \\end{cases}$，\n由①得：x＜2，\n由②得：x≤5，\n∴x＜2，\n故答案为：x＜2．\n【点评】本题考查了解一元一次不等式组，掌握解一元一次不等式是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式",
+          "解一元一次不等式组"
+        ],
+        "reasoning": "通过解不等式①和②得到x的取值范围，最终确定解集。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式\", \"解一元一次不等式组\"],\n  \"reasoning\": \"通过解不等式①和②得到x的取值范围，最终确定解集。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "如图，⊙O是△ABC的内切圆，∠A＝54°，则∠BOC＝ ____ °．\n[图1]",
+      "stem_markdown": "如图，⊙O是△ABC的内切圆，∠A＝54°，则∠BOC＝ ____ °．\n![2025年宁夏中考数学试卷_q013_img01](assets/2025年宁夏中考数学试卷_q013_img01.png)",
+      "options": [],
+      "answer": "117．",
+      "solution": "【分析】根据⊙O是△ABC的内切圆，得出$∠OBC=\\frac{1}{2}∠ABC$，$∠OCB=\\frac{1}{2}∠ACB$，进而得出∠ABC+∠ACB＝126°，即可得出答案．\n【解答】解：∵⊙O是△ABC的内切圆，\n∴$∠OBC=\\frac{1}{2}∠ABC$，$∠OCB=\\frac{1}{2}∠ACB$，\n∵∠A＝54°，\n∴∠ABC+∠ACB＝180°﹣∠A＝126°，\n∴∠BOC＝180°﹣（∠OBC+∠OCB）\n＝180°$-\\frac{1}{2}$（∠ABC+∠ACB）\n$=180°-\\frac{1}{2}×126°$\n＝117°，\n故答案为：117．\n【点评】本题考查三角形的内切圆的性质与三角形内角和定理，掌握其性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q013_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q013_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形内切圆的性质",
+          "三角形内角和定理"
+        ],
+        "reasoning": "题中利用内切圆性质得出∠OBC和∠OCB分别是∠ABC和∠ACB的一半，结合三角形内角和定理求解∠BOC。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形内切圆的性质\", \"三角形内角和定理\"],\n  \"reasoning\": \"题中利用内切圆性质得出∠OBC和∠OCB分别是∠ABC和∠ACB的一半，结合三角形内角和定理求解∠BOC。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "一个数学游戏规则是：如图，在以同一点为位似中心的三个位似三角形的顶点处任意填入9个不同的数，使每个三角形的三个顶点与同一直线上的三个顶点的三个数之和均相等，则yx＝ ____ ．\n[图1]",
+      "stem_markdown": "一个数学游戏规则是：如图，在以同一点为位似中心的三个位似三角形的顶点处任意填入9个不同的数，使每个三角形的三个顶点与同一直线上的三个顶点的三个数之和均相等，则$y^{x}$＝ ____ ．\n![2025年宁夏中考数学试卷_q014_img01](assets/2025年宁夏中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "1．",
+      "solution": "【分析】根据题意列出二元一次方程组，解方程组求出x、y，再根据零指数幂计算，得到答案．\n【解答】解：由题意得：$\\begin{cases} x-1=y+5 \\\\ y-2+2=-1-2-3 \\end{cases}$，\n解得：$\\begin{cases} x=0 \\\\ y=-6 \\end{cases}$，\n则$y^{x}$＝（﹣6）^{0}＝1，\n故答案为：1．\n【点评】本题考查的是位似变换、有理数的加法，正确列出方程组、熟记零指数幂的运算是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q014_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "零指数幂",
+          "二元一次方程组"
+        ],
+        "reasoning": "题中通过二元一次方程组求解x、y值，并利用零指数幂计算结果",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"零指数幂\", \"二元一次方程组\"],\n  \"reasoning\": \"题中通过二元一次方程组求解x、y值，并利用零指数幂计算结果\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "编程机器人表演中，一机器人从沙盘平面内某点出发向前直行n步后右转15°，沿转后方向直行n步后右转15°，再沿转后方向直行n步后右转15°…，依此方式继续行走，第一次回到出发点时，该机器人共走了 ____ 步．",
+      "stem_markdown": "编程机器人表演中，一机器人从沙盘平面内某点出发向前直行n步后右转15°，沿转后方向直行n步后右转15°，再沿转后方向直行n步后右转15°…，依此方式继续行走，第一次回到出发点时，该机器人共走了 ____ 步．",
+      "options": [],
+      "answer": "24n．",
+      "solution": "【分析】由题意可得机器人正好走了一个正多边形，根据多边形的外角和定理即可求出答案．\n【解答】解：∵由题意可得机器人正好走了一个正多边形，\n∴根据外角和定理可知正多边形的边数为：360°÷15°＝24，\n则第一次回到出发点时，该机器人共走了24n步，\n故答案为：24n．\n【点评】本题主要考查了多边形的外角和定理，任何一个多边形的外角和都是360°，用外角和求正多边形的边数可直接让360°除以一个外角度数即可．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "多边形的外角和定理",
+          "正多边形的性质"
+        ],
+        "reasoning": "通过计算外角和确定多边形边数，进而确定步数",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"多边形的外角和定理\", \"正多边形的性质\"],\n  \"reasoning\": \"通过计算外角和确定多边形边数，进而确定步数\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "如图，在单位长度均为1cm的平面直角坐标系中，放置一个圆柱形笔筒的展开图．其中，侧面展开图OABC的边OA，OC在坐标轴上，点B坐标为（24，﹣10）．将一根长度为14.6cm的铅笔放入笔筒内，露出笔筒部分的最小长度是 ____ cm．（结果保留整数，π取3，壁厚忽略不计）\n[图1]",
+      "stem_markdown": "如图，在单位长度均为1cm的平面直角坐标系中，放置一个圆柱形笔筒的展开图．其中，侧面展开图OABC的边OA，OC在坐标轴上，点B坐标为（24，﹣10）．将一根长度为14.6cm的铅笔放入笔筒内，露出笔筒部分的最小长度是 ____ cm．（结果保留整数，π取3，壁厚忽略不计）\n![2025年宁夏中考数学试卷_q016_img01](assets/2025年宁夏中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "2．",
+      "solution": "【分析】由题意得出圆柱形笔筒的高为10cm，笔筒的底面圆周长为24cm，计算出笔筒的底面圆直径为8cm，再由勾股定理求出铅笔放入笔筒内最长为12.8cm，即可得出结果．\n【解答】解：由题意得：圆柱形笔筒的高为10cm，笔筒的底面圆周长为24cm，\n∴笔筒的底面圆直径为：$\\frac{24}{π}=\\frac{24}{3}=$8（cm），\n铅笔放入笔筒内最长为：$\\sqrt{10^{2}+8^{2}}≈$12.8（cm），\n∴铅笔放入笔筒内，露出笔筒部分的最小长度是14.6﹣12.8≈2（cm），\n故答案为：2．\n【点评】本题考查了勾股定理的应用、坐标与图形的性质、几何体的展开图等知识，熟练掌握圆周长的计算和勾股定理是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q016_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆周长的计算",
+          "勾股定理",
+          "坐标与图形的性质"
+        ],
+        "reasoning": "计算笔筒底面圆直径时使用了圆周长公式，求铅笔放入笔筒内最长距离时应用了勾股定理，确定铅笔露出部分长度时考虑了坐标轴上的位置关系。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆周长的计算\", \"勾股定理\", \"坐标与图形的性质\"],\n  \"reasoning\": \"计算笔筒底面圆直径时使用了圆周长公式，求铅笔放入笔筒内最长距离时应用了勾股定理，确定铅笔露出部分长度时考虑了坐标轴上的位置关系。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "计算：|1-\\sqrt{8}|-4sin30°+(\\frac{1}{3})^{-1}．",
+      "stem_markdown": "计算：$|1-\\sqrt{8}|-4sin30°+(\\frac{1}{3})^{-1}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先化简，再计算即可．\n【解答】解：$|1-\\sqrt{8}|-4sin30°+(\\frac{1}{3})^{-1}$\n$=2\\sqrt{2}-1-4×\\frac{1}{2}+3$\n$=2\\sqrt{2}$．\n【点评】本题考查了实数的运算，掌握运算法则是解题的关键．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值",
+          "特殊角的三角函数值",
+          "负整数指数幂"
+        ],
+        "reasoning": "题目涉及绝对值计算、特殊角的正弦值和负指数幂计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\", \"特殊角的三角函数值\", \"负整数指数幂\"],\n  \"reasoning\": \"题目涉及绝对值计算、特殊角的正弦值和负指数幂计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "化简求值：(\\frac{a}{a-1}-\\frac{a}{a+1})÷\\frac{a^{2}}{a^{2}-1}，其中a=2\\sqrt{3}．",
+      "stem_markdown": "化简求值：$(\\frac{a}{a-1}-\\frac{a}{a+1})÷\\frac{a^{2}}{a^{2}-1}$，其中$a=2\\sqrt{3}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先化简分式，再代入求值．\n【解答】解：$(\\frac{a}{a-1}-\\frac{a}{a+1})÷\\frac{a^{2}}{a^{2}-1}$\n$=\\frac{a(a+1)-a(a-1)}{(a-1)(a+1)}×\\frac{(a-1)(a+1)}{a^{2}}$\n$=\\frac{2}{a}$，\n当$a=2\\sqrt{3}$时，原式$=\\frac{2}{2\\sqrt{3}}=\\frac{\\sqrt{3}}{3}$．\n【点评】本题考查了分式的化简求值，掌握分式的化简是解题的关键．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式的化简",
+          "同分母分式加减",
+          "分式的乘除"
+        ],
+        "reasoning": "题目要求化简分式并代入求值，涉及分式的化简和运算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式的化简\", \"同分母分式加减\", \"分式的乘除\"],\n  \"reasoning\": \"题目要求化简分式并代入求值，涉及分式的化简和运算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "如图，点P在直线l外．\n①在直线l上任取一点A，连接AP；\n②以点A为圆心，AP长为半径画弧，交直线l于点B；\n③分别以点P和点B为圆心，以大于\\frac{1}{2}BP的长为半径画弧，两弧在∠BAP内交于点Q，作射线AQ；\n④以点P为圆心，PA长为半径画弧，交射线AQ于点C；\n⑤连接CB，CP．\n（1）由②得AP与AB的数量关系是 ____ ；由③得到的结论是 ____ ．\n（2）求证：四边形ABCP是菱形．\n[图1]",
+      "stem_markdown": "如图，点P在直线l外．\n①在直线l上任取一点A，连接AP；\n②以点A为圆心，AP长为半径画弧，交直线l于点B；\n③分别以点P和点B为圆心，以大于$\\frac{1}{2}BP$的长为半径画弧，两弧在∠BAP内交于点Q，作射线AQ；\n④以点P为圆心，PA长为半径画弧，交射线AQ于点C；\n⑤连接CB，CP．\n（1）由②得AP与AB的数量关系是 ____ ；由③得到的结论是 ____ ．\n（2）求证：四边形ABCP是菱形．\n![2025年宁夏中考数学试卷_q019_img01](assets/2025年宁夏中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "AP＝AB，AQ平分∠PAB．",
+      "solution": "【分析】（1）利用作图痕迹判断即可；\n（2）根据邻边相等的平行四边形是菱形证明即可．\n【解答】（1）解：由②得AP与AB的数量关系是AP＝AB；由③得到的结论是AQ平分∠PAB．\n故答案为：AP＝AB，AQ平分∠PAB．\n（2）证明：由作图可知PA＝AB＝PC，\n∴∠PAC＝∠PCA，\n由作图可知AQ平分∠PAB，\n∴∠PAC＝∠CAB，\n∴∠PCA＝∠CAB，\n∴PC∥AB，\n∵PC＝AB，\n∴四边形ABCP是平行四边形，\n∵AP＝AB，\n∴四边形ABCP是菱形．\n【点评】本题考查作图﹣复杂作图，菱形的判定，解题的关键是掌握相关知识解决问题．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q019_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "角平分线的定义",
+          "平行四边形的判定",
+          "菱形的判定"
+        ],
+        "reasoning": "第②步作图形成等腰三角形，第③步形成角平分线，第⑤步形成平行四边形，第④步形成菱形。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"角平分线的定义\", \"平行四边形的判定\", \"菱形的判定\"],\n  \"reasoning\": \"第②步作图形成等腰三角形，第③步形成角平分线，第⑤步形成平行四边形，第④步形成菱形。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "定义：若一个三位数的十位数字减去个位数字的差恰好等于百位数字，则这个三位数叫做“极差数”．例如三位数231，因为3﹣1＝2，所以它是“极差数”．\n【理解定义】\n三位数265是否为“极差数”？ ____ ．\n【建模推理】\n（1）设一个“极差数”的百位、十位、个位数字分别为a，b，c，则a与b，c的关系式为 ____ ；\n（2）任意一个“极差数”都能被11整除吗？为什么？",
+      "stem_markdown": "定义：若一个三位数的十位数字减去个位数字的差恰好等于百位数字，则这个三位数叫做“极差数”．例如三位数231，因为3﹣1＝2，所以它是“极差数”．\n【理解定义】\n三位数265是否为“极差数”？ ____ ．\n【建模推理】\n（1）设一个“极差数”的百位、十位、个位数字分别为a，b，c，则a与b，c的关系式为 ____ ；\n（2）任意一个“极差数”都能被11整除吗？为什么？",
+      "options": [],
+      "answer": "不是．",
+      "solution": "【分析】若一个三位数的十位数字减去个位数字的差恰好等于百位数字，则这个三位数叫做“极差数”，因为6﹣5＝1，1≠2，所以这个三位数不是“极差数”．\n（1）设一个“极差数”的百位、十位、个位数字分别为a，b，c，更具“极差数”的定义，可得b﹣c＝a．\n（2）设一个“极差数”为$\\overline{abc}$（a、b、c为正整数），b﹣c＝a，b＝a+c，$\\overline{abc}=$100a+10b+c＝11（10a+c），因为11（10a+c）能被11整除，即任意一个“极差数”都能被11整除．\n【解答】解：6﹣5＝1，1≠2，所以这个三位数不是“极差数”．\n故答案为：不是．\n（1）设一个“极差数”的百位、十位、个位数字分别为a，b，c，则a与b，c的关系式为：b﹣c＝a．\n故答案为：b﹣c＝a．\n（2）设一个“极差数”为$\\overline{abc}$（a、b、c为正整数），\n所以b﹣c＝a，b＝a+c，\n所以$\\overline{abc}=$100a+10b+c\n＝100a+10（a+c）+c\n＝100a+10a+10c+c\n＝110a+11c\n＝11（10a+c），\n因为a、b、c为正整数，\n所以10a+c为正整数，\n所以11（10a+c）能被11整除，\n即任意一个“极差数”都能被11整除．\n【点评】本题考查了整式的加减，解决本题的关键是根据“极差数”的定义列式解答．",
+      "full_score": 6,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "代数表达式",
+          "整除性",
+          "方程关系"
+        ],
+        "reasoning": "题中通过代数表达式表示‘极差数’的百位、十位、个位数字之间的关系，并利用整除性判断任意‘极差数’是否能被11整除。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"代数表达式\", \"整除性\", \"方程关系\"],\n  \"reasoning\": \"题中通过代数表达式表示‘极差数’的百位、十位、个位数字之间的关系，并利用整除性判断任意‘极差数’是否能被11整除。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "中国结起源于旧石器时代的结绳记事，唐宋时期发展为装饰艺术，明清达到鼎盛．某种中国结有大、小两个型号，编织一个大号需用绳4米，编织一个小号需用绳3米．\n（1）编织这种中国结恰用绳25米，则大、小号各编织多少个？\n（2）计划用不超过1200米的绳子编织350个这种中国结，一个大号的利润为12元，一个小号的利润为8元．当大号编织多少个时总利润最大？最大利润是多少？\n[图1]",
+      "stem_markdown": "中国结起源于旧石器时代的结绳记事，唐宋时期发展为装饰艺术，明清达到鼎盛．某种中国结有大、小两个型号，编织一个大号需用绳4米，编织一个小号需用绳3米．\n（1）编织这种中国结恰用绳25米，则大、小号各编织多少个？\n（2）计划用不超过1200米的绳子编织350个这种中国结，一个大号的利润为12元，一个小号的利润为8元．当大号编织多少个时总利润最大？最大利润是多少？\n![2025年宁夏中考数学试卷_q021_img01](assets/2025年宁夏中考数学试卷_q021_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）设大号编织x个，小号编织y个，根据编织这种中国结恰用绳25米，列出二元一次方程，求出正整数解即可；\n（2）设大号编织a个，则小号编织（350﹣a）个，根据计划用不超过1200米的绳子编织350个这种中国结，列出一元一次不等式，解得a≤150，再设总利润为w元，根据题意列出w关于a的一次函数关系式，然后由一次函数的性质即可解决问题．\n【解答】解：（1）设大号编织x个，小号编织y个，\n由题意得：4x+3y＝25，\n∴y$=\\frac{25}{3}-\\frac{4}{3}$x，\n∵x、y均为正整数，\n∴$\\begin{cases} x=1 \\\\ y=7 \\end{cases}$或$\\begin{cases} x=4 \\\\ y=3 \\end{cases}$，\n答：大号编织1个、小号编织7个或大号编织4个、小号编织3个；\n（2）设大号编织a个，则小号编织（350﹣a）个，\n由题意得：4a+3（350﹣a）≤1200，\n解得：a≤150，\n设总利润为w元，\n由题意得：w＝12a+8（350﹣a）＝4a+2800，\n∵4＞0，\n∴w随a的增大而增大，\n∴当a＝150时，w取得最大值，最大值＝4×150+2800＝3400，\n答：当大号编织150个时总利润最大，最大利润是3400元．\n【点评】本题考查了二元一次方程的应用、一元一次不等式的应用以及一次函数的应用，解题的关键是：（1）找准等量关系，正确列出二元一次方程；（2）根据各数量之间的关系，正确列出一元一次不等式和一次函数关系式．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q021_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "线性方程组",
+          "一元一次不等式",
+          "一次函数"
+        ],
+        "reasoning": "题目（1）通过线性方程组求解中国结的数量；（2）通过一元一次不等式确定最大利润；（2）通过一次函数求最大利润",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"线性方程组\", \"一元一次不等式\", \"一次函数\"],\n  \"reasoning\": \"题目（1）通过线性方程组求解中国结的数量；（2）通过一元一次不等式确定最大利润；（2）通过一次函数求最大利润\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "如图，在6×6的方格中，每个小正方形边长均为1个单位长度．△ABC的顶点、点D和点E都在格点上．仅用无刻度直尺作图，保留作图痕迹，不写作法．\n（1）过点D作BC的垂线段；\n（2）过点E作BC的平行线．\n[图1]",
+      "stem_markdown": "如图，在6×6的方格中，每个小正方形边长均为1个单位长度．△ABC的顶点、点D和点E都在格点上．仅用无刻度直尺作图，保留作图痕迹，不写作法．\n（1）过点D作BC的垂线段；\n（2）过点E作BC的平行线．\n![2025年宁夏中考数学试卷_q022_img01](assets/2025年宁夏中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据垂线段的定义画出图形；\n（2）取格点T，组哟直线ET即可．\n【解答】解：（1）如图，线段CD即为所求；\n[[image:rId41]]\n（2）如图，直线ET即为所求．\n【点评】本题考查作图﹣应用与设计作图，平行线的判定，解题的关键是掌握相关知识解决问题．",
+      "full_score": 6,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q022_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "垂线段的定义",
+          "平行线的判定"
+        ],
+        "reasoning": "题目要求作图并保留痕迹，涉及垂线段和平行线的作图，需要理解其定义和判定方法",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"垂线段的定义\", \"平行线的判定\"],\n  \"reasoning\": \"题目要求作图并保留痕迹，涉及垂线段和平行线的作图，需要理解其定义和判定方法\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "宁夏葡萄酒品质优良，深受消费者青睐．为了解某基地的葡萄种植情况，九（1）班同学对该基地的试验田中甲、乙两种葡萄树的产量进行调查．\n【调查与收集】\n甲、乙两种葡萄树各种植了500株，计划从中各抽取100株作为各自的样本．以下抽样调查方式合理的是 ____ ．\nA．依次抽取100株\nB．随机抽取100株\nC．在长势较好的葡萄树中随机抽取100株\nD．在方便采摘的葡萄树中随机抽取100株\n【整理与描述】\n同学们采用合理的抽样调查方式获得甲、乙两个样本中每株的产量（单位：kg），将所得数据整理描述如下：\n甲样本的频数分布表\nx/kg | 11≤x＜13 | 13≤x＜15 | 15≤x＜17 | 17≤x＜19 | 19≤x＜21\n频数 | 7 | 45 | 15 | 20 | 13\n根据以上信息，解答问题：\n（1）甲样本中13≤x＜15组的频率是 ____ ；\n（2）补全乙样本的频数分布直方图．\n【分析与应用】\n（1）填表：\n样本 | 平均数（kg） | 中位数出现的组别 | 方差\n甲 | 13≤x＜15 | 5.73\n乙 | 15.74 | 4.85\n（计算平均数时，把各组中每株的产量用这组数据的中间值代替，如11≤x＜13的中间值为\\frac{11+13}{2}=12）\n（2）估计试验田中甲种葡萄树每株产量不低于19kg的株数；\n（3）结合以上数据为基地的葡萄种植提出一条合理化建议．\n[图1]",
+      "stem_markdown": "宁夏葡萄酒品质优良，深受消费者青睐．为了解某基地的葡萄种植情况，九（1）班同学对该基地的试验田中甲、乙两种葡萄树的产量进行调查．\n【调查与收集】\n甲、乙两种葡萄树各种植了500株，计划从中各抽取100株作为各自的样本．以下抽样调查方式合理的是 ____ ．\nA．依次抽取100株\nB．随机抽取100株\nC．在长势较好的葡萄树中随机抽取100株\nD．在方便采摘的葡萄树中随机抽取100株\n【整理与描述】\n同学们采用合理的抽样调查方式获得甲、乙两个样本中每株的产量（单位：kg），将所得数据整理描述如下：\n甲样本的频数分布表\n| x/kg | 11≤x＜13 | 13≤x＜15 | 15≤x＜17 | 17≤x＜19 | 19≤x＜21 |\n| --- | --- | --- | --- | --- | --- |\n| 频数 | 7 | 45 | 15 | 20 | 13 |\n根据以上信息，解答问题：\n（1）甲样本中13≤x＜15组的频率是 ____ ；\n（2）补全乙样本的频数分布直方图．\n【分析与应用】\n（1）填表：\n| 样本 | 平均数（kg） | 中位数出现的组别 | 方差 |\n| --- | --- | --- | --- |\n| 甲 | 13≤x＜15 | 5.73 |  |\n| 乙 | 15.74 | 4.85 |  |\n（计算平均数时，把各组中每株的产量用这组数据的中间值代替，如11≤x＜13的中间值为$\\frac{11+13}{2}=12$）\n（2）估计试验田中甲种葡萄树每株产量不低于19kg的株数；\n（3）结合以上数据为基地的葡萄种植提出一条合理化建议．\n![2025年宁夏中考数学试卷_q023_img01](assets/2025年宁夏中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "B",
+      "solution": "【分析】【调查与收集】利用样本具有代表性对抽样调查方式进行判断；\n【整理与描述】（1）根据频率的定义计算甲样本中13≤x＜15组的频率；\n（2）先计算出乙样本17≤x＜19组的频数，再补全乙样本的频数分布直方图；\n【分析与应用】（1）先根据平均数的定义求出甲样本平均数，再根据中位数的定义求出乙样本中位数出现的组别，然后填表即可；\n（2）根据两者的方差提出建议即可．\n【解答】解：【调查与收集】\n为了样本具有代表性，随机抽取能保证样本的代表性，避免系统性偏差，所以应该随机抽取100株作为样本．故选：B；\n【整理与描述】\n（1）甲样本中13≤x＜15组的频率$=\\frac{45}{100}=$0.45；\n（2）乙样本总频数为100，已知各组频数为9（11≤x＜13），34（13≤x＜15），25（15≤x＜17），7（19≤x＜21），\n则17≤x＜19组的频数为：100﹣（9+34+25+7）＝25．\n补全乙样本的频数分布直方图：\n[[image:rId43]]\n【分析与应用】\n（1）（1）∵甲样本各组中间值分别为12、14、16、18、20，\n∴甲样本平均数$=\\frac{7×12+45×14+15×16+20×18+13×20}{100}=$15.74；\n∵乙样本共100个数据，中位数为第50、51个数据的平均值，\n前两组频数和为9+34＝43，前三组频数和为43+25＝68，\n∴第50、51个数据落在15≤x＜17组，\n故乙样本中位数出现的组别落在15≤x＜17组，\n填表如下：\n| 样本 | 平均数（kg） | 中位数出现的组别 | 方差 |\n| --- | --- | --- | --- |\n| 甲 | 15.74 | 13≤x＜15 | 5.73 |\n| 乙 | 15.74 | 15≤x＜17 | 4.85 |\n（2）估计甲种葡萄树每株产量不低于19kg的株数：\n甲样本中19≤x＜21组频数为13，频率为$\\frac{13}{100}=$0.13，\n试验田甲种葡萄树共500株，\n故估计株数为500×0.13＝65（株）；\n（3）合理化建议：乙种葡萄树的方差（4.85）小于甲种葡萄树的方差（5.73），产量更稳定，建议优先推广乙种葡萄树的种植技术．\n【点评】本题主要考查了抽样调查的合理性，补全频数分布直方图，平均数，中位数及方差的相关知识，掌握抽样调查以及读懂频数分布直方图是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q023_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "样本调查",
+          "频率计算",
+          "中位数",
+          "方差"
+        ],
+        "reasoning": "题目考察样本调查的合理性、频率计算、中位数和方差的计算。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"样本调查\", \"频率计算\", \"中位数\", \"方差\"],\n  \"reasoning\": \"题目考察样本调查的合理性、频率计算、中位数和方差的计算。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，四边形ABCD内接于⊙O，AC平分∠BAD，连接BD．\n（1）求证：∠CBD＝∠BDC；\n（2）延长AB至点E，使BE＝AD，连接CE．求证：\\frac{AC}{AB+AD}=\\frac{BC}{BD}．\n[图1]",
+      "stem_markdown": "如图，四边形ABCD内接于⊙O，AC平分∠BAD，连接BD．\n（1）求证：∠CBD＝∠BDC；\n（2）延长AB至点E，使BE＝AD，连接CE．求证：$\\frac{AC}{AB+AD}=\\frac{BC}{BD}$．\n![2025年宁夏中考数学试卷_q024_img01](assets/2025年宁夏中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由AC平分∠BAD，得∠DAC＝∠BAC，根据圆周角定理得$DC=BC$，则∠CBD＝∠CDB；\n（2）由∠ADC+∠ABC＝180°，∠EBC+∠ABC＝180°，推导出∠ADC＝∠EBC，而DC＝BC，AD＝EB，可证明△ADC≌△EBC，得AD＝EB，∠DAC＝∠E，则AE＝AB+AD，因为∠DAC＝∠BDC，所以∠E＝∠BDC，再证明∠EAC＝∠DBC，进而证明△EAC∽△DBC，得$\\frac{AC}{BC}=\\frac{AE}{BD}$，则$\\frac{AC}{AB+AD}=\\frac{BC}{BD}$．\n【解答】证明：（1）∵AC平分∠BAD，\n∴∠DAC＝∠BAC，\n∴$DC=BC$，\n∴∠CBD＝∠CDB．\n（2）∵$DC=BC$，\n∴DC＝BC，\n∵四边形ABCD内接于⊙O，\n∴∠ADC+∠ABC＝180°，\n∵点E在AB的延长线上，\n∴∠EBC+∠ABC＝180°，\n∴∠ADC＝∠EBC，\n在△ADC和△EBC中，\n$\\begin{cases} DC=BC \\\\ ∠ADC=∠EBC \\\\ AD=EB \\end{cases}$，\n∴△ADC≌△EBC（SAS），\n∴AD＝EB，∠DAC＝∠E，\n∴AE＝AB+EB＝AB+AD，\n∵∠DAC＝∠BDC，\n∴∠E＝∠BDC，\n∵∠EAC＝∠DAC，∠DBC＝∠DAC，\n∴∠EAC＝∠DBC，\n∴△EAC∽△DBC，\n∴$\\frac{AC}{BC}=\\frac{AE}{BD}$，\n∴$\\frac{AC}{AE}=\\frac{BC}{BD}$，\n∴$\\frac{AC}{AB+AD}=\\frac{BC}{BD}$．\n【点评】此题重点考查圆周角定理、等腰三角形的判定、全等三角形的判定与性质、相似三角形的判定与性质等知识，证明△ADC≌△EBC及△EAC∽△DBC是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q024_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆周角定理",
+          "等腰三角形的判定",
+          "全等三角形的判定与性质",
+          "相似三角形的判定与性质"
+        ],
+        "reasoning": "第（1）问利用圆周角定理得出DC=BC，从而证明∠CBD＝∠CDB；第（2）问通过证明△ADC≌△EBC及△EAC∽△DBC得出比例关系。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆周角定理\", \"等腰三角形的判定\", \"全等三角形的判定与性质\", \"相似三角形的判定与性质\"],\n  \"reasoning\": \"第（1）问利用圆周角定理得出DC=BC，从而证明∠CBD＝∠CDB；第（2）问通过证明△ADC≌△EBC及△EAC∽△DBC得出比例关系。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "如图，抛物线y＝ax²﹣2x+3与x轴负半轴交于点A，与y轴交于点B，顶点C的横坐标为﹣1．\n（1）求抛物线的表达式；\n（2）如图1，将直线AB沿y轴向上平移m（m＞0）个单位长度，当它与抛物线有交点时，求m的取值范围；\n（3）如图2，抛物线的对称轴交直线AB于点D，交x轴于点E，连接AC．抛物线上是否存在点P（不与点C重合），使得S△PAD＝S△CAD．若存在，直接写出点P的横坐标；若不存在，说明理由．\n[图1]",
+      "stem_markdown": "如图，抛物线y＝$ax^{2}$﹣2x+3与x轴负半轴交于点A，与y轴交于点B，顶点C的横坐标为﹣1．\n（1）求抛物线的表达式；\n（2）如图1，将直线AB沿y轴向上平移m（m＞0）个单位长度，当它与抛物线有交点时，求m的取值范围；\n（3）如图2，抛物线的对称轴交直线AB于点D，交x轴于点E，连接AC．抛物线上是否存在点P（不与点C重合），使得$S_{△}_{PAD}＝S_{△}_{CAD}$．若存在，直接写出点P的横坐标；若不存在，说明理由．\n![2025年宁夏中考数学试卷_q025_img01](assets/2025年宁夏中考数学试卷_q025_img01.png)",
+      "options": [],
+      "answer": "y＝﹣$x^{2}$﹣2x+3",
+      "solution": "【分析】（1）利用顶点横坐标为﹣1和公式$x=-\\frac{b}{2a}$求出参数a，进而得到抛物线表达式；\n（2）先求点A和B的坐标，确定直线AB方程；将直线向上平移m个单位后与抛物线联立，利用判别式≥0求m的范围（注意m＞0）；\n（3）先求对称轴与直线AB的交点D及顶点C，计算$S_{△}_{CAD}$设点P坐标，利用面积公式$S_{△}_{PAD}＝S_{△}_{CAD}$列方程，得到绝对值方程并求解，排除与C重合的点，得出横坐标．\n【解答】解：（1）∵抛物线顶点横坐标为﹣1，\n∴由顶点公式$x=-\\frac{b}{2a}$，其中b＝﹣2，即$-\\frac{-2}{2a}=-1$，\n∴a＝﹣1，\n∴抛物线表达式为y＝﹣$x^{2}$﹣2x+3，\n故答案为：y＝﹣$x^{2}$﹣2x+3；\n（2）当y＝0时，﹣$x^{2}$﹣2x+3＝0，即$x^{2}$+2x﹣3＝0，\n解得x＝﹣3或x＝1（正半轴，不合题意，舍去），故A（﹣3，0），\n当x＝0时，y＝3，\n故B（0，3），\n设直线AB的方程为y＝kx+b，\n将点A（﹣3，0）与点B（0，3）代入得b＝3，k＝1，\n∴直线AB的方程为y＝x+3，\n向上平移m个单位后，直线方程为y＝x+3+m，\n与抛物线y＝﹣$x^{2}$﹣2x+3联立：﹣$x^{2}$﹣2x+3＝x+3+m，\n整理得：$x^{2}$+3x+m＝0，\n抛物线与直线有交点时，Δ＝3^{2}﹣4×1×m＝9﹣4m≥0，\n解得$m≤\\frac{9}{4}$，\n又m＞0，\n∴m的取值范围为$0＜m≤\\frac{9}{4}$；\n（3）抛物线对称轴为x＝﹣1．直线AB：y＝x+3，当x＝﹣1时，y＝2，故D（﹣1，2）．\n顶点C：当x＝﹣1，y＝﹣（﹣1）^{2}﹣2×（﹣1）+3＝4，\n故C（﹣1，4）．点A（﹣3，0）．\n$S_{△CAD}=\\frac{1}{2}×CD×AE=\\frac{1}{2}×(4-2)×2=2$，\n设P（x，y）在抛物线上，y＝﹣$x^{2}$﹣2x+3，如图，\n[[image:rId46]]\n情况1：过点C作AB的平行线，与抛物线交于点P，此时$S_{△}_{PAD}＝S_{△}_{CAD}$＝2（同底等高），\n因OA＝OB，且PC∥AB，故可设直线PC的解析式为y＝x+t，\n将点C（﹣1，4）代入求得t＝5，即PC的解析式为y＝x+5，\n联立抛物线方程$\\begin{cases} y=-x^{2}-2x+3 \\\\ y=x+5 \\end{cases}$，\n解得：$\\begin{cases} x=-2 \\\\ y=3 \\end{cases}$（另一解为点C的坐标值），\n可解得点P坐标为（﹣2，3）；\n情况2：过点E作AB的平行线，交抛物线于点$P_{1}$与$P_{2}$，因CD＝DE，即直线PC向下平移到直线AB的距离等于直线AB向下平移到直线$P_{1}P_{2}$的距离，\n∴此时存在满足条件的点，\n由于直线$P_{1}P_{2}$相较于直线AB，向下平移了2个单位，故解析式为y＝x+1，\n联立抛物线方程$\\begin{cases} y=-x^{2}-2x+3 \\\\ y=x+1 \\end{cases}$，\n消去y并整理得：$x^{2}$+3x﹣2＝0，\n∴$x=\\frac{-3±\\sqrt{17}}{2}$，\n即点$P_{1}$的横坐标是$\\frac{-3-\\sqrt{17}}{2}$，点$P_{2}$的横坐标是$\\frac{-3+\\sqrt{17}}{2}$，\n∴存在点P，横坐标为﹣2，$\\frac{-3+\\sqrt{17}}{2}$，$\\frac{-3-\\sqrt{17}}{2}$．\n【点评】本题考查了二次函数的图象与性质（包括顶点坐标、与坐标轴交点求解）、直线与抛物线的位置关系（交点存在性条件）、三角形面积的计算（基于坐标公式）以及面积相等的点的存在性问题，解题的关键是熟练掌握顶点横坐标公式$x=-\\frac{b}{2a}$求解析式，利用判别式分析直线与抛物线的交点范围，灵活运用三角形面积坐标公式，以及通过解绝对值方程和分类讨论处理面积相等条件．",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q025_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q025_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "顶点公式",
+          "判别式",
+          "三角形面积公式",
+          "平行线与距离"
+        ],
+        "reasoning": "第（3）问利用顶点公式求抛物线表达式，第（2）问利用判别式判断直线与抛物线交点情况，第（3）问利用三角形面积公式求解，第（3）问利用平行线与距离关系求解。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"顶点公式\", \"判别式\", \"三角形面积公式\", \"平行线与距离\"],\n  \"reasoning\": \"第（3）问利用顶点公式求抛物线表达式，第（2）问利用判别式判断直线与抛物线交点情况，第（3）问利用三角形面积公式求解，第（3）问利用平行线与距离关系求解。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年宁夏中考数学试卷_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "如图，在Rt△ABC和Rt△ADE中，∠ACB＝∠AED＝90°，∠BAC＝∠DAE＝60°，AD＜AC．连接BD，点F是BD的中点，连接CE，CF，EF．\n（1）如图1，当点D在AC上时，求证：△CEF是等边三角形；\n（2）将图1中的△ADE绕点A顺时针旋转．\n①当旋转角为60°时，如图2所示，（1）中的结论还成立吗？说明理由；\n②当EF最长时，EF与AD的交点记作M．若AE＝3，则EM＝ ____ ．\n[图1]\n2025年宁夏中考数学试卷",
+      "stem_markdown": "如图，在Rt△ABC和Rt△ADE中，∠ACB＝∠AED＝90°，∠BAC＝∠DAE＝60°，AD＜AC．连接BD，点F是BD的中点，连接CE，CF，EF．\n（1）如图1，当点D在AC上时，求证：△CEF是等边三角形；\n（2）将图1中的△ADE绕点A顺时针旋转．\n①当旋转角为60°时，如图2所示，（1）中的结论还成立吗？说明理由；\n②当EF最长时，EF与AD的交点记作M．若AE＝3，则EM＝ ____ ．\n![2025年宁夏中考数学试卷_q026_img01](assets/2025年宁夏中考数学试卷_q026_img01.png)\n2025年宁夏中考数学试卷",
+      "options": [],
+      "answer": "3．",
+      "solution": "【分析】（1）由直角三角形斜边中线性质可得在Rt△BCD中，$CF=BF=DF=\\frac{1}{2}BD$，在 Rt△BED 中，$EF=BF=DF=\\frac{1}{2}BD$，得出CF＝EF，∠FBE＝∠FEB，∠FBC＝∠FCB，再证明∠EFC＝60°，即可得出结论；\n（2）①延长DE交AB于点D，分别延长AD，BC相交于点B，先证明△AED≌△AED（ASA），可得DE＝D′E，同理可得△ABC≌△ABC，BC＝BC，再利用中位线的性质可得结论；\n②点E在以点A为圆心，3为半径的圆上，由△CEF是等边三角形，可得EF＝CE，可得EF最大时，即CE取得最大值时，当A，C，E三点共线时，CE取得最大值，此时EF最大，再求解即可．\n【解答】（1）证明：∵在Rt△ADE 中∠AED＝90°，\n∴∠BED＝90°，\n∵在Rt△ABC中∠BAC＝60°，\n∴∠ABC＝30°，\n∵点F是BD的中点，\n∴在Rt△BCD中，$CF=BF=DF=\\frac{1}{2}BD$，在Rt△BED 中，$EF=BF=DF=\\frac{1}{2}BD$，\n∴CF＝EF，∠FBE＝∠FEB，∠FBC＝∠FCB，\n∴∠EFC＝∠EFD+∠CFD＝∠FBE+∠FEB+∠FBC+∠FCB＝2∠ABC＝60°，\n∴△CEF是等边三角形；\n（2）①（1）中的结论还成立，理由如下：\n如图，延长DE交AB于点D'，分别延长AD，BC相交于点B'，\n[[image:rId48]]\n由旋转角为60°可得∠EAD＝60°\n∴∠EAD＝∠EAD'＝60°，\n又∵∠AED＝∠AED'＝90°，AE＝AE，\n∴△AED≌△AED'（ASA），\n∴DE＝D'E，\n∵DF＝BF，\n∴EF是△DBD'的中位线，\n∴EF∥AB'，\n∴∠FEC＝∠B'AC＝60°，\n同理可得△ABC≌△AB'C\n∴BC＝B'C，\n∵DF＝BF，\n∴FC是△BDB'的中位线，\n∴CF∥AB'，\n∴∠FCA＝∠B'AC＝60°，\n∴△CEF是等边三角形；\n②如图，点E在以点A为圆心，3为半径的圆上，\n∵△CEF是等边三角形，\n∴EF＝CE，\n∴EF最大时，即CE取得最大值时，\n∴当A，C，E三点共线时，CE取得最大值，此时EF最大，\n[[image:rId49]]\n即△ADE绕点A顺时针旋转240度时，EF最大，\n延长DE交AB于点D'，分别延长AD，BC相交于点B'，\n由①得FC是△BDB'的中位线，EF是△DBD'的中位线，\n∴CF∥DB'，EF∥BD'，\n∴∠MAE＝∠FCE＝60°，∠MEA＝∠BAC＝60°\n∴△MAE是等边三角形，\n∴EM＝AE＝3，\n故答案为：3．\n【点评】本题属于几何变换综合题，考查了全等三角形的判定和性质，三角形中位线的性质，等边三角形的判定与性质，直角三角形的性质等知识，解题的关键是正确作出辅助线构造中位线解决问题，属于中考压轴题．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:28:18；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId51]] ____ [[image:rId52]] ____ [[image:rId53]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 10,
+      "images": [
+        {
+          "image_id": "2025年宁夏中考数学试卷_q026_img01",
+          "path": "assets/2025年宁夏中考数学试卷_q026_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "直角三角形斜边中线性质",
+          "全等三角形的判定和性质",
+          "等边三角形的判定与性质",
+          "三角形中位线的性质"
+        ],
+        "reasoning": "第（1）问通过斜边中线性质和全等三角形证明等边三角形；第（2）问①通过旋转和全等三角形证明等边三角形；②通过等边三角形和中位线证明EM的长度。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"直角三角形斜边中线性质\", \"全等三角形的判定和性质\", \"等边三角形的判定与性质\", \"三角形中位线的性质\"],\n  \"reasoning\": \"第（1）问通过斜边中线性质和全等三角形证明等边三角形；第（2）问①通过旋转和全等三角形证明等边三角形；②通过等边三角形和中位线证明EM的长度。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T06:52:32",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 26,
+      "ok": 26,
+      "fallback": 0
+    }
+  }
+}

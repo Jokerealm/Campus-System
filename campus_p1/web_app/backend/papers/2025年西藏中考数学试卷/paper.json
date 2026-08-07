@@ -1,0 +1,1190 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年西藏中考数学试卷",
+  "source": {
+    "name": "2025年西藏中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年西藏中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年西藏中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "18的绝对值是（ ）",
+      "stem_markdown": "18的绝对值是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "﹣18"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{18}$"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{18}$"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】利用绝对值的定义解答．\n【解答】解：18的绝对值是18．\n故选：A．\n【点评】本题考查了绝对值，解题的关键是掌握绝对值的定义．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值的定义"
+        ],
+        "reasoning": "题目要求计算18的绝对值",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值的定义\"],\n  \"reasoning\": \"题目要求计算18的绝对值\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "下列美术字中，可以看作轴对称图形的是（ ）",
+      "stem_markdown": "下列美术字中，可以看作轴对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年西藏中考数学试卷_q002_img01](assets/2025年西藏中考数学试卷_q002_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年西藏中考数学试卷_q002_img02](assets/2025年西藏中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年西藏中考数学试卷_q002_img03](assets/2025年西藏中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年西藏中考数学试卷_q002_img04](assets/2025年西藏中考数学试卷_q002_img04.png)"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】如果一个图形沿一条直线折叠，直线两旁的部分能够互相重合，这个图形叫做轴对称图形，由此即可判断．\n【解答】解：A、此美术字是轴对称图形，故A符合题意；\nB、C、D中的美术字不是轴对称图形，故B、C、D不符合题意．\n故选：A．\n【点评】本题考查轴对称图形，关键是掌握轴对称图形的定义．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q002_img01",
+          "path": "assets/2025年西藏中考数学试卷_q002_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年西藏中考数学试卷_q002_img02",
+          "path": "assets/2025年西藏中考数学试卷_q002_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年西藏中考数学试卷_q002_img03",
+          "path": "assets/2025年西藏中考数学试卷_q002_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年西藏中考数学试卷_q002_img04",
+          "path": "assets/2025年西藏中考数学试卷_q002_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "轴对称图形"
+        ],
+        "reasoning": "选项中只有A可以沿某条直线折叠后重合，考察轴对称图形的定义。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"轴对称图形\"],\n  \"reasoning\": \"选项中只有A可以沿某条直线折叠后重合，考察轴对称图形的定义。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "截至2024年，西藏自治区图书馆的藏书量已超过500000册．数据500000用科学记数法表示为（ ）",
+      "stem_markdown": "截至2024年，西藏自治区图书馆的藏书量已超过500000册．数据500000用科学记数法表示为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.5×10^{6}"
+        },
+        {
+          "label": "B",
+          "text": "5×10^{5}"
+        },
+        {
+          "label": "C",
+          "text": "5×10^{4}"
+        },
+        {
+          "label": "D",
+          "text": "50×10^{4}"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值≥10时，n是正数；当原数的绝对值＜1时，n是负数．\n【解答】解：500000＝5×10^{5}．\n故选：B．\n【点评】此题考查科学记数法的表示方法．科学记数法的表示形式为a×10^{n}的形式，其中1≤|a|＜10，n为整数，表示时关键要正确确定a的值以及n的值．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "科学记数法",
+          "小数点移动与指数关系"
+        ],
+        "reasoning": "题中要求将500000用科学记数法表示，考察了科学记数法的表示方法及小数点移动与指数的关系。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"科学记数法\", \"小数点移动与指数关系\"],\n  \"reasoning\": \"题中要求将500000用科学记数法表示，考察了科学记数法的表示方法及小数点移动与指数的关系。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "下列运算正确的是（ ）",
+      "stem_markdown": "下列运算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x+x＝$x^{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$(x^{3})^{2}＝x^{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$2x^{2}•5x^{2}＝10x^{2}$"
+        },
+        {
+          "label": "D",
+          "text": "（xy）^{2}＝$x^{2}y^{2}$"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】利用单项式乘单项式的计算法则，合并同类项的计算法则，幂的乘方与积的乘方计算．\n【解答】解：∵x+x＝2x，$(x^{3})^{2}＝x^{6}$，$2x^{2}•5x^{2}＝10x^{4}$，（xy）^{2}＝$x^{2}y^{2}$，\n∴选项ABC都错误，不符合题意，选项D正确，符合题意．\n故选：D．\n【点评】本题考查了单项式乘单项式的计算法则，合并同类项的计算法则，幂的乘方与积的乘方，解题的关键是掌握单项式乘单项式的计算法则，合并同类项的计算法则，幂的乘方与积的乘方计算法则．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "幂的乘方与积的乘方",
+          "单项式乘单项式的计算法则"
+        ],
+        "reasoning": "选项B和C涉及幂的乘方与积的乘方，选项A涉及合并同类项，选项D涉及单项式乘单项式的计算法则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"幂的乘方与积的乘方\", \"单项式乘单项式的计算法则\"],\n  \"reasoning\": \"选项B和C涉及幂的乘方与积的乘方，选项A涉及合并同类项，选项D涉及单项式乘单项式的计算法则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "如图，△ABC为等腰三角形，AB＝AC，点D是BC延长线上的一点，∠ACD＝110°，则∠A的度数为（ ）\n[图1]",
+      "stem_markdown": "如图，△ABC为等腰三角形，AB＝AC，点D是BC延长线上的一点，∠ACD＝110°，则∠A的度数为（ ）\n![2025年西藏中考数学试卷_q005_img01](assets/2025年西藏中考数学试卷_q005_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "70°"
+        },
+        {
+          "label": "B",
+          "text": "55°"
+        },
+        {
+          "label": "C",
+          "text": "40°"
+        },
+        {
+          "label": "D",
+          "text": "35°"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】由邻补角的性质求出∠ACB＝70°，由等腰三角形的性质得到∠B＝∠ACB＝70°，由三角形内角和定理即可求出∠A的度数．\n【解答】解：∵∠ACD＝110°，\n∴∠ACB＝180°﹣110°＝70°，\n∵AB＝AC，\n∴∠B＝∠ACB＝70°，\n∴∠A＝180°﹣70°﹣70°＝40°，\n故选：C．\n【点评】本题考查等腰三角形的性质，三角形内角和定理，关键是掌握等腰三角形的两个底角相等．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q005_img01",
+          "path": "assets/2025年西藏中考数学试卷_q005_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "三角形内角和定理",
+          "邻补角的性质"
+        ],
+        "reasoning": "题中通过∠ACD的度数求出∠ACB的度数，进而利用等腰三角形的性质和三角形内角和定理求解∠A的度数。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"三角形内角和定理\", \"邻补角的性质\"],\n  \"reasoning\": \"题中通过∠ACD的度数求出∠ACB的度数，进而利用等腰三角形的性质和三角形内角和定理求解∠A的度数。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "若代数式\\sqrt{2-x}有意义，则实数x的取值范围是（ ）",
+      "stem_markdown": "若代数式$\\sqrt{2-x}$有意义，则实数x的取值范围是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x＞2"
+        },
+        {
+          "label": "B",
+          "text": "x≥2"
+        },
+        {
+          "label": "C",
+          "text": "x＜2"
+        },
+        {
+          "label": "D",
+          "text": "x≤2"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据二次根式有意义进行判断即可．\n【解答】解：∵$\\sqrt{2-x}$有意义，\n∴2﹣x≥0，\n∴x≤2，\n故选：D．\n【点评】本题考查了二次根式有意义的条件，掌握二次根式有意义是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "不等式",
+          "二次根式的意义"
+        ],
+        "reasoning": "题中条件2-x≥0决定了x的取值范围",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"不等式\", \"二次根式的意义\"],\n  \"reasoning\": \"题中条件2-x≥0决定了x的取值范围\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "如图，在⊙O中，直径AB＝6，BC是⊙O的弦，若∠B＝60°，则AC的长为（ ）\n[图1]",
+      "stem_markdown": "如图，在⊙O中，直径AB＝6，BC是⊙O的弦，若∠B＝60°，则$AC$的长为（ ）\n![2025年西藏中考数学试卷_q007_img01](assets/2025年西藏中考数学试卷_q007_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "6π"
+        },
+        {
+          "label": "B",
+          "text": "4π"
+        },
+        {
+          "label": "C",
+          "text": "2π"
+        },
+        {
+          "label": "D",
+          "text": "π"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】连接OC，再用弧长公式计算即可．\n【解答】解：连接OC，\n[[image:rId37]]\n∵∠B＝60°，\n∴∠AOC＝120°，\n∵直径AB＝6，\n∴r＝3，\n∴$AC=\\frac{120°π×3}{180°}=2π$，\n故选：C．\n【点评】本题考查了弧长的计算，掌握弧长公式是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q007_img01",
+          "path": "assets/2025年西藏中考数学试卷_q007_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "圆的性质",
+          "圆周角定理",
+          "弧长公式"
+        ],
+        "reasoning": "题中利用∠B=60°求∠AOC=120°，并用弧长公式计算AC长度。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"圆的性质\", \"圆周角定理\", \"弧长公式\"],\n  \"reasoning\": \"题中利用∠B=60°求∠AOC=120°，并用弧长公式计算AC长度。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "一个三角形花坛的面积是6m²，它的一边a（单位：m）是这边上的高h（单位：m）的函数，此函数的图象大致为（ ）",
+      "stem_markdown": "一个三角形花坛的面积是$6m^{2}$，它的一边a（单位：m）是这边上的高h（单位：m）的函数，此函数的图象大致为（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年西藏中考数学试卷_q008_img01](assets/2025年西藏中考数学试卷_q008_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年西藏中考数学试卷_q008_img02](assets/2025年西藏中考数学试卷_q008_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年西藏中考数学试卷_q008_img03](assets/2025年西藏中考数学试卷_q008_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年西藏中考数学试卷_q008_img04](assets/2025年西藏中考数学试卷_q008_img04.png)"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据题意可以得出$\\frac{1}{2}ah=6$，再变形，进而得出答案．\n【解答】解：由题意可得，$\\frac{1}{2}ah=6$，\n则a$=\\frac{12}{h}$（a＞0，h＞0）．\n故选：B．\n【点评】本题主要考查函数的图象，理解题意是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q008_img01",
+          "path": "assets/2025年西藏中考数学试卷_q008_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年西藏中考数学试卷_q008_img02",
+          "path": "assets/2025年西藏中考数学试卷_q008_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年西藏中考数学试卷_q008_img03",
+          "path": "assets/2025年西藏中考数学试卷_q008_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年西藏中考数学试卷_q008_img04",
+          "path": "assets/2025年西藏中考数学试卷_q008_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "三角形面积公式",
+          "反比例函数"
+        ],
+        "reasoning": "根据三角形面积公式和反比例函数关系得出a与h的关系",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"三角形面积公式\", \"反比例函数\"],\n  \"reasoning\": \"根据三角形面积公式和反比例函数关系得出a与h的关系\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "观察下列一组数：\n1.9，3.99，5.999，7.9999，9.99999，…\n按此规律，第n个数是（ ）",
+      "stem_markdown": "观察下列一组数：\n1.9，3.99，5.999，7.9999，9.99999，…\n按此规律，第n个数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "2n﹣0.1^{n}"
+        },
+        {
+          "label": "B",
+          "text": "2n+1﹣0.1^{n}"
+        },
+        {
+          "label": "C",
+          "text": "2n﹣1+0.9^{n}"
+        },
+        {
+          "label": "D",
+          "text": "2n﹣1﹣0.1^{n}"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】先确定整数部分规律为2n﹣1，再确定小数部分规律为1﹣0.1^{n}，最后确定这一组数的规律即可．\n【解答】解：观察这组数据可知：整数部分为1，3，5，7，9，…，则第n个数的整数部分为2n﹣1，\n小数部分0.9，0.99，0.999.0，9999，0.99999，…，则第n个数的小数部分为1﹣0.1^{n}，\n∴按此规律，第n个数是2n﹣0.1^{n}．\n故选：A．\n【点评】本题考查了数字的变化规律，发现规律是关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等差数列",
+          "指数形式"
+        ],
+        "reasoning": "小数部分规律为1-0.1^n，考察指数形式",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等差数列\", \"指数形式\"],\n  \"reasoning\": \"小数部分规律为1-0.1^n，考察指数形式\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，在正方形ABCD中，AB＝6，点E是BC的中点，把△ABE沿AE折叠，点B落在点F处，延长EF交CD于点G，连接AG，则AG的长为（ ）\n[图1]",
+      "stem_markdown": "如图，在正方形ABCD中，AB＝6，点E是BC的中点，把△ABE沿AE折叠，点B落在点F处，延长EF交CD于点G，连接AG，则AG的长为（ ）\n![2025年西藏中考数学试卷_q010_img01](assets/2025年西藏中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "3$\\sqrt{5}$"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "2$\\sqrt{10}$"
+        },
+        {
+          "label": "D",
+          "text": "4$\\sqrt{2}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】由正方形的性质得CB＝CD＝AD＝AB＝6，∠D＝∠B＝∠C＝90°，则BE＝CE$=\\frac{1}{2}$CB＝3，由折叠得AF＝AB，FE＝BE＝3，∠AFE＝∠B＝90°，可证明Rt△AFG≌Rt△ADG，得FG＝DG，由CG＝6﹣DG，EG＝3+FG＝3+DG，根据勾股定理得3^{2}+（6﹣DG）^{2}＝（3+DG）^{2}，求得DG＝2，则AG$=\\sqrt{AD^{2}+DG^{2}}=$2$\\sqrt{10}$，于是得到问题的答案．\n【解答】解：∵四边形ABCD是正方形，AB＝6，点E是BC的中点，\n∴CB＝CD＝AD＝AB＝6，∠D＝∠B＝∠C＝90°，\n∴BE＝CE$=\\frac{1}{2}$CB＝3，\n由折叠得AF＝AB，FE＝BE＝3，∠AFE＝∠B＝90°，\n∴AF＝AD，∠AFG＝∠D＝90°，\n在Rt△AFG和Rt△ADG中，\n$\\begin{cases} AG=AG \\\\ AF=AD \\end{cases}$，\n∴Rt△AFG≌Rt△ADG（HL），\n∴FG＝DG，\n∵$CE^{2}+CG^{2}＝EG^{2}$，且CG＝6﹣DG，EG＝3+FG＝3+DG，\n∴3^{2}+（6﹣DG）^{2}＝（3+DG）^{2}，\n解得DG＝2，\n∴AG$=\\sqrt{AD^{2}+DG^{2}}=\\sqrt{6^{2}+2^{2}}=$2$\\sqrt{10}$，\n故选：C．\n【点评】此题重点考查正方形的性质、翻折变换的性质、全等三角形的判定与性质、勾股定理等知识，推导出FG＝DG是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q010_img01",
+          "path": "assets/2025年西藏中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正方形的性质",
+          "翻折变换的性质",
+          "全等三角形的判定与性质",
+          "勾股定理"
+        ],
+        "reasoning": "题中通过折叠变换得出全等三角形，利用勾股定理解题。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正方形的性质\", \"翻折变换的性质\", \"全等三角形的判定与性质\", \"勾股定理\"],\n  \"reasoning\": \"题中通过折叠变换得出全等三角形，利用勾股定理解题。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "分解因式：x²﹣4＝ ____ ．",
+      "stem_markdown": "分解因式：$x^{2}$﹣4＝ ____ ．",
+      "options": [],
+      "answer": "（x+2）（x﹣2）．",
+      "solution": "【分析】直接利用平方差公式进行因式分解即可．\n【解答】解：$x^{2}$﹣4＝（x+2）（x﹣2）．\n故答案为：（x+2）（x﹣2）．\n【点评】本题考查了平方差公式因式分解．能用平方差公式进行因式分解的式子的特点是：两项平方项，符号相反．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平方差公式",
+          "因式分解"
+        ],
+        "reasoning": "题中使用了平方差公式进行因式分解",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平方差公式\", \"因式分解\"],\n  \"reasoning\": \"题中使用了平方差公式进行因式分解\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "一家鞋店在一段时间内销售了某款女鞋50双，各种尺码的销售量如表所示：\n尺码/cm | 22 | 22.5 | 23 | 23.5 | 24 | 24.5 | 25\n销售量/双 | 2 | 4 | 7 | 19 | 10 | 6 | 2\n根据上述信息，在鞋的尺码组成的数据中，众数是 ____ ．",
+      "stem_markdown": "一家鞋店在一段时间内销售了某款女鞋50双，各种尺码的销售量如表所示：\n| 尺码/cm | 22 | 22.5 | 23 | 23.5 | 24 | 24.5 | 25 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 销售量/双 | 2 | 4 | 7 | 19 | 10 | 6 | 2 |\n根据上述信息，在鞋的尺码组成的数据中，众数是 ____ ．",
+      "options": [],
+      "answer": "23.5．",
+      "solution": "【分析】根据众数的定义求解即可．\n【解答】解：这组数据中23.5出现19次，次数最多，\n所以这组数据的众数是23.5．\n故答案为：23.5．\n【点评】本题主要考查众数，解题的关键是掌握众数的定义：一组数据中出现次数最多的数据叫做众数．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "众数"
+        ],
+        "reasoning": "表格中23.5出现次数最多",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"众数\"],\n  \"reasoning\": \"表格中23.5出现次数最多\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "关于x的一元二次方程x²﹣x+2m＝0有两个相等的实数根，则m＝ ____ ．",
+      "stem_markdown": "关于x的一元二次方程$x^{2}$﹣x+2m＝0有两个相等的实数根，则m＝ ____ ．",
+      "options": [],
+      "answer": "$\\frac{1}{8}$．",
+      "solution": "【分析】利用根的判别式解答．\n【解答】解：∵关于x的一元二次方程$x^{2}$﹣x+2m＝0有两个相等的实数根，\n∴（﹣1）^{2}﹣4×1×2m＝0，\nm$=\\frac{1}{8}$．\n故答案为：$\\frac{1}{8}$．\n【点评】本题考查了根的判别式，解题的关键是掌握根的判别式．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "根的判别式",
+          "一元二次方程"
+        ],
+        "reasoning": "题目要求方程有两个相等的实数根，使用根的判别式判断Δ=0时m的值。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"根的判别式\", \"一元二次方程\"],\n  \"reasoning\": \"题目要求方程有两个相等的实数根，使用根的判别式判断Δ=0时m的值。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图，点D，E分别是△ABC边AB，AC上的点，且DE∥BC，若\\frac{DE}{BC}=\\frac{2}{3}，则\\frac{AE}{EC}的值是 ____ ．\n[图1]",
+      "stem_markdown": "如图，点D，E分别是△ABC边AB，AC上的点，且DE∥BC，若$\\frac{DE}{BC}=\\frac{2}{3}$，则$\\frac{AE}{EC}$的值是 ____ ．\n![2025年西藏中考数学试卷_q014_img01](assets/2025年西藏中考数学试卷_q014_img01.png)",
+      "options": [],
+      "answer": "2．",
+      "solution": "【分析】利用相似三角形的性质求解即可．\n【解答】解：∵DE∥BC，\n∴△ADE∽△ABC，\n∴$\\frac{AE}{AC}=\\frac{DE}{BC}=$$\\frac{2}{3}$，\n∴$\\frac{AE}{EC}=$2．\n故答案为：2．\n【点评】本题考查相似三角形的判定和性质，解题的关键是掌握相似三角形的判定和性质．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q014_img01",
+          "path": "assets/2025年西藏中考数学试卷_q014_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "比例线段",
+          "相似三角形的性质"
+        ],
+        "reasoning": "条件DE∥BC导致△ADE∽△ABC，利用相似比求解AE/EC",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"比例线段\", \"相似三角形的性质\"],\n  \"reasoning\": \"条件DE∥BC导致△ADE∽△ABC，利用相似比求解AE/EC\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，在平面直角坐标系中，直线AB交x轴于点A（1，0），交y轴于点B（0，2），以原点O为圆心，适当长为半径画弧，交x轴于点C，交y轴于点D，分别以点C，D为圆心，大于\\frac{1}{2}CD的长为半径画弧，两弧在第一象限内交于点E，作射线OE交AB于点F，则点F的坐标是 ____ ．\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，直线AB交x轴于点A（1，0），交y轴于点B（0，2），以原点O为圆心，适当长为半径画弧，交x轴于点C，交y轴于点D，分别以点C，D为圆心，大于$\\frac{1}{2}$CD的长为半径画弧，两弧在第一象限内交于点E，作射线OE交AB于点F，则点F的坐标是 ____ ．\n![2025年西藏中考数学试卷_q015_img01](assets/2025年西藏中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "（$\\frac{2}{3}$，$\\frac{2}{3}$）．",
+      "solution": "【分析】先利用待定系数法求出直线AB的解析式，根据作图步骤确定OE是∠AOB的平分线，联立方程组求出F坐标即可．\n【解答】解：设直线AB的解析式为y＝kx+2，将点（1，0）代入解析式可得：\nk+2＝0，\n解得k＝﹣2，\n∴直线AB的解析式为y＝﹣2x+2，\n由作图可知OE是∠AOB的平分线，\n∴直线OE的解析式为y＝x，\n∴$\\begin{cases} y=-2x+2 \\\\ y=x \\end{cases}$，\n解得x＝y$=\\frac{2}{3}$．\n∴点F的坐标是（$\\frac{2}{3}$，$\\frac{2}{3}$）．\n故答案为：（$\\frac{2}{3}$，$\\frac{2}{3}$）．\n【点评】本题考查了基本作图、一次函数图象上点的坐标特征，熟练掌握以上知识点是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q015_img01",
+          "path": "assets/2025年西藏中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一次函数的图像和性质",
+          "角平分线的性质",
+          "方程组的解法"
+        ],
+        "reasoning": "作图步骤确定OE是∠AOB的平分线，联立方程组求出F坐标",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一次函数的图像和性质\", \"角平分线的性质\", \"方程组的解法\"],\n  \"reasoning\": \"作图步骤确定OE是∠AOB的平分线，联立方程组求出F坐标\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "blank",
+      "stem_text": "如图，在菱形ABCD中，∠ABC＝60°，AB＝4，连接BD，点P是BD上的一个动点，连接PA，PC，则PA+PB+PC的最小值是 ____ ．\n[图1]",
+      "stem_markdown": "如图，在菱形ABCD中，∠ABC＝60°，AB＝4，连接BD，点P是BD上的一个动点，连接PA，PC，则PA+PB+PC的最小值是 ____ ．\n![2025年西藏中考数学试卷_q016_img01](assets/2025年西藏中考数学试卷_q016_img01.png)",
+      "options": [],
+      "answer": "4$\\sqrt{3}$．",
+      "solution": "【分析】依据题意，将△APB绕点A旋转60°至△AB'P'，连接P'P，B'C，AC，过B'作B'H⊥AC交AC的延长线于H，从而AB＝AB'，B'P'＝BP，AP＝AP'，∠P'AP＝60°，故△P'AP是等边三角形，则P'P＝AP，进而PA+PB+PC的最小值是PP'+B'P'+PC的最小值，结合根据两点之间线段最短，故PA+PB+PC的最小值是B'C，再利用Rt△B'HC计算即可得解．\n【解答】解：如图，将△APB绕点A旋转60°至△AB'P'，连接P'P，B'C，AC，过B'作B'H⊥AC交AC的延长线于H．\n[[image:rId46]]\n∴AB＝AB'，B'P'＝BP，AP＝AP'，∠P'AP＝60°．\n∴△P'AP是等边三角形．\n∴P'P＝AP．\n∴PA+PB+PC的最小值是PP'+B'P'+PC的最小值．\n∴根据两点之间线段最短，故PA+PB+PC的最小值是B'C．\n∵∠B'AH＝180°﹣∠B'AB﹣∠BAC＝60°，\n∴∠AB'H＝30°．\n∴AH$=\\frac{1}{2}$AB'＝2，则B'H$=\\sqrt{3}$AH＝2$\\sqrt{3}$．\n又∵AB＝BC，∠ABC＝60°，\n∴△ABC为等边三角形．\n∴AC＝AB＝4．\n∴CH＝AC+AH＝6．\n∴B'C$=\\sqrt{CH^{2}+B′H^{2}}=\\sqrt{6^{2}+(2\\sqrt{3})^{2}}=$4$\\sqrt{3}$．\n故答案为：4$\\sqrt{3}$．\n【点评】本题主要考查了轴对称﹣最短路线问题、等边三角形的判定与性质、菱形的性质，解题时要熟练掌握并能灵活运用等边三角形的性质是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q016_img01",
+          "path": "assets/2025年西藏中考数学试卷_q016_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的性质",
+          "菱形的性质",
+          "轴对称﹣最短路线问题"
+        ],
+        "reasoning": "将△APB绕点A旋转60°至△AB'P'，利用等边三角形的性质和两点之间线段最短原理求解",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的性质\", \"菱形的性质\", \"轴对称﹣最短路线问题\"],\n  \"reasoning\": \"将△APB绕点A旋转60°至△AB'P'，利用等边三角形的性质和两点之间线段最短原理求解\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "计算：2²﹣4sin30°+（π+1）⁰-\\sqrt{4}．",
+      "stem_markdown": "计算：2^{2}﹣4sin30°+（π+1）^{0}$-\\sqrt{4}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先化简，再计算．\n【解答】解：2^{2}﹣4sin30°+（π+1）^{0}$-\\sqrt{4}$\n$=4-4×\\frac{1}{2}+1-2$\n＝4﹣2+1﹣2\n＝1．\n【点评】本题考查了实数的运算，掌握运算法则是解题的关键．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "幂的运算",
+          "特殊角的三角函数值",
+          "零指数幂",
+          "算术平方根"
+        ],
+        "reasoning": "题目涉及2的平方、sin30°、π+1的零次幂和算术平方根的计算。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"幂的运算\", \"特殊角的三角函数值\", \"零指数幂\", \"算术平方根\"],\n  \"reasoning\": \"题目涉及2的平方、sin30°、π+1的零次幂和算术平方根的计算。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "解分式方程：\\frac{2}{x+1}=\\frac{3}{x-1}．",
+      "stem_markdown": "解分式方程：$\\frac{2}{x+1}=\\frac{3}{x-1}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先把方程两边同时乘（x+1）（x﹣1），把分式方程化成整式方程，然后按照解一元一次方程的一般步骤，求出x，再进行检验即可．\n【解答】解：$\\frac{2}{x+1}=\\frac{3}{x-1}$，\n方程两边同时乘（x+1）（x﹣1）得：\n2（x﹣1）＝3（x+1），\n2x﹣2＝3x+3，\n2x﹣3x＝3+2，\n﹣x＝5，\nx＝﹣5，\n检验：当x＝﹣5时，（x+1）（x﹣1）≠0，\n∴x＝﹣5是原方程的解．\n【点评】本题主要考查了解分式方程，解题关键是熟练掌握如何把分式方程化成整式方程，注意解分式方程要检验．",
+      "full_score": 5,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程",
+          "去分母",
+          "解一元一次方程"
+        ],
+        "reasoning": "方程两边同时乘（x+1）（x﹣1）以消分母，转化为整式方程求解。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程\", \"去分母\", \"解一元一次方程\"],\n  \"reasoning\": \"方程两边同时乘（x+1）（x﹣1）以消分母，转化为整式方程求解。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "解不等式组：\\begin{cases} 2x+1＞x-1① \\\\ 3(x-2)＜x+2② \\end{cases}，并把解集在数轴上表示出来．\n[图1]",
+      "stem_markdown": "解不等式组：$\\begin{cases} 2x+1＞x-1① \\\\ 3(x-2)＜x+2② \\end{cases}$，并把解集在数轴上表示出来．\n![2025年西藏中考数学试卷_q019_img01](assets/2025年西藏中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】先解不等式组，再表示解集．\n【解答】解：$\\begin{cases} 2x+1＞x-1① \\\\ 3(x-2)＜x+2② \\end{cases}$，\n由①得：x＞﹣2，\n由②得：3x﹣6＜x+2，\n2x＜8，\nx＜4，\n∴﹣2＜x＜4，\n[[image:rId48]]\n【点评】本题考查了解一元一次不等式组，掌握解法是解题的关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q019_img01",
+          "path": "assets/2025年西藏中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组的解法",
+          "解不等式",
+          "数轴表示解集"
+        ],
+        "reasoning": "通过解不等式①和②得到x的范围，再在数轴上表示解集。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组的解法\", \"解不等式\", \"数轴表示解集\"],\n  \"reasoning\": \"通过解不等式①和②得到x的范围，再在数轴上表示解集。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "如图，已知AB＝DC，AC＝DB．求证：△ABC≌△DCB．\n[图1]",
+      "stem_markdown": "如图，已知AB＝DC，AC＝DB．求证：△ABC≌△DCB．\n![2025年西藏中考数学试卷_q020_img01](assets/2025年西藏中考数学试卷_q020_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】如图，直接运用SSS公理，即可解决问题．\n【解答】证明：如图，在△ABC与△DCB中，\n$\\begin{cases} AB=DC \\\\ AC=BD \\\\ BC=BC \\end{cases}$，\n∴△ABC≌△DCB（SSS）．\n[[image:rId50]]\n【点评】该题主要考查了SSS公理及其应用问题；深入观察图形，准确找出图形中隐含的等量关系，是灵活解题的基础和关键．",
+      "full_score": 5,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q020_img01",
+          "path": "assets/2025年西藏中考数学试卷_q020_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定（SSS）"
+        ],
+        "reasoning": "在△ABC与△DCB中，根据条件AB=DC，AC=BD，BC=BC，直接应用SSS公理证明全等。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定（SSS）\"],\n  \"reasoning\": \"在△ABC与△DCB中，根据条件AB=DC，AC=BD，BC=BC，直接应用SSS公理证明全等。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "某校希望进一步提高学生体育与健康素养，为了解学生每天校外体育活动时间，随机抽取了若干名学生进行调查，将这些学生一天的校外体育活动时间x（分钟）分为五个小组：A：0≤x＜15；B：15≤x＜30；C：30≤x＜45；D：45≤x＜60；E：60≤x＜75．\n现将调查结果绘制成两幅不完整的统计图．\n[图1]\n请根据统计图信息，解答下列问题：\n（1）本次调查的样本容量是 ____ ，并将频数分布直方图补充完整；\n（2）若该校共有学生3000人，请根据调查结果估计，该校学生每天校外体育活动时间不少于60分钟的学生有多少人？\n（3）已知A组有1名男生和2名女生，从中随机抽取2名学生，请用列表法或画树状图的方法，求恰好抽到1名男生和1名女生的概率．",
+      "stem_markdown": "某校希望进一步提高学生体育与健康素养，为了解学生每天校外体育活动时间，随机抽取了若干名学生进行调查，将这些学生一天的校外体育活动时间x（分钟）分为五个小组：A：0≤x＜15；B：15≤x＜30；C：30≤x＜45；D：45≤x＜60；E：60≤x＜75．\n现将调查结果绘制成两幅不完整的统计图．\n![2025年西藏中考数学试卷_q021_img01](assets/2025年西藏中考数学试卷_q021_img01.png)\n请根据统计图信息，解答下列问题：\n（1）本次调查的样本容量是 ____ ，并将频数分布直方图补充完整；\n（2）若该校共有学生3000人，请根据调查结果估计，该校学生每天校外体育活动时间不少于60分钟的学生有多少人？\n（3）已知A组有1名男生和2名女生，从中随机抽取2名学生，请用列表法或画树状图的方法，求恰好抽到1名男生和1名女生的概率．",
+      "options": [],
+      "answer": "60",
+      "solution": "【分析】（1）由B组人数及其所占百分比可得总人数，总人数减去A、B、C、E人数求出D组人数即可补全图形；\n（2）求出样本中学生每天的完成作业时长不少于60分钟的学生所占的百分比，估计总体中的百分比，进而求出相应的学生人数；\n（3）画树状图，共有6种等可能的结果，其中刚好抽到1名男生与1名女生的结果有4种，再由概率公式求解即可．\n【解答】解：（1）本次调查总人数为6÷10%＝60（名），\nD组人数为60﹣3﹣6﹣9﹣24＝18（名），\n补全图形如下：\n[[image:rId52]]\n故答案为：60；\n（2）3000$×\\frac{24}{60}=$1200（人），\n答：该校学生每天校外体育活动时间不少于60分钟的学生有1200人；\n（3）画树状图如下：\n[[image:rId53]]\n共有6种等可能的结果，其中刚好抽到1名男生与1名女生的结果共有4种，\n∴一男一女的概率为$\\frac{4}{6}=\\frac{2}{3}$．\n【点评】本题考查了条形统计图和扇形统计图，及用列表法或树状图法求概率，准确理解题意，熟练掌握知识点是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q021_img01",
+          "path": "assets/2025年西藏中考数学试卷_q021_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "频率分布直方图",
+          "样本估计总体",
+          "概率计算"
+        ],
+        "reasoning": "第（1）问通过B组人数及其所占百分比确定总人数，第（2）问估计总体中不少于60分钟的学生人数，第（3）问计算抽到1名男生和1名女生的概率",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"频率分布直方图\", \"样本估计总体\", \"概率计算\"],\n  \"reasoning\": \"第（1）问通过B组人数及其所占百分比确定总人数，第（2）问估计总体中不少于60分钟的学生人数，第（3）问计算抽到1名男生和1名女生的概率\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "用一副直角三角板按图（1）的位置摆放，抽象成如图（2）的示意图，已知DC＝6cm，求四边形ABCD的面积（结果保留根号）．\n[图1]",
+      "stem_markdown": "用一副直角三角板按图（1）的位置摆放，抽象成如图（2）的示意图，已知DC＝6cm，求四边形ABCD的面积（结果保留根号）．\n![2025年西藏中考数学试卷_q022_img01](assets/2025年西藏中考数学试卷_q022_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】根据“在直角三角形中，30°角所对的直角边是斜边的一半”求出BC，在Rt△ABD中利用勾股定理求出BD，根据等腰三角形的判定与性质、在Rt△ABD中利用勾股定理求出AB、AD，再利用三角形面积公式，根据四边形ABCD的面积＝△ABD的面积+△BDC的面积计算即可．\n【解答】解：∵DC＝6cm，∠DBC＝30°，∠BDC＝90°，\n∴BC＝2DC＝2×6＝12（cm），\n在Rt△BDC中利用勾股定理，得BD$=\\sqrt{BC^{2}-DC^{2}}=\\sqrt{12^{2}-6^{2}}=$6$\\sqrt{3}$，\n∵∠ABD＝∠ADB＝45°，\n∴AB＝AD（设为xcm），\n在Rt△ABD中利用勾股定理，得$AB^{2}+AD^{2}＝BD^{2}$，即$2x^{2}$＝（6$\\sqrt{3}$）^{2}，\n解得$x_{1}$＝3$\\sqrt{6}$，$x_{2}$＝﹣3$\\sqrt{6}$（舍去），\n∴AB＝AD＝3$\\sqrt{6}$cm，\n∴$S_{四边形}_{ABCD}＝S_{△}_{ABD}+S_{△}_{BDC}=\\frac{1}{2}$AB•AD$+\\frac{1}{2}$BD•DC$=\\frac{1}{2}×$3$\\sqrt{6}×$3$\\sqrt{6}+\\frac{1}{2}×$6$\\sqrt{3}×$6＝（27+18$\\sqrt{3}$）（$cm^{2}$）．\n【点评】本题考查三角形的面积、含30度角的直角三角形、勾股定理、等腰直角三角形，掌握“在直角三角形中，30°角所对的直角边是斜边的一半”、勾股定理、等腰三角形的判定与性质、三角形面积计算公式是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q022_img01",
+          "path": "assets/2025年西藏中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "30°角所对的直角边是斜边的一半",
+          "勾股定理",
+          "等腰直角三角形",
+          "三角形面积公式"
+        ],
+        "reasoning": "题目通过30°角求出直角边长度，利用勾股定理求斜边长度，判断等腰三角形并求其边长，最后计算面积。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"30°角所对的直角边是斜边的一半\", \"勾股定理\", \"等腰直角三角形\", \"三角形面积公式\"],\n  \"reasoning\": \"题目通过30°角求出直角边长度，利用勾股定理求斜边长度，判断等腰三角形并求其边长，最后计算面积。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "如图，AB是⊙O的直径，点C在⊙O上，∠CAB＝60°，过点C的切线交BA的延长线于点D．求证：CD＝CB．\n[图1]",
+      "stem_markdown": "如图，AB是⊙O的直径，点C在⊙O上，∠CAB＝60°，过点C的切线交BA的延长线于点D．求证：CD＝CB．\n![2025年西藏中考数学试卷_q023_img01](assets/2025年西藏中考数学试卷_q023_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】连接OC，则OC＝OA，因为∠CAB＝60°，所以△AOC是等边三角形，则∠COD＝60°，所以∠B$=\\frac{1}{2}$∠COD＝30°，由切线的性质得∠OCD＝90°，则∠D＝90°﹣∠COD＝30°，所以∠B＝∠D，即可证明CD＝CB．\n【解答】证明：连接OC，则OC＝OA，\n∵∠CAB＝60°，\n∴△AOC是等边三角形，\n∴∠COD＝60°，\n∴∠B$=\\frac{1}{2}$∠COD＝30°，\n∵CD与⊙O相切于点C，交BA的延长线于点D，\n∴CD⊥OC，\n∴∠OCD＝90°，\n∴∠D＝90°﹣∠COD＝30°，\n∴∠B＝∠D，\n∴CD＝CB．\n[[image:rId56]]\n【点评】此题重点考查等边三角形的判定与性质、圆周角定理、切线的性质、直角三角形的两个锐角互余、“等角对等边”等知识，正确地添加辅助线是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q023_img01",
+          "path": "assets/2025年西藏中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的判定与性质",
+          "圆周角定理",
+          "切线的性质",
+          "直角三角形的两个锐角互余"
+        ],
+        "reasoning": "通过连接OC并利用∠CAB=60°得出△AOC为等边三角形，进而得到∠COD=60°；利用切线性质得出CD⊥OC，从而得到∠D=30°；最后利用∠B=∠D得出CD=CB。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的判定与性质\", \"圆周角定理\", \"切线的性质\", \"直角三角形的两个锐角互余\"],\n  \"reasoning\": \"通过连接OC并利用∠CAB=60°得出△AOC为等边三角形，进而得到∠COD=60°；利用切线性质得出CD⊥OC，从而得到∠D=30°；最后利用∠B=∠D得出CD=CB。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q024",
+      "question_no": "24",
+      "question_type": "solution",
+      "stem_text": "如图，在四边形ABCD中，AD∥BC，BC＝2AD，点E是BC的中点，且AC平分∠DAE．\n（1）求证：四边形ADCE是菱形；\n（2）已知AB＝3，AE＝2，求线段AC的长．\n[图1]",
+      "stem_markdown": "如图，在四边形ABCD中，AD∥BC，BC＝2AD，点E是BC的中点，且AC平分∠DAE．\n（1）求证：四边形ADCE是菱形；\n（2）已知AB＝3，AE＝2，求线段AC的长．\n![2025年西藏中考数学试卷_q024_img01](assets/2025年西藏中考数学试卷_q024_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）由AD∥BC，点E是BC的中点，得AD∥CE，CE＝BE$=\\frac{1}{2}$BC，由BC＝2AD，得AD$=\\frac{1}{2}$BC，则AD＝CE，所以四边形ADCE是平行四边形，由∠DAC＝∠ECA，∠DAC＝∠EAC，推导出∠EAC＝∠ECA，则AE＝CE，即可证明四边形ADCE是菱形．\n（2）因为AE＝CE＝BE＝2，所以∠EAB＝∠B，BC＝2BE＝4，而∠EAC＝∠ECA，则∠BAC＝∠EAB+∠EAC＝∠B+∠ECA，由∠BAC+∠B+∠ECA＝2∠BAC＝180°，求得∠BAC＝90°，因为AB＝3，所以AC$=\\sqrt{BC^{2}-AB^{2}}=\\sqrt{7}$．\n【解答】（1）证明：∵AD∥BC，点E是BC的中点，\n∴AD∥CE，∠DAC＝∠ECA，CE＝BE$=\\frac{1}{2}$BC，\n∵BC＝2AD，\n∴AD$=\\frac{1}{2}$BC，\n∴AD＝CE，\n∴四边形ADCE是平行四边形，\n∵AC平分∠DAE，\n∴∠DAC＝∠EAC，\n∴∠EAC＝∠ECA，\n∴AE＝CE，\n∴四边形ADCE是菱形．\n（2）解：∵AE＝CE＝BE＝2，\n∴∠EAB＝∠B，BC＝2BE＝4，\n∵∠EAC＝∠ECA，\n∴∠BAC＝∠EAB+∠EAC＝∠B+∠ECA，\n∵∠BAC+∠B+∠ECA＝2∠BAC＝180°，\n∴∠BAC＝90°，\n∵AB＝3，\n∴AC$=\\sqrt{BC^{2}-AB^{2}}=\\sqrt{4^{2}-3^{2}}=$$\\sqrt{7}$，\n∴AC的长为$\\sqrt{7}$．\n【点评】此题重点考查平行线的性质、等腰三角形的判定与性质、菱形的判定、三角形内角和定理、勾股定理等知识，推导出AD＝CE，进而证明四边形ADCE是平行四边形是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q024_img01",
+          "path": "assets/2025年西藏中考数学试卷_q024_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行线的性质",
+          "等腰三角形的判定与性质",
+          "菱形的判定",
+          "勾股定理"
+        ],
+        "reasoning": "（1）由AD∥BC，点E是BC的中点，得AD∥CE，∠DAC＝∠ECA，推导出四边形ADCE是平行四边形；（2）由AE＝CE＝BE＝2，求得∠BAC＝90°，利用勾股定理求AC的长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行线的性质\", \"等腰三角形的判定与性质\", \"菱形的判定\", \"勾股定理\"],\n  \"reasoning\": \"（1）由AD∥BC，点E是BC的中点，得AD∥CE，∠DAC＝∠ECA，推导出四边形ADCE是平行四边形；（2）由AE＝CE＝BE＝2，求得∠BAC＝90°，利用勾股定理求AC的长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q025",
+      "question_no": "25",
+      "question_type": "solution",
+      "stem_text": "2025年央视春晚第一次在拉萨设立分会场，主持人身着藏族特色的民族服饰，受到广大观众的喜爱．某服装厂设计了甲、乙两种款式的藏式服装，已知甲、乙两款服装的生产成本和售价如表：\n款式 | 成本（元/件） | 售价（元/件）\n甲 | 700 | 1000\n乙 | 800 | 1200\n根据以上信息，解答下列问题：\n（1）列方程（组）解应用题\n若该厂投入230000元来生产甲、乙两款服装共300件，并且投入的资金刚好用完，可以生产甲、乙两款服装各多少件？\n（2）工厂在生产前进行了市场调查，发现甲款服装更受欢迎．工厂计划生产甲、乙两款服装共500件，要求甲款服装的数量至少是乙款服装的2倍．假设能全部售完，该工厂应如何安排生产才能获得最大利润？",
+      "stem_markdown": "2025年央视春晚第一次在拉萨设立分会场，主持人身着藏族特色的民族服饰，受到广大观众的喜爱．某服装厂设计了甲、乙两种款式的藏式服装，已知甲、乙两款服装的生产成本和售价如表：\n| 款式 | 成本（元/件） | 售价（元/件） |\n| --- | --- | --- |\n| 甲 | 700 | 1000 |\n| 乙 | 800 | 1200 |\n根据以上信息，解答下列问题：\n（1）列方程（组）解应用题\n若该厂投入230000元来生产甲、乙两款服装共300件，并且投入的资金刚好用完，可以生产甲、乙两款服装各多少件？\n（2）工厂在生产前进行了市场调查，发现甲款服装更受欢迎．工厂计划生产甲、乙两款服装共500件，要求甲款服装的数量至少是乙款服装的2倍．假设能全部售完，该工厂应如何安排生产才能获得最大利润？",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）通过设生产甲、乙服装的数量为未知数，结合总件数和总投入资金的条件，列二元一次方程组求解；\n（2）先根据甲、乙数量关系设未知数并列出不等式确定甲的数量范围，再分别算出甲、乙的单件利润，得出总利润关于甲数量的函数，根据函数单调性确定利润最大时的生产安排．\n【解答】解：（1）设生产甲款服装x件，生产乙款服装y件，\n根据生产甲、乙两款服装共300件，可得x+y＝300，\n又∵投入230000元且资金刚好用完，\n∴700x+800y＝230000，\n将x+y＝300变形为x＝300﹣y，代入700x+800y＝230000中，\n700（300﹣y）+800y＝230000，\n210000﹣700y+800y＝230000，\n100y＝20000，\ny＝200，\n把y＝200代入x＝300﹣y，\n得x＝300﹣200＝100，\n∴可以生产甲款服装100件，乙款服装200件；\n（2）设生产甲款服装m件，则生产乙款服装（500﹣m）件，\n∵甲款服装的数量至少是乙款服装的2倍，\n∴m≥2（500﹣m），\nm≥1000﹣2m，\nm+2m≥1000，\n3m≥1000，\nm$≥\\frac{1000}{3}≈$333.33，\n∵m为服装件数，\n∴m取整数，m≥334，\n甲的利润为（1000﹣700）＝300元/件，乙的利润为（1200﹣800）＝400元/件，\n总利润＝300m+400（500﹣m）＝300m+200000﹣400m＝﹣100m+200000，\n∵﹣100＜0，\n∴总利润随m的增大而减小，\n∴当m＝334时，W有最大值，此时500﹣m＝500﹣334＝166，\n∴生产甲款服装334件，乙款服装166件时，能获得最大利润．\n【点评】本题考查了一次方程的应用以及一次函数的应用，解题的关键是：（1）根据各数量之间的关系，正确列出二元一次方程求解即可；（2）根据各数量之间的关系，找出y关于x的函数关系式．",
+      "full_score": 8,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次方程",
+          "二元一次方程组",
+          "一次函数"
+        ],
+        "reasoning": "题目涉及通过方程组解决实际问题及利用一次函数求最大利润。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次方程\", \"二元一次方程组\", \"一次函数\"],\n  \"reasoning\": \"题目涉及通过方程组解决实际问题及利用一次函数求最大利润。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年西藏中考数学试卷_q026",
+      "question_no": "26",
+      "question_type": "solution",
+      "stem_text": "已知抛物线y＝ax²+bx﹣4过点A（﹣1，0），B（m，0），与y轴交于点C．点B是x轴正半轴上的动点，点F是抛物线在第四象限图象上的动点，连接BC，AF，且AF交y轴于点D，交BC于点E．\n（1）当m＝3时，求抛物线的解析式；\n（2）如图1，在（1）的条件下，若∠CDE＝∠CED，求直线AF的解析式；\n（3）要使得∠DCE＝∠DEC成立，请探索m的取值范围（直接写出结果）；\n（4）如图2，∠DCE＝∠DEC，当m为何值时，OD的长度等于1？\n[图1]\n2025年西藏中考数学试卷",
+      "stem_markdown": "已知抛物线y＝$ax^{2}$+bx﹣4过点A（﹣1，0），B（m，0），与y轴交于点C．点B是x轴正半轴上的动点，点F是抛物线在第四象限图象上的动点，连接BC，AF，且AF交y轴于点D，交BC于点E．\n（1）当m＝3时，求抛物线的解析式；\n（2）如图1，在（1）的条件下，若∠CDE＝∠CED，求直线AF的解析式；\n（3）要使得∠DCE＝∠DEC成立，请探索m的取值范围（直接写出结果）；\n（4）如图2，∠DCE＝∠DEC，当m为何值时，OD的长度等于1？\n![2025年西藏中考数学试卷_q026_img01](assets/2025年西藏中考数学试卷_q026_img01.png)\n2025年西藏中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）当m＝3时，二次函数y＝$ax^{2}$+bx﹣4的图象与x轴交于A（﹣1，0），B（3，0），设二次函数的交点式为y＝a（x+1）（x﹣3），展开后得到﹣3a＝﹣4求解即可得到答案；\n（2）根据解析式求得点C（0，﹣4），进而勾股定理求得BC＝5，作∠DCE的角平分线CG交x轴于点G，则∠OCG＝∠BCG，AF⊥CG，进而得出∠OCG＝∠OAD，根据角平分线的定义得出$\\frac{OC}{BC}=\\frac{OG}{BG}=\\frac{4}{5}$，求得$OG=\\frac{4}{3}$，进而可得$tan∠OAD=\\frac{OD}{OA}=\\frac{1}{3}$，从而求得点D的坐标，待定系数法求解析式，即可求解；\n（3）先找到临界值，当m＝4时，OB＝OC＝4，此时得出F，B重合，根据题意可得F是第四象限的点，则当∠OCB＞45°时，m＞4即可求解；\n（4）根据题意得出△OAD是等腰直角三角形，进而根据已知得出∠OCB＝∠DCE＝∠DEC＝67.5°，取H（4，0）得出△OCH是等腰直角三角形，进而求得$HC=HB=4\\sqrt{2}$，即可得出B的坐标，即可求解．\n【解答】解：（1）当m＝3时，二次函数y＝$ax^{2}$+bx﹣4的图象与x轴交于A（﹣1，0），B（3，0），\n∴设二次函数的交点式为y＝a（x+1）（x﹣3），\n∵y＝a（x+1）（x﹣3）＝a（$x^{2}$﹣2x﹣3）＝$ax^{2}$﹣2ax﹣3a，y＝$ax^{2}$+bx﹣4，\n∴﹣3a＝﹣4，\n解得$a=\\frac{4}{3}$，\n∴函数的解析式为$y=\\frac{4}{3}x^{2}-\\frac{8}{3}x-4$；\n（2）对于二次函数$y=\\frac{4}{3}x^{2}-\\frac{8}{3}x-4$，\n令x＝0，可得y＝﹣4，\n∴点C的坐标为（0，﹣4），则OC＝4，\n∵∠CDE＝∠CED，\n∴CD＝CE，\n∵OB＝3，OC＝4\n∴$BC=\\sqrt{OB^{2}+OC^{2}}=5$，\n如图，作∠DCE的角平分线CG交x轴于点G，则∠OCG＝∠BCG，AF⊥CG，\n[[image:rId59]]\n∴$∠OAD=90°-∠AGC=∠OCG=\\frac{1}{2}∠OCB$，\n设G到BC的距离为d，则d＝OG，\n∵$\\frac{S_{△OCG}}{S_{△BCG}}=\\frac{\\frac{1}{2}OC×OG}{\\frac{1}{2}BC×d}=\\frac{\\frac{1}{2}OC×OG}{\\frac{1}{2}BG×OC}$，\n∴$\\frac{OC}{BC}=\\frac{OG}{BG}=\\frac{4}{5}$，\n∴$OG=\\frac{4}{9}OB=\\frac{4}{9}×3=\\frac{4}{3}$，\n∴$tan∠OCG=\\frac{OG}{OC}=\\frac{\\frac{4}{3}}{4}=\\frac{1}{3}$，\n∵∠OCG＝∠OAD，\n∴$tan∠OAD=\\frac{OD}{OA}=\\frac{1}{3}$，\n∵A（﹣1，0），则OA＝1，\n∴$OD=\\frac{1}{3}$，\n∴$D(0，-\\frac{1}{3})$，\n设直线AF的解析式为y＝kx+b（k≠0），代入A（﹣1，0），$D(0，-\\frac{1}{3})$，\n∴$\\begin{cases} -k+b=0 \\\\ b=-\\frac{1}{3} \\end{cases}$，\n解得$\\begin{cases} k=-\\frac{1}{3} \\\\ b=-\\frac{1}{3} \\end{cases}$，\n∴直线AF的解析式$y=-\\frac{1}{3}x-\\frac{1}{3}$；\n（3）当m＝4时，OB＝OC＝4，\n∴△OBC是等腰直角三角形，\n∴∠OCB＝45°，\n∵∠DCE＝∠DEC，\n∴∠CDE＝90°，则D，O重合，F，B重合，\n又∵F是第四象限的点，\n∴当∠OCB＞45°时，则∠CDF＜90°，m＞4，\n∴要使得∠DCE＝∠DEC成立，m的取值范围为m＞4；\n（4）∵OD＝OA＝1，\n∴△OAD是等腰直角三角形，\n∴∠CDE＝∠ADO＝45°，\n∴∠OCB＝∠DCE＝∠DEC＝67.5°，\n在Rt△OBC中，∠OBC＝22.5°，\n如图所示，取H（4，0），\n[[image:rId60]]\n∴OC＝OH，\n∴△OCH是等腰直角三角形，\n∴∠OCH＝45°，\n∴∠HCB＝∠OBC＝22.5°，\n∴$HC=HB=4\\sqrt{2}$，\n∴$OB=OH+HB=4+4\\sqrt{2}$，即$m=4+4\\sqrt{2}$．\n【点评】本题考查了二次函数综合问题，角度问题，正切的定义，等腰三角形的性质与判定，熟练掌握相关知识是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:25:48；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId62]] ____ [[image:rId63]] ____ [[image:rId64]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 12,
+      "images": [
+        {
+          "image_id": "2025年西藏中考数学试卷_q026_img01",
+          "path": "assets/2025年西藏中考数学试卷_q026_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数解析式求法",
+          "相似三角形的性质",
+          "等腰直角三角形的性质",
+          "正切函数"
+        ],
+        "reasoning": "（1）通过给定点A和B求二次函数解析式，涉及二次函数交点式。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数解析式求法\", \"相似三角形的性质\", \"等腰直角三角形的性质\", \"正切函数\"],\n  \"reasoning\": \"（1）通过给定点A和B求二次函数解析式，涉及二次函数交点式。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:16:21",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 26,
+      "ok": 26,
+      "fallback": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+
+# Django/local runtime
+.env
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Local document/temp outputs
+tmp/
+output/
+
+# Microsoft Office temporary lock files
+~$*.docx

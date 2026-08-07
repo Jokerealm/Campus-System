@@ -1,0 +1,1120 @@
+{
+  "schema_version": "paper.v0.1",
+  "paper_id": "2025年山西省中考数学试卷",
+  "source": {
+    "name": "2025年山西省中考数学试卷",
+    "provider": "word_cutter",
+    "original_file": "2025年山西省中考数学试卷.docx"
+  },
+  "subject": "math",
+  "stage": "junior_high",
+  "grade": "初三",
+  "questions": [
+    {
+      "question_id": "2025年山西省中考数学试卷_q001",
+      "question_no": "1",
+      "question_type": "single_choice",
+      "stem_text": "下列各数中比﹣3小的数是（ ）",
+      "stem_markdown": "下列各数中比﹣3小的数是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "﹣4"
+        },
+        {
+          "label": "B",
+          "text": "﹣2"
+        },
+        {
+          "label": "C",
+          "text": "﹣1"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】利用有理数大小的比较方法：1、在数轴上表示的两个数，右边的总比左边的数大．2、正数都大于零，负数都小于零，正数大于负数．3、两个正数比较大小，绝对值大的数大；两个负数比较大小，绝对值大的数反而小．按照从小到大的顺序排列找出结论即可．\n【解答】解：A．∵|﹣4|＝4，|﹣3|＝3，4＞3，∴﹣4＜﹣3，故符合题意；\nB．∵|﹣2|＝2，|﹣3|＝3，2＜3，∴﹣2＞﹣3，故不符合题意；\nC．∵|﹣1|＝1，|﹣3|＝3，1＜3，∴﹣1＞﹣3，故不符合题意；\nD．3＞﹣3，故不符合题意；\n故选：A．\n【点评】本题考查了有理数的大小比较，掌握正数都大于零；负数都小于零；正数大于负数；两个正数比较大小，绝对值大的数大；两个负数比较大小，绝对值大的数反而小是解答本题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "有理数大小的比较",
+          "绝对值"
+        ],
+        "reasoning": "选项A通过比较绝对值确定比-3小",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"有理数大小的比较\", \"绝对值\"],\n  \"reasoning\": \"选项A通过比较绝对值确定比-3小\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q002",
+      "question_no": "2",
+      "question_type": "single_choice",
+      "stem_text": "科技创新型企业的不断涌现，促进了我国新质生产力的快速发展．以下四个科技创新型企业的品牌图标中，为中心对称图形的是（ ）",
+      "stem_markdown": "科技创新型企业的不断涌现，促进了我国新质生产力的快速发展．以下四个科技创新型企业的品牌图标中，为中心对称图形的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "![2025年山西省中考数学试卷_q002_img01](assets/2025年山西省中考数学试卷_q002_img01.png)"
+        },
+        {
+          "label": "B",
+          "text": "![2025年山西省中考数学试卷_q002_img02](assets/2025年山西省中考数学试卷_q002_img02.png)"
+        },
+        {
+          "label": "C",
+          "text": "![2025年山西省中考数学试卷_q002_img03](assets/2025年山西省中考数学试卷_q002_img03.png)"
+        },
+        {
+          "label": "D",
+          "text": "![2025年山西省中考数学试卷_q002_img04](assets/2025年山西省中考数学试卷_q002_img04.png)"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】根据中心对称图形的概念判断．把一个图形绕某一点旋转180°，如果旋转后的图形能够与原来的图形重合，那么这个图形就叫做中心对称图形．\n【解答】解：选项A、B、C都不能找到这样的一个点，使图形绕某一点旋转180°后与原来的图形重合，所以不是中心对称图形，\n选项D能找到这样的一个点，使图形绕某一点旋转180°后与原来的图形重合，所以是中心对称图形，\n故选：D．\n【点评】本题考查的是中心对称图形的概念，中心对称图形是要寻找对称中心，旋转180度后与原图重合．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q002_img01",
+          "path": "assets/2025年山西省中考数学试卷_q002_img01.png",
+          "role": "option_A"
+        },
+        {
+          "image_id": "2025年山西省中考数学试卷_q002_img02",
+          "path": "assets/2025年山西省中考数学试卷_q002_img02.png",
+          "role": "option_B"
+        },
+        {
+          "image_id": "2025年山西省中考数学试卷_q002_img03",
+          "path": "assets/2025年山西省中考数学试卷_q002_img03.png",
+          "role": "option_C"
+        },
+        {
+          "image_id": "2025年山西省中考数学试卷_q002_img04",
+          "path": "assets/2025年山西省中考数学试卷_q002_img04.png",
+          "role": "option_D"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "中心对称图形",
+          "旋转对称性"
+        ],
+        "reasoning": "选项D绕某一点旋转180°后与原图重合",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"中心对称图形\", \"旋转对称性\"],\n  \"reasoning\": \"选项D绕某一点旋转180°后与原图重合\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q003",
+      "question_no": "3",
+      "question_type": "single_choice",
+      "stem_text": "下列运算正确的是（ ）",
+      "stem_markdown": "下列运算正确的是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "2a+3b＝5ab"
+        },
+        {
+          "label": "B",
+          "text": "$m^{2}•m^{4}＝m^{6}$"
+        },
+        {
+          "label": "C",
+          "text": "（a﹣b）^{2}＝$a^{2}﹣b^{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$(2m^{2})^{3}＝6m^{6}$"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】利用完全平方公式，合并同类项，同底数幂乘法，积的乘方法则逐项判断即可．\n【解答】解：2a与3b不是同类项，无法合并，则A不符合题意，\n$m^{2}•m^{4}＝m^{6}$，则B符合题意，\n（a﹣b）^{2}＝$a^{2}$﹣2ab+$b^{2}$，则C不符合题意，\n$(2m^{2})^{3}＝8m^{6}$，则D不符合题意，\n故选：B．\n【点评】本题考查完全平方公式，合并同类项，同底数幂乘法，积的乘方，熟练掌握相关运算法则是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "同底数幂乘法",
+          "完全平方公式"
+        ],
+        "reasoning": "选项B涉及同底数幂乘法法则，选项D涉及积的乘方法则。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"同底数幂乘法\", \"完全平方公式\"],\n  \"reasoning\": \"选项B涉及同底数幂乘法法则，选项D涉及积的乘方法则。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q004",
+      "question_no": "4",
+      "question_type": "single_choice",
+      "stem_text": "如图，小谊将两根长度不等的木条AC，BD的中点连在一起，记中点为O，即AO＝CO，BO＝DO．测得C，D两点之间的距离后，利用全等三角形的性质，可得花瓶内壁上A，B两点之间的距离．图中△AOB与△COD全等的依据是（ ）\n[图1]",
+      "stem_markdown": "如图，小谊将两根长度不等的木条AC，BD的中点连在一起，记中点为O，即AO＝CO，BO＝DO．测得C，D两点之间的距离后，利用全等三角形的性质，可得花瓶内壁上A，B两点之间的距离．图中△AOB与△COD全等的依据是（ ）\n![2025年山西省中考数学试卷_q004_img01](assets/2025年山西省中考数学试卷_q004_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "SSS"
+        },
+        {
+          "label": "B",
+          "text": "SAS"
+        },
+        {
+          "label": "C",
+          "text": "ASA"
+        },
+        {
+          "label": "D",
+          "text": "HL"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据SAS可证明结论．\n【解答】解：在△AOB与△COD中，\n$\\begin{cases} AO=CO \\\\ ∠AOB=∠COD \\\\ BO=DO \\end{cases}$，\n∴△AOB≌△COD（SAS），\n故选：B．\n【点评】本题考查了全等三角形的应用，熟记全等三角形的判定与性质是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q004_img01",
+          "path": "assets/2025年山西省中考数学试卷_q004_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "全等三角形的判定（SAS）"
+        ],
+        "reasoning": "△AOB与△COD中AO=CO，BO=DO，∠AOB=∠COD，利用SAS证明全等。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"全等三角形的判定（SAS）\"],\n  \"reasoning\": \"△AOB与△COD中AO=CO，BO=DO，∠AOB=∠COD，利用SAS证明全等。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q005",
+      "question_no": "5",
+      "question_type": "single_choice",
+      "stem_text": "不等式组\\begin{cases} 2x+1＞5 \\\\ 1-3x≥-8 \\end{cases}的解集是（ ）",
+      "stem_markdown": "不等式组$\\begin{cases} 2x+1＞5 \\\\ 1-3x≥-8 \\end{cases}$的解集是（ ）",
+      "options": [
+        {
+          "label": "A",
+          "text": "x＜2"
+        },
+        {
+          "label": "B",
+          "text": "x≥3"
+        },
+        {
+          "label": "C",
+          "text": "2＜x≤3"
+        },
+        {
+          "label": "D",
+          "text": "无解"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】分别求出每一个不等式的解集，根据口诀：同大取大、同小取小、大小小大中间找、大大小小无解了确定不等式组的解集．\n【解答】解：$\\begin{cases} 2x+1＞5① \\\\ 1-3x≥-8② \\end{cases}$，\n由①得x＞2，\n由②得：x≤3，\n则不等式组的解集为2＜x≤3．\n故选：C．\n【点评】本题考查的是解一元一次不等式组，正确求出每一个不等式解集是基础，熟知“同大取大；同小取小；大小小大中间找；大大小小找不到”的原则是解答此题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "一元一次不等式组",
+          "解不等式",
+          "不等式组的解集",
+          "口诀法解不等式组"
+        ],
+        "reasoning": "题中通过解两个一元一次不等式并结合口诀确定不等式组的解集",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"一元一次不等式组\", \"解不等式\", \"不等式组的解集\", \"口诀法解不等式组\"],\n  \"reasoning\": \"题中通过解两个一元一次不等式并结合口诀确定不等式组的解集\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q006",
+      "question_no": "6",
+      "question_type": "single_choice",
+      "stem_text": "如图，在▱ABCD中，点O是对角线AC的中点，点E是边AD的中点，连接OE．下列两条线段的数量关系中一定成立的是（ ）\n[图1]",
+      "stem_markdown": "如图，在▱ABCD中，点O是对角线AC的中点，点E是边AD的中点，连接OE．下列两条线段的数量关系中一定成立的是（ ）\n![2025年山西省中考数学试卷_q006_img01](assets/2025年山西省中考数学试卷_q006_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "OE$=\\frac{1}{2}$AD"
+        },
+        {
+          "label": "B",
+          "text": "OE$=\\frac{1}{2}$BC"
+        },
+        {
+          "label": "C",
+          "text": "OE$=\\frac{1}{2}$AB"
+        },
+        {
+          "label": "D",
+          "text": "OE$=\\frac{1}{2}$AC"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据平行四边形的性质、三角形中位线定理求解即可．\n【解答】解：∵四边形ABCD是平行四边形，点O是对角线AC的中点，\n∴AB＝CD，AD＝BC，OA＝OC，\n∵点E是边AD的中点，\n∴OE是△ACD的中位线，\n∴OE$=\\frac{1}{2}$CD$=\\frac{1}{2}$AB，\n故A、B、D错误，不符合题意；C正确，符合题意；\n故选：C．\n【点评】此题考查了平行四边形的性质、三角形中位线定理，熟记平行四边形的性质、三角形中位线定理是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q006_img01",
+          "path": "assets/2025年山西省中考数学试卷_q006_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平行四边形的性质",
+          "三角形中位线定理"
+        ],
+        "reasoning": "题中利用了平行四边形的性质和三角形中位线定理来判断OE的长度",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平行四边形的性质\", \"三角形中位线定理\"],\n  \"reasoning\": \"题中利用了平行四边形的性质和三角形中位线定理来判断OE的长度\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q007",
+      "question_no": "7",
+      "question_type": "single_choice",
+      "stem_text": "如表记录了某市连续五天的日最高气温和日最低气温．比较这五天的日最高气温与日最低气温的波动情况，下列说法正确的是（ ）\n日期气温 | 2月2日 | 2月3日 | 2月4日 | 2月5日 | 2月6日\n最高/℃ | 12 | 6 | 10 | 9 | 8\n最低/℃ | 1 | ﹣2 | ﹣1 | 0 | 2",
+      "stem_markdown": "如表记录了某市连续五天的日最高气温和日最低气温．比较这五天的日最高气温与日最低气温的波动情况，下列说法正确的是（ ）\n| 日期气温 | 2月2日 | 2月3日 | 2月4日 | 2月5日 | 2月6日 |\n| --- | --- | --- | --- | --- | --- |\n| 最高/℃ | 12 | 6 | 10 | 9 | 8 |\n| 最低/℃ | 1 | ﹣2 | ﹣1 | 0 | 2 |",
+      "options": [
+        {
+          "label": "A",
+          "text": "日最高气温的波动大"
+        },
+        {
+          "label": "B",
+          "text": "日最低气温的波动大"
+        },
+        {
+          "label": "C",
+          "text": "一样大"
+        },
+        {
+          "label": "D",
+          "text": "无法比较"
+        }
+      ],
+      "answer": "A",
+      "solution": "【分析】利用方差的定义列式计算，再比较大小，从而根据方差的意义得出答案．\n【解答】解：日最高气温的平均数为$\\frac{12+6+10+9+8}{5}=9$（℃），\n所以日最高气温的方差为$\\frac{1}{5}×$[（12﹣9）^{2}+（6﹣9）^{2}+（10﹣9）^{2}+（9﹣9）^{2}+（8﹣9）^{2}]＝4；\n日最低气温的平均数为$\\frac{1-2-1+0+2}{5}=$0（℃），\n所以日最低气温的方差为$\\frac{1}{5}×$[（1﹣0）^{2}+（﹣2﹣0）^{2}+（﹣1﹣0）^{2}+（0﹣0）^{2}+（2﹣0）^{2}]＝2，\n因为4＞2，\n所以日最高气温的波动大．\n故选：A．\n【点评】本题考查有理数大小比较，正确求出日最高气温的温差和日最低气温的温差是解答本题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "方差",
+          "平均数"
+        ],
+        "reasoning": "通过计算最高气温和最低气温的方差来比较波动情况",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"方差\", \"平均数\"],\n  \"reasoning\": \"通过计算最高气温和最低气温的方差来比较波动情况\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q008",
+      "question_no": "8",
+      "question_type": "single_choice",
+      "stem_text": "如图，AB为⊙O的直径，点C，D是⊙O上位于AB异侧的两点，连接AD，CD．若AC=BC，则∠D的度数为（ ）\n[图1]",
+      "stem_markdown": "如图，AB为⊙O的直径，点C，D是⊙O上位于AB异侧的两点，连接AD，CD．若$AC=BC$，则∠D的度数为（ ）\n![2025年山西省中考数学试卷_q008_img01](assets/2025年山西省中考数学试卷_q008_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "30°"
+        },
+        {
+          "label": "B",
+          "text": "45°"
+        },
+        {
+          "label": "C",
+          "text": "60°"
+        },
+        {
+          "label": "D",
+          "text": "75°"
+        }
+      ],
+      "answer": "B",
+      "solution": "【分析】根据已知易得：∠AOC＝∠BOC＝90°，然后利用圆周角定理进行计算即可解答．\n【解答】解：连接OC，\n[[image:rId43]]\n∵$AC=BC$，AB为⊙O的直径，\n∴∠AOC＝∠BOC$=\\frac{1}{2}$∠AOB＝90°，\n∴∠D$=\\frac{1}{2}$∠AOC＝45°，\n故选：B．\n【点评】本题考查了圆周角定理，圆心角、弧、弦的关系，根据题目的已知条件并结合图形添加适当的辅助线是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q008_img01",
+          "path": "assets/2025年山西省中考数学试卷_q008_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰三角形的性质",
+          "圆周角定理",
+          "圆心角与圆周角的关系"
+        ],
+        "reasoning": "利用AC=BC得到∠AOC=∠BOC=90°，再由圆周角定理求∠D",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰三角形的性质\", \"圆周角定理\", \"圆心角与圆周角的关系\"],\n  \"reasoning\": \"利用AC=BC得到∠AOC=∠BOC=90°，再由圆周角定理求∠D\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q009",
+      "question_no": "9",
+      "question_type": "single_choice",
+      "stem_text": "氢气是一种绿色清洁能源，可通过电解水获得．实践小组通过实验发现，在电解水的过程中，生成物氢气的质量y（g）与分解的水的质量x（g）满足我们学过的某种函数关系．如表是一组实验数据，根据表中数据，y与x之间的函数关系式为（ ）\n水的质量x/g | 4.5 | 9 | 18 | 36 | 45\n氢气的质量y/g | 0.5 | 1 | 2 | 4 | 5\n[图1]",
+      "stem_markdown": "氢气是一种绿色清洁能源，可通过电解水获得．实践小组通过实验发现，在电解水的过程中，生成物氢气的质量y（g）与分解的水的质量x（g）满足我们学过的某种函数关系．如表是一组实验数据，根据表中数据，y与x之间的函数关系式为（ ）\n| 水的质量x/g | 4.5 | 9 | 18 | 36 | 45 |\n| --- | --- | --- | --- | --- | --- |\n| 氢气的质量y/g | 0.5 | 1 | 2 | 4 | 5 |\n![2025年山西省中考数学试卷_q009_img01](assets/2025年山西省中考数学试卷_q009_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "y$=\\frac{9}{x}$"
+        },
+        {
+          "label": "B",
+          "text": "y＝9x"
+        },
+        {
+          "label": "C",
+          "text": "y$=\\frac{1}{9}$x"
+        },
+        {
+          "label": "D",
+          "text": "y$=\\frac{1}{9x}$"
+        }
+      ],
+      "answer": "C",
+      "solution": "【分析】根据一次函数图象上点的坐标特征解答即可．\n【解答】解：通过观察表格数据可知：$\\frac{y}{x}=\\frac{1}{9}$，\n故y与x之间的函数关系式为y$=\\frac{1}{9}$x，\n故选：C．\n【点评】本题考查了一次函数的应用，观察表格数据发现规律是关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q009_img01",
+          "path": "assets/2025年山西省中考数学试卷_q009_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "比例关系",
+          "一次函数"
+        ],
+        "reasoning": "通过观察表格数据发现规律，得出比例关系 $\\frac{y}{x}=\\frac{1}{9}$",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"比例关系\", \"一次函数\"],\n  \"reasoning\": \"通过观察表格数据发现规律，得出比例关系 $\\\\frac{y}{x}=\\\\frac{1}{9}$\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q010",
+      "question_no": "10",
+      "question_type": "single_choice",
+      "stem_text": "如图，在△ABC中，∠BAC＝90°，AB＝AC，分别以点B，C为圆心、BC的长为半径画弧，与BA，CA的延长线分别交于点D，E．若BC＝4，则图中阴影部分的面积是（ ）\n[图1]",
+      "stem_markdown": "如图，在△ABC中，∠BAC＝90°，AB＝AC，分别以点B，C为圆心、BC的长为半径画弧，与BA，CA的延长线分别交于点D，E．若BC＝4，则图中阴影部分的面积是（ ）\n![2025年山西省中考数学试卷_q010_img01](assets/2025年山西省中考数学试卷_q010_img01.png)",
+      "options": [
+        {
+          "label": "A",
+          "text": "2π﹣4"
+        },
+        {
+          "label": "B",
+          "text": "4π﹣4"
+        },
+        {
+          "label": "C",
+          "text": "8π﹣8"
+        },
+        {
+          "label": "D",
+          "text": "4π﹣8"
+        }
+      ],
+      "answer": "D",
+      "solution": "【分析】由等腰直角三角形的性质得∠ABC＝∠ACB＝45°，AB＝AC$=\\frac{\\sqrt{2}}{2}$BC$=2\\sqrt{2}$，进而由$S_{阴影}_{BC}$＝2（$S_{扇形}_{BCD}﹣S_{△}_{ABC}$）解答即可求解，\n【解答】解：∵∠BAC＝90°，AB＝AC，\n∴∠ABC＝∠ACB＝45°，\n∵BC＝4，\n∴$AB=AC=\\frac{\\sqrt{2}}{2}BC=2\\sqrt{2}$，\n∴$S_{阴影BC}=2(S_{扇形BCD}-S_{△ABC})=2(\\frac{45π×4^{2}}{360}-\\frac{1}{2}×2\\sqrt{2}×2\\sqrt{2})=4π-8$，\n故选：D．\n【点评】本题考查了等腰直角三角形的性质，扇形的面积，掌握以上知识点是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q010_img01",
+          "path": "assets/2025年山西省中考数学试卷_q010_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等腰直角三角形的性质",
+          "扇形面积公式",
+          "三角形面积公式"
+        ],
+        "reasoning": "阴影部分面积计算涉及扇形和三角形面积的计算",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等腰直角三角形的性质\", \"扇形面积公式\", \"三角形面积公式\"],\n  \"reasoning\": \"阴影部分面积计算涉及扇形和三角形面积的计算\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q011",
+      "question_no": "11",
+      "question_type": "blank",
+      "stem_text": "因式分解：m²﹣16＝ ____ ．",
+      "stem_markdown": "因式分解：$m^{2}$﹣16＝ ____ ．",
+      "options": [],
+      "answer": "（m+4）（m﹣4）．",
+      "solution": "解：$m^{2}$﹣16＝ （m+4）（m﹣4） ．\n【分析】根据平方差公式分解因式即可．\n【解答】解：根据平方差公式：$m^{2}$﹣16＝（m+4）（m﹣4），\n故答案为：（m+4）（m﹣4）．\n【点评】本题主要考查了运用公式法因式分解，熟练掌握平方差公式是解题的关键．",
+      "full_score": 3,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 2,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "平方差公式"
+        ],
+        "reasoning": "题中使用了平方差公式 $a^2 - b^2 = (a+b)(a-b)$ 进行因式分解",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"平方差公式\"],\n  \"reasoning\": \"题中使用了平方差公式 $a^2 - b^2 = (a+b)(a-b)$ 进行因式分解\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q012",
+      "question_no": "12",
+      "question_type": "blank",
+      "stem_text": "近年来，我省依托乡村e镇建设，打造农村电商新产业，提高了农民收入．某农户通过网上销售传统手工艺品布老虎，利润由原来的每个20元增加到80元．该农户通过网上售出a个布老虎，则他的利润增加了 ____ 元（用含a的代数式表示）．\n[图1]",
+      "stem_markdown": "近年来，我省依托乡村e镇建设，打造农村电商新产业，提高了农民收入．某农户通过网上销售传统手工艺品布老虎，利润由原来的每个20元增加到80元．该农户通过网上售出a个布老虎，则他的利润增加了 ____ 元（用含a的代数式表示）．\n![2025年山西省中考数学试卷_q012_img01](assets/2025年山西省中考数学试卷_q012_img01.png)",
+      "options": [],
+      "answer": "60a．",
+      "solution": "【分析】先求出每个布老虎利润增加的钱数，再乘a即是答案．\n【解答】解：（80﹣20）a＝60a（元），\n故答案为：60a．\n【点评】本题考查了列代数式，解题的关键是根据题中的数量关系来列代数式．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q012_img01",
+          "path": "assets/2025年山西省中考数学试卷_q012_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "利润计算",
+          "代数式表示"
+        ],
+        "reasoning": "设问要求用含a的代数式表示利润增加额，涉及利润计算和代数式表达。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"利润计算\", \"代数式表示\"],\n  \"reasoning\": \"设问要求用含a的代数式表示利润增加额，涉及利润计算和代数式表达。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q013",
+      "question_no": "13",
+      "question_type": "blank",
+      "stem_text": "如图，在平面直角坐标系中，点A的坐标为（6，0），将线段OA绕点O逆时针旋转45°，则点A对应点的坐标为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，点A的坐标为（6，0），将线段OA绕点O逆时针旋转45°，则点A对应点的坐标为 ____ ．\n![2025年山西省中考数学试卷_q013_img01](assets/2025年山西省中考数学试卷_q013_img01.png)",
+      "options": [],
+      "answer": "$(3\\sqrt{2}，3\\sqrt{2})$．",
+      "solution": "【分析】将线段OA绕点O逆时针旋转45°得到$OA_{1}$，过$A_{1}$作$A_{1}$B⊥x轴于点B，则∠$A_{1}$BO＝90°，OA＝$OA_{1}$＝6，∠$AOA_{1}$＝45°，然后通过OB＝$OA_{1}$cos45°，$A_{1}$B＝$OA_{1}$sin45°，即可求解．\n【解答】解：如图，将线段OA绕点O逆时针旋转45°得到$OA_{1}$，过$A_{1}$作$A_{1}$B⊥x轴于点B，则∠$A_{1}$BO＝90°，\n[[image:rId48]]\n∵点A的坐标为（6，0），\n∴OA＝6，\n由题意得，OA＝$OA_{1}$＝6，∠$AOA_{1}$＝45°，\n∴$OB=OA_{1}cos45°=3\\sqrt{2}$，$A_{1}B=OA_{1}sin45°=3\\sqrt{2}$，\n∴点A对应点的坐标为$(3\\sqrt{2}，3\\sqrt{2})$，\n故答案为：$(3\\sqrt{2}，3\\sqrt{2})$．\n【点评】本题考查了旋转的性质，解直角三角形的相关计算，掌握知识点的应用是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q013_img01",
+          "path": "assets/2025年山西省中考数学试卷_q013_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "旋转的性质",
+          "直角三角形的边角关系",
+          "坐标系中的旋转"
+        ],
+        "reasoning": "通过旋转得到$OA_1$，利用直角三角形的边角关系计算坐标",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"旋转的性质\", \"直角三角形的边角关系\", \"坐标系中的旋转\"],\n  \"reasoning\": \"通过旋转得到$OA_1$，利用直角三角形的边角关系计算坐标\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q014",
+      "question_no": "14",
+      "question_type": "blank",
+      "stem_text": "如图是创新小组设计的一款小程序的界面示意图，程序规则为：每点击一次按钮，“[图1]”就从一个格子向左或向右随机移动到相邻的一个格子．当“[图1]”位于格子A时，小明连续点击两次按钮，“[图1]”回到格子A的概率是 ____ ．\n[图1]",
+      "stem_markdown": "如图是创新小组设计的一款小程序的界面示意图，程序规则为：每点击一次按钮，“![2025年山西省中考数学试卷_q014_img01](assets/2025年山西省中考数学试卷_q014_img01.png)”就从一个格子向左或向右随机移动到相邻的一个格子．当“![2025年山西省中考数学试卷_q014_img02](assets/2025年山西省中考数学试卷_q014_img02.png)”位于格子A时，小明连续点击两次按钮，“![2025年山西省中考数学试卷_q014_img03](assets/2025年山西省中考数学试卷_q014_img03.png)”回到格子A的概率是 ____ ．\n![2025年山西省中考数学试卷_q014_img04](assets/2025年山西省中考数学试卷_q014_img04.png)",
+      "options": [],
+      "answer": "$\\frac{1}{2}$．",
+      "solution": "【分析】根据概率公式解答即可．\n【解答】解：当“[[image:rId53]]”位于格子A时，小明连续点击两次按钮，则有等可能四种结果，\n①两次都向左移动，则“[[image:rId54]]”落在E处；\n②先向左再向右，则“[[image:rId55]]”回到格子A；\n③先向右再向左，则“[[image:rId56]]”回到格子A；\n④两次都向右移动，则“[[image:rId57]]”落在C处；\n所以当“[[image:rId58]]”位于格子A时，小明连续点击两次按钮，“[[image:rId59]]”回到格子A的概率是$\\frac{1}{2}$．\n故答案为：$\\frac{1}{2}$．\n【点评】本题考查概率的求法；用到的知识点为：概率＝所求情况数与总情况数之比．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q014_img01",
+          "path": "assets/2025年山西省中考数学试卷_q014_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山西省中考数学试卷_q014_img02",
+          "path": "assets/2025年山西省中考数学试卷_q014_img02.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山西省中考数学试卷_q014_img03",
+          "path": "assets/2025年山西省中考数学试卷_q014_img03.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山西省中考数学试卷_q014_img04",
+          "path": "assets/2025年山西省中考数学试卷_q014_img04.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "排列组合",
+          "几何概型"
+        ],
+        "reasoning": "设问考察了连续两次移动的结果及概率计算",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"排列组合\", \"几何概型\"],\n  \"reasoning\": \"设问考察了连续两次移动的结果及概率计算\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q015",
+      "question_no": "15",
+      "question_type": "blank",
+      "stem_text": "如图，在四边形ABCD中，AD∥BC，∠B＝90°，AB＝8，BC＝4，点E在边AB上，AE＝3，连接CE，且∠DCE＝∠BCE．点F在BC的延长线上，连接DF．若DF＝DC，则线段CF的长为 ____ ．\n[图1]",
+      "stem_markdown": "如图，在四边形ABCD中，AD∥BC，∠B＝90°，AB＝8，BC＝4，点E在边AB上，AE＝3，连接CE，且∠DCE＝∠BCE．点F在BC的延长线上，连接DF．若DF＝DC，则线段CF的长为 ____ ．\n![2025年山西省中考数学试卷_q015_img01](assets/2025年山西省中考数学试卷_q015_img01.png)",
+      "options": [],
+      "answer": "$\\frac{18}{5}$．",
+      "solution": "【分析】延长CE交DA延长线于点G，过D作DH⊥BF于点H，则∠BHD＝90°，由三线合一性质可得$CH=FH=\\frac{1}{2}CF$，然后证明四边形ABHD是矩形，所以AB＝DH＝8，AD＝BH，又∠AEG＝∠BEC，则可证△AEG∽△BEC，所以$\\frac{AG}{BC}=\\frac{AE}{BE}$，求出$AG=\\frac{12}{5}$，然后通过平行线的性质和等角对等边可得CD＝GD，设CH＝FH＝x，则AD＝BH＝4+x，$CD=GD=4+x+\\frac{12}{5}=x+\\frac{32}{5}$，最后通过勾股定理求出x的值即可．\n【解答】解：如图，延长CE交DA延长线于点G，过D作DH⊥BF于点H，则∠BHD＝90°，\n[[image:rId61]]\n∵DF＝DC，\n∴$CH=FH=\\frac{1}{2}CF$，\n∵AD∥BC，∠B＝90°，\n∴∠B＝∠GAE＝90°，∠B+∠BAD＝180°，\n∴∠B＝∠BAD＝∠BHD＝90°，\n∴四边形ABHD是矩形，\n∴AB＝DH＝8，AD＝BH，\n∵∠AEG＝∠BEC，\n∴△AEG∽△BEC，\n∴$\\frac{AG}{BC}=\\frac{AE}{BE}$，\n∵AB＝8，AE＝3，\n∴BE＝5，\n∴$\\frac{AG}{4}=\\frac{3}{5}$，\n∴$AG=\\frac{12}{5}$，\n∵AD∥BC，\n∴∠G＝∠BCE，\n∵∠DCE＝∠BCE，\n∴∠DCE＝∠G，\n∴CD＝GD，\n设CH＝FH＝x，则AD＝BH＝4+x，\n∴$CD=GD=4+x+\\frac{12}{5}=x+\\frac{32}{5}$，\n由勾股定理得：$CD^{2}＝CH^{2}+HD^{2}$，\n∴$(x+\\frac{32}{5})^{2}=x^{2}+8^{2}$，\n解得：$x=\\frac{9}{5}$，\n即$CH=\\frac{9}{5}$，\n∴$CF=2CH=\\frac{18}{5}$，\n故答案为：$\\frac{18}{5}$．\n【点评】本题考查了相似三角形的判定与性质，勾股定理，矩形的判定与性质，等腰三角形的判定与性质，掌握知识点的应用是解题的关键．",
+      "full_score": 3,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q015_img01",
+          "path": "assets/2025年山西省中考数学试卷_q015_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "相似三角形的判定与性质",
+          "勾股定理",
+          "矩形的判定与性质",
+          "等腰三角形的判定与性质"
+        ],
+        "reasoning": "通过相似三角形性质得出AG与BC的比例关系，利用勾股定理求解线段长度。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"相似三角形的判定与性质\", \"勾股定理\", \"矩形的判定与性质\", \"等腰三角形的判定与性质\"],\n  \"reasoning\": \"通过相似三角形性质得出AG与BC的比例关系，利用勾股定理求解线段长度。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q016",
+      "question_no": "16",
+      "question_type": "solution",
+      "stem_text": "（1）计算：|-\\frac{1}{2}|×6﹣3²+（﹣8+4）；\n（2）解方程组：\\begin{cases} 3x-2y=11① \\\\ x+2y=1② \\end{cases}．",
+      "stem_markdown": "（1）计算：$|-\\frac{1}{2}|$×6﹣3^{2}+（﹣8+4）；\n（2）解方程组：$\\begin{cases} 3x-2y=11① \\\\ x+2y=1② \\end{cases}$．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）利用绝对值的性质，有理数的乘方法则计算后再算乘法，最后算加减即可；\n（2）利用加减消元法解方程组即可．\n【解答】解：（1）原式$=\\frac{1}{2}×$6﹣9﹣4\n＝3﹣9﹣4\n＝﹣10；\n（2）①+②得：4x＝12，\n解得：x＝3，\n将x＝3代入②得：3+2y＝1，\n解得：y＝﹣1，\n故原方程组的解为$\\begin{cases} x=3 \\\\ y=-1 \\end{cases}$．\n【点评】本题考查有理数的混合运算，解二元一次方程组，熟练掌握相关运算法则及相关运算法则是解题的关键．",
+      "full_score": 10,
+      "images": [],
+      "knowledge_candidates": [],
+      "difficulty": 3,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "绝对值",
+          "有理数的乘方",
+          "有理数的加减乘除",
+          "二元一次方程组的解法"
+        ],
+        "reasoning": "题目（1）涉及绝对值和有理数的乘方、加减乘除法则；（2）涉及二元一次方程组的加减消元法。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"绝对值\", \"有理数的乘方\", \"有理数的加减乘除\", \"二元一次方程组的解法\"],\n  \"reasoning\": \"题目（1）涉及绝对值和有理数的乘方、加减乘除法则；（2）涉及二元一次方程组的加减消元法。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q017",
+      "question_no": "17",
+      "question_type": "solution",
+      "stem_text": "如图，在平面直角坐标系中，直线AB分别与x轴，y轴交于点A，B，与反比例函数y=\\frac{k}{x}（x＞0）的图象交于点C．已知点A的坐标为（﹣2，0），点C的坐标为（1，6），点D在反比例函数y=\\frac{k}{x}（x＞0）的图象上，纵坐标为2．\n（1）求反比例函数的表达式，并直接写出点B的坐标；\n（2）连接BD，OD，请直接写出四边形ABDO的面积．\n[图1]",
+      "stem_markdown": "如图，在平面直角坐标系中，直线AB分别与x轴，y轴交于点A，B，与反比例函数y$=\\frac{k}{x}$（x＞0）的图象交于点C．已知点A的坐标为（﹣2，0），点C的坐标为（1，6），点D在反比例函数y$=\\frac{k}{x}$（x＞0）的图象上，纵坐标为2．\n（1）求反比例函数的表达式，并直接写出点B的坐标；\n（2）连接BD，OD，请直接写出四边形ABDO的面积．\n![2025年山西省中考数学试卷_q017_img01](assets/2025年山西省中考数学试卷_q017_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）把点C的坐标代入反比例函数解析式中，求得k的值，即可求得反比例函数解析式；由A、C的坐标，利用待定系数法求出直线AC的解析式，令x＝0，求出y的值，即可得点B的坐标；\n（2）点D在反比例函数的图象上，纵坐标为2，则可求得点D的横坐标，利用四边形ABDO的面积等于△AOB，△BOD面积的和即可求解．\n【解答】解：（1）∵点C的坐标为（1，6），且在反比例函数$y=\\frac{k}{x}(x＞0)$的图象上，\n∴$6=\\frac{k}{1}$，即k＝6，\n∴反比例函数的解析式为$y=\\frac{6}{x}$；\n设直线AC的解析式为y＝ax+b（a≠0），\n把A、C两点坐标分别代入得：\n$\\begin{cases} -2a+b=0 \\\\ a+b=6 \\end{cases}$，\n解得：$\\begin{cases} a=2 \\\\ b=4 \\end{cases}$，\n即直线AC的解析式为y＝2x+4；\n上式中，令x＝0，y＝4，\n∴点B的坐标为（0，4）；\n（2）∵点D在反比例函数$y=\\frac{6}{x}$的图象上，纵坐标为2，\n∴$2=\\frac{6}{x}$，\n解得：x＝3；由题意知，OA＝2，OB＝4，\n∴$S_{四边形}_{AODB}＝S_{△}_{AOB}+S_{△}_{BOD}$\n$=\\frac{1}{2}OA⋅OB+\\frac{1}{2}OB⋅x_{D}$\n$=\\frac{1}{2}×2×4+\\frac{1}{2}×4×3$\n＝10．\n【点评】本题考查了一次函数与反比例函数的交点问题，待定系数法求函数解析式，反比例函数的图象与性质，割补法求四边形面积等知识，掌握反比例函数的图象与性质是关键．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q017_img01",
+          "path": "assets/2025年山西省中考数学试卷_q017_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.93,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "反比例函数的图象与性质",
+          "待定系数法求函数解析式",
+          "一次函数与反比例函数的交点问题",
+          "割补法求四边形面积"
+        ],
+        "reasoning": "第（1）问通过点C的坐标求反比例函数解析式，第（2）问通过割补法求四边形面积，涉及多个知识点。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"反比例函数的图象与性质\", \"待定系数法求函数解析式\", \"一次函数与反比例函数的交点问题\", \"割补法求四边形面积\"],\n  \"reasoning\": \"第（1）问通过点C的坐标求反比例函数解析式，第（2）问通过割补法求四边形面积，涉及多个知识点。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q018",
+      "question_no": "18",
+      "question_type": "solution",
+      "stem_text": "近年来，交通工具的多样化和普及化，为家长接送孩子带来便利的同时，也在一定程度上造成了放学时段校门口的交通拥堵．为了解具体情况，某校爱心社团中午放学后在校门口随机选取300名接送孩子的家长，针对接送孩子的方式和时段进行了问卷调查，所有问卷全部收回且有效，并将调查结果绘制成了如下所示的扇形统计图和条形统计图（不完整）．请认真阅读上述信息，回答下列问题：\n中午放学后家长接送孩子情况调查问卷 尊敬的家长： 您好！为美化校园周边交通环境，诚邀您参加本次匿名调查．（以下为单选） 1．您通常接送孩子的方式是（ ） A．步行 B．自行车 C．电动自行车 D．私家车 E．公共交通 2．您时常接送孩子的时段是（ ） A．11：50﹣12：00 B．12：00﹣12：10 C．12：10﹣12：20 D．其他时段\n[图1]\n（1）扇形统计图中“公共交通”所在扇形的圆心角度数为 ____ °；本次调查的家长中骑电动自行车接送孩子的有 ____ 人，并补全条形统计图；\n（2）若该校共有1500名家长中午放学后接送孩子，请估计用私家车接送孩子的家长人数；\n（3）假如你是爱心社团的成员，请根据上述统计图中的信息，写出一个造成放学后校门口交通拥堵的原因，并给家长提出一条缓解拥堵的建议．",
+      "stem_markdown": "近年来，交通工具的多样化和普及化，为家长接送孩子带来便利的同时，也在一定程度上造成了放学时段校门口的交通拥堵．为了解具体情况，某校爱心社团中午放学后在校门口随机选取300名接送孩子的家长，针对接送孩子的方式和时段进行了问卷调查，所有问卷全部收回且有效，并将调查结果绘制成了如下所示的扇形统计图和条形统计图（不完整）．请认真阅读上述信息，回答下列问题：\n中午放学后家长接送孩子情况调查问卷 尊敬的家长： 您好！为美化校园周边交通环境，诚邀您参加本次匿名调查．（以下为单选） 1．您通常接送孩子的方式是（ ） A．步行 B．自行车 C．电动自行车 D．私家车 E．公共交通 2．您时常接送孩子的时段是（ ） A．11：50﹣12：00 B．12：00﹣12：10 C．12：10﹣12：20 D．其他时段\n![2025年山西省中考数学试卷_q018_img01](assets/2025年山西省中考数学试卷_q018_img01.png)\n（1）扇形统计图中“公共交通”所在扇形的圆心角度数为 ____ °；本次调查的家长中骑电动自行车接送孩子的有 ____ 人，并补全条形统计图；\n（2）若该校共有1500名家长中午放学后接送孩子，请估计用私家车接送孩子的家长人数；\n（3）假如你是爱心社团的成员，请根据上述统计图中的信息，写出一个造成放学后校门口交通拥堵的原因，并给家长提出一条缓解拥堵的建议．",
+      "options": [],
+      "answer": "36",
+      "solution": "【分析】（1）用360度乘以“公共交通”的人数占比可求出对应的圆心角度数；用300乘以“骑电动自行车”的人数占比可求出对应的人数，再求出时间段12：00﹣12：10骑电动车的人数并补全统计图即可；\n（2）用1500乘以样本中用私家车接送孩子的家长人数占比即可得到答案；\n（3）电动车和私家车接送孩子的人数占比多，容易造成拥堵；时间段12：00﹣12：10 电动车和私家车接送孩子的人数比较多，容易造成拥堵；建议可从换接送方式和换接送时间段两个方面阐述．\n【解答】解：（1）360°×10%＝36°，\n∴扇形统计图中“公共交通”所在扇形的圆心角度数为36°；\n300×45%＝135人，\n∴本次调查的家长中骑电动自行车接送孩子的有135人；\n∴时间段12：00﹣12：10骑电动车的人数为135﹣40﹣32﹣17＝46人，\n补全统计图如下所示：\n[[image:rId64]]\n故答案为：36；135；\n（2）1500×30%＝450人，\n答：估计用私家车接送孩子的家长人数为450人；\n（3）由扇形统计图可知用电动车和私家车接送孩子的人数占比为45%+30% ＝75%，容易造成放学后校门口交通拥挤；\n由条形统计图可知，在时间段12：00﹣12：10内，接送孩子的电动车和私家车比较多，容易造成放学后校门口交通拥挤；\n建议家长在条件允许的情况下选用公共交通方式接送孩子或者使用电动车或私家车接送孩子时避开时间段 12：00﹣12：10．\n【点评】本题主要考查了扇形统计图，条形统计图，用样本估计总体等等，正确读懂统计图是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q018_img01",
+          "path": "assets/2025年山西省中考数学试卷_q018_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "百分比计算",
+          "条形图",
+          "扇形图",
+          "样本估计总体"
+        ],
+        "reasoning": "扇形统计图中计算圆心角度数及条形图补全需要百分比计算；条形图补全需要条形图知识；样本估计总体用于估计私家车接送孩子的家长人数。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"百分比计算\", \"条形图\", \"扇形图\", \"样本估计总体\"],\n  \"reasoning\": \"扇形统计图中计算圆心角度数及条形图补全需要百分比计算；条形图补全需要条形图知识；样本估计总体用于估计私家车接送孩子的家长人数。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q019",
+      "question_no": "19",
+      "question_type": "solution",
+      "stem_text": "我国自主研发的HGCZ﹣2000型快速换轨车，采用先进的自动化技术，能精准高效地完成更换铁路钢轨的任务．一辆该型号快速换轨车每小时更换钢轨的公里数是一个工作队人工更换钢轨的2倍，它更换116公里钢轨比一个工作队人工更换80公里钢轨所用时间少22小时．求一辆该型号快速换轨车每小时更换钢轨多少公里．\n[图1]",
+      "stem_markdown": "我国自主研发的HGCZ﹣2000型快速换轨车，采用先进的自动化技术，能精准高效地完成更换铁路钢轨的任务．一辆该型号快速换轨车每小时更换钢轨的公里数是一个工作队人工更换钢轨的2倍，它更换116公里钢轨比一个工作队人工更换80公里钢轨所用时间少22小时．求一辆该型号快速换轨车每小时更换钢轨多少公里．\n![2025年山西省中考数学试卷_q019_img01](assets/2025年山西省中考数学试卷_q019_img01.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】设一辆该型号快速换轨车每小时更换钢轨x公里，根据一辆该型号快速换轨车每小时更换钢轨的公里数是一个工作队人工更换钢轨的2倍，它更换116公里钢轨比一个工作队人工更换80公里钢轨所用时间少22小时，列出分式方程，解方程即可．\n【解答】解：设一辆该型号快速换轨车每小时更换钢轨x公里，\n根据题意得：$\\frac{80}{0.5x}-\\frac{116}{x}=22$，\n解得：x＝2，\n经检验，x＝2是原方程的解，且符合题意，\n答：一辆该型号快速换轨车每小时更换钢轨2公里．\n【点评】本题考查了分式方程的应用，找准等量关系，正确列出分式方程是解题的关键．",
+      "full_score": 7,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q019_img01",
+          "path": "assets/2025年山西省中考数学试卷_q019_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "分式方程",
+          "行程问题"
+        ],
+        "reasoning": "题中通过时间差列出分式方程，涉及行程问题中的速度、时间和距离关系。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"分式方程\", \"行程问题\"],\n  \"reasoning\": \"题中通过时间差列出分式方程，涉及行程问题中的速度、时间和距离关系。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q020",
+      "question_no": "20",
+      "question_type": "solution",
+      "stem_text": "项目学习\n项目背景：“源池泉涌”为我省某景区的一个景点，主体设计包括外栏墙与内栏墙，外栏墙高于内栏墙，两栏中间为步道，内栏墙内为泉池，池内泉水清澈见底．从正上方看，外栏墙呈正八边形，内栏墙呈圆形．综合实践小组的同学围绕“景物的测量与计算”开展项目学习活动，形成了如下活动报告．\n项目主题 | 景物的测量与计算\n驱动问题 | 如何测量内栏墙围成泉池的直径\n活动内容 | 利用视图、三角函数等有关知识进行测量与计算\n活动过程 | 方案说明 | 图1为该景点俯视图的示意图，点A，D是正八边形中一组平行边的中点，BC为圆的直径，图中点A，B，C，D在同一条直线上． 图2为测量方案示意图，直径BC所在水平直线与外栏墙分别交于点E，F，外栏墙AE与DF均与水平地面垂直，且AE＝DF．BE，CF均表示步道的宽，BE＝CF．图中各点都在同一竖直平面内． [图1]\n数据测量 | 在点A处测得点B和点C的俯角分别为∠DAB＝37°，∠DAC＝8.5°，AD＝26米．图中墙的厚度均忽略不计．\n计算 | …\n交流展示 | …\n请根据上述数据，计算内栏墙围成泉池的直径BC的长（结果精确到1米．参考数据：sin8.5°≈0.15，cos8.5°≈0.99，tan8.5°≈0.15，sin37°≈0.60，cos37°≈0.80，tan37°≈0.75）．\n[图1]",
+      "stem_markdown": "项目学习\n项目背景：“源池泉涌”为我省某景区的一个景点，主体设计包括外栏墙与内栏墙，外栏墙高于内栏墙，两栏中间为步道，内栏墙内为泉池，池内泉水清澈见底．从正上方看，外栏墙呈正八边形，内栏墙呈圆形．综合实践小组的同学围绕“景物的测量与计算”开展项目学习活动，形成了如下活动报告．\n| 项目主题 | 景物的测量与计算 |  |\n| --- | --- | --- |\n| 驱动问题 | 如何测量内栏墙围成泉池的直径 |  |\n| 活动内容 | 利用视图、三角函数等有关知识进行测量与计算 |  |\n| 活动过程 | 方案说明 | 图1为该景点俯视图的示意图，点A，D是正八边形中一组平行边的中点，BC为圆的直径，图中点A，B，C，D在同一条直线上． 图2为测量方案示意图，直径BC所在水平直线与外栏墙分别交于点E，F，外栏墙AE与DF均与水平地面垂直，且AE＝DF．BE，CF均表示步道的宽，BE＝CF．图中各点都在同一竖直平面内． ![2025年山西省中考数学试卷_q020_img01](assets/2025年山西省中考数学试卷_q020_img01.png) |\n| 数据测量 | 在点A处测得点B和点C的俯角分别为∠DAB＝37°，∠DAC＝8.5°，AD＝26米．图中墙的厚度均忽略不计． |  |\n| 计算 | … |  |\n| 交流展示 | … |  |\n请根据上述数据，计算内栏墙围成泉池的直径BC的长（结果精确到1米．参考数据：sin8.5°≈0.15，cos8.5°≈0.99，tan8.5°≈0.15，sin37°≈0.60，cos37°≈0.80，tan37°≈0.75）．\n![2025年山西省中考数学试卷_q020_img02](assets/2025年山西省中考数学试卷_q020_img02.png)",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】根据题意可得：EF＝AD＝26，AD∥EF，从而可得∠ABE＝∠DAB＝37°，∠ACE＝∠DAC＝8.5°，然后设BE＝CF＝x米，则CE＝（26﹣x）米，BC＝（26﹣2x）米，分别在Rt△ABE和Rt△ACE中，利用锐角三角函的定义求出AE的长，从而列出关于x的方程，进行计算即可解答．\n【解答】解：由题意得：EF＝AD＝26，AD∥EF，\n∴∠ABE＝∠DAB＝37°，∠ACE＝∠DAC＝8.5°，\n设BE＝CF＝x米，则CE＝EF﹣CF＝（26﹣x）米，BC＝EF﹣CF﹣BE＝（26﹣2x）米，\n在Rt△ABE中，$∠AEB=90°，tan∠ABE=\\frac{AE}{BE}$，\n∴AE＝BE•tan∠ABE＝x•tan37°，\n在Rt△ACE中，$∠AEC=90°，tan∠ACE=\\frac{AE}{CE}$，\n∴AE＝CE•tan∠ACE＝（26﹣x）•tan8.5°，\n∴x•tan37°＝（26﹣x）•tan8.5°，\n解得：$x≈\\frac{13}{3}$，\n∴$BC=26-2×\\frac{13}{3}≈17$（米），\n答：内栏墙围成泉池的直径BC的长约为17米．\n【点评】本题考查了解直角三角形的应用﹣仰角俯角问题，正多边形和圆，准确熟练地进行计算是解题的关键．",
+      "full_score": 8,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q020_img01",
+          "path": "assets/2025年山西省中考数学试卷_q020_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山西省中考数学试卷_q020_img02",
+          "path": "assets/2025年山西省中考数学试卷_q020_img02.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "正多边形和圆",
+          "锐角三角函数",
+          "直角三角形"
+        ],
+        "reasoning": "题中涉及正八边形和圆的直径测量，使用了锐角三角函数和直角三角形的性质。",
+        "confidence": 0.9,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"正多边形和圆\", \"锐角三角函数\", \"直角三角形\"],\n  \"reasoning\": \"题中涉及正八边形和圆的直径测量，使用了锐角三角函数和直角三角形的性质。\",\n  \"confidence\": 0.9\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q021",
+      "question_no": "21",
+      "question_type": "solution",
+      "stem_text": "阅读与思考\n下面是小宣同学数学笔记中的部分内容，请认真阅读并完成相应的任务．\n双关联线段 【概念理解】 如果两条线段所在直线形成的夹角中有一个角是60°，且这两条线段相等，则称其中一条线段是另一条线段的双关联线段，也称这两条线段互为双关联线段． 例如，下列各图中的线段AB与CD所在直线形成的夹角中有一个角是60°，若AB＝CD，则下列各图中的线段CD都是相应线段AB的双关联线段． [图1] 【问题解决】 问题1：如图1，在矩形ABCD中， AB＜AD，若对角线AC与BD互为双关联线段，则∠ACB＝ °． 问题2：如图2，在等边△ABC中，点D，E分别在边BC，CA的延长线上，且AE＝CD，连接AD，BE．求证：线段AD是线段BE的双关联线段． 证明：延长DA交BE于点F． ∵△ABC是等边三角形， ∴AB＝AC，∠BAC＝∠ACB＝60° ∵∠BAC+∠BAE＝180°，∠ACB+∠ACD＝180°， ∴∠BAE＝∠ACD（依据）． ∵AE＝CD， ∴△ABE≌△CAD． ∴BE＝AD，∠E＝∠D． … [图1]\n任务：\n（1）问题1中的∠ACB＝ ____ °，问题2中的依据是 ____ ；\n（2）补全问题2的证明过程；\n（3）如图3，点C在线段AB上，请在图3中作线段AB的双关联线段CD（要求：①尺规作图，保留作图痕迹，不写作法；②作出一条即可）．\n[图1]",
+      "stem_markdown": "阅读与思考\n下面是小宣同学数学笔记中的部分内容，请认真阅读并完成相应的任务．\n双关联线段 【概念理解】 如果两条线段所在直线形成的夹角中有一个角是60°，且这两条线段相等，则称其中一条线段是另一条线段的双关联线段，也称这两条线段互为双关联线段． 例如，下列各图中的线段AB与CD所在直线形成的夹角中有一个角是60°，若AB＝CD，则下列各图中的线段CD都是相应线段AB的双关联线段． ![2025年山西省中考数学试卷_q021_img01](assets/2025年山西省中考数学试卷_q021_img01.png) 【问题解决】 问题1：如图1，在矩形ABCD中， AB＜AD，若对角线AC与BD互为双关联线段，则∠ACB＝ °． 问题2：如图2，在等边△ABC中，点D，E分别在边BC，CA的延长线上，且AE＝CD，连接AD，BE．求证：线段AD是线段BE的双关联线段． 证明：延长DA交BE于点F． ∵△ABC是等边三角形， ∴AB＝AC，∠BAC＝∠ACB＝60° ∵∠BAC+∠BAE＝180°，∠ACB+∠ACD＝180°， ∴∠BAE＝∠ACD（依据）． ∵AE＝CD， ∴△ABE≌△CAD． ∴BE＝AD，∠E＝∠D． … ![2025年山西省中考数学试卷_q021_img02](assets/2025年山西省中考数学试卷_q021_img02.png)\n任务：\n（1）问题1中的∠ACB＝ ____ °，问题2中的依据是 ____ ；\n（2）补全问题2的证明过程；\n（3）如图3，点C在线段AB上，请在图3中作线段AB的双关联线段CD（要求：①尺规作图，保留作图痕迹，不写作法；②作出一条即可）．\n![2025年山西省中考数学试卷_q021_img03](assets/2025年山西省中考数学试卷_q021_img03.png)",
+      "options": [],
+      "answer": "30",
+      "solution": "证明：延长DA交BE于点F． ∵△ABC是等边三角形， ∴AB＝AC，∠BAC＝∠ACB＝60° ∵∠BAC+∠BAE＝180°，∠ACB+∠ACD＝180°， ∴∠BAE＝∠ACD（依据）． ∵AE＝CD， ∴△ABE≌△CAD． ∴BE＝AD，∠E＝∠D． … [[image:rId69]]\n任务：\n（1）问题1中的∠ACB＝ 30 °，问题2中的依据是 等角的补角相等 ；\n（2）补全问题2的证明过程；\n（3）如图3，点C在线段AB上，请在图3中作线段AB的双关联线段CD（要求：①尺规作图，保留作图痕迹，不写作法；②作出一条即可）．\n[[image:rId70]]\n【分析】（1）设AC，BD的交点为O，利用矩形的性质及已知可证明△AOB是等边三角形，由等边三角形的性质及矩形性质即可求解．利用等角的补角相等即可完成问题2的依据．\n（2）利用三角形外角的性质及等边三角形的性质即可∠AFB＝∠ACB＝60°，从而问题完成；\n（3）作一个等边三角形即可完成．\n【解答】（1）解：设AC，BD的交点为O，如图，\n[[image:rId71]]\n∵四边形ABCD是矩形，\n∴OA＝OB，∠ABC＝90°，\n∵对角线AC与BD互为双关联线段，\n∴∠AOB＝60°，\n∴△AOB是等边三角形，\n∴∠OAB＝60°，\n∴∠ACB＝90°﹣∠OAB＝30°，\n故答案为：30；\n问题2中的依据是：等角的补角相等；\n故答案为：等角的补角相等；\n（2）解：∵∠AFB是△AEF的外角，\n∴∠AFB＝∠EAF+∠E，\n∵∠ACB是△ACD的外角，∴∠ACB＝∠CAD+∠D，\n∵∠EAF＝∠CAD，∠E＝∠D，\n∴∠AFB＝∠ACB＝60°，\n即线段AD与线段BE所在直线形成的夹角中有一个角是60°，\n∵AD＝BE，\n∴线段AD与线段BE是双关联线段；\n（3）解：答案不唯一，\n[[image:rId72]]\n如图，线段CD即为所求．\n【点评】本题是四边形的综合题，考查了矩形的性质，等边三角形的判定与性质，全等三角形的判定与性质，尺规作图等知识，掌握这些知识是解题的关键．",
+      "full_score": 9,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q021_img01",
+          "path": "assets/2025年山西省中考数学试卷_q021_img01.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山西省中考数学试卷_q021_img02",
+          "path": "assets/2025年山西省中考数学试卷_q021_img02.png",
+          "role": "stem"
+        },
+        {
+          "image_id": "2025年山西省中考数学试卷_q021_img03",
+          "path": "assets/2025年山西省中考数学试卷_q021_img03.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "等边三角形的性质",
+          "全等三角形的判定",
+          "等角的补角相等",
+          "矩形的性质"
+        ],
+        "reasoning": "问题1利用矩形性质和等边三角形性质求∠ACB",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"等边三角形的性质\", \"全等三角形的判定\", \"等角的补角相等\", \"矩形的性质\"],\n  \"reasoning\": \"问题1利用矩形性质和等边三角形性质求∠ACB\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q022",
+      "question_no": "22",
+      "question_type": "solution",
+      "stem_text": "综合与实践\n问题情境：青蛙腾空阶段的运动路线可看作抛物线．我国某科研团队根据青蛙的生物特征和运动机理设计出了仿青蛙机器人，其起跳后的运动路线与实际情况中青蛙腾空阶段的运动路线相吻合．\n实验数据：仿青蛙机器人从水平地面起跳，并落在水平地面上，其运动路线的最高点距地面60cm，起跳点与落地点的距离为160cm．\n数学建模：如图1，将仿青蛙机器人的运动路线抽象为抛物线，其顶点为N，对称轴为直线l，仿青蛙机器人在水平地面上的起跳点为O，落地点为M．以O为原点，OM所在直线为x轴，过点O与OM所在水平地面垂直的直线为y轴，建立平面直角坐标系．\n[图1]\n（1）请直接写出顶点N的坐标，并求该抛物线的函数表达式；\n问题解决：已知仿青蛙机器人起跳后的运动路线形状保持不变，即抛物线的形状不变．\n（2）如图1，若仿青蛙机器人从点O正上方的点P处起跳，落地点为Q，点P的坐标为（0，75），点Q在x轴的正半轴上．求起跳点P与落地点Q的水平距离OQ的长；\n（3）实验表明：仿青蛙机器人在跃过障碍物时，与障碍物上表面的每个点在竖直方向上的距离不少于3cm，才能安全通过．如图2，水平地面上有一个障碍物，其纵切面为四边形ABCD，其中∠ABC＝∠BCD＝90°，AB＝57cm，BC＝40cm，CD＝48cm．仿青蛙机器人从距离AB左侧80cm处的地面起跳，发现不能安全通过该障碍物．若团队人员在起跳处放置一个平台，仿青蛙机器人从平台上起跳，则刚好安全通过该障碍物．请直接写出该平台的高度（平台的大小忽略不计，障碍物的纵切面与仿青蛙机器人的运动路线在同一竖直平面内）．",
+      "stem_markdown": "综合与实践\n问题情境：青蛙腾空阶段的运动路线可看作抛物线．我国某科研团队根据青蛙的生物特征和运动机理设计出了仿青蛙机器人，其起跳后的运动路线与实际情况中青蛙腾空阶段的运动路线相吻合．\n实验数据：仿青蛙机器人从水平地面起跳，并落在水平地面上，其运动路线的最高点距地面60cm，起跳点与落地点的距离为160cm．\n数学建模：如图1，将仿青蛙机器人的运动路线抽象为抛物线，其顶点为N，对称轴为直线l，仿青蛙机器人在水平地面上的起跳点为O，落地点为M．以O为原点，OM所在直线为x轴，过点O与OM所在水平地面垂直的直线为y轴，建立平面直角坐标系．\n![2025年山西省中考数学试卷_q022_img01](assets/2025年山西省中考数学试卷_q022_img01.png)\n（1）请直接写出顶点N的坐标，并求该抛物线的函数表达式；\n问题解决：已知仿青蛙机器人起跳后的运动路线形状保持不变，即抛物线的形状不变．\n（2）如图1，若仿青蛙机器人从点O正上方的点P处起跳，落地点为Q，点P的坐标为（0，75），点Q在x轴的正半轴上．求起跳点P与落地点Q的水平距离OQ的长；\n（3）实验表明：仿青蛙机器人在跃过障碍物时，与障碍物上表面的每个点在竖直方向上的距离不少于3cm，才能安全通过．如图2，水平地面上有一个障碍物，其纵切面为四边形ABCD，其中∠ABC＝∠BCD＝90°，AB＝57cm，BC＝40cm，CD＝48cm．仿青蛙机器人从距离AB左侧80cm处的地面起跳，发现不能安全通过该障碍物．若团队人员在起跳处放置一个平台，仿青蛙机器人从平台上起跳，则刚好安全通过该障碍物．请直接写出该平台的高度（平台的大小忽略不计，障碍物的纵切面与仿青蛙机器人的运动路线在同一竖直平面内）．",
+      "options": [],
+      "answer": "",
+      "solution": "【分析】（1）根据起跳点与落地点的距离为160cm，得到对称轴为直线x＝80，根据运动路线的最高点距地面60cm，得到顶点纵坐标为60，写出顶点坐标，列出顶点式，把（0，0）代入，求出函数解析式即可；\n（2）根据抛物线的形状不变，利用平移思想，写出新的函数解析式，令y＝0，求出x的值，进而求出OQ的长即可；\n（3）设该平台的高度为kcm，根据题意，得到新的抛物线的解析式为：$y=-\\frac{3}{320}(x-80)^{2}+60+k$，根据仿青蛙机器人从平台上起跳，则刚好安全通过该障碍物，得到抛物线过点（120，51），代入求解即可．\n【解答】解：（1）由题意得，抛物线的对称轴为直线x＝80，顶点纵坐标为60，\n∴顶点坐标为（80，60），\n设抛物线的函数解析式为：y＝a（x﹣80）^{2}+60，\n∵图象过原点，\n∴a（0﹣80）^{2}+60＝0，\n解得$a=-\\frac{3}{320}$，\n∴$y=-\\frac{3}{320}(x-80)^{2}+60$；\n（2）∵抛物线的形状不变，点（0，75），\n故第二次的函数图象可以看作由（1）的抛物线向上平移75个单位长度得到的，\n∴新的抛物线的解析式为：$y=-\\frac{3}{320}(x-80)^{2}+60+75=-\\frac{3}{320}(x-80)^{2}+135$，\n当y＝0时，$-\\frac{3}{320}(x-80)^{2}+135=0$，\n解得：$x_{1}$＝200，$x_{2}$＝﹣40（舍去），\n故起跳点P与落地点Q的水平距离OQ的长为200cm；\n（3）设该平台的高度为kcm，由题意，设新的函数解析式为：$y=-\\frac{3}{320}(x-80)^{2}+60+k$，\n∵AB＝57cm，BC＝40cm，CD＝48cm，仿青蛙机器人从距离AB左侧80cm处的地面起跳，\n由题意，仿青蛙机器人经过CD正上方3cm处，即抛物线经过点（80+40，48+3），即：（120，51），\n∴把 （120，51）代入$y=-\\frac{3}{320}(x-80)^{2}+60+k$，得：$51=-\\frac{3}{320}(120-80)^{2}+60+k$，\n解得：k＝6；\n故设该平台的高度为6cm．\n【点评】本题考查二次函数的实际应用，读懂题意，正确的列出函数关系式是解题的关键．",
+      "full_score": 13,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q022_img01",
+          "path": "assets/2025年山西省中考数学试卷_q022_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "二次函数的应用",
+          "抛物线的性质",
+          "平移变换",
+          "一元二次方程"
+        ],
+        "reasoning": "第（1）问考察了抛物线的顶点坐标和对称轴，第（2）问考察了抛物线的平移，第（3）问考察了一元二次方程的应用。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"二次函数的应用\", \"抛物线的性质\", \"平移变换\", \"一元二次方程\"],\n  \"reasoning\": \"第（1）问考察了抛物线的顶点坐标和对称轴，第（2）问考察了抛物线的平移，第（3）问考察了一元二次方程的应用。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "2025年山西省中考数学试卷_q023",
+      "question_no": "23",
+      "question_type": "solution",
+      "stem_text": "综合与探究\n问题情境：如图1，在△ABC纸片中，AB＞BC，点D在边AB上，AD＞BD．沿过点D的直线折叠该纸片，使DB的对应线段DB′与BC平行，且折痕与边BC交于点E，得到△DB′E，然后展平．\n猜想证明：（1）判断四边形BDB'E的形状，并说明理由；\n拓展延伸：（2）如图2，继续沿过点D的直线折叠该纸片，使点A的对应点A′落在射线DB′上，且折痕与边AC交于点F，然后展平．连接A′E交边AC于点G，连接A′F．\n①若AD＝2BD，判断DE与A′E的位置关系，并说明理由；\n②若∠C＝90°，AB＝15，BC＝9，当△A′FG是以A′F为腰的等腰三角形时，请直接写出A′F的长．\n[图1]\n2025年山西省中考数学试卷",
+      "stem_markdown": "综合与探究\n问题情境：如图1，在△ABC纸片中，AB＞BC，点D在边AB上，AD＞BD．沿过点D的直线折叠该纸片，使DB的对应线段DB′与BC平行，且折痕与边BC交于点E，得到△DB′E，然后展平．\n猜想证明：（1）判断四边形BDB'E的形状，并说明理由；\n拓展延伸：（2）如图2，继续沿过点D的直线折叠该纸片，使点A的对应点A′落在射线DB′上，且折痕与边AC交于点F，然后展平．连接A′E交边AC于点G，连接A′F．\n①若AD＝2BD，判断DE与A′E的位置关系，并说明理由；\n②若∠C＝90°，AB＝15，BC＝9，当△A′FG是以A′F为腰的等腰三角形时，请直接写出A′F的长．\n![2025年山西省中考数学试卷_q023_img01](assets/2025年山西省中考数学试卷_q023_img01.png)\n2025年山西省中考数学试卷",
+      "options": [],
+      "answer": "",
+      "solution": "证明：（1）判断四边形BDB'E的形状，并说明理由；\n拓展延伸：（2）如图2，继续沿过点D的直线折叠该纸片，使点A的对应点A′落在射线DB′上，且折痕与边AC交于点F，然后展平．连接A′E交边AC于点G，连接A′F．\n①若AD＝2BD，判断DE与A′E的位置关系，并说明理由；\n②若∠C＝90°，AB＝15，BC＝9，当△A′FG是以A′F为腰的等腰三角形时，请直接写出A′F的长．\n[[image:rId74]]\n【分析】（1）由折叠的性质可得BD＝B'D，BE＝B'E，∠B'DE＝∠BDE，再根据平行线的性质可得∠B'DE＝∠BED，进而得到∠BDE＝∠BED，由等角对等边推出BD＝BE，从而证明BE＝BD＝B'D＝B'E，即可四边形BDB'E是菱形；\n（2）①由（1）推出 BD＝B'D＝B'E，由折叠的性质得到AD＝A'D，结合已知可得 A'D＝2B'D＝2B'E，进而推出B'D＝A'B'＝B'E，得到∠1＝∠2，∠3＝∠4，再根据三角形内角和定理即可求出∠2+∠3＝90°，即可得到DE与A'E的位置关系；\n②分△A'FG是以A'F为腰A'G为底的等腰三角形和△A'FG是以A'F为腰FG为底的等腰三角形两种情况讨论，如图，延长A'F交AB于点H，设AC，A'D交点为M，利用三角形相似的性质建立方程求解即可．\n【解答】解：（1）四边形BDB'E是菱形，理由如下：\n由折叠的性质可得BD＝B'D，BE＝B'E，∠B'DE＝∠BDE，\n∵B'D∥BC，\n∴∠B'DE＝∠BED，\n∴∠BDE＝∠BED，\n∴BD＝BE，\n∴BE＝BD＝B'D＝B'E，\n∴四边形BDB'E是菱形；\n（2）①DE⊥A'E，理由如下：\n由（1）知四边形BDB'E是菱形，\n∴BD＝B'E＝B'D，\n由折叠的性质得到AD＝A'D，\n∵AD＝2BD，\n∴A'D＝2BD＝2B'D＝2B'E，\n∴B'D＝A'B'＝B'E，\n∴∠1＝∠2，∠3＝∠4，\n∵∠1+∠2+∠3+∠4＝180°，\n∴∠2+∠3＝90°，\n∴DE⊥A'E；\n②∵∠C＝90°，AB＝15，BC＝9，\n∴$AC=\\sqrt{AB^{2}-BC^{2}}=12$，\n当△A'FG是以A'F为腰A'G为底的等腰三角形时，如图，延长A'F交AB于点H，设AC，A'D交点为M，则FG＝A'F，\n[[image:rId75]]\n∴∠C＝90°，A'D∥BC，\n∴∠AMD＝∠C＝90°，\n∴∠AMA'＝90°，\n由折叠的性质得AD＝A'D，∠ADF＝∠A'DF，AF＝A'F，\n∴△ADF≌△A'DF（SAS），\n∴∠A＝∠DA'F，\n∵∠AFH＝∠A'FG，\n∴∠AHF＝∠AMA'＝90°，\n∵∠A＝∠A，\n∴△AFH∽△ABC，\n∴$\\frac{AF}{AB}=\\frac{HF}{BC}=\\frac{AH}{AC}$，\n∴HF：AH：AF＝BC：AC：AB＝3：4：5，\n∵∠A＝∠DA'F，AF＝A'F，∠AHF＝∠A'MF，\n∴△AHF≌△A'MF（AAS），\n∴HF＝FM，AH＝A'M，\n设HF＝FM＝3x，AH＝A'M＝4x，AF＝A'F＝5x，\n∴AM＝AF+FM＝8x，\n∵A'D∥BC，\n∴△AMD∽△ACB，\n∴$\\frac{AM}{AC}=\\frac{AD}{AB}$，即$\\frac{8x}{12}=\\frac{AD}{15}$，\n∴AD＝10x，\n∴BE＝BD＝AB﹣AD＝15﹣10x，\n∴CE＝BC﹣BE＝10x﹣6，\n∵FG＝A'F＝5x，\n∴MG＝FG﹣FM＝2x，\n∴CG＝AC﹣AM﹣MG＝12﹣8x﹣2x＝12﹣10x，\n∵A'D∥BC，\n∴△A'MG∽△ECG，\n∴$\\frac{A′M}{CE}=\\frac{MG}{CG}$，\n∴$\\frac{4x}{10x-6}=\\frac{2x}{12-10x}$，\n解得：x＝1，\n∴A'F＝5x＝5；\n当△A'FG是以A'F为腰FG为底的等腰三角形时，如图，则A'F＝A'G，\n[[image:rId76]]\n同理得HF：AH：AF＝BC：AC：AB＝3：4：5，HF＝FM，AH＝A'M，AF＝A'F，\n设HF＝FM＝3y，AH＝A'M＝4y，AF＝A'F＝5y，\n∴AM＝AF+FM＝8y，\n∵A'D∥BC，\n∴△AMD∽△ACB，\n∴$\\frac{AM}{AC}=\\frac{AD}{AB}$，即$\\frac{8y}{12}=\\frac{AD}{15}$，\n∴AD＝10y，\n∴BE＝BD＝AB﹣AD＝15﹣10y，\n∴CE＝BC﹣BE＝10y﹣6，\n∵△A'FG是以A'F为腰FG为底的等腰三角形，A'M⊥AC，\n∴GM＝FM＝3y，\n∴FG＝GM+FM＝6y，\n∴CG＝AC﹣AF﹣FG＝12﹣11y，\n∵A'D∥BC，\n∴△A'MG∽△ECG，\n∴$\\frac{A′M}{CE}=\\frac{MG}{CG}$，\n∴$\\frac{4y}{10y-6}=\\frac{3y}{12-11y}$，\n解得：$y=\\frac{33}{37}$，\n∴A'F＝5y$=\\frac{165}{37}$；\n综上，A'F的长为5或$\\frac{165}{37}$．\n【点评】本题考查折叠的性质，三角形全等的判定与性质，相似三角形的判定与性质，菱形的判定与性质，三角形内角和定理，等腰三角形的性质，合理作出辅助线，构造三角形全等，结合分类讨论的思想是解题的关键．\n声明：试题解析著作权属菁优网所有，未经书面同意，不得复制发布日期：2026/7/5 20:35:13；用户：15391017317；邮箱：15391017317；学号：38626899\n[[image:rId78]] ____ [[image:rId79]] ____ [[image:rId80]]\n菁优网APP ____ 菁优网公众号 ____ 菁优网小程序",
+      "full_score": 13,
+      "images": [
+        {
+          "image_id": "2025年山西省中考数学试卷_q023_img01",
+          "path": "assets/2025年山西省中考数学试卷_q023_img01.png",
+          "role": "stem"
+        }
+      ],
+      "knowledge_candidates": [],
+      "difficulty": 4,
+      "parse_confidence": 0.96,
+      "needs_review": false,
+      "qwen_analysis": {
+        "knowledge_points": [
+          "折叠的性质",
+          "三角形全等的判定与性质",
+          "相似三角形的判定与性质",
+          "菱形的判定与性质"
+        ],
+        "reasoning": "通过折叠性质得出四边形BDB'E为菱形，利用全等三角形和相似三角形的性质解决相关问题。",
+        "confidence": 0.95,
+        "model": "/home/dataset/yjk_data/Qwen",
+        "status": "ok",
+        "parse_step": 0,
+        "raw_outputs": [
+          {
+            "step": 0,
+            "raw": "{\n  \"knowledge_points\": [\"折叠的性质\", \"三角形全等的判定与性质\", \"相似三角形的判定与性质\", \"菱形的判定与性质\"],\n  \"reasoning\": \"通过折叠性质得出四边形BDB'E为菱形，利用全等三角形和相似三角形的性质解决相关问题。\",\n  \"confidence\": 0.95\n}"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pipeline_run": {
+      "ts": "2026-07-24T07:02:37",
+      "device": "cuda:2",
+      "model": "/home/dataset/yjk_data/Qwen",
+      "stage": "junior_high",
+      "grade": "初三",
+      "total": 23,
+      "ok": 23,
+      "fallback": 0
+    }
+  }
+}
