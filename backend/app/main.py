@@ -1085,6 +1085,28 @@ def get_exam(exam_id: str, actor: ActorContext = Depends(actor_context)) -> dict
     return ok(_exam_summary(_exam_or_404(exam_id, actor)))
 
 
+@app.delete("/exams/{exam_id}")
+def delete_exam(exam_id: str, actor: ActorContext = Depends(actor_context)) -> dict:
+    exam = _exam_or_404(exam_id, actor)
+    removed_files = [file_id for file_id, file_record in FILES.items() if file_record.get("exam_id") == exam_id]
+    removed_diagnostics = [
+        diagnostic_id for diagnostic_id, diagnostic in DIAGNOSTICS.items() if diagnostic.get("exam_id") == exam_id
+    ]
+    STORE.delete_exam(exam_id, file_ids=removed_files, diagnostic_ids=removed_diagnostics)
+    EXAMS.pop(exam_id, None)
+    for file_id in removed_files:
+        FILES.pop(file_id, None)
+    for diagnostic_id in removed_diagnostics:
+        DIAGNOSTICS.pop(diagnostic_id, None)
+    STORE.record_event("exam_deleted", "exam", exam_id, **_actor_payload(actor))
+    return ok({
+        "exam_id": exam_id,
+        "status": "deleted",
+        "removed_files": len(removed_files),
+        "removed_diagnostics": len(removed_diagnostics),
+    })
+
+
 @app.post("/exams/{exam_id}/files")
 async def upload_exam_file(
     exam_id: str,

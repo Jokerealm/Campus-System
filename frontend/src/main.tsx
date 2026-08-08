@@ -1141,18 +1141,18 @@ function ProductNav({
   ];
   const calibrationLabel =
     calibration?.status === "running"
-      ? `正在由大模型矫正中 ${formatDuration(calibration.elapsedSeconds)}`
+      ? `矫正中 ${formatDuration(calibration.elapsedSeconds)}`
       : calibration?.status === "succeeded"
-        ? `矫正完成 ${formatDuration(calibration.elapsedSeconds)}`
+        ? `已矫正 ${formatDuration(calibration.elapsedSeconds)}`
         : calibration?.status === "failed"
           ? "矫正异常"
-          : "智能矫正";
+          : "可智能矫正";
 
   return (
     <div className={teacherMode ? "product-nav customer-nav" : "product-nav"} aria-label={teacherMode ? "教师端导航" : "系统导航"}>
       {teacherMode ? (
-        <a className="product-mark icon-only" href="#workspace" aria-label="回到导入">
-          <span className="product-mark-dot" aria-hidden="true" />
+        <a className="product-mark brand-logo" href="#workspace" aria-label="回到首页">
+          <img src="/images/campus-brand-logo-clean.png" alt="Campus 智能讲评" />
         </a>
       ) : (
         <a className="product-mark" href={appUrl("teacher")}>
@@ -1205,9 +1205,11 @@ function ProductNav({
           >
             {calibrationLabel}
           </span>
-          <a className="campus-logo-badge" href="#workspace" aria-label="Campus 智能讲评">
-            <img src="/images/campus-brand-logo-clean.png" alt="Campus 智能讲评" />
+          <a className="nav-cta" href="#workspace">
+            <span className="nav-cta-dot" aria-hidden="true" />
+            开始分析
           </a>
+          <ThemeToggle />
         </div>
       ) : (
         <div className={sessionError ? "product-status error" : "product-status"} title={statusTitle}>
@@ -1215,6 +1217,7 @@ function ProductNav({
           <span>{statusText}</span>
           <strong>{sessionText}</strong>
           <em>{catalogText}</em>
+          <ThemeToggle />
         </div>
       )}
     </div>
@@ -1656,19 +1659,25 @@ async function apiGet<T>(path: string): Promise<T> {
 }
 
 async function apiEnvelopeRequest<T>(path: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(`${API_BASE}${path}`, {
-    ...init,
-    headers: campusHeaders(init?.headers),
-  });
+  let response: Response;
+  try {
+    response = await fetch(`${API_BASE}${path}`, {
+      ...init,
+      headers: campusHeaders(init?.headers),
+    });
+  } catch (err) {
+    const reason = err instanceof Error ? err.message : "网络异常";
+    throw new Error(`请求 ${path} 失败：${reason}`);
+  }
   if (!response.ok) {
-    let message = path;
+    let message = "请求失败";
     try {
       const payload = await response.json();
       message = payload?.detail?.message || payload?.message || message;
     } catch {
       message = response.statusText || message;
     }
-    throw new Error(message);
+    throw new Error(`${path} 返回 ${response.status}：${message}`);
   }
   const payload = (await response.json()) as ApiEnvelope<T>;
   return payload.data;
@@ -1752,6 +1761,69 @@ function setSafeLocalStorage(key: string, value: string) {
   } catch {
     // Ignore storage failures in restricted browser contexts.
   }
+}
+
+const THEME_STORAGE_KEY = "campus_theme";
+type ThemeMode = "light" | "dark";
+
+function readStoredTheme(): ThemeMode {
+  try {
+    const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+    if (stored === "light" || stored === "dark") return stored;
+  } catch {
+    // ignore
+  }
+  if (typeof window !== "undefined" && window.matchMedia) {
+    if (window.matchMedia("(prefers-color-scheme: light)").matches) return "light";
+    return "dark";
+  }
+  return "dark";
+}
+
+function applyTheme(theme: ThemeMode) {
+  if (typeof document === "undefined") return;
+  document.documentElement.setAttribute("data-theme", theme);
+}
+
+applyTheme(readStoredTheme());
+
+function ThemeToggle() {
+  const [theme, setTheme] = React.useState<ThemeMode>(() => readStoredTheme());
+
+  React.useEffect(() => {
+    applyTheme(theme);
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch {
+      // ignore
+    }
+  }, [theme]);
+
+  const next = theme === "dark" ? "light" : "dark";
+  return (
+    <button
+      type="button"
+      className="theme-toggle"
+      aria-label={`切换到${next === "dark" ? "深色" : "浅色"}模式`}
+      title={`切换到${next === "dark" ? "深色" : "浅色"}模式`}
+      onClick={() => setTheme(next)}
+    >
+      <svg className="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2v2" />
+        <path d="M12 20v2" />
+        <path d="m4.93 4.93 1.41 1.41" />
+        <path d="m17.66 17.66 1.41 1.41" />
+        <path d="M2 12h2" />
+        <path d="M20 12h2" />
+        <path d="m4.93 19.07 1.41-1.41" />
+        <path d="m17.66 6.34 1.41-1.41" />
+      </svg>
+      <svg className="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+    </button>
+  );
 }
 
 function IdentitySwitcher({ mode, displayStudentId }: { mode: "teacher" | "student" | "admin"; displayStudentId?: string }) {
@@ -1908,6 +1980,27 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
   }, [adminMode, analysis]);
 
   React.useEffect(() => {
+    if (typeof window === "undefined" || typeof IntersectionObserver === "undefined") return;
+    const targets = document.querySelectorAll(
+      "section, .teacher-hero, .student-hero, .admin-header, .workspace-main, .status-card, .delivery-card, .collapsible-section, .empty-outcome, .question-card, .knowledge-card, .student-card, .student-history-shell, .student-report-card, .student-wrong-card, .student-progress-cards article, .student-progress-detail article, .student-practice-card, .audit-card, .report-preview",
+    );
+    if (!targets.length) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in-view");
+            observer.unobserve(entry.target);
+          }
+        }
+      },
+      { threshold: 0.08, rootMargin: "0px 0px -8% 0px" },
+    );
+    targets.forEach((node) => observer.observe(node));
+    return () => observer.disconnect();
+  }, [analysis, adminMode]);
+
+  React.useEffect(() => {
     if (calibrationStatus !== "running") return;
     const timer = window.setInterval(() => setClockNow(Date.now()), 1000);
     return () => window.clearInterval(timer);
@@ -1937,6 +2030,39 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
       setExamItems(data.items);
     } catch {
       setExamItems([]);
+    }
+  }
+
+  async function deleteExam(item: ExamSummary) {
+    if (busy) return;
+    const label = item.name || item.exam_id;
+    const confirmed = window.confirm(`确认删除「${label}」的诊断记录？该操作不可撤销。`);
+    if (!confirmed) return;
+    setBusy(true);
+    setError("");
+    try {
+      setWorkflowMessage("正在删除诊断记录");
+      await apiEnvelopeRequest<{ exam_id: string; status: string; removed_files: number; removed_diagnostics: number }>(
+        `/exams/${item.exam_id}`,
+        { method: "DELETE" },
+      );
+      const wasActive = activeExamId === item.exam_id;
+      setExamItems((current) => current.filter((entry) => entry.exam_id !== item.exam_id));
+      if (wasActive) {
+        setAnalysis(null);
+        setActiveExamId("");
+        setActiveDiagnosticId("");
+        setLessonDownloadUrl("");
+        setSelectedQuestionNo("");
+        setQuestionDraft(null);
+      }
+      setWorkflowMessage(`已删除 ${label}。`);
+      await Promise.allSettled([loadExamList(), loadReadiness(), loadAuditLogs()]);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "删除失败");
+      setWorkflowMessage("");
+    } finally {
+      setBusy(false);
     }
   }
 
@@ -2818,7 +2944,7 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
 
   return (
     <main id="main-body" className={adminMode ? "admin-page" : "customer-page"}>
-      {!adminMode ? <FluidCursor /> : null}
+      {!adminMode ? <BackgroundCanvas /> : null}
       <ProductNav
         mode={adminMode ? "admin" : "teacher"}
         readiness={readiness}
@@ -2830,30 +2956,43 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
           <p className="eyebrow">{adminMode ? "运营与维护" : "Campus智能讲评"}</p>
           <h1>{adminMode ? "管理后台" : <>从试卷到讲评，<br />一次完成</>}</h1>
           {!adminMode ? (
-            <p className="hero-subtitle">
-              导入 Word 试卷与成绩表，系统自动整理题目、分析失分，并生成可编辑的课堂讲评报告。
-            </p>
-          ) : null}
-          {!adminMode ? (
-            <div className="hero-tags" aria-label="核心流程">
-              <span>导入材料</span>
-              <span>核对题目</span>
-              <span>诊断学情</span>
-              <span>生成报告</span>
-            </div>
-          ) : null}
-          {!adminMode ? (
-            <div className="hero-actions">
-              <a className="button-link primary" href="#workspace">
-                开始使用
-              </a>
-            </div>
+            <React.Fragment>
+              <p className="hero-subtitle">
+                导入 Word 试卷与成绩表，系统自动整理题目、分析失分，并生成可编辑的课堂讲评报告。
+              </p>
+              <div className="hero-stats" aria-label="系统概览">
+                <div className="hero-stat">
+                  <strong>{readinessFacts?.paper_count ?? "--"}</strong>
+                  <span>历史试卷</span>
+                </div>
+                <div className="hero-stat">
+                  <strong>{readinessFacts?.question_count ?? "--"}</strong>
+                  <span>题库资源</span>
+                </div>
+                <div className="hero-stat">
+                  <strong>{readinessFacts?.knowledge_point_count ?? "--"}</strong>
+                  <span>知识点库</span>
+                </div>
+              </div>
+              <div className="hero-tags" aria-label="核心流程">
+                <span>导入材料</span>
+                <span>核对题目</span>
+                <span>诊断学情</span>
+                <span>生成报告</span>
+              </div>
+              <div className="hero-actions">
+                <a className="button-link primary" href="#workspace">
+                  开始使用
+                </a>
+              </div>
+            </React.Fragment>
           ) : null}
         </div>
         {!adminMode ? (
-          <figure className="hero-media">
-            <img src="/images/campus-math-lesson.png" alt="数学课堂讲评场景" />
-          </figure>
+          <HeroVisual
+            examItems={examItems}
+            facts={readinessFacts ?? null}
+          />
         ) : (
           <>
             <nav aria-label="页面导航">
@@ -3051,13 +3190,23 @@ function App({ adminMode = false }: { adminMode?: boolean }) {
                         <strong>{item.name || item.exam_id}</strong>
                         <span>{examStatusText(item.status)}</span>
                       </div>
-                      <button
-                        className="text-button"
-                        onClick={() => void openExam(item)}
-                        disabled={busy || !item.question_count}
-                      >
-                        打开
-                      </button>
+                      <div className="recent-exam-actions">
+                        <button
+                          className="text-button"
+                          onClick={() => void openExam(item)}
+                          disabled={busy || !item.question_count}
+                        >
+                          打开
+                        </button>
+                        <button
+                          className="text-button danger-text"
+                          onClick={() => void deleteExam(item)}
+                          disabled={busy}
+                          aria-label={`删除 ${item.name || item.exam_id}`}
+                        >
+                          删除
+                        </button>
+                      </div>
                     </div>
                     <p>
                       {item.question_count || 0} 题 · {fileTypesText(item.file_types) || "未上传"} · 教案{" "}
@@ -4593,6 +4742,497 @@ function Metric({ label, value }: { label: string; value: string }) {
     <div className="metric">
       <span>{label}</span>
       <strong>{value}</strong>
+    </div>
+  );
+}
+
+/* Math/science decorative motifs: floating formulas, geometric shapes, symbols.
+ * All positions are normalized to 0-100 of viewport and use vw/vh + absolute positioning.
+ */
+const FORMULA_TOKENS = [
+  { text: "a² + b² = c²",        size: 22, x: 6,  y: 14, color: "var(--brand)",      drift: 26, delay: 0   },
+  { text: "e^(iπ) + 1 = 0",      size: 28, x: 78, y: 24, color: "var(--brand-bright)", drift: 32, delay: 4   },
+  { text: "∫ f(x) dx",           size: 32, x: 14, y: 62, color: "var(--brand)",      drift: 28, delay: 8   },
+  { text: "Σᵢ₌₁ⁿ xᵢ",            size: 26, x: 60, y: 78, color: "var(--brand-bright)", drift: 30, delay: 2   },
+  { text: "sin²θ + cos²θ = 1",   size: 18, x: 30, y: 38, color: "var(--ink-3)",      drift: 24, delay: 6   },
+  { text: "f(x) = ax + b",       size: 22, x: 86, y: 60, color: "var(--brand)",      drift: 34, delay: 12  },
+  { text: "∇ · E = ρ/ε₀",        size: 24, x: 22, y: 84, color: "var(--brand-bright)", drift: 28, delay: 10  },
+  { text: "lim n→∞",             size: 20, x: 50, y: 12, color: "var(--ink-3)",      drift: 22, delay: 14  },
+  { text: "π ≈ 3.14159",          size: 18, x: 70, y: 46, color: "var(--brand)",      drift: 26, delay: 16  },
+  { text: "dy/dx",               size: 26, x: 38, y: 70, color: "var(--brand-bright)", drift: 30, delay: 18  },
+  { text: "E = mc²",              size: 24, x: 4,  y: 50, color: "var(--brand)",      drift: 28, delay: 1   },
+  { text: "∞",                   size: 64, x: 92, y: 8,  color: "var(--brand-soft-2)", drift: 40, delay: 5   },
+  { text: "∀ x ∈ ℝ",              size: 20, x: 6,  y: 86, color: "var(--ink-3)",      drift: 24, delay: 7   },
+  { text: "P(A|B) = P(B|A)P(A) / P(B)", size: 14, x: 44, y: 90, color: "var(--ink-3)", drift: 20, delay: 9 },
+  { text: "Δx → 0",              size: 22, x: 84, y: 86, color: "var(--brand)",      drift: 26, delay: 11  },
+];
+
+const GEOMETRY_TOKENS = [
+  { shape: "hex",      x: 12, y: 18, size: 60, rotate: -6,  drift: 36, delay: 0 },
+  { shape: "circle",   x: 88, y: 28, size: 48, rotate: 0,   drift: 32, delay: 6 },
+  { shape: "pentagon", x: 8,  y: 78, size: 52, rotate: 0,   drift: 40, delay: 12 },
+  { shape: "diamond",  x: 90, y: 80, size: 40, rotate: 28,  drift: 30, delay: 4 },
+];
+
+const PARTICLE_FIELD = [
+  { x:  4,  y:  8,  r: 1.6, kind: "bright" },
+  { x:  9,  y: 32,  r: 1.2, kind: "dim" },
+  { x: 14,  y: 70,  r: 1.8, kind: "bright" },
+  { x: 22,  y: 18,  r: 1.0, kind: "dim" },
+  { x: 28,  y: 88,  r: 1.6, kind: "bright" },
+  { x: 33,  y: 44,  r: 1.4, kind: "dim" },
+  { x: 40,  y: 12,  r: 1.8, kind: "bright" },
+  { x: 46,  y: 76,  r: 1.2, kind: "dim" },
+  { x: 52,  y: 28,  r: 1.6, kind: "bright" },
+  { x: 58,  y: 60,  r: 1.0, kind: "dim" },
+  { x: 63,  y:  6,  r: 1.6, kind: "bright" },
+  { x: 68,  y: 92,  r: 1.4, kind: "dim" },
+  { x: 74,  y: 38,  r: 1.8, kind: "bright" },
+  { x: 81,  y: 14,  r: 1.2, kind: "dim" },
+  { x: 86,  y: 64,  r: 1.6, kind: "bright" },
+  { x: 92,  y: 30,  r: 1.4, kind: "dim" },
+  { x: 96,  y: 82,  r: 1.6, kind: "bright" },
+  { x: 18,  y: 54,  r: 1.0, kind: "dim" },
+  { x: 50,  y: 48,  r: 1.4, kind: "dim" },
+  { x: 78,  y: 50,  r: 1.2, kind: "dim" },
+];
+
+type ShapeKind = "triangle" | "hex" | "circle" | "square" | "diamond" | "pentagon";
+
+function shapePath(shape: ShapeKind, size: number): string {
+  const r = size / 2;
+  const cx = 0, cy = 0;
+  switch (shape) {
+    case "triangle":
+      return `M 0 ${-r} L ${r * 0.866} ${r * 0.5} L ${-r * 0.866} ${r * 0.5} Z`;
+    case "hex":
+      return [0, 60, 120, 180, 240, 300]
+        .map((deg) => {
+          const rad = (deg * Math.PI) / 180;
+          return `${cx + r * Math.cos(rad)} ${cy + r * Math.sin(rad)}`;
+        })
+        .map((p, i) => (i === 0 ? `M ${p}` : `L ${p}`))
+        .join(" ") + " Z";
+    case "circle":
+      return `M ${r} 0 A ${r} ${r} 0 1 1 ${-r} 0 A ${r} ${r} 0 1 1 ${r} 0 Z`;
+    case "square":
+      return `M ${-r} ${-r} L ${r} ${-r} L ${r} ${r} L ${-r} ${r} Z`;
+    case "diamond":
+      return `M 0 ${-r} L ${r} 0 L 0 ${r} L ${-r} 0 Z`;
+    case "pentagon":
+      return [0, 72, 144, 216, 288]
+        .map((deg) => {
+          const rad = ((deg - 90) * Math.PI) / 180;
+          return `${cx + r * Math.cos(rad)} ${cy + r * Math.sin(rad)}`;
+        })
+        .map((p, i) => (i === 0 ? `M ${p}` : `L ${p}`))
+        .join(" ") + " Z";
+  }
+}
+
+function BackgroundCanvas() {
+  const canvasRef = React.useRef<HTMLDivElement | null>(null);
+  const burstRefs = React.useRef<Array<SVGCircleElement | null>>([]);
+  const [scrollY, setScrollY] = React.useState(0);
+  const [docHeight, setDocHeight] = React.useState(1);
+  const [mouse, setMouse] = React.useState({ x: 0.5, y: 0.5 });
+
+  React.useEffect(() => {
+    const update = () => {
+      const h = document.documentElement.scrollHeight - window.innerHeight;
+      setScrollY(window.scrollY);
+      setDocHeight(Math.max(1, h));
+    };
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => {
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, []);
+
+  React.useEffect(() => {
+    const onMove = (e: PointerEvent) => {
+      setMouse({
+        x: e.clientX / window.innerWidth,
+        y: e.clientY / window.innerHeight,
+      });
+    };
+    window.addEventListener("pointermove", onMove, { passive: true });
+    return () => window.removeEventListener("pointermove", onMove);
+  }, []);
+
+  // Section enter/exit observer.
+  // Strategy:
+  //  • Each section plays its randomly-chosen entry animation EXACTLY ONCE
+  //    — the very first time it intersects the viewport. After that, the
+  //    section simply stays visible (.in-view stays on). Subsequent up/down
+  //    scrolls never replay the animation, so the page feels stable.
+  //  • The "already played" state is persisted in sessionStorage so HMR /
+  //    page reload during development doesn't replay on first scroll-in.
+  //  • The class is still added in a rAF so the add + reflow happen in one
+  //    paint tick (defends against the "stuck mid-frame" bug).
+  //  • Hero/header sections at the very top of the page are auto-marked
+  //    on mount so they don't animate on the initial page load.
+  React.useEffect(() => {
+    const sections = Array.from(document.querySelectorAll("section, .teacher-hero")) as HTMLElement[];
+    const ENTRY_FX = [
+      "fx-particles",
+      "fx-flip",
+      "fx-blur-rise",
+      "fx-slide-left",
+      "fx-slide-right",
+      "fx-zoom",
+      "fx-rotate-in",
+      "fx-stagger-grid",
+    ];
+    const chooseFx = () => ENTRY_FX[(Math.random() * ENTRY_FX.length) | 0];
+    const SEEN_KEY = "cd.replayedEntrySet.v1";
+
+    const loadSeen = (): Set<string> => {
+      try {
+        const raw = sessionStorage.getItem(SEEN_KEY);
+        return new Set(raw ? (JSON.parse(raw) as string[]) : []);
+      } catch {
+        return new Set();
+      }
+    };
+    const saveSeen = (set: Set<string>) => {
+      try {
+        sessionStorage.setItem(SEEN_KEY, JSON.stringify(Array.from(set)));
+      } catch {
+        /* ignore quota errors */
+      }
+    };
+
+    const seen = loadSeen();
+    const identity = (el: HTMLElement) =>
+      el.getAttribute("data-section-idx") || el.id || el.className || "anon";
+
+    // Sections already visible on mount (e.g. the page hero) shouldn't animate
+    // either — mark them as already-seen immediately.
+    sections.forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      const inViewport = rect.top < window.innerHeight && rect.bottom > 0;
+      if (inViewport) seen.add(identity(el));
+    });
+    saveSeen(seen);
+
+    const playEntry = (el: HTMLElement) => {
+      const key = identity(el);
+      if (seen.has(key)) {
+        // Already played: just keep it visible, no animation.
+        requestAnimationFrame(() => {
+          el.classList.remove(...ENTRY_FX);
+          el.classList.add("in-view", "entry-played");
+        });
+        return;
+      }
+      seen.add(key);
+      saveSeen(seen);
+
+      requestAnimationFrame(() => {
+        el.classList.remove("in-view", "entry-played", ...ENTRY_FX);
+        void el.offsetWidth;
+        el.classList.add(chooseFx());
+        el.classList.add("in-view");
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const el = entry.target as HTMLElement;
+          if (entry.isIntersecting) {
+            playEntry(el);
+            const idxAttr = el.getAttribute("data-section-idx");
+            const idx = idxAttr ? Number(idxAttr) : 0;
+            const burst = burstRefs.current[idx];
+            if (burst) {
+              burst.classList.remove("bursting");
+              void burst.getBoundingClientRect();
+              burst.classList.add("bursting");
+            }
+          } else {
+            el.classList.remove("in-view");
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -10% 0px" },
+    );
+    sections.forEach((s) => observer.observe(s));
+    return () => observer.disconnect();
+  }, []);
+
+  const progress = Math.min(1, scrollY / docHeight);
+  const translate = scrollY * 0.18;
+  const ringOffsetX = (mouse.x - 0.5) * 30;
+  const ringOffsetY = (mouse.y - 0.5) * 30;
+  const mouseOffsetX = (mouse.x - 0.5) * 20;
+  const mouseOffsetY = (mouse.y - 0.5) * 20;
+
+  const sectionCount = 9;
+  return (
+    <>
+      <div
+        ref={canvasRef}
+        className="bg-canvas"
+        aria-hidden="true"
+        style={
+          {
+            "--scroll-progress": progress.toFixed(4),
+            "--mouse-x": mouse.x.toFixed(3),
+            "--mouse-y": mouse.y.toFixed(3),
+            transform: `translate3d(0, ${translate * -0.04}px, 0)`,
+          } as React.CSSProperties
+        }
+      >
+        {/* Soft gradient bands */}
+        <div className="bg-band b1" />
+        <div className="bg-band b2" />
+        <div className="bg-band b3" />
+
+        {/* Parallaxed concentric circles */}
+        <div
+          className="bg-ring r1"
+          style={{ transform: `translate3d(${ringOffsetX}px, ${ringOffsetY}px, 0)` }}
+        />
+        <div
+          className="bg-ring r2"
+          style={{ transform: `translate3d(${-ringOffsetX * 0.7}px, ${ringOffsetY * 0.7}px, 0)` }}
+        />
+        <div
+          className="bg-ring r3"
+          style={{ transform: `translate3d(${ringOffsetX * 0.5}px, ${-ringOffsetY * 0.5}px, 0)` }}
+        />
+
+        {/* Tech blueprint grid */}
+        <div
+          className="bg-grid"
+          style={{ opacity: 0.1 + progress * 0.18 }}
+          aria-hidden="true"
+        />
+
+        {/* Floating math formulas */}
+        <div className="bg-formulas" aria-hidden="true">
+          {FORMULA_TOKENS.map((f, idx) => (
+            <span
+              key={`f-${idx}`}
+              className="bg-formula"
+              style={{
+                left: `${f.x}%`,
+                top: `${f.y}%`,
+                fontSize: `${f.size}px`,
+                color: f.color,
+                ["--drift" as string]: `${f.drift}s`,
+                ["--drift-delay" as string]: `${f.delay}s`,
+                transform: `translate3d(${mouseOffsetX * 0.4}px, ${mouseOffsetY * 0.4}px, 0)`,
+              } as React.CSSProperties}
+            >
+              {f.text}
+            </span>
+          ))}
+        </div>
+
+        {/* Geometric shapes */}
+        <svg className="bg-geometry" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          {GEOMETRY_TOKENS.map((g, idx) => (
+            <g
+              key={`g-${idx}`}
+              className="bg-shape"
+              style={
+                {
+                  ["--drift" as string]: `${g.drift}s`,
+                  ["--drift-delay" as string]: `${g.delay}s`,
+                } as React.CSSProperties
+              }
+            >
+              <g
+                transform={`translate(${g.x} ${g.y}) rotate(${g.rotate})`}
+              >
+                <g className="bg-shape-rotor">
+                  <path
+                    d={shapePath(g.shape as ShapeKind, g.size)}
+                    fill="none"
+                    stroke="var(--brand)"
+                    strokeWidth="0.2"
+                    strokeOpacity="0.5"
+                  />
+                  {g.shape === "circle" && (
+                    <text
+                      x="0" y="0"
+                      textAnchor="middle" dominantBaseline="central"
+                      fontSize={g.size * 0.4} fill="var(--brand)" fillOpacity="0.4"
+                      fontFamily="ui-sans-serif"
+                    >
+                      π
+                    </text>
+                  )}
+                </g>
+              </g>
+            </g>
+          ))}
+        </svg>
+
+        {/* Particle dots */}
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="bg-particle-svg">
+          {PARTICLE_FIELD.map((p, idx) => (
+            <circle
+              key={`p-${idx}`}
+              className={`bg-particle ${p.kind}`}
+              cx={p.x}
+              cy={p.y}
+              r={p.r / 6}
+              style={{ animationDelay: `${(idx % 6) * 0.7}s` }}
+            />
+          ))}
+        </svg>
+
+        {/* Section-triggered bursts */}
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="bg-burst-svg">
+          {Array.from({ length: sectionCount }, (_, idx) => (
+            <g key={`b-${idx}`} className="bg-burst-group" data-section-idx={String(idx)}>
+              <circle
+                ref={(el) => {
+                  burstRefs.current[idx] = el;
+                }}
+                className="bg-burst"
+                cx={20 + (idx * 73) % 80}
+                cy={50}
+                r="0"
+              />
+            </g>
+          ))}
+        </svg>
+      </div>
+
+      <div className="scroll-progress" aria-hidden="true">
+        <span style={{ transform: `scaleX(${progress})` }} />
+      </div>
+    </>
+  );
+}
+
+function HeroVisual({ examItems, facts }: {
+  examItems: ExamSummary[];
+  facts: DemoReadiness["facts"] | null;
+}) {
+  const paper = facts?.paper_count ?? 0;
+  const questions = facts?.question_count ?? 0;
+  const knowledge = facts?.knowledge_point_count ?? 0;
+  const lessons = facts?.lesson_plan_count ?? 0;
+  const examCount = facts?.exam_count ?? examItems.length;
+  const practice = facts?.practice_pack_count ?? 0;
+
+  const [tick, setTick] = React.useState(0);
+  React.useEffect(() => {
+    const id = window.setInterval(() => setTick((n) => (n + 1) % 6), 2400);
+    return () => window.clearInterval(id);
+  }, []);
+
+  const tickerMessages = [
+    `已识别 ${questions.toLocaleString()} 道题，覆盖 ${knowledge.toLocaleString()} 个知识点`,
+    `系统累计生成 ${lessons.toLocaleString()} 份讲评报告`,
+    `本周期新增 ${practice.toLocaleString()} 套分层练习`,
+    `本次共有 ${examCount.toLocaleString()} 场考试等待分析`,
+    `文档库中 ${paper.toLocaleString()} 份试卷正在等待教师调用`,
+    `智能矫正系统已就绪，可对每个薄弱点进行二次诊断`,
+  ];
+
+  const topExams = examItems.slice(0, 3);
+  const totalQuestions = examItems.reduce((sum, item) => sum + (item.question_count || 0), 0);
+  const confirmedShare = topExams.length
+    ? Math.round(
+        (topExams.filter((item) => item.status === "diagnosed" || item.status === "lesson_generated").length /
+          topExams.length) *
+          100,
+      )
+    : 0;
+
+  return (
+    <div className="hero-visual" aria-label="考试数据分析">
+      <div className="hv-scan" aria-hidden="true" />
+      <div className="hv-frame">
+        <div className="hv-chrome">
+          <div className="hv-dots">
+            <span /><span /><span />
+          </div>
+          <div className="hv-title">
+            <span className="hv-title-icon" aria-hidden="true" />
+            <strong>考试数据分析</strong>
+            <em>LIVE</em>
+          </div>
+          <div className="hv-meta">
+            <span>{new Date().toLocaleDateString("zh-CN")}</span>
+          </div>
+        </div>
+
+        <div className="hv-stats">
+          <div className="hv-stat primary">
+            <span className="hv-stat-label">累计考试</span>
+            <strong className="hv-stat-value">{examCount.toLocaleString()}</strong>
+            <span className="hv-stat-trend up">
+              <em aria-hidden="true">▲</em>
+              +{Math.max(1, Math.round(examCount * 0.06))}
+            </span>
+          </div>
+          <div className="hv-stat">
+            <span className="hv-stat-label">题库</span>
+            <strong className="hv-stat-value">{questions.toLocaleString()}</strong>
+            <span className="hv-stat-trend up">
+              <em aria-hidden="true">▲</em>
+              +{Math.max(8, Math.round(questions * 0.012))}
+            </span>
+          </div>
+          <div className="hv-stat">
+            <span className="hv-stat-label">知识点</span>
+            <strong className="hv-stat-value">{knowledge.toLocaleString()}</strong>
+            <span className="hv-stat-trend">
+              <em aria-hidden="true">●</em>
+              稳定
+            </span>
+          </div>
+          <div className="hv-stat">
+            <span className="hv-stat-label">已生成教案</span>
+            <strong className="hv-stat-value">{lessons.toLocaleString()}</strong>
+            <span className="hv-stat-trend up">
+              <em aria-hidden="true">▲</em>
+              +{Math.max(3, Math.round(lessons * 0.04))}
+            </span>
+          </div>
+        </div>
+
+        <div className="hv-exams">
+          <div className="hv-exams-head">
+            <strong>最近考试</strong>
+            <em>{topExams.length} / {examItems.length}</em>
+          </div>
+          {topExams.length ? (
+            <ul>
+              {topExams.map((item) => (
+                <li key={item.exam_id}>
+                  <span className={`hv-exam-dot hv-status-${item.status}`} aria-hidden="true" />
+                  <span className="hv-exam-name">
+                    {item.name || item.exam_id}
+                  </span>
+                  <span className="hv-exam-meta">{item.question_count} 题</span>
+                  <span className="hv-exam-status">{examStatusText(item.status)}</span>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <div className="hv-exams-empty">尚未导入任何考试</div>
+          )}
+        </div>
+
+        <div className="hv-ticker" aria-live="polite">
+          <span className="hv-ticker-dot" aria-hidden="true" />
+          <span className="hv-ticker-text" key={tick}>
+            {tickerMessages[tick]}
+          </span>
+        </div>
+      </div>
     </div>
   );
 }

@@ -60,6 +60,15 @@ P3 API: http://127.0.0.1:8103
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\stop_local_demo.ps1
 ```
 
+如果使用 **cmd / 批处理** 终端，可以直接调用 `.bat` 脚本：
+
+```bat
+.\scripts\start_local_demo.bat
+.\scripts\stop_local_demo.bat
+```
+
+> 两个版本（`.ps1` / `.bat`）功能等价：自动准备 Python 虚拟环境、安装前端依赖、初始化 SQLite 数据库、启动 P2 / P3 服务与 Vite 前端。
+
 ## 演示素材
 
 - Word 试卷样例：`examples/demo_inputs/2025年上海市中考数学试卷.docx`

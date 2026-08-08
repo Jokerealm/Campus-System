@@ -199,6 +199,14 @@ class P2SQLiteStore:
             )
         self.record_event("diagnostic_saved", "diagnostic", diagnostic_id, {"exam_id": diagnostic["exam_id"]})
 
+    def delete_exam(self, exam_id: str, *, file_ids: list[str] | None = None, diagnostic_ids: list[str] | None = None) -> None:
+        with self._connect() as conn:
+            conn.execute("DELETE FROM exams WHERE exam_id = ?", (exam_id,))
+            if file_ids:
+                placeholders = ",".join("?" for _ in file_ids)
+                conn.execute(f"DELETE FROM exam_files WHERE file_id IN ({placeholders})", tuple(file_ids))
+            conn.execute("DELETE FROM diagnostics WHERE exam_id = ?", (exam_id,))
+
     def record_event(self, event: str, resource_type: str, resource_id: str, payload: dict | None = None) -> None:
         with self._connect() as conn:
             conn.execute(
